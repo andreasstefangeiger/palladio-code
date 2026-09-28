@@ -1,0 +1,141 @@
+{
+  "drawing_id": "C1-B2-P19-ALMERICO-PLAN",
+  "algorithm": "deterministic_opencv_pilot",
+  "algorithm_version": "0.1.0",
+  "tolerance_percent": 4.0,
+  "source_image": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/data/derived/plate_pdf_92.png",
+  "source_pixel_dimensions": {
+    "width": 1574,
+    "height": 2370
+  },
+  "configured_roi_normalized": {
+    "x0": 0.035,
+    "y0": 0.02,
+    "x1": 0.965,
+    "y1": 0.58
+  },
+  "configured_roi_pixels": {
+    "x0": 55,
+    "y0": 47,
+    "x1": 1518,
+    "y1": 1374
+  },
+  "estimated_skew_degrees": -0.09999829515999181,
+  "detected_lines": {
+    "total": 339,
+    "horizontal": 161,
+    "vertical": 173,
+    "diagonal": 5
+  },
+  "measurements": [
+    {
+      "region_id": "C1-B2-P19-ALMERICO-PLAN-roi-main",
+      "measurement_method": "ink_component_extent",
+      "reference_line": "outer extent of retained connected ink components",
+      "quantity": "width_height_ratio",
+      "raw_value": 1.0844306738962044,
+      "measured_ratio": 1.0844306738962044,
+      "endpoints": {
+        "x": 14,
+        "y": 36,
+        "width": 1400,
+        "height": 1291
+      },
+      "ratio_hypotheses": [
+        {
+          "label": "1:1",
+          "target": 1.0,
+          "origin": "Palladio I.21",
+          "deviation_percent": 8.44306738962044
+        },
+        {
+          "label": "6:5",
+          "target": 1.2,
+          "origin": "exploratory",
+          "deviation_percent": 9.630777175316297
+        },
+        {
+          "label": "5:4",
+          "target": 1.25,
+          "origin": "exploratory",
+          "deviation_percent": 13.245546088303648
+        },
+        {
+          "label": "4:3",
+          "target": 1.3333333333333333,
+          "origin": "Palladio I.21",
+          "deviation_percent": 18.667699457784664
+        }
+      ],
+      "confidence": 0.45,
+      "human_review_required": true,
+      "notes": "Page furniture and labels may influence this extent; it is not an architectural clear dimension."
+    },
+    {
+      "region_id": "C1-B2-P19-ALMERICO-PLAN-roi-main",
+      "measurement_method": "dominant_line_median",
+      "reference_line": "median of 12 longest near-horizontal versus near-vertical segments",
+      "quantity": "line_span_ratio",
+      "raw_value": 1.1022858339628192,
+      "measured_ratio": 1.1022858339628192,
+      "endpoints": {
+        "horizontal_median_px": 291.00346016618425,
+        "vertical_median_px": 264.0
+      },
+      "ratio_hypotheses": [
+        {
+          "label": "6:5",
+          "target": 1.2,
+          "origin": "exploratory",
+          "deviation_percent": 8.142847169765064
+        },
+        {
+          "label": "1:1",
+          "target": 1.0,
+          "origin": "Palladio I.21",
+          "deviation_percent": 10.22858339628192
+        },
+        {
+          "label": "5:4",
+          "target": 1.25,
+          "origin": "exploratory",
+          "deviation_percent": 11.817133282974464
+        },
+        {
+          "label": "4:3",
+          "target": 1.3333333333333333,
+          "origin": "Palladio I.21",
+          "deviation_percent": 17.328562452788553
+        }
+      ],
+      "confidence": 0.35,
+      "human_review_required": true,
+      "notes": "Exploratory segmentation statistic, not yet a room or bay measurement."
+    },
+    {
+      "region_id": "C1-B2-P19-ALMERICO-PLAN-roi-main",
+      "measurement_method": "binary_reflection_overlap",
+      "reference_line": "geometric centre, vertical reflection axis",
+      "quantity": "vertical_symmetry_iou",
+      "raw_value": 0.2912330627441406,
+      "confidence": 0.55,
+      "human_review_required": true,
+      "notes": "Sensitive to labels, stains, cropping and line loss; useful for comparison, not attribution."
+    },
+    {
+      "region_id": "C1-B2-P19-ALMERICO-PLAN-roi-main",
+      "measurement_method": "binary_reflection_overlap",
+      "reference_line": "geometric centre, horizontal reflection axis",
+      "quantity": "horizontal_symmetry_iou",
+      "raw_value": 0.15118595957756042,
+      "confidence": 0.55,
+      "human_review_required": true,
+      "notes": "Sensitive to labels, stains, cropping and line loss; useful for comparison, not attribution."
+    }
+  ],
+  "artifacts": {
+    "overlay": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/output/analysis/C1-B2-P19-ALMERICO-PLAN_overlay.png",
+    "binary_roi": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/output/analysis/C1-B2-P19-ALMERICO-PLAN_binary.png"
+  },
+  "interpretive_status": "measurement_only_no_c1_rule_claimed"
+}

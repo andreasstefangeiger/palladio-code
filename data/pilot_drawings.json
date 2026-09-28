@@ -1,0 +1,45 @@
+[
+  {
+    "drawing_id": "C1-B2-P19-ALMERICO-PLAN",
+    "source_work": "I quattro libri dell'architettura (Venetia 1570)",
+    "book": 2,
+    "chapter": "III",
+    "printed_page": "19",
+    "pdf_page": 92,
+    "drawing_type": "ground_plan",
+    "building_name": "Casa suburbana di Paolo Almerico (später Villa Capra/Rotonda)",
+    "image_path": "data/derived/plate_pdf_92.png",
+    "roi": {"x0": 0.035, "y0": 0.02, "x1": 0.965, "y1": 0.58},
+    "selection_reason": "Zentralbau mit Kreis, vier Portiken, bilateraler Raumsymmetrie und eingetragenen Maßen; geeignet für Achsen-, Kreis- und Raumproportionsanalyse.",
+    "attribution_status": "published_by_palladio_1570"
+  },
+  {
+    "drawing_id": "C1-B2-P17-PALAZZO-ELEV",
+    "source_work": "I quattro libri dell'architettura (Venetia 1570)",
+    "book": 2,
+    "chapter": "III",
+    "printed_page": "17",
+    "pdf_page": 90,
+    "drawing_type": "elevation",
+    "building_name": "Palazzo Valmarana, halbe Fassade",
+    "image_path": "data/derived/plate_pdf_90.png",
+    "roi": {"x0": 0.035, "y0": 0.035, "x1": 0.965, "y1": 0.965},
+    "selection_reason": "Explizit als halbe Fassade publiziert; prüft Fassadenachsen, Geschossteilung, Öffnungsrhythmus und die Gefahr falscher Symmetrieannahmen.",
+    "attribution_status": "published_by_palladio_1570"
+  },
+  {
+    "drawing_id": "C1-B1-P43-CORINTHIAN-DETAIL",
+    "source_work": "I quattro libri dell'architettura (Venetia 1570)",
+    "book": 1,
+    "chapter": "XVII",
+    "printed_page": "43",
+    "pdf_page": 48,
+    "drawing_type": "architectural_order_detail",
+    "building_name": "Korinthisches Kapitell und Gebälk",
+    "image_path": "data/derived/plate_pdf_48.png",
+    "roi": {"x0": 0.035, "y0": 0.035, "x1": 0.965, "y1": 0.965},
+    "selection_reason": "Dichte Maßketten, Kurven, Ornament und orthogonale Linien testen die Grenzen klassischer Linien- und Segmenterkennung.",
+    "attribution_status": "published_by_palladio_1570"
+  }
+]
+

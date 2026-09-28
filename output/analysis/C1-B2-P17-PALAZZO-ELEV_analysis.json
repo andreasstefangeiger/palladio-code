@@ -1,0 +1,141 @@
+{
+  "drawing_id": "C1-B2-P17-PALAZZO-ELEV",
+  "algorithm": "deterministic_opencv_pilot",
+  "algorithm_version": "0.1.0",
+  "tolerance_percent": 4.0,
+  "source_image": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/data/derived/plate_pdf_90.png",
+  "source_pixel_dimensions": {
+    "width": 1574,
+    "height": 2370
+  },
+  "configured_roi_normalized": {
+    "x0": 0.035,
+    "y0": 0.035,
+    "x1": 0.965,
+    "y1": 0.965
+  },
+  "configured_roi_pixels": {
+    "x0": 55,
+    "y0": 82,
+    "x1": 1518,
+    "y1": 2287
+  },
+  "estimated_skew_degrees": 2.5044781608585254e-06,
+  "detected_lines": {
+    "total": 227,
+    "horizontal": 101,
+    "vertical": 113,
+    "diagonal": 13
+  },
+  "measurements": [
+    {
+      "region_id": "C1-B2-P17-PALAZZO-ELEV-roi-main",
+      "measurement_method": "ink_component_extent",
+      "reference_line": "outer extent of retained connected ink components",
+      "quantity": "width_height_ratio",
+      "raw_value": 1.5696750902527077,
+      "measured_ratio": 1.5696750902527077,
+      "endpoints": {
+        "x": 0,
+        "y": 10,
+        "width": 1385,
+        "height": 2174
+      },
+      "ratio_hypotheses": [
+        {
+          "label": "3:2",
+          "target": 1.5,
+          "origin": "Palladio I.21",
+          "deviation_percent": 4.645006016847178
+        },
+        {
+          "label": "5:3",
+          "target": 1.6666666666666667,
+          "origin": "Palladio I.21",
+          "deviation_percent": 5.8194945848375434
+        },
+        {
+          "label": "sqrt(2):1",
+          "target": 1.4142135623730951,
+          "origin": "Palladio I.21",
+          "deviation_percent": 10.992790057729552
+        },
+        {
+          "label": "4:3",
+          "target": 1.3333333333333333,
+          "origin": "Palladio I.21",
+          "deviation_percent": 17.725631768953082
+        }
+      ],
+      "confidence": 0.45,
+      "human_review_required": true,
+      "notes": "Page furniture and labels may influence this extent; it is not an architectural clear dimension."
+    },
+    {
+      "region_id": "C1-B2-P17-PALAZZO-ELEV-roi-main",
+      "measurement_method": "dominant_line_median",
+      "reference_line": "median of 12 longest near-horizontal versus near-vertical segments",
+      "quantity": "line_span_ratio",
+      "raw_value": 1.061694151264342,
+      "measured_ratio": 1.061694151264342,
+      "endpoints": {
+        "horizontal_median_px": 211.0,
+        "vertical_median_px": 224.0174659167762
+      },
+      "ratio_hypotheses": [
+        {
+          "label": "1:1",
+          "target": 1.0,
+          "origin": "Palladio I.21",
+          "deviation_percent": 6.169415126434208
+        },
+        {
+          "label": "6:5",
+          "target": 1.2,
+          "origin": "exploratory",
+          "deviation_percent": 11.525487394638157
+        },
+        {
+          "label": "5:4",
+          "target": 1.25,
+          "origin": "exploratory",
+          "deviation_percent": 15.064467898852635
+        },
+        {
+          "label": "4:3",
+          "target": 1.3333333333333333,
+          "origin": "Palladio I.21",
+          "deviation_percent": 20.372938655174337
+        }
+      ],
+      "confidence": 0.35,
+      "human_review_required": true,
+      "notes": "Exploratory segmentation statistic, not yet a room or bay measurement."
+    },
+    {
+      "region_id": "C1-B2-P17-PALAZZO-ELEV-roi-main",
+      "measurement_method": "binary_reflection_overlap",
+      "reference_line": "geometric centre, vertical reflection axis",
+      "quantity": "vertical_symmetry_iou",
+      "raw_value": 0.11278697848320007,
+      "confidence": 0.55,
+      "human_review_required": true,
+      "notes": "Sensitive to labels, stains, cropping and line loss; useful for comparison, not attribution."
+    },
+    {
+      "region_id": "C1-B2-P17-PALAZZO-ELEV-roi-main",
+      "measurement_method": "binary_reflection_overlap",
+      "reference_line": "geometric centre, horizontal reflection axis",
+      "quantity": "horizontal_symmetry_iou",
+      "raw_value": 0.10399340838193893,
+      "confidence": 0.55,
+      "human_review_required": true,
+      "notes": "Sensitive to labels, stains, cropping and line loss; useful for comparison, not attribution."
+    }
+  ],
+  "artifacts": {
+    "overlay": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/output/analysis/C1-B2-P17-PALAZZO-ELEV_overlay.png",
+    "binary_roi": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/output/analysis/C1-B2-P17-PALAZZO-ELEV_binary.png"
+  },
+  "interpretive_status": "measurement_only_no_c1_rule_claimed"
+}

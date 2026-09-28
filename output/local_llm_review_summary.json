@@ -1,0 +1,16 @@
+{
+  "model": "gemma4:12b",
+  "reviewed": 704,
+  "source_candidates": 704,
+  "complete": true,
+  "remaining": 0,
+  "labels": {
+    "descriptive": 270,
+    "probable_rule": 226,
+    "measurement_statement": 194,
+    "ocr_noise": 14
+  },
+  "mean_confidence": 0.879,
+  "status": "local_model_triage_unverified",
+  "credits_used": 0
+}

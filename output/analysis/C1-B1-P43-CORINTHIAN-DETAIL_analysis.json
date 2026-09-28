@@ -1,0 +1,141 @@
+{
+  "drawing_id": "C1-B1-P43-CORINTHIAN-DETAIL",
+  "algorithm": "deterministic_opencv_pilot",
+  "algorithm_version": "0.1.0",
+  "tolerance_percent": 4.0,
+  "source_image": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/data/derived/plate_pdf_48.png",
+  "source_pixel_dimensions": {
+    "width": 1572,
+    "height": 2369
+  },
+  "configured_roi_normalized": {
+    "x0": 0.035,
+    "y0": 0.035,
+    "x1": 0.965,
+    "y1": 0.965
+  },
+  "configured_roi_pixels": {
+    "x0": 55,
+    "y0": 82,
+    "x1": 1516,
+    "y1": 2286
+  },
+  "estimated_skew_degrees": 0.0,
+  "detected_lines": {
+    "total": 105,
+    "horizontal": 64,
+    "vertical": 38,
+    "diagonal": 3
+  },
+  "measurements": [
+    {
+      "region_id": "C1-B1-P43-CORINTHIAN-DETAIL-roi-main",
+      "measurement_method": "ink_component_extent",
+      "reference_line": "outer extent of retained connected ink components",
+      "quantity": "width_height_ratio",
+      "raw_value": 1.5501432664756447,
+      "measured_ratio": 1.5501432664756447,
+      "endpoints": {
+        "x": 0,
+        "y": 0,
+        "width": 1396,
+        "height": 2164
+      },
+      "ratio_hypotheses": [
+        {
+          "label": "3:2",
+          "target": 1.5,
+          "origin": "Palladio I.21",
+          "deviation_percent": 3.3428844317096473
+        },
+        {
+          "label": "5:3",
+          "target": 1.6666666666666667,
+          "origin": "Palladio I.21",
+          "deviation_percent": 6.991404011461322
+        },
+        {
+          "label": "sqrt(2):1",
+          "target": 1.4142135623730951,
+          "origin": "Palladio I.21",
+          "deviation_percent": 9.611681553559366
+        },
+        {
+          "label": "4:3",
+          "target": 1.3333333333333333,
+          "origin": "Palladio I.21",
+          "deviation_percent": 16.26074498567336
+        }
+      ],
+      "confidence": 0.45,
+      "human_review_required": true,
+      "notes": "Page furniture and labels may influence this extent; it is not an architectural clear dimension."
+    },
+    {
+      "region_id": "C1-B1-P43-CORINTHIAN-DETAIL-roi-main",
+      "measurement_method": "dominant_line_median",
+      "reference_line": "median of 12 longest near-horizontal versus near-vertical segments",
+      "quantity": "line_span_ratio",
+      "raw_value": 1.0830670926517572,
+      "measured_ratio": 1.0830670926517572,
+      "endpoints": {
+        "horizontal_median_px": 169.5,
+        "vertical_median_px": 156.5
+      },
+      "ratio_hypotheses": [
+        {
+          "label": "1:1",
+          "target": 1.0,
+          "origin": "Palladio I.21",
+          "deviation_percent": 8.306709265175716
+        },
+        {
+          "label": "6:5",
+          "target": 1.2,
+          "origin": "exploratory",
+          "deviation_percent": 9.7444089456869
+        },
+        {
+          "label": "5:4",
+          "target": 1.25,
+          "origin": "exploratory",
+          "deviation_percent": 13.354632587859427
+        },
+        {
+          "label": "4:3",
+          "target": 1.3333333333333333,
+          "origin": "Palladio I.21",
+          "deviation_percent": 18.76996805111821
+        }
+      ],
+      "confidence": 0.35,
+      "human_review_required": true,
+      "notes": "Exploratory segmentation statistic, not yet a room or bay measurement."
+    },
+    {
+      "region_id": "C1-B1-P43-CORINTHIAN-DETAIL-roi-main",
+      "measurement_method": "binary_reflection_overlap",
+      "reference_line": "geometric centre, vertical reflection axis",
+      "quantity": "vertical_symmetry_iou",
+      "raw_value": 0.09294646233320236,
+      "confidence": 0.55,
+      "human_review_required": true,
+      "notes": "Sensitive to labels, stains, cropping and line loss; useful for comparison, not attribution."
+    },
+    {
+      "region_id": "C1-B1-P43-CORINTHIAN-DETAIL-roi-main",
+      "measurement_method": "binary_reflection_overlap",
+      "reference_line": "geometric centre, horizontal reflection axis",
+      "quantity": "horizontal_symmetry_iou",
+      "raw_value": 0.06157609075307846,
+      "confidence": 0.55,
+      "human_review_required": true,
+      "notes": "Sensitive to labels, stains, cropping and line loss; useful for comparison, not attribution."
+    }
+  ],
+  "artifacts": {
+    "overlay": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/output/analysis/C1-B1-P43-CORINTHIAN-DETAIL_overlay.png",
+    "binary_roi": "/Users/andreasstefangeiger/Documents/Promotion/palladio-code-pilot/output/analysis/C1-B1-P43-CORINTHIAN-DETAIL_binary.png"
+  },
+  "interpretive_status": "measurement_only_no_c1_rule_claimed"
+}

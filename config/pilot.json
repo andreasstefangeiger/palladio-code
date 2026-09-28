@@ -1,0 +1,22 @@
+{
+  "tolerance_percent": 4.0,
+  "alto_path": "data/source/erara_ocr_alto.xml",
+  "pdf_path": "data/source/palladio_quattro_libri_1570_erara_full.pdf",
+  "drawings": [
+    {
+      "drawing_id": "C1-B2-P19-ALMERICO-PLAN",
+      "image_path": "data/derived/plate_pdf_92.png",
+      "roi": {"x0": 0.035, "y0": 0.02, "x1": 0.965, "y1": 0.58}
+    },
+    {
+      "drawing_id": "C1-B2-P17-PALAZZO-ELEV",
+      "image_path": "data/derived/plate_pdf_90.png",
+      "roi": {"x0": 0.035, "y0": 0.035, "x1": 0.965, "y1": 0.965}
+    },
+    {
+      "drawing_id": "C1-B1-P43-CORINTHIAN-DETAIL",
+      "image_path": "data/derived/plate_pdf_48.png",
+      "roi": {"x0": 0.035, "y0": 0.035, "x1": 0.965, "y1": 0.965}
+    }
+  ]
+}

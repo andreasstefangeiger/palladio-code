@@ -1,0 +1,18 @@
+{
+  "tree_id": "PRIVATE-HOUSE-PILOT-001",
+  "status": "partial_pilot_not_complete_design_algorithm",
+  "start": "N001",
+  "nodes": [
+    {"node_id":"N001","question_de":"Wird ein privates Haus entworfen?","on_yes":"N010","on_no":null,"rule_refs":[]},
+    {"node_id":"N010","action_de":"Zentralen Verteilerraum und Lage von Eingang/Sala bestimmen.","next":"N020","rule_refs":["A-ORG-CEN-001"]},
+    {"node_id":"N020","action_de":"Räume beidseits korrespondierend und gleich ordnen.","next":"N030","rule_refs":["A-ORG-SYM-001"]},
+    {"node_id":"N030","question_de":"Welche der sieben zugelassenen Raumformen passt zu Zweck und Gesamtanlage?","options":["circle","1:1","sqrt(2):1","4:3","3:2","5:3","2:1"],"next":"N040","rule_refs":["A-PROP-ROOM-001"]},
+    {"node_id":"N040","question_de":"Flache Decke oder Gewölbe?","on_flat":"N041","on_vault":"N042","rule_refs":[]},
+    {"node_id":"N041","action_de":"Raumhöhe gleich Raumbreite setzen.","next":"N050","rule_refs":["A-HT-ROOM-001"]},
+    {"node_id":"N042","action_de":"Für quadratische Räume 4:3; sonst arithmetisches, geometrisches oder harmonisches Mittel so wählen, dass die Raumserie koordiniert bleibt.","next":"N050","rule_refs":["A-HT-VAULT-001","A-HT-VAULT-002","A-HT-VAULT-003","A-HT-VAULT-004","A-HT-VAULT-005"]},
+    {"node_id":"N050","action_de":"Fensterbreite auf 1/5 bis 1/4 der Raumbreite und Höhe auf 13/6 der Fensterbreite dimensionieren.","next":"N060","rule_refs":["A-DIM-WIN-001","A-DIM-WIN-002"]},
+    {"node_id":"N060","action_de":"Öffnungen seitlich korrespondierend und geschossweise übereinander ausrichten; Fenster von Ecken abrücken.","next":"END-PILOT","rule_refs":["A-ORG-OPEN-001","A-LOC-WIN-001"]},
+    {"node_id":"END-PILOT","action_de":"Pilotpfad endet; Konstruktion, Material, Ordnung, Detail und Ausführung sind noch aus weiteren Kapiteln anzuschließen.","rule_refs":[]}
+  ]
+}
+

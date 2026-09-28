@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Reproducible large source scans; provenance and checksums remain tracked.
+data/source/*.pdf
+
+# Reproducible raster derivatives; JSON analyses remain tracked.
+data/derived/*.png
+output/analysis/*.png
+output/qc/
+
+# Temporary files
+*.tmp
+*.log
+

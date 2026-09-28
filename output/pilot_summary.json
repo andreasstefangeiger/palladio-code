@@ -1,0 +1,63 @@
+{
+  "rules": 24,
+  "a_rules": 20,
+  "b_rules": 4,
+  "drawings": 3,
+  "measurements": 12,
+  "ratio_hypotheses": 24,
+  "chapter_candidates": 68,
+  "full_corpus": {
+    "pages_processed": 338,
+    "pages_by_book": {
+      "1": 64,
+      "2": 80,
+      "3": 48,
+      "4": 137
+    },
+    "paratext_pages_unassigned_to_book": 9,
+    "automatic_rule_candidates": 704,
+    "rule_candidates_by_book": {
+      "1": 264,
+      "2": 137,
+      "3": 140,
+      "4": 163
+    },
+    "rule_candidates_by_category": {
+      "column_order": 143,
+      "other": 135,
+      "room_proportion": 88,
+      "temple": 72,
+      "vertical_dimension": 64,
+      "construction": 61,
+      "opening": 48,
+      "urban_public": 25,
+      "material": 20,
+      "site_orientation": 18,
+      "circulation": 18,
+      "roof": 12
+    },
+    "marker_counts": {
+      "measurement_statement": 265,
+      "purpose": 235,
+      "obligation": 180,
+      "condition": 116,
+      "recommendation": 9,
+      "prohibition": 9
+    },
+    "drawing_candidate_pages": 177,
+    "drawing_candidates_by_book": {
+      "1": 30,
+      "2": 36,
+      "3": 16,
+      "4": 95
+    },
+    "ratio_candidates": 213,
+    "derived_indices": [
+      "automatic_review_queue.csv",
+      "topic_index.json",
+      "design_phase_index.json",
+      "automatic_ratio_candidates.json"
+    ],
+    "status": "automatic_full_corpus_pass_complete_editorial_review_pending"
+  }
+}

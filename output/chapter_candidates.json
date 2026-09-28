@@ -1,0 +1,546 @@
+[
+  {
+    "physical_image_number": 10,
+    "pdf_page": 11,
+    "alto_page_id": "p103261",
+    "roman_candidate": "I",
+    "heading_context_ocr": "auanti che al fabricar fi peruenga . E PREPARARSI Cap . I . ? r fi b",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 11,
+    "pdf_page": 12,
+    "alto_page_id": "p103262",
+    "roman_candidate": "II",
+    "heading_context_ocr": "fp ' i ' hr i DE I LEGNAMI Cap . II . LEGNAMI ( come ha Vitruuio al cap . ix . del ij . lib . ) fi deono tagliare l ’ Autun",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 14,
+    "pdf_page": 15,
+    "alto_page_id": "p103265",
+    "roman_candidate": "VII",
+    "heading_context_ocr": "menti : da ' quali la preparata materia lì comincia à mettere in opera . DELLE QVALITA DEL TERRENO , OVE S ’ HANNO DA poner le fondamenta . Cap . VII . E FONDAMENTA propriamente lì dicono labafe della fabrica,cioè quella",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 18,
+    "pdf_page": 19,
+    "alto_page_id": "p103269",
+    "roman_candidate": "X",
+    "heading_context_ocr": "fpecialmente eh e riuolta à Tramontana « DEL MODO CHE TENEVANO GLI ANTICHI NEL FAR gli edificij di pietra . Cap . X . E R C H E alcuna Volta occorre che là fabrica tutta , ò buona parte fi faccia di mar",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 19,
+    "pdf_page": 20,
+    "alto_page_id": "p103270",
+    "roman_candidate": "XII",
+    "heading_context_ocr": "PRIMO . DE * CINQUE ORDINI , CHE VSARON . O gli Antichi . Cap . XII IN QV E fono gli ordini de ’ quali 1 gli Antichi fi feriro",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 19,
+    "pdf_page": 20,
+    "alto_page_id": "p103270",
+    "roman_candidate": "XIII",
+    "heading_context_ocr": "ma dirò quelle cofe,che in vniuerfale à tutti fi conuengono . DELLA GONFIEZZA , E DIMINVTIONE DELLE ' Colonne,degliIntercolunnij,ede ’ Pilallri . Cap . XIII . E COLONNE di ciafcun ’ ordine fi deono formare in",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 32,
+    "pdf_page": 33,
+    "alto_page_id": "p103283",
+    "roman_candidate": "XVI",
+    "heading_context_ocr": "LIBRO aS DELL ’ ORDINE IONICO . Cap . XVI . ' ORDINE Ionico hebbe origine nella Ionia Prouincia dell ' Alia , e di quell ' or",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 41,
+    "pdf_page": 42,
+    "alto_page_id": "p103292",
+    "roman_candidate": "XVII",
+    "heading_context_ocr": "31 DELL ’ ORDINE CORINTHIO . Cap . XVII . N CORINTHO nobilifsima città del Peloponnefo fu prima ritrouato l ’ ordi",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 48,
+    "pdf_page": 49,
+    "alto_page_id": "p103299",
+    "roman_candidate": "XVIII",
+    "heading_context_ocr": "44 LIBRO DELL ’ ORDINE COMPOSITO . Cap . XVIII . ' ORDINE Compofito , il quale vienancho detto Latino , perche fu inuentionc",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 55,
+    "pdf_page": 56,
+    "alto_page_id": "p103306",
+    "roman_candidate": "XIX",
+    "heading_context_ocr": "£ DE I PI ED EST ILI . Cap . XIX , IN QVI ho detto , quanto m ’ è parlo bifogneuole de ’ muri femplici , e de i loro",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 56,
+    "pdf_page": 57,
+    "alto_page_id": "p103307",
+    "roman_candidate": "XXI",
+    "heading_context_ocr": "ri,e principali delle fabriche . DELLE LOGGIE , DELL ’ ENTRATE , DELLE SALE , , e delle lfanze : & della forma loro . Cap . XXI . 1 T SOGLIONO farleloggieperlopiùnellafacciadauanti, & inquelladidietro",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 57,
+    "pdf_page": 58,
+    "alto_page_id": "p103308",
+    "roman_candidate": "XXII",
+    "heading_context_ocr": "P R I r M O . DE * PAVIMENTI , E DE ’ SOFFITTATI . Cap . XXII . . AV E N D 0 veduto le forme delle Loggie,delle Sale,e delle Stanze ; è conuenien",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 57,
+    "pdf_page": 58,
+    "alto_page_id": "p103308",
+    "roman_candidate": "XXIII",
+    "heading_context_ocr": "sii f DELL ’ ALTEZZA DELLE STANZE . Cap . XXIII . E STANZE lì fanno ò in uolto,ò in folaro . S e in folaro ; l ’ altezza dal pauimen -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 58,
+    "pdf_page": 59,
+    "alto_page_id": "p103309",
+    "roman_candidate": "XXIIII",
+    "heading_context_ocr": "6 54 DELLE MANIERE DE ’ VOLTI . Cap . XXIIII . EI fono le maniere de ’ volti cioè à crociera,à falcia , à remenato ( che coli chiamano i",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 59,
+    "pdf_page": 60,
+    "alto_page_id": "p103310",
+    "roman_candidate": "XXV",
+    "heading_context_ocr": "55 DELLE MISVRE DELLE PORTE , E DELLE ' fineftre . Cap . XXV . O N fi può dare certa,e determinata regola circa le altezze,e larghezze d elle porte",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 64,
+    "pdf_page": 65,
+    "alto_page_id": "p103315",
+    "roman_candidate": "XXVII",
+    "heading_context_ocr": "L I B R O DE ’ CAMINI . Cap . XXVII . te",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 64,
+    "pdf_page": 65,
+    "alto_page_id": "p103315",
+    "roman_candidate": "XXVIII",
+    "heading_context_ocr": "per le ragioni già dette . DELLE SCALE , E VARIE MANIERE DI QUELLE , e del numero , e grandezza de ’ gradi . Cap . XXVIII . I DEVE molto auertire nel poner delle Scale . - perche è non picciola difficultà à",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 71,
+    "pdf_page": 72,
+    "alto_page_id": "p103322",
+    "roman_candidate": "XXIX",
+    "heading_context_ocr": "* 7 DE I COPERTI . Cap . XXIX . SSENDOSI tirati i muri alla fommità loro,e fatti i uolti , ineffe le trauamenta de",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 96,
+    "pdf_page": 97,
+    "alto_page_id": "p103347",
+    "roman_candidate": "IIII",
+    "heading_context_ocr": "DELL ’ ATRIO TOSCANO . Cap . IIII . A P OI c ’ ho polle alcune di quelle fabriche,ch ’ io ho ordinate nelle Città ; è molto",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 99,
+    "pdf_page": 100,
+    "alto_page_id": "p103350",
+    "roman_candidate": "V",
+    "heading_context_ocr": "SECONDO . * 7 DELL ’ ATRIO DI QVATTRO COLONNE . Cap . V . L DISEGNO che feguc ; ha l ’ Atrio di quattro colonne : ilquale è largo delle",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 101,
+    "pdf_page": 102,
+    "alto_page_id": "p103352",
+    "roman_candidate": "VI",
+    "heading_context_ocr": "DELL ' ATRIO CORINTHIO . Cap . VI . A SEGVENTE fabricaèdelConuentodellaCarità : douelonoCanoniciRe -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 105,
+    "pdf_page": 106,
+    "alto_page_id": "p103356",
+    "roman_candidate": "VII",
+    "heading_context_ocr": "33 DELL ’ ATRIO TEST VGGIN ATO , E DELLA CASA PRIVATA degli Antichi Romani . Cap . VII . L T R A le { òpradette maniere d ’ Atrij vn ’ altra apprdfo gli Antichi fu molto in vlò ,",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 108,
+    "pdf_page": 109,
+    "alto_page_id": "p103359",
+    "roman_candidate": "VILI",
+    "heading_context_ocr": "DELLE SALE DI QVATTRO COLONNE . Cap . Vili . I - SEGVENTE difegno è delle Sale , che fi diceuano Tetraftili > per -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 110,
+    "pdf_page": 111,
+    "alto_page_id": "p103361",
+    "roman_candidate": "IX",
+    "heading_context_ocr": "DELLE SALE CORINTHIE . Cap . IX . E SALE Corinthie fi faceuano in due modi , cioè ò con le colonne che nalceua -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 113,
+    "pdf_page": 114,
+    "alto_page_id": "p103364",
+    "roman_candidate": "X",
+    "heading_context_ocr": "SECONDO . 41 DELLE SALE EGITTIE . Cap . X . L DISEGNO chefegueè delle Sale Egittie : Ie quali erano molto limili alle",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 115,
+    "pdf_page": 116,
+    "alto_page_id": "p103366",
+    "roman_candidate": "XI",
+    "heading_context_ocr": "S E C a N D o . 4 3 DELLE CASE PRIVATE DE ’ GRECI . Cap . XI . GRECI tennero diuerlo modo di fabricare da i Latini : percioche ( come dice",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 117,
+    "pdf_page": 118,
+    "alto_page_id": "p103368",
+    "roman_candidate": "XII",
+    "heading_context_ocr": "45 DEL SITO DA ELEGGERSI PER LE FABRICHE di Villa . Cap . XII . E CASE della Città fono neramente al Gentil ' huomo di molto Iplendorc , e",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 141,
+    "pdf_page": 142,
+    "alto_page_id": "p103392",
+    "roman_candidate": "XVI",
+    "heading_context_ocr": "SECONDO . 6 $ DELLA CASA DI VILLA DE GLI ANTICHI . Cap . XVI . O FIN QVI porto i difegni di molte fabriche di Villa da me ordinate : refta",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 143,
+    "pdf_page": 144,
+    "alto_page_id": "p103394",
+    "roman_candidate": "XVII",
+    "heading_context_ocr": "SECONDO . 71 DI ALCVNE IN VENTIONI SECONDO DIVERSI SITI . Cap . XVII . IA INTENTIONE era parlar dolo di quelle fabriche , le quali ouero follerò",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 163,
+    "pdf_page": 164,
+    "alto_page_id": "p103414",
+    "roman_candidate": "IIII",
+    "heading_context_ocr": "zi D I Q _ V ELLO , CHE NEL F A B R I CARE I PONTI fi deueolferuare , e delfito che fi deue eleggere . Cap . IIII . ONCIOSIACHE molti fiumi per la loro larghezza , altezza , & uclocità",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 164,
+    "pdf_page": 165,
+    "alto_page_id": "p103415",
+    "roman_candidate": "VI",
+    "heading_context_ocr": "far opera degna di effer lodata . DEL PONTE ORDINATO DA CESARE fopra il Rheno . Cap . VI . AVENDO Iulio Cefare ( come egli dice nel quarto Libro de ’ fuo Commen",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 167,
+    "pdf_page": 168,
+    "alto_page_id": "p103418",
+    "roman_candidate": "VII",
+    "heading_context_ocr": "T E R Z * 5 DEL PONTE DEL CISMONE . Cap . VII , L Citinone è un fiume , ilquale ( tendendo dai Monti,che diuidono la Italia",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 171,
+    "pdf_page": 172,
+    "alto_page_id": "p103422",
+    "roman_candidate": "IX",
+    "heading_context_ocr": "T E R Z O . * 9 DEL PONTE DI BASSANO . Cap . IX . R E S S O à Badano terra pofta alle radici dell ’ Alpi,che feparano la Italia dalla",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 172,
+    "pdf_page": 173,
+    "alto_page_id": "p103423",
+    "roman_candidate": "X",
+    "heading_context_ocr": "^ ìéo li m PE I PONTI DI PIETRA , E DI QJV ELLO chenelTedificarlifideueofferuare . Cap . X . ECERO prima gli huominii ponti di legno , come quelli , che alla lor pre -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 177,
+    "pdf_page": 178,
+    "alto_page_id": "p103428",
+    "roman_candidate": "XIII",
+    "heading_context_ocr": "inuentione , DI PIETRA DI MIA Cap . XIII . * ELLISSIMA à mio giudicio è la inuentione del Ponte , che fegue ; e mol",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 182,
+    "pdf_page": 183,
+    "alto_page_id": "p103433",
+    "roman_candidate": "XV",
+    "heading_context_ocr": "LIBRO DHL PONTE DI VICENZA , CH ’ E fopra il Rcrone . Cap . XV . ' ALTRO Ponte Antico , che , come ho detto , è in Vicenza Copra il Re -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 183,
+    "pdf_page": 184,
+    "alto_page_id": "p103434",
+    "roman_candidate": "XVI",
+    "heading_context_ocr": "3 * DELLE PIAZZE , E DE GLI EDIFICI I , che intorno à quelle fi fanno . Cap . XVI , L T R A le ftrade , delle quali è fiato detto di ( òpra , fa di meftieri che nel",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 187,
+    "pdf_page": 188,
+    "alto_page_id": "p103438",
+    "roman_candidate": "XVIII",
+    "heading_context_ocr": "TERZO . SS DELLE PIAZZE DE * LATINI . Cap . XVIII . ROMANI , & gli Italiani ( come dice Vitruuio al luogo lòpradetto ) parten",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 190,
+    "pdf_page": 191,
+    "alto_page_id": "p103441",
+    "roman_candidate": "XIX",
+    "heading_context_ocr": "58 LIBRO DELLE BASILICHE ANTICHE . Cap . XIX . I chiamauano anticamente Bafiliche quei luoghi , ne ’ quali flauano i Giudici",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 193,
+    "pdf_page": 194,
+    "alto_page_id": "p103444",
+    "roman_candidate": "XX",
+    "heading_context_ocr": "T E R Z O . 41 DELLE BASILICHE DE ' NOSTRI TEMPI , e de difegni di quella di Vicenza . Cap . XX . l come gli Antichi fecero le lor Baliliehe,acciò che ’ l derno , eia ftate gl ’ huomi",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 206,
+    "pdf_page": 207,
+    "alto_page_id": "p103457",
+    "roman_candidate": "II",
+    "heading_context_ocr": "DE TEMPII , ET Del Decoro , CHE IN QVELLI SI DEVE OSSERVARE . CAP . II . TEMPII si fannoritondi ; quadrangulari ; di sei , otto , e più cantoni ,",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 207,
+    "pdf_page": 208,
+    "alto_page_id": "p103458",
+    "roman_candidate": "III",
+    "heading_context_ocr": "Gli A SPETTI DE I DE CAP . III . TEMPII .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 208,
+    "pdf_page": 209,
+    "alto_page_id": "p103459",
+    "roman_candidate": "IIII",
+    "heading_context_ocr": "SPECIE DI TEMPII . CAP . IIII . SARONO gli Antichi ( come è stato detto di sopra ) di fare i porti",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 211,
+    "pdf_page": 212,
+    "alto_page_id": "p103462",
+    "roman_candidate": "VI",
+    "heading_context_ocr": "DE I DISEGNI DI ALCVNI TEMPII ANTICHI CHE SONO in Roma , e prima di quello della Pace . Cap . VI . OMINCIEREMO adunque con buono augurio da idisegni del Tempio già",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 215,
+    "pdf_page": 216,
+    "alto_page_id": "p103466",
+    "roman_candidate": "VII",
+    "heading_context_ocr": "QV A R T O . 15 Cap . VII . DEL TEM PIO DI MARTE VENDICATORE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 223,
+    "pdf_page": 224,
+    "alto_page_id": "p103474",
+    "roman_candidate": "VIII",
+    "heading_context_ocr": "23 QV ARTO . Cap . VIII DEL TEMPIO DI NERVA GRAIANO .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 230,
+    "pdf_page": 231,
+    "alto_page_id": "p103481",
+    "roman_candidate": "IX",
+    "heading_context_ocr": "LIBRO DEL TEMPIO D ' ANTONING E DI FAVSTINA . Cap . IX . IICINO al Tempio della Paceposto di sopra si uede il Tempio di Antonino , e di",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 236,
+    "pdf_page": 237,
+    "alto_page_id": "p103487",
+    "roman_candidate": "X",
+    "heading_context_ocr": "LIBRO DE I TEMPIII ELLJOLE , E DELLA LVNA , Cap . X . \" ICINO all ' Arco di Tito nell ' orto di Santa Maria Noua si ueggono due Tempi ,",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 241,
+    "pdf_page": 242,
+    "alto_page_id": "p103492",
+    "roman_candidate": "XII",
+    "heading_context_ocr": "QV ARTO . Cap . XII DEL TEMPIO DI GIOVE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 248,
+    "pdf_page": 249,
+    "alto_page_id": "p103499",
+    "roman_candidate": "XIII",
+    "heading_context_ocr": "LIBRO 48 Cap . XIII . DEL TEMPIO DELLA FORTVNA VIRILE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 252,
+    "pdf_page": 253,
+    "alto_page_id": "p103503",
+    "roman_candidate": "XIII",
+    "heading_context_ocr": "LIBRO 52 Cap . XIII . DEL TEMPIO DI VESTA .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 255,
+    "pdf_page": 256,
+    "alto_page_id": "p103506",
+    "roman_candidate": "XV",
+    "heading_context_ocr": "QV A R T O . 55 Cap . XV . DEL TEM PIO DI MARTE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 261,
+    "pdf_page": 262,
+    "alto_page_id": "p103512",
+    "roman_candidate": "XVI",
+    "heading_context_ocr": "QVARTO . 53 Cap . XVI . DEL BATTESMO DI COSTANTINO",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 264,
+    "pdf_page": 265,
+    "alto_page_id": "p103515",
+    "roman_candidate": "XVII",
+    "heading_context_ocr": "LIBRO DEL TEMPIO DI BRAMANTE . Cap . XVII . OICHE la grandexza dell ' Imperio Romano cominciò à declinare per le conti",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 267,
+    "pdf_page": 268,
+    "alto_page_id": "p103518",
+    "roman_candidate": "XVIII",
+    "heading_context_ocr": "67 QV ARTO . Cap . XVIII . DEL TEMPIO DI GIOVE STATORE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 270,
+    "pdf_page": 271,
+    "alto_page_id": "p103521",
+    "roman_candidate": "XIX",
+    "heading_context_ocr": "LIBRO Cap . XIX . DEL TEMPIO DI GIOVE TONANTE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 273,
+    "pdf_page": 274,
+    "alto_page_id": "p103524",
+    "roman_candidate": "XX",
+    "heading_context_ocr": "QVARTO . 73 Cap . XX . DEL PANTHEON HOGGI DETTO LA RITONDA .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 285,
+    "pdf_page": 286,
+    "alto_page_id": "p103536",
+    "roman_candidate": "XXI",
+    "heading_context_ocr": "QV A R T O . DE I DISEGNI DI ALCVNI TEMPII , CHE SONO FVORI DI ROMA , Cap . XXI . e per Italia , e prima del Tempio di Bacco .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 288,
+    "pdf_page": 289,
+    "alto_page_id": "p103539",
+    "roman_candidate": "XXII",
+    "heading_context_ocr": "88 DEL TEMPIO I CVI VESTIGI ST VEGGONO VICING alla Chiesa di Santo Sebastiano sopra lauia Appia . Cap . XXII . VORI della Porta a Santo Sebastiano , la quale anticamente fu detta Appia dalla",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 290,
+    "pdf_page": 291,
+    "alto_page_id": "p103541",
+    "roman_candidate": "XXIII",
+    "heading_context_ocr": "LIBRO 90 Cap . XXIII . DEL TEMPIO DI VESTA .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 295,
+    "pdf_page": 296,
+    "alto_page_id": "p103546",
+    "roman_candidate": "XXIIII",
+    "heading_context_ocr": "QV ARTO . Cap . XXIIII . DEL TEMPIO DI CASTflRE , E DI POLLVCE .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 298,
+    "pdf_page": 299,
+    "alto_page_id": "p103549",
+    "roman_candidate": "XXV",
+    "heading_context_ocr": "LIBRO 98 Cap . XXV . DEL TEMPIO CH ' E SOTTO TREVI .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 303,
+    "pdf_page": 304,
+    "alto_page_id": "p103554",
+    "roman_candidate": "XXVI",
+    "heading_context_ocr": "103 QV ARTO . Cap . XXVI . DEL TEMPIO DI SCISI .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 307,
+    "pdf_page": 308,
+    "alto_page_id": "p103558",
+    "roman_candidate": "XXVII",
+    "heading_context_ocr": "QV ARTO . DE I DISEGNI DI ALCVNI TEMPII , CHE SONO FVORI D ' ITALIA , Cap . XXVII . & prima de ' due Tempij di Pola .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 311,
+    "pdf_page": 312,
+    "alto_page_id": "p103562",
+    "roman_candidate": "XXVIII",
+    "heading_context_ocr": "QV ARTO . DI DVE TEMPII DI NIMES , E PRIMA DI QVELLO , Cap . XXVIII . ch ’ e detto la Magon Quaree .",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 318,
+    "pdf_page": 319,
+    "alto_page_id": "p103569",
+    "roman_candidate": "XIX",
+    "heading_context_ocr": "LIBRO uS DELL ’ ALTRO TEMPIO DI NIMES . Cap . XIX . DISEGNI , che feguono fono dellaltro tempio di Nimes,il quale dicono quel",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 324,
+    "pdf_page": 325,
+    "alto_page_id": "p103575",
+    "roman_candidate": "XXX",
+    "heading_context_ocr": "LIBRO DI DVE ALTRI TEMPII DI ROMA , E PRIMA DI quello della Concordia . Cap . XXX . ’ * * “ \" di ( opra , quando fi trattò di quelli , che fono in Roma ; fi uc -",
+    "status": "machine_candidate_needs_editorial_review"
+  },
+  {
+    "physical_image_number": 328,
+    "pdf_page": 329,
+    "alto_page_id": "p103579",
+    "roman_candidate": "XXXI",
+    "heading_context_ocr": "f n $ LIBRO DEL TEMPIO DI NETTVNO . Cap . XXXI . INCONTRO al Tempio di Marte Vendicatore , del quale fono Rati porti i di —",
+    "status": "machine_candidate_needs_editorial_review"
+  }
+]
