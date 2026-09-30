@@ -1,0 +1,343 @@
+[
+  {
+    "id": "B2-ANT-1",
+    "phys": 76,
+    "box": [
+      279,
+      2241,
+      1976,
+      102
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103327/267,2229,2000,126/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-ANT-2",
+    "phys": 76,
+    "box": [
+      277,
+      2309,
+      1978,
+      144
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103327/265,2297,2002,168/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-CHI-1",
+    "phys": 78,
+    "box": [
+      281,
+      531,
+      1988,
+      138
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103329/269,519,2012,162/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-POR-1",
+    "phys": 80,
+    "box": [
+      227,
+      328,
+      1984,
+      144
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103331/215,316,2008,168/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-VAL-1",
+    "phys": 88,
+    "box": [
+      1525,
+      931,
+      726,
+      199
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103339/1513,919,750,223/750,/0/default.jpg"
+  },
+  {
+    "id": "B2-ROT-1",
+    "phys": 90,
+    "box": [
+      247,
+      988,
+      2039,
+      45
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103341/235,976,2063,69/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-BAR-1",
+    "phys": 94,
+    "box": [
+      1439,
+      1411,
+      905,
+      754
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103345/1427,1399,929,778/929,/0/default.jpg"
+  },
+  {
+    "id": "B2-ATT-1",
+    "phys": 105,
+    "box": [
+      153,
+      1058,
+      2030,
+      154
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103356/141,1046,2054,178/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-SCO-1",
+    "phys": 110,
+    "box": [
+      221,
+      530,
+      2029,
+      259
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103361/209,518,2053,283/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-PBA-1",
+    "phys": 119,
+    "box": [
+      111,
+      706,
+      2030,
+      141
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103370/99,694,2054,165/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-ZEN-1",
+    "phys": 121,
+    "box": [
+      67,
+      337,
+      2044,
+      209
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103372/55,325,2068,233/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-FOS-1",
+    "phys": 122,
+    "box": [
+      266,
+      328,
+      2078,
+      214
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103373/254,316,2102,238/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-FOS-2",
+    "phys": 122,
+    "box": [
+      270,
+      784,
+      2074,
+      47
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103373/258,772,2098,71/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-PMO-1",
+    "phys": 124,
+    "box": [
+      219,
+      298,
+      2039,
+      157
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103375/207,286,2063,181/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-COR-1",
+    "phys": 125,
+    "box": [
+      89,
+      400,
+      2039,
+      150
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103376/77,388,2063,174/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-MMA-1",
+    "phys": 126,
+    "box": [
+      222,
+      347,
+      2038,
+      164
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103377/210,335,2062,188/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-SAR-1",
+    "phys": 128,
+    "box": [
+      598,
+      514,
+      1674,
+      185
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103379/586,502,1698,209/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-POI-1",
+    "phys": 130,
+    "box": [
+      216,
+      297,
+      2048,
+      199
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103381/204,285,2072,223/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-VLI-1",
+    "phys": 131,
+    "box": [
+      99,
+      310,
+      2029,
+      145
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103382/87,298,2053,169/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-TME-1",
+    "phys": 132,
+    "box": [
+      225,
+      439,
+      2034,
+      127
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103383/213,427,2058,151/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-VAN-1",
+    "phys": 135,
+    "box": [
+      91,
+      360,
+      2037,
+      61
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103386/79,348,2061,85/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-GOD-1",
+    "phys": 137,
+    "box": [
+      89,
+      376,
+      2042,
+      103
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103388/77,364,2066,127/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-SMI-1",
+    "phys": 140,
+    "box": [
+      254,
+      387,
+      2031,
+      16
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103391/242,375,2055,40/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-INV1-1",
+    "phys": 143,
+    "box": [
+      132,
+      1309,
+      975,
+      1028
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103394/120,1297,999,1052/999,/0/default.jpg"
+  },
+  {
+    "id": "B2-INV2-1",
+    "phys": 144,
+    "box": [
+      1329,
+      493,
+      933,
+      153
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103395/1317,481,957,177/957,/0/default.jpg"
+  },
+  {
+    "id": "B2-INV2-2",
+    "phys": 144,
+    "box": [
+      1333,
+      1915,
+      926,
+      302
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103395/1321,1903,950,326/950,/0/default.jpg"
+  },
+  {
+    "id": "B2-TRV-1",
+    "phys": 145,
+    "box": [
+      117,
+      452,
+      2049,
+      353
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103396/105,440,2073,377/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-PAN-1",
+    "phys": 147,
+    "box": [
+      106,
+      418,
+      745,
+      1355
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103398/94,406,769,1379/769,/0/default.jpg"
+  },
+  {
+    "id": "B2-TOR-1",
+    "phys": 148,
+    "box": [
+      228,
+      312,
+      2045,
+      134
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103399/216,300,2069,158/1100,/0/default.jpg"
+  },
+  {
+    "id": "B2-GAR-1",
+    "phys": 149,
+    "box": [
+      10,
+      1179,
+      641,
+      551
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103400/0,1167,665,575/665,/0/default.jpg"
+  },
+  {
+    "id": "B2-MBR-1",
+    "phys": 150,
+    "box": [
+      207,
+      672,
+      2071,
+      374
+    ],
+    "iiif": "https://www.e-rara.ch/i3f/v20/103401/195,660,2095,398/1100,/0/default.jpg"
+  }
+]
