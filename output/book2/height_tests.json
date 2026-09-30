@@ -1,0 +1,247 @@
+{
+  "stated_heights": [
+    {
+      "id": "B2-MMA-1",
+      "building": "Villa Mocenigo",
+      "room": "stanze maggiori",
+      "height": 21,
+      "length": 26,
+      "width": 16,
+      "candidates": {
+        "flat_h_eq_w": 16,
+        "I23_first": 21.0,
+        "I23_second": 20.396,
+        "I23_third": 19.81
+      },
+      "best_rule": "I23_first",
+      "best_value": 21.0,
+      "deviation_percent": 0.0,
+      "chance_share": 0.095,
+      "chance_pool": "heights 16-26 ft in 0.5 ft steps (21 values)"
+    },
+    {
+      "id": "B2-MMA-1",
+      "building": "Villa Mocenigo",
+      "room": "camerini",
+      "height": 17,
+      "length": 16,
+      "width": 10,
+      "candidates": {
+        "flat_h_eq_w": 10,
+        "I23_first": 13.0,
+        "I23_second": 12.649,
+        "I23_third": 12.308
+      },
+      "best_rule": "I23_first",
+      "best_value": 13.0,
+      "deviation_percent": 30.77,
+      "chance_share": 1.0,
+      "chance_pool": "heights 10-16 ft in 0.5 ft steps (13 values)"
+    },
+    {
+      "id": "B2-BAR-1",
+      "building": "Palazzo Barbarano",
+      "room": "stanze 1 1/2 quadro (24 x 16)",
+      "height": 21.5,
+      "length": 24,
+      "width": 16,
+      "candidates": {
+        "flat_h_eq_w": 16,
+        "I23_first": 20.0,
+        "I23_second": 19.596,
+        "I23_third": 19.2
+      },
+      "best_rule": "I23_first",
+      "best_value": 20.0,
+      "deviation_percent": 7.5,
+      "chance_share": 0.647,
+      "chance_pool": "heights 16-24 ft in 0.5 ft steps (17 values)"
+    },
+    {
+      "id": "B2-BAR-1",
+      "building": "Palazzo Barbarano",
+      "room": "stanze quadre",
+      "height": 21.5,
+      "length": 16,
+      "width": 16,
+      "candidates": {
+        "flat_h_eq_w": 16,
+        "I23_first": 16.0,
+        "I23_second": 16.0,
+        "I23_third": 16.0,
+        "I23_square_4_3": 21.333
+      },
+      "best_rule": "I23_square_4_3",
+      "best_value": 21.333,
+      "deviation_percent": 0.78,
+      "chance_share": 0.091,
+      "chance_pool": "heights 16-21.333333333333332 ft in 0.5 ft steps (11 values)"
+    },
+    {
+      "id": "B2-BAR-1",
+      "building": "Palazzo Barbarano",
+      "room": "left room (24 x 19?, low confidence)",
+      "height": 21.5,
+      "length": 24,
+      "width": 19,
+      "candidates": {
+        "flat_h_eq_w": 19,
+        "I23_first": 21.5,
+        "I23_second": 21.354,
+        "I23_third": 21.209
+      },
+      "best_rule": "I23_first",
+      "best_value": 21.5,
+      "deviation_percent": 0.0,
+      "chance_share": 0.154,
+      "chance_pool": "heights 19-25.333333333333332 ft in 0.5 ft steps (13 values)"
+    },
+    {
+      "id": "B2-TRV-1",
+      "building": "Palazzo Trissino (inventione)",
+      "room": "stanze maggiori, flat ceiling",
+      "height": 27,
+      "length": 40,
+      "width": 20,
+      "candidates": {
+        "flat_h_eq_w": 20,
+        "I23_first": 30.0,
+        "I23_second": 28.284,
+        "I23_third": 26.667
+      },
+      "best_rule": "I23_third",
+      "best_value": 26.667,
+      "deviation_percent": 1.25,
+      "chance_share": 0.146,
+      "chance_pool": "heights 20-40 ft in 0.5 ft steps (41 values)"
+    },
+    {
+      "id": "B2-TRV-1",
+      "building": "Palazzo Trissino (inventione)",
+      "room": "stanza mediocre, vaulted",
+      "height": 18,
+      "length": 20,
+      "width": 18,
+      "candidates": {
+        "flat_h_eq_w": 18,
+        "I23_first": 19.0,
+        "I23_second": 18.974,
+        "I23_third": 18.947
+      },
+      "best_rule": "flat_h_eq_w",
+      "best_value": 18,
+      "deviation_percent": 0.0,
+      "chance_share": 0.154,
+      "chance_pool": "heights 18-24.0 ft in 0.5 ft steps (13 values)"
+    },
+    {
+      "id": "B2-GAR-1",
+      "building": "Palazzo Garzadore (inventione)",
+      "room": "camerini",
+      "height": 16,
+      "length": 16,
+      "width": 8,
+      "candidates": {
+        "flat_h_eq_w": 8,
+        "I23_first": 12.0,
+        "I23_second": 11.314,
+        "I23_third": 10.667
+      },
+      "best_rule": "I23_first",
+      "best_value": 12.0,
+      "deviation_percent": 33.33,
+      "chance_share": 1.0,
+      "chance_pool": "heights 8-16 ft in 0.5 ft steps (17 values)"
+    }
+  ],
+  "square_partners": [
+    {
+      "id": "B2-CHI-1",
+      "building": "Palazzo Chiericati",
+      "method": "I23_first",
+      "length": 30,
+      "width": 18,
+      "text": "mediocri (square 18) as high as the maggiori",
+      "method_height": 24.0,
+      "square_room_height": 24.0,
+      "deviation_percent": 0.0,
+      "chance_share": 0.028,
+      "chance_pool": "lengths 18.5-36 ft in 0.5 ft steps (36 values)"
+    },
+    {
+      "id": "B2-COR-1",
+      "building": "Villa Cornaro",
+      "method": "I23_first",
+      "length": 26.5,
+      "width": 16,
+      "text": "mediocri square, one third higher than wide",
+      "method_height": 21.25,
+      "square_room_height": 21.333,
+      "deviation_percent": 0.39,
+      "chance_share": 0.031,
+      "chance_pool": "lengths 16.5-32 ft in 0.5 ft steps (32 values)"
+    },
+    {
+      "id": "B2-COR-1",
+      "building": "Villa Cornaro (text ratio 7:4)",
+      "method": "I23_first",
+      "length": 28,
+      "width": 16,
+      "text": "as stated in the text instead of the woodcut",
+      "method_height": 22.0,
+      "square_room_height": 21.333,
+      "deviation_percent": 3.13,
+      "chance_share": 0.188,
+      "chance_pool": "lengths 16.5-32 ft in 0.5 ft steps (32 values)"
+    },
+    {
+      "id": "B2-PMO-1",
+      "building": "Villa Pisani, Montagnana",
+      "method": "I23_second",
+      "length": 28,
+      "width": 16,
+      "text": "mediocri square (height not stated)",
+      "method_height": 21.166,
+      "square_room_height": 21.333,
+      "deviation_percent": 0.78,
+      "chance_share": 0.062,
+      "chance_pool": "lengths 16.5-32 ft in 0.5 ft steps (32 values)"
+    },
+    {
+      "id": "B2-MMA-1",
+      "building": "Villa Mocenigo",
+      "method": "I23_first",
+      "length": 26,
+      "width": 16,
+      "text": "mediocri as high as the maggiori",
+      "method_height": 21.0,
+      "square_room_height": 21.333,
+      "deviation_percent": 1.56,
+      "chance_share": 0.094,
+      "chance_pool": "lengths 16.5-32 ft in 0.5 ft steps (32 values)"
+    },
+    {
+      "id": "B2-INV1-1",
+      "building": "Inventione p. 71",
+      "method": "I23_first",
+      "length": 30,
+      "width": 18,
+      "text": "no square room of width 18 named; implied first-floor height",
+      "method_height": 24.0,
+      "square_room_height": 24.0,
+      "deviation_percent": 0.0,
+      "chance_share": 0.028,
+      "chance_pool": "lengths 18.5-36 ft in 0.5 ft steps (36 values)"
+    }
+  ],
+  "square_partner_joint_chance": {
+    "buildings": [
+      "Palazzo Chiericati",
+      "Villa Cornaro",
+      "Villa Pisani, Montagnana",
+      "Villa Mocenigo"
+    ],
+    "product_of_chance_shares": 5.0587040000000005e-06,
+    "note": "Assumes independent choices of length; a heuristic bound, not a formal test."
+  }
+}

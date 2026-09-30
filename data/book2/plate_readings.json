@@ -1,0 +1,29 @@
+{
+  "source": "Palladio 1570, Libro II, woodcut plans; read from e-rara IIIF scans (full resolution crops)",
+  "reading_policy": "Only numbers printed in the woodcut are used. Later handwritten pencil notes present on some scan pages (e.g. p. 5) are ignored. Rotated numerals are read in the orientation of the room. 'confidence': high = printed figure clearly legible and assignment to the room unambiguous; medium = figure legible, assignment to length or width inferred from plan geometry or symmetry; low = figure partly illegible.",
+  "rooms": [
+    {"building":"Palazzo Barbarano","phys":94,"printed_page":"22","room":"stanze lunghe un quadro e mezo (right wing)","length":24,"width":16,"confidence":"medium","note":"24 printed in the left room; right-wing room taken as 24 x 16 as stated in the text (1 1/2 squares)"},
+    {"building":"Palazzo Barbarano","phys":94,"printed_page":"22","room":"left front room","length":24,"width":19,"confidence":"low","note":"second figure next to 24 is damaged; reads like 19 (or 9); text says the rooms are 1 1/2 squares"},
+    {"building":"Palazzo Barbarano","phys":94,"printed_page":"22","room":"stanze quadre","length":16,"width":16,"confidence":"high"},
+    {"building":"Villa Mocenigo","phys":126,"printed_page":"54","room":"stanze maggiori","length":26,"width":16,"confidence":"high"},
+    {"building":"Villa Mocenigo","phys":126,"printed_page":"54","room":"stanze mediocri","length":16,"width":16,"confidence":"medium"},
+    {"building":"Villa Mocenigo","phys":126,"printed_page":"54","room":"camerini","length":16,"width":10,"confidence":"medium"},
+    {"building":"Palazzo Chiericati","phys":78,"printed_page":"6","room":"stanze maggiori","length":30,"width":18,"confidence":"high"},
+    {"building":"Palazzo Chiericati","phys":78,"printed_page":"6","room":"stanze mediocri","length":18,"width":18,"confidence":"high"},
+    {"building":"Palazzo Chiericati","phys":78,"printed_page":"6","room":"camerini","length":18,"width":12,"confidence":"medium"},
+    {"building":"Villa Cornaro","phys":125,"printed_page":"53","room":"stanze maggiori","length":26.5,"width":16,"confidence":"high","note":"text: un quadro e tre quarti (7:4 = 28 x 16)"},
+    {"building":"Villa Cornaro","phys":125,"printed_page":"53","room":"stanze mediocri","length":16,"width":16,"confidence":"high"},
+    {"building":"Villa Pisani","phys":124,"printed_page":"52","room":"stanze maggiori","length":28,"width":16,"confidence":"high"},
+    {"building":"Villa Pisani","phys":124,"printed_page":"52","room":"stanze mediocri","length":16,"width":16,"confidence":"high"},
+    {"building":"Villa Pisani","phys":124,"printed_page":"52","room":"camerini e andito","length":null,"width":8.5,"confidence":"medium"},
+    {"building":"Villa Saraceno","phys":128,"printed_page":"56","room":"stanze maggiori","length":26.5,"width":16,"confidence":"medium","note":"text: un quadro e cinque ottavi (13:8 = 26 x 16)"},
+    {"building":"Palazzo Trissino (inventione)","phys":146,"printed_page":"74","room":"stanze maggiori","length":40,"width":20,"confidence":"high"},
+    {"building":"Palazzo Trissino (inventione)","phys":146,"printed_page":"74","room":"stanza mediocre","length":20,"width":18,"confidence":"medium"},
+    {"building":"Inventione per un sito piramidale","phys":143,"printed_page":"71","room":"stanze beside the entrance","length":30,"width":18,"confidence":"high"},
+    {"building":"Inventione per un sito piramidale","phys":143,"printed_page":"71","room":"stanze at the head of the entrance","length":27,"width":18,"confidence":"high"},
+    {"building":"Inventione per un sito in Venetia","phys":144,"printed_page":"72","room":"stanze on the flanks (front)","length":34.5,"width":20,"confidence":"medium"},
+    {"building":"Palazzo Garzadore (inventione)","phys":149,"printed_page":"77","room":"stanze maggiori","length":20,"width":18.5,"confidence":"high"},
+    {"building":"Palazzo Garzadore (inventione)","phys":149,"printed_page":"77","room":"camerini","length":16,"width":8,"confidence":"medium"},
+    {"building":"Villa Almerico (Rotonda)","phys":91,"printed_page":"19","room":"stanze grandi","length":26,"width":15,"confidence":"high"}
+  ]
+}
