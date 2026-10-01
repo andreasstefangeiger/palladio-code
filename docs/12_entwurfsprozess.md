@@ -50,7 +50,16 @@ und die gleichen Gewölbehöhen von 24 Fuß, die Palladio dort angibt.
   gezeichnet.
 - Mauerstärke ist eine Annahme.
 
+## Oberfläche
+
+Das Entwurfslabor `app/dist/palladio-labor.html` (eine Datei, offline lauffähig)
+führt durch dieselben acht Schritte: Grundriss und Ansicht maßstäblich, Raumtiefen
+mit dem Pencil ziehbar (rasten auf die sieben Formen ein), Intervall als Klang,
+zu jedem Schritt die Regelkarten mit Fundstelle und Evidenzklasse. `app/engine.js`
+rechnet wie `design.py`; `tests/test_app_engine.py` prüft die Gleichheit. Neu bauen
+mit `python3 app/build.py`.
+
 ## Nächster Schritt
 
-Die iPad-Oberfläche: dieselben acht Schritte als Spiel mit Pencil, Klang und
-Begründung zu jeder Entscheidung, ausgehend von diesem Kern.
+Die Zeitreise (Pythagoras, Platon, Vitruv, Alberti, Palladio, Zukunft) als
+Stationen vor dem Labor; Installation als Offline-App (Manifest, Service Worker).
