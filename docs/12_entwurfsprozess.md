@@ -52,7 +52,7 @@ und die gleichen Gewölbehöhen von 24 Fuß, die Palladio dort angibt.
 
 ## Oberfläche
 
-Das Entwurfslabor `app/dist/palladio-labor.html` (eine Datei, offline lauffähig)
+Das Entwurfslabor `app/dist/palladio-labor.html` (eine Datei ohne Server; nur die Schriften kommen aus dem Netz)
 führt durch dieselben acht Schritte: Grundriss und Ansicht maßstäblich, Raumtiefen
 mit dem Pencil ziehbar (rasten auf die sieben Formen ein), Intervall als Klang,
 zu jedem Schritt die Regelkarten mit Fundstelle und Evidenzklasse. `app/engine.js`
