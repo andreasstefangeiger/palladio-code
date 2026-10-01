@@ -24,7 +24,7 @@ Nullmodell, Kap. 7).
 | Trissino (Entwurf) | 40 × 20, **Flachdecke** | 27 | 3. Verfahren = 26⅔ | 1,3 % | 15 % |
 | Trissino (Entwurf) | 20 × 18, **gewölbt** | 18 | Höhe = Breite | 0 % | 15 % |
 | Mocenigo, Marocco | Kammern 16 × 10 | 17 | keine | 31 % | – |
-| Garzadore (Entwurf) | Kammern 16 × 8 | 16 | keine | 33 % | – |
+| Garzadore (Entwurf) | Kammern 18½ × 16 (korrigiert, Kap. 11) | 16 | Höhe = Breite | 0 % | 9 % |
 
 **Lesart:** Einzelne Treffer sind mit 9–15 % Zufallsrate nur schwache Belege. Die
 Kammerhöhen (17 und 16 Fuß) folgen keiner Regel aus Buch I; sie ergeben sich

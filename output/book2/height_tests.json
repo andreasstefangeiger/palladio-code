@@ -139,19 +139,19 @@
       "building": "Palazzo Garzadore (inventione)",
       "room": "camerini",
       "height": 16,
-      "length": 16,
-      "width": 8,
+      "length": 18.5,
+      "width": 16,
       "candidates": {
-        "flat_h_eq_w": 8,
-        "I23_first": 12.0,
-        "I23_second": 11.314,
-        "I23_third": 10.667
+        "flat_h_eq_w": 16,
+        "I23_first": 17.25,
+        "I23_second": 17.205,
+        "I23_third": 17.159
       },
-      "best_rule": "I23_first",
-      "best_value": 12.0,
-      "deviation_percent": 33.33,
-      "chance_share": 1.0,
-      "chance_pool": "heights 8-16 ft in 0.5 ft steps (17 values)"
+      "best_rule": "flat_h_eq_w",
+      "best_value": 16,
+      "deviation_percent": 0.0,
+      "chance_share": 0.091,
+      "chance_pool": "heights 16-21.333333333333332 ft in 0.5 ft steps (11 values)"
     }
   ],
   "square_partners": [

@@ -16,22 +16,22 @@ Die Tabellen von Howard/Longair (1982) und Mitrović (1990) wurden nicht benutzt
 
 ## Befund 1: Palladios sieben Formen – unabhängig bestätigt
 
-45 von 79 Räumen (57 %) haben exakt ein Verhältnis aus Buch I, Kap. XXI
-(1:1 22×, 3:2 9×, 2:1 7×, 5:3 5×, 4:3 2×). Zufällig wären 6–13 % zu erwarten
-(Nullmodell, Kap. 7); p ≈ 10⁻²⁰ bis 10⁻³³. Howard/Longair fanden 54 % (82/153).
+43 von 79 Räumen (54 %) haben exakt ein Verhältnis aus Buch I, Kap. XXI
+(1:1 21×, 3:2 9×, 2:1 6×, 5:3 5×, 4:3 2×). Zufällig wären 6–13 % zu erwarten
+(Nullmodell, Kap. 7); p ≈ 10⁻²⁰ bis 10⁻³³. Howard/Longair fanden ebenfalls 54 % (82/153).
 Unsere eigene Erhebung bestätigt ihren Befund damit unabhängig.
 
 ## Befund 2: Gleiche Gewölbehöhen – echt, aber nicht unabhängig von der Raumform
 
-In 17 Paaren liegt ein Langraum neben einem Quadratraum gleicher Breite. In 9
+In 16 Paaren liegt ein Langraum neben einem Quadratraum gleicher Breite. In 8
 Paaren ergibt eines der drei Mittel des Langraums die Höhe des Quadratraums
-(Breite + ⅓) auf 1 % genau: sechsmal das arithmetische, zweimal das harmonische,
-einmal das geometrische Mittel.
+(Breite + ⅓) auf 1 % genau: sechsmal das arithmetische, je einmal das harmonische
+und das geometrische Mittel.
 
-| Vergleich | Erwartung | p für ≥ 9 von 17 |
+| Vergleich | Erwartung | p für ≥ 8 von 16 |
 |---|---:|---:|
-| Raumverhältnis beliebig zwischen 1 und 2 | 18 % | 0,001 |
-| Raumverhältnis zufällig aus Palladios bevorzugten Formen | 40 % | 0,20 |
+| Raumverhältnis beliebig zwischen 1 und 2 | 18 % | 0,004 |
+| Raumverhältnis zufällig aus Palladios bevorzugten Formen | 40 % | 0,28 |
 
 **Lesart:** Gegen beliebige Raumformen ist das Zusammentreffen deutlich. Es folgt
 aber fast vollständig aus Palladios Vorliebe für 5:3 und 2:1: Bei 5:3 liefert das
@@ -46,8 +46,8 @@ Formvorliebe ist der Befund nicht mehr auffällig. Kap. 9 bleibt als Einzelfallp
 gültig, die Gesamtaussage gilt in der Form dieses Kapitels.
 
 Neu gegenüber Mitrović (der die Regel in vier Bauten sah): Die Gleichheit ist in
-acht Bauten erfüllt (Chiericati, Cornaro, Pisani in Montagnana, Badoer, Emo,
-Poiana, Sarego in La Miga, Mocenigo an der Brenta), und Palladio sagt sie in fünf
+sieben Bauten erfüllt (Chiericati, Cornaro, Pisani in Montagnana, Badoer, Emo,
+Poiana, Sarego in La Miga), und Palladio sagt sie in fünf
 Bauten wörtlich (Kap. 8).
 
 ## Befund 3: Die Abweichungen von 5:3 liegen fast alle in einem Band um 5:3
@@ -77,3 +77,6 @@ belegbar. Status unverändert: B-Hypothese, nicht als Regel zu behaupten.
 
 Unabhängige Kontrolle: unsere Lesungen gegen die Tabellen von Howard/Longair
 (Anhang A4) und Mitrović (Tab. 1) abgleichen und jede Abweichung am Scan klären.
+
+
+*Stand nach Abgleich mit Mitrović (Kap. 11): Garzadore und Mocenigo an der Brenta korrigiert; Zahlen oben aktualisiert.*

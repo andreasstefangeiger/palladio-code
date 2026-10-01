@@ -1,20 +1,20 @@
 {
   "ratio_census": {
     "rooms": 79,
-    "exact_I21": 45,
-    "share": 0.569620253164557,
+    "exact_I21": 43,
+    "share": 0.5443037974683544,
     "by_ratio": {
       "3:2": 9,
-      "1:1": 22,
-      "other": 34,
+      "other": 36,
+      "1:1": 21,
       "5:3": 5,
-      "2:1": 7,
+      "2:1": 6,
       "4:3": 2
     },
     "null_share_half_feet": 0.06436420722135008,
     "null_share_whole_feet": 0.12727272727272726,
-    "p_value_half_feet": 6.806032320713293e-33,
-    "p_value_whole_feet": 1.431673298485827e-20
+    "p_value_half_feet": 2.2729775847179212e-30,
+    "p_value_whole_feet": 1.0715170141789405e-18
   },
   "square_partner_pairs": [
     {
@@ -224,28 +224,15 @@
       },
       "best_mean": "I23_first",
       "matches_within_1_percent": true
-    },
-    {
-      "building": "Villa Mocenigo (inventione sopra la Brenta)",
-      "room": "40 x 20",
-      "ratio": 2.0,
-      "square_height": 26.667,
-      "deviation_percent": {
-        "I23_first": 12.5,
-        "I23_second": 6.07,
-        "I23_third": 0.0
-      },
-      "best_mean": "I23_third",
-      "matches_within_1_percent": true
     }
   ],
   "square_partner_summary": {
-    "pairs": 17,
-    "within_1_percent": 9,
+    "pairs": 16,
+    "within_1_percent": 8,
     "best_mean_counts": {
       "I23_first": 6,
       "I23_second": 1,
-      "I23_third": 2
+      "I23_third": 1
     }
   }
 }

@@ -107,7 +107,7 @@ STATED_HEIGHTS = [
     {"id": "B2-BAR-1", "building": "Palazzo Barbarano", "room": "left room (24 x 19?, low confidence)", "height": 21.5, "length": 24, "width": 19},
     {"id": "B2-TRV-1", "building": "Palazzo Trissino (inventione)", "room": "stanze maggiori, flat ceiling", "height": 27, "length": 40, "width": 20},
     {"id": "B2-TRV-1", "building": "Palazzo Trissino (inventione)", "room": "stanza mediocre, vaulted", "height": 18, "length": 20, "width": 18},
-    {"id": "B2-GAR-1", "building": "Palazzo Garzadore (inventione)", "room": "camerini", "height": 16, "length": 16, "width": 8},
+    {"id": "B2-GAR-1", "building": "Palazzo Garzadore (inventione)", "room": "camerini", "height": 16, "length": 18.5, "width": 16},
 ]
 
 SQUARE_PARTNERS = [
