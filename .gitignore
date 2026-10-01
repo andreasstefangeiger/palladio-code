@@ -16,3 +16,4 @@ output/qc/
 *.tmp
 *.log
 
+output/book2/proofs/
