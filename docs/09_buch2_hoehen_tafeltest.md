@@ -47,7 +47,9 @@ gleicher Breite liegt, ergibt das Verfahren nahezu die Höhe des Quadratraums
 | Mocenigo, Marocco | 26 × 16 | 1. (arithm.) | 21 | 21⅓ | 1,6 % | 9,4 % |
 
 Bei unabhängiger Wahl der Raumlänge wäre dieses Zusammentreffen in allen vier
-Bauten mit etwa 5 · 10⁻⁶ zu erwarten. Palladio sagt es für Chiericati und Mocenigo
+Bauten mit etwa 5 · 10⁻⁶ zu erwarten. **Nachtrag (Kap. 10):** Berücksichtigt man
+Palladios Vorliebe für 5:3 und 2:1, ist das Zusammentreffen nicht mehr auffällig
+(p ≈ 0,2); siehe dort. Palladio sagt es für Chiericati und Mocenigo
 auch ausdrücklich („tanto alti quanto ... le maggiori“).
 
 **Wichtige Einschränkung:** Das Nullmodell nimmt beliebige Raumlängen an. Wer ohnehin

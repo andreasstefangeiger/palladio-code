@@ -1,0 +1,251 @@
+{
+  "ratio_census": {
+    "rooms": 79,
+    "exact_I21": 45,
+    "share": 0.569620253164557,
+    "by_ratio": {
+      "3:2": 9,
+      "1:1": 22,
+      "other": 34,
+      "5:3": 5,
+      "2:1": 7,
+      "4:3": 2
+    },
+    "null_share_half_feet": 0.06436420722135008,
+    "null_share_whole_feet": 0.12727272727272726,
+    "p_value_half_feet": 6.806032320713293e-33,
+    "p_value_whole_feet": 1.431673298485827e-20
+  },
+  "square_partner_pairs": [
+    {
+      "building": "Palazzo Barbarano",
+      "room": "24 x 16",
+      "ratio": 1.5,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 6.25,
+        "I23_second": 8.14,
+        "I23_third": 10.0
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Mocenigo",
+      "room": "26 x 16",
+      "ratio": 1.625,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 1.56,
+        "I23_second": 4.39,
+        "I23_third": 7.14
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Palazzo Chiericati",
+      "room": "30 x 18",
+      "ratio": 1.6667,
+      "square_height": 24.0,
+      "deviation_percent": {
+        "I23_first": 0.0,
+        "I23_second": 3.18,
+        "I23_third": 6.25
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Cornaro",
+      "room": "26.5 x 16",
+      "ratio": 1.6562,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 0.39,
+        "I23_second": 3.48,
+        "I23_third": 6.47
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Pisani, Montagnana",
+      "room": "28 x 16",
+      "ratio": 1.75,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 3.13,
+        "I23_second": 0.78,
+        "I23_third": 4.55
+      },
+      "best_mean": "I23_second",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Palazzo Iseppo Porto",
+      "room": "30 x 20",
+      "ratio": 1.5,
+      "square_height": 26.667,
+      "deviation_percent": {
+        "I23_first": 6.25,
+        "I23_second": 8.14,
+        "I23_third": 10.0
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Pisani, Bagnolo",
+      "room": "24 x 16",
+      "ratio": 1.5,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 6.25,
+        "I23_second": 8.14,
+        "I23_third": 10.0
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Badoer",
+      "room": "26.5 x 16",
+      "ratio": 1.6562,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 0.39,
+        "I23_second": 3.48,
+        "I23_third": 6.47
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Badoer",
+      "room": "32 x 16",
+      "ratio": 2.0,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 12.5,
+        "I23_second": 6.07,
+        "I23_third": 0.0
+      },
+      "best_mean": "I23_third",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Zeno",
+      "room": "21.5 x 14",
+      "ratio": 1.5357,
+      "square_height": 18.667,
+      "deviation_percent": {
+        "I23_first": 4.91,
+        "I23_second": 7.06,
+        "I23_third": 9.15
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Zeno",
+      "room": "29 x 14",
+      "ratio": 2.0714,
+      "square_height": 18.667,
+      "deviation_percent": {
+        "I23_first": 15.18,
+        "I23_second": 7.94,
+        "I23_third": 1.16
+      },
+      "best_mean": "I23_third",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Foscari (Malcontenta)",
+      "room": "24 x 16",
+      "ratio": 1.5,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 6.25,
+        "I23_second": 8.14,
+        "I23_third": 10.0
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Emo",
+      "room": "27 x 16",
+      "ratio": 1.6875,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 0.78,
+        "I23_second": 2.57,
+        "I23_third": 5.81
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Poiana",
+      "room": "30 x 18",
+      "ratio": 1.6667,
+      "square_height": 24.0,
+      "deviation_percent": {
+        "I23_first": 0.0,
+        "I23_second": 3.18,
+        "I23_third": 6.25
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Valmarana",
+      "room": "15 x 12",
+      "ratio": 1.25,
+      "square_height": 16.0,
+      "deviation_percent": {
+        "I23_first": 15.62,
+        "I23_second": 16.15,
+        "I23_third": 16.67
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": false
+    },
+    {
+      "building": "Villa Sarego",
+      "room": "27 x 16",
+      "ratio": 1.6875,
+      "square_height": 21.333,
+      "deviation_percent": {
+        "I23_first": 0.78,
+        "I23_second": 2.57,
+        "I23_third": 5.81
+      },
+      "best_mean": "I23_first",
+      "matches_within_1_percent": true
+    },
+    {
+      "building": "Villa Mocenigo (inventione sopra la Brenta)",
+      "room": "40 x 20",
+      "ratio": 2.0,
+      "square_height": 26.667,
+      "deviation_percent": {
+        "I23_first": 12.5,
+        "I23_second": 6.07,
+        "I23_third": 0.0
+      },
+      "best_mean": "I23_third",
+      "matches_within_1_percent": true
+    }
+  ],
+  "square_partner_summary": {
+    "pairs": 17,
+    "within_1_percent": 9,
+    "best_mean_counts": {
+      "I23_first": 6,
+      "I23_second": 1,
+      "I23_third": 2
+    }
+  }
+}
