@@ -1,0 +1,245 @@
+{
+  "params": {},
+  "rooms": [
+    {
+      "name": "grande",
+      "form": "5:3",
+      "length": 26.5,
+      "breadth": 16.0,
+      "ceiling": "vault",
+      "height": 21.25,
+      "height_rule": "I23_first"
+    },
+    {
+      "name": "mediocre",
+      "form": "1:1",
+      "length": 16.0,
+      "breadth": 16.0,
+      "ceiling": "vault",
+      "height": 21.333,
+      "height_rule": "I23_square_4_3"
+    },
+    {
+      "name": "picciola",
+      "form": "4:3",
+      "length": 16.0,
+      "breadth": 12.0,
+      "ceiling": "vault",
+      "height": 14.0,
+      "height_rule": "I23_first"
+    }
+  ],
+  "sala": {
+    "length": 57.5,
+    "breadth": 34.5
+  },
+  "upper_floor": {
+    "height": 17.78,
+    "ceiling": "flat"
+  },
+  "windows": {
+    "width": 3.5,
+    "height": 7.58,
+    "upper_height": 6.32,
+    "door": {
+      "width": 3,
+      "height": 6.5
+    }
+  },
+  "decisions": [
+    {
+      "step": 1,
+      "topic": "Bezugsmass",
+      "decision": "Raumbreite der Fluegel 16 Fuss",
+      "rules": [
+        "B-SYS-MOD-001"
+      ],
+      "status": "follows",
+      "note": "Palladios Hauptzimmer in Buch II sind meist 16-18 Fuss breit (docs/10)."
+    },
+    {
+      "step": 1,
+      "topic": "Mauerstaerke",
+      "decision": "1.5 Fuss",
+      "rules": [],
+      "status": "assumption",
+      "note": "Palladio gibt in Buch II keine Regel; Holzschnitte zeigen etwa 1-2 1/2 Fuss."
+    },
+    {
+      "step": 4,
+      "topic": "Raumform",
+      "decision": "grande: 26.5 x 16 (5:3)",
+      "rules": [
+        "A-PROP-ROOM-001",
+        "B2-CAP2-1"
+      ],
+      "status": "approx",
+      "note": "auf halbe Fuss gerundet: 1.6562 statt 1.6667 (Palladio rundet ebenso, z. B. 26 1/2 x 16 bei Cornaro, Badoer, Saraceno)"
+    },
+    {
+      "step": 4,
+      "topic": "Raumform",
+      "decision": "mediocre: 16 x 16 (1:1)",
+      "rules": [
+        "A-PROP-ROOM-001",
+        "B2-CAP2-1"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 4,
+      "topic": "Raumform",
+      "decision": "picciola: 16 x 12 (4:3)",
+      "rules": [
+        "A-PROP-ROOM-001",
+        "B2-CAP2-1"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 4,
+      "topic": "Raumfolge",
+      "decision": "gross - mittel - klein, nebeneinander",
+      "rules": [
+        "B2-CAP2-1"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 2,
+      "topic": "Zentrum",
+      "decision": "Sala in der Mitte, 57.5 x 34.5",
+      "rules": [
+        "A-ORG-CEN-001",
+        "A-DIM-HALL-001"
+      ],
+      "status": "follows",
+      "note": "Laenge/Breite 1.67"
+    },
+    {
+      "step": 3,
+      "topic": "Symmetrie",
+      "decision": "rechter Fluegel spiegelt den linken",
+      "rules": [
+        "A-ORG-SYM-001"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 5,
+      "topic": "Hoehe",
+      "decision": "grande: 21.25 Fuss (I23_first)",
+      "rules": [
+        "A-HT-VAULT-002"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 5,
+      "topic": "Hoehe",
+      "decision": "mediocre: 21.33 Fuss (I23_square_4_3)",
+      "rules": [
+        "A-HT-VAULT-001"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 5,
+      "topic": "Hoehe",
+      "decision": "picciola: 14.00 Fuss (I23_first)",
+      "rules": [
+        "A-HT-VAULT-002"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 5,
+      "topic": "Gleiche Gewoelbehoehe",
+      "decision": "Spanne 0.4 %",
+      "rules": [
+        "A-HT-VAULT-005",
+        "B-SYS-VAULT-001"
+      ],
+      "status": "follows",
+      "note": "Kleine Raeume ausgenommen: sie erhalten Zwischengeschosse (B2-CAP2-1: le picciole si amezeranno)."
+    },
+    {
+      "step": 6,
+      "topic": "Obergeschoss",
+      "decision": "17.78 Fuss, Flachdecke",
+      "rules": [
+        "A-HT-STORY-001"
+      ],
+      "status": "follows",
+      "note": "Palladio selbst weicht in den Zahlenbeispielen von Buch II davon ab (docs/08)."
+    },
+    {
+      "step": 7,
+      "topic": "Fenster",
+      "decision": "3.5 x 7.58 Fuss",
+      "rules": [
+        "A-DIM-WIN-001",
+        "A-DIM-WIN-002"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 7,
+      "topic": "Fenster oben",
+      "decision": "lichte Hoehe 6.32 Fuss",
+      "rules": [
+        "A-DIM-WIN-003"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 7,
+      "topic": "Achsen",
+      "decision": "Fenster mittig im Raum, oben ueber unten, rechts wie links",
+      "rules": [
+        "A-ORG-OPEN-001",
+        "A-LOC-WIN-001"
+      ],
+      "status": "follows",
+      "note": ""
+    },
+    {
+      "step": 7,
+      "topic": "Tueren",
+      "decision": "3 x 6 1/2 Fuss",
+      "rules": [
+        "A-DIM-DOOR-001"
+      ],
+      "status": "follows",
+      "note": ""
+    }
+  ],
+  "deviations": [],
+  "nearest_palladio_building": {
+    "building": "Villa Mocenigo",
+    "distance_ft": 2.5,
+    "rooms": [
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        26,
+        16
+      ]
+    ]
+  }
+}

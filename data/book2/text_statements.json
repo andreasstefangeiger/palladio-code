@@ -921,6 +921,22 @@
    ],
    "note": "The final clause (Le stanze di sopra sono tanto alte, quanto larghe) continues on the next printed line.",
    "scan_checked": true
+  },
+  {
+   "id": "B2-CAP2-1",
+   "building": "(general rule)",
+   "place": null,
+   "phys": 76,
+   "printed_page": "4",
+   "kind": "general_rule",
+   "anchor": [
+    "Si auertiràpoi",
+    "Icr uirfi"
+   ],
+   "quote": "Si auertira poi nel resto della fabrica, che ui siano stanze grandi, mediocri, e picciole: e tutte l'una a canto a l'altra, onde possano scambieuolmente seruirsi. Le picciole si amezeranno per cauarne camerini [...]",
+   "facts": [],
+   "scan_checked": true,
+   "note": "Book II ch. II. Basis of the room sequence in the design process (src/palladio_code/design.py)."
   }
  ]
 }
