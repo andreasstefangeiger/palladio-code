@@ -163,7 +163,7 @@ def published_claim_checks(grid: Grid) -> list[dict]:
     sqrt3 = near_target_share(grid, sqrt(3), band_percent=2.0, within_percent=0.07)
     checks.append({
         "claim": "Villa Rotonda 26:15 within 0.07% of sqrt(3); six rooms near sqrt(3) in Book II",
-        "source": "Mitrovic 1990, JSAH 49, 285-286",
+        "source": "Mitrovic & Djordjevic 1990, JSAH 49, 285-286",
         "question": "Six rooms lie within about 2% of sqrt(3). How likely is it that the best of them is within 0.07%?",
         "share_close_given_band": sqrt3["share_close_given_band"],
         "probability_best_of_6": chance_best_of(6, sqrt3["share_close_given_band"]),
@@ -172,7 +172,7 @@ def published_claim_checks(grid: Grid) -> list[dict]:
     sqrt2 = near_target_share(grid, sqrt(2), band_percent=2.0, within_percent=0.17)
     checks.append({
         "claim": "Villa Ragona 21 1/4 : 15 within 0.17% of sqrt(2)",
-        "source": "Howard/Longair 1982, 135; Mitrovic 1990, 285",
+        "source": "Howard/Longair 1982, 135; Mitrovic & Djordjevic 1990, 285",
         "question": "For one room near sqrt(2), how likely is a deviation of at most 0.17% on this grid?",
         "share_close_given_band": sqrt2["share_close_given_band"],
         "note": "Palladio's use of a quarter foot here is not captured by a half-foot grid; see quarter-foot run.",

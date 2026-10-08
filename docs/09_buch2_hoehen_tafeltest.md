@@ -30,7 +30,7 @@ Nullmodell, Kap. 7).
 Kammerhöhen (17 und 16 Fuß) folgen keiner Regel aus Buch I; sie ergeben sich
 offenbar aus den Nachbarräumen und Zwischengeschossen. Bei Trissino vertauscht
 Palladio die Regeln: die Flachdecke erhält ein Gewölbemittel, der gewölbte Raum
-die Flachdeckenregel. Mitrović (1990) hat diesen Fall bereits bemerkt; er ist
+die Flachdeckenregel. Mitrović/Djordjević (1990) hat diesen Fall bereits bemerkt; er ist
 hier am Scan bestätigt.
 
 ## Befund B: Gleiche Höhe von Langraum und Quadratraum

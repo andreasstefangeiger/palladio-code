@@ -16,7 +16,7 @@ Stand: 30.09.2026 · Daten: `data/book2/text_statements.json` · Auswertung:
 4. Korrekturen am Scan: u. a. Palladios Entwurf für Venedig (S. 72) nennt
    „uentitre piedi“ (23 Fuß); die Texterkennung hatte daraus „uentiti c“ gemacht.
 
-Die Tabellen von Howard/Longair (1982) und Mitrović (1990) wurden nicht verwendet.
+Die Tabellen von Howard/Longair (1982) und Mitrović/Djordjević (1990) wurden nicht verwendet.
 
 ## Befunde (nur Palladios eigene Worte)
 

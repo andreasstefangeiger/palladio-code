@@ -1,7 +1,7 @@
-# 11. Unabhängige Kontrolle: unsere Lesungen und Mitrović 1990
+# 11. Unabhängige Kontrolle: unsere Lesungen und Mitrović/Djordjević 1990
 
 Stand: 01.10.2026 · Vergleichsdaten: `data/book2/mitrovic1990_table1.json`
-(Mitrović, JSAH 49, 1990, Tab. 1, aus der Textschicht des PDF übertragen)
+(Branko Mitrović, Ivana Djordjević, JSAH 49, 1990, Tab. 1, aus der Textschicht des PDF übertragen)
 
 ## Vorgehen
 

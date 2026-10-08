@@ -12,7 +12,7 @@ oder „hoch“, symmetrische Wiederholungen einmal: **79 Räume**.
 Noch nicht gelesen: Trissino (Meledo), Repeta, Thiene (Quinto), Sarego (Santa
 Sofia), die antiken Rekonstruktionen.
 
-Die Tabellen von Howard/Longair (1982) und Mitrović (1990) wurden nicht benutzt.
+Die Tabellen von Howard/Longair (1982) und Mitrović/Djordjević (1990) wurden nicht benutzt.
 
 ## Befund 1: Palladios sieben Formen – unabhängig bestätigt
 
@@ -36,7 +36,7 @@ und das geometrische Mittel.
 **Lesart:** Gegen beliebige Raumformen ist das Zusammentreffen deutlich. Es folgt
 aber fast vollständig aus Palladios Vorliebe für 5:3 und 2:1: Bei 5:3 liefert das
 arithmetische, bei 2:1 das harmonische Mittel genau 4/3 der Breite. Das hat
-Mitrović (1990) algebraisch gezeigt. Die Daten können nicht trennen, ob Palladio
+Mitrović/Djordjević (1990) algebraisch gezeigt. Die Daten können nicht trennen, ob Palladio
 die Raumform wegen der gleichen Höhe wählte oder umgekehrt; beides ist dieselbe
 Ordnung, von zwei Seiten gesehen.
 

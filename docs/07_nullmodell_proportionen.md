@@ -7,7 +7,7 @@ Stand: 30.09.2026 · Code: `src/palladio_code/nullmodel.py` · Ergebnis:
 
 Seit Wittkower (1949) wird geprüft, ob Palladios Grundrisse in Buch II seinen
 Raumverhältnissen aus Buch I, Kap. XXI, oder musikalischen Intervallen folgen
-(Howard/Longair 1982; Mitrović 1990, 2001, 2004; March 1998, 2015; Tikhonova 2019;
+(Howard/Longair 1982; Mitrović/Djordjević 1990; Mitrović 2001, 2004; March 1998, 2015; Tikhonova 2019;
 Hales 2022). In der eingesehenen Literatur fehlt durchgehend eine Angabe, wie viele
 Treffer **ohne jede Proportionsabsicht** zu erwarten wären. Howard/Longair bestimmen
 eine Zufallsrate nur für einzelne „harmonische Zahlen“, nicht für Verhältnisse.
@@ -68,7 +68,7 @@ Die Zahlen der Autoren werden zitiert, nicht neu gemessen.
    (nur I.21) bis 73 % (alle Vorschläge). Ihre eigene Zielmenge („Quadrate und
    ihre Teile“) muss im Volltext geprüft werden; je größer sie ist, desto näher
    rückt die Zufallsrate an 93 %.
-3. **√3 an der Rotonda ist kein starker Beleg.** Mitrović (1990) nennt 26:15 „nur
+3. **√3 an der Rotonda ist kein starker Beleg.** Mitrović/Djordjević (1990) nennt 26:15 „nur
    0,07 %“ von √3 entfernt und sechs Räume nahe √3. Unter Räumen, die ohnehin
    innerhalb von 2 % um √3 liegen, erreichen 1,8 % (½-Fuß-Raster) bzw. 2,9 %
    (¼-Fuß-Raster) diese Nähe. Dass der beste von sechs Räumen sie erreicht, ist mit
