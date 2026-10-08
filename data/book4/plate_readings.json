@@ -1,0 +1,222 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro IV (plates); e-rara DOI 10.3931/e-rara-363",
+ "unit": "piede vicentino = 12 oncie (Ꝺ) = 48 minuti (Libro IV, S. 10)",
+ "method": "Maßzahlen der Grundrisstafeln am IIIF-Scan gelesen (Ausschnitte gedreht, wo die Zahl quer steht). pixel_ratio: Kontrollmessung des gezeichneten Rechtecks (nur wo die automatische Messung sauber lief). Die Tafeln zeigen antike Bauten, die Palladio nach eigener Angabe vermessen und ergänzt hat; sie sind keine eigenen Entwürfe.",
+ "readings": [
+  {
+   "id": "T-XIII",
+   "building": "Tempio della Fortuna Virile",
+   "chapter": "XIII",
+   "phys": 249,
+   "printed_page": "49",
+   "width_ft": 18.791666666666668,
+   "length_ft": 28.75,
+   "width_text": "P 18 Ꝺ 9½",
+   "length_text": "P 28¾",
+   "confidence": "high",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": 1.529,
+   "note": ""
+  },
+  {
+   "id": "T-XXVIII",
+   "building": "Maison Carrée, Nîmes",
+   "chapter": "XXVIII",
+   "phys": 312,
+   "printed_page": "112",
+   "width_ft": 29,
+   "length_ft": 42.5,
+   "width_text": "P 29",
+   "length_text": "P 42 ?/4",
+   "confidence": "medium",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": 1.462,
+   "note": "Zähler des Bruchs nicht gedruckt oder abgerieben; 42¼ bis 42¾ möglich."
+  },
+  {
+   "id": "T-XXVI",
+   "building": "Tempio di Assisi (Minerva)",
+   "chapter": "XXVI",
+   "phys": 304,
+   "printed_page": "104",
+   "width_ft": 38,
+   "length_ft": 50.5,
+   "width_text": "P 38",
+   "length_text": "P 50½",
+   "confidence": "high",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": 1.34,
+   "note": "Palladios Text (S. 103) nennt für diese Cella 5:4."
+  },
+  {
+   "id": "T-XXVII",
+   "building": "Tempio di Pola",
+   "chapter": "XXVII",
+   "phys": 308,
+   "printed_page": "108",
+   "width_ft": 19.916666666666668,
+   "length_ft": 26,
+   "width_text": "P 19 Ꝺ 11",
+   "length_text": "P 26",
+   "confidence": "high",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": 1.305,
+   "note": "Palladios Text (S. 107) nennt für diese Cella 5:4."
+  },
+  {
+   "id": "T-VIII",
+   "building": "Tempio di Nerva Traiano",
+   "chapter": "VIII",
+   "phys": 225,
+   "printed_page": "25",
+   "width_ft": 49.5,
+   "length_ft": 54,
+   "width_text": "P 49½",
+   "length_text": "P 54",
+   "confidence": "medium",
+   "spans": "width between the side walls; length from the door to the raised tribune at the far end",
+   "pixel_ratio": null,
+   "note": "Die Längenlinie endet an der Säulenstellung vor der Rückwand, nicht an der Rückwand."
+  },
+  {
+   "id": "T-IX",
+   "building": "Tempio di Antonino e Faustina",
+   "chapter": "IX",
+   "phys": 233,
+   "printed_page": "33",
+   "width_ft": 48.5,
+   "length_ft": 67,
+   "width_text": "P 48½",
+   "length_text": "P 67",
+   "confidence": "high",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": null,
+   "note": ""
+  },
+  {
+   "id": "T-XV",
+   "building": "Tempio di Marte (piazza de' Preti)",
+   "chapter": "XV",
+   "phys": 256,
+   "printed_page": "56",
+   "width_ft": 42.5,
+   "length_ft": 84.5,
+   "width_text": "P 42½",
+   "length_text": "P 84½",
+   "confidence": "high",
+   "spans": "cella interior between the walls with niches",
+   "pixel_ratio": null,
+   "note": ""
+  },
+  {
+   "id": "T-XIX",
+   "building": "Tempio di Giove Tonante",
+   "chapter": "XIX",
+   "phys": 271,
+   "printed_page": "71",
+   "width_ft": 29.5,
+   "length_ft": 48.5,
+   "width_text": "P 29½",
+   "length_text": "P 48½",
+   "confidence": "high",
+   "spans": "cella interior including the apse",
+   "pixel_ratio": null,
+   "note": ""
+  },
+  {
+   "id": "T-XXIX",
+   "building": "Altro tempio di Nîmes (Diana)",
+   "chapter": "XXIX",
+   "phys": 319,
+   "printed_page": "119",
+   "width_ft": 29.708333333333332,
+   "length_ft": 44.75,
+   "width_text": "P 29 Ꝺ 8½",
+   "length_text": "P 44¾",
+   "confidence": "high",
+   "spans": "hall interior between the walls with niches",
+   "pixel_ratio": null,
+   "note": ""
+  },
+  {
+   "id": "T-XXX",
+   "building": "Tempio della Concordia",
+   "chapter": "XXX",
+   "phys": 325,
+   "printed_page": "125",
+   "width_ft": 47.5,
+   "length_ft": 68,
+   "width_text": "P 47 ?",
+   "length_text": "P 68",
+   "confidence": "medium",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": null,
+   "note": "Nach '47' ein Bruchrest (Nenner 2?); als 47½ gelesen."
+  },
+  {
+   "id": "T-XXXI",
+   "building": "Tempio di Nettuno",
+   "chapter": "XXXI",
+   "phys": 329,
+   "printed_page": "129",
+   "width_ft": 44.25,
+   "length_ft": 66,
+   "width_text": "P 44 ?/4",
+   "length_text": "P 66",
+   "confidence": "medium",
+   "spans": "cella interior, wall to wall",
+   "pixel_ratio": null,
+   "note": "Zähler des Bruchs durch einen Fleck verdeckt; als ¼ gelesen."
+  }
+ ],
+ "excluded": [
+  {
+   "building": "Tempio della Pace (Basilica di Massenzio)",
+   "chapter": "VI",
+   "phys": 212,
+   "reason": "dreischiffige Gewölbehalle, keine Cella"
+  },
+  {
+   "building": "Tempio di Marte Vendicatore",
+   "chapter": "VII",
+   "phys": 216,
+   "reason": "nur Kleinplan mit Apsis; Maße nicht eindeutig zuzuordnen"
+  },
+  {
+   "building": "Tempij del Sole e della Luna",
+   "chapter": "X",
+   "phys": 237,
+   "reason": "zwei Cellae mit Apsiden und Nischen; keine eindeutige Länge"
+  },
+  {
+   "building": "Tempio di Giove (Quirinale)",
+   "chapter": "XII",
+   "phys": 242,
+   "reason": "Raumkomplex (Hof A, Galerien B), keine Cella mit Länge"
+  },
+  {
+   "building": "Tempio di Giove Statore",
+   "chapter": "XVIII",
+   "phys": 268,
+   "reason": "Breite P 49½ lesbar, Längenzahl nicht sicher lesbar"
+  },
+  {
+   "building": "Tempio di Castore e Polluce",
+   "chapter": "XXIV",
+   "phys": 296,
+   "reason": "kein Grundriss, nur Fassade"
+  },
+  {
+   "building": "Tempio sotto Trevi",
+   "chapter": "XXV",
+   "phys": 299,
+   "reason": "kleine Cella mit Apsis und Seitenarmen"
+  },
+  {
+   "building": "Rundbauten (Galluce, Vesta in Rom, Battistero, Tempietto, Pantheon, Bacco, S. Sebastiano, Vesta in Tivoli)",
+   "chapter": "XI, XIV, XVI, XVII, XX–XXIII",
+   "phys": null,
+   "reason": "kreisförmig oder vieleckig, kein Seitenverhältnis"
+  }
+ ]
+}
