@@ -1,0 +1,188 @@
+{
+ "source": {
+  "work": "Ottavio Bertotti Scamozzi, Le fabbriche e i disegni di Andrea Palladio, Vicenza 1776–1783",
+  "consulted_edition": "Nuova edizione italiana foggiata sulla vicentinese di Bertotti Scamozzi, ampliata e fornita di note dal cavaliere Celestino Foppiani, vol. IV, Genova: Giovanni Decamilli 1846",
+  "digital_copy": "https://digit.biblio.polito.it/5456/1/PALLADIO4.pdf (Politecnico di Torino); public domain",
+  "plates": {
+   "V": "Pianta (PDF p. 28)",
+   "VI": "Spaccato (PDF p. 27)",
+   "VII": "Altro spaccato (PDF p. 26)",
+   "VIII": "Prospetto (PDF p. 25)"
+  },
+  "text_pages": "pp. 21–24 (PDF pp. 29–32)",
+  "evidence_class": "C2",
+  "status_note": "Messung des gebauten Zustands im 18. Jahrhundert (Bertotti Scamozzi hat die Bauten selbst vermessen); Tafeln der Ausgabe 1846 nach der Vicentiner Ausgabe nachgestochen. Palladio selbst hat keinen Plan von San Giorgio veröffentlicht."
+ },
+ "unit": "Fuß : Zoll (piede : oncia, 12 Zoll = 1 Fuß); Bertotti misst in vicentinischen Fuß ('piedi Vicentini', z. B. Bd. IV, PDF S. 135)",
+ "scale_check": {
+  "image": "Tafel V aus dem PDF (3223 × 2487 px)",
+  "scale_bar": "0–60 Fuß = 709 px → 11.82 px/Fuß",
+  "note": "Jede beschriftete Maßzahl wurde mit der Maßleiste gegen die gezeichnete Strecke geprüft."
+ },
+ "plan_readings": [
+  {
+   "id": "SG-NAVE-W",
+   "space": "Mittelschiff",
+   "what": "lichte Breite zwischen den Pfeilern",
+   "label": "34:6",
+   "feet": 34.5,
+   "scaled_feet": 34.7,
+   "note": "Bertottis Text nennt 'piedi 34, oncie 8' (34,67)."
+  },
+  {
+   "id": "SG-AISLE-W",
+   "space": "Seitenschiff",
+   "what": "Breite von der Wand bis zur Pfeilerflucht",
+   "label": "18:5",
+   "feet": 18.42,
+   "scaled_feet": 18.2,
+   "note": "Letzte Ziffer 5 oder 3 (18:3 = 18,25); Bertottis Text: 'la metà di quella di mezzo'."
+  },
+  {
+   "id": "SG-PIER",
+   "space": "Mittelschiffpfeiler",
+   "what": "Pfeilerstärke quer zur Achse",
+   "label": "5:3",
+   "feet": 5.25
+  },
+  {
+   "id": "SG-NAVE-L",
+   "space": "Mittelschiff",
+   "what": "Länge von der Eingangswand bis zur Vierung (Innenflucht der Vierungspfeiler)",
+   "label": null,
+   "feet": 68.6,
+   "scaled_feet": 68.6,
+   "note": "nicht beschriftet; mit der Maßleiste gemessen (811 px). Bertottis Text: 'lunga sino alla tribuna quasi due larghezze'."
+  },
+  {
+   "id": "SG-CROSSING",
+   "space": "Vierung",
+   "what": "Durchmesser des eingeschriebenen Kuppelkreises",
+   "label": null,
+   "feet": 34.3,
+   "scaled_feet": 34.3,
+   "note": "mit der Maßleiste gemessen (405 px)."
+  },
+  {
+   "id": "SG-ARM",
+   "space": "Querhausarm",
+   "what": "Tiefe von der Vierung bis zum Ansatz der Apsis",
+   "label": "34:3",
+   "feet": 34.25,
+   "scaled_feet": 34.3
+  },
+  {
+   "id": "SG-TRANSEPT",
+   "space": "Querhaus",
+   "what": "Länge zwischen den Apsisansätzen",
+   "label": "96:10",
+   "feet": 96.83,
+   "scaled_feet": 96.9
+  },
+  {
+   "id": "SG-APSE",
+   "space": "Querhausapsis",
+   "what": "Tiefe der Halbkreisapsis",
+   "label": "16:9",
+   "feet": 16.75
+  },
+  {
+   "id": "SG-AXIS",
+   "space": "Mittelschiff bis Chorschranke",
+   "what": "Länge auf der Hauptachse von der Eingangswand bis zur Säulenschranke",
+   "label": "132:8",
+   "feet": 132.67,
+   "note": "Lage der Endpunkte aus Summe der Teilmaße erschlossen."
+  },
+  {
+   "id": "SG-PASSAGE",
+   "space": "Übergang Vierung–Presbyterium",
+   "what": "Tiefe des Durchgangs",
+   "label": "12:10",
+   "feet": 12.83,
+   "scaled_feet": 12.3
+  },
+  {
+   "id": "SG-ARCH-PRES",
+   "space": "Bogen ins Presbyterium",
+   "what": "lichte Weite",
+   "label": "31:4",
+   "feet": 31.33
+  },
+  {
+   "id": "SG-PRES-W",
+   "space": "Presbyterium",
+   "what": "Breite quer zur Achse",
+   "label": "41:4",
+   "feet": 41.33
+  },
+  {
+   "id": "SG-PRES-L",
+   "space": "Presbyterium",
+   "what": "Länge in Achsrichtung",
+   "label": "31:2",
+   "feet": 31.17
+  },
+  {
+   "id": "SG-CHOIR-W",
+   "space": "Mönchschor",
+   "what": "Breite",
+   "label": "34:3",
+   "feet": 34.25,
+   "note": "Chor nach Palladios Tod gebaut (Bertotti, S. 21, Anm. b)."
+  },
+  {
+   "id": "SG-CHOIR-L",
+   "space": "Mönchschor",
+   "what": "Länge in Achsrichtung einschließlich Apsis",
+   "label": "57:3",
+   "feet": 57.25,
+   "note": "Chor nach Palladios Tod gebaut."
+  }
+ ],
+ "text_statements": [
+  {
+   "id": "SG-T1",
+   "page": 21,
+   "quote": "La sua forma, come dice l'Inventore, è a croce. La larghezza interna è divisa in tre navate (tavola 5); la maggiore è larga piedi 34, oncie 8, e le due laterali, la metà di quella di mezzo. Le braccia della croce sono semicircolari; e nel mezzo, fra l'una e l'altra, vi è la tribuna coperta da una cupola"
+  },
+  {
+   "id": "SG-T2",
+   "page": 21,
+   "quote": "Un ordine composito a colonne e pilastri, posto sopra piedistalli alti la quarta parte delle colonne, regna tutto all'intorno della chiesa. L'altezza di queste colonne è 10 diametri e un quarto, e la trabeazione corrisponde alla quinta parte."
+  },
+  {
+   "id": "SG-T3",
+   "page": 22,
+   "quote": "Gli archi delle navate hanno la proporzione di due larghezze e mezza crescenti"
+  },
+  {
+   "id": "SG-T4",
+   "page": 22,
+   "quote": "La sua altezza dal suolo fino alla sommità della vòlta è intorno a piedi 61. Vi saranno indubitabilmente giuste proporzioni fra la lunghezza, la larghezza ed altezza; ma non ho potuto rinvenirle. Solamente conobbi che la navata principale è lunga sino alla tribuna quasi due larghezze."
+  },
+  {
+   "id": "SG-T5",
+   "page": 22,
+   "note": "Anmerkung a",
+   "quote": "se la vòlta fosse alzata secondo la media proporzionale aritmetica, che fra le tre medie è la più alta, oppure con la media contr'armonica; nel primo modo sarebbe alta intorno a piedi 51; nel secondo modo, piedi 56 e incirca quattro quinti; la troviamo all'incontro eseguita quasi 62 piedi. [...] Sembrami di vedere nell'altezza raddoppiata la larghezza."
+  },
+  {
+   "id": "SG-T6",
+   "page": 22,
+   "quote": "Il maestoso prospetto è decorato da un ordine composito, co' piedistalli sostenuti da un zocco alto piedi 3 (tavola 8), nell'altezza del quale sono contenuti sette gradini [...] Il piedestallo è alto quasi un terzo delle colonne; ed esse sono poco meno di 10 diametri. La trabeazione corrisponde alla loro quinta parte. [...] I pilastri di quest'ordine minore hanno 10 diametri di altezza. La loro trabeazione è la quinta parte. La proporzione d'ognuna delle ale col corpo principale, pare che si accosti a una seconda maggiore; e fra l'altezza e la larghezza di esso corpo, compreso lo zoccolo e il frontone, vi è una sesta minore."
+  },
+  {
+   "id": "SG-T7",
+   "page": 21,
+   "note": "Anmerkung b",
+   "quote": "Il coro certamente non è stato fabbricato al tempo del Palladio."
+  },
+  {
+   "id": "SG-T8",
+   "page": 23,
+   "quote": "La facciata, sappiamo di certo, ch'è stata costrutta dopo la di lui morte; e lo dice l'accurato signor Temanza, nella vita del Palladio [...]: Dunque nell'anno 1579 era compiuto l'interno della chiesa. Restava però a murarsi il coro, e restava anche da erigersi la facciata sul campo. Essendo poi morto il Palladio nell'anno seguente, quest'opere furono compiute con l'assistenza d'altro maestro. [...] La prima, che si terminasse dopo la morte del nostro Architetto, fu il coro. La facciata si rizzò poi sul principio del susseguente secolo XVII."
+  }
+ ],
+ "transcription_note": "Text nach dem Scan der Ausgabe 1846 gelesen (moderne Antiqua); Klammerverweise auf Foppianis Noten (24)–(38) weggelassen."
+}
