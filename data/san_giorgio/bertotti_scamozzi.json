@@ -159,13 +159,13 @@
   {
    "id": "SG-T4",
    "page": 22,
-   "quote": "La sua altezza dal suolo fino alla sommità della vòlta è intorno a piedi 61. Vi saranno indubitabilmente giuste proporzioni fra la lunghezza, la larghezza ed altezza; ma non ho potuto rinvenirle. Solamente conobbi che la navata principale è lunga sino alla tribuna quasi due larghezze."
+   "quote": "La sua altezza dal suolo fino alla sommità della vôlta è intorno a piedi 61. Vi saranno indubitabilmente giuste proporzioni fra la lunghezza, la larghezza ed altezza; ma non ho potuto rinvenirle. Solamente conobbi che la navata principale è lunga sino alla tribuna quasi due larghezze."
   },
   {
    "id": "SG-T5",
    "page": 22,
    "note": "Anmerkung a",
-   "quote": "se la vòlta fosse alzata secondo la media proporzionale aritmetica, che fra le tre medie è la più alta, oppure con la media contr'armonica; nel primo modo sarebbe alta intorno a piedi 51; nel secondo modo, piedi 56 e incirca quattro quinti; la troviamo all'incontro eseguita quasi 62 piedi. [...] Sembrami di vedere nell'altezza raddoppiata la larghezza."
+   "quote": "se la vôlta fosse alzata secondo la media proporzionale aritmetica, che fra le tre medie è la più alta, oppure con la media contr'armonica; nel primo modo sarebbe alta intorno a piedi 51; nel secondo modo, piedi 56 e incirca quattro quinti; la troviamo all'incontro eseguita quasi 62 piedi. [...] Sembrami di vedere nell'altezza raddoppiata la larghezza."
   },
   {
    "id": "SG-T6",
@@ -181,8 +181,202 @@
   {
    "id": "SG-T8",
    "page": 23,
-   "quote": "La facciata, sappiamo di certo, ch'è stata costrutta dopo la di lui morte; e lo dice l'accurato signor Temanza, nella vita del Palladio [...]: Dunque nell'anno 1579 era compiuto l'interno della chiesa. Restava però a murarsi il coro, e restava anche da erigersi la facciata sul campo. Essendo poi morto il Palladio nell'anno seguente, quest'opere furono compiute con l'assistenza d'altro maestro. [...] La prima, che si terminasse dopo la morte del nostro Architetto, fu il coro. La facciata si rizzò poi sul principio del susseguente secolo XVII."
+   "quote": "La facciata, sappiamo di certo, ch'è stata costrutta dopo la di lui morte; ce lo dice l'accurato signor Temanza, nella vita del Palladio [...]: Dunque nell'anno 1579 era compiuto l'interno della chiesa. Restava però a murarsi il coro, e restava anche da erigersi la facciata sul campo. Essendo poi morto il Palladio nell'anno seguente, quest'opere furono compiute con l'assistenza d'altro maestro. [...] La prima, che si terminasse dopo la morte del nostro Architetto, fu il coro. La facciata si rizzò poi sul principio del susseguente secolo XVII."
+  },
+  {
+   "id": "SG-T9",
+   "page": 21,
+   "quote": "Il tempio di cui presento i disegni, posseduto dai monaci Benedettini, fu il primo che per la capitale dello stato Veneto inventò il Palladio. Eretto in un'isola, guarda col suo prospetto il canal grande, e si vede dalla piazza di San Marco."
+  },
+  {
+   "id": "SG-T10",
+   "page": 21,
+   "quote": "vi è la tribuna coperta da una cupola composta di pietra cotta, al di dentro; e al di fuori, di legname coperto di piombo. Oltre le due cappelle maggiori, formate dalle braccia circolari della crociera, trovansene altre quattro in ognuno dei due lati del tempio. Rilevato dal suolo della tribuna tre gradini, si trova il santuario (tavola 6), dietro al quale vi è il coro, troppo minutamente ornato di nicchie, di statue, finestre, colonne, frontispizj."
+  },
+  {
+   "id": "SG-T11",
+   "page": 22,
+   "quote": "Da una vôlta di mezzo cerchio costrutta di mattoni è coperchiata la chiesa (tavola 7)."
+  },
+  {
+   "id": "SG-T12",
+   "page": 23,
+   "note": "Bertotti zitiert Sansovino (Venezia città nobilissima e singolare, lib. V) und äußert einen Verdacht",
+   "quote": "Mi si permetta di dire che parmi di vedere frammischiati alla magnificenza e grandiosità interna ed esterna di questo superbo tempio alcuni modi poco coerenti al purgato gusto del nostro Architetto. In difesa del mio non irragionevole sospetto riporterò ciò che scrive il Sansovino, parlando di questa chiesa. Parve ai governatori dei monaci di rifar la chiesa su la forma di un modello fatto altre volte; e avendone dato la cura ad Andrea Palladio, architetto di molto nome, fu ridotta in pochi anni al suo fine. [...] Coi documenti poc'anzi esposti sarebbe forse irragionevole il sospettare che da alcuno dei presidenti alla fabbrica fosse stato costretto il Palladio ad assoggettare il proprio genio a qualche già proposto modello, e ch'egli altro non avesse fatto che abbellire con quelle grazie, che gli erano naturali, l'invenzione altrui?"
+  },
+  {
+   "id": "SG-T13",
+   "page": 23,
+   "note": "Temanza, zitiert von Bertotti",
+   "quote": "Custodivasi intatto il di lui modello (di cui negli anni passati c'era ancor qualche avanzo) che servì poi di norma a chi in appresso fu destinato a soprantendervi."
   }
  ],
- "transcription_note": "Text nach dem Scan der Ausgabe 1846 gelesen (moderne Antiqua); Klammerverweise auf Foppianis Noten (24)–(38) weggelassen."
+ "transcription_note": "Text nach dem Scan der Ausgabe 1846 gelesen (moderne Antiqua); Klammerverweise auf Foppianis Noten (24)–(38) weggelassen. SG-T9 bis SG-T13 am 12.10.2026 am Scan gelesen; dabei SG-T4/T5 ('vôlta') und SG-T8 ('ce lo dice') berichtigt.",
+ "facade_scale": {
+  "image": "Tafel VIII aus dem PDF (1619 × 2487 px)",
+  "scale_bar": "0–60 Fuß = 695 px → 11.58 px/Fuß (Ausgleichsgerade über die Striche 0, 5, 10, 20, 30, 60: 11.577)",
+  "ground_line_y": 1941,
+  "note": "Die Beschriftungen der rechten Maßkette (große Ordnung) und der linken (kleine Ordnung) wurden Strecke für Strecke mit der Maßleiste verglichen. Der Säulendurchmesser ist nicht beschriftet und am Schaft über der Basis gemessen (vier Säulen, äußere Umrisslinie)."
+ },
+ "facade_readings": [
+  {
+   "id": "SG-F-ZOCCO",
+   "what": "Sockel (zocco) mit sieben Stufen",
+   "label": "2:11",
+   "feet": 2.917,
+   "scaled_feet": 2.81,
+   "note": "Bertotti: 'zocco alto piedi 3'"
+  },
+  {
+   "id": "SG-F-PED",
+   "what": "Postament der großen Ordnung (Fuß, Würfel, Deckgesims)",
+   "label": "3:4 + 8:1½ + 1:7¾",
+   "feet": 13.104,
+   "scaled_feet": 12.95,
+   "note": "Die Ziffern des Deckgesimses (1:7¾) sind nicht sicher lesbar; die gemessene Strecke ist maßgebend."
+  },
+  {
+   "id": "SG-F-COL",
+   "what": "Säule der großen Ordnung mit Basis und Kapitell",
+   "label": "40:4",
+   "feet": 40.333,
+   "scaled_feet": 40.76,
+   "note": ""
+  },
+  {
+   "id": "SG-F-CAP",
+   "what": "Kapitell der großen Ordnung",
+   "label": "4:7",
+   "feet": 4.583,
+   "scaled_feet": 4.49,
+   "note": ""
+  },
+  {
+   "id": "SG-F-ENT",
+   "what": "Gebälk der großen Ordnung (Architrav, Fries, Gesims)",
+   "label": "2:8 + 2:2 + 3:2½",
+   "feet": 8.042,
+   "scaled_feet": 8.2,
+   "note": ""
+  },
+  {
+   "id": "SG-F-D",
+   "what": "unterer Säulendurchmesser der großen Ordnung",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 4.17,
+   "note": "gemessen, nicht beschriftet: 47, 48, 49, 49 px (4,06–4,23 Fuß)"
+  },
+  {
+   "id": "SG-F-INT-SIDE",
+   "what": "lichter Säulenabstand der seitlichen Joche",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 8.33,
+   "note": "96 und 97 px"
+  },
+  {
+   "id": "SG-F-INT-MID",
+   "what": "lichter Säulenabstand des Mitteljochs (Portal)",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 16.75,
+   "note": "194 px"
+  },
+  {
+   "id": "SG-F-MINOR",
+   "what": "Pilaster der kleinen Ordnung (Flügel)",
+   "label": "30",
+   "feet": 30.0,
+   "scaled_feet": 30.48,
+   "note": ""
+  },
+  {
+   "id": "SG-F-MINOR-W",
+   "what": "Breite der Pilaster der kleinen Ordnung",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 2.85,
+   "note": "33 px"
+  },
+  {
+   "id": "SG-F-MINOR-ENT",
+   "what": "Gebälk der kleinen Ordnung",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 5.9,
+   "note": "68 px; die Teilmaße der Kette (1:11 …, 2:7) sind nur teilweise lesbar"
+  },
+  {
+   "id": "SG-F-BODY-H",
+   "what": "Mittelteil: Höhe vom Boden bis zum Giebelfirst, ohne Figuren",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 78.6,
+   "note": "910 px"
+  },
+  {
+   "id": "SG-F-BODY-W-COL",
+   "what": "Mittelteil: Breite über die Außenkanten der äußeren Säulen",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 50.1,
+   "note": "580 px"
+  },
+  {
+   "id": "SG-F-BODY-W-PED",
+   "what": "Mittelteil: Breite des Giebelgesimses",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 56.1,
+   "note": "650 px"
+  }
+ ],
+ "section_scale": {
+  "image": "Tafel VI (Längsschnitt) aus dem PDF (3223 × 2487 px)",
+  "calibration": "Bertottis Maß 60:8 (Boden bis Scheitel des Mittelschiffgewölbes) = 709,5 px → 11.70 px/Fuß; Boden bei y = 1883",
+  "note": "Die gedruckte Maßleiste liegt im Falz und ist verzerrt (30–60 Fuß = 338 px → 11.27 px/Fuß); sie wird nicht benutzt. Die Kalibrierung über 60:8 stimmt auf 1 % mit der Maßleiste des Grundrisses (11.82 px/Fuß) überein."
+ },
+ "section_readings": [
+  {
+   "id": "SG-S-VAULT",
+   "what": "Mittelschiff: Boden bis Gewölbescheitel",
+   "label": "60:8",
+   "feet": 60.667,
+   "scaled_feet": 60.667,
+   "note": "Kalibrierungsmaß; Bertottis Text: 'intorno a piedi 61', Anm. a: 'quasi 62'"
+  },
+  {
+   "id": "SG-S-DOME-D",
+   "what": "Kuppel innen: Durchmesser am Kämpfer",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 34.2,
+   "note": "400 px; Vierung im Grundriss 34½ Fuß"
+  },
+  {
+   "id": "SG-S-DOME-SPRING",
+   "what": "Kuppel: Mittelpunkt der Halbkugel über dem Boden",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 82.4,
+   "note": "Kreis durch vier Punkte der inneren Umrisslinie: Radius 200 ± 1 px, Mittelpunkt y = 919"
+  },
+  {
+   "id": "SG-S-DOME-CROWN",
+   "what": "Kuppel: Scheitel der inneren Schale (am Laternenring) über dem Boden",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 99.4,
+   "note": "y = 720; die Laterne reicht innen bis etwa 112 Fuß"
+  },
+  {
+   "id": "SG-S-DRUM-TOP",
+   "what": "Tambour: Gesims am Kuppelfuß über dem Boden",
+   "label": null,
+   "feet": null,
+   "scaled_feet": 79.7,
+   "note": "y = 950"
+  }
+ ]
 }

@@ -127,8 +127,8 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
 ## Nächste Schritte
 
 1. Die Kapitel von Buch II bis IV nach demselben Verfahren lesen.
-2. San Giorgio Maggiore an vermessenen Plänen prüfen. Bertotti Scamozzi,
-   *Le fabbriche e i disegni di Andrea Palladio*, Bd. IV, 1783, gemeinfrei,
-   enthält Grundriss, Schnitt und Ansicht mit Maßen.
+2. ~~San Giorgio Maggiore an vermessenen Plänen prüfen.~~ Erledigt mit Bertotti
+   Scamozzi, *Le fabbriche e i disegni di Andrea Palladio*, Bd. IV, 1783
+   (docs/15, docs/16).
 3. Die Regeln aus Buch I mit Buch IV abgleichen, ob die Säulenordnungen der Tempel
    den Maßen aus Buch I folgen.

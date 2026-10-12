@@ -1,7 +1,7 @@
 PYTHON ?= python3
 export PYTHONPATH := src
 
-.PHONY: pilot nullmodel design book4 local-review overnight-review test clean
+.PHONY: pilot nullmodel design book4 san-giorgio local-review overnight-review test clean
 
 pilot:
 	$(PYTHON) -m palladio_code.cli all
@@ -11,6 +11,9 @@ design:
 
 book4:
 	$(PYTHON) -m palladio_code.book4
+
+san-giorgio:
+	$(PYTHON) -m palladio_code.san_giorgio
 
 nullmodel:
 	$(PYTHON) -m palladio_code.nullmodel

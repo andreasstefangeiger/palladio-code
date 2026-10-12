@@ -81,13 +81,14 @@
    "book1": [],
    "book3": [],
    "book4": [
+    "B4-II-ORDINI",
     "B4-IV-RIF-I",
     "B4-V-RIF-ORNAMENTI",
     "B4-XVI-RIF",
     "B4-IV-EUSTILOS",
     "B4-V-PIEDESTILI"
    ],
-   "relation": "Verweis auf Buch I; dazu Palladios Urteil: Eustylos am schönsten, keine Postamente",
+   "relation": "Verweis auf Buch I; Tempel verlangen 'bellissimi ordini' mit den ihnen eigenen Ornamenten; dazu Palladios Urteil: Eustylos am schönsten, keine Postamente",
    "evidence": "A"
   },
   {
@@ -141,6 +142,57 @@
     "B4-V-CHIESE"
    ],
    "relation": "für die Seitenschiffe gilt die Basilika aus Buch III: Breite 1/3 bis 1/2 der Länge, Mittelraum zwei Quadrate, Seitengänge 1/3",
+   "evidence": "A"
+  },
+  {
+   "topic": "Ort und Lage",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-I-TOSCANI",
+    "B4-I-SITO",
+    "B4-I-ALTEZZA",
+    "B4-I-FRONTI",
+    "B4-I-FUORI"
+   ],
+   "relation": "nur Buch IV: die Antiken wählten den Ort nach der Gottheit; für Kirchen der edelste und sichtbarste Ort, erhöht und über Stufen, die Front über die Stadt, außerhalb der Stadt zu Straße oder Fluss",
+   "evidence": "A"
+  },
+  {
+   "topic": "Material, Farbe und Bilder",
+   "book1": [
+    "I.I.11"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-II-MATERIA",
+    "B4-II-BIANCO",
+    "B4-II-PITTURE"
+   ],
+   "relation": "Buch I: Basen, Kapitelle und Architrave aus Stein, das Übrige aus Ziegel; Buch IV steigert: das kostbarste Material, Weiß als passendste Farbe, keine Bilder, die von der Andacht ablenken",
+   "evidence": "A"
+  },
+  {
+   "topic": "Licht",
+   "book1": [
+    "I.XXV.12"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-XX-PANTHEON",
+    "B4-XXII-LUME"
+   ],
+   "relation": "keine Lichtregel für Tempel; Buch I bemisst Fenster nach der Raumgröße; Buch IV nennt nur das Licht des Pantheons (von oben) und einen 'alquanto oscuro' Tempel, 'come sono quasi tutti i tempij antichi'",
+   "evidence": "A"
+  },
+  {
+   "topic": "Raumprogramm",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-V-SACRESTIA"
+   ],
+   "relation": "nur Buch IV: Sakristei, Glockentürme, Wohnungen der Priester mit Kreuzgängen und Gärten",
    "evidence": "A"
   },
   {

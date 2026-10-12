@@ -30,7 +30,11 @@ def load(name: str) -> dict:
 
 
 def rule_ids() -> set[str]:
-    return {r["rule_id"] for r in json.loads((ROOT / "data/pilot_rules.json").read_text(encoding="utf-8"))}
+    """Ids of the pilot rules and of the rule catalogue (data/rules/book<N>.json)."""
+    ids = {r["rule_id"] for r in json.loads((ROOT / "data/pilot_rules.json").read_text(encoding="utf-8"))}
+    for path in sorted((ROOT / "data/rules").glob("book*.json")):
+        ids |= {r["id"] for r in json.loads(path.read_text(encoding="utf-8"))["rules"]}
+    return ids
 
 
 def validate(statements: dict, matrix: dict) -> list[str]:

@@ -18,7 +18,11 @@ Eine neue, systematische Proportionstheorie enthält es nicht.
    Lektüre der Vorrede und der Kap. I–V. Daraus wurden 39 Stellen erfasst, zusammen
    mit den Gegenstellen in Buch I (Kap. I, XXIII) und Buch III (Kap. XIX).
    Jede Stelle ist am Scan geprüft; 14 Lesefehler der Texterkennung wurden
-   korrigiert (`data/book4/text_statements.json`).
+   korrigiert (`data/book4/text_statements.json`). Später kamen 15 Stellen hinzu:
+   Ort (Kap. I), Ordnungen, Material, Farbe und Bilder (Kap. II), Raumprogramm
+   (Kap. V), Licht (Kap. XXII) sowie Belege aus den Vorreden zu Buch I und III. Sie
+   sind ebenfalls am Scan geprüft (14 weitere Lesefehler korrigiert). Insgesamt sind
+   es 54 Stellen; die Matrix hat 20 Themen.
 2. **Matrix.** Jedes Thema aus Buch I ist dem gegenübergestellt, was Buch IV dazu
    sagt (`data/book4/matrix.json`). Klasse A heißt: Die Beziehung steht so im Text.
    Klasse B heißt: Sie ist unsere Deutung mehrerer A-Stellen.
@@ -149,4 +153,4 @@ Die vollständige Matrix mit allen Belegnummern steht in `output/book4/matrix.md
 - Die antiken Bauten sind Palladios Rekonstruktionen („sono andato conietturando“,
   Vorrede). Gemessen wird also Palladios Bild der Antike.
 - Die Volltextsuche nutzt die e-rara-Texterkennung und kann Stellen übersehen. Alle
-  39 zitierten Stellen sind am Scan geprüft.
+  54 zitierten Stellen sind am Scan geprüft.

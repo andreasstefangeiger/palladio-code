@@ -79,6 +79,10 @@ ebenfalls gemessen. Alle übrigen Zahlen sind Bertottis Beschriftungen.
   - Das Mittelschiffgewölbe ist höher als jedes der drei Mittel. Für diesen Fall
     lässt Palladio selbst Raum: „altre altezze … secondo il suo giudicio“.
 
+Die übrigen Kriterien der Theorie prüft docs/16: Ort, Kreuzform, Fassade, Kuppel,
+Material, Farbe, Licht und Decorum. Dort sind auch die Fassade (Taf. VIII) und die
+Kuppel (Taf. VI) vermessen.
+
 ## Was nicht von Palladio stammt
 
 Bertotti (S. 21, Anm. b; S. 23, nach Temanza) überliefert:

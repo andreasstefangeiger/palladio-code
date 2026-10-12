@@ -95,6 +95,84 @@
       "verdict": "keines der drei Mittel; 'altre altezze … secondo il suo giudicio'"
     }
   ],
+  "facade": [
+    {
+      "rule": "Kompositsäule zehn Moduln",
+      "source": "I.XVIII.1",
+      "value": "9.7 Durchmesser (Säule 40:4 Fuß, Durchmesser gemessen 4.17 Fuß)",
+      "verdict": "erfüllt (Bertotti: 'poco meno di 10')"
+    },
+    {
+      "rule": "Postament der Kompositordnung ⅓ der Säule",
+      "source": "I.XVIII.2, I.XIX.3",
+      "value": "0.325 der Säule",
+      "verdict": "erfüllt"
+    },
+    {
+      "rule": "Gebälk ⅕ der Säule",
+      "source": "I.XVIII.4",
+      "value": "0.199 der Säule",
+      "verdict": "erfüllt"
+    },
+    {
+      "rule": "Gerade Säulenzahl, das Mitteljoch 'alquanto maggiore de gli altri'",
+      "source": "I.XIII.9",
+      "value": "vier Säulen; Mitteljoch 2.01-mal so weit wie die Seitenjoche (2.0 und 4.0 Durchmesser)",
+      "verdict": "teilweise: Mitteljoch vorhanden, aber doppelt so weit (Buch IV, Kap. V: 3 zu 2¼)"
+    },
+    {
+      "rule": "Säulenabstand bestimmt die Säulenhöhe: 2 D → 9½ D, 1½ D → 10 D",
+      "source": "I.XIII.8",
+      "value": "Seitenjoche 2.0 D bei Säulen von 9.7 D",
+      "verdict": "zwischen der korinthischen und der kompositen Kopplung"
+    },
+    {
+      "rule": "In Tempeln keine Postamente, die Säulen beginnen am Boden",
+      "source": "B4-V-PIEDESTILI",
+      "value": "Fassade auf Postamenten von ⅓, Innenraum auf Postamenten von ¼ (SG-T2)",
+      "verdict": "nicht erfüllt"
+    },
+    {
+      "rule": "Kleine Ordnung: Pilaster 10 Durchmesser, Gebälk ⅕ (Bertotti)",
+      "source": "SG-T6",
+      "value": "10.5 Breiten, Gebälk 0.197",
+      "verdict": "bestätigt"
+    },
+    {
+      "rule": "Höhe zu Breite des Mittelteils 'una sesta minore' (8:5, Bertotti)",
+      "source": "SG-T6",
+      "value": "1.57 über die äußeren Säulen, 1.40 über das Giebelgesims",
+      "verdict": "hängt an der Bezugsbreite; Bertottis Deutung, kein Maß Palladios"
+    }
+  ],
+  "dome": [
+    {
+      "rule": "Gewölbte quadratische Räume: Höhe = Breite + ⅓",
+      "source": "I.XXIII.2",
+      "value": "Vierung 34.5 Fuß → 46.0 Fuß; Kuppelscheitel 99.4 Fuß = 2.88 Breiten, schon die Vierungsbögen 60.7 Fuß",
+      "verdict": "nicht erfüllt (die Regel gilt für Räume, nicht für Vierungskuppeln)"
+    },
+    {
+      "rule": "Pantheon: Höhe bis zur Lichtöffnung = Durchmesser",
+      "source": "B4-XX-PANTHEON",
+      "value": "99.4 : 34.2 = 2.91",
+      "verdict": "nicht erfüllt"
+    },
+    {
+      "rule": "Kuppeldurchmesser und Vierung",
+      "source": "SG-S-DOME-D, SG-NAVE-W",
+      "value": "innen 34.2 Fuß, Vierung 34.5 Fuß; Schale innen eine Halbkugel",
+      "verdict": "Befund ohne Regel"
+    }
+  ],
+  "criteria_verdicts": {
+    "erfüllt": 6,
+    "nicht erfüllt": 2,
+    "Spielraum": 1,
+    "teilweise": 3,
+    "keine Regel": 5,
+    "offen": 3
+  },
   "seven_forms": {
     "hits": 4,
     "n": 4,

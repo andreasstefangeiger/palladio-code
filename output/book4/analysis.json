@@ -1,26 +1,28 @@
 {
   "text": {
-    "statements": 39,
+    "statements": 54,
     "by_kind": {
       "principle": 2,
-      "book1_context": 2,
-      "intensification": 4,
-      "theology": 4,
-      "method": 4,
+      "book1_context": 5,
+      "intensification": 6,
+      "theology": 6,
+      "method": 5,
+      "site": 5,
       "vitruvian_canon": 9,
       "back_reference": 5,
       "palladio_judgment": 3,
       "summary": 1,
-      "observation": 5
+      "observation": 6,
+      "programme": 1
     },
     "by_relation": {
-      "source": 4,
+      "source": 6,
       "same_principle": 4,
-      "new_justification": 4,
-      "none": 5,
-      "vitruvius": 8,
-      "parallel_to_book1": 2,
-      "not_in_book1": 2,
+      "new_justification": 6,
+      "none": 7,
+      "vitruvius": 9,
+      "not_in_book1": 9,
+      "parallel_to_book1": 3,
       "refers_to_book1": 4,
       "outside_seven_forms": 3,
       "refers_to_book3": 2,
@@ -72,7 +74,8 @@
       "B4-V-MONOPTEROS",
       "B4-V-PERIPTEROS",
       "B4-V-PORTICO-TONDO",
-      "B4-V-MODULO"
+      "B4-V-MODULO",
+      "B1-PROEM-VITRUVIO"
     ]
   },
   "plates": {
