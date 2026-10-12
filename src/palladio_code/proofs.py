@@ -78,7 +78,7 @@ def build_sheets(statements_path: Path, alto_path: Path, out_dir: Path, per_shee
     services = canvas_services()
     out_dir.mkdir(parents=True, exist_ok=True)
     records, crops = [], []
-    for st in data["statements"]:
+    for st in data.get("statements") or data.get("rules", []):
         box = locate(page_lines(alto_path, st["phys"]), *st["anchor"])
         image, url = fetch_region(services[st["phys"]], box)
         crops.append((st["id"], image))

@@ -1,0 +1,1735 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570; e-rara DOI 10.3931/e-rara-363",
+ "page_offset": {
+  "1": -4,
+  "2": -72,
+  "3": -152,
+  "4": -200
+ },
+ "title_policy": "Titles are normalised readings of the OCR chapter headings (u/v and spelling as printed). Heading positions are ALTO line indices.",
+ "status_vocabulary": {
+  "open": "not yet read for the catalogue",
+  "read": "read in full, rules being entered",
+  "extracted": "all rules entered",
+  "checked": "all rules scan-checked"
+ },
+ "chapters": [
+  {
+   "book": 1,
+   "chapter": "Proemio",
+   "title": "Proemio à i Lettori",
+   "start": {
+    "phys": 9,
+    "line": 3
+   },
+   "end": {
+    "phys": 10,
+    "line": 38
+   },
+   "printed_page_start": 5,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 2
+  },
+  {
+   "book": 1,
+   "chapter": "I",
+   "title": "Quali cose deono considerarsi, e prepararsi auanti che al fabricar si peruenga",
+   "start": {
+    "phys": 10,
+    "line": 38
+   },
+   "end": {
+    "phys": 11,
+    "line": 30
+   },
+   "printed_page_start": 6,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 13
+  },
+  {
+   "book": 1,
+   "chapter": "II",
+   "title": "De i legnami",
+   "start": {
+    "phys": 11,
+    "line": 30
+   },
+   "end": {
+    "phys": 11,
+    "line": 46
+   },
+   "printed_page_start": 7,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 7
+  },
+  {
+   "book": 1,
+   "chapter": "III",
+   "title": "Delle pietre",
+   "start": {
+    "phys": 11,
+    "line": 46
+   },
+   "end": {
+    "phys": 12,
+    "line": 13
+   },
+   "printed_page_start": 7,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 7
+  },
+  {
+   "book": 1,
+   "chapter": "IIII",
+   "title": "Dell'arena",
+   "start": {
+    "phys": 12,
+    "line": 13
+   },
+   "end": {
+    "phys": 12,
+    "line": 31
+   },
+   "printed_page_start": 8,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 3
+  },
+  {
+   "book": 1,
+   "chapter": "V",
+   "title": "Della calce, e modo d'impastarla",
+   "start": {
+    "phys": 12,
+    "line": 31
+   },
+   "end": {
+    "phys": 13,
+    "line": 2
+   },
+   "printed_page_start": 8,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 6
+  },
+  {
+   "book": 1,
+   "chapter": "VI",
+   "title": "De i metalli",
+   "start": {
+    "phys": 13,
+    "line": 2
+   },
+   "end": {
+    "phys": 14,
+    "line": 12
+   },
+   "printed_page_start": 9,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 3
+  },
+  {
+   "book": 1,
+   "chapter": "VII",
+   "title": "Delle qualità del terreno, oue s'hanno da poner le fondamenta",
+   "start": {
+    "phys": 14,
+    "line": 12
+   },
+   "end": {
+    "phys": 15,
+    "line": 7
+   },
+   "printed_page_start": 10,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 10
+  },
+  {
+   "book": 1,
+   "chapter": "VIII",
+   "title": "Delle fondamenta",
+   "start": {
+    "phys": 15,
+    "line": 7
+   },
+   "end": {
+    "phys": 15,
+    "line": 27
+   },
+   "printed_page_start": 11,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 5
+  },
+  {
+   "book": 1,
+   "chapter": "IX",
+   "title": "Delle maniere de' muri",
+   "start": {
+    "phys": 15,
+    "line": 27
+   },
+   "end": {
+    "phys": 18,
+    "line": 5
+   },
+   "printed_page_start": 11,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 6
+  },
+  {
+   "book": 1,
+   "chapter": "X",
+   "title": "Del modo che teneuano gli Antichi nel far gli edificij di pietra",
+   "start": {
+    "phys": 18,
+    "line": 5
+   },
+   "end": {
+    "phys": 18,
+    "line": 38
+   },
+   "printed_page_start": 14,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 5
+  },
+  {
+   "book": 1,
+   "chapter": "XI",
+   "title": "Delle diminutioni de' muri, et delle parti loro",
+   "start": {
+    "phys": 18,
+    "line": 38
+   },
+   "end": {
+    "phys": 19,
+    "line": 3
+   },
+   "printed_page_start": 14,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 6
+  },
+  {
+   "book": 1,
+   "chapter": "XII",
+   "title": "De' cinque ordini, che usarono gli Antichi",
+   "start": {
+    "phys": 19,
+    "line": 3
+   },
+   "end": {
+    "phys": 19,
+    "line": 21
+   },
+   "printed_page_start": 15,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 4
+  },
+  {
+   "book": 1,
+   "chapter": "XIII",
+   "title": "Della gonfiezza, e diminutione delle colonne, de gli intercolunnij, e de' pilastri",
+   "start": {
+    "phys": 19,
+    "line": 21
+   },
+   "end": {
+    "phys": 20,
+    "line": 44
+   },
+   "printed_page_start": 15,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 12
+  },
+  {
+   "book": 1,
+   "chapter": "XIIII",
+   "title": "Dell'ordine Toscano",
+   "start": {
+    "phys": 20,
+    "line": 44
+   },
+   "end": {
+    "phys": 26,
+    "line": 0
+   },
+   "printed_page_start": 16,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 8
+  },
+  {
+   "book": 1,
+   "chapter": "XV",
+   "title": "Dell'ordine Dorico",
+   "start": {
+    "phys": 26,
+    "line": 0
+   },
+   "end": {
+    "phys": 32,
+    "line": 2
+   },
+   "printed_page_start": 22,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 10
+  },
+  {
+   "book": 1,
+   "chapter": "XVI",
+   "title": "Dell'ordine Ionico",
+   "start": {
+    "phys": 32,
+    "line": 2
+   },
+   "end": {
+    "phys": 41,
+    "line": 3
+   },
+   "printed_page_start": 28,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 10
+  },
+  {
+   "book": 1,
+   "chapter": "XVII",
+   "title": "Dell'ordine Corinthio",
+   "start": {
+    "phys": 41,
+    "line": 3
+   },
+   "end": {
+    "phys": 48,
+    "line": 2
+   },
+   "printed_page_start": 37,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 5
+  },
+  {
+   "book": 1,
+   "chapter": "XVIII",
+   "title": "Dell'ordine Composito",
+   "start": {
+    "phys": 48,
+    "line": 2
+   },
+   "end": {
+    "phys": 55,
+    "line": 4
+   },
+   "printed_page_start": 44,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 4
+  },
+  {
+   "book": 1,
+   "chapter": "XIX",
+   "title": "De i piedestili",
+   "start": {
+    "phys": 55,
+    "line": 4
+   },
+   "end": {
+    "phys": 55,
+    "line": 29
+   },
+   "printed_page_start": 51,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 3
+  },
+  {
+   "book": 1,
+   "chapter": "XX",
+   "title": "De gli abusi",
+   "start": {
+    "phys": 55,
+    "line": 29
+   },
+   "end": {
+    "phys": 56,
+    "line": 26
+   },
+   "printed_page_start": 51,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 11
+  },
+  {
+   "book": 1,
+   "chapter": "XXI",
+   "title": "Delle loggie, dell'entrate, delle sale, e delle stanze: & della forma loro",
+   "start": {
+    "phys": 56,
+    "line": 26
+   },
+   "end": {
+    "phys": 57,
+    "line": 1
+   },
+   "printed_page_start": 52,
+   "prior_work": "pilot A-rules (docs/03)",
+   "status": "checked",
+   "rules": 5
+  },
+  {
+   "book": 1,
+   "chapter": "XXII",
+   "title": "De' pauimenti, e de' soffittati",
+   "start": {
+    "phys": 57,
+    "line": 1
+   },
+   "end": {
+    "phys": 57,
+    "line": 24
+   },
+   "printed_page_start": 53,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 5
+  },
+  {
+   "book": 1,
+   "chapter": "XXIII",
+   "title": "Dell'altezza delle stanze",
+   "start": {
+    "phys": 57,
+    "line": 24
+   },
+   "end": {
+    "phys": 58,
+    "line": 26
+   },
+   "printed_page_start": 53,
+   "prior_work": "pilot A-rules (docs/03); Book II test (docs/08-10)",
+   "status": "checked",
+   "rules": 6
+  },
+  {
+   "book": 1,
+   "chapter": "XXIIII",
+   "title": "Delle maniere de' uolti",
+   "start": {
+    "phys": 58,
+    "line": 26
+   },
+   "end": {
+    "phys": 59,
+    "line": 3
+   },
+   "printed_page_start": 54,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 2
+  },
+  {
+   "book": 1,
+   "chapter": "XXV",
+   "title": "Delle misure delle porte, e delle finestre",
+   "start": {
+    "phys": 59,
+    "line": 3
+   },
+   "end": {
+    "phys": 59,
+    "line": 43
+   },
+   "printed_page_start": 55,
+   "prior_work": "pilot A-rules (docs/03)",
+   "status": "checked",
+   "rules": 12
+  },
+  {
+   "book": 1,
+   "chapter": "XXVI",
+   "title": "De gli ornamenti delle porte, e delle finestre",
+   "start": {
+    "phys": 59,
+    "line": 43
+   },
+   "end": {
+    "phys": 64,
+    "line": 3
+   },
+   "printed_page_start": 55,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 6
+  },
+  {
+   "book": 1,
+   "chapter": "XXVII",
+   "title": "De' camini",
+   "start": {
+    "phys": 64,
+    "line": 3
+   },
+   "end": {
+    "phys": 64,
+    "line": 38
+   },
+   "printed_page_start": 60,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 4
+  },
+  {
+   "book": 1,
+   "chapter": "XXVIII",
+   "title": "Delle scale, e varie maniere di quelle, e del numero, e grandezza de' gradi",
+   "start": {
+    "phys": 64,
+    "line": 38
+   },
+   "end": {
+    "phys": 71,
+    "line": 3
+   },
+   "printed_page_start": 60,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 12
+  },
+  {
+   "book": 1,
+   "chapter": "XXIX",
+   "title": "De i coperti",
+   "start": {
+    "phys": 71,
+    "line": 3
+   },
+   "end": {
+    "phys": 72,
+    "line": null
+   },
+   "printed_page_start": 67,
+   "prior_work": "",
+   "status": "checked",
+   "rules": 4
+  },
+  {
+   "book": 2,
+   "chapter": "I",
+   "title": "Del decoro, o conuenienza, che si deue osseruar nelle fabriche priuate",
+   "start": {
+    "phys": 75,
+    "line": 5
+   },
+   "end": {
+    "phys": 75,
+    "line": 31
+   },
+   "printed_page_start": 3,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "II",
+   "title": "Del compartimento delle stanze, & d'altri luoghi",
+   "start": {
+    "phys": 75,
+    "line": 31
+   },
+   "end": {
+    "phys": 76,
+    "line": 18
+   },
+   "printed_page_start": 3,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "III",
+   "title": "De i disegni delle case della città",
+   "start": {
+    "phys": 76,
+    "line": 18
+   },
+   "end": {
+    "phys": 96,
+    "line": 1
+   },
+   "printed_page_start": 4,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "IIII",
+   "title": "Dell'atrio Toscano",
+   "start": {
+    "phys": 96,
+    "line": 1
+   },
+   "end": {
+    "phys": 99,
+    "line": 2
+   },
+   "printed_page_start": 24,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "V",
+   "title": "Dell'atrio di quattro colonne",
+   "start": {
+    "phys": 99,
+    "line": 2
+   },
+   "end": {
+    "phys": 101,
+    "line": 1
+   },
+   "printed_page_start": 27,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "VI",
+   "title": "Dell'atrio Corinthio",
+   "start": {
+    "phys": 101,
+    "line": 1
+   },
+   "end": {
+    "phys": 105,
+    "line": 3
+   },
+   "printed_page_start": 29,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "VII",
+   "title": "Dell'atrio testugginato, e della casa priuata de gli antichi Romani",
+   "start": {
+    "phys": 105,
+    "line": 3
+   },
+   "end": {
+    "phys": 108,
+    "line": 0
+   },
+   "printed_page_start": 33,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "VIII",
+   "title": "Delle sale di quattro colonne",
+   "start": {
+    "phys": 108,
+    "line": 0
+   },
+   "end": {
+    "phys": 110,
+    "line": 1
+   },
+   "printed_page_start": 36,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "IX",
+   "title": "Delle sale Corinthie",
+   "start": {
+    "phys": 110,
+    "line": 1
+   },
+   "end": {
+    "phys": 113,
+    "line": 2
+   },
+   "printed_page_start": 38,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "X",
+   "title": "Delle sale Egittie",
+   "start": {
+    "phys": 113,
+    "line": 2
+   },
+   "end": {
+    "phys": 115,
+    "line": 2
+   },
+   "printed_page_start": 41,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XI",
+   "title": "Delle case priuate de' Greci",
+   "start": {
+    "phys": 115,
+    "line": 2
+   },
+   "end": {
+    "phys": 117,
+    "line": 3
+   },
+   "printed_page_start": 43,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XII",
+   "title": "Del sito da eleggersi per le fabriche di Villa",
+   "start": {
+    "phys": 117,
+    "line": 3
+   },
+   "end": {
+    "phys": 118,
+    "line": 11
+   },
+   "printed_page_start": 45,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XIII",
+   "title": "Del compartimento delle case di Villa",
+   "start": {
+    "phys": 118,
+    "line": 11
+   },
+   "end": {
+    "phys": 119,
+    "line": 2
+   },
+   "printed_page_start": 46,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XIIII",
+   "title": "De i disegni delle case di Villa di alcuni nobili Venetiani",
+   "start": {
+    "phys": 119,
+    "line": 2
+   },
+   "end": {
+    "phys": 128,
+    "line": 2
+   },
+   "printed_page_start": 47,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XV",
+   "title": "De i disegni delle case di Villa di alcuni Gentil'huomini di Terra Ferma",
+   "start": {
+    "phys": 128,
+    "line": 2
+   },
+   "end": {
+    "phys": 141,
+    "line": 2
+   },
+   "printed_page_start": 56,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XVI",
+   "title": "Della casa di Villa de gli Antichi",
+   "start": {
+    "phys": 141,
+    "line": 2
+   },
+   "end": {
+    "phys": 143,
+    "line": 1
+   },
+   "printed_page_start": 69,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 2,
+   "chapter": "XVII",
+   "title": "Di alcune inuentioni secondo diuersi siti",
+   "start": {
+    "phys": 143,
+    "line": 1
+   },
+   "end": {
+    "phys": 154,
+    "line": null
+   },
+   "printed_page_start": 71,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "Proemio",
+   "title": "Proemio a i Lettori",
+   "start": {
+    "phys": 157,
+    "line": 3
+   },
+   "end": {
+    "phys": 159,
+    "line": 0
+   },
+   "printed_page_start": 5,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "I",
+   "title": "Delle vie",
+   "start": {
+    "phys": 159,
+    "line": 0
+   },
+   "end": {
+    "phys": 159,
+    "line": 47
+   },
+   "printed_page_start": 7,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "II",
+   "title": "Del compartimento delle vie dentro delle Città",
+   "start": {
+    "phys": 159,
+    "line": 47
+   },
+   "end": {
+    "phys": 160,
+    "line": 43
+   },
+   "printed_page_start": 7,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "III",
+   "title": "Delle vie fuori della Città",
+   "start": {
+    "phys": 160,
+    "line": 43
+   },
+   "end": {
+    "phys": 163,
+    "line": 3
+   },
+   "printed_page_start": 8,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "IIII",
+   "title": "Di quello, che nel fabricare i ponti si deue osseruare, e del sito che si deue eleggere",
+   "start": {
+    "phys": 163,
+    "line": 3
+   },
+   "end": {
+    "phys": 163,
+    "line": 40
+   },
+   "printed_page_start": 11,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "V",
+   "title": "De i ponti di legno, et di quelli auertimenti, che nell'edificarli si deuono hauere",
+   "start": {
+    "phys": 163,
+    "line": 40
+   },
+   "end": {
+    "phys": 164,
+    "line": 21
+   },
+   "printed_page_start": 11,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "VI",
+   "title": "Del ponte ordinato da Cesare sopra il Rheno",
+   "start": {
+    "phys": 164,
+    "line": 21
+   },
+   "end": {
+    "phys": 167,
+    "line": 2
+   },
+   "printed_page_start": 12,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "VII",
+   "title": "Del ponte del Cismone",
+   "start": {
+    "phys": 167,
+    "line": 2
+   },
+   "end": {
+    "phys": 168,
+    "line": 12
+   },
+   "printed_page_start": 15,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "VIII",
+   "title": "Di tre altre inuentioni secondo le quali si ponno fare i ponti di legno senza porre altrimenti pali nel fiume",
+   "start": {
+    "phys": 168,
+    "line": 12
+   },
+   "end": {
+    "phys": 171,
+    "line": 2
+   },
+   "printed_page_start": 16,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "IX",
+   "title": "Del ponte di Bassano",
+   "start": {
+    "phys": 171,
+    "line": 2
+   },
+   "end": {
+    "phys": 172,
+    "line": 24
+   },
+   "printed_page_start": 19,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "X",
+   "title": "De i ponti di pietra, e di quello che nell'edificarli si deue osseruare",
+   "start": {
+    "phys": 172,
+    "line": 24
+   },
+   "end": {
+    "phys": 173,
+    "line": 39
+   },
+   "printed_page_start": 20,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XI",
+   "title": "Di alcuni ponti celebri edificati da gli Antichi, e de' disegni del ponte di Rimino",
+   "start": {
+    "phys": 173,
+    "line": 39
+   },
+   "end": {
+    "phys": 176,
+    "line": 0
+   },
+   "printed_page_start": 21,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XII",
+   "title": "Del ponte di Vicenza, ch'è sopra il Bacchiglione",
+   "start": {
+    "phys": 176,
+    "line": 0
+   },
+   "end": {
+    "phys": 177,
+    "line": 2
+   },
+   "printed_page_start": 24,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XIII",
+   "title": "Di un ponte di pietra di mia inuentione",
+   "start": {
+    "phys": 177,
+    "line": 2
+   },
+   "end": {
+    "phys": 180,
+    "line": 2
+   },
+   "printed_page_start": 25,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XIIII",
+   "title": "Di un altro ponte di mia inuentione",
+   "start": {
+    "phys": 180,
+    "line": 2
+   },
+   "end": {
+    "phys": 182,
+    "line": 2
+   },
+   "printed_page_start": 28,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XV",
+   "title": "Del ponte di Vicenza, ch'è sopra il Rerone",
+   "start": {
+    "phys": 182,
+    "line": 2
+   },
+   "end": {
+    "phys": 183,
+    "line": 3
+   },
+   "printed_page_start": 30,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XVI",
+   "title": "Delle piazze, e de gli edificij, che intorno à quelle si fanno",
+   "start": {
+    "phys": 183,
+    "line": 3
+   },
+   "end": {
+    "phys": 184,
+    "line": 5
+   },
+   "printed_page_start": 31,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XVII",
+   "title": "Delle piazze de i Greci",
+   "start": {
+    "phys": 184,
+    "line": 5
+   },
+   "end": {
+    "phys": 187,
+    "line": 1
+   },
+   "printed_page_start": 32,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XVIII",
+   "title": "Delle piazze de' Latini",
+   "start": {
+    "phys": 187,
+    "line": 1
+   },
+   "end": {
+    "phys": 190,
+    "line": 1
+   },
+   "printed_page_start": 35,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XIX",
+   "title": "Delle Basiliche antiche",
+   "start": {
+    "phys": 190,
+    "line": 1
+   },
+   "end": {
+    "phys": 193,
+    "line": 2
+   },
+   "printed_page_start": 38,
+   "prior_work": "data/book4 statement B3-XIX-BASILICA",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XX",
+   "title": "Delle Basiliche de' nostri tempi, e de i disegni di quella di Vicenza",
+   "start": {
+    "phys": 193,
+    "line": 2
+   },
+   "end": {
+    "phys": 196,
+    "line": 1
+   },
+   "printed_page_start": 41,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 3,
+   "chapter": "XXI",
+   "title": "Delle Palestre, e de i Xisti de' Greci",
+   "start": {
+    "phys": 196,
+    "line": 1
+   },
+   "end": {
+    "phys": 199,
+    "line": null
+   },
+   "printed_page_start": 44,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "Proemio",
+   "title": "Proemio a i Lettori",
+   "start": {
+    "phys": 203,
+    "line": 4
+   },
+   "end": {
+    "phys": 205,
+    "line": 1
+   },
+   "printed_page_start": 3,
+   "prior_work": "data/book4 statements (docs/13)",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "I",
+   "title": "Del sito, che si deue eleggere per edificarui i Tempij",
+   "start": {
+    "phys": 205,
+    "line": 1
+   },
+   "end": {
+    "phys": 206,
+    "line": 1
+   },
+   "printed_page_start": 5,
+   "prior_work": "data/book4 statements",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "II",
+   "title": "Delle forme de' Tempij, et del Decoro, che in quelli si deue osseruare",
+   "start": {
+    "phys": 206,
+    "line": 1
+   },
+   "end": {
+    "phys": 207,
+    "line": 23
+   },
+   "printed_page_start": 6,
+   "prior_work": "data/book4 statements",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "III",
+   "title": "De gli aspetti de i Tempij",
+   "start": {
+    "phys": 207,
+    "line": 23
+   },
+   "end": {
+    "phys": 208,
+    "line": 33
+   },
+   "printed_page_start": 7,
+   "prior_work": "data/book4 statements",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "IIII",
+   "title": "Di cinque specie di Tempij",
+   "start": {
+    "phys": 208,
+    "line": 33
+   },
+   "end": {
+    "phys": 209,
+    "line": 19
+   },
+   "printed_page_start": 8,
+   "prior_work": "data/book4 statements",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "V",
+   "title": "Del compartimento de i Tempij",
+   "start": {
+    "phys": 209,
+    "line": 19
+   },
+   "end": {
+    "phys": 211,
+    "line": 2
+   },
+   "printed_page_start": 9,
+   "prior_work": "data/book4 statements",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "VI",
+   "title": "De i disegni di alcuni Tempij antichi che sono in Roma, e prima di quello della Pace",
+   "start": {
+    "phys": 211,
+    "line": 2
+   },
+   "end": {
+    "phys": 215,
+    "line": 2
+   },
+   "printed_page_start": 11,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "VII",
+   "title": "Del tempio di Marte Vendicatore",
+   "start": {
+    "phys": 215,
+    "line": 2
+   },
+   "end": {
+    "phys": 223,
+    "line": 2
+   },
+   "printed_page_start": 15,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "VIII",
+   "title": "Del tempio di Nerua Traiano",
+   "start": {
+    "phys": 223,
+    "line": 2
+   },
+   "end": {
+    "phys": 230,
+    "line": 1
+   },
+   "printed_page_start": 23,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "IX",
+   "title": "Del tempio d'Antonino e di Faustina",
+   "start": {
+    "phys": 230,
+    "line": 1
+   },
+   "end": {
+    "phys": 236,
+    "line": 1
+   },
+   "printed_page_start": 30,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "X",
+   "title": "De i tempij del Sole, e della Luna",
+   "start": {
+    "phys": 236,
+    "line": 1
+   },
+   "end": {
+    "phys": 239,
+    "line": 2
+   },
+   "printed_page_start": 36,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XI",
+   "title": "Del tempio vulgarmente detto le Galluce",
+   "start": {
+    "phys": 239,
+    "line": 2
+   },
+   "end": {
+    "phys": 241,
+    "line": 1
+   },
+   "printed_page_start": 39,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XII",
+   "title": "Del tempio di Gioue",
+   "start": {
+    "phys": 241,
+    "line": 1
+   },
+   "end": {
+    "phys": 248,
+    "line": 2
+   },
+   "printed_page_start": 41,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XIII",
+   "title": "Del tempio della Fortuna Virile",
+   "start": {
+    "phys": 248,
+    "line": 2
+   },
+   "end": {
+    "phys": 252,
+    "line": 2
+   },
+   "printed_page_start": 48,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XIIII",
+   "title": "Del tempio di Vesta",
+   "start": {
+    "phys": 252,
+    "line": 2
+   },
+   "end": {
+    "phys": 255,
+    "line": 2
+   },
+   "printed_page_start": 52,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XV",
+   "title": "Del tempio di Marte",
+   "start": {
+    "phys": 255,
+    "line": 2
+   },
+   "end": {
+    "phys": 261,
+    "line": 2
+   },
+   "printed_page_start": 55,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XVI",
+   "title": "Del Battesmo di Costantino",
+   "start": {
+    "phys": 261,
+    "line": 2
+   },
+   "end": {
+    "phys": 264,
+    "line": 1
+   },
+   "printed_page_start": 61,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XVII",
+   "title": "Del tempio di Bramante",
+   "start": {
+    "phys": 264,
+    "line": 1
+   },
+   "end": {
+    "phys": 267,
+    "line": 2
+   },
+   "printed_page_start": 64,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XVIII",
+   "title": "Del tempio di Gioue Statore",
+   "start": {
+    "phys": 267,
+    "line": 2
+   },
+   "end": {
+    "phys": 270,
+    "line": 1
+   },
+   "printed_page_start": 67,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XIX",
+   "title": "Del tempio di Gioue Tonante",
+   "start": {
+    "phys": 270,
+    "line": 1
+   },
+   "end": {
+    "phys": 273,
+    "line": 2
+   },
+   "printed_page_start": 70,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XX",
+   "title": "Del Pantheon hoggi detto la Ritonda",
+   "start": {
+    "phys": 273,
+    "line": 2
+   },
+   "end": {
+    "phys": 285,
+    "line": 2
+   },
+   "printed_page_start": 73,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXI",
+   "title": "De i disegni di alcuni Tempij, che sono fuori di Roma, e per Italia, e prima del Tempio di Bacco",
+   "start": {
+    "phys": 285,
+    "line": 2
+   },
+   "end": {
+    "phys": 288,
+    "line": 2
+   },
+   "printed_page_start": 85,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXII",
+   "title": "Del tempio i cui vestigi si veggono vicino alla Chiesa di Santo Sebastiano sopra la via Appia",
+   "start": {
+    "phys": 288,
+    "line": 2
+   },
+   "end": {
+    "phys": 290,
+    "line": 2
+   },
+   "printed_page_start": 88,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXIII",
+   "title": "Del tempio di Vesta (Tivoli)",
+   "start": {
+    "phys": 290,
+    "line": 2
+   },
+   "end": {
+    "phys": 295,
+    "line": 1
+   },
+   "printed_page_start": 90,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXIIII",
+   "title": "Del tempio di Castore, e di Polluce",
+   "start": {
+    "phys": 295,
+    "line": 1
+   },
+   "end": {
+    "phys": 298,
+    "line": 2
+   },
+   "printed_page_start": 95,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXV",
+   "title": "Del tempio ch'è sotto Treui",
+   "start": {
+    "phys": 298,
+    "line": 2
+   },
+   "end": {
+    "phys": 303,
+    "line": 2
+   },
+   "printed_page_start": 98,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXVI",
+   "title": "Del tempio di Scisi",
+   "start": {
+    "phys": 303,
+    "line": 2
+   },
+   "end": {
+    "phys": 307,
+    "line": 3
+   },
+   "printed_page_start": 103,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXVII",
+   "title": "De i disegni di alcuni Tempij, che sono fuori d'Italia, & prima de' due Tempij di Pola",
+   "start": {
+    "phys": 307,
+    "line": 3
+   },
+   "end": {
+    "phys": 311,
+    "line": 3
+   },
+   "printed_page_start": 107,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXVIII",
+   "title": "Di due Tempij di Nimes, e prima di quello, ch'è detto la Maison Quarrée",
+   "start": {
+    "phys": 311,
+    "line": 3
+   },
+   "end": {
+    "phys": 318,
+    "line": 2
+   },
+   "printed_page_start": 111,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXIX",
+   "title": "Dell'altro tempio di Nimes",
+   "start": {
+    "phys": 318,
+    "line": 2
+   },
+   "end": {
+    "phys": 324,
+    "line": 3
+   },
+   "printed_page_start": 118,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXX",
+   "title": "Di due altri Tempij di Roma, e prima di quello della Concordia",
+   "start": {
+    "phys": 324,
+    "line": 3
+   },
+   "end": {
+    "phys": 328,
+    "line": 2
+   },
+   "printed_page_start": 124,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  },
+  {
+   "book": 4,
+   "chapter": "XXXI",
+   "title": "Del tempio di Nettuno",
+   "start": {
+    "phys": 328,
+    "line": 2
+   },
+   "end": {
+    "phys": 334,
+    "line": null
+   },
+   "printed_page_start": 128,
+   "prior_work": "",
+   "status": "open",
+   "rules": 0
+  }
+ ]
+}
