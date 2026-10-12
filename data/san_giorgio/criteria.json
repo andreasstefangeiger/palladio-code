@@ -1,0 +1,459 @@
+{
+ "question": "Was verlangt Palladios Theorie, und was ist an San Giorgio Maggiore gebaut?",
+ "evidence_policy": "Theorie: nur am Druck von 1570 geprüfte Stellen (Klasse A; Ids aus data/rules und data/book4). Bau: Bertotti Scamozzis Aufnahme (Klasse C2; Ids aus data/san_giorgio/bertotti_scamozzi.json). Wo keine Id steht, fehlt im Repository ein Beleg für den Bau; das Urteil lautet dann 'offen'.",
+ "verdicts": {
+  "erfüllt": "der Bau folgt der Regel (Maße auf wenige Prozent)",
+  "teilweise": "ein Teil der Regel ist erfüllt, ein anderer nicht",
+  "Spielraum": "keine der genannten Regeln, aber durch Palladios eigenen Vorbehalt gedeckt",
+  "nicht erfüllt": "der Bau weicht von der Regel ab",
+  "keine Regel": "Palladio gibt dafür keine Regel; der Bau lässt sich nicht an ihm messen",
+  "offen": "mit den Quellen im Repository nicht prüfbar"
+ },
+ "periods": {
+  "Palladio": "gebaut bis 1579, zu Palladios Lebzeiten (Temanza bei Bertotti, S. 23)",
+  "nach Palladio": "Chor und Fassade, nach seinem Tod (1580) und nach seinem Modell ausgeführt"
+ },
+ "criteria": [
+  {
+   "id": "SG-K-ORT",
+   "criterion": "Ort und Lage",
+   "theory": {
+    "text": "Die Antiken wählten den Ort nach der Gottheit. Für Kirchen verlangt Palladio den edelsten und bekanntesten Teil der Stadt, Plätze, auf die viele Straßen münden, und Sichtbarkeit von allen Seiten. Fehlt ein Hügel, wird der Boden erhöht und über Stufen erreicht. Die Front soll über einen großen Teil der Stadt blicken, 'come per custode, & protetrice de' Cittadini'. Vor der Stadt blickt sie auf Straßen oder Flüsse.",
+    "sources": [
+     "B4-I-TOSCANI",
+     "B4-I-SITO",
+     "B4-I-ALTEZZA",
+     "B4-I-FRONTI",
+     "B4-I-FUORI"
+    ]
+   },
+   "built": {
+    "text": "Auf einer Insel, die Front zum Wasser, sichtbar von der Piazza San Marco. Ein Sockel von 3 Fuß mit sieben Stufen hebt die Kirche an.",
+    "sources": [
+     "SG-T9",
+     "SG-T6",
+     "SG-F-ZOCCO"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "Palladio",
+   "note": "Statt eines Platzes mit Straßen liegt Wasser vor der Front; das entspricht Palladios Regel für Tempel vor der Stadt ('sopra i fiumi'). Die Erhöhung ist mäßig."
+  },
+  {
+   "id": "SG-K-FORM",
+   "criterion": "Grundform Kreuz",
+   "theory": {
+    "text": "Rund und Viereck sind die schönsten Formen. Gelobt werden auch Kirchen in Kreuzform: am Fuß der Eingang, gegenüber Hochaltar und Chor, in den Armen zwei weitere Eingänge oder Altäre. Sie stellen 'quel legno, dal quale stete pendente la salute nostra' vor Augen. 'Et di questa forma io ho fatto la Chiesa di San Giorgio Maggiore in Venetia.'",
+    "sources": [
+     "B4-II-FORME",
+     "B4-II-CROCE"
+    ]
+   },
+   "built": {
+    "text": "Lateinisches Kreuz. In den halbrunden Querarmen liegen die zwei Hauptkapellen, am Kopf Presbyterium und Chor.",
+    "sources": [
+     "SG-T1",
+     "SG-T10"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "Palladio",
+   "note": "Palladio nennt San Giorgio selbst als Beispiel der Kreuzform (IV, II, S. 7)."
+  },
+  {
+   "id": "SG-K-RAUM",
+   "criterion": "Raumformen",
+   "theory": {
+    "text": "Sieben schönste Raumformen: rund, 1:1, √2, 4:3, 3:2, 5:3, 2:1. Säle nicht länger als zwei Quadrate. Die Regeln aus Buch I gelten 'in tutti gli edificij così publici, come priuati'.",
+    "sources": [
+     "I.XXI.5",
+     "I.XXI.3",
+     "I.Proemio.2"
+    ]
+   },
+   "built": {
+    "text": "Mittelschiff 2:1 (1,99), Vierung 1:1 (1,01), Querarme 1:1 (1,01), Presbyterium 4:3 (1,33). Der spätere Chor misst 5:3.",
+    "sources": [
+     "SG-NAVE-W",
+     "SG-NAVE-L",
+     "SG-CROSSING",
+     "SG-ARM",
+     "SG-PRES-W",
+     "SG-PRES-L"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "Palladio",
+   "note": "Alle vier Räume treffen auf 1 % (Zufall je Raum 15 %, p ≈ 0,0005). Die Treffer sind aber nicht unabhängig: Eine Kuppel verlangt eine quadratische Vierung, die Querarme haben die Breite des Mittelschiffs."
+  },
+  {
+   "id": "SG-K-SEITENSCHIFF",
+   "criterion": "Seitenschiffe",
+   "theory": {
+    "text": "Die Kirchen gleichen den Basiliken mit inneren Säulengängen. In Palladios Basilika sind die Seitengänge ein Drittel des Mittelraums breit.",
+    "sources": [
+     "B4-V-CHIESE",
+     "B3-XIX-BASILICA"
+    ]
+   },
+   "built": {
+    "text": "Die Seitenschiffe sind 0,53 der Mittelschiffbreite (Bertotti: 'la metà').",
+    "sources": [
+     "SG-AISLE-W",
+     "SG-NAVE-W",
+     "SG-T1"
+    ]
+   },
+   "verdict": "nicht erfüllt",
+   "period": "Palladio",
+   "note": ""
+  },
+  {
+   "id": "SG-K-HOEHE",
+   "criterion": "Gewölbehöhe des Mittelschiffs",
+   "theory": {
+    "text": "Gewölbehöhe nach einem der drei Verfahren aus Länge und Breite (die späteren Namen: arithmetisches, geometrisches, harmonisches Mittel). 'Sono ancora altre altezze di uolti; lequali non cascano sotto regola': für sie gilt das Urteil des Architekten.",
+    "sources": [
+     "I.XXIII.3",
+     "I.XXIII.4",
+     "I.XXIII.5",
+     "I.XXIII.6",
+     "B1-XXIII-GIUDICIO"
+    ]
+   },
+   "built": {
+    "text": "60:8 Fuß bis zum Scheitel. Die drei Mittel ergäben 46 bis 52 Fuß. Bertotti fand keine Proportion.",
+    "sources": [
+     "SG-S-VAULT",
+     "SG-T4",
+     "SG-T5"
+    ]
+   },
+   "verdict": "Spielraum",
+   "period": "Palladio",
+   "note": ""
+  },
+  {
+   "id": "SG-K-ORDNUNG-INNEN",
+   "criterion": "Säulenordnung im Innenraum",
+   "theory": {
+    "text": "Kompositsäule 10 Moduln, Gebälk ⅕, Bogenöffnung 2½ Quadrate hoch, Postament ⅓ der Säule. Das Postament von ¼ gehört zur korinthischen Ordnung.",
+    "sources": [
+     "I.XVIII.1",
+     "I.XVIII.2",
+     "I.XVIII.4",
+     "I.XIX.3"
+    ]
+   },
+   "built": {
+    "text": "Kompositsäulen von 10¼ Durchmessern, Gebälk ⅕, Arkaden 2½ Breiten hoch, Postamente ¼ der Säule.",
+    "sources": [
+     "SG-T2",
+     "SG-T3"
+    ]
+   },
+   "verdict": "teilweise",
+   "period": "Palladio",
+   "note": "Nur das Postament weicht ab; es hat das korinthische Maß."
+  },
+  {
+   "id": "SG-K-POSTAMENT",
+   "criterion": "Postamente im Kirchenraum",
+   "theory": {
+    "text": "In antiken Tempeln stehen die Säulen ohne Postament am Boden, 'ilche molto più mi piace'. Postamente behindern den Eintritt; Säulen vom Boden wirken größer und prächtiger.",
+    "sources": [
+     "B4-V-PIEDESTILI"
+    ]
+   },
+   "built": {
+    "text": "Innen stehen die Säulen auf Postamenten von ¼, an der Fassade auf Postamenten von ⅓.",
+    "sources": [
+     "SG-T2",
+     "SG-T6",
+     "SG-F-PED"
+    ]
+   },
+   "verdict": "nicht erfüllt",
+   "period": "Palladio",
+   "note": "Der Innenraum entstand zu Palladios Lebzeiten; das Buch mit diesem Urteil erschien 1570, während des Baus."
+  },
+  {
+   "id": "SG-K-FASSADE-ORDNUNG",
+   "criterion": "Große Ordnung der Fassade",
+   "theory": {
+    "text": "Kompositsäule 10 Moduln, Postament ⅓, Gebälk ⅕.",
+    "sources": [
+     "I.XVIII.1",
+     "I.XVIII.2",
+     "I.XVIII.4"
+    ]
+   },
+   "built": {
+    "text": "Säule 40:4 Fuß bei gemessenem Durchmesser 4,17 Fuß: 9,7 Durchmesser (Bertotti: 'poco meno di 10'). Postament 0,325 und Gebälk 0,199 der Säule. Die Pilaster der Flügel messen 10 Durchmesser, ihr Gebälk ⅕.",
+    "sources": [
+     "SG-F-COL",
+     "SG-F-D",
+     "SG-F-PED",
+     "SG-F-ENT",
+     "SG-F-MINOR",
+     "SG-F-MINOR-W",
+     "SG-F-MINOR-ENT",
+     "SG-T6"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "nach Palladio",
+   "note": ""
+  },
+  {
+   "id": "SG-K-FASSADE-JOCHE",
+   "criterion": "Säulenstellung der Fassade",
+   "theory": {
+    "text": "An der Front eine gerade Säulenzahl, damit in der Mitte ein Joch liegt, 'alquanto maggiore de gli altri'. Beim vitruvianischen Viersäuler (IV, V) misst das Mitteljoch 3, die Seitenjoche 2¼ Moduln. Säulenabstand und Säulenhöhe sind gekoppelt: 2 D Abstand gehört zu 9½ D Säulenhöhe (korinthisch), 1½ D zu 10 D (komposit).",
+    "sources": [
+     "I.XIII.9",
+     "B4-V-MODULO",
+     "I.XIII.8"
+    ]
+   },
+   "built": {
+    "text": "Vier Säulen. Das Mitteljoch ist mit 4,0 D doppelt so weit wie die Seitenjoche mit 2,0 D. Die Säulen messen 9,7 D.",
+    "sources": [
+     "SG-F-INT-SIDE",
+     "SG-F-INT-MID",
+     "SG-F-D",
+     "SG-F-COL"
+    ]
+   },
+   "verdict": "teilweise",
+   "period": "nach Palladio",
+   "note": "Ein Mitteljoch ist da, aber weit mehr als 'alquanto'. Die Kopplung liegt zwischen der korinthischen und der kompositen."
+  },
+  {
+   "id": "SG-K-GROESSE",
+   "criterion": "Größe und Pracht",
+   "theory": {
+    "text": "Tempel brauchen weite Säulenhallen mit größeren Säulen als andere Bauten. Sie sollen groß und prächtig sein, aber nicht größer, als die Stadt verlangt, und 'con bellissimi ordini di colonne'. Für Kirchen gilt größere Sorgfalt als für Wohnhäuser; dort zählt die Würde, hier die Bequemlichkeit.",
+    "sources": [
+     "B4-II-PROPORTIONI",
+     "B4-II-ORDINI",
+     "B4-PROEM-2"
+    ]
+   },
+   "built": {
+    "text": "Die große Ordnung der Fassade misst 40 Fuß.",
+    "sources": [
+     "SG-F-COL",
+     "SG-T6"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "nach Palladio",
+   "note": "nur qualitativ prüfbar"
+  },
+  {
+   "id": "SG-K-KUPPEL",
+   "criterion": "Kuppel",
+   "theory": {
+    "text": "Für die Vierungskuppel einer Kirche gibt Palladio keine Regel. In Buch I sind gewölbte quadratische Räume so hoch wie die Breite plus ein Drittel. Buch IV kennt nur zwei Maße: Vitruvs Rundtempel mit einer Kuppel über dem Gebälk, die halb so hoch ist wie das ganze Werk, und das Pantheon, so hoch bis zur Lichtöffnung wie breit.",
+    "sources": [
+     "I.XXIII.2",
+     "B4-V-PERIPTEROS",
+     "B4-XX-PANTHEON"
+    ]
+   },
+   "built": {
+    "text": "Innen eine Halbkugel von 34,2 Fuß Durchmesser über einem Tambour mit Fenstern; der Durchmesser entspricht der Vierung. Der Scheitel liegt 99 Fuß über dem Boden: 2,9 Vierungsbreiten statt 4/3, Höhe zu Durchmesser 2,9 statt 1. Die innere Schale ist aus Backstein, die äußere aus Holz mit Blei.",
+    "sources": [
+     "SG-S-DOME-D",
+     "SG-S-DOME-SPRING",
+     "SG-S-DOME-CROWN",
+     "SG-S-DRUM-TOP",
+     "SG-CROSSING",
+     "SG-T10"
+    ]
+   },
+   "verdict": "keine Regel",
+   "period": "Palladio",
+   "note": "Die Vermutung h = 4/3 w ist widerlegt; schon die Vierungsbögen reichen 61 Fuß hoch. Nach Temanza war das Innere 1579 fertig; eine eigene Angabe zur Kuppel fehlt."
+  },
+  {
+   "id": "SG-K-MATERIAL",
+   "criterion": "Material",
+   "theory": {
+    "text": "Buch I: Basen, Kapitelle und Architrave aus Stein, alles Übrige aus Ziegel. Buch IV steigert für Tempel: 'materia eccellentissima, & della piu preciosa', damit Form, Schmuck und Material Gott ehren.",
+    "sources": [
+     "I.I.11",
+     "B4-II-MATERIA"
+    ]
+   },
+   "built": {
+    "text": "Das Gewölbe ist aus Ziegeln. Die Kuppel ist innen aus Backstein, außen aus Holz mit Blei.",
+    "sources": [
+     "SG-T10",
+     "SG-T11"
+    ]
+   },
+   "verdict": "teilweise",
+   "period": "Palladio",
+   "note": "Die Bauweise folgt Buch I. Ob Fassade und Säulen die Steigerung aus Buch IV einlösen, ist im Repository nicht belegt."
+  },
+  {
+   "id": "SG-K-FARBE",
+   "criterion": "Farbe",
+   "theory": {
+    "text": "Keine Farbe passt besser zu Tempeln als Weiß, 'conciosiache la purità del colore, e della uita sia sommamente grata à DIO'.",
+    "sources": [
+     "B4-II-BIANCO"
+    ]
+   },
+   "built": {
+    "text": "Bertottis Stiche zeigen keine Farbe.",
+    "sources": []
+   },
+   "verdict": "offen",
+   "period": "Palladio",
+   "note": "Für die Farbe des Innenraums fehlt im Repository ein Beleg."
+  },
+  {
+   "id": "SG-K-BILDER",
+   "criterion": "Bilder",
+   "theory": {
+    "text": "Malerei nur, wenn sie das Gemüt nicht von der Betrachtung der göttlichen Dinge ablenkt.",
+    "sources": [
+     "B4-II-PITTURE"
+    ]
+   },
+   "built": {
+    "text": "Die Ausstattung ist nicht Gegenstand der Bauaufnahme.",
+    "sources": []
+   },
+   "verdict": "offen",
+   "period": "nach Palladio",
+   "note": ""
+  },
+  {
+   "id": "SG-K-LICHT",
+   "criterion": "Licht",
+   "theory": {
+    "text": "Für Kirchen gibt Palladio keine Lichtregel; Buch I bemisst Fenster nach der Raumgröße. Buch IV beschreibt nur das Licht des Pantheons durch die Öffnung oben und einen Tempel 'alquanto oscuro, come sono quasi tutti i tempij antichi'.",
+    "sources": [
+     "I.XXV.12",
+     "B4-XX-PANTHEON",
+     "B4-XXII-LUME"
+    ]
+   },
+   "built": {
+    "text": "Der Längsschnitt (Taf. VI) zeigt Fenster im Tambour, in der Laterne und in den Lünetten des Mittelschiffs.",
+    "sources": []
+   },
+   "verdict": "keine Regel",
+   "period": "Palladio",
+   "note": "Die Helligkeit des Innenraums lässt sich mit Palladios Text weder belegen noch widerlegen."
+  },
+  {
+   "id": "SG-K-DECORUM",
+   "criterion": "Decorum der Säulenordnung",
+   "theory": {
+    "text": "Nach Vitruv ordneten die Antiken Säulenordnungen Göttern zu: Dorisch Minerva, Mars und Herkules; Korinthisch Venus, Flora, den Musen und Nymphen; Ionisch Juno, Diana und Bacchus. Toskanisch und Komposit bekommen keinen Gott. Für Christen verlegt Palladio das Decorum auf die Form: 'eleggeremo la più perfetta'.",
+    "sources": [
+     "B4-II-DECORO",
+     "B4-II-RITONDA"
+    ]
+   },
+   "built": {
+    "text": "Komposite große Ordnung, innen wie außen.",
+    "sources": [
+     "SG-T2",
+     "SG-T6"
+    ]
+   },
+   "verdict": "keine Regel",
+   "period": "Palladio",
+   "note": "Die Wahl der Kompositordnung lässt sich nicht am Decorum messen."
+  },
+  {
+   "id": "SG-K-SYMMETRIE",
+   "criterion": "Symmetrie",
+   "theory": {
+    "text": "Die Räume rechts entsprechen denen links. Fenster und Türen liegen übereinander, Voll über Voll und Leer über Leer.",
+    "sources": [
+     "I.XXI.4",
+     "I.XXV.8",
+     "I.I.4"
+    ]
+   },
+   "built": {
+    "text": "Auf jeder Seite des Langhauses liegen vier Kapellen, dazu zwei Hauptkapellen in den Querarmen. Grundriss und Fassade sind spiegelgleich.",
+    "sources": [
+     "SG-T10"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "Palladio",
+   "note": ""
+  },
+  {
+   "id": "SG-K-PROGRAMM",
+   "criterion": "Raumprogramm",
+   "theory": {
+    "text": "Zur Kirche gehören eine Sakristei und Glockentürme, dazu Wohnungen der Priester 'commode con spaciosi chiostri, e con bei giardini'.",
+    "sources": [
+     "B4-V-SACRESTIA"
+    ]
+   },
+   "built": {
+    "text": "Die Kirche gehört zu einem Benediktinerkloster (Bertotti: 'posseduto dai monaci Benedettini'); die Nebenbauten zeigt die Aufnahme nicht.",
+    "sources": [
+     "SG-T9"
+    ]
+   },
+   "verdict": "offen",
+   "period": "Palladio",
+   "note": "Belege für Sakristei, Glockenturm und Kreuzgänge fehlen im Repository."
+  },
+  {
+   "id": "SG-K-MUSIK",
+   "criterion": "Musikalische Verhältnisse (Bertotti)",
+   "theory": {
+    "text": "Palladio nennt keine musikalischen Intervalle. 'sesquialtera' kommt einmal vor, als Zahlenbeispiel zur Gewölbehöhe; 'armonia' nur in der Vorrede zu Buch IV (Volltextsuche).",
+    "sources": [
+     "B1-XXIII-SESQUI",
+     "B4-PROEM-3"
+    ]
+   },
+   "built": {
+    "text": "Bertotti hört an der Fassade 'una seconda maggiore' (Flügel zu Mittelteil) und 'una sesta minore' (Höhe zu Breite des Mittelteils, 8:5). Nachgemessen ergibt sich 1,57 über die äußeren Säulen oder 1,40 über das Giebelgesims.",
+    "sources": [
+     "SG-T6",
+     "SG-F-BODY-H",
+     "SG-F-BODY-W-COL",
+     "SG-F-BODY-W-PED"
+    ]
+   },
+   "verdict": "keine Regel",
+   "period": "nach Palladio",
+   "note": "Die Deutung stammt von Bertotti (1783), nicht von Palladio. Ob sie zutrifft, hängt an der Bezugslinie."
+  },
+  {
+   "id": "SG-K-GOLD",
+   "criterion": "Goldener Schnitt",
+   "theory": {
+    "text": "Der Goldene Schnitt ist keine der sieben Raumformen. Die Volltextsuche findet weder 'diuina proportione' noch die euklidische Teilung.",
+    "sources": [
+     "I.XXI.5"
+    ]
+   },
+   "built": {
+    "text": "Nach Bertotti ist die Vierung ein Quadrat (1,01).",
+    "sources": [
+     "SG-CROSSING",
+     "SG-NAVE-W"
+    ]
+   },
+   "verdict": "keine Regel",
+   "period": "Palladio",
+   "note": ""
+  }
+ ]
+}

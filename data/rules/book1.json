@@ -1,0 +1,4411 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro I; e-rara DOI 10.3931/e-rara-363",
+ "transcription_policy": "Normalised reading of the 1570 print: long s rendered as s, u/v and spelling kept as printed, line-end hyphens joined; text outside the scan crop stands in square brackets. Every quotation is checked against the scan crop before evidence_class A is set.",
+ "rules": [
+  {
+   "id": "I.Proemio.1",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 9,
+   "printed_page": "5",
+   "anchor": [
+    "& oltre à ciò quelle regole",
+    "& ollèruo"
+   ],
+   "quote": "& oltre à ciò quelle regole, che nel fabricare ho osseruate, & osseruo",
+   "rule_de": "Palladio veröffentlicht neben den Zeichnungen die Regeln, die er beim Bauen beobachtet hat und selbst befolgt.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.Proemio.2",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "Sarà quella prima parte",
+    "come priuati"
+   ],
+   "quote": "Sarà questa prima parte in due libri diuisa: nel primo si tratterà della preparatione della materia, e preparata, come, & in che forma si debba mettere in opera dalle fondamenta fino al coperto: oue saranno quei precetti, che vniuersali sono, & si deono osseruare in tutti gli edificij cosi publici, come priuati.",
+   "rule_de": "Die Vorschriften des ersten Buches (vom Fundament bis zum Dach) sind allgemein und gelten für alle Gebäude, öffentliche wie private.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "scope",
+   "scope": "all",
+   "values": {},
+   "note": "Grundlage für die Geltung von Buch I im Sakralbau (vgl. docs/13).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.1",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "E V E SI auanti",
+    "fi ha da fare"
+   ],
+   "quote": "DEVESI auanti che à fabricar si cominci, diligentemente considerare ciascuna parte della pianta, & impiedi della fabrica che si ha da fare.",
+   "rule_de": "Vor Baubeginn ist jeder Teil von Grundriss und Aufriss sorgfältig zu bedenken.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "design_process",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.2",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "Tre cofiein",
+    "& la bellezza"
+   ],
+   "quote": "Tre cose in ciascuna fabrica (come dice Vitruuio) deono considerarsi, senza lequali niuno edificio meriterà esser lodato; & queste sono, l'vtile, ò commodità, la perpetuità, & la bellezza",
+   "rule_de": "Jedes Gebäude muss drei Dinge erfüllen: Nutzen bzw. Bequemlichkeit, Dauerhaftigkeit und Schönheit.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "principles",
+   "scope": "all",
+   "values": {},
+   "note": "= B1-I-TRE (data/book4)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.3",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "La commodità fi haurà",
+    "loro conueneuoli"
+   ],
+   "quote": "La commodità si haurà, quando à ciascun membro sarà dato luogo atto, sito accommodato, non minore che la dignità si ricchiegga, ne maggiore che l'vso si ricerchi: & sarà posto in luogo proprio, cioè quando le Loggie, le Sale, le Stanze, le Cantine, e i Granari saranno posti a' luoghi loro conueneuoli.",
+   "rule_de": "Bequemlichkeit: Jeder Teil erhält einen passenden Ort, nicht kleiner als seine Würde verlangt und nicht größer als sein Gebrauch; Loggien, Säle, Zimmer, Keller und Speicher liegen an ihrem angemessenen Platz.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "commodity",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.4",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "Alla perpetuità",
+    "foprailvoto"
+   ],
+   "quote": "Alla perpetuità si haurà risguardo, quando tutti i muri saranno diritti à piombo, più grossi nella parte di sotto, che in quella di sopra, & haueranno buone, & sofficienti le fondamenta: & oltre à ciò, le colonne di sopra saranno al dritto di quelle di sotto, & tutti i fori, come vsci, e finestre saranno vno sopra l'altro: onde il pieno venga sopra il pieno, & il voto sopra il voto.",
+   "rule_de": "Dauerhaftigkeit: Mauern lotrecht, unten dicker als oben, auf guten Fundamenten; obere Säulen über den unteren, Türen und Fenster übereinander – Voll über Voll, Leer über Leer.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "structure",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.5",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "La bellezza",
+    "fiano necelfarie"
+   ],
+   "quote": "La bellezza risulterà dalla bella forma, e dalla corrispondenza del tutto alle parti, delle parti fra loro, e di quelle al tutto: conciosiache gli edificij habbiano da parere vno intiero, e ben finito corpo: nel quale l'vn membro all'altro conuenga, & tutte le membra siano necessarie [à quello, che si vuol fare.]",
+   "rule_de": "Schönheit entsteht aus schöner Form und aus der Entsprechung des Ganzen zu den Teilen, der Teile untereinander und der Teile zum Ganzen; das Gebäude soll wie ein ganzer, vollendeter Körper erscheinen, in dem jedes Glied zum anderen passt und alle notwendig sind.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "beauty",
+   "scope": "all",
+   "values": {},
+   "note": "= B1-I-BELLEZZA (data/book4); Satzende auf S. 7.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.6",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Gòfiderate quelle cole",
+    "far di meftieri"
+   ],
+   "quote": "Considerate queste cose, nel disegno, e nel Modello; si deue fare diligentemente il conto di tutta la spesa, che vi può andare: e fare à tempo prouisione del danaro, e apparecchiar la materia, che parerà far di mestieri",
+   "rule_de": "Nach Zeichnung und Modell sind die Kosten genau zu berechnen; Geld und Material sind rechtzeitig bereitzustellen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "design_process",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.7",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "& che tutti i muri ad egual",
+    "alfine"
+   ],
+   "quote": "& che tutti i muri ad egual segno tirati; egualmente calino: onde non facciano quelle fessure, che si sogliono vedere nelle fabriche in diuersi tempi, & inegualmente condotte al fine.",
+   "rule_de": "Alle Mauern sind gleichmäßig hochzuziehen, damit sie gleichmäßig setzen und keine Risse entstehen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "structure",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.8",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "E però eletti i più periti",
+    "configlio"
+   ],
+   "quote": "E però eletti i più periti artefici, che si possano hauere, accioche ottimamente l'opera sia dirizzata, secondo il loro consiglio",
+   "rule_de": "Man wähle die erfahrensten Handwerker und richte das Werk nach ihrem Rat.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "design_process",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.9",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "come che per fare le trauamenta",
+    "emezaditraue"
+   ],
+   "quote": "come che per fare le trauamenta de' solari delle Sale, e delle stanze, di tante traui si proueda, che ponendole tutte in opera; resti fra l'vna, e l'altra lo spatio di vna grossezza, e meza di traue",
+   "rule_de": "Für die Balkendecken der Säle und Zimmer: Der Abstand zwischen zwei Balken beträgt anderthalb Balkenstärken.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "floors",
+   "scope": "all",
+   "values": {
+    "beam_gap": "1.5 x beam thickness"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.10",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "fi auertirà , che per",
+    "nè meno della fella"
+   ],
+   "quote": "si auertirà, che per fare le erte delle porte, e delle fenestre; non si ricercano pietre più grosse della quinta parte della larghezza della luce, nè meno della sesta.",
+   "rule_de": "Die Gewände von Türen und Fenstern sind nicht stärker als ein Fünftel und nicht schwächer als ein Sechstel der lichten Breite.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "openings",
+   "scope": "all",
+   "values": {
+    "jamb": "1/6 - 1/5 of opening width"
+   },
+   "note": "vgl. A-DIM-JAMB-001 (Kap. XXV)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.11",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "E fe nella fabrica anderanno",
+    "pietra cotta"
+   ],
+   "quote": "E se nella fabrica anderanno adornamenti di colonne, ò di pilastri; si potranno fare le base, i capitelli, e gli architraui di pietra, e l'altre parti di pietra cotta.",
+   "rule_de": "Bei Säulen oder Pilastern können Basen, Kapitelle und Architrave aus Stein, die übrigen Teile aus Ziegel sein.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "materials",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.12",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Circa i",
+    "fecondo che fi inalzano"
+   ],
+   "quote": "Circa i muri ancora si haurà consideratione, che si deono diminuire secondo che si inalzano",
+   "rule_de": "Mauern sind nach oben hin zu verjüngen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "ausgeführt in Kap. XI",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.13",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Ma perche oltra la quantità",
+    "acconcio"
+   ],
+   "quote": "Ma perche oltra la quantità, si deue ancho hauer consideratione alla qualità, e bontà della materia; ad elegger la migliore; ci giouerà molto la esperienza pigliata dalle fabriche fatte da gli altri: perche da quelle auisati; potremo facilmente determinare ciò che a' bisogni nostri sia acconcio",
+   "rule_de": "Für die Wahl des besten Materials hilft die Erfahrung an Bauten anderer.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "materials",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.1",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "LEGNAMI ( come ha",
+    "per tutto il Verno"
+   ],
+   "quote": "[I] LEGNAMI (come ha Vitruuio al cap. ix. del ij. lib.) si deono tagliare l'Autunno, e per tutto il Verno",
+   "rule_de": "Bauholz ist im Herbst und Winter zu schlagen.",
+   "kind": "prescription",
+   "attribution": "vitruvius",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.2",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "e fi taglieranno mancando",
+    "offefi"
+   ],
+   "quote": "e si taglieranno mancando la Luna; perche quell'humore, che à corrompere i legni è attissimo; à quel tempo è consumato: onde non vengono poi da tignole, ò da tarli offesi.",
+   "rule_de": "Man schlägt bei abnehmendem Mond, damit das Holz nicht von Würmern befallen wird.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.3",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Si deono tagliare folamente",
+    "alla putrefat tone"
+   ],
+   "quote": "Si deono tagliare solamente fino al mezo della midolla, e così lasciarli fin che si secchino: percioche stillando; vscirà fuori quell'humore, che sarà atto alla putrefattione.",
+   "rule_de": "Die Stämme nur bis zur Mitte des Marks einschneiden und so austrocknen lassen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.4",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Tagliati ; fi riporranno",
+    "fterco di bue"
+   ],
+   "quote": "Tagliati; si riporranno in luogo, oue non vengano caldissimi Soli, nè impetuosi venti, nè pioggie: e quelli massimamente deono essere tenuti al coperto, che da se stessi nascono: & accioche non si fendano, & egualmente si secchino; si vngeranno di sterco di bue.",
+   "rule_de": "Geschlagenes Holz geschützt vor Sonne, Wind und Regen lagern; gegen Risse mit Rinderdung bestreichen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.5",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Non fi deono tirare",
+    "bruttifsimo lauoro"
+   ],
+   "quote": "Non si deono tirare per la rugiada, ma dopo il mezodì: nè si deono lauorare, essendo di rugiada bagnati, ò molto secchi; percioche quelli facilmente si corrompono, e questi fanno bruttissimo lauoro",
+   "rule_de": "Holz nicht im Tau transportieren und nicht taunass oder zu trocken bearbeiten.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.6",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Nè auanti tre anni",
+    "feneftre"
+   ],
+   "quote": "Nè auanti tre anni saranno ben secchi per vso de' palchi, e delle porte, e delle fenestre.",
+   "rule_de": "Für Decken, Türen und Fenster ist Holz erst nach drei Jahren trocken genug.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {
+    "seasoning_years": ">= 3"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.II.7",
+   "book": 1,
+   "chapter": "II",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Bifogna che i padroni",
+    "e quale non"
+   ],
+   "quote": "Bisogna che i padroni, che vogliono fabricare; s'informino bene da i periti, della natura de i legnami, e qual legno à qual cosa è buono, e quale non.",
+   "rule_de": "Bauherren sollen sich bei Fachleuten über die Holzarten und ihre Eignung unterrichten.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.timber",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.1",
+   "book": 1,
+   "chapter": "III",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "I marmi , e le pietre viue",
+    "metter fubito in opera"
+   ],
+   "quote": "I marmi, e le pietre viue si lauoreranno subito cauate: perche sarà più facile il lauorarle all'hora, che se per alcun tempo fussero state all'aere, essendo che tutte le pietre, quanto più stanno cauate, tanto più diuengono dure: e si potranno metter subito in opera.",
+   "rule_de": "Marmor und harte Steine gleich nach dem Brechen bearbeiten und verbauen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.stone",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.2",
+   "book": 1,
+   "chapter": "III",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "Ma le pietre molli",
+    "anzi due anni in opera"
+   ],
+   "quote": "Ma le pietre molli, e tenere, massimamente se la natura, e soficienza loro ci sarà incognita, come quando si cauassero in luogo, oue per adietro non ne fossero state cauate; si deono cauare la Estate, e tenere allo scoperto, nè si porranno anzi due anni in opera",
+   "rule_de": "Weiche Steine unbekannter Güte im Sommer brechen, im Freien lagern und erst nach zwei Jahren verbauen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.stone",
+   "scope": "all",
+   "values": {
+    "weathering_years": ">= 2"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.3",
+   "book": 1,
+   "chapter": "III",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "accioche Icelte quelle",
+    "fi manterranno"
+   ],
+   "quote": "[Et tanto tempo si lasciano,] accioche scelte quelle, che saranno state offese; siano poste nelle fondamenta, e l'altre non guaste, come approuate; si pongano sopra la terra nelle fabriche: perche lungamente si manterranno.",
+   "rule_de": "Beschädigte Steine in die Fundamente, unversehrte über die Erde.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.stone",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.4",
+   "book": 1,
+   "chapter": "III",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "quelle ceo",
+    "làbb ioniccia"
+   ],
+   "quote": "queste deono farsi di terra cretosa, bianchiccia, e domabile: si lascierà del tutto la terra ghiarosa, e sabbioniccia.",
+   "rule_de": "Ziegel aus tonigem, weißlichem, formbarem Lehm; kiesigen und sandigen Boden meiden.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.brick",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.5",
+   "book": 1,
+   "chapter": "III",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Si caueràla terra",
+    "di paglia"
+   ],
+   "quote": "Si cauerà la terra nell'Autunno, e si macererà nel Verno, e si formeranno poi i quadrelli commodamente la Primauera. Ma se la necessità strignesse à formargli il Verno, ò la Estate; si copriranno il Verno di secca arena, e la Estate di paglia.",
+   "rule_de": "Lehm im Herbst graben, im Winter wässern, Ziegel im Frühjahr formen; im Winter mit Sand, im Sommer mit Stroh abdecken.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.brick",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.6",
+   "book": 1,
+   "chapter": "III",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Formati deonfi",
+    "di due anni"
+   ],
+   "quote": "Formati deonsi seccare per molto tempo, & è meglio seccargli all'ombra, accioche non solamente nella superficie, ma ancho nelle parti di mezo, siano egualmente secchi: il che non si fa in meno di due anni.",
+   "rule_de": "Ziegel lange im Schatten trocknen, nicht unter zwei Jahren.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.brick",
+   "scope": "all",
+   "values": {
+    "drying_years": ">= 2"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.III.7",
+   "book": 1,
+   "chapter": "III",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Si fanno e maggiori",
+    "e cuocano"
+   ],
+   "quote": "Si fanno e maggiori, e minori secondo la qualità de gli Edificij da farsi, e secondo che di loro ci vogliamo seruire: onde gli Antichi fecero i mattoni de i publici, e grandi edificij molto maggiori de i piccioli, e priuati. Quelli che alquanto grossi si fanno; si deono forare in più luoghi, acciò che meglio si secchino, e cuocano.",
+   "rule_de": "Ziegelgröße richtet sich nach Art und Größe des Gebäudes: bei großen öffentlichen Bauten größer als bei kleinen privaten. Dicke Ziegel durchlochen.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "materials.brick",
+   "scope": "all",
+   "values": {},
+   "note": "Maßstab des Bauteils folgt dem Maßstab des Baus",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IIII.1",
+   "book": 1,
+   "chapter": "IIII",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Quella di caua è di tutte migliore",
+    "di tutte migliore"
+   ],
+   "quote": "Quella di caua è di tutte migliore",
+   "rule_de": "Grubensand ist der beste Sand.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "materials.sand",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IIII.2",
+   "book": 1,
+   "chapter": "IIII",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "L ’ Arena di caua perche è graffa",
+    "atta à foltenere i peli"
+   ],
+   "quote": "L'Arena di caua perche è grassa; è più tenace: ma si fende facilmente: e però si vsa ne i muri, e ne i volti continouati. Quella di fiume è buonissima per le intonicature, ò vogliam dire per la smaltatura di fuori. Quella di mare, perche tosto si secca, e presto si bagna, e si disfà per lo salso; è meno atta à sostenere i pesi.",
+   "rule_de": "Grubensand für Mauern und durchlaufende Gewölbe, Flusssand für Putz; Meersand trägt Lasten schlechter.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.sand",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IIII.3",
+   "book": 1,
+   "chapter": "IIII",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Sarà ogni fabbia",
+    "danno alle fabriche"
+   ],
+   "quote": "Sarà ogni sabbia nella sua specie ottima, se con mani premuta, e maneggiata striderà: e che posta sopra candida veste non la macchierà, nè vi lascierà terra. Cattiua sarà quella, che nell'acqua mescolata la farà torbida, e fangosa, e che lungo tempo sarà stata all'Aria, al Sole alla Luna, & alla Pruina; percioche haurà assai di terreno, e di marcio humore, atto à produrre arboscelli, e fichi seluatichi, che sono di grandissimo danno alle fabriche.",
+   "rule_de": "Prüfung des Sandes: gut, wenn er in der Hand knirscht und weißes Tuch nicht beschmutzt; schlecht, wenn er Wasser trübt oder lange offen lag.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.sand",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.V.1",
+   "book": 1,
+   "chapter": "V",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Ogni pietra de ’ monti è buona",
+    "della fua pietra"
+   ],
+   "quote": "Ogni pietra de' monti è buona, che sia secca, di humori purgata, e frale, e che non habbia in se altra materia, che consumata dal fuoco, lasci la pietra minore: onde sarà miglior quella, che sarà fatta di pietra durissima, soda, e bianca, e che cotta rimarrà il terzo più leggiera della sua pietra.",
+   "rule_de": "Kalkstein: trocken, rein, spröde; am besten harter, dichter, weißer Stein, der nach dem Brennen ein Drittel leichter ist.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials.lime",
+   "scope": "all",
+   "values": {
+    "burnt_weight_loss": "1/3"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.V.2",
+   "book": 1,
+   "chapter": "V",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Ogni pietra cauata",
+    "che di bruna"
+   ],
+   "quote": "Ogni pietra cauata à far la calce è migliore della raccolta, e di ombrosa, & humida caua più tosto che di secca, e di bianca meglio si adopra, che di bruna.",
+   "rule_de": "Gebrochener Kalkstein ist besser als gesammelter, aus schattigen, feuchten Brüchen besser als aus trockenen, weißer besser als brauner.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "materials.lime",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.V.3",
+   "book": 1,
+   "chapter": "V",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "regolarmente cuocefi in hore",
+    "felfanta"
+   ],
+   "quote": "regolarmente cuocesi in hore sessanta",
+   "rule_de": "Kalk brennt in der Regel sechzig Stunden.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "materials.lime",
+   "scope": "all",
+   "values": {
+    "burning_hours": 60
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.V.4",
+   "book": 1,
+   "chapter": "V",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Cotta fi deue",
+    "bene ftemperata"
+   ],
+   "quote": "Cotta si deue bagnare, e non infondere in vna volta tutta l'acqua, ma in più fiate, continuatamente però acciò che non si abbruci, fin ch'ella sia bene stemperata.",
+   "rule_de": "Gebrannten Kalk in mehreren Gaben, aber ununterbrochen löschen, bis er gut eingesumpft ist.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.lime",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.V.5",
+   "book": 1,
+   "chapter": "V",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Dipoi fi riponga",
+    "del tutto inutile"
+   ],
+   "quote": "Dipoi si riponga in luogo humido, e nell'ombra, senza mescolarui cosa alcuna, solamente di leggiera sabbia coprendola: e quanto sarà più macerata, tanto sarà più tenace, e migliore, eccetto quella, che di pietra scagliosa sarà fatta, come la Padouana; perche subito bagnata; bisogna metterla in opera: altrimenti si consuma, & abbrucia: onde non fa presa, e diuiene del tutto inutile.",
+   "rule_de": "Gelöschten Kalk feucht und schattig unter dünnem Sand lagern; je länger, desto besser – außer Kalk aus Paduaner Schieferstein, der sofort zu verarbeiten ist.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.lime",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.V.6",
+   "book": 1,
+   "chapter": "V",
+   "phys": 12,
+   "printed_page": "8",
+   "anchor": [
+    "Per far la malta",
+    "dicalce"
+   ],
+   "quote": "Per far la malta si deue in questo modo con la sabbia mescolare; che pigliandosi arena di caua; si pongano tre parti di essa, & vna di calce: se di fiume, ò di mare; due parti di arena, & vna di calce.",
+   "rule_de": "Mörtel: drei Teile Grubensand auf einen Teil Kalk; bei Fluss- oder Meersand zwei Teile auf einen.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "materials.mortar",
+   "scope": "all",
+   "values": {
+    "mortar_pit_sand": "3:1",
+    "mortar_river_sea_sand": "2:1"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VI.1",
+   "book": 1,
+   "chapter": "VI",
+   "phys": 13,
+   "printed_page": "9",
+   "anchor": [
+    "& di quelli chiodi",
+    "e durabile"
+   ],
+   "quote": "& di questi chiodi, & arpesi ci seruimo, accioche tutto l'edificio, ilquale per necessità non si può fare se non di molti pezzi di pietra, essendo quelli in tal modo congiunti, e legati insieme; venga ad essere come di vn pezzo solo, e cosi molto più forte, e durabile.",
+   "rule_de": "Steine mit Dübeln und Klammern verbinden, damit der Bau wie aus einem Stück wirkt und dauerhafter ist.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "construction",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VI.2",
+   "book": 1,
+   "chapter": "VI",
+   "phys": 13,
+   "printed_page": "9",
+   "anchor": [
+    "Si tiene per eccellentifsimo",
+    "da ogni feccia"
+   ],
+   "quote": "Si tiene per eccellentissimo, e per lo migliore quello, che cotto, e cauato per via del fuoco dalle minerali è di color rosso tendente al giallo, & è ben fiorito, cioè pieno di buchi: perche questo è segno ch'egli sia purgato, e libero da ogni feccia.",
+   "rule_de": "Bestes Kupfer ist rötlich-gelb und porig, ein Zeichen der Reinheit.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "materials.metal",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VI.3",
+   "book": 1,
+   "chapter": "VI",
+   "phys": 13,
+   "printed_page": "9",
+   "anchor": [
+    "Sarà fogno della bontà del ferro",
+    "colpi de i martelli"
+   ],
+   "quote": "Sarà segno della bontà del ferro, se ridotto in massa; si vederanno le sue vene continouate, e diritte, & non interrotte: e se le teste della massa saranno nette, e senza feccie: perche le dette vene dimostreranno che'l ferro sia senza groppi, e senza sfogli; e per le teste si conoscerà, quale egli sia nel mezo: ma se sarà ridotto in lamine quadre, ò di altra figura, se i lati saranno diritti; diremo ch'egli sia vgualmente buono, hauendo potuto ugualmente resistere à i colpi de i martelli.",
+   "rule_de": "Gutes Eisen zeigt durchgehende, gerade Adern und saubere Enden; gerade Kanten geschmiedeter Platten zeigen gleichmäßige Güte.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "materials.metal",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.1",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "rò tra tutti gli errori",
+    "ogni fua diligenza"
+   ],
+   "quote": "[Pe]rò tra tutti gli errori, ne' quali fabricando si può incorrere; sono dannosissimi quelli, che nelle fondamenta si commettono: perche apportano seco la rouina di tutta l'opera, nè si ponno senza grandissima difficultà emendare: onde l'Architetto deue ponerui ogni sua diligenza",
+   "rule_de": "Fehler im Fundament sind die schädlichsten; der Architekt muss darauf alle Sorgfalt verwenden.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.2",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Se ’ l terren farà fodo",
+    "luoghi fotterranei"
+   ],
+   "quote": "Se'l terren sarà sodo, e fermo; tanto in quello si cauerà sotto, quanto parerà al giudicioso Architetto, che richieda la qualità della fabrica, e la sodezza di esso terreno. laquale cauatione per lo più sarà la sesta parte dell'altezza dell'edificio, non volendoui far cantine, ò altri luoghi sotterranei.",
+   "rule_de": "In festem Boden bestimmt der Architekt die Gründungstiefe; meist beträgt sie ein Sechstel der Gebäudehöhe, wenn keine Keller vorgesehen sind.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {
+    "foundation_depth": "1/6 of building height (usually)"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.3",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "A cono",
+    "fodezza , e fermezza del terreno"
+   ],
+   "quote": "A conoscere questa sodezza; giouerà l'osseruanza delle cauationi de' pozzi, delle cisterne, & d'altri luoghi simili: e si conoscerà ancho dalle herbe, che vi nasceranno, se esse saranno solite nascere solamente in fermi, e sodi terreni: & oltre à ciò sarà segno di sodo terreno, se esso per qualche graue peso gettato in terra; non risuonerà, ò non tremerà: il che si potrà conoscere dalle carte de' tamburi messi per terra, se à quella percossa leggiermente mouendosi non risuoneranno; & dall'acqua posta in vn vaso, se non si mouerà. I luoghi circonuicini ancora daranno ad intendere la sodezza, e fermezza del terreno.",
+   "rule_de": "Festen Boden erkennt man an Brunnen- und Zisternenaushub, an den Pflanzen, daran, dass er bei schwerem Aufprall nicht dröhnt (Trommelfell, Wasser im Gefäß), und an der Umgebung.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.4",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "E fe fi fabricherà ne ’ fiumi",
+    "fi fabrichera"
+   ],
+   "quote": "E se si fabricherà ne' fiumi; l'arena, e la ghiara saranno del tutto inutili: percioche l'acqua co'l continouo suo corso, e con le piene varia continouamente il suo letto: però si cauerà fin che si ritroui il fondo sodo, e fermo: ouero, se ciò fusse difficile; si cauerà alquanto nell'arena, & ghiara, e poi si faranno le palificate, che arriuino con le punte de' pali di rouere nel buono, e sodo terreno, e sopra quelle si fabricherà.",
+   "rule_de": "In Flüssen bis auf festen Grund graben oder Eichenpfähle bis in den festen Boden rammen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.5",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Male fi ha da fabrica",
+    "grandezza della fabrica"
+   ],
+   "quote": "Ma se si ha da fabricare in terreno mosso, e non sodo; all'hora si deue cauare fin che si ritroui il sodo terreno, e tanto ancho in quello, quanto richiederanno la grossezza de' muri, e la grandezza della fabrica.",
+   "rule_de": "In lockerem Boden bis auf festen Grund graben, dort so tief, wie Mauerstärke und Baugröße verlangen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.6",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "percioche ( come ben dicci",
+    "non lì diffolue in fango"
+   ],
+   "quote": "percioche (come ben dice l'Alberti) altroue è così duro, che quasi il ferro non lo può tagliare; altroue più sodo; altroue negreggia; altroue imbianca (e questo è riputato il più debole) altroue è come creta; altroue è di tofo. Di tutti questi quello è migliore, che à fatica si taglia, e quello che bagnato non si dissolue in fango.",
+   "rule_de": "Der beste Baugrund lässt sich kaum schneiden und löst sich nass nicht in Schlamm auf (nach Alberti).",
+   "kind": "preference",
+   "attribution": "alberti",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.7",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Non fi deue fondare",
+    "e quanto profondi"
+   ],
+   "quote": "Non si deue fondare sopra ruina, se prima non si saprà, come ella sia sufficiente a sostenere l'edificio, e quanto profondi.",
+   "rule_de": "Nicht auf Ruinen gründen, ohne ihre Tragfähigkeit und Tiefe zu kennen.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.8",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Ma fe ’ l terreno farà molle",
+    "della loro lunghezza"
+   ],
+   "quote": "Ma se'l terreno sarà molle, e profonderà molto, come nelle paludi; all'hora si faranno le palificate: i pali delle quali saranno lunghi per la ottaua parte dell'altezza del muro, e grossi per la duodecima parte della loro lunghezza.",
+   "rule_de": "In weichem Sumpfboden pfählen: Pfahllänge ein Achtel der Mauerhöhe, Pfahlstärke ein Zwölftel der Pfahllänge.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {
+    "pile_length": "1/8 wall height",
+    "pile_thickness": "1/12 pile length"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.9",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Si deono ficcare i pali",
+    "e fermarli"
+   ],
+   "quote": "Si deono ficcare i pali sì spessi, che fra quelli non ve ne possano entrar de gli altri: & deono esser battuti con colpi più tosto spessi, che graui, accioche meglio venga à consolidarsi il terreno, e fermarsi.",
+   "rule_de": "Pfähle so dicht setzen, dass keine weiteren dazwischen passen, mit häufigen statt schweren Schlägen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.1",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Il piano della fossa",
+    "poi fabrica"
+   ],
+   "quote": "Il piano della fossa deue essere vguale: accioche'l peso prema vgualmente, e non venendo à calare in vna parte più che nell'altra, i muri si aprano. Per questa cagione lastricauano gli Antichi il detto piano di Teuertino, e noi siamo soliti à porui delle tauole, ouero delle traui, e sopra di quelle poi fabricare.",
+   "rule_de": "Die Grabensohle eben anlegen, damit die Last gleichmäßig drückt; die Antiken pflasterten sie mit Travertin, heute legt man Bretter oder Balken unter.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.2",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Si fanno le fondamenta à scarpa",
+    "altramente"
+   ],
+   "quote": "Si fanno le fondamenta à scarpa, cioè che tanto più decrescano, quanto più s'inalzano; in modo però, che tanto da vna parte sia lasciato, quanto dall'altra, onde il mezo di quel di sopra caschi à piombo al mezo di quel di sotto: il che si deue osseruare ancho nelle diminutioni de' muri sopra terra: percioche in questo modo la fabrica viene ad hauere molto maggior fortezza, che facendosi le diminutioni altramente.",
+   "rule_de": "Fundamente nach oben beidseitig gleich abtreppen, so dass die Mitte oben lotrecht über der Mitte unten liegt; ebenso bei den Mauern über der Erde.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.1",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Sei ap",
+    "la riempiuta"
+   ],
+   "quote": "Sei appresso gli Antichi furono le maniere de' muri; l'vna detta reticolata, l'altra di terra cotta, ò quadrello: la terza di cementi, cioè di pietre roze di montagna, ò di fiume: la quarta di pietre incerte: la quinta di sasso quadrato: e la sesta la riempiuta.",
+   "rule_de": "Die Antiken kannten sechs Mauerarten: netzförmig, Ziegel, Bruchstein, unregelmäßige Steine, Quader und Füllmauerwerk.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "Typologie",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.2",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "I muri di pietra cotta nelle muraglie",
+    "piglino"
+   ],
+   "quote": "I muri di pietra cotta nelle muraglie delle Città, ò in altri molto grandi edificij si debbono fare, che nella parte di dentro, & in quella di fuori siano di quadrello, e nel mezo pieni di cementi insieme co'l copo pesto; e che ogni tre piedi di altezza vi siano tre corsi di quadrelli maggiori de gli altri, che piglino [tutta la larghezza del muro]",
+   "rule_de": "Ziegelmauern großer Bauten: Außenschalen aus Ziegel, Kern aus Bruchstein mit Ziegelsplitt; alle drei Fuß Höhe drei Lagen größerer Bindeziegel durch die ganze Mauer.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "walls",
+   "scope": "all",
+   "values": {
+    "bond_interval_ft": 3,
+    "bond_courses": 3
+   },
+   "note": "Fortsetzung auf S. 12 (phys 16)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.3",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 16,
+   "printed_page": "12",
+   "anchor": [
+    "I muri di cementi fi faranno",
+    "modo detto di fopra"
+   ],
+   "quote": "I muri di cementi si faranno, che ogni due piedi al meno vi siano tre corsi di pietra cotta, e siano le pietre cotte ordinate al modo detto di sopra.",
+   "rule_de": "Bruchsteinmauern: mindestens alle zwei Fuß drei Ziegellagen.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "walls",
+   "scope": "all",
+   "values": {
+    "bond_interval_ft": "<= 2",
+    "bond_courses": 3
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.4",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 16,
+   "printed_page": "12",
+   "anchor": [
+    "& à far",
+    "difegnato di porla"
+   ],
+   "quote": "& à far questi muri vsauano vna squadra di piombo, la qual piegata secondo il luogo, doue douea esser posta la pietra; seruiua loro nello squadrarla: e ciò faceuano, accioche le pietre commettessero bene insieme, e per non hauer da prouare più, e più volte se la pietra staua bene al luogo, oue essi haueuano disegnato di porla.",
+   "rule_de": "Für Mauern aus unregelmäßigen Steinen benutzten die Antiken ein biegsames Bleiwinkelmaß, um jeden Stein passgenau zu behauen.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.5",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 17,
+   "printed_page": "13",
+   "anchor": [
+    "La maniera riempiuta",
+    "di corfo in corfo"
+   ],
+   "quote": "La maniera riempiuta, che si dice ancho à cassa, faceuano gli Antichi pigliando con tauole poste in coltello tanto spacio, quanto voleuano che fusse grosso il muro, empiendolo di malta, e di pietre di qualunque sorte mescolate insieme, e così andauano facendo di corso in corso.",
+   "rule_de": "Füllmauerwerk: zwischen hochkant gestellten Brettern Mörtel und Steine lagenweise einfüllen.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.X.1",
+   "book": 1,
+   "chapter": "X",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "alche deue molto auuertire",
+    "perpetuità della fabrica"
+   ],
+   "quote": "[si vede nell'opere loro essere stata vsata tanta diligenza nel congiungere insieme le pietre, che in molti luoghi] à pena si discernono le commessure: alche deue molto auuertire chi oltre la bellezza desidera la fermezza, e perpetuità della fabrica.",
+   "rule_de": "Steine so genau fügen, dass die Fugen kaum sichtbar sind – wer neben Schönheit Festigkeit und Dauer will, muss darauf achten.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "construction",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.X.2",
+   "book": 1,
+   "chapter": "X",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "E per quanto ho potuto",
+    "ancora in terra"
+   ],
+   "quote": "E per quanto ho potuto comprendere; essi prima squadrauano, e lauorauano delle pietre quelle faccie solamente che andauano vna sopra l'altra, lassando l'altre parti roze; e così lauorate le metteuano in opera; onde perche tutti gli orli delle pietre ueniuano ad esser sopra squadra, cioè grossi, e sodi; poteuano meglio maneggiarle, e mouerle più volte fin che commettessero bene, senza pericolo di romperli, che se tutte le faccie fussero state lauorate; perche all'hora sarebbono stati gli orli ò à squadra, ò sotto squadra, e così molto deboli, e facili da guastarsi: & in questo modo faceuano tutti gli edificij rozi, ò vogliam dire rustichi: & essendo poi quelli finiti, andauano lauorando, e polendo delle pietre (come ho detto) già messe in opera, quelle faccie, ch'andauano vedute. E' ben vero, che, come le rose, che andauano tra i modiglioni, & altri intagli della cornice, che commodamente non poteuano farsi, essendo le pietre in opera; faceuano mentre che quelle erano ancora in terra.",
+   "rule_de": "Die Antiken bearbeiteten zuerst nur die Lagerflächen, versetzten die Steine und arbeiteten die Sichtflächen erst am Bau aus; Ornamente wie Rosetten fertigten sie vor dem Versetzen.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "construction",
+   "scope": "all",
+   "values": {},
+   "note": "Ankerbereich enthält das ganze Verfahren",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.X.3",
+   "book": 1,
+   "chapter": "X",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "E s ’ era qualche edificio",
+    "polirli diligentcméte"
+   ],
+   "quote": "E s'era qualche edificio molto grande, come è l'Arena di Verona, l'Anfitheatro di Pola, e simili, per fuggir la spesa e tempo, che vi sarebbe andato; lauorauano solamente l'imposte de' volti, i capitelli, e le cornici, & il resto lasciauano rustico, tenendo solamente conto della bella forma dell'edificio. Ma ne' Tempij, & ne gli altri edificij che richiedeuano delicatezza; non risparmiauano fatica nel lauorarli tutti, e nel fregare, e lisciare fino i canali delle colonne, & polirli diligentemente.",
+   "rule_de": "Sehr große Bauten (Arena) nur an Kämpfern, Kapitellen und Gesimsen ausgearbeitet, sonst rustiziert; Tempel und feine Bauten vollständig bearbeitet und poliert.",
+   "kind": "preference",
+   "attribution": "antichi",
+   "topic": "decorum",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.X.4",
+   "book": 1,
+   "chapter": "X",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Ma fecondo la grandezza",
+    "la politezza"
+   ],
+   "quote": "Ma secondo la grandezza, e qualità della fabrica, si farà ò rustica, ò polita; e non quello che gli antichi fecero, necessitati dalla grandezza delle opere, & giudiciosamente; faremo noi in vna fabrica, alla quale si ricerchi al tutto la politezza.",
+   "rule_de": "Je nach Größe und Rang des Baus rustiziert oder glatt; was die Antiken nur aus Not an Riesenbauten taten, nicht an Bauten wiederholen, die ganz feine Ausführung verlangen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XI.1",
+   "book": 1,
+   "chapter": "XI",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "I DEVE offeruare",
+    "troppo fiottili di fopra"
+   ],
+   "quote": "[S]I DEVE osseruare, che quanto più i muri ascendono e s'inalzano, tanto più si diminuiscono: però quelli che nascono sopra terra; saranno più sottili delle fondamenta la metà, e quelli del secondo solaro più sottili di quelli del primo mezo quadrello, e così successiuamente fino al sommo della fabrica: ma con discretione, accioche non siano troppo sottili di sopra.",
+   "rule_de": "Mauern verjüngen sich nach oben: über der Erde halb so dick wie das Fundament, jedes weitere Geschoss einen halben Ziegel dünner, bis zum Dach – mit Maß, damit sie oben nicht zu dünn werden.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {
+    "above_ground": "1/2 foundation thickness",
+    "per_storey": "- 1/2 brick"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XI.2",
+   "book": 1,
+   "chapter": "XI",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Il mezo de ’ muri di fopra",
+    "forma piramidale"
+   ],
+   "quote": "Il mezo de' muri di sopra deue cascare à piombo al mezo di quelli di sotto: onde tutto il muro pigli forma piramidale.",
+   "rule_de": "Die Mitte der oberen Mauer liegt lotrecht über der Mitte der unteren; die Mauer erhält Pyramidenform.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XI.3",
+   "book": 1,
+   "chapter": "XI",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Pur quando fi volefte",
+    "cafchi,ò fi muoua"
+   ],
+   "quote": "Pur quando si volesse far vna superficie, ò faccia del muro di sopra al diritto d'vna di quello di sotto; dourà ciò farsi dalla parte di dentro: perche le trauature de' pauimenti, i volti, & gli altri sostegni della fabrica non lasceranno, che'l muro caschi, ò si muoua.",
+   "rule_de": "Soll eine Mauerfläche oben bündig mit unten sein, dann auf der Innenseite.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XI.4",
+   "book": 1,
+   "chapter": "XI",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Il relafcio",
+    "tutta la fabrica"
+   ],
+   "quote": "Il relascio, che sarà di fuori si coprirà con vn procinto, ò fascia, e cornice, che circondi tutto l'edificio: il che sarà adornamento, e sarà come legame di tutta la fabrica.",
+   "rule_de": "Den äußeren Mauerabsatz mit einem umlaufenden Band oder Gesims abdecken – Schmuck und Bindung des ganzen Baus.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XI.5",
+   "book": 1,
+   "chapter": "XI",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Gli angoli,per",
+    "la larghezza di quella"
+   ],
+   "quote": "Gli angoli, perche participano di due lati, e sono per tenerli diritti, e congiunti insieme deono essere fermissimi, e con lunghe, e dure pietre come braccia tenuti. Però si deono le fenestre, & l'apriture allontanare da quelli più che si può, ò almeno lassar tanto di spatio dall'apritura all'angolo, quanto è la larghezza di quella.",
+   "rule_de": "Ecken sehr fest, mit langen harten Steinen; Fenster und Öffnungen möglichst weit von den Ecken, mindestens um ihre eigene Breite.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings",
+   "scope": "all",
+   "values": {
+    "opening_to_corner": ">= opening width"
+   },
+   "note": "vgl. A-LOC-WIN-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XI.6",
+   "book": 1,
+   "chapter": "XI",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Hora c ’ habbiamo parlato",
+    "à tutto l ’ edificio"
+   ],
+   "quote": "Hora c'habbiamo parlato de' muri semplici; è conueneuole che passiamo à gli ornamenti, de' quali niuno maggiore riceue la fabrica di quello, che le danno le colonne, quando sono situate ne' luoghi conueneuoli, e con bella proportione à tutto l'edificio.",
+   "rule_de": "Kein Schmuck ist größer als der durch Säulen, wenn sie am richtigen Ort und in schöner Proportion zum ganzen Bau stehen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "orders",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VII.10",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Si faranno le palificate non folo",
+    "per lungo , & altre"
+   ],
+   "quote": "Si faranno le palificate non solo sotto i muri di fuori, posti sopra i canali; ma ancora sotto quelli, che sono fra terra, e diuidono le fabriche: perche se si faranno le fondamenta a' muri di mezo, diuerse da quelle di fuori, mettendo delle traui vna à canto dell'altra per lungo, & altre [sopra per trauerso; spesse volte auerrà, che i muri di mezo caleranno à basso]",
+   "rule_de": "Pfähle auch unter die Innenmauern setzen, sonst sinken die Innenmauern und die Mauern reißen auf; die inneren Pfähle im Verhältnis der Mauern schwächer.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "Satz endet auf S. 11 (phys 15): 'secondo la proportione de' muri, cosi dette palificate di mezo anderanno più sottili di quelle di fuora'.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.3",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "E O N O essere le fondamenta",
+    "grandissimo carico"
+   ],
+   "quote": "DEONO essere le fondamenta il doppio più grosse del muro, c'ha da esserui posto sopra: & in questo si douerà hauer risguardo alla qualità del terreno, & alla grandezza dell'edificio, facendole ancho più larghe ne' terreni mossi, e mensodi, e doue hauessero da sostentare grandissimo carico.",
+   "rule_de": "Fundamente doppelt so dick wie die Mauer darüber; breiter in lockerem Boden und bei großer Last.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {
+    "foundation_thickness": "2 x wall thickness"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.4",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Si fanno alcuna volta",
+    "si fabrica"
+   ],
+   "quote": "Si fanno alcuna volta (massimamente ne i terreni paludosi, doue interuengano colonne) per far minore spesa le fondamenta non continouate, ma con alcuni volti, e sopra quelli poi si fabrica.",
+   "rule_de": "In Sumpfboden unter Säulen können die Fundamente unterbrochen und mit Bögen überspannt werden.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.5",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Sono assai lodevoli",
+    "sommo dell ’ edificio"
+   ],
+   "quote": "Sono assai lodeuoli nelle fabriche grandi alcuni spiragli per la grossezza del muro dalle fondamenta sino al tetto, percioche danno esito a' venti, che meno diano noia alla fabrica, scemano la spesa, e sono di non picciola commodità, se in quelli si faranno scale a lumaca: le quali portino dal fondamento sino al sommo dell'edificio.",
+   "rule_de": "In großen Bauten sind Luftschächte in der Mauerstärke vom Fundament bis zum Dach lobenswert, besonders mit Wendeltreppen darin.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.6",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 17,
+   "printed_page": "13",
+   "anchor": [
+    "dalle quali fi comprende",
+    "mafsimamente fi olforuerà"
+   ],
+   "quote": "dalle quali si comprende che ne i muri di qualunque sorte si siano, debbono farsi alcuni corsi, i quali siano come nerui, che tengano insieme legate l'altre parti; ilche massimamente si osseruerà, [quando si faranno i muri di pietre cotte; accioche per la vecchiezza venendo à calare in parte la struttura di mezo; non diuentino i muri ruinosi]",
+   "rule_de": "In jeder Mauerart sind durchbindende Lagen wie Nerven einzulegen, besonders bei Ziegelmauern.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "Satz endet auf S. 14 (phys 18)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.X.5",
+   "book": 1,
+   "chapter": "X",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Però per mio giudicio",
+    "efiere intiero"
+   ],
+   "quote": "Però per mio giudicio non si faranno muri di pietra cotta rustichi, nè meno le Nappe de' Camini: lequali deono esser fatte delicatissime: percioche oltra l'abuso, ne seguirà, che si fingerà spezzato, e diuiso in più parti quello, che naturalmente deue essere intiero.",
+   "rule_de": "Nach Palladios Urteil keine rustizierten Ziegelmauern und keine rustizierten Kaminhauben; sie täuschten Zerteiltes vor, wo von Natur aus Ganzes ist.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XII.1",
+   "book": 1,
+   "chapter": "XII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "IN QV E fono gli ordini",
+    "fiotto il Compofito"
+   ],
+   "quote": "CINQVE sono gli ordini de' quali gli Antichi si seruirono, cioè il Toscano, Dorico, Ionico, Corinthio, e Composito. Questi si deono così nelle fabriche disporre, che'l più sodo sia nella parte più bassa: perche sarà molto più atto à sostentare il carico, e la fabrica venirà ad hauere basamento più fermo: onde sempre il Dorico si porrà sotto il Ionico: il Ionico sotto il Corinthio; & il Corinthio sotto il Composito.",
+   "rule_de": "Fünf Ordnungen: toskanisch, dorisch, ionisch, korinthisch, komposit. Die festeste kommt nach unten: Dorisch unter Ionisch, Ionisch unter Korinthisch, Korinthisch unter Komposit.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "orders.superposition",
+   "scope": "all",
+   "values": {
+    "order_sequence": [
+     "Toscano",
+     "Dorico",
+     "Ionico",
+     "Corinthio",
+     "Composito"
+    ]
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XII.2",
+   "book": 1,
+   "chapter": "XII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "come rozo",
+    "lotto il Ionico"
+   ],
+   "quote": "Il Toscano, come rozo, si vsa rare volte sopra terra, fuor che nelle fabriche di vn'ordine solo, come coperti di Villa: ouero nelle machine grandissime, come Anfitheatri, e simili: lequali hauendo più ordini questo si ponerà in luogo del Dorico sotto il Ionico.",
+   "rule_de": "Toskanisch, weil roh, selten über der Erde: nur bei eingeschossigen Bauten (Villen-Nebengebäude) oder Riesenbauten wie Amphitheatern, dort anstelle des Dorischen unter dem Ionischen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orders.superposition",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XII.3",
+   "book": 1,
+   "chapter": "XII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "E ie fi vorrà",
+    "ragioni già dette"
+   ],
+   "quote": "E se si vorrà tralasciare vno di questi ordini, come sarebbe, porre il Corinthio immediate sopra il Dorico; ciò si potrà fare, pur che sempre il più sodo sia nella parte più bassa per le ragioni già dette.",
+   "rule_de": "Eine Ordnung darf übersprungen werden (z. B. Korinthisch direkt über Dorisch), solange die festere unten bleibt.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "orders.superposition",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XII.4",
+   "book": 1,
+   "chapter": "XII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "Io por",
+    "edificij Antichi"
+   ],
+   "quote": "Io porrò partitamente di ciascuno di questi le misure, non tanto secondo che n'insegna Vitruuio, quanto secondo c'ho auuertito ne gli edificij Antichi",
+   "rule_de": "Die Maße der Ordnungen gibt Palladio weniger nach Vitruv als nach eigener Beobachtung an antiken Bauten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Quellenhaltung: Messung vor Text",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.1",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "E COLONNE di ciafcun",
+    "alquanto di gonfiezza"
+   ],
+   "quote": "[L]E COLONNE di ciascun'ordine si deono formare in modo che la parte di sopra sia più sottile di quella di sotto, e nel mezo habbiano alquanto di gonfiezza.",
+   "rule_de": "Säulen jeder Ordnung oben dünner als unten und in der Mitte leicht geschwellt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orders.columns",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.2",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "Nelle di",
+    "del iij . lib"
+   ],
+   "quote": "Nelle diminutioni s'osserua, che quanto le colonne sono più lunghe, tanto meno diminuiscono, essendo che l'altezza da se faccia l'effetto del diminuire per la distanza: però se la colonna sarà alta sino à quindeci piedi; si diuiderà la grossezza da basso in sei parti e meza, e di v. e meza si farà la grossezza di sopra: Se da xv. à xx. si diuiderà la grossezza di sotto in parti vij. e vj. e mezo sarà la grossezza di sopra: similmente di quelle, che saranno da xx. fino à trenta; si diuiderà la grossezza di sotto in parti viij. e vij. di quelle sarà la grossezza di sopra: e così quelle colonne, che saranno più alte; si diminuiranno secondo il detto modo per la rata parte, come c'insegna Vitruuio al cap. ij. del iij. lib.",
+   "rule_de": "Je höher die Säule, desto weniger Verjüngung, weil die Entfernung selbst verjüngt: bis 15 Fuß oben 5½/6½ des unteren Durchmessers, 15–20 Fuß 6½/7, 20–30 Fuß 7/8, darüber entsprechend (nach Vitruv III, 2).",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.columns",
+   "scope": "all",
+   "values": {
+    "top_diameter_le15ft": "5.5/6.5",
+    "15_20ft": "6.5/7",
+    "20_30ft": "7/8"
+   },
+   "note": "Optische Korrektur: Wahrnehmung bestimmt das Maß",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.3",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "Ma come debba farli la gófiezza",
+    "molto garbatamen"
+   ],
+   "quote": "Ma come debba farsi la gonfiezza nel mezo; non habbiamo da lui altro che vna semplice promessa: e perciò diuersi hanno di ciò diuersamente detto. Io sono solito farla sacoma di detta gonfiezza in questo modo. Partisco il fusto della colonna in tre parti eguali, e lascio la terza parte da basso diritta à piombo, à canto l'estremità della quale pongo in taglio vna riga sottile alquanto, lunga come la colonna, ò poco più, e muouo quella parte, che auanza dal terzo in suso, e la storco fin che'l capo suo giunga al punto della diminutione di sopra della colonna sotto il collarino; e secondo quella curuatura segno: e così mi viene la colonna alquanto gonfia nel mezo, e si rastrema molto garbatamente.",
+   "rule_de": "Palladios eigenes Verfahren für die Schwellung: Schaft dritteln, unteres Drittel lotrecht, eine dünne biegsame Latte am Ende des Drittels ansetzen und bis zum Verjüngungspunkt unter dem Halsring biegen; der Bogen ergibt die Schwellung.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "orders.columns",
+   "scope": "all",
+   "values": {
+    "straight_part": "lower 1/3 of shaft"
+   },
+   "note": "Vitruv gibt dazu nur ein Versprechen; Palladios eigene Erfindung",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.4",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "Gli intercolunnij , cioè",
+    "& ancho maggiori"
+   ],
+   "quote": "Gli intercolunnij, cioè spatij fra le colonne si possono fare di vn diametro e mezo di colonna, e si toglie il diametro nella parte più bassa della colonna; di due diametri; di due, & vn quarto; di tre, & ancho maggiori:",
+   "rule_de": "Säulenabstände (in unteren Durchmessern): 1½, 2, 2¼, 3 und mehr.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {
+    "intercolumniation_D": [
+     1.5,
+     2,
+     2.25,
+     3
+    ]
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.5",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Ma non gli tifarono gli Antichi",
+    "colonne molto grandi"
+   ],
+   "quote": "Ma non gli vsarono gli Antichi maggiori di tre diametri di colonna, fuor che nell'ordine Toscano, nel quale vsandosi lo Architraue di legno; faceuano gli intercolunnij molto larghi; nè minori di vn diametro, e mezo, e di questo spatio si seruirono all'hora massimamente, quando faceuano le colonne molto grandi.",
+   "rule_de": "Die Antiken: Abstände nicht über 3 Durchmesser (außer Toskanisch mit Holzbalken) und nicht unter 1½, dieses Minimum besonders bei sehr großen Säulen.",
+   "kind": "range",
+   "attribution": "antichi",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {
+    "intercolumniation_D": "1.5 - 3 (Tuscan wider)"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.6",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Ma quegli intercolunnij",
+    "elegante maniera d ’ interco"
+   ],
+   "quote": "Ma quegli intercolunnij più de gli altri approuarono, che fussero di due diametri di colonna, & vn quarto; e questa dimandarono bella, & elegante maniera d'intercolunnij.",
+   "rule_de": "Am meisten schätzten die Antiken Abstände von 2¼ Durchmessern: die schöne und elegante Art.",
+   "kind": "preference",
+   "attribution": "antichi",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {
+    "eustyle_D": 2.25
+   },
+   "note": "= Eustylos (vgl. B4-IV-EUSTILOS)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.7",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Et fi deueauertire",
+    "fenza grada"
+   ],
+   "quote": "Et si deue auertire che tra gli intercolunnij, ouero spatij, e le colonne deue essere proportione, e corrispondenza; percioche se ne gli spatij maggiori si porranno colonne sottili; si leuerà grandissima parte dell'aspetto, essendo che per lo molto aere, che sarà tra i vani, si scemerà molto della loro grossezza; e se per lo contrario nelli spatij stretti si faranno le colonne grosse, per la strettezza, & angustia de gli spatij faranno vn'aspetto gonfio, e senza gratia.",
+   "rule_de": "Zwischen Säulenabstand und Säule muss Proportion und Entsprechung sein: dünne Säulen in weiten Abständen wirken verloren, dicke Säulen in engen Abständen aufgebläht und ohne Anmut.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.8",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "E però fe gli Ipatij eccederanno",
+    "come nel Compo"
+   ],
+   "quote": "E però se gli spatij eccederanno tre diametri; si faranno le colonne grosse per la settima parte della loro altezza, come ho osseruato di sotto nell'ordine Toscano. Ma se gli spatij saranno tre diametri; le colonne saranno lunghe sette teste e meza, ouero otto, come nell'ordine Dorico: e se di due, & vn quarto; le colonne saranno lunghe noue teste, come nel Ionico: e se di due, si faranno le colonne lunghe noue teste e meza, come nel Corinthio: e finalmente se saranno di vn diametro e mezo; saranno le colonne lunghe dieci teste, come nel Composito.",
+   "rule_de": "Säulenhöhe nach Abstand: über 3 D → Höhe 7 D (toskanisch); 3 D → 7½–8 D (dorisch); 2¼ D → 9 D (ionisch); 2 D → 9½ D (korinthisch); 1½ D → 10 D (komposit). Je enger, desto schlanker.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {
+    "Toscano": {
+     "intercol": ">3",
+     "height_D": 7
+    },
+    "Dorico": {
+     "intercol": 3,
+     "height_D": "7.5-8"
+    },
+    "Ionico": {
+     "intercol": 2.25,
+     "height_D": 9
+    },
+    "Corinthio": {
+     "intercol": 2,
+     "height_D": 9.5
+    },
+    "Composito": {
+     "intercol": 1.5,
+     "height_D": 10
+    }
+   },
+   "note": "Zuordnung zu den Ordnungen ist Palladios ('ho hauuto questo risguardo'), die Abstandsarten sind Vitruvs (III, 3).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.9",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Deono edere",
+    "colonnati femplici"
+   ],
+   "quote": "Deono essere nelle fronti de gli edificij le colonne pari: accioche nel mezo venga vn'intercolunnio, il quale si farà alquanto maggiore de gli altri, accioche meglio si veggano le porte, e le entrate, che si sogliono mettere nel mezo; e questo quanto à i colonnati semplici.",
+   "rule_de": "An Fronten eine gerade Säulenzahl, damit in der Mitte ein Joch liegt; dieses etwas weiter als die übrigen, damit Tür und Eingang besser sichtbar sind.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {
+    "central_bay": "slightly wider"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.10",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Ma nelle fabriche priuate",
+    "dilegni fi vederà"
+   ],
+   "quote": "Ma nelle fabriche priuate non si faranno nè meno grossi del terzo del vano, nè più de i due terzi, & douerebbono esser quadri: ma per scemare la spesa, e per fare il luogo da passeggiare più largo si faranno manco grossi per fianco di quello, che siano in fronte, e per adornare la facciata; si porranno nel mezo delle fronti loro meze colonne, ouero altri pilastri, che tolgano suso la cornice, che sarà sopra gli archi della Loggia; e saranno della grossezza, che richiederanno le loro altezze, secondo ciascun'ordine, come ne i seguenti capitoli & disegni si vederà.",
+   "rule_de": "Im Privatbau Pfeiler zwischen ⅓ und ⅔ der Öffnung, eigentlich quadratisch, aus Kostengründen seitlich schmaler; vor die Pfeilerfront Halbsäulen oder Pilaster, die das Gesims tragen, in der Stärke ihrer Ordnung.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "orders.arcades",
+   "scope": "private_house",
+   "values": {
+    "pier": "1/3 - 2/3 opening"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.11",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "A intelligenza de",
+    "ciafcun ’ ordine conuenienti"
+   ],
+   "quote": "A intelligenza de' quali (acciò ch'io non habbia è replicare il medesimo più volte) è da sapersi, ch'io nel partire, e nel misurare detti ordini non ho uoluto tor certa, e determinata misura, cioè particolare ad alcuna Città, come braccio, ò piede, ò palmo; sapendo che le misure sono diuerse, come sono diuerse le Città, e le regioni: Ma imitando Vitruuio, il quale partisce, e diuide l'ordine Dorico con una misura cauata dalla grossezza della colonna, laquale è commune à tutti, e da lui chiamata Modulo; mi seruirò ancor io di tal misura in tutti gli ordini, e sarà il Modulo il diametro della colonna da basso diuiso in minuti sessanta, fuor che nel Dorico: nel quale il Modulo sarà per il mezo diametro della colonna, e diuiso in trenta minuti; perche così riesce più commodo ne' compartimenti di detto ordine. Onde potrà ciascuno facendo il Modulo maggiore, e minore secondo la qualità della fabrica seruirsi delle proportioni, & delle sacome disegnate à ciascun'ordine conuenienti.",
+   "rule_de": "Keine ortsgebundene Maßeinheit (Elle, Fuß, Palm), sondern ein relatives Maß aus der Säule selbst, der Modul: unterer Säulendurchmesser = 60 Minuten; im Dorischen der halbe Durchmesser = 30 Minuten. Den Modul größer oder kleiner wählen, je nach Bau; die Proportionen bleiben.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "module",
+   "scope": "all",
+   "values": {
+    "module": "lower diameter = 60 minutes",
+    "module_doric": "half diameter = 30 minutes"
+   },
+   "note": "Kern des relativen Maßsystems (für die Gestaltungsrichtlinie zentral)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.12",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Ma fe lì faranno le Loggie",
+    "non è ( opra il Monte"
+   ],
+   "quote": "Ma se si faranno le Loggie co i pilastri, così si doueranno disporre, che i pilastri non siano manco grossi del terzo del vano, che sarà tra pilastro, e pilastro: e quelli, che saranno ne i cantoni; andaranno grossi per li due terzi; accioche gli angoli della fabrica uengano ad essere sodi, e forti. E quando haueranno à sostentare grandissimo carico, come ne gli edificij molto grandi; all'hora si faranno grossi per la metà del vano, come sono quelli del Theatro di Vicenza, e dell'Anfitheatro di Capua; ouero per li due terzi, come quelli del Theatro di Marcello in Roma; e del Theatro di Ogubio: il quale hora è del Sig. Lodouico de' Gabrielli gentil'huomo di quella Città. Gli fecero gli Antichi alcuna uolta ancho tanto grossi, quanto era tutto il vano, come nel Theatro di Verona in quella parte, che non è sopra il Monte.",
+   "rule_de": "Pfeilerarkaden: Pfeiler mindestens ⅓ der Öffnung, Eckpfeiler ⅔; bei sehr großer Last ½ oder ⅔ der Öffnung, bei den Antiken bisweilen gleich der Öffnung.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.arcades",
+   "scope": "all",
+   "values": {
+    "pier": ">= 1/3 opening",
+    "corner_pier": "2/3 opening",
+    "heavy": "1/2 or 2/3 opening"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.1",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "' ORDINE Tofoano",
+    "riguarde uoli,e belli"
+   ],
+   "quote": "L'ORDINE Toscano, per quanto ne dice Vitruuio, e si uede in effetto, è il più schietto, e semplice di tutti gli ordini dell'Architettura: percioche ritiene in se di quella primiera antichità, e manca di tutti quegli ornamenti, che rendono gli altri riguardeuoli, e belli.",
+   "rule_de": "Das toskanische ist die schlichteste Ordnung, ohne die Ornamente, die die anderen ansehnlich machen.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.2",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Le colonne có bafa",
+    "loro grolfezza"
+   ],
+   "quote": "Le colonne con basa, e capitello deono esser lunghe sette moduli, e si rastremano di sopra la quarta parte della loro grossezza.",
+   "rule_de": "Toskanische Säule mit Basis und Kapitell 7 Moduln hoch, oben um ¼ des Durchmessers verjüngt.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {
+    "column_height_M": 7,
+    "diminution": "1/4 D"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.3",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Se fi faranno di quello",
+    "di picciola Ipefa"
+   ],
+   "quote": "Se si faranno di questo ordine colonnati semplici; si potranno fare gli spatij molto grandi: perche gli Architraui si fanno di legno, e però riesce molto commodo per l'uso di Villa, per cagione de' Carri, & d'altri istrumenti rustichi, & è di picciola spesa",
+   "rule_de": "Toskanische Kolonnaden mit Holzbalken erlauben sehr weite Abstände; günstig und bequem für die Villa (Wagen, Geräte).",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "orders.tuscan",
+   "scope": "villa",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.4",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 23,
+   "printed_page": "19",
+   "anchor": [
+    "Ipiedeftili",
+    "Ichietti"
+   ],
+   "quote": "I piedestili, che si faranno sotto le colonne di questo ordine; saranno alti vn modulo, e si faranno schietti.",
+   "rule_de": "Toskanisches Postament: 1 Modul hoch, schlicht.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {
+    "pedestal_M": 1
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.5",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 23,
+   "printed_page": "19",
+   "anchor": [
+    "L ’ Altezza dellabafa",
+    "diametro della colonna"
+   ],
+   "quote": "L'Altezza della basa è per la metà della grossezza della colonna. Questa altezza si diuide in due parti eguali: vna si dà all'orlo, ilquale si fa à sesta; l'altra si diuide in quattro parti, una si dà al listello, il quale si può ancho fare vn poco manco; & altramente si dimanda Cimbia, & in quest'ordine solo è parte della Basa: perche in tutti gli altri è parte della colonna: e l'altre tre al toro, ouer bastone. Ha questa basa di sporto la sesta parte del diametro della colonna.",
+   "rule_de": "Toskanische Basis: ½ D hoch; Hälfte Plinthe (rund), Rest in 4: 1 Leiste (Cimbia, nur hier Teil der Basis), 3 Wulst; Ausladung ⅙ D.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {
+    "base_height": "1/2 D",
+    "plinth": "1/2 base",
+    "fillet": "1/8 base",
+    "torus": "3/8 base",
+    "projection": "1/6 D"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.6",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 23,
+   "printed_page": "19",
+   "anchor": [
+    "Il Capitello è alto",
+    "colonna da baffo"
+   ],
+   "quote": "Il Capitello è alto ancor egli per la metà della grossezza della colonna da basso: e diuidesi in tre parti eguali: vna si dà all'Abaco, il quale per la sua forma uolgarmente si dice Dado: l'altra all'Ouolo: e la terza si diuide in sette parti. D'vna si fa il listello sotto l'ouolo, e l'altre sei restano al collarino. L'Astragalo è alto il doppio del listello sotto l'ouolo: e il suo centro si fa su la linea, che caschi à piombo da detto listello, e sopra l'istessa cade lo sporto della cimbia: la quale è grossa quanto il listello. Lo sporto di questo capitello risponde sul viuo della colonna da basso.",
+   "rule_de": "Toskanisches Kapitell: ½ D hoch, gedrittelt in Abakus, Echinus und (1+6)/7 Leiste und Hals; Astragal doppelt so hoch wie die Leiste; Ausladung bis zur unteren Säulenflucht.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {
+    "capital_height": "1/2 D",
+    "abacus": "1/3",
+    "echinus": "1/3",
+    "neck": "1/3 (1/7 fillet, 6/7 collar)"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.7",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 23,
+   "printed_page": "19",
+   "anchor": [
+    "Il fuo Architraue fi fa di legno",
+    "colonne"
+   ],
+   "quote": "Il suo Architraue si fa di legno tanto alto quanto largo, e la larghezza non eccede il viuo della colonna di sopra; Le traui, che fanno la gronda hanno di proggettura, ò vogliam dire di sporto, il quarto della lunghezza delle colonne. Queste sono le misure dell'ordine Toscano, come c'insegna Vitruuio.",
+   "rule_de": "Toskanischer Holzarchitrav so hoch wie breit, nicht breiter als die obere Säulenflucht; die Traufbalken kragen ¼ der Säulenlänge aus. So Vitruv.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {
+    "architrave": "h = w <= upper diameter",
+    "eaves_projection": "1/4 column height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.8",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 23,
+   "printed_page": "19",
+   "anchor": [
+    "Mafc fi faranno gli Architraui",
+    "de gk intercolunni"
+   ],
+   "quote": "Ma se si faranno gli Architraui di pietra; si seruarà quanto è stato detto di sopra de gli intercolunnij.",
+   "rule_de": "Bei steinernem Architrav gelten die Abstandsregeln aus Kap. XIII.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orders.tuscan",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.1",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 26,
+   "printed_page": "22",
+   "anchor": [
+    "Le colonne le fi faranno",
+    "detta Diaftilos"
+   ],
+   "quote": "Le colonne se si faranno semplici senza pilastri deono esser lunghe sette teste e meza, ouero otto. Gli intercolunnij sono poco meno di tre diametri di colonna, e questa maniera di colonnati da Vitruuio è detta Diastilos.",
+   "rule_de": "Dorische Säulen ohne Pfeiler: 7½ oder 8 Durchmesser hoch; Abstände knapp 3 Durchmesser (Diastylos).",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "column_height_D": "7.5-8",
+    "intercolumniation_D": "< 3"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.2",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 26,
+   "printed_page": "22",
+   "anchor": [
+    "Male fi",
+    "minuti felfanta"
+   ],
+   "quote": "Ma se si appoggieranno à i pilastri; si faranno con basa, e capitello lunghe dicesette moduli, & vn terzo; & è da auertire, che (come ho detto di sopra al cap. xiij.) il modulo in quest'ordine solo è mezo il diametro della colonna diuiso in minuti trenta, & in tutti gli altri ordini è il diametro intiero diuiso in minuti sessanta.",
+   "rule_de": "Dorische Säulen vor Pfeilern: 17⅓ Moduln (Modul hier = ½ D, also 8⅔ D).",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "column_height_M": 17.333,
+    "module": "1/2 D = 30 minutes"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.3",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 26,
+   "printed_page": "22",
+   "anchor": [
+    "Negli Antichi non fi vede Piedeftilo",
+    "della colonna"
+   ],
+   "quote": "Ne gli Antichi non si vede Piedestilo à quest'ordine, ma sì bene ne' moderni: però volendouelo porre; si farà che'l Dado sia quadro, e da lui si piglierà la misura de gli ornamenti suoi: perche si diuiderà in quattro parti vguali, e la basa co'l suo zocco sarà per due di quelle, e per vna la Cimacia, alla quale deue essere attaccato l'orlo della basa della colonna.",
+   "rule_de": "Dorisches Postament (bei Antiken nicht, bei Modernen ja): Würfel quadratisch; seine Höhe in 4 Teile: Fuß mit Sockel 2, Deckgesims 1.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "pedestal_die": "square",
+    "pedestal_base": "2/4 die",
+    "pedestal_cornice": "1/4 die"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.4",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 26,
+   "printed_page": "22",
+   "anchor": [
+    "Non ha queft ’ ordine Bafa propria",
+    "accrefce molto di bellezza"
+   ],
+   "quote": "Non ha quest'ordine Basa propria: onde in molti edificij si veggono le colonne senza base, come in Roma nel Theatro di Marcello, nel Tempio della Pietà vicino à detto Theatro, nel Theatro di Vicenza, & in diuersi altri luoghi. Ma alcuna uolta ui si pone la Basa Attica: laquale accresce molto di bellezza",
+   "rule_de": "Dorisch hat keine eigene Basis (oft basislos); die attische Basis steigert aber die Schönheit sehr.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.5",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 26,
+   "printed_page": "22",
+   "anchor": [
+    "L ’ altezza è per la metà del diametro",
+    "fporto della bafa"
+   ],
+   "quote": "L'altezza è per la metà del diametro della colonna, e si diuide in tre parti vguali: vna si dà al Plinto ò Zocco: l'altre due si diuidono in quattro parti, e d'vna si fa il bastone di sopra: l'altre, che restano si partiscono in due, & vna si dà al bastone di sotto: l'altra al Cauetto co' suoi listelli: percioche si partirà in sei parti: d'una si farà il listello di sopra: d'un'altra quel di sotto: e quattro resteranno al cauetto. Lo sporto è la sesta parte del diametro della colonna: La Cimbia si fa per la metà del bastone di sopra facendosi diuisa dalla basa, il suo sporto è la terza parte di tutto lo sporto della basa.",
+   "rule_de": "Attische Basis: ½ D hoch; ⅓ Plinthe; Rest in 4: oberer Wulst 1, verbleibende 3 halbiert: unterer Wulst und Kehle mit Leisten (Kehle 4/6, Leisten je 1/6); Ausladung ⅙ D; Cimbia = ½ oberer Wulst, Ausladung ⅓ der Basisausladung.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.attic_base",
+   "scope": "all",
+   "values": {
+    "base_height": "1/2 D",
+    "plinth": "1/3",
+    "projection": "1/6 D"
+   },
+   "note": "Gilt auch für andere Ordnungen (Ionisch, Korinthisch verwenden sie)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.6",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 30,
+   "printed_page": "26",
+   "anchor": [
+    "Il capitello deue edere alto",
+    "colonna da ballò"
+   ],
+   "quote": "Il capitello deue essere alto la metà del diametro della colonna: e si diuide in tre parti: quella di sopra si dà all'Abaco, e cimacio: il cimacio è delle cinque parti di quella le due, e si diuide in tre parti: d'una si fa il Listello, e dell'altre due la Gola. La seconda parte principale si diuide in tre parti uguali: una si dà à gli anelli, ò quadretti: i quali sono tre uguali: l'altre due restano all'ouolo: il quale ha di sporto i due terzi della sua altezza. La terza parte poi si dà al collarino. Tutto lo sporto è per la quinta parte del diametro della colonna. L'Astragalo, ò Tondino è alto quanto sono tutti tre gli anelli, e sporge in fuori al uiuo della colonna da basso.",
+   "rule_de": "Dorisches Kapitell: ½ D hoch, gedrittelt: Abakus mit Kymation (2/5), Echinus mit drei Ringen, Hals; Ausladung ⅕ D.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "capital_height": "1/2 D",
+    "projection": "1/5 D"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.7",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 30,
+   "printed_page": "26",
+   "anchor": [
+    "Sopra il capitello fi fa",
+    "alla fcco nda"
+   ],
+   "quote": "Sopra il capitello si fa l'Architraue: il quale deue esser alto la metà della grossezza della colonna, cioè un modulo. Si diuide in sette parti: d'una si fa la Tenia, ouero benda; e tanto se le dà di sporto: si torna poi à diuidere il tutto in parti sei, & una si dà alle goccie: le quali deono esser sei, & al Listello, che è sotto la Tenia, che è per il terzo di dette goccie. Dalla Tenia in giuso si diuide il resto in sette parti; tre si danno alla prima fascia, e quattro alla seconda.",
+   "rule_de": "Dorischer Architrav: 1 Modul (½ D); 1/7 Tänie; 1/6 Tropfen (sechs); unter der Tänie 3/7 erste, 4/7 zweite Faszie.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "architrave_M": 1
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.8",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 30,
+   "printed_page": "26",
+   "anchor": [
+    "Il Fregio và alto",
+    "quanto alta"
+   ],
+   "quote": "Il Fregio và alto vn modulo e mezo: il Triglifo è largo vn modulo: il suo capitello è per la sesta parte del modulo. Si diuide il Triglifo in sei parti: due si danno a due canali di mezo: vna a due mezi canali nelle parti di fuori; e l'altre tre fanno gli spatij, che sono tra detti canali. La Metopa, cioè spatio fra Triglifo, e Triglifo deue essere tanto larga quanto alta.",
+   "rule_de": "Dorischer Fries 1½ Moduln; Triglyph 1 Modul breit; die Metope zwischen zwei Triglyphen so breit wie hoch (Quadrat).",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "frieze_M": 1.5,
+    "triglyph_M": 1,
+    "metope": "1:1"
+   },
+   "note": "Quadrat als Regel im Fries",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.9",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 30,
+   "printed_page": "26",
+   "anchor": [
+    "La Cornice deue effere alta",
+    "le fette parti e meza"
+   ],
+   "quote": "La Cornice deue essere alta vn modulo, & vn sesto, e si diuide in parti cinque, e meza: due si danno al Cauetto, & Ouolo. Il Cauetto è minor dell'Ouolo, quanto è il suo listello: le altre tre e meza si danno alla corona, ò cornice, che volgarmente si dice Gocciolatoio: & alla Gola riuersa, & diritta. La Corona deue hauer di sporto delle sei parti del modulo le quattro, e nel suo piano che guarda in giù, & sporta in fuori per il lungo sopra i Triglifi sei goccie, e per il largo tre co' suoi listelli, e sopra le Metope alcune rose. Le goccie vanno rotonde, e rispondono alle goccie sotto la Tenia: lequali vanno in forma di campana. La Gola sarà più grossa della corona la ottaua parte: si diuide in parti otto, due si danno all'orlo, e sei restano alla Gola: la quale ha di sporto le sette parti e meza.",
+   "rule_de": "Dorisches Gesims 1⅙ Moduln; Hängeplatte kragt ⅔ Modul aus; Unterseite mit Tropfen über den Triglyphen und Rosetten über den Metopen.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "cornice_M": 1.1667,
+    "corona_projection_M": 0.6667
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XV.10",
+   "book": 1,
+   "chapter": "XV",
+   "phys": 30,
+   "printed_page": "26",
+   "anchor": [
+    "Onde l ’ Architraue , il Fregio",
+    "vn poco maggiore"
+   ],
+   "quote": "Onde l'Architraue, il Fregio, e la Cornice vengono ad esser alti la quarta parte dell'altezza della colonna. E queste sono le misure della Cornice secondo Vitruuio: dalla quale mi sono alquanto partito alterandola de' membri, & facendola vn poco maggiore.",
+   "rule_de": "Gebälk (Architrav, Fries, Gesims) = ¼ der Säulenhöhe. Palladio weicht von Vitruvs Gesims ab und macht es etwas größer.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.doric",
+   "scope": "all",
+   "values": {
+    "entablature": "1/4 column height"
+   },
+   "note": "Abweichung von Vitruv ausdrücklich",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.1",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 32,
+   "printed_page": "28",
+   "anchor": [
+    "Le colonne con ca",
+    "due quadri"
+   ],
+   "quote": "Le colonne con capitello, e basa sono lunghe noue teste, cioè noue moduli: perche testa, s'intende il diametro della colonna da basso. L'Architraue, il Fregio, e la Cornice sono per la quinta parte dell'altezza della colonna: nel disegno de' colonnati semplici sono gli intercolunnij di due diametri, & vn quarto: & questa è la più bella, e commoda maniera d'intercolunnij: e da Vitruuio è detta Eustilos. In quello de gli Archi, i pilastri sono per la terza parte del vano, e gli archi sono alti in luce due quadri.",
+   "rule_de": "Ionische Säule 9 Durchmesser (= 9 Moduln); Gebälk ⅕ der Säulenhöhe; Säulenabstand 2¼ D, die schönste und bequemste Art (Eustylos); bei Arkaden Pfeiler ⅓ der Öffnung, Bogenöffnung zwei Quadrate hoch (2:1).",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {
+    "column_height_D": 9,
+    "entablature": "1/5 column height",
+    "intercolumniation_D": 2.25,
+    "arcade_pier": "1/3 opening",
+    "arch_opening": "h = 2 w"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.2",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 35,
+   "printed_page": "31",
+   "anchor": [
+    "Se alle colonne Ioniche",
+    "piano di mezo"
+   ],
+   "quote": "Se alle colonne Ioniche si porrà Piedestilo, come nel disegno de gli Archi; egli si farà alto, quanto sarà la metà della larghezza della luce dell'Arco, e si diuiderà in parti sette e meza, di due si farà la Basa, d'vna la Cimacia, e quattro, e meza resteranno al Dado, cioè piano di mezo.",
+   "rule_de": "Ionisches Postament (bei Arkaden): Höhe = halbe lichte Bogenweite; in 7½ Teile: Fuß 2, Deckgesims 1, Würfel 4½.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {
+    "pedestal_height": "1/2 arch width",
+    "parts": "2 + 4.5 + 1 = 7.5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.3",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 35,
+   "printed_page": "31",
+   "anchor": [
+    "Sono quelle impolle alte",
+    "tolfufo l ’ Arco"
+   ],
+   "quote": "Sono queste imposte alte la metà di più di quel ch'è grosso il pilastro, che tol suso l'Arco.",
+   "rule_de": "Die Bogenkämpfer sind um die Hälfte höher, als der den Bogen tragende Pilaster stark ist (Deutung am Scan zu prüfen).",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {},
+   "note": "Wortlaut schwer zu deuten",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.4",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 37,
+   "printed_page": "33",
+   "anchor": [
+    "Per fare il capitello",
+    "alla Voluta"
+   ],
+   "quote": "Per fare il capitello si diuide il piede della colonna in diciotto parti, e dicenoue di queste parti è la larghezza, e lunghezza dell'Abaco, e la metà è l'altezza del capitello con le uolute; onde viene ad esser alto noue parti, e meza. Vna parte e meza si dà all'Abaco co'l suo Cimacio: l'altre otto restano alla Voluta",
+   "rule_de": "Ionisches Kapitell: unterer Durchmesser = 18 Teile; Abakus 19 × 19 Teile; Kapitellhöhe mit Voluten 9½ Teile (Abakus 1½, Volute 8).",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {
+    "abacus": "19/18 D square",
+    "capital_height": "9.5/18 D"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.5",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 37,
+   "printed_page": "33",
+   "anchor": [
+    "la quale fifa in quello modo",
+    "polli nel dileguo"
+   ],
+   "quote": "la quale si fa in questo modo. Dall'estremità del Cimacio al di dentro si pone vna parte delle decinoue, e dal punto fatto si lascia cadere vna linea à piombo: la quale diuide la Voluta per mezo, e si dimanda Catheto: e doue in questa linea è il punto, che separa le quattro parti e meza superiori, e le tre e meza inferiori, si fa il centro dell'occhio della Voluta: il diametro del quale è vna delle otto parti: e dal detto punto si tira vna linea, la quale incrociata ad angoli retti co'l catheto; uiene à diuidere la voluta in quattro parti. Nell'occhio poi si forma vn quadrato, la cui grandezza è il semidiametro di detto occhio, e tirate le linee diagonali; in quelle si fanno i punti, oue deue esser messo nel far la Voluta il piede immobile del compasso: e sono, computatoui il centro dell'occhio, tredici centri: e di questi l'ordine che si deue tenere; appare per li numeri posti nel disegno.",
+   "rule_de": "Volutenkonstruktion: Lot (Kathetus) 1 Teil innerhalb des Kymationendes; Augenmitte zwischen 4½ oberen und 3½ unteren Teilen; Augendurchmesser 1 Teil; im Auge ein Quadrat mit Seite = Augenradius, auf den Diagonalen 13 Zirkelmittelpunkte.",
+   "kind": "procedure",
+   "attribution": "vitruvius",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {
+    "eye_diameter": "1/8 volute height",
+    "centres": 13
+   },
+   "note": "Geometrisches Verfahren, für parametrische Umsetzung geeignet",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.6",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 37,
+   "printed_page": "33",
+   "anchor": [
+    "Si fogliono lare ne gli angoli",
+    "libro de i Tempi"
+   ],
+   "quote": "Si sogliono fare ne gli angoli de' colonnati, ò portici di ordine Ionico i capitelli, c'habbiano le Volute, non solo nella fronte, ma ancho in quella parte, che facendosi il capitello, come si suol fare; sarebbe il fianco: onde uengono ad hauere la fronte da due bande, e si dimandano capitelli angolari: i quali come si facciano; dimostrerò nel mio libro de i Tempij.",
+   "rule_de": "An den Ecken ionischer Kolonnaden Eckkapitelle mit Voluten auf beiden Seiten.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.7",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 39,
+   "printed_page": "35",
+   "anchor": [
+    "L ’ Architraue , il Fregio , e la Cornice fono ( come",
+    "quanto è grofTa"
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice sono (come ho detto) per la quinta parte dell'altezza della colonna: e si diuide il tutto in parti dodeci. L'Architraue è parti quattro: il Fregio tre, e la Cornice cinque. L'Architraue si diuide in parti cinque, e d'vna si fa il suo Cimacio: e il resto si diuide in dodici: tre si danno alla prima fascia, e al suo Astragalo; quattro alla seconda, & all'astragalo, e cinque alla terza. La cornice si diuide in parti sette, e tre quarti: due si danno al Cauetto, & Ouolo, due al modiglione: & tre, e tre quarti alla corona, e gola: e sporge tanto in fuori, quanto è grossa.",
+   "rule_de": "Ionisches Gebälk ⅕ der Säulenhöhe, in 12 Teile: Architrav 4, Fries 3, Gesims 5; Architravfaszien 3 : 4 : 5; das Gesims kragt so weit aus, wie es hoch ist.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {
+    "entablature": "1/5 column height",
+    "architrave:frieze:cornice": "4:3:5",
+    "fasciae": "3:4:5",
+    "cornice_projection": "= cornice height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.8",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 35,
+   "printed_page": "31",
+   "anchor": [
+    "Labafa dell ’ or",
+    "bafa Ionica , fecondo Vitruuio"
+   ],
+   "quote": "La basa dell'ordine Ionico è grossa mezo modulo, e si diuide in tre parti: vna si dà al Zocco, il suo sporto è la quarta, & ottaua parte del modulo, l'altre due si diuidono in sette: di tre si fa il bastone, l'altre quattro di nuouo si diuidono in due, & vna si dà al cauetto di sopra, e l'altra à quello di sotto: il quale douerà hauere più sporto dell'altro. Gli astragali deono essere la ottaua parte del cauetto: la Cimbia della colonna è per la terza parte del bastone della basa: ma se si farà la basa congiunta con parte della colonna; si farà la Cimbia più sottile, come ho detto ancho nel Dorico. Ha di sporto la Cimbia la metà dello sporto già detto. Queste sono le misure della basa Ionica, secondo Vitruuio.",
+   "rule_de": "Ionische Basis nach Vitruv: ½ Modul hoch; ⅓ Plinthe (Ausladung ⅜ Modul); Rest in 7: Wulst 3, zwei Kehlen je 2 (die untere weiter ausladend).",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {
+    "base_height_M": 0.5,
+    "plinth_projection_M": 0.375
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.9",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 35,
+   "printed_page": "31",
+   "anchor": [
+    "Ma perche in",
+    "infegna Vitruuio"
+   ],
+   "quote": "Ma perche in molti edificij Antichi si veggono à quest'ordine basi Attiche, & à me più piacciono; sopra il piedestilo ho disegnato l'Attica con quel bastoncino sotto la Cimbia; non restando però di fare il disegno di quella, che ci insegna Vitruuio.",
+   "rule_de": "Palladio zieht für das Ionische die attische Basis vor (an antiken Bauten belegt) und zeichnet Vitruvs Basis nur daneben.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {},
+   "note": "Palladios Urteil gegen Vitruv",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVI.10",
+   "book": 1,
+   "chapter": "XVI",
+   "phys": 37,
+   "printed_page": "33",
+   "anchor": [
+    "L ’ Allra -",
+    "tempre vgualmente"
+   ],
+   "quote": "L'Astragalo della colonna è al diritto dell'occhio della Voluta. Le Volute vanno tanto grosse nel mezo, quanto è lo sporto dell'Ouolo: ilquale auanza oltra l'Abaco tanto, quanto è l'occhio della Voluta. Il canale della Voluta uà al paro del viuo della colonna. L'Astragalo della colonna gira per sotto la Voluta, e sempre si vede, come appar nella pianta, & è naturale che vna cosa tenera, come è finta esser la Voluta; dia luogo ad vna dura, come è l'Astragalo: e si discosta la Voluta da quello sempre vgualmente.",
+   "rule_de": "Astragal auf Höhe des Volutenauges; Volute in der Mitte so dick wie die Ausladung des Echinus; das Weiche (Volute) weicht dem Harten (Astragal) – eine Begründung aus der Natur der Dinge.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.ionic",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVII.1",
+   "book": 1,
+   "chapter": "XVII",
+   "phys": 41,
+   "printed_page": "37",
+   "anchor": [
+    "il quale è più adorno",
+    "grolfezza di eflò Arco"
+   ],
+   "quote": "il quale è più adorno, e suelto de i sopradetti. Le colonne sono simili alle Ioniche, & aggiuntaui la basa, e il capitello sono lunghe moduli noue e mezo. Se si faranno incanellate dourano hauere ventiquattro canali: i quali profondino per la metà della loro larghezza. I pianuzzi, ouero spatij tra l'vn canale, e l'altro, saranno per il terzo della larghezza di detti canali. L'Architraue, il Fregio, e la Cornice sono per il quinto dell'altezza delle colonne. Nel disegno del colonnato semplice gli intercolunnij sono di due diametri, come è il Portico di Santa Maria Ritonda in Roma: e questa maniera di colonnati da Vitruuio è detta Sistilos. Et in quello de gli Archi; i pilastri sono per le due parti delle cinque della luce dell'Arco, e l'Arco è in luce per altezza due quadri e mezo, compresa la grossezza di esso Arco.",
+   "rule_de": "Korinthisch, geschmückter und schlanker: Säule 9½ Moduln; 24 Kanneluren, halb so tief wie breit, Stege ⅓ der Kannelurbreite; Gebälk ⅕ der Säulenhöhe; Abstand 2 D (Systylos, wie Pantheon); bei Arkaden Pfeiler ⅖ der Bogenweite, Bogenöffnung 2½ Quadrate hoch (mit Bogenstärke).",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.corinthian",
+   "scope": "all",
+   "values": {
+    "column_height_M": 9.5,
+    "flutes": 24,
+    "flute_depth": "1/2 width",
+    "fillet": "1/3 flute",
+    "entablature": "1/5 column height",
+    "intercolumniation_D": 2,
+    "arcade_pier": "2/5 opening",
+    "arch_opening": "h = 2.5 w"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVII.2",
+   "book": 1,
+   "chapter": "XVII",
+   "phys": 44,
+   "printed_page": "40",
+   "anchor": [
+    "Sotto le colonne Corinthie",
+    "Cioè il pilaftro , che tol Tufo l ’ Arco"
+   ],
+   "quote": "Sotto le colonne Corinthie si farà il piedestilo alto il quarto dell'altezza della colonna; e si diuiderà in otto parti: vna si darà alla Cimacia, due alla sua basa, e cinque resteranno al Dado. La Basa si diuiderà in tre parti: due si daranno al Zocco, & vna alla Cornice. La basa delle colonne è l'Attica: ma in questo è diuersa da quella, che si pone all'ordine Dorico, che lo sporto è la quinta parte del diametro della colonna. Si può ancho in qualche altra parte variare, come si vede nel disegno; oue è segnata ancho la imposta de gli Archi: la quale è alta la metà di più di quel ch'è grosso il membretto, cioè il pilastro, che tol suso l'Arco.",
+   "rule_de": "Korinthisches Postament ¼ der Säulenhöhe, in 8: Deckgesims 1, Fuß 2, Würfel 5; Säulenbasis attisch mit Ausladung ⅕ D, variierbar; Kämpfer 1½-mal so hoch wie der bogentragende Pilaster stark ist.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.corinthian",
+   "scope": "all",
+   "values": {
+    "pedestal": "1/4 column height",
+    "parts": "2 + 5 + 1 = 8",
+    "base_projection": "1/5 D",
+    "impost": "1.5 x membretto thickness"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVII.3",
+   "book": 1,
+   "chapter": "XVII",
+   "phys": 46,
+   "printed_page": "42",
+   "anchor": [
+    "Il capitello Corinthio deue",
+    "fondo de ’ canali delle colonne"
+   ],
+   "quote": "Il capitello Corinthio deue essere alto, quanto è grossa la colonna da basso, e di più la sesta parte; laquale si dà all'Abaco: il resto si diuide in tre parti uguali. La prima si dà alla prima foglia, la seconda alla seconda, e la terza di nuouo si diuide in due, e della parte prossima all'Abaco si fanno i caulicoli con le foglie, che par che gli sostentino: dalle quali essi nascono: e però il fusto d'onde escono; si farà grosso; & essi nei loro auolgimenti si andaranno à poco à poco assottigliando, e piglieremo in ciò l'essempio dalle piante; le quali sono più grosse doue nascono, che doue finiscono. La campana, cioè il viuo del capitello sotto le foglie deue andare al diritto del fondo de' canali delle colonne.",
+   "rule_de": "Korinthisches Kapitell: Höhe = unterer Durchmesser + ⅙ (Abakus); Rest gedrittelt: erste Blattreihe, zweite Blattreihe, Caulicoli; diese verjüngen sich wie Pflanzen von der Wurzel zur Spitze; Glocke in der Flucht der Kannelurgründe.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.corinthian",
+   "scope": "all",
+   "values": {
+    "capital_height": "7/6 D",
+    "abacus": "1/6 D"
+   },
+   "note": "Natur (Pflanzen) als Vorbild der Form",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVII.4",
+   "book": 1,
+   "chapter": "XVII",
+   "phys": 46,
+   "printed_page": "42",
+   "anchor": [
+    "A far l ’ Abaco",
+    "della colonna da piedi"
+   ],
+   "quote": "A far l'Abaco, c'habbia conueniente sporto; si forma vn quadrato: ciascun lato del quale sia vn modulo e mezo: e si tirano in quello le linee diagonali; e doue s'intersecano, che sarà nel mezo; si pone il piede immobile del compasso: e verso ciascun angolo del quadrato si segna vn modulo: e doue saranno i punti si tirano le linee, che s'intersechino ad angoli retti con le dette diagonali, e che tocchino i lati del quadrato: e queste saranno il termine dello sporto, e quanto saranno lunghe; tanto sarà la larghezza delle corna dell'Abaco. La curuatura, ouero scemità si farà allungando vn filo dall'vn corno all'altro, e pigliando il punto, onde viene à formarsi vn triangolo, la cui basa è la scemità. Si tira poi una linea dall'estremità delle dette corna, all'estremità dell'Astragalo, ouero tondino della colonna, e si fa che le lingue delle foglie la tocchino: ouero auancino alquanto più in fuora, e questo è il loro sporto. La Rosa deue esser larga la quarta parte del diametro della colonna da piedi.",
+   "rule_de": "Abakus-Konstruktion: Quadrat mit Seite 1½ Moduln, Diagonalen, vom Mittelpunkt 1 Modul zu jeder Ecke abtragen, Senkrechte bilden die Hörner; Einschwingung über ein gleichseitiges Dreieck; Blattspitzen an der Linie Hornende–Astragal; Rosette ¼ D breit.",
+   "kind": "procedure",
+   "attribution": "vitruvius",
+   "topic": "orders.corinthian",
+   "scope": "all",
+   "values": {
+    "abacus_square_M": 1.5,
+    "rosette": "1/4 D"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVII.5",
+   "book": 1,
+   "chapter": "XVII",
+   "phys": 46,
+   "printed_page": "42",
+   "anchor": [
+    "L ’ Ar -",
+    "tà del campo di dette Rofe"
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice (come ho detto) sono il quinto dell'altezza della colonna: e si diuide il tutto in parti dodici, come nel Ionico: ma in questo v'è differenza; che la cornice si diuide in otto parti e meza: d'vna si fa l'intauolato, dell'altra il dentello, della terza l'ouolo, della quarta e quinta il modiglione, e dell'altre tre e meza la corona, e la Gola. Ha la cornice tanto di sporto, quanto è alta. Le casse delle Rose, che vanno tra i modiglioni; vogliono esser quadre, & i modiglioni grossi per la metà del campo di dette Rose.",
+   "rule_de": "Korinthisches Gebälk ⅕ der Säulenhöhe, in 12 wie im Ionischen; Gesims in 8½ (Platte 1, Zahnschnitt 1, Echinus 1, Konsole 2, Hängeplatte und Sima 3½); Ausladung = Höhe; Rosettenfelder zwischen den Konsolen quadratisch, Konsolen halb so breit wie ein Feld.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.corinthian",
+   "scope": "all",
+   "values": {
+    "entablature": "1/5 column height",
+    "cornice_projection": "= height",
+    "rose_panels": "square",
+    "modillion": "1/2 panel"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVIII.1",
+   "book": 1,
+   "chapter": "XVIII",
+   "phys": 48,
+   "printed_page": "44",
+   "anchor": [
+    "' ORDINE Compofito",
+    "due quadri e mezo"
+   ],
+   "quote": "L'ORDINE Composito, il quale vien ancho detto Latino, perche fu inuentione de gli Antichi Romani; è così chiamato perche participa di due de' sopradetti ordini, & il più regolato, e più bello è quello, che è composto di Ionico, e di Corinthio. Si fa più suelto del Corinthio, e si può fare simile à quello in tutte le parti, fuor che nel capitello. Le colonne deono esser lunghe dieci moduli. Nel disegno del colonnato semplice, gli intercolunnij sono d'vn diametro e mezo, e questa maniera è dimandata da Vitruuio Picnostilos. Et in quello de gli Archi i pilastri sono per la metà della luce dell'Arco, e gli Archi sono alti fin sotto il volto due quadri e mezo.",
+   "rule_de": "Komposit (auch Latinisch, römische Erfindung) aus Ionisch und Korinthisch, schlanker als Korinthisch, außer im Kapitell gleich: Säule 10 Moduln; Abstand 1½ D (Pyknostylos); bei Arkaden Pfeiler ½ der Bogenweite, Öffnung 2½ Quadrate hoch.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.composite",
+   "scope": "all",
+   "values": {
+    "column_height_M": 10,
+    "intercolumniation_D": 1.5,
+    "arcade_pier": "1/2 opening",
+    "arch_opening": "h = 2.5 w"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVIII.2",
+   "book": 1,
+   "chapter": "XVIII",
+   "phys": 51,
+   "printed_page": "47",
+   "anchor": [
+    "il fuo Piedeftilo è",
+    "quanto è grolfo il Membretto"
+   ],
+   "quote": "[E perche (come ho detto) si deue far quest'ordine più suelto del Corinthio,] il suo Piedestilo è per il terzo dell'altezza della colonna: e si diuide in parti otto, e meza. D'una parte si fa la Cimacia, di quella Basa, e cinque e meza restano al Dado. La Basa del Piedestilo si diuide in tre parti: due si danno al Zocco, & vna a suoi Bastoni con la sua Gola. La Basa della colonna si può far Attica, come nel Corinthio, e si può fare ancho composta dell'Attica, e della Ionica, come si vede nel disegno. La Sacoma dell'Imposta de gli Archi è a canto al piano del Piedestilo: e la sua altezza è quanto è grosso il Membretto.",
+   "rule_de": "Komposit-Postament ⅓ der Säulenhöhe, in 8½: Deckgesims 1, Fuß 2, Würfel 5½; Säulenbasis attisch oder attisch-ionisch; Kämpfer so hoch wie der Pilaster stark ist.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.composite",
+   "scope": "all",
+   "values": {
+    "pedestal": "1/3 column height",
+    "parts": "1 + [2] + 5.5 = 8.5 (print: 'di quella Basa')",
+    "impost": "= membretto thickness"
+   },
+   "note": "So gedruckt ('di quella Basa'); rechnerisch (1 + x + 5½ = 8½) sind 2 Teile gemeint.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVIII.3",
+   "book": 1,
+   "chapter": "XVIII",
+   "phys": 53,
+   "printed_page": "49",
+   "anchor": [
+    "Il Capitello Compofìto ha",
+    "benifsimo intefo"
+   ],
+   "quote": "Il Capitello Composito ha quelle istesse misure, che ha il Corinthio: ma è diuerso da quello per la Voluta, Ouolo, e Fusarolo, che sono membri attribuiti al Ionico: & il modo di farlo è questo. Dall'Abaco in giù si diuide il capitello in tre parti, come nel Corinthio. La prima parte si dà alla prima foglia, e la seconda alla seconda, e la terza alla Voluta: la quale si fa in quell'istesso modo, e con quei medesimi punti, co i quali s'è detto, che si fa la Ionica: & occupa tanto dell'Abaco, che paia ch'ella nasca fuori dell'Ouolo appresso il fiore, che si pone nel mezo della curuatura di detto Abaco: & è grossa in fronte, quanto è lo smusso, che si fa su le corna di quello, o poco più. L'Ouolo è grosso delle cinque parti dell'Abaco le tre: la parte sua inferiore comincia al diritto della parte inferiore dell'occhio della Voluta: ha di sporto delle quattro parti della sua altezza, le tre: e uiene co'l suo sporto al diritto della curuatura dell'Abaco, ò poco più in fuori. Il Fusarolo è per la terza parte dell'altezza dell'Ouolo, & ha di sporto alquanto più della metà della sua grossezza, e gira intorno il capitello sotto la Voluta, e sempre si uede. Il Gradetto, che và sotto il Fusarolo, e fa l'orlo della campana del Capitello; è per la metà del Fusarolo. Il viuo della campana risponde al dritto del fondo de i canali della colonna. Di questa sorte n'ho ueduto uno in Roma: dal quale ho cauate le dette misure, perche mi è parso molto bello, e benissimo inteso.",
+   "rule_de": "Komposit-Kapitell mit den Maßen des korinthischen, aber mit ionischen Gliedern (Volute, Echinus, Perlstab): unter dem Abakus gedrittelt in zwei Blattreihen und Volute; Echinus ⅗ des Abakus hoch. Maße von einem in Rom gesehenen Kapitell, das Palladio sehr schön fand.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.composite",
+   "scope": "all",
+   "values": {
+    "capital": "as Corinthian",
+    "echinus": "3/5 abacus"
+   },
+   "note": "Maße aus einem Einzelbeispiel",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XVIII.4",
+   "book": 1,
+   "chapter": "XVIII",
+   "phys": 53,
+   "printed_page": "49",
+   "anchor": [
+    "L ’ Architraue , il Fregio , e la Cornice fono per la quinta",
+    "ro compartimento"
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice sono per la quinta parte dell'altezza della colonna, e per quello ch'è stato detto di sopra ne gli altri ordini, e per li numeri posti nel disegno si conosce benissimo il loro compartimento.",
+   "rule_de": "Komposit-Gebälk ⅕ der Säulenhöhe.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "orders.composite",
+   "scope": "all",
+   "values": {
+    "entablature": "1/5 column height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIX.1",
+   "book": 1,
+   "chapter": "XIX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "Maperche pare che gli antichi",
+    "fecondo le occalioni"
+   ],
+   "quote": "Ma perche pare che gli antichi non habbiano hauuto questa auertenza di fare vn Piedestilo d'vna grandezza più ad vn'ordine, che ad vn'altro, e nondimeno questo membro accresce molto di bellezza, & d'ornamento, quando egli è fatto con ragione, e con proportione all'altre parti; accioche se ne habbia perfetta cognitione, e se ne possa l'Architetto seruire secondo le occasioni",
+   "rule_de": "Die Antiken banden die Postamentgröße nicht an die Ordnung; das Postament steigert aber Schönheit und Schmuck, wenn es mit Vernunft und in Proportion zu den übrigen Teilen gemacht ist.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "orders.pedestals",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIX.2",
+   "book": 1,
+   "chapter": "XIX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "E quelle fono bellifsime forme",
+    "libro de gli Archi"
+   ],
+   "quote": "E queste sono bellissime forme di piedestili, e c'hanno bella proportione all'altre parti. E quando Vitruuio nel sesto libro ragionando de i Theatri fa mentione del poggio; è da sapere che'l poggio è il medesimo, che'l piedestilo: il quale è per il terzo della lunghezza delle colonne poste per ornamento della scena. Ma de' piedestili, che eccedono il terzo della colonna se ne vede in Roma nell'Arco di Costantino: oue i piedestili sono per le due parti e meza dell'altezza delle colonne. E quasi in tutti i piedestili antichi si vede essere stato osseruato di far la basa due volte più grossa, che la Cimacia, come si uederà nel mio libro de gli Archi.",
+   "rule_de": "Diese Postamentformen sind schön proportioniert; Vitruvs 'poggio' im Theater = Postament von ⅓ der Säulenlänge; höher als ⅓ nur am Konstantinsbogen; fast immer ist der Postamentfuß doppelt so hoch wie das Deckgesims.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "orders.pedestals",
+   "scope": "all",
+   "values": {
+    "pedestal_base": "2 x cornice"
+   },
+   "note": "'due parti e meza' am Konstantinsbogen: Bezugsgröße unklar",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.1",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "Dico adunque",
+    "fabricare"
+   ],
+   "quote": "Dico adunque, che essendo l'Architettura (come ancho sono tutte le altre arti) imitatrice della Natura; niuna cosa patisce, che aliena & lontana sia da quello, che essa Natura comporta: onde noi ueggiamo, che quegli antichi Architetti i quali gli Edificij, che di legno si faceuano cominciarono à fare di pietre; instituirono che le colonne nella cima loro fossero manco grosse, che da piedi, pigliando l'esempio da gli arbori, i quali tutti sono più sottili nella cima, che nel tronco, & appresso le radici.",
+   "rule_de": "Architektur ahmt wie jede Kunst die Natur nach und duldet nichts, was der Natur fremd ist: Säulen verjüngen sich nach oben wie Bäume.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "nature",
+   "scope": "all",
+   "values": {},
+   "note": "Grundsatz der Naturnachahmung",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.2",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "Medelimamente , perche è molto",
+    "lipongono"
+   ],
+   "quote": "Medesimamente, perche è molto conueneuole, che quelle cose, sopra lequali qualche gran carico è posto si schizzino; posero sotto le colonne le base: lequali con quei loro bastoni, & cauetti paiono per lo soprapposto peso schizzarsi: così ancho nelle cornici introdussero i Triglifi, i Modiglioni, & i Dentelli: i quali rappresentassero le teste di quelle traui, che ne i palchi, e per sostentamento de i coperti si pongono.",
+   "rule_de": "Basen sehen aus, als würden sie unter der Last gequetscht; Triglyphen, Konsolen und Zahnschnitt stellen die Köpfe der Decken- und Dachbalken dar – Ornament als Bild der Konstruktion.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "nature",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.3",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "L ’ iftelfo in cialcun ’ altraparte",
+    "difabricare"
+   ],
+   "quote": "L'istesso in ciascun'altra parte si conoscerà, se vi si ponerà consideratione: il che così essendo; non si può se non biasimare quella maniera di fabricare, laquale partendosi da quello, che la Natura delle cose ci insegna, & da quella semplicità, che nelle cose da lei create si scorge, quasi vn'altra natura facendosi; si parte dal uero, buono, e bel modo di fabricare.",
+   "rule_de": "Zu tadeln ist jede Bauweise, die sich von dem entfernt, was die Natur der Dinge lehrt, und von der Einfachheit ihrer Geschöpfe – sie entfernt sich vom wahren, guten und schönen Bauen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "nature",
+   "scope": "all",
+   "values": {},
+   "note": "Wörtlich 'uero, buono, e bel modo di fabricare'",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.4",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "Per",
+    "edificatori"
+   ],
+   "quote": "Per la qual cosa non si dourà in vece di colonne, ò di pilastri, che habbiano à tor suso qualche peso, poner cartelle: le quali si dicono cartocci, che sono certi inuolgimenti, iquali à gli intelligenti fanno bruttissima vista, & à quelli che non se ne intendono apportano più tosto confusione, che piacere: nè altro effetto producono, se non che accrescono spesa à gli edificatori.",
+   "rule_de": "Keine Rollwerk-Kartuschen anstelle tragender Säulen oder Pfeiler: hässlich für Kenner, verwirrend für Laien, nur teurer.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.5",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "Medelimamente non fi fura",
+    "vna"
+   ],
+   "quote": "Medesimamente non si farà nascer fuori dalle cornici alcuni di questi cartocci: percioche essendo di bisogno, che tutte le parti della cornice à qualche effetto siano fatte; & siano come dimostratrici di quello, che si vederebbe, quando l'opera fosse di legname; & oltre à ciò essendo conueneuole che à sostentare vn carico; si richiegga vna [cosa dura, & atta à resistere al peso]",
+   "rule_de": "Keine Kartuschen aus Gesimsen wachsen lassen: Jeder Gesimsteil muss einen Zweck haben und zeigen, was bei einer Holzkonstruktion zu sehen wäre; Tragen verlangt etwas Hartes.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "Satz endet auf S. 52 (phys 56)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.6",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Ma quello,che à mio parere importa",
+    "ci dimoftra"
+   ],
+   "quote": "Ma quello, che à mio parere importa molto, è l'abuso del fare i frontespici delle porte, delle fenestre, e delle loggie spezzati nel mezo: conciosiache essendo essi fatti per dimostrare, & accusare il piouere delle fabriche, il quale così colmo nel mezo fecero i primi edificatori ammaestrati dalla necessità istessa; non so che cosa più contraria alla ragion naturale si possa fare, che spezzar quella parte, che è finta difendere gli habitanti, & quelli, ch'entrano in casa, dalle pioggie, dalle neui, & dalla grandine: e benché il uariare, & le cose nuoue à tutti debbano piacere; non si deue però far ciò contra i precetti dell'arte, e contra quello, che la ragione ci dimostra",
+   "rule_de": "Der schwerste Missbrauch: in der Mitte gesprengte Giebel über Türen, Fenstern und Loggien. Der Giebel zeigt das Abregnen des Dachs; ihn zu brechen widerspricht der natürlichen Vernunft. Abwechslung und Neues gefallen, dürfen aber nicht gegen die Regeln der Kunst und gegen die Vernunft gehen.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.7",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "onde li uede che ancho gli Antichi variarono",
+    "T Antichità"
+   ],
+   "quote": "onde si uede che ancho gli Antichi variarono: nè però si partirono mai da alcune regole vniuersali, & necessarie dell'Arte, come si uederà ne' miei libri dell'Antichità.",
+   "rule_de": "Auch die Antiken variierten, wichen aber nie von allgemeinen und notwendigen Regeln der Kunst ab.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "variation",
+   "scope": "all",
+   "values": {},
+   "note": "Regel und Variation",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.8",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Circa le proggetture ancora",
+    "minacciano di cafcare"
+   ],
+   "quote": "Circa le proggetture ancora delle cornici, & altri ornamenti; è non picciolo abuso il farli che porgano molto in fuori: percioche quando eccedono quello, che ragioneuolmente loro si conuiene, oltra che se sono in luogo chiuso; lo fanno stretto, e sgarbato; mettono spauento à quelli, che ui stanno sotto: perche sempre minacciano di cascare.",
+   "rule_de": "Gesimse und Ornamente nicht zu weit auskragen lassen: In Innenräumen engen sie ein und wirken plump, und sie ängstigen, weil sie zu fallen drohen.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.9",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Oltre à ciò il fingere le colonne",
+    "licura,e Itabile"
+   ],
+   "quote": "Oltre à ciò il fingere le colonne spezzate co'l far loro intorno alcuni anelli, & ghirlande, che paiano tenirle vnite, & salde; si deue quanto si può schifare: perche quanto più intiere, e forti si dimostrano le colonne; tanto meglio paiono far l'effetto, al quale elle sono poste, che è di rendere l'opera di sopra sicura, e stabile.",
+   "rule_de": "Keine scheinbar gebrochenen Säulen mit Ringen oder Girlanden: Je ganzer und kräftiger die Säule erscheint, desto besser zeigt sie ihren Zweck, das Darüber sicher und fest zu tragen.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.10",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Molti altri limili abuli",
+    "facilmente conolcere"
+   ],
+   "quote": "Molti altri simili abusi potrei raccontare, come di alcuni membri, che nelle cornici si fanno senza proportione à gli altri, i quali per quello c'ho mostrato di sopra e per li già detti si lascieranno facilmente conoscere.",
+   "rule_de": "Ebenso falsch: Gesimsglieder ohne Proportion zu den anderen.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIX.3",
+   "book": 1,
+   "chapter": "XIX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "è da faperli che elsi li fecero",
+    "nell ’ ordi ne Compofito"
+   ],
+   "quote": "è da sapersi che essi li fecero alcuna volta quadri, cioè tanto lunghi quanto larghi, come nell'Arco de' Leoni in Verona: e questi io ho dati all'ordine Dorico, perche se li richiede la sodezza. Alcuna volta li fecero pigliando la misura dalla luce de i vani, come nell'Arco di Tito à Santa Maria Noua in Roma, & in quello di Traiano sul porto d'Ancona: doue il Piedestilo è alto per la metà della luce dell'Arco: e di tal sorte piedestili ho messo nell'ordine Ionico. Et alcuna volta pigliarono la misura dall'altezza della colonna, come si vede à Susa Città posta alle radici de' monti, che diuidono la Italia dalla Francia, in vn'Arco fatto in honore di Augusto Cesare: e nell'Arco di Pola Città della Dalmatia: e nell'Anfitheatro di Roma, nell'ordine Ionico, & Corinthio, ne' quali edificij il piedestilo è per la quarta parte dell'altezza delle colonne; come io ho fatto nell'ordine Corinthio. In Verona nell'Arco di Castel Vecchio, il quale è bellissimo; il piedestilo è per il terzo dell'altezza delle colonne, come ho messo nell'ordine Composito.",
+   "rule_de": "Vier antike Postamentarten und Palladios Zuordnung: quadratisch (Dorisch, wegen Festigkeit); ½ der lichten Bogenweite (Ionisch); ¼ der Säulenhöhe (Korinthisch); ⅓ der Säulenhöhe (Komposit).",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "orders.pedestals",
+   "scope": "all",
+   "values": {
+    "Dorico": "square die",
+    "Ionico": "1/2 arch width",
+    "Corinthio": "1/4 column height",
+    "Composito": "1/3 column height"
+   },
+   "note": "Palladios Systematisierung antiker Befunde",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XX.11",
+   "book": 1,
+   "chapter": "XX",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Ne meno li deue fuggire",
+    "fimo afpetto"
+   ],
+   "quote": "Nè meno si deue fuggire il fare le cornici, che alle colonne non habbiano proportione, essendo che se sopra colonne picciole si porranno cornici grandi, ò sopra colonne grandi cornici picciole; chi dubita che da tale edificio non debba causarsi bruttissimo aspetto?",
+   "rule_de": "Gesimse müssen zu den Säulen in Proportion stehen; große Gesimse auf kleinen Säulen oder umgekehrt sind hässlich.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "abuses",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXI.1",
+   "book": 1,
+   "chapter": "XXI",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "T SOGLIONO",
+    "nè più di uéti"
+   ],
+   "quote": "[S]I SOGLIONO fare le loggie per lo più nella faccia dauanti, & in quella di dietro della casa: e si fanno nel mezo, facendone vna sola: ò dalle bande facendone due. Seruono queste loggie à molti commodi, come à spasseggiare, à mangiare, & ad altri diporti: e si fanno e maggiori, e minori come ricerca la grandezza, e il commodo della fabrica: ma per il più non si faranno meno larghe di dieci piedi, nè più di uenti.",
+   "rule_de": "Loggien vorn und hinten, eine mittig oder zwei seitlich; zum Spazieren, Essen und Vergnügen; Größe nach Bau, meist 10–20 Fuß breit.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "loggias",
+   "scope": "all",
+   "values": {
+    "loggia_width_ft": "10 - 20"
+   },
+   "note": "= A-CMP-LOG-001, A-DIM-LOG-002",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXI.2",
+   "book": 1,
+   "chapter": "XXI",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Hanno oltra di ciò",
+    "& vedere quello che ui fi faccia"
+   ],
+   "quote": "Hanno oltra di ciò tutte le case bene ordinate nel mezo, & nella più bella parte loro alcuni luoghi: ne' quali rispondono, & riescono tutti gli altri. Questi nella parte di sotto si chiamano volgarmente Entrate, & in quella di sopra Sale. Sono come luoghi publici, e l'entrate seruono per luogo, oue stiano quelli, che aspettano, che'l padrone esca di casa per salutarlo, & per negotiar seco: e sono la prima parte (oltra le loggie) che si offerisce a chi entra nella casa. Le Sale seruono à feste, à conuiti, ad apparati per recitar comedie, nozze, e simili sollazzi: e però deono questi luoghi esser molto maggiori de gli altri, & hauer quella forma, che capacissima sia: acciò che molta gente commodamente ui possa stare, & vedere quello che ui si faccia.",
+   "rule_de": "Jedes wohlgeordnete Haus hat in der Mitte und schönsten Zone Räume, auf die alle anderen antworten: unten die Eingangshalle (halböffentlich, Empfang), oben der Saal (Feste, Gastmähler, Theater, Hochzeiten); diese sind viel größer als die übrigen und von möglichst fassender Form.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "centre",
+   "scope": "all",
+   "values": {},
+   "note": "= A-ORG-CEN-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXI.3",
+   "book": 1,
+   "chapter": "XXI",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Io fon folito non eccedere",
+    "lodeuoli , & commode"
+   ],
+   "quote": "Io son solito non eccedere nella lunghezza delle Sale due quadri: i quali si facciano dalla larghezza: ma quanto più si approssimeranno al quadrato, tanto più saranno lodeuoli, & commode.",
+   "rule_de": "Säle nicht länger als zwei Quadrate ihrer Breite; je näher am Quadrat, desto lobenswerter.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "rooms.hall",
+   "scope": "all",
+   "values": {
+    "hall_ratio": "<= 2:1, nearer 1:1 better"
+   },
+   "note": "= A-DIM-HALL-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXI.4",
+   "book": 1,
+   "chapter": "XXI",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Le Stanze deono elfere",
+    "ruina di tutta l ’ opera"
+   ],
+   "quote": "Le Stanze deono essere compartite dall'vna, e l'altra parte dell'entrata, e della Sala: e si deue auertire, che quelle dalla parte destra rispondino, e siano uguali à quelle dalla sinistra: accioche la fabrica sia così in vna parte come nell'altra: & i muri sentano il carico del coperto ugualmente: Percioche se da vna parte si faranno le stanze grandi, e dall'altra picciole; quella sarà più atta à resistere al peso per la spessezza de i muri, e questa più debole: onde ne nasceranno co'l tempo grandissimi inconuenienti à ruina di tutta l'opera.",
+   "rule_de": "Zimmer beiderseits von Eingangshalle und Saal, rechts gleich links – auch damit die Mauern die Dachlast gleich tragen; ungleiche Seiten führen mit der Zeit zum Schaden.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "symmetry",
+   "scope": "all",
+   "values": {},
+   "note": "= A-ORG-SYM-001 (mit statischer Begründung)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXI.5",
+   "book": 1,
+   "chapter": "XXI",
+   "phys": 56,
+   "printed_page": "52",
+   "anchor": [
+    "Le più belle e proportionate",
+    "ò di due quadri"
+   ],
+   "quote": "Le più belle e proportionate maniere di stanze, e che riescono meglio sono sette: percioche ò si faranno ritonde, e queste di rado: ò quadrate; ò la lunghezza loro sarà per la linea diagonale del quadrato della larghezza; ò d'vn quadro & vn terzo; ò d'vn quadro e mezo; ò d'vn quadro, e due terzi; ò di due quadri.",
+   "rule_de": "Sieben schönste Raumformen: rund (selten), quadratisch, Diagonale des Quadrats (√2), 4:3, 3:2, 5:3, 2:1.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "rooms.forms",
+   "scope": "all",
+   "values": {
+    "forms": [
+     "circle",
+     "1:1",
+     "sqrt2:1",
+     "4:3",
+     "3:2",
+     "5:3",
+     "2:1"
+    ]
+   },
+   "note": "= A-PROP-ROOM-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXII.1",
+   "book": 1,
+   "chapter": "XXII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "I Palamenti lì fogliono",
+    "ben leccare"
+   ],
+   "quote": "I Pauimenti si sogliono fare ò di terrazzo, come si usa in Venetia, ò di pietre cotte, ouero di pietre viue. Quei terrazzi sono eccellenti, che si fanno di coppo pesto, e di ghiara minuta, e di calcina di cuocoli di fiume, ouer Padouana, e sono ben battuti: e deuonsi fare nella Primauera, ò nell'Estate, accioche si possano ben seccare.",
+   "rule_de": "Fußböden aus Terrazzo (venezianisch), Ziegel oder Naturstein; guter Terrazzo aus Ziegelsplitt, feinem Kies und Kalk, gut gestampft, im Frühjahr oder Sommer gelegt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "floors",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXII.2",
+   "book": 1,
+   "chapter": "XXII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "I pauimenti di pietre cotte",
+    "molto bene"
+   ],
+   "quote": "I pauimenti di pietre cotte, perche le pietre si possono fare di diuerse forme, e di diuersi colori per la diuersità delle crete; riusciranno molto belli, e vaghi all'occhio per la varietà de' colori. Quelli di pietre viue rarissime volte si fanno nelle stanze: perche nel Verno rendono grandissimo freddo: ma nelle Loggie, e ne' luoghi publici stanno molto bene.",
+   "rule_de": "Ziegelböden schön durch Vielfalt der Formen und Farben; Natursteinböden kaum in Zimmern (im Winter kalt), gut in Loggien und öffentlichen Räumen.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "floors",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXII.3",
+   "book": 1,
+   "chapter": "XXII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "Si auertirà che le ftanze",
+    "folaro pofticcio"
+   ],
+   "quote": "Si auertirà che le stanze, che saranno vna dietro l'altra; tutte habbiano il suolo, ò il pauimento vguale, di modo che ne ancho i sottolimitari delle porte siano più alti del restante del piano delle stanze: e se qualche camerino non giugnerà con la sua altezza à quel segno; sopra ui si douerà fare vn mezato, ouero solaro posticcio.",
+   "rule_de": "Aufeinanderfolgende Zimmer auf gleicher Fußbodenhöhe, auch die Türschwellen nicht höher; reicht ein kleines Zimmer nicht so hoch, erhält es ein Zwischengeschoss.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "floors",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXII.4",
+   "book": 1,
+   "chapter": "XXII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "I fofhttati ancor efsi",
+    "sforzato à rumare"
+   ],
+   "quote": "I soffittati ancor essi diuersamente si fanno: percioche molti si dilettan d'hauerli di traui belle, e ben lauorate; oue bisogna auertire che queste traui deono essere distanti vna dall'altra, vna grossezza, e meza di traue: perche così riescono i solari belli all'occhio, e ui resta tanto di muro fra le teste delle traui, che è atto à sostenere quello di sopra: ma se si faranno più distanti non renderanno bella uista: e se si faranno meno; sarà quasi vn diuidere il muro di sopra da quello di sotto: onde marcendosi, ò abbruciandosi le traui; il muro di sopra sarà sforzato à ruinare.",
+   "rule_de": "Sichtbare Balkendecken: Balkenabstand 1½ Balkenstärken – schön fürs Auge und genug Mauer zwischen den Balkenköpfen; weiter wirkt es nicht schön, enger trennt es die Mauer oben von unten.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "ceilings",
+   "scope": "all",
+   "values": {
+    "beam_gap": "1.5 x beam thickness"
+   },
+   "note": "vgl. I.I.9",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXII.5",
+   "book": 1,
+   "chapter": "XXII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "Altri",
+    "determinata regola"
+   ],
+   "quote": "Altri vi uogliono compartimenti di stucchi, ò di legname, ne' quali si mettano delle pitture: e così secondo le diuerse inuentioni s'adornano; e però non si può dare in ciò certa, e determinata regola.",
+   "rule_de": "Für Kassettendecken aus Stuck oder Holz mit Malerei gibt es keine feste Regel.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "ceilings",
+   "scope": "all",
+   "values": {},
+   "note": "ausdrücklich keine Regel",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIII.1",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "E STANZE lì fanno",
+    "quelle di fotto"
+   ],
+   "quote": "[L]E STANZE si fanno ò in uolto, ò in solaro. Se in solaro; l'altezza dal pauimento alla trauatura sarà quanto la loro larghezza: e le stanze di sopra saranno per la sesta parte meno alte di quelle di sotto.",
+   "rule_de": "Flachgedeckte Räume so hoch wie breit; Räume des Obergeschosses ein Sechstel niedriger.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "all",
+   "values": {
+    "flat_ceiling": "h = w",
+    "upper_floor": "5/6"
+   },
+   "note": "= A-HT-ROOM-001, A-HT-STORY-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIII.2",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "Se in uolto",
+    "della ftanza"
+   ],
+   "quote": "Se in uolto (come si sogliono fare quelle del primo ordine, perche così riescono più belle, e sono meno esposte à gli incendij) l'altezze de' volti nelle stanze quadre si faranno aggiunta la terza parte alla larghezza della stanza.",
+   "rule_de": "Gewölbt (üblich im Erdgeschoss: schöner und weniger feuergefährdet); quadratische Räume: Höhe = Breite + ⅓.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "all",
+   "values": {
+    "square_vault": "h = 4/3 w"
+   },
+   "note": "= A-HT-VAULT-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIII.3",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "Ma nelle più lunghe che larghe",
+    "douerà"
+   ],
+   "quote": "Ma nelle più lunghe che larghe sarà di bisogno dalla lunghezza, e larghezza ritrouare l'altezza, ch'insieme habbiano proportione. Questa altezza si ritrouerà ponendo la larghezza appresso la lunghezza, e diuidendo il tutto in due parti eguali: percioche vna di quelle metà sarà l'altezza del volto",
+   "rule_de": "Längliche Räume: Höhe aus Länge und Breite so finden, dass alle drei in Proportion stehen; erstes Verfahren: Länge + Breite halbieren (Beispiel 12 × 6 → 9).",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "all",
+   "values": {
+    "method_1": "(l + w)/2"
+   },
+   "note": "= A-HT-VAULT-002",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIII.4",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 57,
+   "printed_page": "53",
+   "anchor": [
+    "Vn ’ altra altezza ancora",
+    "coi numeri"
+   ],
+   "quote": "Vn'altra altezza ancora si trouerà c'hauerà proportione alla lunghezza, e larghezza della stanza in questo modo.",
+   "rule_de": "Zweites Verfahren: mittlere Proportionale (geometrisch über den Halbkreis; in Zahlen √(l·w), Beispiel 9 × 4 → 6, 'sesquialtera'); nicht immer in Zahlen darstellbar.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "all",
+   "values": {
+    "method_2": "sqrt(l w)"
+   },
+   "note": "= A-HT-VAULT-003; Wortlaut siehe B1-XXIII-SESQUI (data/book4)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIII.5",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 58,
+   "printed_page": "54",
+   "anchor": [
+    "Si può ancho ritrouarevn",
+    "diremo 8"
+   ],
+   "quote": "Si può ancho ritrouare vn'altra altezza, che sarà minore: ma nondimeno proportionata alla stanza",
+   "rule_de": "Drittes Verfahren, niedrigste proportionale Höhe (harmonisch): geometrisch oder in Zahlen (Beispiel 12 × 6 → 8).",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "all",
+   "values": {
+    "method_3": "2 l w / (l + w)"
+   },
+   "note": "= A-HT-VAULT-004",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIII.6",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 58,
+   "printed_page": "54",
+   "anchor": [
+    "Stanno quelle altezze",
+    "necefsità"
+   ],
+   "quote": "Stanno queste altezze tra loro in questo modo, che la prima è maggiore della seconda, e questa è maggiore della terza: però ci seruiremo di ciascuna di queste altezze, secondo che tornerà bene per far che più stanze di diuerse grandezze habbiano i uolti egualmente alti, e nondimeno detti uolti siano proportionati à quelle: dal che ne risulterà e bellezza all'occhio, e commodità per il suolo, ò pauimento che andarà loro sopra: perche uerrà ad esser tutto vguale. Sono ancora altre altezze di uolti; lequali non cascano sotto regola: & di queste si hauerà da seruire l'Architetto, secondo il suo giudicio, & secondo la necessità.",
+   "rule_de": "Erste > zweite > dritte Höhe; man wählt jeweils diejenige, mit der Räume verschiedener Größe gleich hohe und doch proportionierte Gewölbe erhalten – schön fürs Auge, bequem für den Boden darüber. Weitere Höhen stehen unter keiner Regel: Urteil des Architekten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "all",
+   "values": {},
+   "note": "= A-HT-VAULT-005; vgl. B1-XXIII-GIUDICIO",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIIII.1",
+   "book": 1,
+   "chapter": "XXIIII",
+   "phys": 58,
+   "printed_page": "54",
+   "anchor": [
+    "EI fono le maniere",
+    "Antichi"
+   ],
+   "quote": "[S]EI sono le maniere de' volti cioè à crociera, à fascia, à remenato (che così chiamano i volti, che sono di portione di cerchio, e non arriuano al semicircolo) ritondi, à lunette, & à conca: i quali hanno di frezza il terzo della larghezza della stanza. Le due vltime maniere sono state ritrouate da' Moderni: delle quattro prime si seruirono ancho gli Antichi.",
+   "rule_de": "Sechs Gewölbearten: Kreuz-, Tonnen-, Segment-, Rund-, Stichkappen- und Muldengewölbe; Stich ⅓ der Raumbreite (Bezug am Scan prüfen). Die letzten beiden sind moderne Erfindungen.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "vaults",
+   "scope": "all",
+   "values": {
+    "vault_rise": "1/3 room width"
+   },
+   "note": "Bezug von 'i quali' (alle oder die letzten zwei) offen",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIIII.2",
+   "book": 1,
+   "chapter": "XXIIII",
+   "phys": 58,
+   "printed_page": "54",
+   "anchor": [
+    "I volti tondi fi fanno",
+    "minato"
+   ],
+   "quote": "I volti tondi si fanno nelle stanze in quadro: & il modo di farli è tale. Si lasciano ne gli angoli della stanza alcuni smussi, che togliono suso il mezo tondo del uolto: il quale nel mezo uiene ad essere à remenato; e quanto più s'approssima à gli angoli; tanto più diuenta ritondo. Di questa sorte n'è vno in Roma nelle Terme di Tito, e quando io lo vidi era in parte ruinato.",
+   "rule_de": "Rundgewölbe über quadratischen Räumen: in den Ecken Abschrägungen, die den Halbkreis tragen; in der Mitte segmentförmig, zu den Ecken runder (Titusthermen).",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "vaults",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.1",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "O N fi può dare certa",
+    "fuolo allafuperficie del"
+   ],
+   "quote": "[N]ON si può dare certa, e determinata regola circa le altezze, e larghezze delle porte principali delle fabriche, e circa le porte, e finestre delle stanze. Percioche à far le porte principali si deue l'Architetto accommodare alla grandezza della fabrica, alla qualità del padrone, & alle cose, che per quelle deono essere condotte, e portate.",
+   "rule_de": "Für Haupttüren gibt es keine feste Regel; der Architekt richtet sich nach Baugröße, Rang des Bauherrn und dem, was hindurch muss.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "doors",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.2",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "A me pare che torni bene",
+    "duodecima parte dell ’ altezza"
+   ],
+   "quote": "A me pare che torni bene diuider lo spatio dal piano, ò suolo alla superficie della trauatura in tre parti, e meza, (come dice Vitruuio nel iiij. lib. al vj. cap.) e di due farne la luce in altezza, e di vna in larghezza, manco la duodecima parte dell'altezza.",
+   "rule_de": "Haupttür: Raumhöhe bis zur Balkenlage in 3½ Teile; 2 Teile lichte Höhe, 1 Teil Breite abzüglich 1/12 der Höhe (nach Vitruv IV, 6).",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "doors",
+   "scope": "all",
+   "values": {
+    "door_height": "2/3.5 room height",
+    "door_width": "1/3.5 room height - 1/12 door height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.3",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Si deue eleggere il luogo",
+    "fi polla andare"
+   ],
+   "quote": "Si deue eleggere il luogo per le porte principali, oue facilmente da tutta la casa si possa andare.",
+   "rule_de": "Haupttüren dort, von wo man leicht in das ganze Haus gelangt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "doors",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.4",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Le porte delle danze",
+    "cinque in altezza"
+   ],
+   "quote": "Le porte delle stanze non si faranno più larghe di tre piedi, & alte sei, e mezo; nè meno di due piedi in larghezza, e cinque in altezza.",
+   "rule_de": "Zimmertüren 2–3 Fuß breit, 5–6½ Fuß hoch.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "doors",
+   "scope": "all",
+   "values": {
+    "room_door_ft": "w 2-3, h 5-6.5"
+   },
+   "note": "= A-DIM-DOOR-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.5",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Per la qual cofa non fi faranno fineftre",
+    "la larghezza loro"
+   ],
+   "quote": "Per la qual cosa non si faranno finestre più larghe della quarta parte della larghezza delle stanze: nè più strette della quinta: e si faranno alte due quadri, e di più la sesta parte della larghezza loro.",
+   "rule_de": "Fensterbreite ¼ bis ⅕ der Raumbreite; Höhe zwei Quadrate plus ⅙ der Breite (13/6).",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "windows",
+   "scope": "all",
+   "values": {
+    "window_width": "1/5 - 1/4 room width",
+    "window_height": "13/6 window width"
+   },
+   "note": "= A-DIM-WIN-001, A-DIM-WIN-002",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.6",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "E perche nelle cafe fi fanno",
+    "dell ’ altre ftanze"
+   ],
+   "quote": "E perche nelle case si fanno stanze grandi, mezane, e picciole, e nondimeno le finestre deono essere tutte vguali nel loro ordine, ò solaro; à me piacciono molto, per pigliar la misura delle dette finestre, quelle stanze, la lunghezza delle quali è due terzi più della larghezza, cioè se la larghezza è xviij. piedi, che la lunghezza sia xxx. e partisco la larghezza in quattro parti e meza. Di vna faccio le finestre larghe in luce, e di due alte, aggiuntaui la sesta parte della larghezza: e secondo la grandezza di queste faccio tutte quelle dell'altre stanze.",
+   "rule_de": "Alle Fenster eines Geschosses gleich groß, obwohl die Räume verschieden sind: Palladio nimmt das Maß vom 5:3-Raum (z. B. 18 × 30 Fuß): Breite in 4½ Teile, 1 Teil Fensterbreite, Höhe 2 Teile + ⅙ der Breite; danach alle übrigen Fenster.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "windows",
+   "scope": "all",
+   "values": {
+    "reference_room": "5:3",
+    "window_width": "1/4.5 width of the 5:3 room",
+    "uniform_per_floor": true
+   },
+   "note": "Quelle der Fensterregel im Entwurfslabor (1/4,5)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.7",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Le fineftre di fopra",
+    "fideono diminuire"
+   ],
+   "quote": "Le finestre di sopra, cioè quelle del secondo ordine deono essere la sesta parte minori della lunghezza della luce di quelle di sotto, e se altre finestre più di sopra si faranno similmente per la sesta parte si deono diminuire.",
+   "rule_de": "Fenster jedes höheren Geschosses ⅙ niedriger in der lichten Höhe.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "windows",
+   "scope": "all",
+   "values": {
+    "upper_window": "5/6 height of lower"
+   },
+   "note": "= A-DIM-WIN-003",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.8",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Debbono le fineftre da",
+    "altri commodi"
+   ],
+   "quote": "Debbono le finestre da man destra corrispondere à quelle da man sinistra: e quelle di sopra essere al diritto di quelle di sotto: e le porte similmente tutte essere al diritto vna sopra l'altra: accioche sopra il vano sia il vano, e sopra il pieno sia il pieno: & ancho rincontrarsi acciò che stando in vna parte della casa; si possa vedere sin dall'altra: ilche apporta uaghezza, e fresco la Estate, & altri commodi.",
+   "rule_de": "Fenster rechts und links entsprechen einander, obere über unteren, Türen übereinander (Leer über Leer, Voll über Voll); Türen in einer Flucht, so dass man durch das ganze Haus sieht – reizvoll, im Sommer kühl.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "axes",
+   "scope": "all",
+   "values": {},
+   "note": "= A-ORG-OPEN-001 (mit Enfilade)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.9",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Si fuole per maggior fortez",
+    "perpetuità della fa"
+   ],
+   "quote": "Si suole per maggior fortezza, acciò che i sopracigli, ò sopralimitari delle porte, e finestre non siano aggrauati dal peso; fare alcuni archi, che uolgarmente si chiamano remenati, i quali sono di molta vtilità alla perpetuità della fabrica.",
+   "rule_de": "Über Tür- und Fensterstürzen Entlastungsbögen (remenati) – sehr nützlich für die Dauer des Baus.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "openings",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.10",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Deono le fineftre allontanarli",
+    "rollante dell ’ Edificio"
+   ],
+   "quote": "Deono le finestre allontanarsi da gli angoli, ò cantoni della fabrica, come di sopra è stato detto: percioche non deue essere aperta, & indebolita quella parte, la quale ha da tener diritto, & insieme tutto'l restante dell'Edificio.",
+   "rule_de": "Fenster von den Gebäudeecken abrücken; die Ecke hält das ganze Gebäude.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "openings",
+   "scope": "all",
+   "values": {},
+   "note": "= A-LOC-WIN-001; vgl. I.XI.5",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.11",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Le Pilaftrate , ouero Erte",
+    "nè più della quinta"
+   ],
+   "quote": "Le Pilastrate, ouero Erte delle porte, e delle finestre non vogliono essere nè meno grosse della sesta parte della larghezza della luce, nè più della quinta.",
+   "rule_de": "Gewände ⅙ bis ⅕ der lichten Breite.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "openings",
+   "scope": "all",
+   "values": {
+    "jamb": "1/6 - 1/5 opening width"
+   },
+   "note": "= A-DIM-JAMB-001",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.1",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Gli ornamenti , che fi danno",
+    "la Cornice"
+   ],
+   "quote": "Gli ornamenti, che si danno alle porte, e finestre; sono l'Architraue, il Fregio, e la Cornice. [L'Architraue gira intorno la porta, e deue esser grosso quanto sono le Erte, ouer le Pilastrate: le quali ho detto non douersi far meno della sesta parte della larghezza della luce, nè più della quinta: e da lui pigliano la loro grossezza il Fregio, & la Cornice.]",
+   "rule_de": "Tür- und Fensterrahmung aus Architrav, Fries und Gesims; der Architrav läuft um die Öffnung und ist so breit wie das Gewände (⅙–⅕ der Lichte); Fries und Gesims leiten sich von ihm ab.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings.ornament",
+   "scope": "all",
+   "values": {
+    "surround_architrave": "= jamb (1/6 - 1/5 opening)"
+   },
+   "note": "Der zweite Satz liegt außerhalb des Belegausschnitts (S. 55–56, phys 59–60).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.2",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 60,
+   "printed_page": "56",
+   "anchor": [
+    "L ’ Architrauefimilmentenellafecondainuentione",
+    "quella della Cornice"
+   ],
+   "quote": "L'Architraue similmente nella seconda inuentione si diuide in quattro parti: e di tre si fa l'altezza del Fregio, e di cinque quella della Cornice.",
+   "rule_de": "Zweite Erfindung: ebenfalls Architrav 4, Fries 3, Gesims 5.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings.ornament",
+   "scope": "all",
+   "values": {
+    "architrave:frieze:cornice": "4:3:5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.3",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 62,
+   "printed_page": "58",
+   "anchor": [
+    "Di quelle due altre inuentioni",
+    "quella della cornice"
+   ],
+   "quote": "Di queste due altre inuentioni l'Architraue della prima, ch'è il segnato F, si diuide similmente in quattro parti: di tre & vn quarto si fà l'altezza del Fregio: e di cinque quella della cornice.",
+   "rule_de": "Dritte Erfindung: Architrav 4, Fries 3¼, Gesims 5.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings.ornament",
+   "scope": "all",
+   "values": {
+    "architrave:frieze:cornice": "4:3.25:5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.4",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 62,
+   "printed_page": "58",
+   "anchor": [
+    "Nell ’ altra inuentiónel",
+    "l ’ altezza della cornice"
+   ],
+   "quote": "Nell'altra inuentione l'Architraue segnato H, si diuide in quattro parti, e di tre e meza si fa l'altezza del fregio, e di cinque l'altezza della cornice.",
+   "rule_de": "Vierte Erfindung: Architrav 4, Fries 3½, Gesims 5.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings.ornament",
+   "scope": "all",
+   "values": {
+    "architrave:frieze:cornice": "4:3.5:5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.5",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 62,
+   "printed_page": "58",
+   "anchor": [
+    "Viene quella Cor",
+    "fopradette"
+   ],
+   "quote": "Viene questa Cornice ad hauer di sporto quanto è la sua grossezza, come ancho le sopradette.",
+   "rule_de": "Bei allen Rahmungsgesimsen: Ausladung gleich Höhe.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings.ornament",
+   "scope": "all",
+   "values": {
+    "cornice_projection": "= height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXV.12",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Si deue auertire nel far",
+    "quanto di giouamento"
+   ],
+   "quote": "Si deue auertire nel far le finestre, che nè più nè meno di luce piglino, nè siano più rare, ò spesse di quello, che'l bisogno ricerchi. Però si hauerà molto risguardo alla grandezza delle stanze, che da quelle deono riceuere il lume: Percioche cosa manifesta è che di molto più luce ha di bisogno vna stanza grande, accioche sia lucida, e chiara, che vna picciola: e se si faranno le finestre più picciole e rare di quello, che si conuenga; renderanno i luoghi oscuri: e se eccederanno in troppo grandezza; li faranno quasi inhabitabili: perche essendoui portato il freddo, & il caldo dall'Aria; saranno quei luoghi secondo le stagioni dell'anno caldissimi, e freddissimi, caso che la regione del Cielo, alla quale essi saranno volti; non gli apporti alquanto di giouamento.",
+   "rule_de": "Fenster nicht mehr und nicht weniger Licht als nötig, nicht zu selten oder dicht; nach Raumgröße; zu klein → dunkel, zu groß → im Sommer zu heiß, im Winter zu kalt.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "windows",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.6",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 60,
+   "printed_page": "56",
+   "anchor": [
+    "Si partile e l ’ Architraue in quattro",
+    "quella d ella Cornice"
+   ],
+   "quote": "Si partisce l'Architraue in quattro parti, e per tre di quelle si fa l'altezza del Fregio, e per cinque quella della Cornice.",
+   "rule_de": "Erste Erfindung: Architrav = 4 Teile, Fries 3, Gesims 5 (Gliederung im Detail am Scan).",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "openings.ornament",
+   "scope": "all",
+   "values": {
+    "architrave:frieze:cornice": "4:3:5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVII.1",
+   "book": 1,
+   "chapter": "XXVII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Ma ritornando à",
+    "fumo nell ’ Aria"
+   ],
+   "quote": "Ma ritornando à i camini; noi li facciamo nella grossezza de i muri, & alziamo le loro canne fin fuori del tetto: acciò che portino il fumo nell'Aria.",
+   "rule_de": "Kamine in die Mauerstärke legen und die Züge über das Dach führen.",
+   "kind": "prescription",
+   "attribution": "custom",
+   "topic": "chimneys",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVII.2",
+   "book": 1,
+   "chapter": "XXVII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Douefideueauertire",
+    "uenir nella ftanza"
+   ],
+   "quote": "Doue si deue auertire che le canne non si facciano nè troppo larghe, nè troppo strette: perche se si faranno larghe, uagando per quelle l'Aria; caccierà il fumo all'in giù, e non lo lascierà ascendere, & uscir fuori liberamente: e nelle troppo strette il fumo non hauendo libera la uscita; s'ingorgherà, e tornerà indietro: però ne' camini per le stanze non si faranno le canne nè meno larghe di mezo piede, nè più di noue oncie, e lunghe due piedi e mezo: e la bocca della Piramide oue si congiugne con la canna si farà alquanto più stretta: acciò che ritornando il fumo in giù; troui quell'impedimento, e non possa uenir nella stanza.",
+   "rule_de": "Rauchzüge weder zu weit (Luft drückt den Rauch zurück) noch zu eng (Rauch staut sich): für Zimmerkamine ½ Fuß bis 9 Zoll breit, 2½ Fuß lang; der Übergang von der Haube zum Zug etwas enger, damit zurückschlagender Rauch nicht ins Zimmer kommt.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "chimneys",
+   "scope": "all",
+   "values": {
+    "flue_width": "6 - 9 oncie",
+    "flue_length_ft": 2.5
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVII.3",
+   "book": 1,
+   "chapter": "XXVII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "I fumaruoli",
+    "atta ad abbruciarli"
+   ],
+   "quote": "I fumaruoli, cioè i buchi per doue ha da vscire il fumo; deono essere larghi, e lontani da ogni materia atta ad abbruciarsi.",
+   "rule_de": "Rauchaustritte weit und fern von allem Brennbaren.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "chimneys",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVII.4",
+   "book": 1,
+   "chapter": "XXVII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Le Nappe,Sopra le quali",
+    "ragioni già dette"
+   ],
+   "quote": "Le Nappe, sopra le quali si fa la Piramide del camino; deono esser lauorate delicatissimamente, & in tutto lontane dal Rustico: percioche l'opera rustica non si conuiene, se non à molto grandi Edificij; per le ragioni già dette.",
+   "rule_de": "Kaminhauben sehr fein, ganz ohne Rustika; Rustika passt nur zu sehr großen Bauten.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "all",
+   "values": {},
+   "note": "vgl. I.X.5",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.1",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "I DEVE molto auertire",
+    "impedite"
+   ],
+   "quote": "[S]I DEVE molto auertire nel poner delle scale: perche è non picciola difficultà à ritrouar sito, che à quelle si conuenga, e non impedisca il restante della fabrica. Però si assegnerà loro un luogo proprio principalmente; accioche non impediscano gli altri luoghi, nè siano da quelli impedite.",
+   "rule_de": "Treppen sorgfältig platzieren: Sie erhalten einen eigenen Ort, damit sie die übrigen Räume nicht behindern und von ihnen nicht behindert werden.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.2",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Tre aperture nelle Scale",
+    "belli , & ornati"
+   ],
+   "quote": "Tre aperture nelle scale si ricercano: la prima è la porta, per doue alla scala si monta: la quale quanto meno è nascosta à quelli ch'entrano nella casa; tanto più è da esser lodata; e molto mi piacerà se sarà in luogo, oue auanti che si peruenga; si uegga la più bella parte della casa: perche ancor che picciola casa fusse; parerà molto grande: ma che però sia manifesta, e facile da trouarsi. La seconda apertura è le finestre, che à dar luce à i gradi sono bisogneuoli; e deono essere nel mezo, & alte: accioche vgualmente il lume per tutto si spanda. La terza è l'apertura, per la quale si entra nel pauimento di sopra. Questa deue condurci in luoghi ampij, belli, & ornati.",
+   "rule_de": "Drei Öffnungen der Treppe: der Zugang – je weniger versteckt, desto besser, am liebsten so, dass man auf dem Weg den schönsten Teil des Hauses sieht (dann wirkt selbst ein kleines Haus groß), aber gut auffindbar; die Fenster – mittig und hoch, damit das Licht sich gleichmäßig verteilt; der Austritt oben – in weite, schöne, geschmückte Räume.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "Wegeführung als Inszenierung",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.3",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Saranno lodeuoli le leale",
+    "darli luogo"
+   ],
+   "quote": "Saranno lodeuoli le scale, se saranno lucide, ampie, e commode al salire: onde quasi inuitino le persone ad ascendere. Saranno lucide, s'hauranno il lume uiuo, e se, come ho detto, il lume ugualmente per tutto si spargerà. Saranno assai ampie, se alla grandezza, e qualità della fabrica non pareranno strette, & anguste: ma non si faranno giamai meno larghe di quattro piedi: accioche se due persone per quelle s'incontrassero; possano commodamente darsi luogo.",
+   "rule_de": "Lobenswerte Treppen sind hell, weit und bequem, sodass sie zum Hinaufsteigen einladen: helles, gleichmäßig verteiltes Licht; der Größe des Baus angemessen weit, nie unter 4 Fuß, damit zwei Personen einander ausweichen können.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "stair_width_ft": ">= 4"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.4",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Saranno commode quanto",
+    "potranno"
+   ],
+   "quote": "Saranno commode quanto à tutta la fabrica, se gli archi sotto quelle potranno [seruire à riporre alcune cose necessarie; e quanto à gli huomini, se non haueranno l'ascesa loro difficile, & erta. Però si farà la lunghezza loro il doppio più dell'altezza.]",
+   "rule_de": "Bequem für den Bau, wenn die Bögen darunter als Abstellraum dienen; bequem für Menschen, wenn der Aufstieg nicht steil ist: die Lauflänge doppelt so groß wie die Höhe.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "run": "2 x rise"
+   },
+   "note": "Satz endet auf S. 61 (phys 65)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.5",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "I gradi non lì deono fare",
+    "vn piede e mezo"
+   ],
+   "quote": "I gradi non si deono fare più alti di sei oncie di un piede, e se si faranno più bassi, massimamente nelle scale continouate, e lunghe; le renderanno più facili: perche nell'alzarsi; meno si stancherà il piede; ma non si faranno mai meno alti di quattro oncie. La larghezza de' gradi non deue farsi meno di un piede, nè più d'vn piede e mezo.",
+   "rule_de": "Stufenhöhe höchstens 6 Zoll (½ Fuß), niedriger ist bei langen Treppen bequemer, nie unter 4 Zoll; Auftritt 1 bis 1½ Fuß.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "riser_oncie": "4 - 6",
+    "tread_ft": "1 - 1.5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.6",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "Oiferuaro",
+    "doue fermarli"
+   ],
+   "quote": "Osseruarono gli Antichi di far i gradi dispari: affine che cominciandosi à salire co'l destro piede, col medesimo si finisse: il che pigliauano à buono augurio, & à maggior religione, quando entrauano ne' Tempij. Però non si passerà il numero di vndici, ò tredici al più: e giunti à quel segno, douendosi salire più alto; si farà vn piano, che Requie si chiama: accioche i deboli, e stanchi ritrouino oue posarsi: & interuenendo che alcuna cosa di alto caschi; habbia doue fermarsi.",
+   "rule_de": "Ungerade Stufenzahl (die Antiken: mit dem rechten Fuß beginnen und enden, gutes Omen beim Betreten der Tempel); höchstens 11 oder 13 Stufen, dann ein Podest für Schwache und Müde und um Fallendes aufzuhalten.",
+   "kind": "range",
+   "attribution": "antichi",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "steps_per_flight": "odd, <= 11-13"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.7",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "Le Scale , òli tan",
+    "fareancho fenza"
+   ],
+   "quote": "Le Scale, ò si fanno diritte, ò à Lumaca. Le diritte, ò si fanno distese in due rami, ò quadrate: le quali voltano in quattro rami. Per far queste si diuide tutto il luogo in quattro parti: due si danno a gradi, e due al uacuo di mezo: dal quale, se si lasciasse discoperto; esse scale haurebbono il lume: Si possono fare co'l muro di dentro, & allhora nelle due parti, che si danno a gradi; si rinchiude ancho esso muro; e si possono fare ancho senza.",
+   "rule_de": "Gerade Treppen zweiläufig oder vierläufig um ein Auge: Grundfläche in 4 Teile, 2 für die Stufen, 2 für das offene Auge (Licht von oben); mit oder ohne innere Wange.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "square_stair": "2/4 steps, 2/4 well"
+   },
+   "note": "Erfindung Luigi Cornaros",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.8",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "Quelle c ’ hanno la colonna",
+    "riulcirebbono più lunghi,che fe fi facelfero diritti"
+   ],
+   "quote": "Quelle c'hanno la colonna nel mezo; si fanno in questo modo, che diuiso il diametro in tre parti; due siano lasciate à i gradi, & vna si dia alla colonna, come nel disegno A: ouero si diuiderà il diametro in parti sette, e tre si daranno alla colonna di mezo, e quattro à i gradi: & in questo modo à punto è fatta la Scala della Colonna Traiana: & se si facessero i gradi torti, come nel disegno B; sarebbono molto belli da uedere, e riuscirebbono più lunghi, che se si facessero diritti.",
+   "rule_de": "Wendeltreppe mit Spindel: Durchmesser in 3 (2 Stufen, 1 Spindel) oder in 7 (3 Spindel, 4 Stufen, wie in der Trajanssäule); gekrümmte Stufen sind schön und länger.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "spiral_newel": "1/3 or 3/7 diameter"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.9",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "Ma nelle uacue fi diuide",
+    "luogo di me zo"
+   ],
+   "quote": "Ma nelle uacue si diuide il diametro in quattro parti: due si danno à i gradi, e due restano al luogo di mezo.",
+   "rule_de": "Hohle Wendeltreppe: Durchmesser in 4, je die Hälfte für Stufen und Auge.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {
+    "spiral_void": "2/4 diameter"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.10",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "Le ouate ancor elfe",
+    "riefee mirabilmente"
+   ],
+   "quote": "Le ouate ancor esse vanno diuise al medesimo modo che le ritonde. Sono molto gratiose, e belle da uedere: perche tutte le finestre, e porte uengono per testa dell'ouato, & in mezo, e sono assai commode. Io ne ho fatto vna vacua nel mezo nel Monasterio della Carità in Venetia: la quale riesce mirabilmente.",
+   "rule_de": "Ovale Treppen wie runde teilen; sehr anmutig, weil Fenster und Türen an Kopf und Mitte des Ovals liegen; Palladios eigene hohle Ovaltreppe in der Carità in Venedig 'gelingt wunderbar'.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.11",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 68,
+   "printed_page": "64",
+   "anchor": [
+    "A far tali fcale",
+    "a gradi , & colonne"
+   ],
+   "quote": "A far tali scale si diuide tutto lo spatio in quattro parti: due si danno al vacuo di mezo, & vna per banda a gradi, & colonne.",
+   "rule_de": "Rampentreppe wie Bramantes im Belvedere (mit Säulen aller Ordnungen): Raum in 4, 2 für das Auge, je 1 für Lauf und Säulen.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIX.1",
+   "book": 1,
+   "chapter": "XXIX",
+   "phys": 71,
+   "printed_page": "67",
+   "anchor": [
+    "SSENDOSI tirati i muri",
+    "grandifsimi danni"
+   ],
+   "quote": "[E]SSENDOSI tirati i muri alla sommità loro, e fatti i uolti, messe le trauamenta de' solari, accommodate le scale, e tutte quelle cose, delle quali habbiamo parlato di sopra; fa di bisogno fare il coperto: ilquale abbracciando ciascuna parte della fabrica, e premendo col peso suo vgualmente sopra i muri; è come vn legame di tutta l'opera, & oltra il difendere gli habitanti dalle pioggie, dalle neui, da gli ardenti Soli, e dall'humidità della Notte; fa non picciolo giouamento alla fabrica, scacciando lontano dai muri l'acque, che piouono: lequali benché paiano poco nuocere; nondimeno in processo di tempo sono cagione di grandissimi danni.",
+   "rule_de": "Das Dach umfasst alle Teile und drückt gleichmäßig auf die Mauern – ein Band des ganzen Werks; es schützt die Bewohner und hält das Regenwasser von den Mauern fern.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "roof",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIX.2",
+   "book": 1,
+   "chapter": "XXIX",
+   "phys": 71,
+   "printed_page": "67",
+   "anchor": [
+    "Quelli colmi fi deono fa",
+    "aggreueranno molto"
+   ],
+   "quote": "Questi colmi si deono fare e più, e meno alti secondo le regioni oue si fabrica: Onde in Germania per la grandissima quantità delle neui, che vi vengono; si fanno i coperti molto acuti, e si cuoprono di scandole, che sono alcune tauolette picciole di legno; ouero di tegole sottilissime; che se altramente si facessero; sarebbono dalla grauezza delle neui ruinati: ma noi che in Regione temperata viuiamo; douemo eleggere quell'altezza, che renda il coperto garbato, e con bella forma, e pioua facilmente. Però si partirà la larghezza del luogo da coprirsi in noue parti, e di due si farà l'altezza del colmo: perche s'ella si farà per il quarto della larghezza; la coperta sarà troppo ratta: onde le tegole, ouer coppi ui si fermeranno con difficultà: e se si farà per il quinto; sarà troppo piana, onde i coppi, le tauole, e le neui, quando uengono; aggreueranno molto.",
+   "rule_de": "Dachneigung nach Klima (in Deutschland steil wegen Schnee); im gemäßigten Klima die Höhe, die das Dach anmutig, schön und gut entwässernd macht: Firsthöhe 2/9 der Spannweite; ¼ ist zu steil, ⅕ zu flach.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "roof",
+   "scope": "all",
+   "values": {
+    "ridge_height": "2/9 span",
+    "too_steep": "1/4",
+    "too_flat": "1/5"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIX.3",
+   "book": 1,
+   "chapter": "XXIX",
+   "phys": 71,
+   "printed_page": "67",
+   "anchor": [
+    "Vfalì di fare le gorne",
+    "facelfero danno"
+   ],
+   "quote": "Vsasi di fare le gorne intorno le case, nelle quali da i coppi piouono le acque, e per cannoni sono gettate fuora lontano da i muri. Queste deono hauere sopra di se vn piede e mezo di muro: il quale oltra il tenerle salde difenderà il legname del coperto dall'acqua, se esse in qualche parte facessero danno.",
+   "rule_de": "Dachrinnen um das Haus, Wasser durch Rohre weit von den Mauern weg; über den Rinnen 1½ Fuß Mauer, die sie hält und das Dachholz schützt.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "roof",
+   "scope": "all",
+   "values": {
+    "wall_above_gutter_ft": 1.5
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXIX.4",
+   "book": 1,
+   "chapter": "XXIX",
+   "phys": 71,
+   "printed_page": "67",
+   "anchor": [
+    "Varie fono le maniere",
+    "in pericolo"
+   ],
+   "quote": "Varie sono le maniere di disporre il legname del coperto: ma quando i muri di mezo vanno à tor suso le traui; facilmente si accommodano, e mi piace molto, perche i muri di fuori non sentono molto carico; e perche marcendosi vna testa di qualche legno; non è però la coperta in pericolo.",
+   "rule_de": "Dachstuhl: am liebsten tragen die Mittelmauern die Balken – die Außenmauern werden entlastet, und ein verfaulter Balkenkopf gefährdet das Dach nicht.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "roof",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.12",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "LeScaleàLumaca",
+    "fo no da quelli ueduti"
+   ],
+   "quote": "Le Scale à Lumaca, che à Chiocciola ancho si dicono; si fanno altroue ritonde, & altroue ouate: alcuna uolta con la colonna nel mezo, & alcuna uolta uacue, ne i luoghi stretti massimamente si usano: perche occupano manco luogo, che le diritte: ma sono alquanto più difficili da salire. Benissimo riescono quelle, che nel mezo sono vacue: percioche ponno hauere il lume dal di sopra: e quelli, che sono al sommo della Scala; ueggono tutti quelli, che saliscono, ò cominciano à salire: e similmente sono da quelli ueduti.",
+   "rule_de": "Wendeltreppen rund oder oval, mit oder ohne Spindel, für enge Orte (weniger Platz, etwas mühsamer); am besten hohl: Licht von oben, und man sieht einander von oben und unten.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  }
+ ]
+}

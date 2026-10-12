@@ -1,0 +1,182 @@
+{
+  "rooms": [
+    {
+      "space": "Mittelschiff bis zur Vierung",
+      "a": 68.6,
+      "b": 34.5,
+      "ratio": 1.9884,
+      "nearest": "2:1",
+      "deviation": -0.0058,
+      "within_1_percent": true,
+      "palladio_time": true
+    },
+    {
+      "space": "Vierung",
+      "a": 34.5,
+      "b": 34.3,
+      "ratio": 1.0058,
+      "nearest": "1:1",
+      "deviation": 0.0058,
+      "within_1_percent": true,
+      "palladio_time": true
+    },
+    {
+      "space": "Querhausarm (ohne Apsis)",
+      "a": 34.5,
+      "b": 34.25,
+      "ratio": 1.0073,
+      "nearest": "1:1",
+      "deviation": 0.0073,
+      "within_1_percent": true,
+      "palladio_time": true
+    },
+    {
+      "space": "Presbyterium",
+      "a": 41.33,
+      "b": 31.17,
+      "ratio": 1.326,
+      "nearest": "4:3",
+      "deviation": -0.0055,
+      "within_1_percent": true,
+      "palladio_time": true
+    },
+    {
+      "space": "Mönchschor mit Apsis (nach Palladio)",
+      "a": 57.25,
+      "b": 34.25,
+      "ratio": 1.6715,
+      "nearest": "5:3",
+      "deviation": 0.0029,
+      "within_1_percent": true,
+      "palladio_time": false
+    }
+  ],
+  "checks": [
+    {
+      "rule": "Saal höchstens zwei Quadrate; Basilika: Mittelraum zwei Quadrate",
+      "source": "I.XXI.3 (A-DIM-HALL-001); B3-XIX-BASILICA",
+      "value": "Mittelschiff 1.99 Breiten",
+      "verdict": "erfüllt (2:1)"
+    },
+    {
+      "rule": "Seitenschiffe der Kirche wie bei der Basilika: ⅓ des Mittelraums",
+      "source": "B4-V-CHIESE → B3-XIX-BASILICA",
+      "value": "0.53 der Mittelschiffbreite",
+      "verdict": "nicht erfüllt (etwa ½; Bertotti: 'la metà')"
+    },
+    {
+      "rule": "Kreis und Quadrat als vollkommenste Formen; Kreuzform",
+      "source": "B4-II-FORME, B4-II-RITONDA, B4-II-CROCE",
+      "value": "Vierung quadratisch mit Kuppelkreis, Querhausarme quadratisch mit Halbkreisapsiden",
+      "verdict": "erfüllt (qualitativ)"
+    },
+    {
+      "rule": "Kompositsäule 10 Moduln, Gebälk ⅕",
+      "source": "I.XVIII.1, I.XVIII.4",
+      "value": "innen 10¼ Durchmesser, Gebälk ⅕; Fassade knapp 10, Gebälk ⅕ (Bertotti)",
+      "verdict": "erfüllt (innen +2,5 %)"
+    },
+    {
+      "rule": "Postament der Kompositordnung ⅓ der Säule (korinthisch ¼)",
+      "source": "I.XVIII.2, I.XIX.3",
+      "value": "innen ¼, Fassade knapp ⅓ (Bertotti)",
+      "verdict": "Fassade erfüllt; innen das Maß der korinthischen Ordnung"
+    },
+    {
+      "rule": "Bogenöffnung der Kompositordnung zwei Quadrate und ein halbes hoch",
+      "source": "I.XVIII.1",
+      "value": "Arkaden der Seitenschiffe 2½ Breiten (Bertotti)",
+      "verdict": "erfüllt"
+    },
+    {
+      "rule": "Gewölbehöhe nach einem der drei Mittel; sonst Urteil des Architekten",
+      "source": "I.XXIII.3–6 (A-HT-VAULT-002…005, B1-XXIII-GIUDICIO)",
+      "value": "ausgeführt ≈ 61–62 Fuß; arithmetisch 51.5, geometrisch 48.6, harmonisch 45.9",
+      "verdict": "keines der drei Mittel; 'altre altezze … secondo il suo giudicio'"
+    }
+  ],
+  "facade": [
+    {
+      "rule": "Kompositsäule zehn Moduln",
+      "source": "I.XVIII.1",
+      "value": "9.7 Durchmesser (Säule 40:4 Fuß, Durchmesser gemessen 4.17 Fuß)",
+      "verdict": "erfüllt (Bertotti: 'poco meno di 10')"
+    },
+    {
+      "rule": "Postament der Kompositordnung ⅓ der Säule",
+      "source": "I.XVIII.2, I.XIX.3",
+      "value": "0.325 der Säule",
+      "verdict": "erfüllt"
+    },
+    {
+      "rule": "Gebälk ⅕ der Säule",
+      "source": "I.XVIII.4",
+      "value": "0.199 der Säule",
+      "verdict": "erfüllt"
+    },
+    {
+      "rule": "Gerade Säulenzahl, das Mitteljoch 'alquanto maggiore de gli altri'",
+      "source": "I.XIII.9",
+      "value": "vier Säulen; Mitteljoch 2.01-mal so weit wie die Seitenjoche (2.0 und 4.0 Durchmesser)",
+      "verdict": "teilweise: Mitteljoch vorhanden, aber doppelt so weit (Buch IV, Kap. V: 3 zu 2¼)"
+    },
+    {
+      "rule": "Säulenabstand bestimmt die Säulenhöhe: 2 D → 9½ D, 1½ D → 10 D",
+      "source": "I.XIII.8",
+      "value": "Seitenjoche 2.0 D bei Säulen von 9.7 D",
+      "verdict": "zwischen der korinthischen und der kompositen Kopplung"
+    },
+    {
+      "rule": "In Tempeln keine Postamente, die Säulen beginnen am Boden",
+      "source": "B4-V-PIEDESTILI",
+      "value": "Fassade auf Postamenten von ⅓, Innenraum auf Postamenten von ¼ (SG-T2)",
+      "verdict": "nicht erfüllt"
+    },
+    {
+      "rule": "Kleine Ordnung: Pilaster 10 Durchmesser, Gebälk ⅕ (Bertotti)",
+      "source": "SG-T6",
+      "value": "10.5 Breiten, Gebälk 0.197",
+      "verdict": "bestätigt"
+    },
+    {
+      "rule": "Höhe zu Breite des Mittelteils 'una sesta minore' (8:5, Bertotti)",
+      "source": "SG-T6",
+      "value": "1.57 über die äußeren Säulen, 1.40 über das Giebelgesims",
+      "verdict": "hängt an der Bezugsbreite; Bertottis Deutung, kein Maß Palladios"
+    }
+  ],
+  "dome": [
+    {
+      "rule": "Gewölbte quadratische Räume: Höhe = Breite + ⅓",
+      "source": "I.XXIII.2",
+      "value": "Vierung 34.5 Fuß → 46.0 Fuß; Kuppelscheitel 99.4 Fuß = 2.88 Breiten, schon die Vierungsbögen 60.7 Fuß",
+      "verdict": "nicht erfüllt (die Regel gilt für Räume, nicht für Vierungskuppeln)"
+    },
+    {
+      "rule": "Pantheon: Höhe bis zur Lichtöffnung = Durchmesser",
+      "source": "B4-XX-PANTHEON",
+      "value": "99.4 : 34.2 = 2.91",
+      "verdict": "nicht erfüllt"
+    },
+    {
+      "rule": "Kuppeldurchmesser und Vierung",
+      "source": "SG-S-DOME-D, SG-NAVE-W",
+      "value": "innen 34.2 Fuß, Vierung 34.5 Fuß; Schale innen eine Halbkugel",
+      "verdict": "Befund ohne Regel"
+    }
+  ],
+  "criteria_verdicts": {
+    "erfüllt": 6,
+    "nicht erfüllt": 2,
+    "Spielraum": 1,
+    "teilweise": 3,
+    "keine Regel": 5,
+    "offen": 3
+  },
+  "seven_forms": {
+    "hits": 4,
+    "n": 4,
+    "chance": 0.1483,
+    "p_at_least": 0.00048
+  }
+}

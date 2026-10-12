@@ -1,0 +1,800 @@
+{
+ "source": "Palladio 1570, Libro II, woodcut plans; read from e-rara IIIF scans (full resolution crops)",
+ "reading_policy": "Only numbers printed in the woodcut are used. Later handwritten pencil notes present on some scan pages (e.g. p. 5) are ignored. Rotated numerals are read in the orientation of the room. 'confidence': high = printed figure clearly legible and assignment to the room unambiguous; medium = figure legible, assignment to length or width inferred from plan geometry or symmetry; low = figure partly illegible.",
+ "rooms": [
+  {
+   "building": "Palazzo Barbarano",
+   "phys": 94,
+   "printed_page": "22",
+   "room": "stanze lunghe un quadro e mezo (right wing)",
+   "length": 24,
+   "width": 16,
+   "confidence": "medium",
+   "note": "24 printed in the left room; right-wing room taken as 24 x 16 as stated in the text (1 1/2 squares)"
+  },
+  {
+   "building": "Palazzo Barbarano",
+   "phys": 94,
+   "printed_page": "22",
+   "room": "left front room",
+   "length": 24,
+   "width": 19,
+   "confidence": "medium",
+   "note": "second figure next to 24 is damaged; reads like 19 (or 9); text says the rooms are 1 1/2 squares; Mitrovic 1990 reads the same 24 x 19"
+  },
+  {
+   "building": "Palazzo Barbarano",
+   "phys": 94,
+   "printed_page": "22",
+   "room": "stanze quadre",
+   "length": 16,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Mocenigo",
+   "phys": 126,
+   "printed_page": "54",
+   "room": "stanze maggiori",
+   "length": 26,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Mocenigo",
+   "phys": 126,
+   "printed_page": "54",
+   "room": "stanze mediocri",
+   "length": 16,
+   "width": 16,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Mocenigo",
+   "phys": 126,
+   "printed_page": "54",
+   "room": "camerini",
+   "length": 16,
+   "width": 10,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Chiericati",
+   "phys": 78,
+   "printed_page": "6",
+   "room": "stanze maggiori",
+   "length": 30,
+   "width": 18,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Chiericati",
+   "phys": 78,
+   "printed_page": "6",
+   "room": "stanze mediocri",
+   "length": 18,
+   "width": 18,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Chiericati",
+   "phys": 78,
+   "printed_page": "6",
+   "room": "camerini",
+   "length": 18,
+   "width": 12,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Cornaro",
+   "phys": 125,
+   "printed_page": "53",
+   "room": "stanze maggiori",
+   "length": 26.5,
+   "width": 16,
+   "confidence": "high",
+   "note": "text: un quadro e tre quarti (7:4 = 28 x 16)"
+  },
+  {
+   "building": "Villa Cornaro",
+   "phys": 125,
+   "printed_page": "53",
+   "room": "stanze mediocri",
+   "length": 16,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Pisani, Montagnana",
+   "phys": 124,
+   "printed_page": "52",
+   "room": "stanze maggiori",
+   "length": 28,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Pisani, Montagnana",
+   "phys": 124,
+   "printed_page": "52",
+   "room": "stanze mediocri",
+   "length": 16,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Pisani, Montagnana",
+   "phys": 124,
+   "printed_page": "52",
+   "room": "camerini e andito",
+   "length": null,
+   "width": 8.5,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Saraceno",
+   "phys": 128,
+   "printed_page": "56",
+   "room": "stanze maggiori",
+   "length": 26.5,
+   "width": 16,
+   "confidence": "medium",
+   "note": "text: un quadro e cinque ottavi (13:8 = 26 x 16)"
+  },
+  {
+   "building": "Palazzo Trissino (inventione)",
+   "phys": 146,
+   "printed_page": "74",
+   "room": "stanze maggiori",
+   "length": 40,
+   "width": 20,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Trissino (inventione)",
+   "phys": 146,
+   "printed_page": "74",
+   "room": "stanza mediocre",
+   "length": 20,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Inventione per un sito piramidale",
+   "phys": 143,
+   "printed_page": "71",
+   "room": "stanze beside the entrance",
+   "length": 30,
+   "width": 18,
+   "confidence": "high"
+  },
+  {
+   "building": "Inventione per un sito piramidale",
+   "phys": 143,
+   "printed_page": "71",
+   "room": "stanze at the head of the entrance",
+   "length": 27,
+   "width": 18,
+   "confidence": "high"
+  },
+  {
+   "building": "Inventione per un sito in Venetia",
+   "phys": 144,
+   "printed_page": "72",
+   "room": "stanze on the flanks (front)",
+   "length": 34.5,
+   "width": 20,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Garzadore (inventione)",
+   "phys": 149,
+   "printed_page": "77",
+   "room": "stanze maggiori",
+   "length": 20,
+   "width": 18.5,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Garzadore (inventione)",
+   "phys": 149,
+   "printed_page": "77",
+   "room": "camerini",
+   "length": 18.5,
+   "width": 16,
+   "confidence": "medium",
+   "note": "corrected 2026-10-01 after comparison with Mitrovic 1990: the 8 belongs to the passage; the camerini are 18 1/2 x 16"
+  },
+  {
+   "building": "Villa Almerico (Rotonda)",
+   "phys": 91,
+   "printed_page": "19",
+   "room": "stanze grandi",
+   "length": 26,
+   "width": 15,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Antonini",
+   "phys": 77,
+   "printed_page": "5",
+   "room": "stanze (front)",
+   "length": 28,
+   "width": 17,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Antonini",
+   "phys": 77,
+   "printed_page": "5",
+   "room": "stanze (back)",
+   "length": 24,
+   "width": 17,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Iseppo Porto",
+   "phys": 81,
+   "printed_page": "8",
+   "room": "stanze beside the entrances",
+   "length": 30,
+   "width": 20,
+   "confidence": "medium",
+   "note": "plan on phys 80/81 opening"
+  },
+  {
+   "building": "Palazzo Iseppo Porto",
+   "phys": 81,
+   "printed_page": "8",
+   "room": "stanze quadre",
+   "length": 20,
+   "width": 20,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Iseppo Porto",
+   "phys": 81,
+   "printed_page": "8",
+   "room": "camerini",
+   "length": 9,
+   "width": 7,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Iseppo Porto",
+   "phys": 81,
+   "printed_page": "8",
+   "room": "entrata (4 columns)",
+   "length": 30,
+   "width": 30,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo della Torre",
+   "phys": 83,
+   "printed_page": "11",
+   "room": "stanza",
+   "length": 30,
+   "width": 19,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo della Torre",
+   "phys": 83,
+   "printed_page": "11",
+   "room": "stanza",
+   "length": 19,
+   "width": 15,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo della Torre",
+   "phys": 83,
+   "printed_page": "11",
+   "room": "stanza",
+   "length": 22.5,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Thiene",
+   "phys": 85,
+   "printed_page": "13",
+   "room": "stanze",
+   "length": 30,
+   "width": 20,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Thiene",
+   "phys": 85,
+   "printed_page": "13",
+   "room": "oval sala",
+   "length": 56,
+   "width": 20,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Thiene",
+   "phys": 85,
+   "printed_page": "13",
+   "room": "entrata",
+   "length": 34.5,
+   "width": 20,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Valmarana",
+   "phys": 88,
+   "printed_page": "16",
+   "room": "stanza",
+   "length": 20.5,
+   "width": 17.5,
+   "confidence": "low",
+   "note": "assignment of 17 1/2 and 20 1/2 uncertain"
+  },
+  {
+   "building": "Palazzo Valmarana",
+   "phys": 88,
+   "printed_page": "16",
+   "room": "stanza",
+   "length": 38,
+   "width": 19,
+   "confidence": "low"
+  },
+  {
+   "building": "Palazzo Capra",
+   "phys": 93,
+   "printed_page": "21",
+   "room": "stanze",
+   "length": 27,
+   "width": 17,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo Capra",
+   "phys": 93,
+   "printed_page": "21",
+   "room": "camerini",
+   "length": 17,
+   "width": 13,
+   "confidence": "high",
+   "note": "Mitrovic 1990 lists 13 x 13; plan geometry (same width as the 27 x 17 rooms) supports 17 x 13"
+  },
+  {
+   "building": "Palazzo Capra",
+   "phys": 93,
+   "printed_page": "21",
+   "room": "sala",
+   "length": 32,
+   "width": 32,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Pisani, Bagnolo",
+   "phys": 119,
+   "printed_page": "47",
+   "room": "stanze",
+   "length": 24,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Pisani, Bagnolo",
+   "phys": 119,
+   "printed_page": "47",
+   "room": "stanze maggiori (5:3 per text)",
+   "length": 30,
+   "width": 18,
+   "confidence": "medium",
+   "note": "only width 18 printed; length from text"
+  },
+  {
+   "building": "Villa Pisani, Bagnolo",
+   "phys": 119,
+   "printed_page": "47",
+   "room": "stanze quadre",
+   "length": 16,
+   "width": 16,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Badoer",
+   "phys": 120,
+   "printed_page": "48",
+   "room": "stanze maggiori",
+   "length": 26.5,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Badoer",
+   "phys": 120,
+   "printed_page": "48",
+   "room": "stanze quadre",
+   "length": 16,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Badoer",
+   "phys": 120,
+   "printed_page": "48",
+   "room": "camerini",
+   "length": 16,
+   "width": 8,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Badoer",
+   "phys": 120,
+   "printed_page": "48",
+   "room": "sala",
+   "length": 32,
+   "width": 16,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Zeno",
+   "phys": 121,
+   "printed_page": "49",
+   "room": "stanze maggiori",
+   "length": 21.5,
+   "width": 14,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Zeno",
+   "phys": 121,
+   "printed_page": "49",
+   "room": "stanze quadre",
+   "length": 14,
+   "width": 14,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Zeno",
+   "phys": 121,
+   "printed_page": "49",
+   "room": "camerini",
+   "length": 14,
+   "width": 12,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Zeno",
+   "phys": 121,
+   "printed_page": "49",
+   "room": "sala",
+   "length": 29,
+   "width": 14,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Foscari (Malcontenta)",
+   "phys": 122,
+   "printed_page": "50",
+   "room": "stanze maggiori",
+   "length": 24,
+   "width": 16,
+   "confidence": "high",
+   "note": "P 24 printed in the room; missing in Mitrovic 1990 table 1"
+  },
+  {
+   "building": "Villa Foscari (Malcontenta)",
+   "phys": 122,
+   "printed_page": "50",
+   "room": "stanze quadre",
+   "length": 16,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Foscari (Malcontenta)",
+   "phys": 122,
+   "printed_page": "50",
+   "room": "camerini",
+   "length": 16,
+   "width": 12,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Barbaro",
+   "phys": 123,
+   "printed_page": "51",
+   "room": "stanza",
+   "length": 20,
+   "width": 18,
+   "confidence": "low"
+  },
+  {
+   "building": "Villa Barbaro",
+   "phys": 123,
+   "printed_page": "51",
+   "room": "stanza",
+   "length": 20,
+   "width": 12,
+   "confidence": "low"
+  },
+  {
+   "building": "Villa Barbaro",
+   "phys": 123,
+   "printed_page": "51",
+   "room": "stanza",
+   "length": 20,
+   "width": 9,
+   "confidence": "low"
+  },
+  {
+   "building": "Villa Emo",
+   "phys": 127,
+   "printed_page": "55",
+   "room": "stanze maggiori",
+   "length": 27,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Emo",
+   "phys": 127,
+   "printed_page": "55",
+   "room": "stanze quadre",
+   "length": 16,
+   "width": 16,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Emo",
+   "phys": 127,
+   "printed_page": "55",
+   "room": "sala",
+   "length": 27,
+   "width": 27,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Ragona",
+   "phys": 129,
+   "printed_page": "57",
+   "room": "stanza",
+   "length": 21.25,
+   "width": 15,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Ragona",
+   "phys": 129,
+   "printed_page": "57",
+   "room": "stanza",
+   "length": 18,
+   "width": 17,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Ragona",
+   "phys": 129,
+   "printed_page": "57",
+   "room": "stanza",
+   "length": 15,
+   "width": 12,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Poiana",
+   "phys": 130,
+   "printed_page": "58",
+   "room": "stanze grandi",
+   "length": 30,
+   "width": 18,
+   "confidence": "high",
+   "note": "woodcut also prints 17 next to the right-hand rooms (Mitrovic reads 30 x 17); 30 x 18 agrees with the text (un quadro e due terzi)"
+  },
+  {
+   "building": "Villa Poiana",
+   "phys": 130,
+   "printed_page": "58",
+   "room": "stanze quadre",
+   "length": 18,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Valmarana",
+   "phys": 131,
+   "printed_page": "59",
+   "room": "stanze",
+   "length": 27,
+   "width": 17,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Valmarana",
+   "phys": 131,
+   "printed_page": "59",
+   "room": "stanze quadre",
+   "length": 15,
+   "width": 15,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Valmarana",
+   "phys": 131,
+   "printed_page": "59",
+   "room": "camerini",
+   "length": 15,
+   "width": 12,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Valmarana",
+   "phys": 131,
+   "printed_page": "59",
+   "room": "torri",
+   "length": 12,
+   "width": 12,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Valmarana",
+   "phys": 131,
+   "printed_page": "59",
+   "room": "sala",
+   "length": 32.5,
+   "width": 25,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Thiene",
+   "phys": 134,
+   "printed_page": "62",
+   "room": "stanze quadre",
+   "length": 18,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Thiene",
+   "phys": 134,
+   "printed_page": "62",
+   "room": "sala",
+   "length": 36,
+   "width": 36,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Angarano",
+   "phys": 135,
+   "printed_page": "63",
+   "room": "stanze",
+   "length": 22,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Angarano",
+   "phys": 135,
+   "printed_page": "63",
+   "room": "sala",
+   "length": 36,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Godi",
+   "phys": 137,
+   "printed_page": "65",
+   "room": "stanze",
+   "length": 24,
+   "width": 16,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Godi",
+   "phys": 137,
+   "printed_page": "65",
+   "room": "sala",
+   "length": 36,
+   "width": 24,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Sarego",
+   "phys": 140,
+   "printed_page": "68",
+   "room": "stanze maggiori",
+   "length": 27,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Sarego",
+   "phys": 140,
+   "printed_page": "68",
+   "room": "stanze quadre",
+   "length": 16,
+   "width": 16,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Sarego",
+   "phys": 140,
+   "printed_page": "68",
+   "room": "sala",
+   "length": 40,
+   "width": 20,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Sarego",
+   "phys": 140,
+   "printed_page": "68",
+   "room": "stanze",
+   "length": 24,
+   "width": 9,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo Angarano (inventione)",
+   "phys": 147,
+   "printed_page": "75",
+   "room": "stanze beside the entrance (5:3 per text)",
+   "length": 30,
+   "width": 18,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo della Torre (inventione)",
+   "phys": 148,
+   "printed_page": "76",
+   "room": "stanze",
+   "length": 36,
+   "width": 20,
+   "confidence": "high"
+  },
+  {
+   "building": "Palazzo della Torre (inventione)",
+   "phys": 148,
+   "printed_page": "76",
+   "room": "stanze",
+   "length": 20,
+   "width": 15,
+   "confidence": "medium"
+  },
+  {
+   "building": "Palazzo della Torre (inventione)",
+   "phys": 148,
+   "printed_page": "76",
+   "room": "sala",
+   "length": 40,
+   "width": 40,
+   "confidence": "medium"
+  },
+  {
+   "building": "Villa Mocenigo (inventione sopra la Brenta)",
+   "phys": 150,
+   "printed_page": "78",
+   "room": "prime stanze (proportione doppia)",
+   "length": 40,
+   "width": 20,
+   "confidence": "high"
+  },
+  {
+   "building": "Villa Mocenigo (inventione sopra la Brenta)",
+   "phys": 150,
+   "printed_page": "78",
+   "room": "stanze de gli angoli",
+   "length": 20,
+   "width": 20,
+   "confidence": "low",
+   "note": "square per text (quelle de gli angoli sono quadre); the cross-vaulted corner rooms on the woodcut are marked 20 and 15 (Mitrovic: 20 x 15)"
+  }
+ ],
+ "not_yet_read": [
+  "Villa Trissino, Meledo (p. 60)",
+  "Villa Repeta, Campiglia (p. 61)",
+  "Villa Thiene, Quinto (p. 64)",
+  "Villa Sarego, Santa Sofia (p. 67)",
+  "antique reconstructions (pp. 25-43, 69-70)"
+ ],
+ "scope": "Main living rooms of Palladio's own designs and inventions in Book II (pp. 4-78); loggias, courtyards, stairs and service wings excluded."
+}

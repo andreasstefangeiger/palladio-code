@@ -1,0 +1,942 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro II; e-rara DOI 10.3931/e-rara-363",
+ "transcription_policy": "Normalised reading of the 1570 print: long s rendered as s, u/v and spelling kept as printed, line-end hyphens joined. Every quotation is checked against the scan crop listed in 'proof'. All 31 quotations were compared with the scan crops on 2026-09-30; corrections are recorded in each statement's 'note'.",
+ "rule_vocabulary": {
+  "I23_first": "primo modo (Book I ch. XXIII): half of length plus width = arithmetic mean",
+  "I23_second": "secondo modo: mean proportional (square root of product) = geometric mean",
+  "I23_third": "terzo/ultimo modo: lower height from the numeric construction = harmonic mean",
+  "I23_square_4_3": "square vaulted room: width plus one third",
+  "flat_h_eq_w": "flat ceiling (solaro): height equals width",
+  "numeric": "height stated in Vicentine feet",
+  "other": "height rule not contained in Book I ch. XXIII"
+ },
+ "statements": [
+  {
+   "id": "B2-ANT-1",
+   "building": "Palazzo Antonini",
+   "place": "Udine",
+   "phys": 76,
+   "printed_page": "4",
+   "kind": "own_design",
+   "anchor": [
+    "Le prime ftanze",
+    "che larghi"
+   ],
+   "quote": "Le prime stanze sono in uolto; le maggiori hanno l'altezza de' uolti secondo il primo modo posto di sopra dell'altezza de' uolti ne i luoghi piu lunghi, che larghi.",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_first"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-ANT-2",
+   "building": "Palazzo Antonini",
+   "place": "Udine",
+   "phys": 76,
+   "printed_page": "4",
+   "kind": "own_design",
+   "anchor": [
+    "Le ftanze di fopra",
+    "larghe"
+   ],
+   "quote": "Le stanze di sopra sono in solaro, e tanto maggiori di quelle di sotto, quanto importano le contratture, o diminutioni de' muri, & hanno i solari alti quanto sono larghe.",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": "flat_h_eq_w"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-CHI-1",
+   "building": "Palazzo Chiericati",
+   "place": "Vicenza",
+   "phys": 78,
+   "printed_page": "6",
+   "kind": "own_design",
+   "anchor": [
+    "Le ftanze maggiori hanno",
+    "delle maggiori"
+   ],
+   "quote": "Le stanze maggiori hanno i uolti loro alti secondo il primo modo dell'altezze de' uolti: le mediocri sono inuoltate a lunette; & hanno i uolti tanto alti quanto sono quelli delle maggiori.",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_first"
+    },
+    {
+     "room": "stanze mediocri",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "equal_to:stanze maggiori"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-POR-1",
+   "building": "Palazzo Iseppo Porto",
+   "place": "Vicenza",
+   "phys": 80,
+   "printed_page": "8",
+   "kind": "own_design",
+   "anchor": [
+    "Le llanze prime",
+    "infoiato"
+   ],
+   "quote": "Le stanze prime sono in uolto. L'altezza di quelle, che sono a canto le dette entrate, e secondo l'ultimo modo dell'altezza de' uolti. Le stanze seconde, cioe del secondo ordine, sono in solaro.",
+   "facts": [
+    {
+     "room": "stanze beside the entrances",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_third"
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-VAL-1",
+   "building": "Palazzo Valmarana",
+   "place": "Vicenza",
+   "phys": 88,
+   "printed_page": "16",
+   "kind": "own_design",
+   "anchor": [
+    "Le prime Hanze",
+    "quanto larghe"
+   ],
+   "quote": "Le prime stanze sono in uolto: le seconde in solaro, e sono queste tanto alte, quanto larghe.",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": null
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": "flat_h_eq_w"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-ROT-1",
+   "building": "Villa Almerico (Rotonda)",
+   "place": "Vicenza",
+   "phys": 90,
+   "printed_page": "18",
+   "kind": "own_design",
+   "anchor": [
+    "Sopra le fianze grandi",
+    "primo modo"
+   ],
+   "quote": "Sopra le stanze grandi, lequali hanno i uolti alti secondo il primo modo, intorno la Sala ui e un luogo da passeggiare",
+   "facts": [
+    {
+     "room": "stanze grandi",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_first"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-BAR-1",
+   "building": "Palazzo Barbarano",
+   "place": "Vicenza",
+   "phys": 94,
+   "printed_page": "22",
+   "kind": "own_design",
+   "anchor": [
+    "Dalla",
+    "delle flanze"
+   ],
+   "quote": "Dalla destra, e dalla sinistra parte ui sono due stanze lunghe un quadro e mezo, & appresso due altre quadre, & oltra queste due camerini. [...] Di tutti questi luoghi sono i uolti alti piedi uentiuno e mezo. La Sala di sopra, e tutte l'altre stanze sono in solaro i camerini soli hanno i uolti alti al paro de i solari delle stanze.",
+   "facts": [
+    {
+     "room": "stanze lunghe un quadro e mezo",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "3:2",
+     "rule": "numeric",
+     "height_ft": 21.5
+    },
+    {
+     "room": "stanze quadre",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "1:1",
+     "rule": "numeric",
+     "height_ft": 21.5
+    },
+    {
+     "room": "camerini",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "numeric",
+     "height_ft": 21.5
+    },
+    {
+     "room": "Sala e stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-ATT-1",
+   "building": "Atrio testugginato (casa privata degli Antichi)",
+   "place": null,
+   "phys": 105,
+   "printed_page": "33",
+   "kind": "antique_reconstruction",
+   "anchor": [
+    "Le ftanze fono della medefima",
+    "della larghezza"
+   ],
+   "quote": "Le stanze sono della medesima larghezza, e sono alte fino all'imposta de' uolti, quanto larghe, & i uolti hanno di frezza il terzo della larghezza.",
+   "facts": [
+    {
+     "room": "stanze del peristilio",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "other",
+     "note": "impost height = width, vault rise = 1/3 width, total 4/3 width"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-SCO-1",
+   "building": "Sale Corinthie (Antichi)",
+   "place": null,
+   "phys": 110,
+   "printed_page": null,
+   "kind": "antique_reconstruction",
+   "anchor": [
+    "Il uolto fi faceua",
+    "della lar ghezza"
+   ],
+   "quote": "Il uolto si faceua o di mezo cerchio, ouero a schiffo, cioe, che hauea tanto di frezza, quanto era il terzo della larghezza della Sala [...] La lunghezza di queste Sale sarebbe molto bella di un quadro, e due terzi della larghezza.",
+   "facts": [
+    {
+     "room": "Sala",
+     "ceiling": "vault",
+     "plan_ratio": "5:3",
+     "rule": "other",
+     "note": "vault rise 1/3 of width"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-PBA-1",
+   "building": "Villa Pisani",
+   "place": "Bagnolo",
+   "phys": 119,
+   "printed_page": "47",
+   "kind": "own_design",
+   "anchor": [
+    "La Sala è in uolto",
+    "un quadro e mezo"
+   ],
+   "quote": "La Sala e in uolto alta quanto larga, e la meta piu: a questa altezza giugne ancho il uolto delle loggie: Le stanze sono in solaro alte quanto larghe: le maggiori sono lunghe un quadro e due terzi: le altre un quadro e mezo.",
+   "facts": [
+    {
+     "room": "Sala",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "other",
+     "height_factor": 1.5
+    },
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "flat",
+     "plan_ratio": "5:3",
+     "rule": "flat_h_eq_w"
+    },
+    {
+     "room": "altre stanze",
+     "floor": 1,
+     "ceiling": "flat",
+     "plan_ratio": "3:2",
+     "rule": "flat_h_eq_w"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-ZEN-1",
+   "building": "Villa Zeno",
+   "place": "Cessalto",
+   "phys": 121,
+   "printed_page": "49",
+   "kind": "own_design",
+   "anchor": [
+    "lequali tutte fono fatte in uolto",
+    "delle danze"
+   ],
+   "quote": "lequali tutte sono fatte in uolto: l'altezza de i uolti delle maggiori e secondo il modo secondo delle altezze de' uolti. Le quadre hanno le lunette ne gli angoli [...] il uolto della loggia e alto quanto quello della sala, e superano tutti due l'altezza delle stanze.",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_second"
+    },
+    {
+     "room": "Sala and loggia",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "higher_than:stanze"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-FOS-1",
+   "building": "Villa Foscari (Malcontenta)",
+   "place": "Gambarare",
+   "phys": 122,
+   "printed_page": "50",
+   "kind": "own_design",
+   "anchor": [
+    "Le llanze maggiori",
+    "larga la Sala"
+   ],
+   "quote": "Le stanze maggiori hanno i uolti alti secondo il primo modo delle altezze de' uolti. Le quadre hanno i uolti a cupola: sopra i camerini vi sono mezati: il uolto della Sala e a Crociera di mezo cerchio: la sua imposta e tanto alta dal piano, quanto e larga la Sala",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_first"
+    },
+    {
+     "room": "Sala",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "other",
+     "note": "impost height = width, semicircular cross vault"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-FOS-2",
+   "building": "Villa Foscari (Malcontenta)",
+   "place": "Gambarare",
+   "phys": 122,
+   "printed_page": "50",
+   "kind": "own_design",
+   "anchor": [
+    "mere di fopra",
+    "otto piedi"
+   ],
+   "quote": "Le camere di sopra sono come mezati per la loro bassezza, perche sono alte solo otto piedi.",
+   "facts": [
+    {
+     "room": "camere",
+     "floor": 2,
+     "rule": "numeric",
+     "height_ft": 8
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-PMO-1",
+   "building": "Villa Pisani",
+   "place": "Montagnana",
+   "phys": 124,
+   "printed_page": "52",
+   "kind": "own_design",
+   "anchor": [
+    "Le ftanze maggiori fono lunghe",
+    "due quadri"
+   ],
+   "quote": "Le stanze maggiori sono lunghe un quadro e tre quarti: i uolti sono a schiffo, alti secondo il secondo modo delle altezze de' uolti: le mediocri sono quadre, & inuoltate a cadino: I camerini, e l'andito sono di uguale larghezza: i uolti loro sono alti due quadri.",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "7:4",
+     "rule": "I23_second"
+    },
+    {
+     "room": "stanze mediocri",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "1:1",
+     "rule": null
+    },
+    {
+     "room": "camerini e andito",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "other",
+     "height_factor": 2.0
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-COR-1",
+   "building": "Villa Cornaro",
+   "place": "Piombino Dese",
+   "phys": 125,
+   "printed_page": "53",
+   "kind": "own_design",
+   "anchor": [
+    "le ftanze maggiori fono lunghe",
+    "lunette"
+   ],
+   "quote": "le stanze maggiori sono lunghe un quadro, e tre quarti: i uolti sono alti secondo il primo modo delle altezze de' uolti: le mediocri sono quadre il terzo piu alte che larghe; i uolti sono a lunette",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "7:4",
+     "rule": "I23_first"
+    },
+    {
+     "room": "stanze mediocri",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "1:1",
+     "rule": "I23_square_4_3"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-MMA-1",
+   "building": "Villa Mocenigo",
+   "place": "Marocco",
+   "phys": 126,
+   "printed_page": "54",
+   "kind": "own_design",
+   "anchor": [
+    "le maggiori hanno i volti",
+    "crociera"
+   ],
+   "quote": "le maggiori hanno i volti alti piedi ventiuno, e sono fatti di canne, accioche siano leggieri: le mediocri hanno i uolti alti quanto le maggiori: le minori, cioe i camerini hanno i loro uolti alti piedi dicesette, e sono fatti a crociera.",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "numeric",
+     "height_ft": 21
+    },
+    {
+     "room": "stanze mediocri",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "equal_to:stanze maggiori",
+     "height_ft": 21
+    },
+    {
+     "room": "camerini",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "numeric",
+     "height_ft": 17
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-SAR-1",
+   "building": "Villa Saraceno",
+   "place": "Finale",
+   "phys": 128,
+   "printed_page": "56",
+   "kind": "own_design",
+   "anchor": [
+    "il piano delle ftanze",
+    "quella delle ftanze"
+   ],
+   "quote": "il piano delle stanze s'alza da terra cinque piedi: le stanze maggiori sono lunghe un quadro, e cinque ottaui, & alte quanto larghe, e sono in solaro. Continua questa altezza ancho nella Sala: i camerini appresso la loggia sono in uolto: la altezza de' uolti al pari di quella delle stanze",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "flat",
+     "plan_ratio": "13:8",
+     "rule": "flat_h_eq_w"
+    },
+    {
+     "room": "Sala",
+     "floor": 1,
+     "ceiling": "flat",
+     "rule": "equal_to:stanze maggiori"
+    },
+    {
+     "room": "camerini",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "equal_to:stanze maggiori"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-POI-1",
+   "building": "Villa Poiana",
+   "place": "Poiana Maggiore",
+   "phys": 130,
+   "printed_page": "58",
+   "kind": "own_design",
+   "anchor": [
+    "le danze grandi fono lunghe",
+    "altezza della loggia"
+   ],
+   "quote": "le stanze grandi sono lunghe un quadro, e due terzi, e sono in uolto: le quadre hanno le lunette ne gli angoli: sopra i camerini ui sono mezati: la altezza della Sala e la meta piu della larghezza, e uiene ad essere al pari dell'altezza della loggia",
+   "facts": [
+    {
+     "room": "stanze grandi",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "5:3",
+     "rule": null
+    },
+    {
+     "room": "Sala",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "other",
+     "height_factor": 1.5
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-VLI-1",
+   "building": "Villa Valmarana",
+   "place": "Lisiera",
+   "phys": 131,
+   "printed_page": "59",
+   "kind": "own_design",
+   "anchor": [
+    "a quella altezza è il piano",
+    "falcia"
+   ],
+   "quote": "a questa altezza e il piano delle loggie, e delle stanze, le quali tutte sono in solaro: ne gli angoli della casa ui sono quattro torri: le quali sono in uolto: la sala anco e inuoltata a fascia",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 1,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-TME-1",
+   "building": "Villa Trissino",
+   "place": "Meledo",
+   "phys": 132,
+   "printed_page": "60",
+   "kind": "own_design",
+   "anchor": [
+    "Sono nella Sala alcune",
+    "mczati"
+   ],
+   "quote": "Sono nella Sala alcune meze colonne, che tolgono suso un poggiuolo, nel quale si entra per le stanze di sopra; lequali perche sono alte solo sette piedi; seruono per mezati.",
+   "facts": [
+    {
+     "room": "stanze di sopra",
+     "floor": 2,
+     "rule": "numeric",
+     "height_ft": 7
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-VAN-1",
+   "building": "Villa Angarano",
+   "place": "Angarano",
+   "phys": 135,
+   "printed_page": "63",
+   "kind": "own_design",
+   "anchor": [
+    "La cafa del padrone",
+    "amezati"
+   ],
+   "quote": "La casa del padrone posta nel mezo e nella parte di sotto in uolto, & in quella di sopra in solaro: i camerini cosi di sotto come di sopra sono amezati",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": null
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-GOD-1",
+   "building": "Villa Godi",
+   "place": "Lonedo",
+   "phys": 137,
+   "printed_page": "65",
+   "kind": "own_design",
+   "anchor": [
+    "Le ftanze del padrone",
+    "granari"
+   ],
+   "quote": "Le stanze del padrone hanno il piano loro alto da terra tredici piedi, e sono in solaro, sopra quelle ui sono i granari",
+   "facts": [
+    {
+     "room": "stanze del padrone",
+     "floor": 1,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-SMI-1",
+   "building": "Villa Sarego",
+   "place": "La Miga",
+   "phys": 140,
+   "printed_page": "68",
+   "kind": "own_design",
+   "anchor": [
+    "le dette prime ftanze",
+    "Tolaro"
+   ],
+   "quote": "le dette prime stanze sono in uolto, & le seconde in solaro",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": null
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-INV1-1",
+   "building": "Inventione per un sito piramidale",
+   "place": null,
+   "phys": 143,
+   "printed_page": "71",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "La entrata è quadra",
+    "xviij"
+   ],
+   "quote": "La entrata e quadra, & ha quattro colonne: le quali tolgono suso il uolto, e proportionano la altezza alla larghezza: dall'una, e l'altra parte ui sono due stanze lunghe un quadro, e due terzi; alte secondo il primo modo dell'altezza de' uolti [...] in capo dell'entrata io ui facea due stanze lunghe un quadro e mezo, & appresso due camerini della medesima proportione [...] e piu oltra la Sala lunga un quadro e due terzi [...] Le seconde stanze, cioe quelle del secondo ordine haurebbono hauuto di altezza piedi uenti, e quelle del terzo xviij.",
+   "facts": [
+    {
+     "room": "stanze beside the entrance",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "5:3",
+     "rule": "I23_first"
+    },
+    {
+     "room": "stanze at the head of the entrance",
+     "floor": 1,
+     "plan_ratio": "3:2"
+    },
+    {
+     "room": "camerini",
+     "floor": 1,
+     "plan_ratio": "3:2"
+    },
+    {
+     "room": "Sala",
+     "floor": 1,
+     "plan_ratio": "5:3"
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "rule": "numeric",
+     "height_ft": 20
+    },
+    {
+     "room": "stanze",
+     "floor": 3,
+     "rule": "numeric",
+     "height_ft": 18
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-INV2-1",
+   "building": "Inventione per un sito in Venetia",
+   "place": "Venezia",
+   "phys": 144,
+   "printed_page": "72",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "Le danze , che",
+    "primo modo"
+   ],
+   "quote": "Le stanze, che sono da i fianchi hanno i uolti alti secondo il primo modo dell'altezza de' uolti",
+   "facts": [
+    {
+     "room": "stanze on the flanks",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_first"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-INV2-2",
+   "building": "Inventione per un sito in Venetia",
+   "place": "Venezia",
+   "phys": 144,
+   "printed_page": "72",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "La Sala minore haurebbe",
+    "diceotto piedi"
+   ],
+   "quote": "La Sala minore haurebbe la trauatura al pari de i uolti delle seconde stanze, e sarebbono questi uolti alti uentitre piedi: le stanze del terzo ordine sarebbero in solaro di altezza di diceotto piedi.",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "vault",
+     "rule": "numeric",
+     "height_ft": 23
+    },
+    {
+     "room": "stanze",
+     "floor": 3,
+     "ceiling": "flat",
+     "rule": "numeric",
+     "height_ft": 18
+    }
+   ],
+   "note": "OCR garbled the number (\"uentiti c\"); the scan reads uentitre = 23.",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-TRV-1",
+   "building": "Palazzo Trissino (inventione)",
+   "place": "Vicenza",
+   "phys": 145,
+   "printed_page": "73",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "L ’ altezza delle danze maggiori",
+    "in uolto"
+   ],
+   "quote": "L'altezza delle stanze maggiori sarebbe stata piedi uentisette: e delle mediocri, e minori deceotto. [...] Le stanze maggiori sarebbono state in solaro; le mediocri, e picciole in uolto.",
+   "facts": [
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "flat",
+     "rule": "numeric",
+     "height_ft": 27
+    },
+    {
+     "room": "stanze mediocri e minori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "numeric",
+     "height_ft": 18
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-PAN-1",
+   "building": "Palazzo Angarano (inventione)",
+   "place": "Vicenza",
+   "phys": 147,
+   "printed_page": "75",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "Le itanze acanto",
+    "larghe"
+   ],
+   "quote": "Le stanze a canto l'entrata sono lunghe un quadro, e due terzi [...] Quanto alla parte di sopra la Sala sarebbe senza colonne, & il suo solaro giugnerebbe fin sotto il tetto: le stanze sarebbono tanto alte quanto larghe",
+   "facts": [
+    {
+     "room": "stanze beside the entrance",
+     "floor": 1,
+     "plan_ratio": "5:3"
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "rule": "flat_h_eq_w"
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-TOR-1",
+   "building": "Palazzo della Torre (inventione)",
+   "place": "Verona",
+   "phys": 148,
+   "printed_page": "76",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "Le prime ftanze farebbono",
+    "in folaro"
+   ],
+   "quote": "Le prime stanze sarebbono state in uolto [...] Le seconde stanze, cioe quelle di sopra sarebbono state in solaro.",
+   "facts": [
+    {
+     "room": "stanze",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": null
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "ceiling": "flat",
+     "rule": null
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-GAR-1",
+   "building": "Palazzo Garzadore (inventione)",
+   "place": "Vicenza",
+   "phys": 149,
+   "printed_page": "77",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "la quale è quadra",
+    "Tedi ci"
+   ],
+   "quote": "la quale e quadra, e senza colonne, e tanto alta quanto larga, e di piu quanto e la grossezza della Cornice. La altezza de i uolti delle stanze maggiori e secondo il terzo modo dell'altezza de' uolti: i uolti de i Camerini sono alti piedi sedici.",
+   "facts": [
+    {
+     "room": "Sala di sopra",
+     "floor": 2,
+     "plan_ratio": "1:1",
+     "rule": "other",
+     "note": "height = width plus cornice"
+    },
+    {
+     "room": "stanze maggiori",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "I23_third"
+    },
+    {
+     "room": "camerini",
+     "floor": 1,
+     "ceiling": "vault",
+     "rule": "numeric",
+     "height_ft": 16
+    }
+   ],
+   "scan_checked": true
+  },
+  {
+   "id": "B2-MBR-1",
+   "building": "Villa Mocenigo (inventione sopra la Brenta)",
+   "place": "Brenta",
+   "phys": 150,
+   "printed_page": "78 [printed 66]",
+   "kind": "unexecuted_invention",
+   "anchor": [
+    "Le prime Banze",
+    "Banze di fopra"
+   ],
+   "quote": "Le prime stanze sarebbono molto commode al mangiare [...] e sono di proportione doppia. Quelle de gli angoli sono quadre, & hanno i uolti a schiffo, alti alla imposta, quanto e larga la stanza; & hanno di freccia il terzo della larghezza. La Sala e lunga due quadri, e mezo [...] Le stanze di sopra sono tanto alte, quanto larghe.",
+   "facts": [
+    {
+     "room": "prime stanze",
+     "floor": 1,
+     "plan_ratio": "2:1"
+    },
+    {
+     "room": "stanze de gli angoli",
+     "floor": 1,
+     "ceiling": "vault",
+     "plan_ratio": "1:1",
+     "rule": "I23_square_4_3",
+     "note": "impost = width, rise = 1/3 width: total 4/3 width"
+    },
+    {
+     "room": "Sala",
+     "floor": 1,
+     "plan_ratio": "5:2"
+    },
+    {
+     "room": "stanze",
+     "floor": 2,
+     "rule": "flat_h_eq_w"
+    }
+   ],
+   "note": "The final clause (Le stanze di sopra sono tanto alte, quanto larghe) continues on the next printed line.",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-CAP2-1",
+   "building": "(general rule)",
+   "place": null,
+   "phys": 76,
+   "printed_page": "4",
+   "kind": "general_rule",
+   "anchor": [
+    "Si auertiràpoi",
+    "Icr uirfi"
+   ],
+   "quote": "Si auertira poi nel resto della fabrica, che ui siano stanze grandi, mediocri, e picciole: e tutte l'una a canto a l'altra, onde possano scambieuolmente seruirsi. Le picciole si amezeranno per cauarne camerini [...]",
+   "facts": [],
+   "scan_checked": true,
+   "note": "Book II ch. II. Basis of the room sequence in the design process (src/palladio_code/design.py)."
+  }
+ ]
+}

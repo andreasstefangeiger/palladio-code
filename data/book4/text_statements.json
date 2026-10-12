@@ -1,0 +1,1136 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro I cap. I e XXIII, Libro III cap. XIX, Libro IV; e-rara DOI 10.3931/e-rara-363",
+ "question": "Enthält Buch IV (Tempel und Kirchen) eine eigene Proportionslehre, oder gilt die Lehre aus Buch I? These A. S. Geiger: Palladio behandelt Proportion einmal (Buch I); Buch IV gibt nur eine Liste von Kriterien und lobt den Kreis.",
+ "transcription_policy": "Normalised reading of the 1570 print: long s rendered as s, u/v and spelling kept as printed, line-end hyphens joined; text outside the scan crop stands in square brackets. Every quotation is checked against the scan crop in 'proof'. All 39 quotations were compared with the scan crops on 2026-10-08 (14 OCR misreadings corrected), 10 further ones on 2026-10-12 (9 corrected), and the 5 statements of Book IV ch. I also on 2026-10-12 (all 5 corrected); none of the corrections changes the sense.",
+ "kind_vocabulary": {
+  "principle": "allgemeiner Grundsatz für jedes Gebäude",
+  "intensification": "derselbe Grundsatz, für Tempel mit größerer Sorgfalt",
+  "back_reference": "Verweis auf ein anderes Buch statt einer neuen Regel",
+  "vitruvian_canon": "Zahlenregel, die Palladio Vitruv zuschreibt oder von ihm übernimmt",
+  "palladio_judgment": "Palladios eigenes Urteil oder Abweichung",
+  "theology": "religiöse oder kosmologische Begründung einer Form",
+  "method": "Quelle, Vorgehen oder Maßeinheit",
+  "observation": "Aussage über einen vermessenen antiken Tempel",
+  "summary": "Palladios Zusammenfassung",
+  "book1_context": "Stelle aus Buch I, die für den Vergleich gebraucht wird",
+  "programme": "zugehörige Räume und Ausstattung (Raumprogramm)",
+  "site": "Ort, Lage und Ausrichtung des Tempels"
+ },
+ "relation_vocabulary": {
+  "source": "die Stelle selbst ist die Lehre aus Buch I",
+  "same_principle": "wiederholt den Grundsatz aus Buch I, Kap. I",
+  "refers_to_book1": "verweist ausdrücklich auf Buch I",
+  "refers_to_book3": "verweist auf die Basiliken in Buch III",
+  "vitruvius": "von Vitruv übernommen, nicht aus Buch I",
+  "parallel_to_book1": "entspricht einer Regel aus Buch I, ohne auf sie zu verweisen",
+  "consistent_with_book1": "liegt im Rahmen einer Regel aus Buch I",
+  "outside_seven_forms": "Verhältnis außerhalb der sieben Raumformen aus Buch I, Kap. XXI",
+  "not_in_book1": "kein Gegenstück in Buch I",
+  "new_justification": "neue Begründung (Theologie, Kosmologie), keine neue Maßregel",
+  "none": "kein Bezug zu einer Regel aus Buch I"
+ },
+ "statements": [
+  {
+   "id": "B1-I-TRE",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6",
+   "kind": "principle",
+   "relation_book1": "source",
+   "topic": "scope",
+   "anchor": [
+    "Tre cofiein",
+    "& la bellezza"
+   ],
+   "quote": "Tre cose in ciascuna fabrica (come dice Vitruuio) deono considerarsi, senza lequali niuno edificio meriterà esser lodato; & queste sono, l'vtile, ò commodità, la perpetuità, & la bellezza",
+   "facts": {},
+   "note": "Gilt ausdrücklich für jedes Gebäude ('ciascuna fabrica').",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B1-I-BELLEZZA",
+   "book": 1,
+   "chapter": "I",
+   "phys": 10,
+   "printed_page": "6–7",
+   "kind": "principle",
+   "relation_book1": "source",
+   "topic": "beauty",
+   "anchor": [
+    "La bellezza",
+    "fiano necelfarie"
+   ],
+   "quote": "La bellezza risulterà dalla bella forma, e dalla corrispondenza del tutto alle parti, delle parti fra loro, e di quelle al tutto: conciosiache gli edificij habbiano da parere vno intiero, e ben finito corpo: nel quale l'vn membro all'altro conuenga, & tutte le membra siano necessarie [à quello, che si vuol fare.]",
+   "facts": {},
+   "note": "Der Satz endet auf S. 7 (phys 11); der Schluss in eckigen Klammern liegt außerhalb des Belegausschnitts.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B1-XXIII-SESQUI",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 57,
+   "printed_page": "53",
+   "kind": "book1_context",
+   "relation_book1": "source",
+   "topic": "music",
+   "anchor": [
+    "Nei numeri li",
+    "coi numeri ."
+   ],
+   "quote": "Ne i numeri si ritrouera in questo modo. Conosciuto quanti piedi sia larga la stanza, e quanti lunga; troueremo un numero c'habbia quella proportione alla larghezza, che la lunghezza hauerà à lui: e lo ritroueremo moltiplicando il minore estremo co'l maggiore: perche la radice quadrata di quello che procederà da detta moltiplicatione sarà l'altezza che cerchiamo; come per esempio: se'l luogo che uogliamo inuoltare è lungo ix. piedi, e largo iiij. l'altezza del uolto sarà sei piedi, e quella proportione, c'ha ix. à sei, ha ancho sei à iiij. cioè la sesquialtera. Ma è da auertire, che non sarà sempre possibile ritrouar quest'altezza co i numeri.",
+   "facts": {
+    "example": "9 x 4 -> 6",
+    "ratio": "3:2 (sesquialtera)"
+   },
+   "note": "Laut Volltextsuche der e-rara-Texterkennung die einzige Stelle mit 'sesquialtera' im ganzen Werk.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B1-XXIII-GIUDICIO",
+   "book": 1,
+   "chapter": "XXIII",
+   "phys": 58,
+   "printed_page": "54",
+   "kind": "book1_context",
+   "relation_book1": "source",
+   "topic": "judgment",
+   "anchor": [
+    "Sono ancora altre al",
+    "necefsità ."
+   ],
+   "quote": "Sono ancora altre altezze di uolti; lequali non cascano sotto regola: & di queste si hauerà da seruire l'Architetto, secondo il suo giudicio, & secondo la necessità.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-PROEM-1",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "kind": "intensification",
+   "relation_book1": "same_principle",
+   "topic": "beauty",
+   "anchor": [
+    "EIN fabrica alcuna",
+    "deue essere da noi adorato"
+   ],
+   "quote": "SE in fabrica alcuna è da esser posta opera, & industria, accioche ella con bella misura, e proportione sia compartita, ciò senza alcun dubbio si deue fare ne i Tempij, ne' quali esso Fattore, e Datore di tutte le cose DIO O. M. deue essere da noi adorato",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-PROEM-2",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "kind": "intensification",
+   "relation_book1": "same_principle",
+   "topic": "scope",
+   "anchor": [
+    "se gli huomini nel",
+    "deuono ri guardare"
+   ],
+   "quote": "se gli huomini nel fabricarsi le proprie habitationi usano grandissima cura per ritrouare eccellenti, e periti Architetti, & sofficienti artefici, sono certamente obligati ad usarla molto maggiore nell'edificar le Chiese; Et se in quelle alla commodità principalmente attendono: in queste alla dignità, & grandezza di chi hà da esserui inuocato, & adorato deuono riguardare",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-PROEM-3",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "kind": "theology",
+   "relation_book1": "new_justification",
+   "topic": "cosmology",
+   "anchor": [
+    "ueramente considerando",
+    "conueneuolmente serua ."
+   ],
+   "quote": "[E] ueramente considerando noi questa bella machina del Mondo di quanti merauigliosi ornamenti ella sia ripiena; & come i Cieli co'l continuo lor girare uadino in lei le stagioni secondo il natural bisogno cangiando, & con la soauissima armonia del temperato lor mouimento se stessi conseruino; non possiamo dubitare, che douendo esser simili i piccioli Tempij, che noi facciamo, à questo grandissimo dalla sua immensa bontà con una sua parola perfettamente compiuto, non siamo tenuti à fare in loro tutti quelli ornamenti, che per noi siano possibili; & in modo, e con tal proportione edificarli, che tutte le parti insieme una soaue armonia apportino à gli occhi de' riguardanti, & ciascuna da per se all'uso, alquale sarà destinata conueneuolmente serua.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-PROEM-4",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "kind": "method",
+   "relation_book1": "none",
+   "topic": "models",
+   "anchor": [
+    "io son per dimo",
+    "fabricar le chiese"
+   ],
+   "quote": "io son per dimostrar in questo libro la forma, e gli ornamenti di molti Tempij antichi, de quali ancora si veggono le ruine, e sono da me stati ridotti in disegno: accioche si possa da ciascuno conoscere con qual forma si debbiano, & con quali ornamenti fabricar le chiese",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-PROEM-5",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "kind": "method",
+   "relation_book1": "vitruvius",
+   "topic": "sources",
+   "anchor": [
+    "Et in questo mi è stato",
+    "delle forme loro"
+   ],
+   "quote": "Et in questo mi è stato di grandissimo aiuto Vitruuio: percioche incontrando quello ch'io uedeua, con quello, ch'egli ci insegna, non mi è stato molto difficile uenire in cognitione, e de gli aspetti, e delle forme loro",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-PROEM-6",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 204,
+   "printed_page": "4",
+   "kind": "method",
+   "relation_book1": "vitruvius",
+   "topic": "sources",
+   "anchor": [
+    "per indrizzar",
+    "scritto ."
+   ],
+   "quote": "per indrizzar l'intelletto al conoscer le belle, & proportionate forme de Tempij, & per cauarne molte nobili e uarie inuentioni, delle quali à luogo, e tempo seruendosi possano far conoscere nelle opere loro, come si debba, e possa uariare senza partirsi da' precetti dell'arte, & quanto simil uariatione sia laudabile, e gratiosa. Ma auanti che si uenga a' disegni, io breuemente, come son solito; dirò quelle auertenze, che nell'edificare i Tempij si deuono osseruare, hauendole tratte anch'io da Vitruuio e da altri huomini eccellentissimi iquali di si nobil'arte hanno scritto.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-I-TOSCANI",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "kind": "site",
+   "relation_book1": "none",
+   "topic": "site",
+   "anchor": [
+    "Dico adunque , chegli antichi Toscani",
+    "buone arti erano preposti"
+   ],
+   "quote": "Dico adunque, che gli antichi Toscani ordinarono che à Venere, à Marte, & à Vulcano, si facessero i Tempij fuori della Città, come à quelli, che mouessero gl'animi alle lasciuie, alle guerre, & à gli incendij; & nella Città à quelli, che alla Pudicitia, alla Pace, & alle buone arti erano preposti",
+   "facts": {
+    "fuori della città": [
+     "Venere",
+     "Marte",
+     "Vulcano"
+    ],
+    "nella città": "Pudicitia, Pace, buone arti"
+   },
+   "note": "Palladio berichtet den Brauch der Antiken ('come ci sono state dalli scrittori lasciate'): der Ort richtet sich nach der Gottheit.",
+   "scan_checked": true,
+   "proof": "scan crop of phys 205 (proofs.locate + fetch_region), read 2026-10-12"
+  },
+  {
+   "id": "B4-I-SITO",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "kind": "site",
+   "relation_book1": "not_in_book1",
+   "topic": "site",
+   "anchor": [
+    "eleggeremo quei siti per i Tempij",
+    "lo ueda e rimiri"
+   ],
+   "quote": "eleggeremo quei siti per i Tempij, che saranno nella più nobile, & più celebre parte della Città, lontani da' luoghi dishonesti, e sopra belle, & ornate piazze, nellequali molte strade mettano capo; onde ogni parte del Tempio possa esser ueduta con sua dignità, & arrechi diuotione, & merauiglia à chiunque lo ueda e rimiri.",
+   "facts": {
+    "luogo": "la più nobile e più celebre parte della città",
+    "piazza": "dove molte strade mettono capo",
+    "scopo": "visibile con dignità"
+   },
+   "note": "Für die Christen ('Ma noi … eleggeremo'): der Ort richtet sich nach Würde und Sichtbarkeit, nicht mehr nach der Gottheit.",
+   "scan_checked": true,
+   "proof": "scan crop of phys 205 (proofs.locate + fetch_region), read 2026-10-12"
+  },
+  {
+   "id": "B4-I-ALTEZZA",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "kind": "site",
+   "relation_book1": "not_in_book1",
+   "topic": "site",
+   "anchor": [
+    "E senella Città ui saranno colli",
+    "maggior diuotione , & Maestà"
+   ],
+   "quote": "E se nella Città ui saranno colli, si eleggerà la piu alta parte di quelli. Ma non ui essendo luoghi rileuati, si alzerà il piano del Tempio dal rimanente della Città, quanto sarà conueniente; e si ascenderà al Tempio per gradi: conciosia che il salire al Tempio apporti seco maggior diuotione, & Maestà.",
+   "facts": {
+    "colli": "la parte più alta",
+    "senza colli": "piano del tempio rialzato, salita per gradi"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "scan crop of phys 205 (proofs.locate + fetch_region), read 2026-10-12"
+  },
+  {
+   "id": "B4-I-FRONTI",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "kind": "site",
+   "relation_book1": "not_in_book1",
+   "topic": "site",
+   "anchor": [
+    "Si faranno le fronti de",
+    "protetrice de ' Cittadini"
+   ],
+   "quote": "Si faranno le fronti de' Tempij, che guardino sopra grandissima parte della Città; accioche paia la Religione esser posta come per custode, & protetrice de' Cittadini.",
+   "facts": {
+    "fronte": "guarda sopra grandissima parte della città"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "scan crop of phys 205 (proofs.locate + fetch_region), read 2026-10-12"
+  },
+  {
+   "id": "B4-I-FUORI",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "kind": "site",
+   "relation_book1": "not_in_book1",
+   "topic": "site",
+   "anchor": [
+    "Ma se si fabricheranno Tempij fuori della",
+    "fronte del Tempio"
+   ],
+   "quote": "Ma se si fabricheranno Tempij fuori della Città, all'hora le fronti loro si faranno, che guardino sopra le strade publiche, ò sopra i fiumi, se appresso quelli si fabricherà: accioche i passaggieri possano uederli, e fare le lor salutationi, e riuerenze dinanzi la fronte del Tempio.",
+   "facts": {
+    "fuori della città": "fronte verso le strade pubbliche o i fiumi"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "scan crop of phys 205 (proofs.locate + fetch_region), read 2026-10-12"
+  },
+  {
+   "id": "B4-II-FORME",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "kind": "vitruvian_canon",
+   "relation_book1": "parallel_to_book1",
+   "topic": "forms",
+   "anchor": [
+    "TEMPII si fannoritondi",
+    "di più angoli , e lati ."
+   ],
+   "quote": "I TEMPII si fanno ritondi; quadrangulari; di sei, otto, e più cantoni, iquali tutti finiscano nella capacità di un cerchio; à Croce; & di molte altre forme, e figure, secondo le uarie inuentioni de gli huomini: lequali ogni uolta che sono con belle, & conueneuoli proportioni, & con elegante, & ornata Architettura distinte; meritano di esser lodate. Ma le più belle, e più regolate forme, e dalle quali le altre riceuono le misure; sono la Ritonda, & la quadrangulare; e però di queste due solamente parla Vitruuio, & ci insegna come si debbano compartire; come si dirà quando si tratterà del compartimento de' Tempij. Ne' Tempij, che ritondi non sono, si deue osseruare diligentemente; che tutti gli angoli siano uguali, sia il Tempio di quattro, ò di sei, ò di più angoli, e lati.",
+   "facts": {},
+   "note": "Rund und Quadrat stehen auch an der Spitze der sieben Raumformen in Buch I, Kap. XXI.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-SOLE",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "kind": "theology",
+   "relation_book1": "new_justification",
+   "topic": "cosmology",
+   "anchor": [
+    "Hebberogli Antichi",
+    "come diro più di sotto ."
+   ],
+   "quote": "Hebbero gli Antichi riguardo à quello, che si conuenisse à ciascuno de' loro Dei non solo nell'eleggere i luoghi, ne' quali si douessero fabricare i Tempij, come è stato detto di sopra, ma ancho nell'elegger la forma: onde al Sole, & alla Luna, perche continuamente intorno al Mondo si girano, & con questo lor girare producono gli effetti à ciascuno manifesti, fecero i Tempij di forma ritonda: ò al meno che alla rotondità si auicinassero, & cosi ancho à Vesta, laqual dissero esser Dea della Terra; ilquale Elemento sappiamo ch'è tondo. A' Gioue, come patrone dell'Aere, & del Cielo, fecero i Tempij scoperti nel mezo co' portici intorno, come dirò più di sotto.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-DECORO",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "kind": "vitruvian_canon",
+   "relation_book1": "not_in_book1",
+   "topic": "decorum",
+   "anchor": [
+    "Ne gli ornamenti ancora",
+    "parte dell ' Architettura ."
+   ],
+   "quote": "Ne gli ornamenti ancora hebbero grandissima consideratione à qual Dio fabricassero; per laqual cosa à Minerua, à Marte, & ad Hercole fecero i Tempij di opera Dorica: percioche à tali Dei diceuano conuenirsi per la militia, della quale erano fatti presidenti, le fabriche senza delicatezze, e tenerezze. Ma à Venere, à Flora, alle Muse, & alle Ninfe, & alle più delicate Dee, dissero douersi fare i Tempij, che alla fiorita, e tenera età Virginale si confacessero, onde à quelli diedero l'opra Corinthia: parendo loro, che l'opere sottili, e floride, ornate di foglie, & di uolute si conuenissero à tale età. Ma à Giunone, à Diana, à Bacco, & ad altri Dei, à iquali ne la grauità de' primi, ne la delicatezza de' secondi, pareua che si conuenisse; attribuirono l'opere Ioniche; le quali tra le Doriche, e le Corinthie tengono il luogo di mezo. Cosi leggiamo che gli Antichi nell'edificare i Tempij si ingegnarono di seruare il Decoro, nel quale consiste una bellissima parte dell'Architettura.",
+   "facts": {
+    "dorica": [
+     "Minerua",
+     "Marte",
+     "Hercole"
+    ],
+    "corinthia": [
+     "Venere",
+     "Flora",
+     "Muse",
+     "Ninfe"
+    ],
+    "ionica": [
+     "Giunone",
+     "Diana",
+     "Bacco"
+    ]
+   },
+   "note": "Toskanische und komposite Ordnung werden hier keinem Gott zugeordnet.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-RITONDA",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "kind": "theology",
+   "relation_book1": "new_justification",
+   "topic": "cosmology",
+   "anchor": [
+    "E però ancora noi",
+    "Giustitia di DIO ."
+   ],
+   "quote": "E però ancora noi, che non habbiamo i Dei falsi, per seruare il Decoro circa la forma de' Tempij, eleggeremo la più perfetta, & più eccellente; e conciosiache la Ritonda sia tale, perche sola tra tutte le figure è semplice, uniforme, eguale, forte, e capace, faremo i Tempij ritondi; à quali si conuiene massimamente questa figura, perche essendo essa da un solo termine rinchiusa, nel quale non si può ne principio, ne fine trouare, ne l'uno dall'altro distinguere; & hauendo le sue parti simili tra di loro, e che tutte participano della figura del tutto; e finalmente ritrouandosi in ogni sua parte l'estremo egualmente lontano dal mezo; è attissima a dimostrare la Vnità, la infinita Essenza, la Vniformità, & la Giustitia di DIO.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-CROCE",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "6–7",
+   "kind": "theology",
+   "relation_book1": "new_justification",
+   "topic": "cross",
+   "anchor": [
+    "se , che sono fatte",
+    "San Giorgio Maggiore in Venetia ."
+   ],
+   "quote": "[Sono anco molto laudabili quelle Chie]se, che sono fatte in forma di Croce, lequali nella parte, che sarebbe il piede della Croce, hanno l'entrata; & all'incontro l'altar maggiore, & il Choro; & nelli due rami, che si estendono dall'uno, & l'altro lato, come braccia; due altre entrate, ouero due altri altari; perche essendo figurate con la forma della Croce rappresentano à gli occhi de' riguardanti quel legno, dal quale stete pendente la salute nostra. Et di questa forma io ho fatto la Chiesa di San Giorgio Maggiore in Venetia.",
+   "facts": {},
+   "note": "Satzanfang auf S. 6 (phys 206), am Scan geprüft (Ausschnitt in der Prüfmappe von 2026-10-08).",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-PROPORTIONI",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "kind": "intensification",
+   "relation_book1": "same_principle",
+   "topic": "beauty",
+   "anchor": [
+    "Deuono hauere i Tempij",
+    "proportioni fabricati"
+   ],
+   "quote": "Deuono hauere i Tempij i portici ampij, & con maggior colonne di quello, che ricerchino le altre fabriche, & stà bene che essi siano grandi, e Magnifici (ma non però maggiori di quello, che ricerchi la grandezza della Città) & con grandi, e belle proportioni fabricati.",
+   "facts": {},
+   "note": "Keine Zahlen: Proportion wird verlangt, nicht neu bestimmt.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-III-ASPETTI",
+   "book": 4,
+   "chapter": "III",
+   "phys": 207,
+   "printed_page": "7",
+   "kind": "vitruvian_canon",
+   "relation_book1": "vitruvius",
+   "topic": "sources",
+   "anchor": [
+    "Sette sonolpiù regolati",
+    "ce Vitruuio"
+   ],
+   "quote": "Sette sono i più regolati, e meglio intesi Aspetti de i Tempij, de' quali mi è paruto come necessario, il por quì quel tanto, che ne dice Vitruuio",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-IV-RIF-I",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 208,
+   "printed_page": "8",
+   "kind": "back_reference",
+   "relation_book1": "refers_to_book1",
+   "topic": "orders",
+   "anchor": [
+    "Di tutti quali intercolunnij",
+    "dir qui altro"
+   ],
+   "quote": "Di tutti iquali intercolunnij come siano, & qual proportione debbano hauere con la lunghezza delle colonne, è stato detto di sopra nel primo Libro; & posti i disegni: però non mi occorre dir quì altro",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-IV-EUSTILOS",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "palladio_judgment",
+   "relation_book1": "vitruvius",
+   "topic": "orders",
+   "anchor": [
+    "Di modo che la più",
+    "alla fermezzi ."
+   ],
+   "quote": "Di modo che la più bella, & elegante maniera di tempij è quella, che Eustilos è detta: laquale è quando gli intercolunnij sono di due diametri di colonna, & vn quarto; percioche serue ottimamente all'vso, alla bellezza, & alla fermezza.",
+   "facts": {
+    "intercolumnium": "2 1/4 diametri"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-COMMISURA",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "intensification",
+   "relation_book1": "same_principle",
+   "topic": "commensurability",
+   "anchor": [
+    "DEL COMPARTIMENTO",
+    "di bello , e di raro ."
+   ],
+   "quote": "DEL COMPARTIMENTO DE I TEMPII. Cap. V. BENCHE in tutte le fabriche si ricerchi, che le parti loro insieme corrispondano, & habbiano tal proportione, che nessuna sia, con la quale non si possa misurare il tutto, & le altre parti ancora: Questo nondimeno con estrema cura si deue osseruare ne i Tempij, percioche alla Diuinità sono consacrati, per honore, & osseruanza della quale si deue operare quanto si può di bello, e di raro.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-MONOPTEROS",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "vitruvian_canon",
+   "relation_book1": "vitruvius",
+   "topic": "round_temple",
+   "anchor": [
+    "Si diuide il diametro",
+    "della loro altezza ."
+   ],
+   "quote": "Si diuide il diametro di tutto lo spacio, che deue occupare il Tempio in tre parti eguali: vna se ne dà à i gradi, cioè alla salita su'l piano del Tempio, e due rimangono al Tempio, & alle colonne, lequali si pongono sopra piedestili, e sono alte con base, e capitello, quanto è il diametro del minor giro de i gradi, & grosse per la decima parte della loro altezza.",
+   "facts": {
+    "gradi": "1/3 del diametro",
+    "colonna": "altezza = diametro interno dei gradi; grossezza = 1/10"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-RIF-ORNAMENTI",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "back_reference",
+   "relation_book1": "refers_to_book1",
+   "topic": "orders",
+   "anchor": [
+    "L ' Architraue , il Fregio , & gli altri",
+    "sorti di Tempij ."
+   ],
+   "quote": "L'Architraue, il Fregio, & gli altri ornamenti si fanno secondo è stato detto nel primo libro, cosi in questa come in tutte l'altre sorti di Tempij.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-PERIPTEROS",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "vitruvian_canon",
+   "relation_book1": "vitruvius",
+   "topic": "round_temple",
+   "anchor": [
+    "le ale sono larghe",
+    "i Tempij ritondi ."
+   ],
+   "quote": "le ale sono larghe per la quinta parte del diametro del Tempio; pigliando il diametro nella parte di dentro de i piedestili. Le colonne sono lunghe quanto è larga la cella, e sono grosse la decima parte della longhezza. La Tribuna, ouer cupola si fa alta sopra l'Architraue, Fregio, e Cornice delle ale, per la metà di tutta l'opera: cosi compartisse Vitruuio i Tempij ritondi.",
+   "facts": {
+    "ale": "1/5 del diametro",
+    "colonne": "lunghe quanto la cella è larga",
+    "cupola": "1/2 di tutta l'opera"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-PIEDESTILI",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "palladio_judgment",
+   "relation_book1": "none",
+   "topic": "orders",
+   "anchor": [
+    "Maperò ne ' Tempij Antichi",
+    "grandexza , e magnificenza ."
+   ],
+   "quote": "Ma però ne' Tempij Antichi non si veggono Piedestili, ma le colonne cominciano dal piano del Tempio; ilche molto più mi piace; si perche con i piedestili si impedisce molto l'entrare al Tempio; si ancho perche le colonne, le quali da terra cominciano; rendono maggior grandezza, e magnificenza.",
+   "facts": {},
+   "note": "Palladio weicht hier ausdrücklich von Vitruvs Regel ab.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-PORTICO-TONDO",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "kind": "vitruvian_canon",
+   "relation_book1": "vitruvius",
+   "topic": "round_temple",
+   "anchor": [
+    "Mase à i Tempij ritondi",
+    "sualunghezzi ."
+   ],
+   "quote": "Ma se à i Tempij ritondi si porrà il portico solo nella fronte, egli si farà lungo quanto la larghezza della cella, ò la ottaua parte meno: si potrà fare ancho più corto, ma non però che giamai sia meno lungo di tre quarti della larghezza del Tempio; e non si farà più largo della terza parte della sua lunghezza.",
+   "facts": {
+    "portico_lunghezza": "= larghezza cella (o 1/8 meno), min 3/4",
+    "portico_larghezza": "<= 1/3 della lunghezza"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-MODULO",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9–10",
+   "kind": "vitruvian_canon",
+   "relation_book1": "vitruvius",
+   "topic": "commensurability",
+   "anchor": [
+    "Ne i Tempij quadrangulari",
+    "di diece"
+   ],
+   "quote": "Ne i Tempij quadrangulari i portici nelle fronti si faranno longhi quanto sarà la larghezza di essi Tempij: E se saranno della maniera Eustilos, che è la bella, & elegante, in tal modo si compartiranno, se l'aspetto si farà di quattro colonne, si diuiderà tutta la facciata del Tempio, (lasciati fuora gli sporti delle base delle colonne, che saranno nelle cantonate) in undeci parti e meza; & una di queste parti si chiamerà modulo, cioè misura, con la quale si misureranno tutte le altre parti; perche facendosi le colonne grosse un modulo; quattro se ne daranno à quelle; tre all'intercolunnio di mezo; e quattro e mezo à gli altri due intercolunnij, cioè due, & vn quarto per uno: se la fronte sarà di sei colonne, si partirà in deceotto: se di otto, in uentiquattro e meza; & se di diece [in trent'vna]",
+   "facts": {
+    "tetrastilo": "11 1/2 moduli: colonna 1, intercolunnio di mezo 3, altri 2 1/4",
+    "esastilo": 18,
+    "ottastilo": 24.5,
+    "decastilo": 31
+   },
+   "note": "Satz endet auf S. 10 (phys 210).",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-CELLA",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "kind": "vitruvian_canon",
+   "relation_book1": "outside_seven_forms",
+   "topic": "temple_plan",
+   "anchor": [
+    "Oltra il portico",
+    "all ' Antitempio"
+   ],
+   "quote": "Oltra il portico si troua l'Antitempio, e da poi la Cella: Si diuide la larghezza in quattro parti, e per otto di quelle si fa la lunghezza del Tempio, & di queste, cinque si danno alla lunghezza della Cella, includendoui le mura, nelle quali sono le porte; e le altre tre rimangono all'Antitempio",
+   "facts": {
+    "tempio": "2:1",
+    "cella": "5:4 (con le mura)",
+    "antitempio": "3/8 della lunghezza"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-FLESSIBILE",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "kind": "palladio_judgment",
+   "relation_book1": "none",
+   "topic": "temple_plan",
+   "anchor": [
+    "E benche il detto compartimento",
+    "che siè detto ."
+   ],
+   "quote": "E benche il detto compartimento riesca à punto ne i Tempij di quattro colonne, non però uiene la medesima proportione ne gli altri aspetti, e maniere, perche bisogna che i muri della cella scontrino con le colonne di fuori, & siano a una fila, onde le Celle di quei Tempij saranno alquanto maggiori di quello, che si è detto.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-CHIESE",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "kind": "back_reference",
+   "relation_book1": "refers_to_book3",
+   "topic": "churches",
+   "anchor": [
+    "Cosi compartirono",
+    "quando trattammo delle Basiliche ."
+   ],
+   "quote": "Cosi compartirono gli Antichi i loro Tempij, come ci insegna Vitruuio, e uolsero che si facessero i portici, sotto i quali nei cattiui tempi potessero gli huomini schifar il Sole, la pioggia, la grandine, e la neue; & nei giorni solenni tratenersi fin che uenisse l'hora del sacrificio: ma noi, lasciati i portici intorno, edifichiamo li Tempij, che si assimigliano molto alle Basiliche, nelle quali, come è stato detto, si faceuano i portici nella parte di dentro, come noi facciamo hora ne i Tempij: ilche è auuenuto perche li primi che alla nostra religione si diedero dalla uerità illuminati; erano soliti per timor de i Gentili raccogliersi nelle Basiliche di huomini priuati: onde uedendo poi che questa forma riusciua molto commoda, percioche si poneua con molta dignità l'altare nel luogo del Tribunale, & il Coro staua acconciamente intorno all'altare; & il rimanenre era libero per il popolo; non si è più mutata, e però nel compartimento delle ale che noi facciamo ne i Tempij si auuertirà à quello ch'è stato detto quando trattammo delle Basiliche.",
+   "facts": {},
+   "note": "'rimanenre' so gedruckt (Druckfehler für 'rimanente').",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-SOMMARIO",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "kind": "summary",
+   "relation_book1": "none",
+   "topic": "structure",
+   "anchor": [
+    "E tanto basti",
+    "compartimento dei Tempij"
+   ],
+   "quote": "E tanto basti hauer detto del Decoro, de gli aspetti, delle maniere, & del compartimento de i Tempij",
+   "facts": {},
+   "note": "Palladios eigene Gliederung des Theorieteils: Decoro, Aspetti, Maniere, Compartimento.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-PIEDE",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "kind": "method",
+   "relation_book1": "none",
+   "topic": "units",
+   "anchor": [
+    "E per più facile intel",
+    "quattro minuti ."
+   ],
+   "quote": "E per più facile intelligenza, e per fuggir la lunghezza, e 'l tedio, il quale potrei apportare a' Lettori, s'io uolessi dire minutamente le misure di ciascuna parte, le ho postate tutte con numeri ne i disegni. IL PIEDE Vicentino, co'l quale sono stati misurati tutti i seguenti tempij, è nel Secondo Libro à numero 4. Tutto il piede si partisce in oncie dodici, e ciascun'oncia in quattro minuti.",
+   "facts": {
+    "unita": "piede vicentino = 12 oncie = 48 minuti"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-VIII-NERVA",
+   "book": 4,
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "kind": "observation",
+   "relation_book1": "parallel_to_book1",
+   "topic": "temple_plan",
+   "anchor": [
+    "Il portico insieme con la Cella",
+    "due quadri"
+   ],
+   "quote": "Il portico insieme con la Cella è lungo poco meno di due quadri",
+   "facts": {
+    "portico_cella": "< 2:1 (poco meno)"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XVI-RIF",
+   "book": 4,
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "kind": "back_reference",
+   "relation_book1": "refers_to_book1",
+   "topic": "orders",
+   "anchor": [
+    "telli sono composti",
+    "nel primo libro"
+   ],
+   "quote": "[I Capi]telli sono composti di Ionico, e di Corinthio, i quali come si deono fare è stato detto nel primo libro",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XX-PANTHEON",
+   "book": 4,
+   "chapter": "XX",
+   "phys": 273,
+   "printed_page": "73",
+   "kind": "observation",
+   "relation_book1": "not_in_book1",
+   "topic": "cosmology",
+   "anchor": [
+    "ôpure ( come altri vuole )",
+    "da un muro all ' altro"
+   ],
+   "quote": "ò pure (come altri vuole) perche egli è di figura del Mondo, cioè Ritonda, che tanto è la sua altezza dal pauimento fino all'apritura onde egli riceue il lume, quanto è per diametro la sua larghezza da un muro all'altro",
+   "facts": {
+    "altezza:diametro": "1:1"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XXV-RIF",
+   "book": 4,
+   "chapter": "XXV",
+   "phys": 298,
+   "printed_page": "98",
+   "kind": "back_reference",
+   "relation_book1": "refers_to_book1",
+   "topic": "execution",
+   "anchor": [
+    "si conosce apertamen",
+    "nel polire ciascuna parte"
+   ],
+   "quote": "si conosce apertamente che è vero quello, c'ho detto nel primo libro, cioè che gli Antichi in simil sorte di edificij, e massime ne i piccioli, posero grandissima diligenza nel polire ciascuna parte",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XXVI-ASSISI",
+   "book": 4,
+   "chapter": "XXVI",
+   "phys": 303,
+   "printed_page": "103",
+   "kind": "observation",
+   "relation_book1": "outside_seven_forms",
+   "topic": "temple_plan",
+   "anchor": [
+    "La Cella del tempio",
+    "della larghezzi ."
+   ],
+   "quote": "La Cella del tempio è lunga la quarta parte più della larghezza.",
+   "facts": {
+    "cella": "5:4"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XXVII-POLA",
+   "book": 4,
+   "chapter": "XXVII",
+   "phys": 307,
+   "printed_page": "107",
+   "kind": "observation",
+   "relation_book1": "outside_seven_forms",
+   "topic": "temple_plan",
+   "anchor": [
+    "La Cella è lunga",
+    "due quadri ."
+   ],
+   "quote": "La Cella è lunga la quarta parte più della sua larghezza. Tutto il Tempio compresoui il portico eccede in lunghezza due quadri.",
+   "facts": {
+    "cella": "5:4",
+    "tempio_con_portico": "> 2:1"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XXVIII-NIMES",
+   "book": 4,
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "kind": "observation",
+   "relation_book1": "consistent_with_book1",
+   "topic": "openings",
+   "anchor": [
+    "Le erte , ò pilastrate",
+    "della luce ."
+   ],
+   "quote": "Le erte, ò pilastrate della Porta sono grosse in fronte per la sesta parte della larghezza della luce.",
+   "facts": {
+    "pilastrate": "1/6 della luce"
+   },
+   "note": "Liegt im Rahmen von Buch I, Kap. XXV (1/6 bis 1/5, A-DIM-JAMB-001).",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B3-XIX-BASILICA",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "kind": "vitruvian_canon",
+   "relation_book1": "refers_to_book3",
+   "topic": "churches",
+   "anchor": [
+    "Si deuono far lar",
+    "esfi fono larghi"
+   ],
+   "quote": "Si deuono far larghe non meno della terza parte, ne più della metà della lor lunghezza, se la natura del luogo non ci impedirà, ouero non si sforzerà à mutar misura di compartimento. Di questi tali edificij non ci è rimaso alcun uestigio antico: onde io secondo quel, che ci insegna Vitruuio nel luogo ricordato di sopra, hò fatto i disegni, che seguono; ne' quali la Basilica nel spacio di mezo, cioè dentro dalle colonne; è lunga due quadri. I portichi, che sono da' lati, & nella parte, oue è l'entrata; sono larghi per la terza parte del spacio di mezo. Le lor colonne sono tanto lunghe, quanto essi sono larghi",
+   "facts": {
+    "larghezza:lunghezza": "1/3 - 1/2",
+    "spacio_di_mezo": "2:1",
+    "portici": "1/3 dello spacio di mezo"
+   },
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-ORDINI",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "kind": "intensification",
+   "relation_book1": "parallel_to_book1",
+   "topic": "orders",
+   "anchor": [
+    "Impe",
+    "conuenienti ornamenti"
+   ],
+   "quote": "Imperoche al Culto Diuino, per ilquale essi si fanno, si richiede ogni magnificenza, e grandezza. Deuono esser fatti con bellissimi ordini di colonne, e si deue à ciascun'ordine dare i suoi proprij, e conuenienti ornamenti.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-MATERIA",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "kind": "intensification",
+   "relation_book1": "not_in_book1",
+   "topic": "materials",
+   "anchor": [
+    "Si faranno dimateria",
+    "e uenustà loro"
+   ],
+   "quote": "Si faranno di materia eccellentissima, & della piu preciosa; accioche con la forma, con gli ornamenti, & con la materia si honori quanto più si può la Diuinità: e se possibil fosse, si doueriano fare, c'hauessero tanto di bellezza, che non si potesse imaginare cosa più bella; & cosi in ogni loro parte disposti, che coloro che ui entrano si merauigliassero, & stessero con gli animi sospesi nel considerare la gratia, e uenustà loro.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-BIANCO",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "kind": "theology",
+   "relation_book1": "new_justification",
+   "topic": "colour",
+   "anchor": [
+    "Tra tutti",
+    "grata à DIO"
+   ],
+   "quote": "Tra tutti i colori niuno è, che si conuenga più à i Tempij, della bianchezza: conciosiache la purità del colore, e della uita sia sommamente grata à DIO.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-II-PITTURE",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "kind": "theology",
+   "relation_book1": "new_justification",
+   "topic": "images",
+   "anchor": [
+    "Ma se si disingeranno",
+    "bene operare"
+   ],
+   "quote": "Ma se si dipingeranno, non ui staranno bene quelle pitture, che con il significato loro alienino l'animo dalla contemplatione delle cose Diuine; percioche non si dobbiamo ne i Tempij partire dalla grauità, & da quelle cose, che uedute da noi rendano gli animi nostri più infiammati al Culto Diuino, & al bene operare.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-V-SACRESTIA",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "kind": "programme",
+   "relation_book1": "not_in_book1",
+   "topic": "programme",
+   "anchor": [
+    "Si aggiu",
+    "ueduta delle genti"
+   ],
+   "quote": "Si aggiugne alle nostre Chiese vn luogo separato dal rimanente del Tempio che chiamiamo Sacrestia, doue si seruano le uesti sacerdotali, i uasi, & i libri sacri, & l'altre cose necessarie al culto Diuino, & doue si apparanno i sacerdoti; & appresso si fabricano le torri, nelle quali si appendono le campane per chiamare il popolo à i Diuini ufficij; le quali non sono usate da altri, che da' Christiani. Appresso il Tempio si fanno le habitationi per li sacerdoti, le quali deono esser commode con spaciosi chiostri, e con bei giardini, e specialmente i luoghi per le sacre Vergini deono essere sicuri, alti, e lontani dalli strepiti, e dalla ueduta delle genti.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B4-XXII-LUME",
+   "book": 4,
+   "chapter": "XXII",
+   "phys": 288,
+   "printed_page": "88",
+   "kind": "observation",
+   "relation_book1": "not_in_book1",
+   "topic": "light",
+   "anchor": [
+    "Iltempio era nel mezo",
+    "tempij antichi"
+   ],
+   "quote": "Il tempio era nel mezo del cortile, & quella parte c'hora si uede, & si alza da terra, sopra la quale era il suolo del tempio, è opera sodissima, e non piglia lume se non dalle porte, e da sei finestrelle, che sono nei nicchi, e però alquanto oscuro, come sono quasi tutti i tempij antichi.",
+   "facts": {},
+   "note": "Neben dem Pantheon (B4-XX-PANTHEON) die einzige Aussage über das Licht eines Tempels in Buch IV (Volltextsuche nach lume, luce, finestre, oscuro).",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B3-PROEM-MISURARE",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 157,
+   "printed_page": "5",
+   "kind": "method",
+   "relation_book1": "none",
+   "topic": "method",
+   "anchor": [
+    "dlcndo clic molto",
+    "molta fatica poi praticarlo"
+   ],
+   "quote": "essendo che molto più s'impari da i buoni esempi in poco tempo co'l misurarli; e co'l ueder sopra una picciola carta gli edificij intieri, e tutte le parti loro; che in lungo tempo dalle parole: per lequali solo con la mente e con qualche difficultà può il lettore uenir in ferma, e certa notitia di quel, ch'egli legge, e con molta fatica poi praticarlo.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B1-PROEM-VITRUVIO",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 9,
+   "printed_page": "5",
+   "kind": "book1_context",
+   "relation_book1": "vitruvius",
+   "topic": "sources",
+   "anchor": [
+    "mi propoli pe",
+    "di quell ’ arte"
+   ],
+   "quote": "mi proposi per maestro, e guida Vitruuio: ilquale è solo antico scrittore di quest'arte",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B1-PROEM-TEMI",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 10,
+   "printed_page": "6",
+   "kind": "book1_context",
+   "relation_book1": "source",
+   "topic": "structure",
+   "anchor": [
+    "Iodunquctratteròprimadelleca",
+    "& de i Porti"
+   ],
+   "quote": "Io dunque tratterò prima delle case priuate, & verrò poi à' publici edificij: e breuemente tratterò delle strade, de i ponti, delle piazze, delle prigioni, delle Basiliche, cioè luoghi del giudicio, de i Xisti, e delle Palestre, ch'erano luoghi, oue gli huomini si essercitauano; de i Tempij, de i Theatri, & de gli Anfitheatri, de gli Archi, delle Terme, de gli Acquedotti, e finalmente del modo di fortificar le Città, & de i Porti.",
+   "facts": {},
+   "note": "Die vier Bücher behandeln Theater, Amphitheater, Bögen, Thermen, Aquädukte, Festungen und Häfen nicht mehr: angekündigte, nicht erschienene Teile.",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  },
+  {
+   "id": "B1-PROEM-NOMI",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 10,
+   "printed_page": "6",
+   "kind": "book1_context",
+   "relation_book1": "source",
+   "topic": "terminology",
+   "anchor": [
+    "fuggirò la lunghezza",
+    "Communemente vfiano"
+   ],
+   "quote": "fuggirò la lunghezza delle parole, & semplicemente darò quelle auertenze, che mi parranno più necessarie; & mi seruirò di quei nomi, che gli artefici hoggidì communemente vsano.",
+   "facts": {},
+   "note": "",
+   "scan_checked": true,
+   "proof": "output/book4/proofs (python -m palladio_code.proofs data/book4/text_statements.json --out output/book4/proofs)"
+  }
+ ]
+}

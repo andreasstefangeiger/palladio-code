@@ -1,0 +1,233 @@
+{
+  "text": {
+    "statements": 54,
+    "by_kind": {
+      "principle": 2,
+      "book1_context": 5,
+      "intensification": 6,
+      "theology": 6,
+      "method": 5,
+      "site": 5,
+      "vitruvian_canon": 9,
+      "back_reference": 5,
+      "palladio_judgment": 3,
+      "summary": 1,
+      "observation": 6,
+      "programme": 1
+    },
+    "by_relation": {
+      "source": 6,
+      "same_principle": 4,
+      "new_justification": 6,
+      "none": 7,
+      "vitruvius": 9,
+      "not_in_book1": 9,
+      "parallel_to_book1": 3,
+      "refers_to_book1": 4,
+      "outside_seven_forms": 3,
+      "refers_to_book3": 2,
+      "consistent_with_book1": 1
+    },
+    "back_references": [
+      {
+        "id": "B4-IV-RIF-I",
+        "to": "refers_to_book1",
+        "topic": "orders"
+      },
+      {
+        "id": "B4-V-RIF-ORNAMENTI",
+        "to": "refers_to_book1",
+        "topic": "orders"
+      },
+      {
+        "id": "B4-V-CHIESE",
+        "to": "refers_to_book3",
+        "topic": "churches"
+      },
+      {
+        "id": "B4-XVI-RIF",
+        "to": "refers_to_book1",
+        "topic": "orders"
+      },
+      {
+        "id": "B4-XXV-RIF",
+        "to": "refers_to_book1",
+        "topic": "execution"
+      }
+    ],
+    "back_reference_topics": [
+      "churches",
+      "execution",
+      "orders"
+    ],
+    "refers_to_room_forms_or_heights": false,
+    "outside_seven_forms": [
+      "B4-V-CELLA",
+      "B4-XXVI-ASSISI",
+      "B4-XXVII-POLA"
+    ],
+    "vitruvius_named": [
+      "B4-PROEM-5",
+      "B4-PROEM-6",
+      "B4-III-ASPETTI",
+      "B4-IV-EUSTILOS",
+      "B4-V-MONOPTEROS",
+      "B4-V-PERIPTEROS",
+      "B4-V-PORTICO-TONDO",
+      "B4-V-MODULO",
+      "B1-PROEM-VITRUVIO"
+    ]
+  },
+  "plates": {
+    "readings": [
+      {
+        "id": "T-XIII",
+        "building": "Tempio della Fortuna Virile",
+        "printed_page": "49",
+        "width_ft": 18.792,
+        "length_ft": 28.75,
+        "ratio": 1.5299,
+        "nearest": "3:2",
+        "deviation": 0.02,
+        "deviation_from_5_4": 0.2239,
+        "confidence": "high"
+      },
+      {
+        "id": "T-XXVIII",
+        "building": "Maison Carrée, Nîmes",
+        "printed_page": "112",
+        "width_ft": 29,
+        "length_ft": 42.5,
+        "ratio": 1.4655,
+        "nearest": "3:2",
+        "deviation": -0.023,
+        "deviation_from_5_4": 0.1724,
+        "confidence": "medium"
+      },
+      {
+        "id": "T-XXVI",
+        "building": "Tempio di Assisi (Minerva)",
+        "printed_page": "104",
+        "width_ft": 38,
+        "length_ft": 50.5,
+        "ratio": 1.3289,
+        "nearest": "4:3",
+        "deviation": -0.0033,
+        "deviation_from_5_4": 0.0632,
+        "confidence": "high"
+      },
+      {
+        "id": "T-XXVII",
+        "building": "Tempio di Pola",
+        "printed_page": "108",
+        "width_ft": 19.917,
+        "length_ft": 26,
+        "ratio": 1.3054,
+        "nearest": "4:3",
+        "deviation": -0.0209,
+        "deviation_from_5_4": 0.0444,
+        "confidence": "high"
+      },
+      {
+        "id": "T-VIII",
+        "building": "Tempio di Nerva Traiano",
+        "printed_page": "25",
+        "width_ft": 49.5,
+        "length_ft": 54,
+        "ratio": 1.0909,
+        "nearest": "1:1",
+        "deviation": 0.0909,
+        "deviation_from_5_4": -0.1273,
+        "confidence": "medium"
+      },
+      {
+        "id": "T-IX",
+        "building": "Tempio di Antonino e Faustina",
+        "printed_page": "33",
+        "width_ft": 48.5,
+        "length_ft": 67,
+        "ratio": 1.3814,
+        "nearest": "sqrt(2):1",
+        "deviation": -0.0232,
+        "deviation_from_5_4": 0.1052,
+        "confidence": "high"
+      },
+      {
+        "id": "T-XV",
+        "building": "Tempio di Marte (piazza de' Preti)",
+        "printed_page": "56",
+        "width_ft": 42.5,
+        "length_ft": 84.5,
+        "ratio": 1.9882,
+        "nearest": "2:1",
+        "deviation": -0.0059,
+        "deviation_from_5_4": 0.5906,
+        "confidence": "high"
+      },
+      {
+        "id": "T-XIX",
+        "building": "Tempio di Giove Tonante",
+        "printed_page": "71",
+        "width_ft": 29.5,
+        "length_ft": 48.5,
+        "ratio": 1.6441,
+        "nearest": "5:3",
+        "deviation": -0.0136,
+        "deviation_from_5_4": 0.3153,
+        "confidence": "high"
+      },
+      {
+        "id": "T-XXIX",
+        "building": "Altro tempio di Nîmes (Diana)",
+        "printed_page": "119",
+        "width_ft": 29.708,
+        "length_ft": 44.75,
+        "ratio": 1.5063,
+        "nearest": "3:2",
+        "deviation": 0.0042,
+        "deviation_from_5_4": 0.205,
+        "confidence": "high"
+      },
+      {
+        "id": "T-XXX",
+        "building": "Tempio della Concordia",
+        "printed_page": "125",
+        "width_ft": 47.5,
+        "length_ft": 68,
+        "ratio": 1.4316,
+        "nearest": "sqrt(2):1",
+        "deviation": 0.0123,
+        "deviation_from_5_4": 0.1453,
+        "confidence": "medium"
+      },
+      {
+        "id": "T-XXXI",
+        "building": "Tempio di Nettuno",
+        "printed_page": "129",
+        "width_ft": 44.25,
+        "length_ft": 66,
+        "ratio": 1.4915,
+        "nearest": "3:2",
+        "deviation": -0.0056,
+        "deviation_from_5_4": 0.1932,
+        "confidence": "medium"
+      }
+    ],
+    "seven_forms": {
+      "1%": {
+        "hits": 4,
+        "n": 11,
+        "chance": 0.1483,
+        "p_at_least": 0.067
+      },
+      "2%": {
+        "hits": 7,
+        "n": 11,
+        "chance": 0.2966,
+        "p_at_least": 0.0203
+      }
+    },
+    "within_2_percent_of_5_4": [],
+    "excluded": 8
+  }
+}
