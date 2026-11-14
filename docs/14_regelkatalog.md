@@ -47,7 +47,7 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
 | Buch | Kapitel | Status | Regeln |
 |---|---:|---|---:|
 | I | 29 + Vorrede | vollständig, am Scan geprüft | 196 |
-| II | 17 | offen (Höhen und Raummaße bereits in `data/book2/`) | – |
+| II | 17 | vollständig, am Scan geprüft | 78 |
 | III | 21 + Vorrede | offen (Basilika in `data/book4/`) | – |
 | IV | 31 + Vorrede | Theorieteil in `data/book4/`, Tempelkapitel offen | – |
 

@@ -30,6 +30,7 @@ KINDS = {
     "procedure": "Konstruktions- oder Arbeitsverfahren",
     "proportion": "Maß- oder Proportionsangabe als Norm",
     "principle": "allgemeiner Grundsatz",
+    "rationale": "Begründung einer Einzelentscheidung an einem Bau (keine allgemeine Regel)",
 }
 ATTRIBUTION = {
     "palladio": "Palladio als eigene Regel",
