@@ -827,8 +827,8 @@
    },
    "printed_page_start": 5,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 7
   },
   {
    "book": 3,
@@ -844,8 +844,8 @@
    },
    "printed_page_start": 7,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 7
   },
   {
    "book": 3,
@@ -861,8 +861,8 @@
    },
    "printed_page_start": 7,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 12
   },
   {
    "book": 3,
@@ -878,8 +878,8 @@
    },
    "printed_page_start": 8,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 5
   },
   {
    "book": 3,
@@ -895,8 +895,8 @@
    },
    "printed_page_start": 11,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 6
   },
   {
    "book": 3,
@@ -912,8 +912,8 @@
    },
    "printed_page_start": 11,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 3
   },
   {
    "book": 3,
@@ -929,8 +929,8 @@
    },
    "printed_page_start": 12,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 1
   },
   {
    "book": 3,
@@ -946,8 +946,8 @@
    },
    "printed_page_start": 15,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 2
   },
   {
    "book": 3,
@@ -963,8 +963,8 @@
    },
    "printed_page_start": 16,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 3
   },
   {
    "book": 3,
@@ -980,8 +980,8 @@
    },
    "printed_page_start": 19,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 1
   },
   {
    "book": 3,
@@ -997,8 +997,8 @@
    },
    "printed_page_start": 20,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 10
   },
   {
    "book": 3,
@@ -1014,8 +1014,8 @@
    },
    "printed_page_start": 21,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 2
   },
   {
    "book": 3,
@@ -1031,8 +1031,8 @@
    },
    "printed_page_start": 24,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 2
   },
   {
    "book": 3,
@@ -1048,8 +1048,8 @@
    },
    "printed_page_start": 25,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 2
   },
   {
    "book": 3,
@@ -1065,8 +1065,8 @@
    },
    "printed_page_start": 28,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 1
   },
   {
    "book": 3,
@@ -1082,8 +1082,8 @@
    },
    "printed_page_start": 30,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 2
   },
   {
    "book": 3,
@@ -1099,8 +1099,8 @@
    },
    "printed_page_start": 31,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 13
   },
   {
    "book": 3,
@@ -1116,8 +1116,8 @@
    },
    "printed_page_start": 32,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 3
   },
   {
    "book": 3,
@@ -1133,8 +1133,8 @@
    },
    "printed_page_start": 35,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 3
   },
   {
    "book": 3,
@@ -1150,8 +1150,8 @@
    },
    "printed_page_start": 38,
    "prior_work": "data/book4 statement B3-XIX-BASILICA",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 5
   },
   {
    "book": 3,
@@ -1167,8 +1167,8 @@
    },
    "printed_page_start": 41,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 2
   },
   {
    "book": 3,
@@ -1184,8 +1184,8 @@
    },
    "printed_page_start": 44,
    "prior_work": "",
-   "status": "open",
-   "rules": 0
+   "status": "checked",
+   "rules": 4
   },
   {
    "book": 4,
