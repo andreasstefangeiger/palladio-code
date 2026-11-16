@@ -1,6 +1,6 @@
 # 16. San Giorgio Maggiore: Theorie und Verwirklichung
 
-Stand: 12.10.2026 · Daten: `data/san_giorgio/criteria.json`,
+Stand: 16.11.2026 · Daten: `data/san_giorgio/criteria.json`,
 `data/san_giorgio/bertotti_scamozzi.json` · Auswertung: `make san-giorgio` →
 `output/san_giorgio/analysis.json`
 
@@ -12,7 +12,7 @@ nennt:
 
 - Ort und Lage;
 - Grundform;
-- Säulenordnungen;
+- Säulenordnungen und Portal;
 - Kuppel;
 - Material, Farbe, Bilder und Licht;
 - Decorum und Raumprogramm.
@@ -28,7 +28,8 @@ nennt:
   OCR-Fehler; ein Beispiel ist „luoghi foresti“ statt „luoghi dishonesti“.
 - **Bau (C2).** Bertotti Scamozzi, *Le fabbriche e i disegni di Andrea Palladio*,
   Bd. IV, Taf. V–VIII und Text S. 21–24 (siehe docs/15). Neu vermessen wurden die
-  Fassade (Taf. VIII) und der Längsschnitt mit der Kuppel (Taf. VI).
+  Fassade (Taf. VIII) und der Längsschnitt mit der Kuppel (Taf. VI). Am 16.11.2026
+  kam Detail A der Taf. VI hinzu: die Basis der Säulen an der Innenseite der Tür.
 - **Was fehlt.** Für Farbe, Bilder, Fassadenmaterial und die Nebenbauten des Klosters
   gibt es im Repository keine Quelle. Diese Kriterien bleiben „offen“.
 
@@ -43,6 +44,7 @@ nennt:
 | Gewölbehöhe | eines der drei Mittel, sonst „giudicio“ (I, XXIII, S. 53–54) | 60:8 Fuß; die Mittel ergäben 46–52 Fuß | Spielraum |
 | Ordnung innen | Komposit 10 Moduln, Gebälk ⅕, Bögen 2½, Postament ⅓ (I, XVIII–XIX) | 10¼ D, ⅕, 2½; Postament ¼ | teilweise |
 | Postamente | in Tempeln keine, „ilche molto più mi piace“ (IV, V, S. 9) | innen ¼, an der Fassade ⅓ | nicht erfüllt |
+| Portal | Blätter über den Basen tragen zu kurze Säulenschäfte, nach dem Baptisterium des Konstantin; „Di questa inuentione mi son seruito ancor io, nelle colonne c'ho posto per ornamento alla porta della Chiesa di San Georgio Maggiore“ (IV, XVI, S. 61) | Taf. VI, Detail A: „Base delle colonne che ornano la porta internamente“ mit Blattkranz zwischen Basis und Schaft (S. 24) | erfüllt |
 | Ordnung der Fassade | Komposit 10 Moduln, Postament ⅓, Gebälk ⅕ | 9,7 D; 0,325; 0,199 | erfüllt (nach Palladio gebaut) |
 | Säulenstellung der Fassade | gerade Säulenzahl, Mitteljoch „alquanto maggiore“ (I, XIII, S. 16); 2 D → 9½ D, 1½ D → 10 D | vier Säulen; Mitte 4 D, Seiten 2 D; Säulen 9,7 D | teilweise (nach Palladio gebaut) |
 | Größe und Pracht | große Säulen, „bellissimi ordini“ (IV, II, S. 7) | große Ordnung 40 Fuß | erfüllt |
@@ -57,11 +59,11 @@ nennt:
 | Musikalische Verhältnisse | bei Palladio keine Intervalle | Bertotti: „seconda maggiore“, „sesta minore“; gemessen 1,57 oder 1,40 | keine Regel |
 | Goldener Schnitt | nicht unter den sieben Formen, kein Wort im Volltext | Vierung 1,01 | keine Regel |
 
-**Bilanz der 20 Kriterien:**
+**Bilanz der 21 Kriterien:**
 
 | Befund | Anzahl |
 |---|---:|
-| erfüllt | 6 |
+| erfüllt | 7 |
 | teilweise | 3 |
 | Spielraum (durch Palladio gedeckt) | 1 |
 | nicht erfüllt | 2 |
@@ -121,6 +123,29 @@ dentro; e al di fuori, di legname coperto di piombo“.
 Die Vermutung, die Kuppel sei 4/3 so hoch wie die Vierung breit, ist damit widerlegt.
 Palladio gibt für Vierungskuppeln aber auch keine Regel. Die 4/3 gelten in Buch I für
 gewölbte Räume, das Pantheonmaß (Höhe = Durchmesser) gilt für den Rundbau.
+
+## Neu: das Portal (Taf. VI, Detail A)
+
+- **Palladios Aussage.** In Buch IV, Kap. XVI beschreibt Palladio das Baptisterium
+  des Konstantin. Dort tragen Blätter über den Basen die Säulenschäfte, weil die
+  Schäfte zu kurz waren. Er fügt hinzu: „Di questa inuentione mi son seruito ancor
+  io, nelle colonne c'ho posto per ornamento alla porta della Chiesa di San Georgio
+  Maggiore in Venetia: le quali non giugneuano con la loro lunghezza fin doue
+  faceua di mestieri; e sono di cosi bel marmo, che non meritauano di esser lasciate
+  fuori di opera“ (S. 61, am Scan gelesen; IV.XVI.2).
+- **Bertottis Aufnahme.** Tafel VI zeigt neben dem Schnitt ein Detail A. Die
+  Legende lautet: „Base delle colonne che ornano la porta internamente“ (S. 24, am
+  Scan gelesen). Gezeichnet ist eine Basis, über der ein Kranz aus aufrechten
+  Blättern sitzt; aus ihm steigt der Schaft auf.
+- **Befund.** Die Selbstaussage von 1570 und die Aufnahme des 18. Jahrhunderts
+  stimmen überein. Es ist ein Befund an der Zeichnung, kein Maßvergleich. Am
+  Blattkranz steht die Maßzahl 6 (Zoll); die kleineren Zahlen sind am Scan nicht
+  sicher lesbar.
+- **Bedeutung.** Nach der Volltextsuche nennt Palladio San Giorgio nur zweimal:
+  bei der Kreuzform (IV, II) und hier. Nur hier beschreibt und begründet er ein
+  einzelnes Bauteil. Die Begründung ist praktisch:
+  vorhandene, zu kurze Säulen aus schönem Marmor. Das Vorbild hält er selbst für
+  einen modernen Bau aus antiken Spolien (IV.XVI.4).
 
 ## Wer hat was gebaut
 

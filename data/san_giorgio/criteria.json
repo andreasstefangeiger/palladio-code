@@ -178,6 +178,27 @@
    "note": "Der Innenraum entstand zu Palladios Lebzeiten; das Buch mit diesem Urteil erschien 1570, während des Baus."
   },
   {
+   "id": "SG-K-PORTAL",
+   "criterion": "Portal: Blätter unter den Säulenschäften",
+   "theory": {
+    "text": "Am Baptisterium des Konstantin tragen Blätter über den Basen die zu kurzen Säulenschäfte; Palladio lobt das Urteil des Architekten. 1570 schreibt er, er habe diese Lösung selbst verwendet, 'nelle colonne c'ho posto per ornamento alla porta della Chiesa di San Georgio Maggiore in Venetia': Die Säulen waren zu kurz, aber aus so schönem Marmor, dass sie nicht ungenutzt bleiben sollten.",
+    "sources": [
+     "IV.XVI.1",
+     "IV.XVI.2"
+    ]
+   },
+   "built": {
+    "text": "Bertottis Tafel VI zeigt als Detail A die 'Base delle colonne che ornano la porta internamente': zwischen Basis und Schaft sitzt ein Blattkranz.",
+    "sources": [
+     "SG-T14",
+     "SG-D-PORTA-BASE"
+    ]
+   },
+   "verdict": "erfüllt",
+   "period": "Palladio",
+   "note": "Palladios eigene Aussage von 1570 und die Aufnahme des 18. Jahrhunderts stimmen überein. Es ist ein Befund an der Zeichnung, kein Maßvergleich. Bertotti nennt die Innenseite der Tür; Palladio sagt nur 'alla porta'."
+  },
+  {
    "id": "SG-K-FASSADE-ORDNUNG",
    "criterion": "Große Ordnung der Fassade",
    "theory": {

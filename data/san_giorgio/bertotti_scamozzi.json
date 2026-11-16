@@ -209,9 +209,14 @@
    "page": 23,
    "note": "Temanza, zitiert von Bertotti",
    "quote": "Custodivasi intatto il di lui modello (di cui negli anni passati c'era ancor qualche avanzo) che servì poi di norma a chi in appresso fu destinato a soprantendervi."
+  },
+  {
+   "id": "SG-T14",
+   "page": 24,
+   "quote": "TAVOLA VI. Spaccato. A Base delle colonne che ornano la porta internamente."
   }
  ],
- "transcription_note": "Text nach dem Scan der Ausgabe 1846 gelesen (moderne Antiqua); Klammerverweise auf Foppianis Noten (24)–(38) weggelassen. SG-T9 bis SG-T13 am 12.10.2026 am Scan gelesen; dabei SG-T4/T5 ('vôlta') und SG-T8 ('ce lo dice') berichtigt.",
+ "transcription_note": "Text nach dem Scan der Ausgabe 1846 gelesen (moderne Antiqua); Klammerverweise auf Foppianis Noten (24)–(38) weggelassen. SG-T9 bis SG-T13 am 12.10.2026 am Scan gelesen; dabei SG-T4/T5 ('vôlta') und SG-T8 ('ce lo dice') berichtigt. SG-T14 (Tafellegende) am 16.11.2026 am Scan gelesen.",
  "facade_scale": {
   "image": "Tafel VIII aus dem PDF (1619 × 2487 px)",
   "scale_bar": "0–60 Fuß = 695 px → 11.58 px/Fuß (Ausgleichsgerade über die Striche 0, 5, 10, 20, 30, 60: 11.577)",
@@ -377,6 +382,17 @@
    "feet": null,
    "scaled_feet": 79.7,
    "note": "y = 950"
+  }
+ ],
+ "detail_observations": [
+  {
+   "id": "SG-D-PORTA-BASE",
+   "plate": "VI (Spaccato), Detail A",
+   "what": "Basis der Säulen, die die Tür innen schmücken",
+   "observation": "Über Plinthe und Basisprofilen sitzt ein Kranz aus aufrechten Blättern; aus ihm steigt der Säulenschaft auf.",
+   "label_reading": "Am Blattkranz steht die Maßzahl 6 (Zoll); die kleineren Maßzahlen der Profile sind am Scan (150 ppi) nicht sicher lesbar und nicht übernommen.",
+   "legend": "SG-T14",
+   "note": "Beobachtung an der Zeichnung, kein Maßvergleich."
   }
  ]
 }

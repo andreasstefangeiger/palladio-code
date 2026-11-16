@@ -147,13 +147,13 @@ def load_criteria() -> dict:
 
 
 def known_ids(data: dict) -> set[str]:
-    """Ids a criterion may cite: rule catalogue, Book III/IV statements, Bertotti readings and text."""
+    """Ids a criterion may cite: rule catalogue, Book III/IV statements, Bertotti readings, details and text."""
     ids = {r["id"] for path in (ROOT / "data/rules").glob("book*.json")
            for r in json.loads(path.read_text(encoding="utf-8"))["rules"]}
     ids |= {s["id"] for s in json.loads((ROOT / "data/book4/text_statements.json")
                                        .read_text(encoding="utf-8"))["statements"]}
-    for key in ("plan_readings", "facade_readings", "section_readings", "text_statements"):
-        ids |= {r["id"] for r in data[key]}
+    for key in ("plan_readings", "facade_readings", "section_readings", "text_statements", "detail_observations"):
+        ids |= {r["id"] for r in data.get(key, [])}
     return ids
 
 

@@ -28,6 +28,12 @@ class SanGiorgioTests(unittest.TestCase):
     def test_criteria_cite_known_sources(self):
         self.assertEqual(check_criteria(load_criteria(), self.data), [])
 
+    def test_portal_leaves_are_attested_by_palladio_and_by_bertotti(self):
+        portal = next(c for c in load_criteria()["criteria"] if c["id"] == "SG-K-PORTAL")
+        self.assertEqual(portal["verdict"], "erfüllt")
+        self.assertIn("IV.XVI.2", portal["theory"]["sources"])
+        self.assertIn("SG-D-PORTA-BASE", portal["built"]["sources"])
+
     def test_facade_order_follows_book_one(self):
         fr = readings(self.data, "facade_readings")
         h = fr["SG-F-COL"]
