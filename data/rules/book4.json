@@ -1392,6 +1392,27 @@
    "scan_checked": true
   },
   {
+   "id": "IV.VI.2",
+   "book": 4,
+   "chapter": "VI",
+   "phys": 211,
+   "printed_page": "11",
+   "anchor": [
+    "Dicono gliscrittoriehe questo",
+    "furono fatti ai buoni tempi"
+   ],
+   "quote": "Dicono gli scrittori che questo Tempio si brugiò al tempo di Commodo Imperatore, ilche non veggo come possa esser vero, non ui essendo parte alcuna di legname, ma potria essere facilmente ch'egli fusse stato ruinato per terremoto ò per altro simile accidente, e poi ristaurato in altro tempo che le cose dell'Archittettura non si intendeuano cosi bene, come al tempo di Vespasiano: il che mi fa credere il uedere che gli intagli non sono cosi ben fatti, & con quella diligenza lauorati, che si ueggono quelli dell'Arco di Tito, e d'altri edificij, che furono fatti a i buoni tempi",
+   "rule_de": "Datierung nach der Ausführung: Die Ornamente sind weniger gut gearbeitet als am Titusbogen und an anderen Bauten der guten Zeit; Palladio schließt auf eine spätere Wiederherstellung, als man die Architektur weniger gut verstand.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.dating",
+   "scope": "temple",
+   "values": {},
+   "note": "'Archittettura' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "IV.VII.1",
    "book": 4,
    "chapter": "VII",
@@ -1501,6 +1522,48 @@
    "scan_checked": true
   },
   {
+   "id": "IV.VIII.3",
+   "book": 4,
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "Nella Cella lungo le mura",
+    "pare che ui fossero ."
+   ],
+   "quote": "Nella Cella lungo le mura io ho posto de i Tabernacoli con statue, come per le ruine pare che ui fossero.",
+   "rule_de": "Entlang der Cellawände hat Palladio Tabernakel mit Statuen eingezeichnet, wie sie nach den Ruinen dort gewesen zu sein scheinen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Ergänzt nach dem Anschein der Ruinen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VIII.4",
+   "book": 4,
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "nè si merauigliera alcuno",
+    "un ' altro popolo ."
+   ],
+   "quote": "nè si merauiglierà alcuno che io ponga tanta copia di statue in questi edificij, perche si legge che tante ne erano in Roma, che pareuano un'altro popolo.",
+   "rule_de": "Palladio zeichnet in diese Bauten viele Statuen ein, weil man liest, dass es in Rom so viele gab, dass sie wie ein zweites Volk erschienen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Gilt für alle Tafeln ('in questi edificij'): Statuen sind Ergänzung nach Schriftquellen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "IV.IX.1",
    "book": 4,
    "chapter": "IX",
@@ -1545,6 +1608,27 @@
    "scan_checked": true
   },
   {
+   "id": "IV.X.1",
+   "book": 4,
+   "chapter": "X",
+   "phys": 236,
+   "printed_page": "36",
+   "anchor": [
+    "Io ho fatto le loggie dauanti",
+    "uedere de i fondamenti ."
+   ],
+   "quote": "Io ho fatto le loggie dauanti, & gli ornamenti di dentro come mi sono imaginato che douessino essere hauuta consideratione à quello che si uede hora sopra terra, & à quel poco che si è potuto uedere de i fondamenti.",
+   "rule_de": "Die Vorhallen und die inneren Ornamente hat Palladio so gezeichnet, wie er sie sich vorgestellt hat, nach dem, was über der Erde steht, und dem wenigen, was von den Fundamenten zu sehen war.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Ausdrücklich nach eigener Vorstellung ('come mi sono imaginato').",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "IV.XI.1",
    "book": 4,
    "chapter": "XI",
@@ -1583,6 +1667,48 @@
    "scope": "temple",
    "values": {},
    "note": "OCR bringt die Zeilen in falscher Folge; am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XII.2",
+   "book": 4,
+   "chapter": "XII",
+   "phys": 241,
+   "printed_page": "41",
+   "anchor": [
+    "lo per me credo",
+    "per mia opinione era scoperta ."
+   ],
+   "quote": "Io per me credo, che questo fusse un Tempio dedicato à Gioue: percioche ritrouandomi in Roma uidi cauare doue era il corpo del Tempio, & furno trouati alcuni capitelli Ionichi, i quali seruiuano alla parte di dentro del Tempio, & erano quelli de gli anguli delle loggie, perche la parte di mezo per mia opinione era scoperta.",
+   "rule_de": "Palladio sah in Rom, wie am Ort des Tempels gegraben wurde; man fand ionische Kapitelle, die er dem Inneren zuweist, und zwar den Ecken der Loggien, weil die Mitte nach seiner Meinung offen war.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Grabungsbefund (Kapitelle) und eigene Meinung (offene Mitte) sind im Satz getrennt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XII.3",
+   "book": 4,
+   "chapter": "XII",
+   "phys": 241,
+   "printed_page": "41",
+   "anchor": [
+    "Nella parte di dentro del Tempio ui doueuano essere i porti",
+    "come io ho disegnato ."
+   ],
+   "quote": "Nella parte di dentro del Tempio ui doueuano essere i portici, come io ho disegnato.",
+   "rule_de": "Im Inneren müssen Portiken gewesen sein; Palladio hat sie so gezeichnet.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Erschlossen ('doueuano essere'). OCR bringt die Zeilen in falscher Folge; am Scan gelesen.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -1886,6 +2012,48 @@
    "scan_checked": true
   },
   {
+   "id": "IV.XVI.4",
+   "book": 4,
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "anchor": [
+    "Questo Tempio per mia opinione",
+    "da tutti è tenuto per antico ."
+   ],
+   "quote": "Questo Tempio per mia opinione è opera moderna fatta delle spoglie di edificij antichi, ma perche è bella inuentione, & ha gli ornamenti molto bene intagliati, & con uarie maniere di intagli, onde se ne potrà l'Architetto seruire in molte occasioni; mi è paruto come necessario il porlo insieme con gli antichi, e tanto più che da tutti è tenuto per antico.",
+   "rule_de": "Das Baptisterium hält Palladio für ein modernes Werk aus antiken Spolien; er nimmt es dennoch auf, weil es eine schöne Erfindung mit gut gearbeiteten, vielfältigen Ornamenten ist, die der Architekt oft verwenden kann, und weil alle es für antik halten.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "temple",
+   "values": {},
+   "note": "Auswahlkriterium des Buches (vgl. IV.XVII.1).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XVI.5",
+   "book": 4,
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "anchor": [
+    "La cornice ha due Gole di",
+    "facendoui i Demtelli ."
+   ],
+   "quote": "La cornice ha due Gole diritte una sopra l'altra, cosa che si uede rade uolte esser stata fatta, cioè che siano posti due membri di una istessa sorte l'uno sopra l'altro, senza qualche altro membro di mezo oltra il listello, ò gradetto. Sopra queste Gole u'è il Dentello, e poi il Gocciolatoio con l'intauolato, & ultimamente la Gola diritta; & cosi in questa cornice osseruò l'Architetto di non farui modiglioni, facendoui i Dentelli.",
+   "rule_de": "Selten liegen zwei gleichartige Glieder (hier zwei Simen) unmittelbar übereinander. Der Architekt hat beachtet, zu den Zähnen keine Konsolen zu setzen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "cornice.dentils",
+   "scope": "temple",
+   "values": {},
+   "note": "Gegenstück zu IV.XV.2 (Vitruv: kein Zahnschnitt unter Konsolen).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "IV.XVII.1",
    "book": 4,
    "chapter": "XVII",
@@ -1903,6 +2071,30 @@
    "scope": "temple",
    "values": {},
    "note": "Auswahlkriterium des Buches.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XVIII.1",
+   "book": 4,
+   "chapter": "XVIII",
+   "phys": 267,
+   "printed_page": "67",
+   "anchor": [
+    "Io credo che l ' aspetto di questo Tempio",
+    "quelle de gli an goli ."
+   ],
+   "quote": "Io credo che l'aspetto di questo Tempio fusse il Peripteros, cioè alato à torno, & la maniera la Picnostilos. Haueua otto colonne nelle fronti, & quindeci ne i lati, annouerandoui quelle de gli angoli.",
+   "rule_de": "Vom Tempel stehen drei Säulen; Aspekt (Peripteros), Säulenstellung (Pyknostylos) und die Zahl von 8 × 15 Säulen sind Palladios Annahme.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {
+    "front": 8,
+    "sides": 15
+   },
+   "note": "Erschlossen ('Io credo'); dass nur drei Säulen stehen, sagt der Kapitelanfang (S. 67). 8 × 15 Säulen nennt IV.III.7 Dipteros, nicht Peripteros.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -2054,6 +2246,69 @@
    "scan_checked": true
   },
   {
+   "id": "IV.XX.5",
+   "book": 4,
+   "chapter": "XX",
+   "phys": 273,
+   "printed_page": "73",
+   "anchor": [
+    "Egli fu edificato secondo la opinione",
+    "che sono nella facciata ."
+   ],
+   "quote": "Egli fu edificato secondo la opinione di alcuni da M. Agrippa circa all'anno di Christo xiiij. ma io credo che il corpo del Tempio fusse fatto al tempo della Republica, e che M. Agrippa ui aggiungesse solo il portico; il che si comprende dalli due frontespicij che sono nella facciata.",
+   "rule_de": "Palladio hält den Rundbau des Pantheon für republikanisch und nur den Portikus für ein Werk Agrippas; er schließt das aus den zwei Giebeln der Fassade.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.dating",
+   "scope": "temple",
+   "values": {},
+   "note": "Datierung aus dem Baubefund (zwei Giebel).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXI.1",
+   "book": 4,
+   "chapter": "XXI",
+   "phys": 285,
+   "printed_page": "85",
+   "anchor": [
+    "Io credo ch ' egli fusse una sepultura",
+    "infra itempij ."
+   ],
+   "quote": "Io credo ch'egli fusse una sepultura, percioche ui si è trouato un cassone grandissimo di Porfido intagliato molto bene di uiti, e di fanciulli che togliono dell'uua, il che ha fatto creder ad alcuni che ei fusse il tempio di Bacco; e perche questa è la commune opinione, & hora serue per chiesa, io l'ho posto infra i tempij.",
+   "rule_de": "Palladio hält den Bau für ein Grabmal (Porphyrsarkophag mit Reben), nimmt ihn aber unter die Tempel auf, weil die allgemeine Meinung ihn für den Bacchustempel hält und er jetzt als Kirche dient.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "temple",
+   "values": {},
+   "note": "Auswahlkriterium des Buches.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXI.2",
+   "book": 4,
+   "chapter": "XXI",
+   "phys": 286,
+   "printed_page": "86",
+   "anchor": [
+    "L ' Architraue , il Fregio , & la Cornice non sono trop",
+    "più prossimi à noi ."
+   ],
+   "quote": "L'Architraue, il Fregio, & la Cornice non sono troppo ben lauorati, il che mi fa credere, che questo tempio non sia stato fatto à i buoni tempi, ma al tempo de gl'Imperatori più prossimi à noi.",
+   "rule_de": "Datierung nach der Ausführung: Ein weniger gut gearbeitetes Gebälk spricht gegen die gute Zeit und für die späteren Kaiser.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.dating",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "IV.XXII.1",
    "book": 4,
    "chapter": "XXII",
@@ -2071,6 +2326,27 @@
    "scope": "temple",
    "values": {},
    "note": "Siehe IV.XXIX.1 zu dunklen Tempeln. = B4-XXII-LUME in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXII.2",
+   "book": 4,
+   "chapter": "XXII",
+   "phys": 288,
+   "printed_page": "88",
+   "anchor": [
+    "Nella parte dauanti di questo tempio",
+    "si conosce che erano ."
+   ],
+   "quote": "Nella parte dauanti di questo tempio rincontro all'entrata nel Cortile ui sono i fondamenti del portico, ma le colonne sono state leuate uia; io nondimeno le ho poste della grandezza, & distanza, che per li detti fondamenti si conosce che erano.",
+   "rule_de": "Vom Portikus sind nur die Fundamente erhalten; Palladio hat die Säulen in der Größe und dem Abstand eingezeichnet, die sich aus den Fundamenten ergeben.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Erschlossen aus Fundamenten.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -2159,6 +2435,27 @@
    "scan_checked": true
   },
   {
+   "id": "IV.XXIIII.2",
+   "book": 4,
+   "chapter": "XXIIII",
+   "phys": 295,
+   "printed_page": "95",
+   "anchor": [
+    "Dicono alcuni che quiui erano due Tempij",
+    "Nella Seconda i suoi membri ."
+   ],
+   "quote": "Dicono alcuni che quiui erano due Tempij uno Ritondo, e l'altro Quadrangulare: del Ritondo non se ne uede uestigio alcuno, & il Quadrangulare per opinion mia è moderno; e però lasciato il corpo del Tempio ho posto solamente il diritto della facciata del portico nella Prima tauola, & Nella Seconda i suoi membri.",
+   "rule_de": "Den viereckigen Baukörper hält Palladio für modern; er lässt ihn weg und zeigt nur den Aufriss des Portikus und dessen Glieder.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Weggelassen, was er nicht für antik hält.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "IV.XXV.1",
    "book": 4,
    "chapter": "XXV",
@@ -2218,6 +2515,27 @@
    "scope": "temple",
    "values": {},
    "note": "Ausdrücklich erfunden (Tafellegende).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVII.2",
+   "book": 4,
+   "chapter": "XXVII",
+   "phys": 307,
+   "printed_page": "107",
+   "anchor": [
+    "Gli Amamenti della Porta non si uedono",
+    "che douessero essere ."
+   ],
+   "quote": "Gli ornamenti della Porta non si uedono; io nondimeno gli ho fatti in quel modo che mi è parso che douessero essere.",
+   "rule_de": "Die Türornamente sind nicht erhalten; Palladio hat sie so gezeichnet, wie sie ihm zu sein schienen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Dieselbe Angabe wie die Tafellegende IV.XXVII.1.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -2369,6 +2687,69 @@
    "scope": "temple",
    "values": {},
    "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXX.2",
+   "book": 4,
+   "chapter": "XXX",
+   "phys": 324,
+   "printed_page": "124",
+   "anchor": [
+    "De i muri della cella",
+    "come ella doueua elfere ."
+   ],
+   "quote": "De i muri della cella non si uede parte alcuna antica; ma sono stati poi rifatti non troppo bene; si conosce nondimeno come ella doueua essere.",
+   "rule_de": "Von den Cellamauern ist nichts Antikes erhalten; sie wurden später nicht sehr gut erneuert. Dennoch lasse sich erkennen, wie die Cella gewesen sein muss.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Die gezeichnete Cella beruht nicht auf antikem Mauerwerk.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXXI.1",
+   "book": 4,
+   "chapter": "XXXI",
+   "phys": 328,
+   "printed_page": "128",
+   "anchor": [
+    "era anticamente il Tempio , che fegue",
+    "lauorati tutti eccellentemente ."
+   ],
+   "quote": "era anticamente il Tempio, che segue: le cui fondamenta furno scoperte cauandosi per fabricar una casa; & ui fu ritrouato anco una quantità grandissima di Marmi lauorati tutti eccellentemente.",
+   "rule_de": "Die Fundamente des Tempels wurden beim Aushub für ein Haus freigelegt; dabei fand man sehr viele vorzüglich gearbeitete Marmorstücke.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Grundlage der Rekonstruktion: freigelegte Fundamente und Fragmente.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXXI.2",
+   "book": 4,
+   "chapter": "XXXI",
+   "phys": 328,
+   "printed_page": "128",
+   "anchor": [
+    "Di quefto Tempio non fi uede parte alcu",
+    "bile artificio ."
+   ],
+   "quote": "Di questo Tempio non si uede parte alcuna in piedi: ma dalle reliquie sue, che sono molte; s'è potuto uenir in cognitione de gli uniuersali, cioè della Pianta, & dell'Alzato; & de' suoi membri particolari, iquali sono tutti lauorati con mirabile artificio.",
+   "rule_de": "Vom Tempel steht nichts mehr; aus den vielen Resten ließen sich Grundriss, Aufriss und die einzelnen Glieder erschließen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Grundriss und Aufriss vollständig erschlossen.",
    "evidence_class": "A",
    "scan_checked": true
   }

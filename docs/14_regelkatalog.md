@@ -51,8 +51,8 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
 | I | 29 + Vorrede | vollständig, am Scan geprüft | 196 |
 | II | 17 | vollständig, am Scan geprüft | 78 |
 | III | 21 + Vorrede | vollständig, am Scan geprüft | 96 |
-| IV | 31 + Vorrede | vollständig, am Scan geprüft | 108 |
-| **zusammen** | 98 + 3 Vorreden | | **478** |
+| IV | 31 + Vorrede | vollständig, am Scan geprüft | 126 |
+| **zusammen** | 98 + 3 Vorreden | | **496** |
 
 ## Buch I im Überblick
 
@@ -105,19 +105,24 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
 
 ## Buch IV im Überblick
 
-- **108 Regeln.** Nach Art: 32 Grundsätze, 22 Gebote, 20 Begründungen am
-  einzelnen Bau, 11 Verfahren, 10 Vorzüge, 10 Maßangaben, 2 Verbote,
-  1 Spielraum.
-- **Herkunft:** 61 von Palladio, 24 aus der Praxis der Antiken, 20 von Vitruv
+- **126 Einträge.** Nach Art: 38 Begründungen am einzelnen Bau, 32 Grundsätze,
+  22 Gebote, 11 Verfahren, 10 Vorzüge, 10 Maßangaben, 2 Verbote, 1 Spielraum.
+- **Herkunft:** 79 von Palladio, 24 aus der Praxis der Antiken, 20 von Vitruv
   (genannt), 3 aus dem Brauch der Zeit.
 - **Theorieteil (Vorrede bis Kap. V):** 61 Regeln. 39 Zitate sind die schon am
   Scan geprüften Aussagen aus `data/book4/` (Vermerk in `note`).
-- **Tempelkapitel (VI–XXXI):** 47 Regeln. Maße und Beschreibungen der Tempel
-  bleiben Messdaten in `data/book4/`. Die Kapitel X, XVIII, XXI und XXXI
-  enthalten keine Regel.
-- **Scanprüfung:** 69 Zitate wurden neu gelesen. Dabei wurden 46 Stellen des
-  Entwurfs nach dem Druck korrigiert (Akzente, Apostrophe, Wortformen).
-  Ein Beispiel: In IV.XXX.1 liest die OCR „quelli“, gedruckt ist „questi“.
+- **Tempelkapitel (VI–XXXI):** 65 Einträge. Maße und Beschreibungen der Tempel
+  bleiben Messdaten in `data/book4/`.
+- **Nachtrag vom 16.11.2026.** Ein zweiter Durchgang suchte gezielt nach Stellen,
+  an denen Palladio seine Rekonstruktion, eine Datierung oder die Auswahl eines
+  Baus begründet. Er ergab 18 weitere Einträge. Die erste Fassung hatte sechs
+  Rekonstruktionshinweise genannt und vier Kapitel ohne Eintrag geführt (X, XVIII,
+  XXI, XXXI); beides ist damit überholt. Jedes Kapitel hat nun mindestens einen
+  Eintrag.
+- **Scanprüfung:** 87 Zitate wurden neu gelesen. Im ersten Durchgang wurden dabei
+  46 Stellen des Entwurfs nach dem Druck korrigiert (Akzente, Apostrophe,
+  Wortformen). Ein Beispiel: In IV.XXX.1 liest die OCR „quelli“, gedruckt ist
+  „questi“. Die 18 Nachträge sind unmittelbar am Scan abgeschrieben.
 
 ### Was Buch IV für die Quellenkritik bringt
 
@@ -125,16 +130,17 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
   - Die Gesamtgestalt hat er aus Resten und Fundamenten erschlossen
     (IV.Proemio.6), mit Vitruvs Hilfe (IV.Proemio.7).
   - Die Ornamente hat er an Fragmenten gemessen (IV.Proemio.8).
-  - Ergänzungen und Erfindungen nennt er ausdrücklich:
+  - In 15 Fällen nennt er ausdrücklich, was er erschlossen, ergänzt, erfunden
+    oder weggelassen hat. Beispiele:
     - die Cella des Mars Ultor, „di mia inuentione“ (IV.VII.2);
-    - innere Ornamente nach Fragmenten (IV.VII.3);
-    - Statuen (IV.IX.2);
-    - ein Gesims (IV.XIIII.2);
+    - Vorhallen und Ornamente der Tempel von Sonne und Mond, „come mi sono
+      imaginato“ (IV.X.1);
     - ein ganzer Tempel aus einer Flanke und Vitruv (IV.XV.6);
-    - die Tür in Pola (IV.XXVII.1).
+    - der Neptuntempel, von dem nichts mehr steht (IV.XXXI.2).
 
   Solche Tafelteile sind keine Bauaufnahme. Sie dürfen nicht als Messbefund für
-  antike Proportionen zählen.
+  antike Proportionen zählen. Die vollständige Liste und ihre Folge für den
+  Tafeltest stehen in docs/17 und `data/book4/reconstruction.json`.
 - **Abweichungen von Vitruv mit Befund:**
   - Postamente: Palladio verwirft sie (IV.V.6). Nur Assisi hat welche (IV.XXVI.1).
   - Die ionische Basis Vitruvs kommt an keinem antiken Bau vor (IV.XIII.2).
@@ -147,8 +153,15 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
   dünner gemacht, damit alle gleich dick erscheinen (IV.V.12).
 - **Datierung nach dem Stil:** Das sind Palladios eigene Kriterien, nicht unsere:
   - augusteische Bauten sind „più sode“ (IV.XIX.1);
-  - Kapitelle mit Olivenblättern weisen auf die gute Zeit (IV.XXIII.2);
+  - gute Ausführung weist auf die gute Zeit, schwächere auf eine spätere
+    (IV.VI.2, IV.XXI.2, IV.XXIII.2);
   - ein Bauteil, das zum Ganzen stimmt, ist gleich alt (IV.XX.3).
+- **Auswahl der Bauten:** Palladio nimmt auch auf, was er nicht für antik hält,
+  und sagt es: das Baptisterium (IV.XVI.4), den Tempietto Bramantes (IV.XVII.1)
+  und das Grabmal bei S. Agnese (IV.XXI.1).
+- **Die Normen aus Buch I sind nicht der häufigste Wert der Tempel.** Für das
+  Korinthische setzt Buch I 2 D Säulenabstand und ⅕ Gebälk. In Palladios eigenen
+  Beschreibungen überwiegen 1½ D und ¼ (docs/17).
 - **San Giorgio Maggiore** kommt zweimal vor:
   - die Kreuzform (IV.II.8);
   - Blätter unter den zu kurzen Säulenschäften des Portals, nach antikem Vorbild
@@ -181,13 +194,16 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
 ## Nächste Schritte
 
 1. ~~Die Kapitel von Buch II bis IV nach demselben Verfahren lesen.~~ Erledigt:
-   478 Regeln aus 101 Kapiteln, alle am Scan geprüft.
+   496 Einträge aus 101 Kapiteln, alle am Scan geprüft.
 2. ~~San Giorgio Maggiore an vermessenen Plänen prüfen.~~ Erledigt mit Bertotti
    Scamozzi, *Le fabbriche e i disegni di Andrea Palladio*, Bd. IV, 1783
    (docs/15, docs/16).
-3. Die Regeln aus Buch I mit Buch IV abgleichen, ob die Säulenordnungen der Tempel
-   den Maßen aus Buch I folgen.
-4. IV.XVI.2 (Portal von San Giorgio) in die Kriterien von docs/16 aufnehmen.
-5. Die Tafelteile, die Palladio als ergänzt oder erfunden bezeichnet (IV.VII.2,
-   IV.VII.3, IV.IX.2, IV.XIIII.2, IV.XV.6, IV.XXVII.1), in den Messdaten von
-   `data/book4/` kennzeichnen.
+3. ~~Die Regeln aus Buch I mit Buch IV abgleichen, ob die Säulenordnungen der
+   Tempel den Maßen aus Buch I folgen.~~ Erledigt für Palladios Textangaben
+   (docs/17). Offen: die Maßzahlen der Tafeln.
+4. ~~IV.XVI.2 (Portal von San Giorgio) in die Kriterien von docs/16 aufnehmen.~~
+   Erledigt; Bertottis Tafel VI bestätigt die Aussage.
+5. ~~Die Tafelteile kennzeichnen, die Palladio als ergänzt oder erfunden
+   bezeichnet.~~ Erledigt in `data/book4/reconstruction.json` (docs/17).
+6. Die Bücher I bis III ebenso gezielt nach Begründungen von Einzelentscheidungen
+   durchsehen, wie es für Buch IV im Nachtrag geschehen ist.

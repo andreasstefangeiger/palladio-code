@@ -11,6 +11,7 @@ design:
 
 book4:
 	$(PYTHON) -m palladio_code.book4
+	$(PYTHON) -m palladio_code.temple_orders
 
 san-giorgio:
 	$(PYTHON) -m palladio_code.san_giorgio

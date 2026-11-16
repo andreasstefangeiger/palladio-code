@@ -106,6 +106,12 @@ Eine neue, systematische Proportionstheorie enthält es nicht.
   vermessen und ergänzt hat, ist die Tendenz deutlich schwächer. Die sieben Formen
   sind also eine Regel seiner eigenen Entwurfspraxis. Als Kanon aus den Tempeln
   der Antike abgelesen hat er sie nicht, und in Buch IV wendet er sie auch nicht an.
+- **Nachtrag vom 16.11.2026.** Vier der elf Cella-Maße beruhen nach Palladios
+  eigenen Worten auf einer Rekonstruktion (Marte, Giove Tonante, Concordia,
+  Nettuno). Alle vier liegen innerhalb von 2 % an einer der sieben Formen. Von den
+  sieben übrigen sind es drei, was dem Zufall entspricht (p = 0,35). Die Tendenz
+  kommt also vor allem aus den rekonstruierten Tempeln. Einzelheiten und
+  Vorbehalte stehen in docs/17.
 - **Kontrollmessung.** Bei vier Tafeln wurde das gezeichnete Rechteck zusätzlich
   vermessen (Fortuna Virile, Maison Carrée, Assisi, Pola). Es weicht höchstens 0,8 %
   von Palladios Zahlen ab.
@@ -151,6 +157,8 @@ Die vollständige Matrix mit allen Belegnummern steht in `output/book4/matrix.md
   Tempel des Iuppiter Stator (Länge unleserlich) und Tafeln ohne Grundriss
   (`excluded` in den Daten).
 - Die antiken Bauten sind Palladios Rekonstruktionen („sono andato conietturando“,
-  Vorrede). Gemessen wird also Palladios Bild der Antike.
+  Vorrede). Gemessen wird also Palladios Bild der Antike. Welche Tafelteile er
+  ausdrücklich als erschlossen, ergänzt oder erfunden bezeichnet, steht in
+  `data/book4/reconstruction.json` (docs/17).
 - Die Volltextsuche nutzt die e-rara-Texterkennung und kann Stellen übersehen. Alle
   54 zitierten Stellen sind am Scan geprüft.

@@ -1,0 +1,884 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro IV; e-rara DOI 10.3931/e-rara-363",
+ "question": "Folgen die Säulenordnungen der Tempel, wie Palladio sie in Buch IV beschreibt, den Maßen aus Buch I?",
+ "evidence_policy": "Ausgewertet sind nur Palladios eigene Textangaben in den Tempelkapiteln (Klasse A, am Scan gelesen). Die Maßzahlen der Tafeln sind nicht ausgewertet. Die Normen sind Regeln des Katalogs (data/rules/book1.json, data/rules/book4.json). Rohangabe, Norm und Deutung bleiben getrennt; eine Abweichung belegt keine Absicht.",
+ "transcription_policy": "wie data/rules: langes s als s, u/v und Schreibung wie gedruckt, Text außerhalb des Ausschnitts in eckigen Klammern",
+ "norms": {
+  "Dorico": {
+   "column_D": [
+    7.5,
+    8
+   ],
+   "intercol_D": 3,
+   "entablature": 0.25,
+   "rules": [
+    "I.XV.1",
+    "I.XV.10",
+    "I.XIII.8"
+   ]
+  },
+  "Ionico": {
+   "column_D": 9,
+   "intercol_D": 2.25,
+   "entablature": 0.2,
+   "base": "Attica",
+   "rules": [
+    "I.XVI.1",
+    "I.XVI.7",
+    "I.XVI.9"
+   ]
+  },
+  "Corinthio": {
+   "column_D": 9.5,
+   "intercol_D": 2,
+   "entablature": 0.2,
+   "base": "Attica",
+   "rules": [
+    "I.XVII.1",
+    "I.XVII.2",
+    "I.XVII.5"
+   ]
+  },
+  "Composito": {
+   "column_D": 10,
+   "intercol_D": 1.5,
+   "entablature": 0.2,
+   "base": "Attica oder Attica + Ionica",
+   "rules": [
+    "I.XVIII.1",
+    "I.XVIII.2",
+    "I.XVIII.4"
+   ]
+  }
+ },
+ "maniere": {
+  "Picnostilos": 1.5,
+  "Sistilos": 2,
+  "Eustilos": 2.25,
+  "Diastilos": 3,
+  "rules": [
+   "IV.IIII.2",
+   "IV.IIII.4",
+   "IV.IIII.5",
+   "IV.IIII.7"
+  ]
+ },
+ "column_height_by_spacing": {
+  "rule": "I.XIII.8",
+  "1.5": 10,
+  "2": 9.5,
+  "2.25": 9,
+  "3": [
+   7.5,
+   8
+  ]
+ },
+ "buildings": {
+  "VI": "Tempio della Pace",
+  "VII": "Tempio di Marte Vendicatore",
+  "VIII": "Tempio di Nerva Traiano",
+  "IX": "Tempio di Antonino e Faustina",
+  "XII": "Tempio di Giove (Quirinale)",
+  "XIII": "Tempio della Fortuna Virile",
+  "XIIII": "Tempio di Vesta (Roma)",
+  "XV": "Tempio di Marte (piazza de' Preti)",
+  "XVI": "Battistero di Costantino",
+  "XVII": "Tempietto di Bramante",
+  "XVIII": "Tempio di Giove Statore",
+  "XIX": "Tempio di Giove Tonante",
+  "XX": "Pantheon",
+  "XXI": "Tempio di Bacco (S. Agnese)",
+  "XXIII": "Tempio di Vesta (Tivoli)",
+  "XXIIII": "Tempio di Castore e Polluce",
+  "XXV": "Tempio sotto Trevi",
+  "XXVI": "Tempio di Assisi",
+  "XXVII": "Tempij di Pola",
+  "XXVIII": "Maison Carrée, Nîmes",
+  "XXIX": "Altro tempio di Nîmes",
+  "XXX": "Tempio della Concordia",
+  "XXXI": "Tempio di Nettuno"
+ },
+ "statements": [
+  {
+   "id": "B4O-VI-1",
+   "chapter": "VI",
+   "phys": 211,
+   "printed_page": "11",
+   "anchor": [
+    "Nella parte di dentro del Tempio v ' erano otto colonne",
+    "il uolto della naue di mezo ."
+   ],
+   "quote": "Nella parte di dentro del Tempio v'erano otto colonne di marmo di ordine Corinthio grosse cinque piedi, e quattro oncie, e lunghe cinquantatre con base, e capitello. L'Architraue il Fregio, e la Cornice erano dieci piedi e mezo, e sosteneuano il uolto della naue di mezo.",
+   "features": {
+    "order": "Corinthio",
+    "column_diameter_ft": 5.3333,
+    "column_length_ft": 53,
+    "entablature_ft": 10.5
+   },
+   "note": "Innere Säulen der Halle. Säulenlänge in Durchmessern und Gebälkanteil sind aus Palladios Fußmaßen gerechnet (53 : 5⅓ und 10½ : 53).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VI-2",
+   "chapter": "VI",
+   "phys": 211,
+   "printed_page": "11",
+   "anchor": [
+    "La Basa di queste colonne",
+    "la terza parte della sua altezzi"
+   ],
+   "quote": "La Basa di queste colonne era più alta della metà del diametro della colonna, & haueua l'orlo più grosso della terza parte della sua altezza",
+   "features": {
+    "base_height": "> 1/2 D"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VII-1",
+   "chapter": "VII",
+   "phys": 215,
+   "printed_page": "15",
+   "anchor": [
+    "L ' aspetto del tempio è lo alato",
+    "uio Peripteros"
+   ],
+   "quote": "L'aspetto del tempio è lo alato à torno, il quale di sopra habbiamo chiamato co'l nome di Vitruuio Peripteros",
+   "features": {
+    "aspect": "Peripteros"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VII-2",
+   "chapter": "VII",
+   "phys": 215,
+   "printed_page": "15",
+   "anchor": [
+    "La maniera di questo tempio è la Picnostilos",
+    "quanto gli intercolun nij"
+   ],
+   "quote": "La maniera di questo tempio è la Picnostilos, i portici sono larghi, quanto gli intercolunnij",
+   "features": {
+    "maniera": "Picnostilos"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VII-3",
+   "chapter": "VII",
+   "phys": 215,
+   "printed_page": "15",
+   "anchor": [
+    "Le colonne de i por",
+    "tici sono di opera Corinthia ."
+   ],
+   "quote": "Le colonne de i portici sono di opera Corinthia.",
+   "features": {
+    "order": "Corinthio"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VIII-1",
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "l ' aspetto del quale è il Prostilos",
+    "spesse co lonne ."
+   ],
+   "quote": "l'aspetto del quale è il Prostilos, la sua maniera è di spesse colonne.",
+   "features": {
+    "aspect": "Prostilos",
+    "maniera": "Picnostilos"
+   },
+   "note": "'spesse colonne' ist nach IV.IIII.2 der Pyknostylos.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VIII-2",
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "La Basa delle co",
+    "sotto la Cimbia ."
+   ],
+   "quote": "La Basa delle colonne è Attica, diuersa in questo da quella che ci insegna Vitruuio, & che io ho posta nel primo libro, che in lei ui sono due tondini di più, uno sotto il cauetto, & l'altro sotto la Cimbia.",
+   "features": {
+    "base": "Attica",
+    "base_note": "zwei Rundstäbe mehr als in Buch I"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VIII-3",
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "Sono l ' Architraue ,",
+    "langhezzi delle colonne ."
+   ],
+   "quote": "Sono l'Architraue, il Fregio, & la Cornice tutti insieme per il quarto della lunghezza delle colonne.",
+   "features": {
+    "entablature": 0.25
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-VIII-4",
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "sono ancor queste",
+    "di opera Corinthia"
+   ],
+   "quote": "sono ancor queste di opera Corinthia",
+   "features": {
+    "order": "Corinthio"
+   },
+   "note": "Gesagt von den Säulen des Platzes: 'auch diese' sind korinthisch. Die Ordnung des Tempels ist daraus erschlossen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-IX-1",
+   "chapter": "IX",
+   "phys": 230,
+   "printed_page": "30",
+   "anchor": [
+    "La facciata di questo Tempio",
+    "tezzi delle colonne del portico"
+   ],
+   "quote": "La facciata di questo Tempio è fatta à colonne, la maniera sua è la Picnostilos: il piano, ò suolo del Tempio s'alza da terra per la terza parte dell'altezza delle colonne del portico",
+   "features": {
+    "maniera": "Picnostilos",
+    "podium": "1/3 Säulenhöhe"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-IX-2",
+   "chapter": "IX",
+   "phys": 230,
+   "printed_page": "30",
+   "anchor": [
+    "La Basa delle colonne è Attica",
+    "dell ' altezzi delle colonne ."
+   ],
+   "quote": "La Basa delle colonne è Attica. Il capitello è intagliato à foglie di Oliuo. L'Architraue, il Fregio, & la Cornice sono per il quarto, & un terzo di detta quarta parte dell'altezza delle colonne.",
+   "features": {
+    "base": "Attica",
+    "entablature": 0.3333,
+    "capital": "foglie di Oliuo"
+   },
+   "note": "Gebälk = ¼ + ⅓ · ¼ = ⅓ der Säulenhöhe. Die Ordnung nennt Palladio hier nicht.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XII-1",
+   "chapter": "XII",
+   "phys": 241,
+   "printed_page": "41",
+   "anchor": [
+    "Lo aspetto di que",
+    "alteéza delle colonne ."
+   ],
+   "quote": "Lo aspetto di questo Tempio era il falso alato detto da Vitruuio Pseudodipteros. La maniera sua era di spesse colonne. Le colonne de i portici di fuori erano di ordine Corinthio. L'Architraue, il Fregio, e la Cornice erano per la quarta parte dell'altezza delle colonne.",
+   "features": {
+    "aspect": "Pseudodipteros",
+    "maniera": "Picnostilos",
+    "order": "Corinthio",
+    "entablature": 0.25
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XII-2",
+   "chapter": "XII",
+   "phys": 241,
+   "printed_page": "41",
+   "anchor": [
+    "La Cornice ha i modiglioni riquadrati",
+    "mezo della colonna ."
+   ],
+   "quote": "La Cornice ha i modiglioni riquadrati, & uno di essi uiene al diritto del mezo della colonna.",
+   "features": {
+    "modillion_on_axis": true
+   },
+   "note": "Entspricht der Regel IV.XIX.3.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XIII-1",
+   "chapter": "XIII",
+   "phys": 248,
+   "printed_page": "48",
+   "anchor": [
+    "Il suo aspetto è il Prostilos",
+    "maniera è la Sistilos ."
+   ],
+   "quote": "Il suo aspetto è il Prostilos, & ha meze colonne ne i muri della cella nella parte di fuori, che accompagnano con quelle del portico, & hanno i medesimi ornamenti: onde à quelli, che lo ueggono per fianco rende l'aspetto dello alato à torno. Gli intercolunnij sono di due diametri, & un quarto, si che la sua maniera è la Sistilos.",
+   "features": {
+    "aspect": "Prostilos",
+    "intercol_D": 2.25,
+    "maniera": "Sistilos"
+   },
+   "note": "Palladio nennt 2¼ Durchmesser hier 'Sistilos'; nach IV.IIII.7 ist das der Eustylos, der Systylos hat 2 Durchmesser (IV.IIII.4).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XIII-2",
+   "chapter": "XIII",
+   "phys": 248,
+   "printed_page": "48",
+   "anchor": [
+    "colonne sono di ordine lonico",
+    "La basa è Attica"
+   ],
+   "quote": "[Le] colonne sono di ordine Ionico. La basa è Attica",
+   "features": {
+    "order": "Ionico",
+    "base": "Attica"
+   },
+   "note": "'Le' am Ende der vorigen Zeile, am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XIIII-1",
+   "chapter": "XIIII",
+   "phys": 252,
+   "printed_page": "52",
+   "anchor": [
+    "Questo Tempio è di or",
+    "na da piede )"
+   ],
+   "quote": "Questo Tempio è di ordine Corinthio. Gli intercolunnij sono di un diametro e mezo. Le colonne sono lunghe con basa, e capitello vndici teste (testa s'intende, come ho detto altroue, il diametro della colonna da piede)",
+   "features": {
+    "order": "Corinthio",
+    "intercol_D": 1.5,
+    "column_D": 11
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XV-1",
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "suo aspetto è lo alato",
+    "un diametro e mezo ."
+   ],
+   "quote": "[Il] suo aspetto è lo alato à torno. La maniera è di spesse colonne. Gli intercolunnij sono un diametro e mezo.",
+   "features": {
+    "aspect": "Peripteros",
+    "maniera": "Picnostilos",
+    "intercol_D": 1.5
+   },
+   "note": "'Il' am Ende der vorigen Zeile, am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XV-2",
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "lonne sono di ordine Corinthio",
+    "La basa è Attica"
+   ],
+   "quote": "[Le co]lonne sono di ordine Corinthio. La basa è Attica",
+   "features": {
+    "order": "Corinthio",
+    "base": "Attica"
+   },
+   "note": "Wortanfang am Ende der vorigen Zeile, am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XV-3",
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "L ' Archi traue , il Fregio , e la Cornice sono per una delle cinque",
+    "con molta gratia ."
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice sono per una delle cinque parti e meza della lunghezza delle colonne, e benche siano meno della quinta parte riescono nondimeno mirabilmente, & con molta gratia.",
+   "features": {
+    "entablature": 0.1818
+   },
+   "note": "Gebälk 1 : 5½. = IV.XV.4 im Regelkatalog.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XVI-1",
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "anchor": [
+    "Le colonne sono di porfido",
+    "& della lonica"
+   ],
+   "quote": "Le colonne sono di porfido, & di ordine Composito. La basa è composta dell'Attica, & della Ionica",
+   "features": {
+    "order": "Composito",
+    "base": "Attica + Ionica"
+   },
+   "note": "Nach Palladio ein moderner Bau aus Spolien (IV.XVI.4).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XVII-1",
+   "chapter": "XVII",
+   "phys": 264,
+   "printed_page": "64",
+   "anchor": [
+    "Questo Tempio è di opera Dorica",
+    "come di fuori ."
+   ],
+   "quote": "Questo Tempio è di opera Dorica cosi di dentro, come di fuori.",
+   "features": {
+    "order": "Dorico"
+   },
+   "note": "Bramantes Tempietto, kein antiker Bau.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XVIII-1",
+   "chapter": "XVIII",
+   "phys": 267,
+   "printed_page": "67",
+   "anchor": [
+    "si ueggono tre colon",
+    "ne di ordine Corinthio"
+   ],
+   "quote": "si ueggono tre colonne di ordine Corinthio",
+   "features": {
+    "order": "Corinthio"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XVIII-2",
+   "chapter": "XVIII",
+   "phys": 267,
+   "printed_page": "67",
+   "anchor": [
+    "Io credo che l ' aspetto di questo Tempio",
+    "quelle de gli an goli ."
+   ],
+   "quote": "Io credo che l'aspetto di questo Tempio fusse il Peripteros, cioè alato à torno, & la maniera la Picnostilos. Haueua otto colonne nelle fronti, & quindeci ne i lati, annouerandoui quelle de gli angoli.",
+   "features": {
+    "aspect": "Peripteros",
+    "maniera": "Picnostilos"
+   },
+   "note": "Palladios Annahme ('Io credo'). = IV.XVIII.1 im Regelkatalog.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XVIII-3",
+   "chapter": "XVIII",
+   "phys": 267,
+   "printed_page": "67",
+   "anchor": [
+    "Le Base sono composte dell ' Attica",
+    "& della lonica ."
+   ],
+   "quote": "Le Base sono composte dell'Attica, & della Ionica.",
+   "features": {
+    "base": "Attica + Ionica"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XVIII-4",
+   "chapter": "XVIII",
+   "phys": 267,
+   "printed_page": "67",
+   "anchor": [
+    "L ' Architraue , il Fregio , e la Cornice sono per",
+    "langhezzi delle colonne ."
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice sono per la quarta parte della lunghezza delle colonne.",
+   "features": {
+    "entablature": 0.25
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XIX-1",
+   "chapter": "XIX",
+   "phys": 270,
+   "printed_page": "70",
+   "anchor": [
+    "Lo aspetto di questo Tempio cra quello",
+    "cioe alato doppio"
+   ],
+   "quote": "Lo aspetto di questo Tempio era quello, che si dice Dipteros, cioè alato doppio",
+   "features": {
+    "aspect": "Dipteros"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XIX-2",
+   "chapter": "XIX",
+   "phys": 270,
+   "printed_page": "70",
+   "anchor": [
+    "Lamaniera di questo Tempio",
+    "erala Picnostilos ."
+   ],
+   "quote": "La maniera di questo Tempio era la Picnostilos.",
+   "features": {
+    "maniera": "Picnostilos"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XX-1",
+   "chapter": "XX",
+   "phys": 273,
+   "printed_page": "73",
+   "anchor": [
+    "Tutto questo Tempio è di ordine Corinthio",
+    "& della lonica ."
+   ],
+   "quote": "Tutto questo Tempio è di ordine Corinthio cosi nella parte di fuori, come in quella di dentro. Le base sono composte dell'Attica, & della Ionica.",
+   "features": {
+    "order": "Corinthio",
+    "base": "Attica + Ionica"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXI-1",
+   "chapter": "XXI",
+   "phys": 286,
+   "printed_page": "86",
+   "anchor": [
+    "Le base sono all ' Attica",
+    "di ordine Composito"
+   ],
+   "quote": "Le base sono all'Attica, i capitelli sono bellissimi di ordine Composito",
+   "features": {
+    "order": "Composito",
+    "base": "Attica"
+   },
+   "note": "Nach Palladio kein Bau der guten Zeit (IV.XXI.2).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXIII-1",
+   "chapter": "XXIII",
+   "phys": 290,
+   "printed_page": "90",
+   "anchor": [
+    "Questo tempio è di ordine Corinthio",
+    "langhezzi delle colonne ."
+   ],
+   "quote": "Questo tempio è di ordine Corinthio. Gli intercolunnij sono di due diametri. Il suo pauimento si alza da terra per la terza parte della lunghezza delle colonne.",
+   "features": {
+    "order": "Corinthio",
+    "intercol_D": 2,
+    "podium": "1/3 Säulenlänge"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXIII-2",
+   "chapter": "XXIII",
+   "phys": 290,
+   "printed_page": "90",
+   "anchor": [
+    "Le colonne sono tanto lunghe",
+    "è larga la cella"
+   ],
+   "quote": "Le colonne sono tanto lunghe, quanto à punto è larga la cella",
+   "features": {
+    "column_length": "= Breite der Cella"
+   },
+   "note": "Entspricht Vitruvs Regel für Rundtempel (IV.V.5).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXIIII-1",
+   "chapter": "XXIIII",
+   "phys": 295,
+   "printed_page": "95",
+   "anchor": [
+    "Questo portico è di ordi",
+    "se sono fatte all ' Attica ."
+   ],
+   "quote": "Questo portico è di ordine Corinthio. Gli intercolunnij sono più di un diametro e mezo, e non arriuano a due diametri. Le base sono fatte all'Attica.",
+   "features": {
+    "order": "Corinthio",
+    "intercol_D_range": [
+     1.5,
+     2
+    ],
+    "base": "Attica"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXV-1",
+   "chapter": "XXV",
+   "phys": 298,
+   "printed_page": "98",
+   "anchor": [
+    "Lo aspetto di que",
+    "è di spesse colonne ."
+   ],
+   "quote": "Lo aspetto di questo Tempio è il Prostilos. La sua maniera è di spesse colonne.",
+   "features": {
+    "aspect": "Prostilos",
+    "maniera": "Picnostilos"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXV-2",
+   "chapter": "XXV",
+   "phys": 298,
+   "printed_page": "98",
+   "anchor": [
+    "come quelle de i portici",
+    "sono di ordine Corinthio"
+   ],
+   "quote": "come quelle de i portici sono di ordine Corinthio",
+   "features": {
+    "order": "Corinthio"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXVI-1",
+   "chapter": "XXVI",
+   "phys": 303,
+   "printed_page": "103",
+   "anchor": [
+    "& è di ordi",
+    "ne Corinthio ."
+   ],
+   "quote": "& è di ordine Corinthio.",
+   "features": {
+    "order": "Corinthio"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXVI-2",
+   "chapter": "XXVI",
+   "phys": 303,
+   "printed_page": "103",
+   "anchor": [
+    "I piedestili sono alti",
+    "& qualche cosa di più ."
+   ],
+   "quote": "I piedestili sono alti, quanto è largo l'intercolunnio di mezo, ilquale è due oncie più largo de gli altri. La maniera di questo tempio è quella che Vitruuio dimanda Sistilos, cioè di due diametri. L'Architraue, il Fregio, & la Cornice insieme sono per la quinta parte dell'altezza delle colonne, & qualche cosa di più.",
+   "features": {
+    "pedestal": "= Mittelinterkolumnium",
+    "maniera": "Sistilos",
+    "intercol_D": 2,
+    "entablature": 0.2,
+    "entablature_note": "und etwas mehr"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXVII-1",
+   "chapter": "XXVII",
+   "phys": 307,
+   "printed_page": "107",
+   "anchor": [
+    "Lo aspetto loro è il Prostilos",
+    "& un quarto ."
+   ],
+   "quote": "Lo aspetto loro è il Prostilos. La maniera è quella, che secondo Vitruuio ho di sopra chiamata Sistilos, che ha gli intercolunnij di due diametri; & lo intercolunnio di mezo è di due diametri, & un quarto.",
+   "features": {
+    "aspect": "Prostilos",
+    "maniera": "Sistilos",
+    "intercol_D": 2,
+    "middle_intercol_D": 2.25
+   },
+   "note": "Die Ordnung nennt Palladio nicht (Kapitelle mit Olivenblättern).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXVII-2",
+   "chapter": "XXVII",
+   "phys": 307,
+   "printed_page": "107",
+   "anchor": [
+    "Le base delle",
+    "il rimanente della basa ."
+   ],
+   "quote": "Le base delle colonne sono all'Attica, & hanno l'orlo grosso quanto è tutto il rimanente della basa.",
+   "features": {
+    "base": "Attica"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXVIII-1",
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "anchor": [
+    "La basa delle colonne è Attica , ma ha di più",
+    "all ' ordine Corinthio ."
+   ],
+   "quote": "La basa delle colonne è Attica, ma ha di più alcuni bastoncini, onde si può dire Composita, & conueniente all'ordine Corinthio.",
+   "features": {
+    "base": "Attica",
+    "base_note": "mit zusätzlichen Rundstäben",
+    "order": "Corinthio"
+   },
+   "note": "'conueniẽte' gedruckt mit Kürzungsstrich, aufgelöst.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXVIII-2",
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "anchor": [
+    "L ' Architraue , il Fregio , e la Cornice sono per la quarta parte",
+    "Iungheaza delle colonne"
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice sono per la quarta parte della lunghezza delle colonne",
+   "features": {
+    "entablature": 0.25
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXIX-1",
+   "chapter": "XXIX",
+   "phys": 318,
+   "printed_page": "118",
+   "anchor": [
+    "I piedellili fono alti poco più",
+    "lauorati molto politamente ."
+   ],
+   "quote": "I piedestili sono alti poco più della terza parte della lunghezza delle colonne. Le base delle colonne sono composte dell'Attica, e della Ionica, & hanno bellissima sacoma. I capitelli sono ancor essi composti, e lauorati molto politamente.",
+   "features": {
+    "pedestal": "> 1/3 Säulenlänge",
+    "base": "Attica + Ionica",
+    "capital": "composti",
+    "order": "Composito"
+   },
+   "note": "Innere Säulen. Die Ordnung ist aus 'capitelli … composti' erschlossen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXX-1",
+   "chapter": "XXX",
+   "phys": 324,
+   "printed_page": "124",
+   "anchor": [
+    "Gli Interco -",
+    "fono benifsirao lauo - rati"
+   ],
+   "quote": "Gli Intercolunnij sono meno di due diametri. Le base delle colonne sono composte dell'Attica, e della Ionica; sono alquanto diuerse da quelle che si sogliono fare ordinariamente, ma però sono fatte con bella maniera. I capitelli si possono dir ancor essi mescolati di Dorico, e di Ionico, sono benissimo lauorati",
+   "features": {
+    "intercol_D_range": [
+     null,
+     2
+    ],
+    "base": "Attica + Ionica",
+    "capital": "Dorico + Ionico"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B4O-XXXI-1",
+   "chapter": "XXXI",
+   "phys": 328,
+   "printed_page": "128",
+   "anchor": [
+    "L ’ afoetto foo era",
+    "altro edificio antico ."
+   ],
+   "quote": "L'aspetto suo era l'Alato à torno. La sua maniera era di spesse colonne. Gli intercolunnij erano la undecima parte del diametro delle colonne meno di un diametro e mezo: ilche io reputo degno di auertimento, per non hauer ueduto intercolunnij cosi piccioli in alcun'altro edificio antico.",
+   "features": {
+    "aspect": "Peripteros",
+    "maniera": "Picnostilos",
+    "intercol_D": 1.4091
+   },
+   "note": "1½ − 1/11 Durchmesser. Die Ordnung nennt Palladio nicht. Der ganze Tempel ist erschlossen (IV.XXXI.2).",
+   "evidence_class": "A",
+   "scan_checked": true
+  }
+ ]
+}

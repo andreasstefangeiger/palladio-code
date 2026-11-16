@@ -6,7 +6,9 @@ theory of Book I hold for them as well? Three scan-checked inputs answer it:
 - data/book4/text_statements.json: every statement on proportion in Book IV (Proemio,
   chapters I–V and the temple chapters), plus the Book I and III passages they relate to;
 - data/book4/matrix.json: each topic of Book I set against what Book IV says about it;
-- data/book4/plate_readings.json: cella dimensions read from the temple plans.
+- data/book4/plate_readings.json: cella dimensions read from the temple plans;
+- data/book4/reconstruction.json: what Palladio himself says he inferred, added or invented in
+  the temple plates, linked to the cella readings it touches.
 
 The plate test asks whether the ancient temples, as Palladio drew and measured them, follow
 the seven room forms of Book I ch. XXI, against the same null model as Book II.
@@ -58,6 +60,34 @@ def validate(statements: dict, matrix: dict) -> list[str]:
     return problems
 
 
+def validate_reconstruction(reconstruction: dict, plates: dict) -> list[str]:
+    """Every disclosure must cite catalogue rules of Book IV and existing cella readings."""
+    problems = []
+    known = {r["id"] for r in json.loads((ROOT / "data/rules/book4.json").read_text(encoding="utf-8"))["rules"]}
+    readings = {r["id"] for r in plates["readings"]}
+    for g in reconstruction["general"]:
+        if g["rule"] not in known:
+            problems.append(f"general: unknown rule {g['rule']}")
+    for d in reconstruction["disclosures"]:
+        if d["status"] not in reconstruction["status_vocabulary"]:
+            problems.append(f"{d['rules']}: unknown status {d['status']}")
+        problems += [f"disclosure: unknown rule {rule}" for rule in d["rules"] if rule not in known]
+        problems += [f"{d['rules']}: unknown reading {rid}" for rid in d["readings"] if rid not in readings]
+    return problems
+
+
+def reading_flags(reconstruction: dict) -> dict[str, dict]:
+    """Per cella reading: the disclosures that name it and whether the measured part is reconstructed."""
+    flags: dict[str, dict] = {}
+    for d in reconstruction["disclosures"]:
+        for rid, affected in d["readings"].items():
+            f = flags.setdefault(rid, {"rules": [], "status": [], "measure_reconstructed": False})
+            f["rules"] += d["rules"]
+            f["status"].append(d["status"])
+            f["measure_reconstructed"] = f["measure_reconstructed"] or affected
+    return flags
+
+
 def nearest_form(ratio: float) -> tuple[str, float]:
     target = min(PALLADIO_I21, key=lambda t: abs(ratio - t.value) / t.value)
     return target.label, (ratio - target.value) / target.value
@@ -78,7 +108,18 @@ def summarize_text(statements: dict) -> dict:
     }
 
 
-def analyze_plates(plates: dict) -> dict:
+def seven_form_tests(rows: list[dict]) -> dict:
+    n, tests = len(rows), {}
+    for tol in (1, 2):
+        hits = sum(1 for row in rows if abs(row["deviation"]) <= tol / 100)
+        chance = continuous_share(PALLADIO_I21, tol)
+        tests[f"{tol}%"] = {"hits": hits, "n": n, "chance": round(chance, 4),
+                            "p_at_least": round(binomial_upper_tail(hits, n, chance), 4)}
+    return tests
+
+
+def analyze_plates(plates: dict, reconstruction: dict | None = None) -> dict:
+    flags = reading_flags(reconstruction) if reconstruction else {}
     rows = []
     for r in plates["readings"]:
         ratio = max(r["width_ft"], r["length_ft"]) / min(r["width_ft"], r["length_ft"])
@@ -87,17 +128,16 @@ def analyze_plates(plates: dict) -> dict:
                      "width_ft": round(r["width_ft"], 3), "length_ft": round(r["length_ft"], 3),
                      "ratio": round(ratio, 4), "nearest": label, "deviation": round(dev, 4),
                      "deviation_from_5_4": round((ratio - VITRUVIAN_CELLA) / VITRUVIAN_CELLA, 4),
-                     "confidence": r["confidence"]})
-    n = len(rows)
-    tests = {}
-    for tol in (1, 2):
-        hits = sum(1 for row in rows if abs(row["deviation"]) <= tol / 100)
-        chance = continuous_share(PALLADIO_I21, tol)
-        tests[f"{tol}%"] = {"hits": hits, "n": n, "chance": round(chance, 4),
-                            "p_at_least": round(binomial_upper_tail(hits, n, chance), 4)}
+                     "confidence": r["confidence"],
+                     "disclosures": flags.get(r["id"], {}).get("rules", []),
+                     "measure_reconstructed": flags.get(r["id"], {}).get("measure_reconstructed", False)})
+    standing = [row for row in rows if not row["measure_reconstructed"]]
+    reconstructed = [row for row in rows if row["measure_reconstructed"]]
     return {
         "readings": rows,
-        "seven_forms": tests,
+        "seven_forms": seven_form_tests(rows),
+        "seven_forms_by_evidence": {"not_disclosed_as_reconstructed": seven_form_tests(standing),
+                                    "reconstructed_by_palladio": seven_form_tests(reconstructed)},
         "within_2_percent_of_5_4": [row["id"] for row in rows if abs(row["deviation_from_5_4"]) <= 0.02],
         "excluded": len(plates["excluded"]),
     }
@@ -114,10 +154,13 @@ def matrix_markdown(matrix: dict) -> str:
 
 def run(out_dir: Path) -> dict:
     statements, matrix, plates = load("text_statements.json"), load("matrix.json"), load("plate_readings.json")
-    problems = validate(statements, matrix)
+    reconstruction = load("reconstruction.json")
+    problems = validate(statements, matrix) + validate_reconstruction(reconstruction, plates)
     if problems:
         raise ValueError("; ".join(problems))
-    result = {"text": summarize_text(statements), "plates": analyze_plates(plates)}
+    result = {"text": summarize_text(statements), "plates": analyze_plates(plates, reconstruction),
+              "reconstruction": {"disclosures": len(reconstruction["disclosures"]),
+                                 "by_status": dict(Counter(d["status"] for d in reconstruction["disclosures"]))}}
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "analysis.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     (out_dir / "matrix.md").write_text(matrix_markdown(matrix) + "\n", encoding="utf-8")
@@ -136,6 +179,10 @@ def main() -> None:
         print(f"temple cellas within {tol} of a Book I form: {t['hits']}/{t['n']} "
               f"(chance {t['chance']:.0%}, p = {t['p_at_least']:.3f})")
     print(f"cellas within 2% of Vitruvius' 5:4: {len(plates['within_2_percent_of_5_4'])}")
+    for name, tests in plates["seven_forms_by_evidence"].items():
+        t = tests["1%"]
+        print(f"  {name}: {t['hits']}/{t['n']} within 1%, {tests['2%']['hits']}/{t['n']} within 2%")
+    print(f"reconstruction disclosures: {result['reconstruction']}")
 
 
 if __name__ == "__main__":

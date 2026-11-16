@@ -1,0 +1,214 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro IV; e-rara DOI 10.3931/e-rara-363",
+ "question": "Welche Teile der Tempeltafeln sind nach Palladios eigenen Worten nicht am Bau gemessen?",
+ "evidence_policy": "Jeder Eintrag verweist auf Regeln des Katalogs (data/rules/book4.json, Klasse A, am Scan gelesen). Erfasst ist nur, was Palladio selbst sagt; wo er nichts sagt, ist damit nicht bewiesen, dass eine Tafel reine Bauaufnahme ist. 'readings' ordnet die Cella-Maße aus plate_readings.json zu: true = das Maß beruht auf dem rekonstruierten Teil, false = der genannte Teil berührt das Maß nicht.",
+ "status_vocabulary": {
+  "erfunden": "nach eigener Erfindung oder Vorstellung gezeichnet ('di mia inuentione', 'come mi sono imaginato')",
+  "ergänzt": "nach Fragmenten, dem Anschein der Ruinen oder Schriftquellen hinzugefügt",
+  "erschlossen": "aus Resten, Fundamenten, Analogie oder Vitruv erschlossen",
+  "nicht antik": "der gezeichnete Bauteil ist nach Palladio nicht antik",
+  "weggelassen": "bewusst nicht gezeichnet"
+ },
+ "general": [
+  {
+   "rule": "IV.Proemio.6",
+   "text": "Die Gesamtgestalt der Tempel ist aus Resten und Fundamenten erschlossen."
+  },
+  {
+   "rule": "IV.Proemio.7",
+   "text": "Aspekte und Formen sind mit Vitruvs Hilfe bestimmt."
+  },
+  {
+   "rule": "IV.Proemio.8",
+   "text": "Die Ornamente (Basen, Säulen, Kapitelle, Gesimse) sind an Fragmenten gemessen."
+  },
+  {
+   "rule": "IV.VIII.4",
+   "text": "Statuen sind in allen Tafeln nach Schriftquellen ergänzt."
+  }
+ ],
+ "disclosures": [
+  {
+   "rules": [
+    "IV.VII.2"
+   ],
+   "chapter": "VII",
+   "building": "Tempio di Marte Vendicatore",
+   "status": "erfunden",
+   "part": "Ornamente und Tabernakel im Inneren der Cella",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.VII.3"
+   ],
+   "chapter": "VII",
+   "building": "Tempio di Marte Vendicatore",
+   "status": "ergänzt",
+   "part": "innere Ornamente (Basis, Kapitell) nach Fragmenten aus der Nähe",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.VIII.3"
+   ],
+   "chapter": "VIII",
+   "building": "Tempio di Nerva Traiano",
+   "status": "ergänzt",
+   "part": "Tabernakel mit Statuen an den Cellawänden",
+   "readings": {
+    "T-VIII": false
+   },
+   "note": "Der Abstand der Wände wird davon nicht berührt."
+  },
+  {
+   "rules": [
+    "IV.IX.2"
+   ],
+   "chapter": "IX",
+   "building": "Tempio di Antonino e Faustina",
+   "status": "ergänzt",
+   "part": "Statuen im Inneren",
+   "readings": {
+    "T-IX": false
+   },
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.X.1"
+   ],
+   "chapter": "X",
+   "building": "Tempij del Sole e della Luna",
+   "status": "erfunden",
+   "part": "Vorhallen und innere Ornamente",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XII.2",
+    "IV.XII.3"
+   ],
+   "chapter": "XII",
+   "building": "Tempio di Giove (Quirinale)",
+   "status": "erschlossen",
+   "part": "innere Portiken und offene Mitte; Grundlage: bei einer Grabung gefundene ionische Kapitelle",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XIIII.2"
+   ],
+   "chapter": "XIIII",
+   "building": "Tempio di Vesta (Roma)",
+   "status": "ergänzt",
+   "part": "Gesims",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XV.6"
+   ],
+   "chapter": "XV",
+   "building": "Tempio di Marte (piazza de' Preti)",
+   "status": "erschlossen",
+   "part": "der ganze Tempel außer einer Flanke, nach den Ruinen und nach Vitruv",
+   "readings": {
+    "T-XV": true
+   },
+   "note": "Erhalten ist nach Palladio fast nur eine Flanke; die Breite der Cella setzt die erschlossene Gegenseite voraus."
+  },
+  {
+   "rules": [
+    "IV.XVIII.1"
+   ],
+   "chapter": "XVIII",
+   "building": "Tempio di Giove Statore",
+   "status": "erschlossen",
+   "part": "Aspekt, Säulenstellung und Säulenzahl (drei Säulen stehen)",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XIX.2"
+   ],
+   "chapter": "XIX",
+   "building": "Tempio di Giove Tonante",
+   "status": "erschlossen",
+   "part": "rückwärtiger Teil des Grundrisses (Mauern am Hang), nach Analogie zu anderen Bauten am Berg",
+   "readings": {
+    "T-XIX": true
+   },
+   "note": "Die gelesene Länge der Cella reicht bis an die erschlossene Rückwand."
+  },
+  {
+   "rules": [
+    "IV.XXII.2"
+   ],
+   "chapter": "XXII",
+   "building": "Tempio presso San Sebastiano",
+   "status": "erschlossen",
+   "part": "Säulen des Portikus, nach den Fundamenten",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XXIIII.2"
+   ],
+   "chapter": "XXIIII",
+   "building": "Tempio di Castore e Polluce",
+   "status": "weggelassen",
+   "part": "Baukörper des Tempels (nach Palladio modern); gezeichnet ist nur der Portikus",
+   "readings": {},
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XXVII.1",
+    "IV.XXVII.2"
+   ],
+   "chapter": "XXVII",
+   "building": "Tempio di Pola",
+   "status": "erfunden",
+   "part": "Ornamente der Tür",
+   "readings": {
+    "T-XXVII": false
+   },
+   "note": ""
+  },
+  {
+   "rules": [
+    "IV.XXX.2"
+   ],
+   "chapter": "XXX",
+   "building": "Tempio della Concordia",
+   "status": "nicht antik",
+   "part": "Mauern der Cella (später erneuert)",
+   "readings": {
+    "T-XXX": true
+   },
+   "note": "Palladio: 'si conosce nondimeno come ella doueua essere'."
+  },
+  {
+   "rules": [
+    "IV.XXXI.1",
+    "IV.XXXI.2"
+   ],
+   "chapter": "XXXI",
+   "building": "Tempio di Nettuno",
+   "status": "erschlossen",
+   "part": "Grundriss und Aufriss, aus freigelegten Fundamenten und Fragmenten; nichts steht aufrecht",
+   "readings": {
+    "T-XXXI": true
+   },
+   "note": ""
+  }
+ ]
+}

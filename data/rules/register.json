@@ -1304,7 +1304,7 @@
    "printed_page_start": 11,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 2
   },
   {
    "book": 4,
@@ -1338,7 +1338,7 @@
    "printed_page_start": 23,
    "prior_work": "",
    "status": "checked",
-   "rules": 2
+   "rules": 4
   },
   {
    "book": 4,
@@ -1372,7 +1372,7 @@
    "printed_page_start": 36,
    "prior_work": "",
    "status": "checked",
-   "rules": 0
+   "rules": 1
   },
   {
    "book": 4,
@@ -1406,7 +1406,7 @@
    "printed_page_start": 41,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 3
   },
   {
    "book": 4,
@@ -1474,7 +1474,7 @@
    "printed_page_start": 61,
    "prior_work": "",
    "status": "checked",
-   "rules": 3
+   "rules": 5
   },
   {
    "book": 4,
@@ -1508,7 +1508,7 @@
    "printed_page_start": 67,
    "prior_work": "",
    "status": "checked",
-   "rules": 0
+   "rules": 1
   },
   {
    "book": 4,
@@ -1542,7 +1542,7 @@
    "printed_page_start": 73,
    "prior_work": "",
    "status": "checked",
-   "rules": 4
+   "rules": 5
   },
   {
    "book": 4,
@@ -1559,7 +1559,7 @@
    "printed_page_start": 85,
    "prior_work": "",
    "status": "checked",
-   "rules": 0
+   "rules": 2
   },
   {
    "book": 4,
@@ -1576,7 +1576,7 @@
    "printed_page_start": 88,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 2
   },
   {
    "book": 4,
@@ -1610,7 +1610,7 @@
    "printed_page_start": 95,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 2
   },
   {
    "book": 4,
@@ -1661,7 +1661,7 @@
    "printed_page_start": 107,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 2
   },
   {
    "book": 4,
@@ -1712,7 +1712,7 @@
    "printed_page_start": 124,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 2
   },
   {
    "book": 4,
@@ -1729,7 +1729,7 @@
    "printed_page_start": 128,
    "prior_work": "",
    "status": "checked",
-   "rules": 0
+   "rules": 2
   }
  ]
 }
