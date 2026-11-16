@@ -1,6 +1,6 @@
 # 14. Regelkatalog der Quattro Libri
 
-Stand: 12.10.2026 · Daten: `data/rules/register.json`, `data/rules/book1.json` ·
+Stand: 16.11.2026 · Daten: `data/rules/register.json`, `data/rules/book1.json` bis `book4.json` ·
 Werkzeug: `python -m palladio_code.catalogue {status|check|dump BUCH KAPITEL}` ·
 Scanbelege: `python -m palladio_code.proofs data/rules/book1.json --out …`
 
@@ -28,6 +28,8 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
    Erfasst werden Gebote, Verbote, Spielräume, Vorzüge, Verfahren,
    Maßangaben als Norm und allgemeine Grundsätze. Beschreibungen einzelner Bauten
    kommen nicht in den Katalog; sie werden als Messdaten geführt (Buch II, IV).
+   Begründet Palladio eine Einzelentscheidung an einem Bau, wird das als
+   `rationale` erfasst und bleibt von den allgemeinen Regeln unterschieden.
 3. **Herkunft.** Jede Regel ist einer Quelle zugeordnet:
    - `palladio`: Palladios eigene Regel;
    - `vitruvius`: Palladio gibt Vitruv wieder, der genannt ist;
@@ -49,7 +51,8 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
 | I | 29 + Vorrede | vollständig, am Scan geprüft | 196 |
 | II | 17 | vollständig, am Scan geprüft | 78 |
 | III | 21 + Vorrede | vollständig, am Scan geprüft | 96 |
-| IV | 31 + Vorrede | Theorieteil in `data/book4/`, Tempelkapitel offen | – |
+| IV | 31 + Vorrede | vollständig, am Scan geprüft | 108 |
+| **zusammen** | 98 + 3 Vorreden | | **478** |
 
 ## Buch I im Überblick
 
@@ -100,6 +103,57 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
   - Die Antiken „variarono“, aber ohne die „regole vniuersali, & necessarie
     dell'Arte“ zu verlassen (I, XX).
 
+## Buch IV im Überblick
+
+- **108 Regeln.** Nach Art: 32 Grundsätze, 22 Gebote, 20 Begründungen am
+  einzelnen Bau, 11 Verfahren, 10 Vorzüge, 10 Maßangaben, 2 Verbote,
+  1 Spielraum.
+- **Herkunft:** 61 von Palladio, 24 aus der Praxis der Antiken, 20 von Vitruv
+  (genannt), 3 aus dem Brauch der Zeit.
+- **Theorieteil (Vorrede bis Kap. V):** 61 Regeln. 39 Zitate sind die schon am
+  Scan geprüften Aussagen aus `data/book4/` (Vermerk in `note`).
+- **Tempelkapitel (VI–XXXI):** 47 Regeln. Maße und Beschreibungen der Tempel
+  bleiben Messdaten in `data/book4/`. Die Kapitel X, XVIII, XXI und XXXI
+  enthalten keine Regel.
+- **Scanprüfung:** 69 Zitate wurden neu gelesen. Dabei wurden 46 Stellen des
+  Entwurfs nach dem Druck korrigiert (Akzente, Apostrophe, Wortformen).
+  Ein Beispiel: In IV.XXX.1 liest die OCR „quelli“, gedruckt ist „questi“.
+
+### Was Buch IV für die Quellenkritik bringt
+
+- **Palladio sagt, wie seine Tafeln entstanden sind.**
+  - Die Gesamtgestalt hat er aus Resten und Fundamenten erschlossen
+    (IV.Proemio.6), mit Vitruvs Hilfe (IV.Proemio.7).
+  - Die Ornamente hat er an Fragmenten gemessen (IV.Proemio.8).
+  - Ergänzungen und Erfindungen nennt er ausdrücklich:
+    - die Cella des Mars Ultor, „di mia inuentione“ (IV.VII.2);
+    - innere Ornamente nach Fragmenten (IV.VII.3);
+    - Statuen (IV.IX.2);
+    - ein Gesims (IV.XIIII.2);
+    - ein ganzer Tempel aus einer Flanke und Vitruv (IV.XV.6);
+    - die Tür in Pola (IV.XXVII.1).
+
+  Solche Tafelteile sind keine Bauaufnahme. Sie dürfen nicht als Messbefund für
+  antike Proportionen zählen.
+- **Abweichungen von Vitruv mit Befund:**
+  - Postamente: Palladio verwirft sie (IV.V.6). Nur Assisi hat welche (IV.XXVI.1).
+  - Die ionische Basis Vitruvs kommt an keinem antiken Bau vor (IV.XIII.2).
+  - Die Regel „kein Zahnschnitt unter Konsolen“ ist selten befolgt (IV.XV.2).
+- **Spielraum und Urteil:**
+  - Abweichen vom Gebrauch ist erlaubt, „pur che tal uariatione sia gratiosa,
+    & habbia del naturale“ (IV.XXIIII.1).
+  - Ein Gebälk unter ⅕ der Säulenlänge wird gelobt (IV.XV.4).
+- **Wahrnehmung korrigiert das Maß:** Die inneren Säulen des Vortempels werden
+  dünner gemacht, damit alle gleich dick erscheinen (IV.V.12).
+- **Datierung nach dem Stil:** Das sind Palladios eigene Kriterien, nicht unsere:
+  - augusteische Bauten sind „più sode“ (IV.XIX.1);
+  - Kapitelle mit Olivenblättern weisen auf die gute Zeit (IV.XXIII.2);
+  - ein Bauteil, das zum Ganzen stimmt, ist gleich alt (IV.XX.3).
+- **San Giorgio Maggiore** kommt zweimal vor:
+  - die Kreuzform (IV.II.8);
+  - Blätter unter den zu kurzen Säulenschäften des Portals, nach antikem Vorbild
+    (IV.XVI.1, IV.XVI.2).
+
 ## Spätere Produkte (Deutungsschicht, getrennt vom Katalog)
 
 Zwei Anwendungen sind vorgesehen. Beide bauen auf dem Katalog auf, gehören aber
@@ -126,9 +180,14 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
 
 ## Nächste Schritte
 
-1. Die Kapitel von Buch II bis IV nach demselben Verfahren lesen.
+1. ~~Die Kapitel von Buch II bis IV nach demselben Verfahren lesen.~~ Erledigt:
+   478 Regeln aus 101 Kapiteln, alle am Scan geprüft.
 2. ~~San Giorgio Maggiore an vermessenen Plänen prüfen.~~ Erledigt mit Bertotti
    Scamozzi, *Le fabbriche e i disegni di Andrea Palladio*, Bd. IV, 1783
    (docs/15, docs/16).
 3. Die Regeln aus Buch I mit Buch IV abgleichen, ob die Säulenordnungen der Tempel
    den Maßen aus Buch I folgen.
+4. IV.XVI.2 (Portal von San Giorgio) in die Kriterien von docs/16 aufnehmen.
+5. Die Tafelteile, die Palladio als ergänzt oder erfunden bezeichnet (IV.VII.2,
+   IV.VII.3, IV.IX.2, IV.XIIII.2, IV.XV.6, IV.XXVII.1), in den Messdaten von
+   `data/book4/` kennzeichnen.

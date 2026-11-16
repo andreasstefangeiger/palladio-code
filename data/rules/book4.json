@@ -1,0 +1,2376 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro IV; e-rara DOI 10.3931/e-rara-363",
+ "transcription_policy": "Normalised reading of the 1570 print: long s rendered as s, u/v and spelling kept as printed, line-end hyphens joined; text outside the scan crop stands in square brackets. Every quotation is checked against the scan crop before evidence_class A is set.",
+ "rules": [
+  {
+   "id": "IV.Proemio.1",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "EIN fabrica alcuna",
+    "deue essere da noi adorato"
+   ],
+   "quote": "SE in fabrica alcuna è da esser posta opera, & industria, accioche ella con bella misura, e proportione sia compartita, ciò senza alcun dubbio si deue fare ne i Tempij, ne' quali esso Fattore, e Datore di tutte le cose DIO O. M. deue essere da noi adorato",
+   "rule_de": "Wenn irgendein Bau mit Mühe und Fleiß nach schönem Maß und Proportion eingeteilt werden muss, dann ohne Zweifel der Tempel, in dem Gott angebetet wird.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "proportion",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-PROEM-1 in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.2",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "se gli huomini nel",
+    "deuono ri guardare"
+   ],
+   "quote": "se gli huomini nel fabricarsi le proprie habitationi usano grandissima cura per ritrouare eccellenti, e periti Architetti, & sofficienti artefici, sono certamente obligati ad usarla molto maggiore nell'edificar le Chiese; Et se in quelle alla commodità principalmente attendono: in queste alla dignità, & grandezza di chi hà da esserui inuocato, & adorato deuono riguardare",
+   "rule_de": "Wer für das eigene Haus vortreffliche Architekten sucht, schuldet beim Kirchenbau noch größere Sorgfalt: Beim Haus zählt vor allem die Bequemlichkeit, bei der Kirche die Würde und Größe dessen, der darin angerufen wird.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "church",
+   "values": {},
+   "note": "= B4-PROEM-2 in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.3",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "ueramente considerando",
+    "conueneuolmente serua ."
+   ],
+   "quote": "[E] ueramente considerando noi questa bella machina del Mondo di quanti merauigliosi ornamenti ella sia ripiena; & come i Cieli co'l continuo lor girare uadino in lei le stagioni secondo il natural bisogno cangiando, & con la soauissima armonia del temperato lor mouimento se stessi conseruino; non possiamo dubitare, che douendo esser simili i piccioli Tempij, che noi facciamo, à questo grandissimo dalla sua immensa bontà con una sua parola perfettamente compiuto, non siamo tenuti à fare in loro tutti quelli ornamenti, che per noi siano possibili; & in modo, e con tal proportione edificarli, che tutte le parti insieme una soaue armonia apportino à gli occhi de' riguardanti, & ciascuna da per se all'uso, alquale sarà destinata conueneuolmente serua.",
+   "rule_de": "Die kleinen Tempel sollen dem großen Tempel der Welt ähnlich sein: mit allen möglichen Ornamenten und in solcher Proportion, dass alle Teile zusammen dem Auge eine sanfte Harmonie bieten und jeder Teil für sich seinem Gebrauch dient.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "harmony",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-PROEM-3 in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.4",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "Per laqual cosa , benche di molta",
+    "che la condition nostra comporti ."
+   ],
+   "quote": "Per laqual cosa, benche di molta lode siano degni coloro, iquali da ottimo spirito guidati, hanno già al sommo DIO Chiese, e Tempij fabricati, e fabricano tutta uia. Nondimeno non pare che senza qualche poco di riprensione debbiano rimanere, se non hanno ancho studiato di farli con quella miglior e piu nobil forma, che la condition nostra comporti.",
+   "rule_de": "Wer Kirchen baut, verdient Lob; doch nicht ohne Tadel, wenn er sich nicht bemüht hat, ihnen die beste und edelste Form zu geben, die unsere Lage erlaubt.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "church",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.5",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "io son per dimo",
+    "fabricar le chiese"
+   ],
+   "quote": "io son per dimostrar in questo libro la forma, e gli ornamenti di molti Tempij antichi, de quali ancora si veggono le ruine, e sono da me stati ridotti in disegno: accioche si possa da ciascuno conoscere con qual forma si debbiano, & con quali ornamenti fabricar le chiese",
+   "rule_de": "Das Buch zeigt Form und Ornamente vieler antiker Tempel, deren Ruinen noch stehen, damit jeder erkennen kann, mit welcher Form und welchen Ornamenten Kirchen zu bauen sind.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "church",
+   "values": {},
+   "note": "= B4-PROEM-4 in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.6",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "Et benche di alcuni di loro",
+    "quando erano intieri ."
+   ],
+   "quote": "Et benche di alcuni di loro se ne uegga picciola parte in piede sopra terra, io nondimeno da quella picciola parte, considerate ancho le fondamenta, che si sono potute uedere; sono andato conietturando quali douessero essere, quando erano intieri.",
+   "rule_de": "Rekonstruktionsverfahren: Wo nur wenig aufrecht steht, hat Palladio aus diesem Rest und den sichtbaren Fundamenten erschlossen, wie die Tempel vollständig aussahen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Erschlossen, nicht gemessen: gilt für die Gesamtgestalt (Aspekte, Formen).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.7",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "Et in questo mi è stato",
+    "delle forme loro"
+   ],
+   "quote": "Et in questo mi è stato di grandissimo aiuto Vitruuio: percioche incontrando quello ch'io uedeua, con quello, ch'egli ci insegna, non mi è stato molto difficile uenire in cognitione, e de gli aspetti, e delle forme loro",
+   "rule_de": "Dabei half Vitruv: Durch den Vergleich des Gesehenen mit seiner Lehre ließen sich Aspekte und Formen der Tempel erkennen.",
+   "kind": "procedure",
+   "attribution": "vitruvius",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-PROEM-5 in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.8",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 203,
+   "printed_page": "3",
+   "anchor": [
+    "Ma quanto à gli ornamenti",
+    "oue erano essi Tempij"
+   ],
+   "quote": "Ma quanto à gli ornamenti, cioè base, colonne, capitelli, cornici, e cose simili, non ui ho posto alcuna cosa del mio, ma sono stati misurati da me con somma consideratione da diuersi fragmenti ritrouati ne' luoghi, oue erano essi Tempij",
+   "rule_de": "Bei den Ornamenten (Basen, Säulen, Kapitelle, Gesimse) hat Palladio nichts Eigenes hinzugefügt; sie sind an Fragmenten vor Ort gemessen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Gegenstück zu IV.Proemio.6: Gesamtgestalt erschlossen, Ornament gemessen. Ausnahme ausdrücklich in IV.VII.1.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.Proemio.9",
+   "book": 4,
+   "chapter": "Proemio",
+   "phys": 204,
+   "printed_page": "4",
+   "anchor": [
+    "per indrizzar",
+    "scritto ."
+   ],
+   "quote": "per indrizzar l'intelletto al conoscer le belle, & proportionate forme de Tempij, & per cauarne molte nobili e uarie inuentioni, delle quali à luogo, e tempo seruendosi possano far conoscere nelle opere loro, come si debba, e possa uariare senza partirsi da' precetti dell'arte, & quanto simil uariatione sia laudabile, e gratiosa. Ma auanti che si uenga a' disegni, io breuemente, come son solito; dirò quelle auertenze, che nell'edificare i Tempij si deuono osseruare, hauendole tratte anch'io da Vitruuio e da altri huomini eccellentissimi iquali di si nobil'arte hanno scritto.",
+   "rule_de": "Die Zeichnungen sollen Vitruv verständlich machen, den Blick für schöne und proportionierte Tempelformen schulen und Erfindungen anregen; sie zeigen, wie man variieren kann, ohne die Regeln der Kunst zu verlassen, und wie lobenswert solche Variation ist.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "variation",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-PROEM-6 in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.I.1",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "anchor": [
+    "Dico adunque , chegli antichi Toscani",
+    "buone arti erano preposti"
+   ],
+   "quote": "Dico adunque, che gli antichi Toscani ordinarono che à Venere, à Marte, & à Vulcano, si facessero i Tempij fuori della Città, come à quelli, che mouessero gl'animi alle lasciuie, alle guerre, & à gli incendij; & nella Città à quelli, che alla Pudicitia, alla Pace, & alle buone arti erano preposti",
+   "rule_de": "Die antiken Etrusker bestimmten den Ort nach der Gottheit: Tempel der Venus, des Mars und des Vulcanus außerhalb der Stadt, Tempel der Keuschheit, des Friedens und der guten Künste in der Stadt.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "site",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-I-TOSCANI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.I.2",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "anchor": [
+    "eleggeremo quei siti per i Tempij",
+    "lo ueda e rimiri"
+   ],
+   "quote": "eleggeremo quei siti per i Tempij, che saranno nella più nobile, & più celebre parte della Città, lontani da' luoghi dishonesti, e sopra belle, & ornate piazze, nellequali molte strade mettano capo; onde ogni parte del Tempio possa esser ueduta con sua dignità, & arrechi diuotione, & merauiglia à chiunque lo ueda e rimiri.",
+   "rule_de": "Kirchen gehören an den vornehmsten und bekanntesten Ort der Stadt, fern von unehrenhaften Orten, an schöne Plätze, auf die viele Straßen münden, sodass jeder Teil mit Würde gesehen wird.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "site",
+   "scope": "church",
+   "values": {},
+   "note": "= B4-I-SITO in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.I.3",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "anchor": [
+    "E senella Città ui saranno colli",
+    "maggior diuotione , & Maestà"
+   ],
+   "quote": "E se nella Città ui saranno colli, si eleggerà la piu alta parte di quelli. Ma non ui essendo luoghi rileuati, si alzerà il piano del Tempio dal rimanente della Città, quanto sarà conueniente; e si ascenderà al Tempio per gradi: conciosia che il salire al Tempio apporti seco maggior diuotione, & Maestà.",
+   "rule_de": "Gibt es Hügel, wählt man den höchsten Teil; sonst hebt man den Boden des Tempels über die Stadt und steigt auf Stufen hinauf, denn das Hinaufsteigen bringt größere Andacht und Majestät.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "site.height",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-I-ALTEZZA in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.I.4",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "anchor": [
+    "Si faranno le fronti de",
+    "protetrice de ' Cittadini"
+   ],
+   "quote": "Si faranno le fronti de' Tempij, che guardino sopra grandissima parte della Città; accioche paia la Religione esser posta come per custode, & protetrice de' Cittadini.",
+   "rule_de": "Die Fronten der Tempel sollen über einen möglichst großen Teil der Stadt blicken, damit die Religion als Wächterin der Bürger erscheint.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orientation",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-I-FRONTI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.I.5",
+   "book": 4,
+   "chapter": "I",
+   "phys": 205,
+   "printed_page": "5",
+   "anchor": [
+    "Ma se si fabricheranno Tempij fuori della",
+    "fronte del Tempio"
+   ],
+   "quote": "Ma se si fabricheranno Tempij fuori della Città, all'hora le fronti loro si faranno, che guardino sopra le strade publiche, ò sopra i fiumi, se appresso quelli si fabricherà: accioche i passaggieri possano uederli, e fare le lor salutationi, e riuerenze dinanzi la fronte del Tempio.",
+   "rule_de": "Tempel außerhalb der Stadt richten ihre Fronten auf die öffentlichen Straßen oder auf den Fluss, damit die Vorüberziehenden sie sehen und vor der Front grüßen können.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orientation",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-I-FUORI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.1",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "TEMPII si fannoritondi",
+    "del compartimento de Tempij ."
+   ],
+   "quote": "I TEMPII si fanno ritondi; quadrangulari; di sei, otto, e più cantoni, iquali tutti finiscano nella capacità di un cerchio; à Croce; & di molte altre forme, e figure, secondo le uarie inuentioni de gli huomini: lequali ogni uolta che sono con belle, & conueneuoli proportioni, & con elegante, & ornata Architettura distinte; meritano di esser lodate. Ma le più belle, e più regolate forme, e dalle quali le altre riceuono le misure; sono la Ritonda, & la quadrangulare; e però di queste due solamente parla Vitruuio, & ci insegna come si debbano compartire; come si dirà quando si tratterà del compartimento de' Tempij.",
+   "rule_de": "Tempel werden rund, viereckig, sechs- oder achteckig, kreuzförmig und in vielen anderen Formen gebaut; jede ist lobenswert, wenn sie schöne Proportionen und gute Architektur hat. Die schönsten und regelmäßigsten, von denen die anderen ihr Maß empfangen, sind Rund und Viereck; nur von ihnen spricht Vitruv.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "forms",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-FORME in data/book4. Ausschnitt daraus.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.2",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "Ne ' Tempij , che ri",
+    "di più angoli , e lati ."
+   ],
+   "quote": "Ne' Tempij, che ritondi non sono, si deue osseruare diligentemente; che tutti gli angoli siano uguali, sia il Tempio di quattro, ò di sei, ò di più angoli, e lati.",
+   "rule_de": "Bei nicht runden Tempeln sind alle Winkel gleich zu machen, ob der Tempel vier, sechs oder mehr Ecken hat.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "forms",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-FORME in data/book4. Ausschnitt daraus.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.3",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "Hebberogli Antichi",
+    "come diro più di sotto ."
+   ],
+   "quote": "Hebbero gli Antichi riguardo à quello, che si conuenisse à ciascuno de' loro Dei non solo nell'eleggere i luoghi, ne' quali si douessero fabricare i Tempij, come è stato detto di sopra, ma ancho nell'elegger la forma: onde al Sole, & alla Luna, perche continuamente intorno al Mondo si girano, & con questo lor girare producono gli effetti à ciascuno manifesti, fecero i Tempij di forma ritonda: ò al meno che alla rotondità si auicinassero, & cosi ancho à Vesta, laqual dissero esser Dea della Terra; ilquale Elemento sappiamo ch'è tondo. A' Gioue, come patrone dell'Aere, & del Cielo, fecero i Tempij scoperti nel mezo co' portici intorno, come dirò più di sotto.",
+   "rule_de": "Die Antiken wählten auch die Form nach der Gottheit: Sonne, Mond und Vesta (Erde) runde oder annähernd runde Tempel, Jupiter als Herr der Luft und des Himmels in der Mitte offene Tempel mit umlaufenden Portiken.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "decorum",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-SOLE in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.4",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "Ne gli ornamenti ancora",
+    "parte dell ' Architettura ."
+   ],
+   "quote": "Ne gli ornamenti ancora hebbero grandissima consideratione à qual Dio fabricassero; per laqual cosa à Minerua, à Marte, & ad Hercole fecero i Tempij di opera Dorica: percioche à tali Dei diceuano conuenirsi per la militia, della quale erano fatti presidenti, le fabriche senza delicatezze, e tenerezze. Ma à Venere, à Flora, alle Muse, & alle Ninfe, & alle più delicate Dee, dissero douersi fare i Tempij, che alla fiorita, e tenera età Virginale si confacessero, onde à quelli diedero l'opra Corinthia: parendo loro, che l'opere sottili, e floride, ornate di foglie, & di uolute si conuenissero à tale età. Ma à Giunone, à Diana, à Bacco, & ad altri Dei, à iquali ne la grauità de' primi, ne la delicatezza de' secondi, pareua che si conuenisse; attribuirono l'opere Ioniche; le quali tra le Doriche, e le Corinthie tengono il luogo di mezo. Cosi leggiamo che gli Antichi nell'edificare i Tempij si ingegnarono di seruare il Decoro, nel quale consiste una bellissima parte dell'Architettura.",
+   "rule_de": "Auch die Ordnung richtet sich nach der Gottheit: dorisch für Minerva, Mars und Herkules; korinthisch für Venus, Flora, die Musen, die Nymphen und die zarteren Göttinnen; ionisch für Juno, Diana, Bacchus und andere als Mitte. Darin liegt das Decorum, ein sehr schöner Teil der Architektur.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "decorum",
+   "scope": "temple",
+   "values": {
+    "doric": [
+     "Minerua",
+     "Marte",
+     "Hercole"
+    ],
+    "corinthian": [
+     "Venere",
+     "Flora",
+     "Muse",
+     "Ninfe"
+    ],
+    "ionic": [
+     "Giunone",
+     "Diana",
+     "Bacco"
+    ]
+   },
+   "note": "= B4-II-DECORO in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.5",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "E però ancora noi",
+    "Giustitia di DIO ."
+   ],
+   "quote": "E però ancora noi, che non habbiamo i Dei falsi, per seruare il Decoro circa la forma de' Tempij, eleggeremo la più perfetta, & più eccellente; e conciosiache la Ritonda sia tale, perche sola tra tutte le figure è semplice, uniforme, eguale, forte, e capace, faremo i Tempij ritondi; à quali si conuiene massimamente questa figura, perche essendo essa da un solo termine rinchiusa, nel quale non si può ne principio, ne fine trouare, ne l'uno dall'altro distinguere; & hauendo le sue parti simili tra di loro, e che tutte participano della figura del tutto; e finalmente ritrouandosi in ogni sua parte l'estremo egualmente lontano dal mezo; è attissima a dimostrare la Vnità, la infinita Essenza, la Vniformità, & la Giustitia di DIO.",
+   "rule_de": "Zur Wahrung des Decorum wählen die Christen die vollkommenste Form, den Kreis: einfach, gleichförmig, gleich, stark und fassungsreich, ohne Anfang und Ende, alle Teile ähnlich und gleich weit von der Mitte; er zeigt am besten Einheit, unendliches Wesen, Gleichförmigkeit und Gerechtigkeit Gottes.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "forms",
+   "scope": "church",
+   "values": {},
+   "note": "= B4-II-RITONDA in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.6",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "Oltra di ciò non si",
+    "mente si conuenga ."
+   ],
+   "quote": "Oltra di ciò non si può negare, che la fortezza, e perpetuità non si ricerchi più ne' Tempij, che in tutte le altre fabriche, conciosia che essi siano dedicati à DIO O. M. & si conseruino in loro le piu celebri, & le piu degne memorie delle Città; onde, & per questa ragione ancora, si deue dire, che la figura ritonda, nella quale non è alcun'angolo; à i Tempij sommamente si conuenga.",
+   "rule_de": "Festigkeit und Dauer verlangt man vom Tempel mehr als von jedem anderen Bau, weil er Gott geweiht ist und die ehrwürdigsten Erinnerungen der Stadt bewahrt; auch deshalb passt ihm die runde Figur ohne Ecken am meisten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "forms",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.7",
+   "book": 4,
+   "chapter": "II",
+   "phys": 206,
+   "printed_page": "6",
+   "anchor": [
+    "Deuono ancho essere i Tempij capacissimi",
+    "niuna è più capace della Ritonda ."
+   ],
+   "quote": "Deuono ancho essere i Tempij capacissimi, acciò che molta gente commodamente ui possa stare à i Diuini officij; e tra tutte le figure, che sono terminate da equale circonferenza, niuna è più capace della Ritonda.",
+   "rule_de": "Tempel sollen sehr fassungsreich sein, damit viele Menschen bequem dem Gottesdienst beiwohnen; von allen Figuren gleichen Umfangs fasst der Kreis am meisten.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "forms",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.8",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "6–7",
+   "anchor": [
+    "se , che sono fatte",
+    "San Giorgio Maggiore in Venetia ."
+   ],
+   "quote": "[Sono anco molto laudabili quelle Chie]se, che sono fatte in forma di Croce, lequali nella parte, che sarebbe il piede della Croce, hanno l'entrata; & all'incontro l'altar maggiore, & il Choro; & nelli due rami, che si estendono dall'uno, & l'altro lato, come braccia; due altre entrate, ouero due altri altari; perche essendo figurate con la forma della Croce rappresentano à gli occhi de' riguardanti quel legno, dal quale stete pendente la salute nostra. Et di questa forma io ho fatto la Chiesa di San Giorgio Maggiore in Venetia.",
+   "rule_de": "Lobenswert sind auch kreuzförmige Kirchen: Eingang am Fuß des Kreuzes, gegenüber Hauptaltar und Chor, in den Armen zwei weitere Eingänge oder Altäre; sie stellen das Holz vor Augen, an dem unser Heil hing. In dieser Form hat Palladio San Giorgio Maggiore gebaut.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "forms",
+   "scope": "church",
+   "values": {},
+   "note": "Eigener Bau genannt: San Giorgio Maggiore. = B4-II-CROCE in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.9",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Deuono hauere i Tempij",
+    "proportioni fabricati"
+   ],
+   "quote": "Deuono hauere i Tempij i portici ampij, & con maggior colonne di quello, che ricerchino le altre fabriche, & stà bene che essi siano grandi, e Magnifici (ma non però maggiori di quello, che ricerchi la grandezza della Città) & con grandi, e belle proportioni fabricati.",
+   "rule_de": "Tempel brauchen weite Portiken mit größeren Säulen als andere Bauten; sie sollen groß und prächtig sein, aber nicht größer, als die Größe der Stadt verlangt, und mit großen, schönen Proportionen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "proportion",
+   "scope": "temple",
+   "values": {},
+   "note": "Keine Zahlen: Proportion wird verlangt, nicht neu bestimmt. = B4-II-PROPORTIONI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.10",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Impe",
+    "conuenienti ornamenti"
+   ],
+   "quote": "Imperoche al Culto Diuino, per ilquale essi si fanno, si richiede ogni magnificenza, e grandezza. Deuono esser fatti con bellissimi ordini di colonne, e si deue à ciascun'ordine dare i suoi proprij, e conuenienti ornamenti.",
+   "rule_de": "Der Gottesdienst verlangt jede Pracht; Tempel sollen sehr schöne Säulenordnungen haben, und jede Ordnung erhält ihre eigenen, passenden Ornamente.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orders",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-ORDINI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.11",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Si faranno dimateria",
+    "e uenustà loro"
+   ],
+   "quote": "Si faranno di materia eccellentissima, & della piu preciosa; accioche con la forma, con gli ornamenti, & con la materia si honori quanto più si può la Diuinità: e se possibil fosse, si doueriano fare, c'hauessero tanto di bellezza, che non si potesse imaginare cosa più bella; & cosi in ogni loro parte disposti, che coloro che ui entrano si merauigliassero, & stessero con gli animi sospesi nel considerare la gratia, e uenustà loro.",
+   "rule_de": "Tempel baut man aus dem vortrefflichsten und kostbarsten Material, damit Form, Ornament und Material Gott ehren; wenn möglich so schön, dass man sich nichts Schöneres vorstellen kann und die Eintretenden staunen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "materials",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-MATERIA in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.12",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Tra tutti",
+    "grata à DIO"
+   ],
+   "quote": "Tra tutti i colori niuno è, che si conuenga più à i Tempij, della bianchezza: conciosiache la purità del colore, e della uita sia sommamente grata à DIO.",
+   "rule_de": "Keine Farbe passt besser zum Tempel als Weiß, denn Reinheit der Farbe und des Lebens ist Gott besonders lieb.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "color",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-BIANCO in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.II.13",
+   "book": 4,
+   "chapter": "II",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Ma se si disingeranno",
+    "bene operare"
+   ],
+   "quote": "Ma se si dipingeranno, non ui staranno bene quelle pitture, che con il significato loro alienino l'animo dalla contemplatione delle cose Diuine; percioche non si dobbiamo ne i Tempij partire dalla grauità, & da quelle cose, che uedute da noi rendano gli animi nostri più infiammati al Culto Diuino, & al bene operare.",
+   "rule_de": "Wird der Tempel ausgemalt, so gehören keine Bilder hinein, die den Geist von der Betrachtung göttlicher Dinge ablenken; man soll sich im Tempel nicht von der Würde entfernen.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "painting",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-II-PITTURE in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.1",
+   "book": 4,
+   "chapter": "III",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Sette sonolpiù regolati",
+    "ce Vitruuio"
+   ],
+   "quote": "Sette sono i più regolati, e meglio intesi Aspetti de i Tempij, de' quali mi è paruto come necessario, il por quì quel tanto, che ne dice Vitruuio",
+   "rule_de": "Es gibt sieben regelmäßige und gut verstandene Aspekte der Tempel; Palladio gibt wieder, was Vitruv darüber sagt.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-III-ASPETTI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.2",
+   "book": 4,
+   "chapter": "III",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "& ho uolu",
+    "di legger cose diuerse ."
+   ],
+   "quote": "& ho uoluto usare ancho i nomi de' quali egli si serue, accioche coloro, che si porranno alla lettura di esso Vitruuio; allaquale esorto ciascuno; riconoscano in quello i medesimi nomi, e non paia loro di legger cose diuerse.",
+   "rule_de": "Palladio verwendet Vitruvs Namen der Aspekte, damit Leser Vitruvs – zu dessen Lektüre er jeden ermahnt – dieselben Namen wiedererkennen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "terminology",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.3",
+   "book": 4,
+   "chapter": "III",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "Per uenire dunque al proposito",
+    "l ' aspetto detto Amphiprostilos ."
+   ],
+   "quote": "Per uenire dunque al proposito nostro, i Tempij si fanno, ò con i portici, ò senza portici. Quelli, che senza portici si fanno; possono hauer tre aspetti: l'uno si nomina in Antis, cioè faccia in pilastri: perche Ante si chiamano i pilastri, che si fanno ne gli angoli, ouero cantoni delle fabriche. De gli altri due, uno si dice Prostilos, cioè faccia in colonne; e l'altro Amphiprostilos. Quello, che in Antis è nominato, hauerà due pilastri ne i cantoni, che uoltano ancho da i lati del Tempio, & tra detti pilastri nel mezo della fronte due colonne, che sportino in fuori, e sostengano il frontespicio, che sarà sopra l'entrata. Quell'altro, che Prostilos è detto, hauerà di piu del primo ancho ne i cantoni le colonne rincontro à i pilastri, & dalla destra, e dalla sinistra nel uoltar de cantoni due altre colonne, cioè una per banda. Ma se nella parte di dietro si seruarà lo istesso modo di colonne, & di frontespicio, ne risulterà l'aspetto detto Amphiprostilos.",
+   "rule_de": "Tempel ohne Portiken haben drei Aspekte: in Antis (zwei Eckpfeiler, dazwischen zwei Säulen unter dem Giebel), Prostylos (dazu Säulen vor den Ecken und je eine an den Seiten) und Amphiprostylos (dasselbe auch an der Rückseite).",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {
+    "in_antis": "2 ante + 2 colonne",
+    "prostilos": "fronte in colonne",
+    "amphiprostilos": "fronte e retro"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.4",
+   "book": 4,
+   "chapter": "III",
+   "phys": 207,
+   "printed_page": "7",
+   "anchor": [
+    "De due primi aspetti",
+    "e ' l suo diritto"
+   ],
+   "quote": "De' due primi aspetti di Tempij a nostri giorni non si hà reliquia alcuna; e però in questo libro non ui saranno gli esempi. Ne mi è paruto bisogno di farne i disegni, essendo di ciascuno di questi aspetti figurata la pianta, e'l suo diritto [nel Vitruuio commentato da Monsignor Reuerendissimo Barbaro.]",
+   "rule_de": "Von den ersten beiden Aspekten gibt es keine Reste; deshalb zeigt das Buch keine Beispiele und verweist auf Grundriss und Aufriss im Vitruv-Kommentar Barbaros.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "temple",
+   "values": {},
+   "note": "Schluss in eckigen Klammern auf S. 8 (phys 208), am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.5",
+   "book": 4,
+   "chapter": "III",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Ma se ài Tempij si fan",
+    "quanto un ' intercolunnio ."
+   ],
+   "quote": "Ma se à i Tempij si fanno i portici, all'hora, ò si fanno intorno à tutto il Tempio, ò nella fronte solamente. Quelli c'hanno i portici solo nella facciata dauanti, si può dire che anch'essi habbiano l'aspetto detto Prostilos. Ma quelli, che si fanno con i portici intorno, possono farsi di quattro aspetti; percioche ò si fanno con sei colonne nella facciata dauanti, & in quella di dietro; & con undici colonne ne' lati, computandoui le angulari; e questo Aspetto si chiama Peripteros, cioè Alato à torno: e uengono i portici intorno la Cella a esser larghi quanto un'intercolunnio.",
+   "rule_de": "Tempel mit Portik nur an der Front sind ebenfalls Prostylos. Tempel mit umlaufendem Portik haben vier Aspekte; der erste, Peripteros, hat sechs Säulen an Front und Rückseite und elf an den Seiten (Ecksäulen mitgezählt); der Umgang ist ein Interkolumnium breit.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {
+    "front": 6,
+    "sides": 11,
+    "portico_width": "1 intercolunnio"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.6",
+   "book": 4,
+   "chapter": "III",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Si ueggono Tempij Antichi",
+    "uedeua il Tempio per fian co ."
+   ],
+   "quote": "Si ueggono Tempij Antichi, c'hanno sei colonne nella facciata; e non hanno però portici intorno; ma ne' muri della Cella, nella parte di fuori, ui sono meze colonne, che accompagnano quelle del portico; & hanno i medesimi ornamenti; come à Nimes in Prouenza: & di questa sorte si può dire che sia in Roma il Tempio di ordine Ionico; che hora è la Chiesa di Santa Maria Egittiaca. Ilche fecero quelli Architetti per fare più larga la Cella, e per iscemare la spesa; rimanendo nondimeno il medesimo aspetto dell'Alato à torno à chi uedeua il Tempio per fianco.",
+   "rule_de": "Antike Tempel mit sechs Frontsäulen ohne Umgang, aber mit Halbsäulen an den Cellawänden (Nîmes, S. Maria Egiziaca): So wurde die Cella breiter und der Bau billiger, und von der Seite blieb der Aspekt des Peripteros erhalten.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {},
+   "note": "Pseudoperipteros; Palladio gibt ihm keinen eigenen Namen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.7",
+   "book": 4,
+   "chapter": "III",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Ouero si pongono à i Tempij otto",
+    "cioè Alato doppio ."
+   ],
+   "quote": "Ouero si pongono à i Tempij otto colonne per fronte, e quindeci da i lati con le angulari: questi uengono ad hauere i portici intorno doppij; e però l'aspetto loro è detto Dipteros, cioè Alato doppio.",
+   "rule_de": "Dipteros: acht Säulen an der Front, fünfzehn an den Seiten (Ecksäulen mitgezählt), doppelter Umgang.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {
+    "front": 8,
+    "sides": 15,
+    "portico": "doppio"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.8",
+   "book": 4,
+   "chapter": "III",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Ouero si fanno bene i Tempij",
+    "e non leuò cosa alcuna dall ’ aspetto ."
+   ],
+   "quote": "Ouero si fanno bene i Tempij, c'habbiano, come il sopradetto; otto colonne per fronte; e quindici ne' lati; ma i portici intorno non si fanno doppij, perche si toglie uia un'ordine di colonne; onde essi portici uengono ad essere larghi quanto sono due intercolunnij, & una grossezza di Colonna; et si chiama il loro aspetto Pseudodipteros, cioè Falso alato doppio. Questo Aspetto fu inuentione di Hermogine antichissimo Architetto; ilquale in questo modo fece i portici intorno al Tempio larghi, e commodi, aleggeri la fatica, & la spesa, e non leuò cosa alcuna dall'aspetto.",
+   "rule_de": "Pseudodipteros: acht mal fünfzehn Säulen wie beim Dipteros, aber ohne die innere Säulenreihe; der Umgang ist zwei Interkolumnien und eine Säulendicke breit. Erfindung des Hermogenes: weite, bequeme Umgänge, weniger Arbeit und Kosten, ohne Verlust am Aspekt.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {
+    "front": 8,
+    "sides": 15,
+    "portico_width": "2 intercolunnij + 1 grossezza"
+   },
+   "note": "'aleggeri' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.III.9",
+   "book": 4,
+   "chapter": "III",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Ouero finalmente si fanno",
+    "si poneual ' Altare"
+   ],
+   "quote": "Ouero finalmente si fanno, che nell'una, & l'altra facciata ui siano diece colonne, & i portici intorno doppij, come in quelli, c'hanno l'aspetto Dipteros. Questi Tempij nella parte di dentro haueuano altri portici con due ordini di colonne uno sopra l'altro, & erano queste colonne minori di quelle di fuori; il coperto ueniua dalle colonne di fuori a quelle di dentro; & tutto lo spatio circondato dalle colonne di dentro era scoperto: onde l'aspetto di questi Tempij si dimandaua Hipethros, cioè discoperto; Si dedicauano questi Tempij à Gioue come à Patrone del Cielo, e dell'Aere: & nel mezo del Cortile si poneua l'Altare",
+   "rule_de": "Hypaethros: zehn Säulen an jeder Front, doppelter Umgang; innen zweigeschossige Portiken mit kleineren Säulen, der Raum dazwischen offen. Diese Tempel waren Jupiter geweiht; der Altar stand in der Mitte des Hofes.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "aspects",
+   "scope": "temple",
+   "values": {
+    "front": 10,
+    "inner_orders": 2
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.1",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "SARONO gli Antichi",
+    "grandexza à quelle fabriche ."
+   ],
+   "quote": "[V]SARONO gli Antichi (come è stato detto di sopra) di fare i portici à i loro Tempij per commodità del Popolo; accioche egli hauesse doue trattenersi, e passeggiare fuori della Cella; nella quale si faceuano i sacrificij: & per dare maggior Maestà, e grandezza à quelle fabriche.",
+   "rule_de": "Die Antiken gaben ihren Tempeln Portiken, damit das Volk außerhalb der Cella, in der man opferte, verweilen und umhergehen konnte, und um den Bauten größere Majestät zu geben.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "porticoes",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.2",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Onde perche si",
+    "conuenienti interualli ."
+   ],
+   "quote": "Onde perche si posson far gli interualli, che son tra colonna, e colonna, di cinque grandezze, secondo quelle distingue Vitruuio cinque specie, ò maniere di Tempij: delle quali sono i nomi: Picnostilos, cioè di spesse colonne: Sistilos, più larghe: Diastilos, ancora più distanti: Areostilos, oltra quello, che si conuiene lontane: & Eustilos c'ha ragioneuoli, & conuenienti interualli.",
+   "rule_de": "Nach den fünf möglichen Säulenabständen unterscheidet Vitruv fünf Tempelarten: Pyknostylos (dichte Säulen), Systylos (weiter), Diastylos (noch weiter), Araeostylos (weiter als schicklich) und Eustylos (vernünftige, angemessene Abstände).",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {
+    "species": [
+     "Picnostilos",
+     "Sistilos",
+     "Diastilos",
+     "Areostilos",
+     "Eustilos"
+    ]
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.3",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 208,
+   "printed_page": "8",
+   "anchor": [
+    "Di tutti quali intercolunnij",
+    "dir qui altro"
+   ],
+   "quote": "Di tutti iquali intercolunnij come siano, & qual proportione debbano hauere con la lunghezza delle colonne, è stato detto di sopra nel primo Libro; & posti i disegni: però non mi occorre dir quì altro",
+   "rule_de": "Wie die Interkolumnien beschaffen sind und in welchem Verhältnis sie zur Säulenlänge stehen, ist in Buch I gesagt und gezeichnet.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {},
+   "note": "Verweis auf Buch I. = B4-IV-RIF-I in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.4",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "diametri di colonna ; sono molto piccioli",
+    "quasituttii Tempij Antichi ."
+   ],
+   "quote": "[senon, che le quattro prime maniere sono difettose. Le due prime; perche essendo gli intercolunnij di un diametro, e mezo, ò di due] diametri di colonna; sono molto piccioli, e stretti; onde non possono due persone entrare ne i portici al pari; ma bisogna che vadino à fila, vna dietro l'altra: & le porte, & i loro ornamenti non si possono veder di lontano: e finalmente perche per la strettezza de gli spacij è impedito il caminare d'intorno al Tempio. Sono però queste due maniere tollerabili, quando si fanno le colonne grandi; come si vede in quasi tutti i Tempij Antichi.",
+   "rule_de": "Die ersten vier Arten sind fehlerhaft. Pyknostylos (1½ Durchmesser) und Systylos (2 Durchmesser) sind zu eng: Zwei Personen können nicht nebeneinander eintreten, Türen und Ornamente sieht man nicht von fern, der Umgang ist behindert. Erträglich sind sie bei großen Säulen, wie an fast allen antiken Tempeln.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {
+    "picnostilos": 1.5,
+    "sistilos": 2
+   },
+   "note": "Satzanfang in eckigen Klammern auf S. 8 (phys 208), am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.5",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Laterza , perche",
+    "lascino libero l ' Architraue ."
+   ],
+   "quote": "La terza, perche potendosi porre tra le colonne, tre diametri di colonna; uengono ad essere gli intercolunnij molto larghi; onde gli Architraui per la grandezza de gli spacij si spezzano. Ma à questo difetto si può prouedere facendo sopra l'Architraue, nella altezza del Fregio, Archi, ouer Remenati, che sonstentino il carico, e lascino libero l'Architraue.",
+   "rule_de": "Diastylos (3 Durchmesser) ist so weit, dass die Architrave brechen. Abhilfe: in Höhe des Frieses über dem Architrav Bögen oder Flachbögen, die die Last tragen und den Architrav entlasten.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {
+    "diastilos": 3
+   },
+   "note": "'sonstentino' so gedruckt (sostentino).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.6",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "La quarta maniera",
+    "propria dell ' ordine Toscano ."
+   ],
+   "quote": "La quarta maniera, benche non patisca il difetto della sopradetta, perche non si vsano gli Architraui di Pietra, nè di Marmo; ma sopra le colonne si pongono le traui di legno; si può nondimeno dire ancor ella difettosa; perche è bassa, larga, & humile, & è propria dell'ordine Toscano.",
+   "rule_de": "Araeostylos hat diesen Fehler nicht, weil man Holzbalken statt steinerner Architrave auflegt; fehlerhaft ist es dennoch, weil es niedrig, breit und niedrig im Rang ist; es gehört zur toskanischen Ordnung.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.7",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Di modo che la più",
+    "alla fermezzi ."
+   ],
+   "quote": "Di modo che la più bella, & elegante maniera di tempij è quella, che Eustilos è detta: laquale è quando gli intercolunnij sono di due diametri di colonna, & vn quarto; percioche serue ottimamente all'vso, alla bellezza, & alla fermezza.",
+   "rule_de": "Die schönste und eleganteste Tempelart ist Eustylos mit Interkolumnien von 2¼ Durchmessern, denn sie dient am besten dem Gebrauch, der Schönheit und der Festigkeit.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {
+    "eustilos": 2.25
+   },
+   "note": "= B4-IV-EUSTILOS in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IIII.8",
+   "book": 4,
+   "chapter": "IIII",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Io ho nominato le maniere",
+    "che seguiranno ."
+   ],
+   "quote": "Io ho nominato le maniere de' Tempij con quegli istessi nomi che mette Vitruuio, come ho fatto ancho gli aspetti; si per la causa detta di sopra; si ancho perche tali nomi paiono già esser stati riceuuti dalla nostra lingua, e da ciascuno s'intendono; e però mi seruirò ancho di loro ne i disegni de i Tempij, che seguiranno.",
+   "rule_de": "Palladio benennt die Tempelarten wie die Aspekte mit Vitruvs Namen, weil diese in die Sprache aufgenommen sind und von jedem verstanden werden; er verwendet sie auch in den folgenden Zeichnungen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "terminology",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.1",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "ENCHE in tutte",
+    "di bello , e di raro ."
+   ],
+   "quote": "BENCHE in tutte le fabriche si ricerchi, che le parti loro insieme corrispondano, & habbiano tal proportione, che nessuna sia, con la quale non si possa misurare il tutto, & le altre parti ancora: Questo nondimeno con estrema cura si deue osseruare ne i Tempij, percioche alla Diuinità sono consacrati, per honore, & osseruanza della quale si deue operare quanto si può di bello, e di raro.",
+   "rule_de": "In jedem Bau sollen die Teile so zusammenstimmen, dass jeder Teil das Ganze und die anderen Teile misst; beim Tempel ist dies mit äußerster Sorgfalt zu beachten, weil er Gott geweiht ist.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "proportion",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-V-COMMISURA in data/book4. Ausschnitt daraus.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.2",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "pij ritondi si faceuano",
+    "partiscono ."
+   ],
+   "quote": "I Tempij ritondi si faceuano anticamente alcuna volta aperti, cioè senza cella, con colonne che sosteneuano la cupola, come quelli, che si dedicauano à Giunone Lacinia, nel mezo de' quali si poneua l'altare, e sopra quello il fuoco, il quale era inestinguibile: questi in tal modo si compartiscono.",
+   "rule_de": "Runde Tempel baute man in der Antike bisweilen offen, ohne Cella, mit Säulen unter der Kuppel (so für Juno Lacinia), mit dem Altar und dem ewigen Feuer in der Mitte.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "round.monopteros",
+   "scope": "temple",
+   "values": {},
+   "note": "'Tẽpij' gedruckt mit Kürzungsstrich, aufgelöst.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.3",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Si diuide il diametro",
+    "della loro altezza ."
+   ],
+   "quote": "Si diuide il diametro di tutto lo spacio, che deue occupare il Tempio in tre parti eguali: vna se ne dà à i gradi, cioè alla salita su'l piano del Tempio, e due rimangono al Tempio, & alle colonne, lequali si pongono sopra piedestili, e sono alte con base, e capitello, quanto è il diametro del minor giro de i gradi, & grosse per la decima parte della loro altezza.",
+   "rule_de": "Offener Rundtempel: Der Durchmesser des ganzen Platzes wird gedrittelt, ein Drittel für die Stufen, zwei für Tempel und Säulen; die Säulen stehen auf Postamenten, sind mit Basis und Kapitell so hoch wie der Durchmesser des inneren Stufenkreises und ein Zehntel ihrer Höhe dick.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "round.monopteros",
+   "scope": "temple",
+   "values": {
+    "steps": "1/3 Durchmesser",
+    "column_height": "Durchmesser des inneren Stufenkreises",
+    "column_thickness": "1/10 Höhe"
+   },
+   "note": "Vitruv genannt im Schlusssatz 'cosi compartisse Vitruuio i Tempij ritondi' (IV.V.5). = B4-V-MONOPTEROS in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.4",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "L ' Architraue , il Fregio , & gli altri",
+    "sorti di Tempij ."
+   ],
+   "quote": "L'Architraue, il Fregio, & gli altri ornamenti si fanno secondo è stato detto nel primo libro, cosi in questa come in tutte l'altre sorti di Tempij.",
+   "rule_de": "Architrav, Fries und die übrigen Ornamente werden in allen Tempelarten so gemacht, wie in Buch I gesagt.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "entablature",
+   "scope": "temple",
+   "values": {},
+   "note": "Verweis auf Buch I. = B4-V-RIF-ORNAMENTI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.5",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Ma quelli , che si fanno chiusi",
+    "i Tempij ritondi ."
+   ],
+   "quote": "Ma quelli, che si fanno chiusi, cioè con la cella, ò si fanno con le ale à torno, ouero con vn portico solamente nella fronte. Di quelli c'hanno le ale à torno le ragioni sono queste; prima à torno à torno si fanno due gradi, e sopra si pongono i piedestili, sopra i quali sono le colonne; le ale sono larghe per la quinta parte del diametro del Tempio; pigliando il diametro nella parte di dentro de i piedestili. Le colonne sono lunghe quanto è larga la cella, e sono grosse la decima parte della longhezza. La Tribuna, ouer cupola si fa alta sopra l'Architraue, Fregio, e Cornice delle ale, per la metà di tutta l'opera: cosi compartisse Vitruuio i Tempij ritondi.",
+   "rule_de": "Geschlossener Rundtempel mit Umgang: ringsum zwei Stufen, darauf Postamente und Säulen; Umgang ⅕ des Durchmessers (innen an den Postamenten gemessen); Säulen so lang wie die Cella breit, ein Zehntel so dick; die Kuppel über dem Gebälk halb so hoch wie das ganze Werk.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "round.peripteros",
+   "scope": "temple",
+   "values": {
+    "steps": 2,
+    "ale": "1/5 Durchmesser",
+    "column_length": "Breite der Cella",
+    "column_thickness": "1/10",
+    "dome_height": "1/2 des Ganzen"
+   },
+   "note": "Ab 'le ale sono larghe' = B4-V-PERIPTEROS in data/book4. 'pógono' gedruckt mit Kürzungszeichen, aufgelöst.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.6",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Maperò ne ' Tempij Antichi",
+    "grandexza , e magnificenza ."
+   ],
+   "quote": "Ma però ne' Tempij Antichi non si veggono Piedestili, ma le colonne cominciano dal piano del Tempio; ilche molto più mi piace; si perche con i piedestili si impedisce molto l'entrare al Tempio; si ancho perche le colonne, le quali da terra cominciano; rendono maggior grandezza, e magnificenza.",
+   "rule_de": "An antiken Tempeln sieht man keine Postamente; die Säulen beginnen auf dem Tempelboden. Das gefällt Palladio viel besser, weil Postamente den Eintritt behindern und Säulen, die vom Boden aufsteigen, größere Größe und Pracht zeigen.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "pedestals",
+   "scope": "temple",
+   "values": {},
+   "note": "Palladio weicht hier ausdrücklich von Vitruvs Regel ab. = B4-V-PIEDESTILI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.7",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9",
+   "anchor": [
+    "Mase à i Tempij ritondi",
+    "sualunghezzi ."
+   ],
+   "quote": "Ma se à i Tempij ritondi si porrà il portico solo nella fronte, egli si farà lungo quanto la larghezza della cella, ò la ottaua parte meno: si potrà fare ancho più corto, ma non però che giamai sia meno lungo di tre quarti della larghezza del Tempio; e non si farà più largo della terza parte della sua lunghezza.",
+   "rule_de": "Bekommt ein Rundtempel nur einen Frontportikus, so ist er so lang wie die Cella breit oder ein Achtel weniger, nie kürzer als ¾ der Tempelbreite und nicht tiefer als ⅓ seiner Länge.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "round.portico",
+   "scope": "temple",
+   "values": {
+    "length_max": "Breite der Cella",
+    "length_default": "Breite − 1/8",
+    "length_min": "3/4 Tempelbreite",
+    "depth_max": "1/3 Länge"
+   },
+   "note": "Vitruv in diesem Satz nicht genannt. = B4-V-PORTICO-TONDO in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.8",
+   "book": 4,
+   "chapter": "V",
+   "phys": 209,
+   "printed_page": "9–10",
+   "anchor": [
+    "Ne i Tempij quadrangulari",
+    "di diece"
+   ],
+   "quote": "Ne i Tempij quadrangulari i portici nelle fronti si faranno longhi quanto sarà la larghezza di essi Tempij: E se saranno della maniera Eustilos, che è la bella, & elegante, in tal modo si compartiranno, se l'aspetto si farà di quattro colonne, si diuiderà tutta la facciata del Tempio, (lasciati fuora gli sporti delle base delle colonne, che saranno nelle cantonate) in undeci parti e meza; & una di queste parti si chiamerà modulo, cioè misura, con la quale si misureranno tutte le altre parti; perche facendosi le colonne grosse un modulo; quattro se ne daranno à quelle; tre all'intercolunnio di mezo; e quattro e mezo à gli altri due intercolunnij, cioè due, & vn quarto per uno: se la fronte sarà di sei colonne, si partirà in deceotto: se di otto, in uentiquattro e meza; & se di diece [in trent'vna]",
+   "rule_de": "Beim viereckigen Tempel ist der Frontportikus so lang wie der Tempel breit. Eustylos viersäulig: Die Front (ohne die Basisvorsprünge der Ecksäulen) wird in 11½ Teile geteilt; ein Teil ist der Modul. Säulen 1 Modul, Mittelinterkolumnium 3, die übrigen 2¼. Sechssäulig 18, achtsäulig 24½, zehnsäulig 31 Teile.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "module",
+   "scope": "temple",
+   "values": {
+    "tetrastyle": 11.5,
+    "hexastyle": 18,
+    "octastyle": 24.5,
+    "decastyle": 31,
+    "column": 1,
+    "middle_intercolumn": 3,
+    "other_intercolumns": 2.25
+   },
+   "note": "Vitruv genannt im Schlusssatz 'Cosi compartirono gli Antichi … come ci insegna Vitruuio' (IV.V.14). = B4-V-MODULO in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.9",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "L ' altezzi delle colonne",
+    "trattato degli intercolunnij"
+   ],
+   "quote": "L'altezza delle colonne si farà secondo che saranno ò Ioniche, ò Corinthie. Come si debbano regolare gli aspetti delle altre maniere de' Tempij, cioè della Picnostilos, Sistilos, Diastilos, & Areostilos s'è detto à pieno nel primo libro, quando habbiamo trattato degli intercolunnij",
+   "rule_de": "Die Säulenhöhe richtet sich danach, ob die Säulen ionisch oder korinthisch sind; die übrigen Tempelarten regelt Buch I bei den Interkolumnien.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "intercolumniation",
+   "scope": "temple",
+   "values": {},
+   "note": "Verweis auf Buch I.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.10",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "Oltra il portico",
+    "all ' Antitempio"
+   ],
+   "quote": "Oltra il portico si troua l'Antitempio, e da poi la Cella: Si diuide la larghezza in quattro parti, e per otto di quelle si fa la lunghezza del Tempio, & di queste, cinque si danno alla lunghezza della Cella, includendoui le mura, nelle quali sono le porte; e le altre tre rimangono all'Antitempio",
+   "rule_de": "Hinter dem Portikus liegen Vortempel und Cella: Die Länge des Tempels ist doppelt so groß wie die Breite (8 von 4 Teilen); davon erhält die Cella mit den Mauern 5, der Vortempel 3 Teile.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "cella",
+   "scope": "temple",
+   "values": {
+    "length": "2 × Breite",
+    "cella": "5/8",
+    "antitempio": "3/8"
+   },
+   "note": "Vitruv genannt im Schlusssatz (IV.V.14). = B4-V-CELLA in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.11",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "il quale da i lati ha",
+    "entrare nell ' Antitempio"
+   ],
+   "quote": "il quale da i lati ha due lati di mura continuati alle mura della cella, nel fine delle quali si fanno due anti, cioè due pilastri grossi quanto le colonne del portico: e perche può essere, che tra quelle ale ui sia, e poco, e molto spatio: se sarà la larghezza maggiore di uenti piedi, si douranno porre tra i detti pilastri, due colonne, e più ancora secondo richiederà il bisogno, al dritto delle colonne del portico; l'officio delle quali sarà separare l'Antitempio dal portico; & quei tre, ò più uani, che saranno tra li pilastri si serreranno con tauole, ò parapetti di marmo: lasciandoui però le apriture, per le quali si possa entrare nell'Antitempio",
+   "rule_de": "Der Vortempel hat seitlich Mauern als Fortsetzung der Cellamauern, an ihrem Ende zwei Anten so dick wie die Portikussäulen. Ist er breiter als 20 Fuß, stellt man zwischen die Anten zwei oder mehr Säulen in der Flucht der Portikussäulen; die Öffnungen schließt man mit Brüstungen aus Holz oder Marmor und lässt Durchgänge frei.",
+   "kind": "prescription",
+   "attribution": "vitruvius",
+   "topic": "cella",
+   "scope": "temple",
+   "values": {
+    "antae": "grossi quanto le colonne",
+    "width_threshold_ft": 20
+   },
+   "note": "Vitruv genannt im Schlusssatz (IV.V.14).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.12",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "e se la largheaza sarà maggiore di piedi quaranta",
+    "si pareranno eguali"
+   ],
+   "quote": "e se la larghezza sarà maggiore di piedi quaranta, bisognerà porre altre colonne dalla parte di dentro all'incontro di quelle, che saranno poste tra i pilastri, e si faranno dell'altezza delle esteriori, ma alquanto più sottili; perche l'aere aperto leuerà della grossezza à quelle di fuori: & il rinchiuso non lascierà discernere la sottigliezza di quelle di dentro, e cosi pareranno eguali",
+   "rule_de": "Ist der Vortempel breiter als 40 Fuß, stellt man innen weitere Säulen gegenüber den Säulen zwischen den Anten, gleich hoch, aber etwas dünner: Die offene Luft nimmt den äußeren Säulen an Dicke, der geschlossene Raum lässt die Dünne der inneren nicht erkennen, so wirken sie gleich.",
+   "kind": "prescription",
+   "attribution": "vitruvius",
+   "topic": "optics",
+   "scope": "temple",
+   "values": {
+    "width_threshold_ft": 40,
+    "inner_columns": "gleich hoch, etwas dünner"
+   },
+   "note": "Optische Korrektur. Vitruv genannt im Schlusssatz (IV.V.14).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.13",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "E benche il detto compartimento",
+    "che siè detto ."
+   ],
+   "quote": "E benche il detto compartimento riesca à punto ne i Tempij di quattro colonne, non però uiene la medesima proportione ne gli altri aspetti, e maniere, perche bisogna che i muri della cella scontrino con le colonne di fuori, & siano a una fila, onde le Celle di quei Tempij saranno alquanto maggiori di quello, che si è detto.",
+   "rule_de": "Die Teilung passt genau nur beim viersäuligen Tempel; bei anderen Aspekten müssen die Cellamauern mit den Außensäulen fluchten, sodass die Cella etwas größer wird.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "cella",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-V-FLESSIBILE in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.14",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "Cosi compartirono",
+    "l ’ hora del sacrificeio"
+   ],
+   "quote": "Cosi compartirono gli Antichi i loro Tempij, come ci insegna Vitruuio, e uolsero che si facessero i portici, sotto i quali nei cattiui tempi potessero gli huomini schifar il Sole, la pioggia, la grandine, e la neue; & nei giorni solenni tratenersi fin che uenisse l'hora del sacrificio:",
+   "rule_de": "So teilten die Antiken ihre Tempel nach Vitruv; die Portiken sollten bei schlechtem Wetter vor Sonne, Regen, Hagel und Schnee schützen und an Festtagen bis zur Stunde des Opfers Aufenthalt bieten.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "porticoes",
+   "scope": "temple",
+   "values": {},
+   "note": "= B4-V-CHIESE in data/book4. Ausschnitt daraus.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.15",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "ma noi , lasciati i portici",
+    "quando trattammo delle Basiliche ."
+   ],
+   "quote": "ma noi, lasciati i portici intorno, edifichiamo li Tempij, che si assimigliano molto alle Basiliche, nelle quali, come è stato detto, si faceuano i portici nella parte di dentro, come noi facciamo hora ne i Tempij: ilche è auuenuto perche li primi che alla nostra religione si diedero dalla uerità illuminati; erano soliti per timor de i Gentili raccogliersi nelle Basiliche di huomini priuati: onde uedendo poi che questa forma riusciua molto commoda, percioche si poneua con molta dignità l'altare nel luogo del Tribunale, & il Coro staua acconciamente intorno all'altare; & il rimanenre era libero per il popolo; non si è più mutata, e però nel compartimento delle ale che noi facciamo ne i Tempij si auuertirà à quello ch'è stato detto quando trattammo delle Basiliche.",
+   "rule_de": "Die Christen lassen die umlaufenden Portiken weg und bauen Kirchen wie Basiliken mit Portiken (Seitenschiffen) im Inneren; die ersten Christen versammelten sich aus Furcht in privaten Basiliken, und die Form blieb, weil sie bequem war: Altar an der Stelle des Tribunals, Chor um den Altar, der Rest für das Volk. Für die Seitenschiffe gilt, was zu den Basiliken gesagt ist.",
+   "kind": "principle",
+   "attribution": "custom",
+   "topic": "church.layout",
+   "scope": "church",
+   "values": {},
+   "note": "'rimanenre' so gedruckt (Druckfehler für 'rimanente'). Verweis auf Buch III (Basiliken). = B4-V-CHIESE in data/book4. Ausschnitt daraus.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.16",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "Si aggiu",
+    "ueduta delle genti"
+   ],
+   "quote": "Si aggiugne alle nostre Chiese vn luogo separato dal rimanente del Tempio che chiamiamo Sacrestia, doue si seruano le uesti sacerdotali, i uasi, & i libri sacri, & l'altre cose necessarie al culto Diuino, & doue si apparanno i sacerdoti; & appresso si fabricano le torri, nelle quali si appendono le campane per chiamare il popolo à i Diuini ufficij; le quali non sono usate da altri, che da' Christiani. Appresso il Tempio si fanno le habitationi per li sacerdoti, le quali deono esser commode con spaciosi chiostri, e con bei giardini, e specialmente i luoghi per le sacre Vergini deono essere sicuri, alti, e lontani dalli strepiti, e dalla ueduta delle genti.",
+   "rule_de": "Zur christlichen Kirche gehören eine abgesonderte Sakristei für Gewänder, Gefäße und Bücher, Türme für die Glocken und Wohnungen der Priester mit geräumigen Kreuzgängen und Gärten; die Orte der geweihten Jungfrauen sollen sicher, hoch und fern von Lärm und Blicken sein.",
+   "kind": "prescription",
+   "attribution": "custom",
+   "topic": "church.annex",
+   "scope": "church",
+   "values": {},
+   "note": "= B4-V-SACRESTIA in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.V.17",
+   "book": 4,
+   "chapter": "V",
+   "phys": 210,
+   "printed_page": "10",
+   "anchor": [
+    "E per più facile intel",
+    "quattro minuti ."
+   ],
+   "quote": "E per più facile intelligenza, e per fuggir la lunghezza, e 'l tedio, il quale potrei apportare a' Lettori, s'io uolessi dire minutamente le misure di ciascuna parte, le ho postate tutte con numeri ne i disegni. IL PIEDE Vicentino, co'l quale sono stati misurati tutti i seguenti tempij, è nel Secondo Libro à numero 4. Tutto il piede si partisce in oncie dodici, e ciascun'oncia in quattro minuti.",
+   "rule_de": "Die Maße stehen als Zahlen in den Zeichnungen; gemessen ist mit dem vicentinischen Fuß (Buch II, S. 4) zu 12 Zoll, der Zoll zu 4 Minuten.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "units",
+   "scope": "temple",
+   "values": {
+    "piede": "12 oncie",
+    "oncia": "4 minuti"
+   },
+   "note": "= B4-V-PIEDE in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VI.1",
+   "book": 4,
+   "chapter": "VI",
+   "phys": 211,
+   "printed_page": "11",
+   "anchor": [
+    "Le casse delle rose",
+    "in tutti gli edificij antiehi ."
+   ],
+   "quote": "Le casse delle rose, che sono tra i Modiglioni, sono quadre, & cosi si deuono fare, come ho osseruato in tutti gli edificij antichi.",
+   "rule_de": "Die Rosettenfelder zwischen den Konsolen sind quadratisch und sollen so gemacht werden, wie Palladio es an allen antiken Bauten beobachtet hat.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "cornice.modillions",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VII.1",
+   "book": 4,
+   "chapter": "VII",
+   "phys": 215,
+   "printed_page": "15",
+   "anchor": [
+    "e perche la larghezzi della cella eccede",
+    "deue faire in simil caso"
+   ],
+   "quote": "e perche la larghezza della cella eccede uenti piedi, ui sono poste le colonne tra le due anti, ò pilastri dell'Antitempio rincontro à quelle del portico come è stato detto di sopra che si deue fare in simil caso",
+   "rule_de": "Weil die Cella breiter als 20 Fuß ist, stehen zwischen den Anten des Vortempels Säulen gegenüber denen des Portikus – wie oben (IV.V.11) für diesen Fall vorgeschrieben.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "cella",
+   "scope": "temple",
+   "values": {
+    "width_threshold_ft": 20
+   },
+   "note": "Bestätigt IV.V.11 an einem Bau.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VII.2",
+   "book": 4,
+   "chapter": "VII",
+   "phys": 215,
+   "printed_page": "15",
+   "anchor": [
+    "Nella parte didentro , cioè nella Cella",
+    "dimia inuentione ."
+   ],
+   "quote": "Nella parte di dentro, cioè nella Cella non si uede indicio nè uestigio alcuno, nè meno sono morse nelle mura, onde si possa fermamente dire, che ui fossero ornamenti, & tabernacoli; nondimeno perche è molto uerisimile che ue ne fossero, io ue ne ho fatto di mia inuentione.",
+   "rule_de": "In der Cella gibt es weder Spuren noch Mauerverzahnungen von Ornamenten oder Tabernakeln; weil es sehr wahrscheinlich ist, dass es sie gab, hat Palladio sie nach eigener Erfindung gezeichnet.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Ausdrücklich erfunden: Die Innenansicht der Cella ist keine Bauaufnahme.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VII.3",
+   "book": 4,
+   "chapter": "VII",
+   "phys": 216,
+   "printed_page": "16",
+   "anchor": [
+    "I quali ornamenti di dentro",
+    "cino a questo tempio ."
+   ],
+   "quote": "I quali ornamenti di dentro sono stati aggiunti da me, presi da alcuni fragmenti antichi trouati uicino a questo tempio.",
+   "rule_de": "Die inneren Ornamente (Basis, Kapitell) hat Palladio hinzugefügt, nach antiken Fragmenten, die nahe dem Tempel gefunden wurden.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Hinzugefügt, aber nach Fragmenten: Zwischenstufe zwischen gemessen und erfunden.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VIII.1",
+   "book": 4,
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "Le lingue del ca",
+    "à quattro à quartro ."
+   ],
+   "quote": "Le lingue del capitello sono intagliate à foglie di oliuo, e sono queste foglie ordinate à cinque, à cinque; come sono le dita nelle mani de gli huomini: & cosi ho osseruato, che sono fatti tutti i capitelli antichi di questa sorte, e riescono meglio, & con più gratia di quelli, ne i quali si fanno le dette foglie à quattro à quattro.",
+   "rule_de": "Die Blätter des korinthischen Kapitells werden als Olivenblätter zu je fünf gereiht wie die Finger der Hand; so sind alle antiken Kapitelle dieser Art gemacht, und sie wirken besser und anmutiger als solche mit je vier.",
+   "kind": "preference",
+   "attribution": "antichi",
+   "topic": "orders.corinthian.capital",
+   "scope": "temple",
+   "values": {
+    "leaves_per_group": 5
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.VIII.2",
+   "book": 4,
+   "chapter": "VIII",
+   "phys": 223,
+   "printed_page": "23",
+   "anchor": [
+    "Le colon ne che le sono intorno",
+    "eminente dell ' altre parti"
+   ],
+   "quote": "Le colonne che le sono intorno non hanno piedestilo, ma nascono da terra; e fu molto ragioneuole che'l Tempio fusse più eminente dell'altre parti",
+   "rule_de": "Die Säulen um den Platz stehen ohne Postament auf dem Boden; mit gutem Grund, denn der Tempel sollte die übrigen Teile überragen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IX.1",
+   "book": 4,
+   "chapter": "IX",
+   "phys": 230,
+   "printed_page": "30",
+   "anchor": [
+    "La Basa di questi ba",
+    "ser piusode ."
+   ],
+   "quote": "La Basa di questi basamenti è grossa più della metà della Cimacia, & è fatta più schietta, & cosi ho osseruato che gli antichi fecero in tutti i basamenti simili, & anco ne' piedestili che si pongono sotto le colonne, con molta ragione, conciosiache tutte la parti delle fabriche quanto sono più appresso terra, tanto debbano esser più sode.",
+   "rule_de": "Die Basis eines Sockels ist dicker als die Hälfte seiner Deckplatte und schlichter; so machten es die Antiken bei allen Sockeln und Postamenten, mit Grund: Je näher ein Bauteil dem Boden ist, desto fester soll er sein.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "solidity",
+   "scope": "temple",
+   "values": {
+    "basa": "> 1/2 cimacia"
+   },
+   "note": "'tutte la parti' so gedruckt (le parti).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.IX.2",
+   "book": 4,
+   "chapter": "IX",
+   "phys": 230,
+   "printed_page": "30",
+   "anchor": [
+    "Non si uede chenella parte di dentro",
+    "ui ho posto del le statue ."
+   ],
+   "quote": "Non si uede che nella parte di dentro di questo Tempio ui fusse alcuno ornamento; pure mi dò à credere considerata la Magnificenza di quegli Imperatori che ue ne douessero essere, e però ui ho posto delle statue.",
+   "rule_de": "Im Innern sind keine Ornamente erkennbar; aus der Pracht der Kaiser schließt Palladio, dass es welche gab, und hat Statuen eingezeichnet.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Erschlossen und eingezeichnet, ohne Befund.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XI.1",
+   "book": 4,
+   "chapter": "XI",
+   "phys": 239,
+   "printed_page": "39",
+   "anchor": [
+    "Quelli , che or",
+    "ancora in piedi ."
+   ],
+   "quote": "Quelli, che ordinarono à San Pietro la capella dell'Imperatore, & quella del Re di Francia, le quali sono state poi ruinate, presero l'esempio da questo edificio, il quale hauendo da tutte le sue parti, membri, che sono in luogo di contraforti, è fortissimo, & già tanto tempo è ancora in piedi.",
+   "rule_de": "Der Bau hat auf allen Seiten Glieder, die als Strebepfeiler wirken; darum ist er sehr fest und steht seit so langer Zeit. Die (inzwischen abgerissenen) Kapellen des Kaisers und des Königs von Frankreich bei St. Peter folgten seinem Beispiel.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "structure",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XII.1",
+   "book": 4,
+   "chapter": "XII",
+   "phys": 241,
+   "printed_page": "41",
+   "anchor": [
+    "I modiglioni , che sono nella cornice del Frontespicio",
+    "e cosi si deono fare ."
+   ],
+   "quote": "I modiglioni, che sono nella cornice del Frontespicio sono diritti à piombo, e cosi si deono fare.",
+   "rule_de": "Die Konsolen im Giebelgesims stehen lotrecht, und so sollen sie gemacht werden.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "pediment.modillions",
+   "scope": "temple",
+   "values": {},
+   "note": "OCR bringt die Zeilen in falscher Folge; am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIII.1",
+   "book": 4,
+   "chapter": "XIII",
+   "phys": 248,
+   "printed_page": "48",
+   "anchor": [
+    "Ma perche regolarmente itempij",
+    "fusse un tempio ."
+   ],
+   "quote": "Ma perche regolarmente i tempij alla Fortuna si faceuano ritondi, alcuni altri hanno detto, ch'egli non era tempio, ma la Basilica di C. Lucio; fondando questa loro opinione in alcune lettere, che ui sono state ritrouate; il che per mio giudicio non può essere, si perche questo edificio è piccolo, & le Basiliche erano edificij grandi necessariamente per la quantità delle persone, che ui negociauano: si ancho perche nelle Basiliche si faceuano i portici nella parte di dentro, & in questo tempio non ui è uestigio alcuno di portico: onde io credo certo ch'egli fusse un tempio.",
+   "rule_de": "Bestimmung nach Bautypen: Fortuna-Tempel waren in der Regel rund; Basiliken waren notwendig groß und hatten innere Portiken. Weil der Bau klein ist und keine inneren Portiken hat, ist er ein Tempel, keine Basilika.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "typology",
+   "scope": "temple",
+   "values": {
+    "fortuna": "ritondi",
+    "basilica": "grande, portici dentro"
+   },
+   "note": "Mehrere Kürzungsstriche (tẽpio, nõ, grãdi …) aufgelöst.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIII.2",
+   "book": 4,
+   "chapter": "XIII",
+   "phys": 248,
+   "printed_page": "48",
+   "anchor": [
+    "La basa è Attica , contutto",
+    "descritta da Vitruuio ."
+   ],
+   "quote": "La basa è Attica, con tutto che paia, che douesse essere anch'ella Ionica, si come è il Capitello; ma però non si troua in alcuno edificio, che gli Antichi si seruissero della Ionica descritta da Vitruuio.",
+   "rule_de": "Unter ionischen Säulen steht eine attische Basis; an keinem antiken Bau findet sich die von Vitruv beschriebene ionische Basis.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "orders.ionic.base",
+   "scope": "temple",
+   "values": {},
+   "note": "Befund gegen Vitruv.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIII.3",
+   "book": 4,
+   "chapter": "XIII",
+   "phys": 248,
+   "printed_page": "48",
+   "anchor": [
+    "& i capitelli , che sono ne gli angoli",
+    "apparirà nel disegno ."
+   ],
+   "quote": "& i capitelli, che sono ne gli angoli del portico, & del tempio fanno fronte da due parti: il che non sò d'hauer ueduto altroue, e perche mi è paruta bella, e gratiosa inuentione io me ne son seruito in molte fabriche, & come si faccia apparirà nel disegno.",
+   "rule_de": "Die ionischen Eckkapitelle zeigen nach zwei Seiten eine Front; Palladio kennt das von nirgends sonst, fand es schön und anmutig und hat es in vielen eigenen Bauten verwendet.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "orders.ionic.capital",
+   "scope": "temple",
+   "values": {},
+   "note": "Übernahme in eigene Bauten (ohne Namen).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIIII.1",
+   "book": 4,
+   "chapter": "XIIII",
+   "phys": 252,
+   "printed_page": "52",
+   "anchor": [
+    "Le base sono senza Zoccolo",
+    "dispesse colonne ."
+   ],
+   "quote": "Le base sono senza Zoccolo, ouer Dado, ma il grado oue posano, serue per quello: ilche fece l'Architetto, che l'ordinò, accioche l'entrata nel portico fusse manco impedita, essendo la maniera sua di spesse colonne.",
+   "rule_de": "Die Basen haben keine Plinthe; die Stufe dient als solche, damit der Eintritt in den Portikus bei engen Säulenstellungen weniger behindert ist.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "bases.plinth",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIIII.2",
+   "book": 4,
+   "chapter": "XIIII",
+   "phys": 252,
+   "printed_page": "52",
+   "anchor": [
+    "La Cornice non ui",
+    "aggiunta da me nel disegno ."
+   ],
+   "quote": "La Cornice non ui si uede; ma è stata aggiunta da me nel disegno.",
+   "rule_de": "Das Gesims ist nicht erhalten; Palladio hat es in der Zeichnung ergänzt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Ausdrücklich ergänzt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XV.1",
+   "book": 4,
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "La basa è Attica , & ha un bastoncino",
+    "non è pericolo che si spezzi ."
+   ],
+   "quote": "La basa è Attica, & ha un bastoncino sotto la cimbia della colonna; la cimbia, ò listello è sottile molto, e cosi riesce molto gratiosa; & si fa cosi sottile ogni uolta che è congiunta con un bastoncino sopra il toro della basa detto anch'esso bastone, perche non è pericolo che si spezzi.",
+   "rule_de": "Der Ablauf (Listel) am Säulenfuß ist sehr dünn und dadurch anmutig; so dünn darf er sein, wenn ein Rundstab ihn über dem Torus der Basis stützt, weil er dann nicht brechen kann.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bases",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XV.2",
+   "book": 4,
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "La cornice ha il modiglione riquadrato",
+    "in pochi edificij antichi ."
+   ],
+   "quote": "La cornice ha il modiglione riquadrato, e sopra quello il Gocciolatoio; & non ha dentello; come dice Vitruuio, che si dè fare ogni uolta che si pongono i modiglioni, la qual regola però si uede esser stata osseruata in pochi edificij antichi.",
+   "rule_de": "Wo Konsolen gesetzt werden, kommt nach Vitruv kein Zahnschnitt hinzu; diese Regel ist aber an wenigen antiken Bauten befolgt.",
+   "kind": "prohibition",
+   "attribution": "vitruvius",
+   "topic": "cornice.dentils",
+   "scope": "temple",
+   "values": {},
+   "note": "Befund: von den Antiken selten befolgt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XV.3",
+   "book": 4,
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "Sopra la Cornice ne i lati",
+    "proiettura della Cornice ."
+   ],
+   "quote": "Sopra la Cornice ne i lati del Tempio, ui è vna Cornicietta la qual uiene co'l suo uiuo, al uiuo de i Modiglioni, & era fatta per porui sopra le statue, acciò si uedessero tutte intieramente, e non fussero i piedi, e le gambe loro ascosi dalla proiettura della Cornice.",
+   "rule_de": "Über dem Gesims an den Langseiten liegt ein kleines Gesims in der Flucht der Konsolen als Standfläche für Statuen, damit diese ganz sichtbar sind und das vorspringende Gesims Füße und Beine nicht verdeckt.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "statues",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XV.4",
+   "book": 4,
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "L ' Archi traue , il Fregio , e la Cornice sono per una delle cinque",
+    "con molta gratia ."
+   ],
+   "quote": "L'Architraue, il Fregio, e la Cornice sono per una delle cinque parti e meza della lunghezza delle colonne, e benche siano meno della quinta parte riescono nondimeno mirabilmente, & con molta gratia.",
+   "rule_de": "Das Gebälk misst 1/5½ der Säulenlänge; obwohl es unter einem Fünftel bleibt, wirkt es wunderbar und anmutig.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "entablature",
+   "scope": "temple",
+   "values": {
+    "entablature": "1/5.5 Säulenlänge"
+   },
+   "note": "Urteil: eine Abweichung unter das Fünftel wird gelobt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XV.5",
+   "book": 4,
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "Imuri nella parte di fuori",
+    "sostenere il uolto"
+   ],
+   "quote": "I muri nella parte di fuori sono di Peperino, & dentro del Tempio ui sono altri muri di pietra cotta, acciò fossero più atti à sostenere il uolto",
+   "rule_de": "Außen Peperin, innen Ziegelmauern, damit diese das Gewölbe besser tragen.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "construction",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XV.6",
+   "book": 4,
+   "chapter": "XV",
+   "phys": 255,
+   "printed_page": "55",
+   "anchor": [
+    "Si uede di questo Tempio",
+    "che ci insegna Vitruuio ."
+   ],
+   "quote": "Si uede di questo Tempio quasi tutto un fianco, nondimeno mi sono sforzato di farlo uedere intiero per quello c'ho potuto ritrarre dalle sue rouine, & da quello che ci insegna Vitruuio.",
+   "rule_de": "Erhalten ist fast nur eine Flanke; Palladio zeigt den Tempel trotzdem vollständig, nach den Ruinen und nach Vitruv.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Vollständige Gestalt aus Ruine und Vitruv erschlossen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XVI.1",
+   "book": 4,
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "anchor": [
+    "Sepra le base della loggia",
+    "bellezzi , & maestà ."
+   ],
+   "quote": "Sopra le base della loggia ui sono foglie, che sostengono i fusti delle colonne; il che è degno di auertenza, & è da lodare il giudicio di quell'Architetto, il quale si seppe cosi bene accomodare, non hauendo i fusti delle colonne lunghi quanto faceua bisogno; senza leuare all'opera alcuna parte della sua bellezza, & maestà.",
+   "rule_de": "Über den Basen tragen Blätter die Säulenschäfte: So half sich der antike Architekt, als die Schäfte zu kurz waren, ohne dem Werk an Schönheit und Majestät zu nehmen.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "columns.shaft",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XVI.2",
+   "book": 4,
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "anchor": [
+    "inuentione mi son seruito ancor io",
+    "fuori di opera ."
+   ],
+   "quote": "Di questa inuentione mi son seruito ancor io, nelle colonne c'ho posto per ornamento alla porta della Chiesa di San Georgio Maggiore in Venetia: le quali non giugneuano con la loro lunghezza fin doue faceua di mestieri; e sono di cosi bel marmo, che non meritauano di esser lasciate fuori di opera.",
+   "rule_de": "Dieselbe Lösung verwendet Palladio an den Säulen des Portals von San Giorgio Maggiore: Sie waren zu kurz, aber aus so schönem Marmor, dass sie nicht ungenutzt bleiben sollten.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "columns.shaft",
+   "scope": "church",
+   "values": {},
+   "note": "Eigener Bau genannt: San Giorgio Maggiore.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XVI.3",
+   "book": 4,
+   "chapter": "XVI",
+   "phys": 261,
+   "printed_page": "61",
+   "anchor": [
+    "telli sono composti",
+    "nel primo libro"
+   ],
+   "quote": "[I Capi]telli sono composti di Ionico, e di Corinthio, i quali come si deono fare è stato detto nel primo libro",
+   "rule_de": "Die Kapitelle sind aus ionischen und korinthischen Formen zusammengesetzt; wie man sie macht, steht in Buch I.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "orders.composite",
+   "scope": "temple",
+   "values": {},
+   "note": "Verweis auf Buch I. = B4-XVI-RIF in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XVII.1",
+   "book": 4,
+   "chapter": "XVII",
+   "phys": 264,
+   "printed_page": "64",
+   "anchor": [
+    "Conciosia adunque",
+    "il seguente Tempio"
+   ],
+   "quote": "Conciosia adunque (per tornare al proposito nostro) che Bramante sia stato il primo à metter in luce la buona, e bella Architettura, che da gli Antichi fin'à quel tempo era stata nascosa, m'è paruto con ragione douersi dar luogo fra le antiche alle opere sue; e però ho posto in questo libro il seguente Tempio",
+   "rule_de": "Weil Bramante als Erster die gute und schöne Architektur der Antiken wieder ans Licht brachte, nimmt Palladio sein Werk unter die antiken Tempel auf.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "temple",
+   "values": {},
+   "note": "Auswahlkriterium des Buches.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIX.1",
+   "book": 4,
+   "chapter": "XIX",
+   "phys": 270,
+   "printed_page": "70",
+   "anchor": [
+    "Del che io dubito alquanto",
+    "& in altri edificij ancora ."
+   ],
+   "quote": "Del che io dubito alquanto, perche gli ornamenti, che ui si ueggono sono lauorati delicatissimamente con bellissimi intagli, & è cosa manifesta che à i tempi di Augusto le opere si faceuano più sode, come si uede nel Portico di Santa Maria Ritonda edificato da M. Agrippa, che è molto semplice, & in altri edificij ancora.",
+   "rule_de": "Datierung nach dem Stil: Zur Zeit des Augustus baute man fester und schlichter (Pantheon-Portikus); sehr fein gearbeitete Ornamente sprechen gegen augusteische Entstehung.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method.dating",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIX.2",
+   "book": 4,
+   "chapter": "XIX",
+   "phys": 270,
+   "printed_page": "70",
+   "anchor": [
+    "Ma per quello , c ' ho",
+    "alcun danno alla fabrica ."
+   ],
+   "quote": "Ma per quello, c'ho osseruato in altri edificij fabricati uicino à i monti, mi dò à credere che in questa parte egli fusse fatto come dimostra la Pianta; cioè ch'egli hauesse un muro grossissimo, il quale chiudesse la Cella, & i Portici, & lasciatoui alquanto di spacio un'altro muro con contraforti, che entrassero nel Monte. Percioche in tai casi faceuano gli Antichi il primo muro molto grosso, accioche l'humidità non penetrasse nella parte di dentro dell'Edificio, & faceuano l'altro muro con contraforti, accioche fusse atto à reggere il continuo carico del monte; e lasciauano il detto spacio tra l'uno, e l'altro de i detti muri; perche l'acque, che dal monte scendessero iui raunate hauessero libero il corso loro, & in tal modo non facessero alcun danno alla fabrica.",
+   "rule_de": "Am Hang bauten die Antiken eine sehr dicke innere Mauer gegen die Feuchtigkeit, mit Abstand davon eine zweite mit Strebepfeilern gegen den Erddruck, und ließen den Zwischenraum frei, damit das Hangwasser abfließt. Palladio rekonstruiert den Grundriss nach dieser Analogie.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "site.hill",
+   "scope": "temple",
+   "values": {},
+   "note": "Grundriss durch Analogie erschlossen ('mi dò à credere').",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XIX.3",
+   "book": 4,
+   "chapter": "XIX",
+   "phys": 270,
+   "printed_page": "70",
+   "anchor": [
+    "IModiglioni di questa cornice",
+    "uenga un modiglione ."
+   ],
+   "quote": "I Modiglioni di questa cornice sono cosi disposti che al diritto delle colonne uiene un campo, & non un modiglione, come ancho in alcune altre cornici: tutto che regolarmente si debba fare, che al diritto del mezo delle colonne uenga un modiglione.",
+   "rule_de": "Regel: Über der Säulenachse soll eine Konsole sitzen; hier und an einigen anderen Gesimsen sitzt dort ein Feld.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "cornice.modillions",
+   "scope": "temple",
+   "values": {},
+   "note": "Abweichung am Bau festgehalten.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XX.1",
+   "book": 4,
+   "chapter": "XX",
+   "phys": 273,
+   "printed_page": "73",
+   "anchor": [
+    "Per la grossezzi del muro",
+    "& della materia ."
+   ],
+   "quote": "Per la grossezza del muro, che circonda il Tempio ui sono alcuni uacui fatti accioche i terremoti meno nuocano à questa fabrica, e per risparmiare della spesa, & della materia.",
+   "rule_de": "In der Rundmauer sind Hohlräume ausgespart, damit Erdbeben dem Bau weniger schaden und um Kosten und Material zu sparen.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "structure",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XX.2",
+   "book": 4,
+   "chapter": "XX",
+   "phys": 273,
+   "printed_page": "73",
+   "anchor": [
+    "E ' opinione di molti",
+    "maggiore de gli altri ."
+   ],
+   "quote": "E' opinione di molti, che la capella di mezo, che è rincontro all'entrata, non sia antica, perche l'arco di essa uiene à rompere alcune colonne del secondo ordine: ma che al tempo di christiani dopo Bonifacio Pontefice, il quale primo dedicò questo tempio al culto Diuino, ella sia stata accresciuta come si conuiene à i tempij di christiani di hauere un'altare principale, e maggiore de gli altri.",
+   "rule_de": "Christliche Kirchen sollen einen Hauptaltar haben, größer als die übrigen (so in der referierten Meinung über die Mittelkapelle des Pantheon).",
+   "kind": "prescription",
+   "attribution": "custom",
+   "topic": "church.altar",
+   "scope": "church",
+   "values": {},
+   "note": "Die Regel steht in einer Meinung anderer, die Palladio für die Datierung zurückweist (IV.XX.3).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XX.3",
+   "book": 4,
+   "chapter": "XX",
+   "phys": 273,
+   "printed_page": "73",
+   "anchor": [
+    "Ma perche io ueggo",
+    "il resto di questo edificio ."
+   ],
+   "quote": "Ma perche io ueggo che ella benissimo accompagna con tutto il resto dell'opera, & che ha tutti i suoi membri benissimo lauorati, tengo per fermo ch'ella fusse fatta al tempo, che fu fatto ancho il resto di questo edificio.",
+   "rule_de": "Weil die Mittelkapelle mit dem ganzen Werk zusammenstimmt und alle Glieder vorzüglich gearbeitet sind, hält Palladio sie für gleichzeitig mit dem übrigen Bau.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.dating",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XX.4",
+   "book": 4,
+   "chapter": "XX",
+   "phys": 274,
+   "printed_page": "74",
+   "anchor": [
+    "Nella decima ui sono gli ornamenti dei Tabernacoli",
+    "conuerti in una fascia ."
+   ],
+   "quote": "Nella decima ui sono gli ornamenti de i Tabernacoli, che sono tra le capelle; ne i quali è da auertire il bel giudicio, c'hebbe l'Architetto, il quale nel far ricingere l'Architraue, il fregio, & la cornice di questi Tabernacoli, non essendo i pilastri delle capelle tanto fuori del muro, che potesser capire tutta la proiettura di quella cornice, fece solamente la Gola diritta, & il rimanente de i membri conuertì in una fascia.",
+   "rule_de": "Wo die Pfeiler zu wenig vor die Wand treten, um den ganzen Gesimsvorsprung aufzunehmen, führte der antike Architekt nur die Sima herum und fasste die übrigen Glieder zu einer Faszie zusammen.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "cornice.projection",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXII.1",
+   "book": 4,
+   "chapter": "XXII",
+   "phys": 288,
+   "printed_page": "88",
+   "anchor": [
+    "Iltempio era nel mezo",
+    "tempij antichi"
+   ],
+   "quote": "Il tempio era nel mezo del cortile, & quella parte c'hora si uede, & si alza da terra, sopra la quale era il suolo del tempio, è opera sodissima, e non piglia lume se non dalle porte, e da sei finestrelle, che sono nei nicchi, e però alquanto oscuro, come sono quasi tutti i tempij antichi.",
+   "rule_de": "Der Tempel erhält Licht nur durch die Türen und sechs kleine Fenster in den Nischen und ist daher ziemlich dunkel, wie fast alle antiken Tempel.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "light",
+   "scope": "temple",
+   "values": {},
+   "note": "Siehe IV.XXIX.1 zu dunklen Tempeln. = B4-XXII-LUME in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXIII.1",
+   "book": 4,
+   "chapter": "XXIII",
+   "phys": 290,
+   "printed_page": "90",
+   "anchor": [
+    "Le base non hanno zoccolo",
+    "sotto il portico ."
+   ],
+   "quote": "Le base non hanno zoccolo, accioche fusse più espedito, e più ampio il luogo da passeggiar sotto il portico.",
+   "rule_de": "Die Basen haben keine Plinthe, damit der Umgang freier und weiter ist.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "bases.plinth",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXIII.2",
+   "book": 4,
+   "chapter": "XXIII",
+   "phys": 290,
+   "printed_page": "90",
+   "anchor": [
+    "I Capitelli sono benissimo fatti",
+    "à i buoni tempi ."
+   ],
+   "quote": "I Capitelli sono benissimo fatti, e sono lauorati a foglie di oliuo, onde credo ch'egli fusse edificato à i buoni tempi.",
+   "rule_de": "Aus den vorzüglich gearbeiteten Kapitellen mit Olivenblättern schließt Palladio auf Entstehung in der guten Zeit.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.dating",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXIII.3",
+   "book": 4,
+   "chapter": "XXIII",
+   "phys": 290,
+   "printed_page": "90",
+   "anchor": [
+    "La sua porta , & le fi",
+    "del iiij . lib ."
+   ],
+   "quote": "La sua porta, & le finestre sono più strette nella parte di sopra, che in quella di sotto, come ci insegna Vitruuio che si deono fare al Cap. vj. del iiij. lib.",
+   "rule_de": "Türen und Fenster sind oben schmaler als unten, wie Vitruv (IV, 6) es lehrt.",
+   "kind": "prescription",
+   "attribution": "vitruvius",
+   "topic": "doors",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXIIII.1",
+   "book": 4,
+   "chapter": "XXIIII",
+   "phys": 295,
+   "printed_page": "95",
+   "anchor": [
+    "E molto bella la inuentione",
+    "& habbia del naturale ."
+   ],
+   "quote": "E' molto bella la inuentione de i caulicoli, che sono sotto la rosa, i quali si legano insieme, e par che naschano fuori delle foglie che uestono nella parte di sopra gli altri caulicoli, i quali sostengono le corna del Capitello: Onde cosi da questo, come da molti altri esempi sparsi per questo libro si conosce che non è uietato all'Architetto partirsi alcuna uolta dall'uso commune, pur che tal uariatione sia gratiosa, & habbia del naturale.",
+   "rule_de": "Dem Architekten ist es nicht verboten, bisweilen vom allgemeinen Gebrauch abzuweichen, sofern die Variation anmutig ist und etwas Natürliches hat (Beispiel: die Caulicoli unter der Rosette).",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "variation",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXV.1",
+   "book": 4,
+   "chapter": "XXV",
+   "phys": 298,
+   "printed_page": "98",
+   "anchor": [
+    "si conosce apertamen",
+    "à volerle polire tutte"
+   ],
+   "quote": "onde cosi in questo, come in tutti gli altri Tempij si conosce apertamente che è vero quello, c'ho detto nel primo libro, cioè che gli Antichi in simil sorte di edificij, e massime ne i piccioli, posero grandissima diligenza nel polire ciascuna parte, e far loro tutti quegli ornamenti, che fossero possibili, e che stessero bene; ma nelle fabriche grandi come Anfitheatri, e simili, polirono solamente alcune particelle, lasciando il rimanente rozo per schifare la spesa, & il tempo che ui sarebbe andato à volerle polire tutte",
+   "rule_de": "An Tempeln, besonders kleinen, haben die Antiken jeden Teil sorgfältig ausgearbeitet und alle passenden Ornamente gegeben; an großen Bauten wie Amphitheatern nur einzelne Teile, den Rest ließen sie roh, um Kosten und Zeit zu sparen.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "finish",
+   "scope": "temple",
+   "values": {},
+   "note": "Verweis auf Buch I. Erweitert B4-XXV-RIF in data/book4 um Satzanfang und Schluss.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVI.1",
+   "book": 4,
+   "chapter": "XXVI",
+   "phys": 303,
+   "printed_page": "103",
+   "anchor": [
+    "Sono in questo tempio degni",
+    "che habbia i piedestili ."
+   ],
+   "quote": "Sono in questo tempio degni di auertenza i piedestili posti sotto le colonne del Portico; percioche, come ho detto di sopra, in tutti gli altri tempij antichi si ueggono le colonne de i portici, che arriuano fino in terra; nè io ne ho veduto alcun'altro che habbia i piedestili.",
+   "rule_de": "Nur der Tempel in Assisi hat Postamente unter den Portikussäulen; an allen anderen antiken Tempeln reichen die Säulen bis zum Boden.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "pedestals",
+   "scope": "temple",
+   "values": {},
+   "note": "Stützt IV.V.6.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVII.1",
+   "book": 4,
+   "chapter": "XXVII",
+   "phys": 307,
+   "printed_page": "107",
+   "anchor": [
+    "Sono gli ornamenti della porta",
+    "di mia inuentione ."
+   ],
+   "quote": "P, Sono gli ornamenti della porta fatti di mia inuentione.",
+   "rule_de": "Die Ornamente der Tür in der Zeichnung sind Palladios eigene Erfindung.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "temple",
+   "values": {},
+   "note": "Ausdrücklich erfunden (Tafellegende).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVIII.1",
+   "book": 4,
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "anchor": [
+    "gli fa basamento intor",
+    "da considerare à molti ."
+   ],
+   "quote": "gli fa basamento intorno un piedestilo, sopra la cui cimacia sono due gradi, che sostentano la basa delle colonne, e potria essere facilmente, che di tai gradi intendesse Vitruuio, quando al fine del ij. cap. del iij. lib. disse, che facendosi il poggio intorno del tempio si debbano fare sotto le base delle colonne li scamili impari, i quali rispondino al dritto del uiuo del piedestilo, che è sotto le colonne, & siano à liuello sotto la basa della colonna, & sopra la Cimacia del piedestilo; il qual luogo ha dato da considerare à molti.",
+   "rule_de": "Vitruv verlangt bei umlaufendem Podium unter den Säulenbasen 'scamilli impares' in der Flucht des Postaments, zwischen Säulenbasis und Postamentdeckplatte. Palladio deutet sie hier vorsichtig als die zwei Stufen auf der Deckplatte des umlaufenden Postaments.",
+   "kind": "prescription",
+   "attribution": "vitruvius",
+   "topic": "pedestals.scamilli",
+   "scope": "temple",
+   "values": {},
+   "note": "Deutung als Möglichkeit ('potria essere facilmente'); Stelle nach Palladios Zählung Vitruv III, ij. 'scamili' so gedruckt; 'facẽdosi' aufgelöst.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVIII.2",
+   "book": 4,
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "anchor": [
+    "La basa di questo basamento",
+    "ne ' piedestili ."
+   ],
+   "quote": "La basa di questo basamento ha manco membri, & è più grossa della cimacia, come è stato auertito altroue che si dè fare ne' piedestili.",
+   "rule_de": "Die Basis des Sockels hat weniger Glieder und ist dicker als die Deckplatte, wie es für Postamente vorgeschrieben ist.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "pedestals",
+   "scope": "temple",
+   "values": {},
+   "note": "Vgl. IV.IX.1.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVIII.3",
+   "book": 4,
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "anchor": [
+    "Ilfiore posto nel mezo",
+    "capitelli antichi di questa sor te ."
+   ],
+   "quote": "Il fiore posto nel mezo della fronte del capitello occupa l'altezza dell'abaco, & l'orlo della campana; il che ho auertito che è stato osseruato in tutti i capitelli antichi di questa sorte.",
+   "rule_de": "Die Blume in der Mitte der Kapitellfront nimmt die Höhe des Abakus und den Rand des Kelchs ein; so ist es an allen antiken Kapitellen dieser Art.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "orders.corinthian.capital",
+   "scope": "temple",
+   "values": {
+    "fiore": "abaco + orlo della campana"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXVIII.4",
+   "book": 4,
+   "chapter": "XXVIII",
+   "phys": 311,
+   "printed_page": "111",
+   "anchor": [
+    "II Frontespicio è fatto a punto",
+    "sotto la sua cornice ."
+   ],
+   "quote": "Il Frontespicio è fatto a punto come ne insegna Vitruuio al luogo sopradetto. Perche delle noue parti della lunghezza della cornice una ne è messa in altezza del frontespicio sotto la sua cornice.",
+   "rule_de": "Der Giebel ist genau nach Vitruv gemacht: Seine Höhe unter dem Gesims beträgt ein Neuntel der Gesimslänge.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "pediment",
+   "scope": "temple",
+   "values": {
+    "pediment_height": "1/9 Gesimslänge"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXIX.1",
+   "book": 4,
+   "chapter": "XXIX",
+   "phys": 318,
+   "printed_page": "118",
+   "anchor": [
+    "il che permiogiudiciononpuò",
+    "Dei infernali ."
+   ],
+   "quote": "il che per mio giudicio non può essere, si perche à Vesta si faceuano i Tempij ritondi à similitudine dell'elemento della Terra, della quale diceuano ch'ella era Dea: Si ancho perche questo Tempio da tre parti hauea gli andidi intorno chiusi con muri continoui, ne i quali erano le porte da i lati della Cella, & la porta di essa Cella era nella fronte; di modo ch'ella non poteua riceuer lume da alcuna parte: ne si può adurre alcuna ragione che à Vesta si douessero fare i tempij oscuri; e per questo io credo più tosto ch'egli fusse dedicato ad alcuno de i loro Dei infernali.",
+   "rule_de": "Bestimmung nach Decorum: Vesta-Tempel waren rund wie die Erde, und es gibt keinen Grund, sie dunkel zu bauen; ein lichtloser, umschlossener Tempel gehört eher einem Gott der Unterwelt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "temple",
+   "values": {},
+   "note": "'andidi' so gedruckt (anditi).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXIX.2",
+   "book": 4,
+   "chapter": "XXIX",
+   "phys": 318,
+   "printed_page": "118",
+   "anchor": [
+    "ho ufàto grandifsima diligenza",
+    "il buon modo di fabricare ."
+   ],
+   "quote": "Io ho usato grandissima diligenza in questi due Tempij, perche mi sono parsi edificij degni di molta consideratione, e da quali si conosce che fu come proprio di quella età l'intendersi in ciascun luogo il buon modo di fabricare.",
+   "rule_de": "An diesen beiden Tempeln zeigt sich, dass es jener Zeit eigen war, überall die gute Bauweise zu verstehen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "IV.XXX.1",
+   "book": 4,
+   "chapter": "XXX",
+   "phys": 324,
+   "printed_page": "124",
+   "anchor": [
+    "percioche nc ’ tempij confegrati",
+    "fi chiamauano anco Curie ."
+   ],
+   "quote": "percioche ne' tempij consegrati solamente permetteuano i sacerdoti che si potesse raunare il Senato per trattar delle cose publiche; & solo quelli si consegrauano, ch'erano edificati con augurio; onde questi cosi fatti tempij si chiamauano anco Curie.",
+   "rule_de": "Nur in geweihten Tempeln – und geweiht wurden nur die unter Auspizien errichteten – erlaubten die Priester Senatssitzungen; solche Tempel hießen auch Curien.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "use",
+   "scope": "temple",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  }
+ ]
+}
