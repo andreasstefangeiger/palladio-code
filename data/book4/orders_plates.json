@@ -1,7 +1,7 @@
 {
  "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro IV (Tafeln); e-rara DOI 10.3931/e-rara-363",
  "question": "Was zeigen die Maßzahlen und die Zeichnung der Tempeltafeln für Säulenabstand, Säulenhöhe und Gebälk?",
- "method": "Maßzahlen am IIIF-Scan gelesen (box = Ausschnitt in Seitenpixeln; senkrechte Zahlen gedreht). Pixel: Durchmesser und lichte Abstände der schraffierten Säulenkreise in einem waagrechten Streifen, automatisch gemessen (palladio_code.temple_orders.measure_circles; braucht Netz). Das Verhältnis Abstand : Durchmesser aus der Zeichnung ist maßstabsfrei. Wo der Durchmesser nicht lesbar ist, wird er aus dem beschrifteten Abstand und dem gezeichneten Verhältnis abgeleitet (Deutung).",
+ "method": "Maßzahlen am IIIF-Scan gelesen (box = Ausschnitt in Seitenpixeln; senkrechte Zahlen gedreht). Pixel: Durchmesser und lichte Abstände der schraffierten Säulenkreise in einem waagrechten Streifen, automatisch gemessen (palladio_code.temple_orders.measure_circles; braucht Netz). Das Verhältnis Abstand : Durchmesser aus der Zeichnung ist maßstabsfrei. Wo der Durchmesser nicht lesbar ist, wird er aus dem beschrifteten Abstand und dem gezeichneten Verhältnis abgeleitet (Deutung). Rundtempel: Mittelpunkt aus dem schraffierten Cellaring, Säulen entlang des Säulenkreises gemessen; der Wert steht dann als 'drawn' mit Erläuterung in 'drawn_note'.",
  "unit": "piede vicentino = 12 oncie (Ꝺ)",
  "evidence_class": "A für die Lesungen, B für abgeleitete Größen",
  "temples": [
@@ -687,6 +687,446 @@
      "note": "Flanke"
     }
    ]
+  },
+  {
+   "chapter": "XIIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "cella_interior",
+     "phys": 252,
+     "box": [
+      850,
+      2200,
+      1450,
+      2360
+     ],
+     "label": "P 23 Ꝺ 9",
+     "feet": 23.75,
+     "confidence": "mittel",
+     "note": "Durchmesser der Cella innen"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 252,
+     "band_y": [
+      3020,
+      3150
+     ],
+     "diameters_px": [
+      94,
+      94
+     ],
+     "gaps_px": [
+      162
+     ],
+     "note": "Rundtempel mit 20 Säulen; das untere Säulenpaar liegt symmetrisch zur Achse, der Abstand ist eine Sehne"
+    }
+   ],
+   "drawn_note": "Aus dem Säulenkreis (Mittelpunktsradius ≈ 797 px, 20 Säulen, D ≈ 94 px) ergibt sich 1,65; das untere Paar ergibt 1,72. Außendurchmesser der Cella ≈ 1020 px = 10,9 D; der Text sagt: Cella mit Mauern so breit wie die Säulen lang, Säulen 11 teste."
+  },
+  {
+   "chapter": "XVIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 268,
+     "box": [
+      780,
+      290,
+      1900,
+      400
+     ],
+     "label": "6 Ꝺ 4",
+     "feet": 6.333333333333333,
+     "confidence": "hoch",
+     "note": "ohne P gedruckt; Seitenjoch der Front"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 268,
+     "box": [
+      780,
+      290,
+      1900,
+      400
+     ],
+     "label": "P 8",
+     "feet": 8,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "diameter",
+     "phys": 268,
+     "box": [
+      440,
+      530,
+      640,
+      640
+     ],
+     "label": "4 Ꝺ 2",
+     "feet": 4.166666666666667,
+     "confidence": "mittel",
+     "note": "rechts als '4 m 2' gedruckt"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 268,
+     "band_y": [
+      285,
+      395
+     ],
+     "diameters_px": [
+      79,
+      81,
+      78,
+      79,
+      80,
+      80,
+      79,
+      78
+     ],
+     "gaps_px": [
+      120,
+      122,
+      131,
+      124,
+      124,
+      124
+     ],
+     "note": "Front, acht Säulen; Mitteljoch 149 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XX",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 275,
+     "box": [
+      540,
+      3180,
+      760,
+      3270
+     ],
+     "label": "P 8 Ꝺ 2½",
+     "feet": 8.208333333333334,
+     "confidence": "hoch",
+     "note": "Seitenjoch der Portikusfront"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 275,
+     "box": [
+      1020,
+      3180,
+      1240,
+      3270
+     ],
+     "label": "P 9 Ꝺ 3½",
+     "feet": 9.291666666666666,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "scale_check",
+     "phys": 275,
+     "box": [
+      880,
+      3000,
+      1320,
+      3080
+     ],
+     "label": "P 33 Ꝺ 9½",
+     "feet": 33.791666666666664,
+     "confidence": "hoch",
+     "note": "lichter Abstand zweier Säulen der inneren Reihen = 422 px, also 12,5 px/Fuß; D = 56 px = 4,5 Fuß"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 275,
+     "band_y": [
+      3010,
+      3100
+     ],
+     "diameters_px": [
+      57,
+      54,
+      56,
+      57
+     ],
+     "gaps_px": [],
+     "note": ""
+    },
+    {
+     "phys": 275,
+     "band_y": [
+      2860,
+      2960
+     ],
+     "diameters_px": [
+      56,
+      55,
+      57,
+      55
+     ],
+     "gaps_px": [],
+     "note": ""
+    }
+   ],
+   "drawn": 1.8,
+   "drawn_note": "Frontreihe: Mittelpunktsabstand ≈ 157 px, D ≈ 56 px (die Zahlen in den Zwischenräumen stören die automatische Messung der Frontreihe)."
+  },
+  {
+   "chapter": "XXIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "portico",
+     "phys": 291,
+     "box": [
+      60,
+      1380,
+      520,
+      1600
+     ],
+     "label": "P 4 Ꝺ 7½",
+     "feet": 4.625,
+     "confidence": "hoch",
+     "note": "Breite des Umgangs zwischen Säule und Cella"
+    },
+    {
+     "kind": "cella_interior",
+     "phys": 291,
+     "box": [
+      700,
+      1380,
+      1600,
+      1600
+     ],
+     "label": "P 20 Ꝺ 1 m 3",
+     "feet": 20.145833333333332,
+     "confidence": "mittel",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 291,
+     "band_y": [
+      1420,
+      1600
+     ],
+     "diameters_px": [
+      97,
+      96
+     ],
+     "gaps_px": [],
+     "note": "Rundtempel mit 18 Säulen"
+    }
+   ],
+   "drawn": 2.16,
+   "drawn_note": "Säulenkreis: Mittelpunktsradius ≈ 936 px, D ≈ 103 px, 18 Säulen; Sehne zwischen Mittelpunkten 325 px. Maßstab aus Cella (1043 px = 20,1 Fuß) und Umgang (241 px = 4,6 Fuß) übereinstimmend 52 px/Fuß; D ≈ 2,0 Fuß."
+  },
+  {
+   "chapter": "XXVII",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 308,
+     "box": [
+      1000,
+      2690,
+      2300,
+      2840
+     ],
+     "label": "P 4 ½",
+     "feet": 4.5,
+     "confidence": "hoch",
+     "note": "Seitenjoch"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 308,
+     "box": [
+      1000,
+      2690,
+      2300,
+      2840
+     ],
+     "label": "P 5 Ꝺ 1½",
+     "feet": 5.125,
+     "confidence": "hoch",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 308,
+     "band_y": [
+      2680,
+      2850
+     ],
+     "diameters_px": [
+      120,
+      121,
+      122,
+      118
+     ],
+     "gaps_px": [
+      259,
+      258
+     ],
+     "note": "Mitteljoch 312 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXX",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 325,
+     "box": [
+      420,
+      2690,
+      1880,
+      2840
+     ],
+     "label": "P 6 Ꝺ 10½",
+     "feet": 6.875,
+     "confidence": "hoch",
+     "note": "Seitenjoch, Grundriss und Aufriss gleich"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 325,
+     "box": [
+      420,
+      2690,
+      1880,
+      2840
+     ],
+     "label": "P 7 Ꝺ 5¼",
+     "feet": 7.4375,
+     "confidence": "hoch",
+     "note": "im Aufriss S. 126: P 7 Ꝺ 5½"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 325,
+     "band_y": [
+      2680,
+      2850
+     ],
+     "diameters_px": [
+      88,
+      87,
+      87,
+      87,
+      84
+     ],
+     "gaps_px": [
+      152,
+      165,
+      164,
+      161
+     ],
+     "note": "Grundriss; Mitteljoch 192 px"
+    },
+    {
+     "phys": 326,
+     "band_y": [
+      3030,
+      3200
+     ],
+     "diameters_px": [
+      118,
+      118,
+      117,
+      117,
+      118,
+      110
+     ],
+     "gaps_px": [
+      221,
+      229,
+      226,
+      235
+     ],
+     "note": "Aufriss; Mitteljoch 267 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXXI",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 330,
+     "box": [
+      1050,
+      3170,
+      1500,
+      3350
+     ],
+     "label": "P 5 Ꝺ 3¾",
+     "feet": 5.3125,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "diameter",
+     "phys": 330,
+     "box": [
+      1680,
+      3180,
+      1830,
+      3300
+     ],
+     "label": "P ? ?",
+     "feet": null,
+     "confidence": "niedrig",
+     "note": "Zahl im schraffierten Kreis nicht lesbar; 3 ¾ ergäbe genau den Textwert 1½ − 1/11 (Deutung, nicht gelesen)"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 330,
+     "band_y": [
+      3170,
+      3350
+     ],
+     "diameters_px": [
+      125,
+      125,
+      125,
+      127
+     ],
+     "gaps_px": [
+      192,
+      197,
+      199
+     ],
+     "note": "aus dem Raster gemessen; Zahlen in den Kreisen stören die automatische Messung"
+    }
+   ]
   }
+ ],
+ "not_read": [
+  "VI Pace (Halle, keine Säulenreihe im Grundriss)",
+  "X, XI, XVI, XVII, XXI, XXII (Text nennt keinen Säulenabstand)",
+  "XXV sotto Trevi und XXIX zweiter Tempel in Nîmes (Zuordnung der Zahlen nicht sicher)"
  ]
 }

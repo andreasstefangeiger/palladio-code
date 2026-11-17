@@ -176,7 +176,7 @@ Stand 17.11.2026 · Daten: `data/book4/orders_plates.json` · Auswertung:
 
 ### Verfahren
 
-- **Maßzahlen gelesen.** An zehn Tempeln wurden die gedruckten Maße am IIIF-Scan
+- **Maßzahlen gelesen.** An 17 Tempeln wurden die gedruckten Maße am IIIF-Scan
   gelesen: Interkolumnium, Säulendurchmesser, Säulenhöhe und Gebälk, soweit
   beschriftet. Zu jeder Lesung sind Seite, Ausschnitt und Sicherheit vermerkt.
 - **Zeichnung gemessen.** Unter den Aufrissen und in den Grundrissen stehen die
@@ -185,6 +185,9 @@ Stand 17.11.2026 · Daten: `data/book4/orders_plates.json` · Auswertung:
   ist maßstabsfrei.
 - **Ableitung (B).** Wo der Durchmesser nicht sicher lesbar ist, wird er aus dem
   beschrifteten Abstand und dem gezeichneten Verhältnis berechnet.
+- **Rundtempel.** Bei Vesta in Rom und in Tivoli liegt der Mittelpunkt im
+  schraffierten Cellaring. Die Säulen wurden entlang des Säulenkreises gemessen;
+  der Abstand ist die Sehne zwischen zwei Säulen.
 - **Schwachstelle.** Durchmesser stehen oft in den schraffierten Kreisen und sind
   dort schwer lesbar. Diese Lesungen tragen die Sicherheit „niedrig“.
 
@@ -202,8 +205,18 @@ Stand 17.11.2026 · Daten: `data/book4/orders_plates.json` · Auswertung:
 | XXIIII | Castore e Polluce | zwischen 1½ und 2 D | 1,64 (Mitte 1,70) | 1,81 | 9,7 (10,7) | – |
 | XXVI | Assisi | 2 D, Gebälk ⅕ „& qualche cosa di più“ | 1,79 (Mitte 1,93) | – | 9,4 | 0,191 |
 | XXVIII | Maison Carrée | Gebälk ¼ | 1,54 (Mitte 2,08) | – | – | – |
+| XIIII | Vesta (Rom), rund | 1½ D, Säulen 11 teste | 1,72 (Kreis: 1,65) | – | – | – |
+| XVIII | Giove Statore | Pyknostylos | 1,57 (Mitte 1,89) | 1,52 (Mitte 1,92) | – | – |
+| XX | Pantheon, Portikus | keine Angabe | 1,80 | 1,83 (Mitte 2,07) | – | – |
+| XXIII | Vesta (Tivoli), rund | 2 D | 2,16 | – | – | – |
+| XXVII | Pola | 2 D, Mitte 2¼ | 2,15 (Mitte 2,59) | – | – | – |
+| XXX | Concordia | unter 2 D | 1,84 Grundriss, 1,94 Aufriss | – | – | – |
+| XXXI | Nettuno | 1½ − 1/11 = 1,41 | 1,57 | (1,42) | – | – |
 
 „Säule in D“: aus dem abgeleiteten Durchmesser, in Klammern aus dem gelesenen.
+Beim Pantheon ist der Durchmesser aus dem Maßstab der Tafel abgeleitet (eine
+beschriftete Strecke von 33 Fuß 9½ Zoll). Beim Neptuntempel ist die Zahl im Kreis
+nicht lesbar; (1,42) gilt nur, wenn dort 3¾ Fuß steht.
 
 - **Säulenabstand.**
   - Bei vier Tempeln mit „spesse colonne“ ist die Zeichnung nahe 1½ D:
@@ -229,12 +242,44 @@ Stand 17.11.2026 · Daten: `data/book4/orders_plates.json` · Auswertung:
   für das Korinthische 9½. Wegen der unsicheren Durchmesser lässt sich daraus
   keine Regel ablesen.
 
+**Nachtrag: die sieben weiteren Tempel.**
+
+- **Wie gut die Zeichnung zum Text passt.** Alle Tempel mit Textangabe zum Abstand
+  zusammen:
+
+  | Verhältnis von Zeichnung zu Text | Tempel |
+  |---|---|
+  | innerhalb von 5 % | Antonino, Giove (Quirinal), Marte Vendicatore, Giove Statore |
+  | mehr als 5 % weiter | Marte (piazza de' Preti), Giove Tonante, Vesta (Rom), Vesta (Tivoli), Pola, Nettuno |
+  | enger | Fortuna Virile, Assisi |
+  | in dem Bereich, den der Text nennt | Castore e Polluce, Concordia |
+
+  Die Zeichnung steht also öfter weiter als enger, als der Text sagt.
+- **Vesta in Rom passt in einem anderen Maß genau.** Der Text sagt: Die Säulen
+  sind 11 teste lang, und die Cella ist mit ihren Mauern so breit, wie die Säulen
+  lang sind. Gezeichnet ist die Cella 10,9 Durchmesser breit.
+- **Am Neptuntempel weichen Zahl und Zeichnung voneinander ab.** Der Text nennt
+  einen ungewöhnlich engen Abstand, „la undecima parte del diametro … meno di un
+  diametro e mezo“, also 1,41 D. Gedruckt ist der Abstand mit 5 Fuß 3¾ Zoll.
+  Stünde im Kreis ein Durchmesser von 3¾ Fuß, ergäbe das genau den Text; lesbar ist
+  die Zahl nicht. Gezeichnet sind 1,57 D. Wie beim Marstempel ist die Zeichnung
+  dann nicht im Maßstab der Zahlen.
+- **Pola.** Zahlen und Text stimmen im Verhältnis von Mitteljoch zu Seitenjoch
+  überein: 5 Fuß 1½ Zoll zu 4½ Fuß = 1,14; der Text gibt 2¼ zu 2 = 1,125. Die
+  Zeichnung zeigt 1,21.
+- **Pantheon.** Zeichnung (1,80) und Zahlen (1,83) stimmen überein. Der Text nennt
+  keinen Abstand.
+
 ### Lesart (B)
 
 - **Zahlen, Zeichnung und Text sind drei verschiedene Quellen.** Sie stimmen oft
   überein, aber nicht immer.
 - **„spesse colonne“ ist ein Name, kein genaues Maß.** Palladio nennt so auch Tempel,
   deren Zeichnung 1¾ D zeigt.
+- **Die Holzschnitte sind nicht immer im Maßstab der eigenen Zahlen gestochen.**
+  Bei Marte (piazza de' Preti) und, falls die Lesung zutrifft, beim Neptuntempel
+  stehen die Säulen weiter, als die Zahlen sagen. Für Messungen an den Tafeln
+  zählen deshalb zuerst die gedruckten Zahlen.
 - **Die runden Worte des Textes können vom Befund abweichen.** Ein Beispiel ist das
   ⅓-Gebälk des Antoninus gegen etwa ¼ auf der Tafel.
 - **Folge für die Forschung:** Für Proportionsfragen an Buch IV müssen Text, Zahl
@@ -242,9 +287,11 @@ Stand 17.11.2026 · Daten: `data/book4/orders_plates.json` · Auswertung:
 
 ## Grenzen
 
-- Teil 2 nutzt Palladios runde Worte („la quarta parte“). Teil 3 prüft zehn Tempel
-  an den Tafeln. Bei Pantheon, Vesta (Tivoli und Rom), Giove Statore, sotto Trevi
-  und den Tempeln in Nîmes und Pola sind die Tafelzahlen noch nicht gelesen.
+- Teil 2 nutzt Palladios runde Worte („la quarta parte“). Teil 3 prüft 17 Tempel
+  an den Tafeln. Nicht gelesen sind der Friedenstempel (Halle ohne Säulenreihe im
+  Grundriss), die Bauten, für die der Text keinen Abstand nennt (X, XI, XVI, XVII,
+  XXI, XXII), sowie sotto Trevi und der zweite Tempel in Nîmes. Bei diesen beiden
+  ließen sich die Zahlen nicht sicher zuordnen.
 - Gelesene Durchmesser in schraffierten Kreisen sind unsicher. Die
   Pixelmessung setzt voraus, dass Kreise und Abstände im selben Maßstab gestochen
   sind.

@@ -37,7 +37,7 @@ class TempleOrdersTests(unittest.TestCase):
     def test_plate_readings(self):
         from palladio_code.temple_orders import load_plates, plate_check
         rows = {r["chapter"]: r for r in plate_check(load_plates(), self.data)}
-        self.assertEqual(len(rows), 10)
+        self.assertEqual(len(rows), 17)
         # Temple of Mars: the plate numbers give the entablature 1 : 5.6 the text describes
         self.assertAlmostEqual(rows["XV"]["entablature_ratio"], 0.18, places=2)
         # drawn spacing is wider than 1.5 D wherever the text says 'spesse colonne' and a plan was measured

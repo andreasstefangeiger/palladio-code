@@ -184,8 +184,8 @@ def plate_check(plates: dict, data: dict) -> list[dict]:
     rows = []
     for t in plates["temples"]:
         lab = {l["kind"]: l for l in t["labels"]}
-        drawn = None
-        if t["pixels"]:
+        drawn = t.get("drawn")
+        if drawn is None and t["pixels"]:
             d = [x for p in t["pixels"] for x in p["diameters_px"]]
             g = [x for p in t["pixels"] for x in p["gaps_px"]]
             drawn = round((sum(g) / len(g)) / (sum(d) / len(d)), 2)
