@@ -258,8 +258,9 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
    Scamozzi, *Le fabbriche e i disegni di Andrea Palladio*, Bd. IV, 1783
    (docs/15, docs/16).
 3. ~~Die Regeln aus Buch I mit Buch IV abgleichen, ob die Säulenordnungen der
-   Tempel den Maßen aus Buch I folgen.~~ Erledigt für Palladios Textangaben
-   (docs/17). Offen: die Maßzahlen der Tafeln.
+   Tempel den Maßen aus Buch I folgen.~~ Erledigt für Palladios Textangaben und,
+   als Gegenprobe, für die Tafeln von zehn Tempeln (docs/17). Offen: die übrigen
+   Tafeln.
 4. ~~IV.XVI.2 (Portal von San Giorgio) in die Kriterien von docs/16 aufnehmen.~~
    Erledigt; Bertottis Tafel VI bestätigt die Aussage.
 5. ~~Die Tafelteile kennzeichnen, die Palladio als ergänzt oder erfunden

@@ -1,6 +1,7 @@
 # 17. Tempel in Buch IV: Rekonstruktion und Säulenordnungen
 
-Stand: 16.11.2026 · Daten: `data/book4/reconstruction.json`, `data/book4/orders.json`,
+Stand: 17.11.2026 · Daten: `data/book4/reconstruction.json`, `data/book4/orders.json`,
+`data/book4/orders_plates.json`,
 `data/rules/book4.json` · Auswertung: `make book4` → `output/book4/analysis.json`,
 `output/book4/orders.json`, `output/book4/orders.md`
 
@@ -168,10 +169,85 @@ Säulenlänge. „spesse colonne“ ist nach IV.IIII.2 der Pyknostylos mit 1½ D
   - die Ablehnung der Postamente (IV.V.6);
   - die Regel zur Variation (IV.XXIIII.1).
 
+## Teil 3: Gegenprobe an den Tafeln
+
+Stand 17.11.2026 · Daten: `data/book4/orders_plates.json` · Auswertung:
+`python -m palladio_code.temple_orders` → `output/book4/orders.json` (`plates`)
+
+### Verfahren
+
+- **Maßzahlen gelesen.** An zehn Tempeln wurden die gedruckten Maße am IIIF-Scan
+  gelesen: Interkolumnium, Säulendurchmesser, Säulenhöhe und Gebälk, soweit
+  beschriftet. Zu jeder Lesung sind Seite, Ausschnitt und Sicherheit vermerkt.
+- **Zeichnung gemessen.** Unter den Aufrissen und in den Grundrissen stehen die
+  Säulen als schraffierte Kreise. Durchmesser und lichte Abstände wurden
+  automatisch gemessen (`measure_circles`). Das Verhältnis Abstand : Durchmesser
+  ist maßstabsfrei.
+- **Ableitung (B).** Wo der Durchmesser nicht sicher lesbar ist, wird er aus dem
+  beschrifteten Abstand und dem gezeichneten Verhältnis berechnet.
+- **Schwachstelle.** Durchmesser stehen oft in den schraffierten Kreisen und sind
+  dort schwer lesbar. Diese Lesungen tragen die Sicherheit „niedrig“.
+
+### Ergebnis
+
+| Kap. | Tempel | Text | Abstand : D gezeichnet | Abstand : D aus Zahlen | Säule in D | Gebälk : Säule |
+|---|---|---|---:|---:|---:|---:|
+| VII | Marte Vendicatore | Pyknostylos | 1,55 | 1,35 | 10,3 (9,0) | 0,208 |
+| VIII | Nerva Traiano | Pyknostylos, Gebälk ¼ | – | 1,58 | (9,8) | 0,234 |
+| IX | Antonino e Faustina | Pyknostylos, Gebälk ⅓ | 1,51 | – | 9,3 | 0,238 |
+| XII | Giove (Quirinale) | Pyknostylos, Gebälk ¼ | 1,56 | 1,50 | – | – |
+| XIII | Fortuna Virile (ionisch) | 2¼ D | 1,97 (Mitte 2,19) | – | – | – |
+| XV | Marte (piazza de' Preti) | 1½ D, Gebälk 1 : 5½ | 1,74 | 1,55 | 11,1 (9,8) | 0,180 |
+| XIX | Giove Tonante | Pyknostylos | 1,73 (Mitte 2,13) | – | – | – |
+| XXIIII | Castore e Polluce | zwischen 1½ und 2 D | 1,64 (Mitte 1,70) | 1,81 | 9,7 (10,7) | – |
+| XXVI | Assisi | 2 D, Gebälk ⅕ „& qualche cosa di più“ | 1,79 (Mitte 1,93) | – | 9,4 | 0,191 |
+| XXVIII | Maison Carrée | Gebälk ¼ | 1,54 (Mitte 2,08) | – | – | – |
+
+„Säule in D“: aus dem abgeleiteten Durchmesser, in Klammern aus dem gelesenen.
+
+- **Säulenabstand.**
+  - Bei vier Tempeln mit „spesse colonne“ ist die Zeichnung nahe 1½ D:
+    Antonino, Giove (Quirinal), Marte Vendicatore und die Seitenjoche der Maison
+    Carrée.
+  - Bei zwei Tempeln ist sie deutlich weiter: Marte (piazza de' Preti) und
+    Giove Tonante, beide etwa 1¾ D.
+  - Beim Marstempel ergeben die gedruckten Zahlen 1,55. Die Zeichnung ist dort
+    also nicht im Maßstab der Zahlen gestochen, sofern der Durchmesser richtig
+    gelesen ist (Sicherheit niedrig).
+  - Fortuna Virile (Text: 2¼) und Assisi (Text: 2 D) sind enger gezeichnet,
+    etwa 2 und 1¾ D an den Seitenjochen.
+- **Gebälk.**
+  - Beim Marstempel bestätigen die Zahlen den Text: 7 Fuß 4½ Zoll zu 41 Fuß, also
+    1 : 5,6 („una delle cinque parti e meza“). Das zeigt, dass die Lesart der
+    Tafeln trägt.
+  - Nerva hat 0,234, nahe dem ¼ des Textes.
+  - Beim Tempel des Antoninus nennt der Text ⅓. Die Tafel zeigt 9 Fuß 3½ Zoll zu
+    39 Fuß, also etwa ¼ (0,238). Die Lesung ist sicher; ob die Maßlinie das ganze
+    Gebälk umfasst, ist nicht sicher geprüft.
+  - Mars Ultor hat ⅕ (10 : 48).
+- **Säulenhöhe.** Die Werte liegen zwischen 9 und 11 Durchmessern. Buch I setzt
+  für das Korinthische 9½. Wegen der unsicheren Durchmesser lässt sich daraus
+  keine Regel ablesen.
+
+### Lesart (B)
+
+- **Zahlen, Zeichnung und Text sind drei verschiedene Quellen.** Sie stimmen oft
+  überein, aber nicht immer.
+- **„spesse colonne“ ist ein Name, kein genaues Maß.** Palladio nennt so auch Tempel,
+  deren Zeichnung 1¾ D zeigt.
+- **Die runden Worte des Textes können vom Befund abweichen.** Ein Beispiel ist das
+  ⅓-Gebälk des Antoninus gegen etwa ¼ auf der Tafel.
+- **Folge für die Forschung:** Für Proportionsfragen an Buch IV müssen Text, Zahl
+  und Zeichnung getrennt ausgewiesen werden.
+
 ## Grenzen
 
-- Die Angaben sind Palladios runde Worte („la quarta parte“). Seine Tafeln können
-  andere Zahlen zeigen; sie sind hier nicht ausgewertet.
+- Teil 2 nutzt Palladios runde Worte („la quarta parte“). Teil 3 prüft zehn Tempel
+  an den Tafeln. Bei Pantheon, Vesta (Tivoli und Rom), Giove Statore, sotto Trevi
+  und den Tempeln in Nîmes und Pola sind die Tafelzahlen noch nicht gelesen.
+- Gelesene Durchmesser in schraffierten Kreisen sind unsicher. Die
+  Pixelmessung setzt voraus, dass Kreise und Abstände im selben Maßstab gestochen
+  sind.
 - Bei fünf Tempeln nennt der Text keine Ordnung. Bei Nerva und beim zweiten Tempel
   in Nîmes ist sie aus dem Wortlaut erschlossen.
 - „spesse colonne“ ist mit 1½ D gleichgesetzt. Der Tempel des Neptun zeigt, dass der

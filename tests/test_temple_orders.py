@@ -34,6 +34,17 @@ class TempleOrdersTests(unittest.TestCase):
         self.assertEqual(vesta["norm"], 9.5)
         self.assertEqual(vesta["norm_by_spacing"], 10)
 
+    def test_plate_readings(self):
+        from palladio_code.temple_orders import load_plates, plate_check
+        rows = {r["chapter"]: r for r in plate_check(load_plates(), self.data)}
+        self.assertEqual(len(rows), 10)
+        # Temple of Mars: the plate numbers give the entablature 1 : 5.6 the text describes
+        self.assertAlmostEqual(rows["XV"]["entablature_ratio"], 0.18, places=2)
+        # drawn spacing is wider than 1.5 D wherever the text says 'spesse colonne' and a plan was measured
+        wider = [r for r in rows.values() if r["text_spacing"] == "Picnostilos" and r["intercol_D_drawn"]]
+        self.assertTrue(all(r["intercol_D_drawn"] >= 1.5 for r in wider))
+        self.assertGreater(rows["XIX"]["intercol_D_drawn"], 1.7)
+
 
 if __name__ == "__main__":
     unittest.main()
