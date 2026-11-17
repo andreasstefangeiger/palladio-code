@@ -1,6 +1,6 @@
 # 14. Regelkatalog der Quattro Libri
 
-Stand: 16.11.2026 · Daten: `data/rules/register.json`, `data/rules/book1.json` bis `book4.json` ·
+Stand: 17.11.2026 · Daten: `data/rules/register.json`, `data/rules/book1.json` bis `book4.json` ·
 Werkzeug: `python -m palladio_code.catalogue {status|check|dump BUCH KAPITEL}` ·
 Scanbelege: `python -m palladio_code.proofs data/rules/book1.json --out …`
 
@@ -48,18 +48,21 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
 
 | Buch | Kapitel | Status | Regeln |
 |---|---:|---|---:|
-| I | 29 + Vorrede | vollständig, am Scan geprüft | 196 |
-| II | 17 | vollständig, am Scan geprüft | 78 |
-| III | 21 + Vorrede | vollständig, am Scan geprüft | 96 |
+| I | 29 + Vorrede | vollständig, am Scan geprüft | 211 |
+| II | 17 | vollständig, am Scan geprüft | 102 |
+| III | 21 + Vorrede | vollständig, am Scan geprüft | 107 |
 | IV | 31 + Vorrede | vollständig, am Scan geprüft | 126 |
-| **zusammen** | 98 + 3 Vorreden | | **496** |
+| **zusammen** | 98 + 3 Vorreden | | **546** |
+
+Die Zahlen schließen die Nachträge des zweiten Durchgangs ein (siehe unten).
 
 ## Buch I im Überblick
 
-- **196 Regeln.** Nach Art: 63 Maßangaben, 45 Gebote, 25 Grundsätze,
-  23 Verfahren, 15 Spielräume, 15 Vorzüge, 10 Verbote.
-- **Herkunft:** 153 von Palladio, 21 von Vitruv (genannt), 20 aus der Praxis der
-  Antiken, je eine von Alberti und aus dem Brauch der Zeit.
+- **211 Einträge** (196 aus dem ersten, 15 aus dem zweiten Durchgang). Nach Art:
+  63 Maßangaben, 45 Gebote, 27 Verfahren, 25 Grundsätze, 15 Spielräume,
+  15 Vorzüge, 11 Begründungen, 10 Verbote.
+- **Herkunft:** 165 von Palladio, 22 aus der Praxis der Antiken, 21 von Vitruv
+  (genannt), 2 aus dem Brauch der Zeit, 1 von Alberti.
 - **Schwerpunkte:**
   - Säulenordnungen: 55 Regeln;
   - Baustoffe: 27;
@@ -167,6 +170,62 @@ Jedes der 101 Kapitel trägt einen Status (`open`, `read`, `extracted`, `checked
   - Blätter unter den zu kurzen Säulenschäften des Portals, nach antikem Vorbild
     (IV.XVI.1, IV.XVI.2).
 
+## Zweiter Durchgang durch Buch I bis III
+
+Stand 17.11.2026. Wie in Buch IV wurden die drei ersten Bücher gezielt nach Stellen
+durchsucht, an denen Palladio eine Einzelentscheidung, eine Rekonstruktion oder die
+Auswahl eines Beispiels begründet.
+
+- **Verfahren.** Ein Skript listete alle Zeilen, die kein Katalogeintrag abdeckt und
+  die ein Merkmal tragen („perche“, „accioche“, „credo“, „inuentione“, „ho uoluto“,
+  „doueua“ …). Das waren 60 Zeilen in Buch I, 45 in Buch II und 62 in Buch III,
+  dazu einige weitere aus einer zweiten Merkmalsliste. Jede Stelle wurde im
+  Zusammenhang gelesen.
+- **Ergebnis.** 50 neue Einträge: 15 in Buch I, 24 in Buch II, 11 in Buch III. Alle
+  sind am Scan gelesen. Im Entwurf nach der OCR waren 28 Stellen zu korrigieren,
+  zum Beispiel „sia proportionata“ statt „habbia“ (II.XIIII.7) und „caminano“ statt
+  „cambiano“ (II.XIIII.8).
+- **Übersehene Regeln.** Drei Einträge sind keine Begründungen, sondern Regeln, die
+  der erste Durchgang übersehen hatte: die Heizung der Antiken (I.XXVII.5), die
+  Kühlung durch „Ventidotti“ in Costozza (I.XXVII.6) und die Verstärkung der
+  Holzbrücken (III.VIII.5).
+
+### Was der zweite Durchgang bringt
+
+- **Die Zuordnung der Säulenabstände zu den Ordnungen ist Palladios Wahl.** Er sagt
+  selbst: „Ne' quali ordini ho hauuto questo risguardo, accioche siano come
+  vn'esempio di tutte queste maniere d'intercolunnij“ (I.XIII.14). Die Kopplung von
+  Abstand und Säulenhöhe (I.XIII.8) ist also eine Ordnung zum Zeigen, keine Lehre
+  Vitruvs. Das passt zum Befund aus docs/17: An den Tempeln, wie Palladio sie
+  beschreibt, überwiegen andere Werte.
+- **Woher die Profile stammen.** Die toskanischen Profile hat Palladio von der
+  Arena in Verona und von Arena und Theater in Pola genommen (I.XIIII.9). Das
+  Verfahren für die Schwellung der Säule ist seine eigene Erfindung, die Pietro
+  Cattaneo übernahm (I.XIII.13).
+- **Sein Studium der Antike.** Er nahm Vitruv zum Führer, maß die Reste „minutissimamente“
+  und fand nichts, „che con ragione, & con bella proportione non fusse fatta“
+  (I.Proemio.3). Das ist sein Urteil über den Befund, kein Maß.
+- **Die Tafeln von Buch II zeigen auch Unfertiges.** Einige gezeichnete Bauten
+  seien nicht fertig, aus dem Gebauten lasse sich aber das fertige Werk erkennen
+  (II.III.7). Folgerung (B): Bei unvollendeten Bauten zeigen die Tafeln den Entwurf,
+  nicht den Bestand. Das betrifft jede Messung an diesen Tafeln (docs/10).
+- **Antike Häuser und Plätze sind Deutungen Vitruvs.** Das „atrio testudinato“ zeigt,
+  „quel che ne credo“ (II.VII.5); die antike Villa soll zeigen, „come si debba
+  intendere Vitruuio“ (II.XVI.6). Am griechischen Platz ergänzt Palladio Nischen,
+  Basilika, Curia und Gefängnisse, obwohl Vitruv sie dort nicht nennt, und zwei
+  Tempel nach dem Beispiel von Pola (III.XVII.4, III.XVII.5).
+- **Begründungen an den eigenen Bauten.** Buch II hat jetzt 42 Begründungen. Sie
+  nennen fast immer praktische Gründe:
+  - Lage und Wasser: Der Palazzo Chiericati ist 5 Fuß angehoben, weil der Fluss
+    nahe ist (II.III.9); anderswo liegen die Keller unter der Erde, weil der Bau
+    hoch liegt (II.III.14).
+  - Licht: Treppen und Säle werden so gelegt, dass sie Licht von oben erhalten
+    (II.XV.7, II.XV.8).
+  - Tragwerk: Säulen tragen Gewölbe und sichern den Raum darüber (II.III.11,
+    II.XVII.9).
+  - Proportion: Säulen im Saal, „accioche sia proportionata l'altezza alla
+    larghezza“ (II.XIIII.7, II.XVII.7).
+
 ## Spätere Produkte (Deutungsschicht, getrennt vom Katalog)
 
 Zwei Anwendungen sind vorgesehen. Beide bauen auf dem Katalog auf, gehören aber
@@ -194,7 +253,7 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
 ## Nächste Schritte
 
 1. ~~Die Kapitel von Buch II bis IV nach demselben Verfahren lesen.~~ Erledigt:
-   496 Einträge aus 101 Kapiteln, alle am Scan geprüft.
+   546 Einträge aus 101 Kapiteln, alle am Scan geprüft.
 2. ~~San Giorgio Maggiore an vermessenen Plänen prüfen.~~ Erledigt mit Bertotti
    Scamozzi, *Le fabbriche e i disegni di Andrea Palladio*, Bd. IV, 1783
    (docs/15, docs/16).
@@ -205,5 +264,7 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
    Erledigt; Bertottis Tafel VI bestätigt die Aussage.
 5. ~~Die Tafelteile kennzeichnen, die Palladio als ergänzt oder erfunden
    bezeichnet.~~ Erledigt in `data/book4/reconstruction.json` (docs/17).
-6. Die Bücher I bis III ebenso gezielt nach Begründungen von Einzelentscheidungen
-   durchsehen, wie es für Buch IV im Nachtrag geschehen ist.
+6. ~~Die Bücher I bis III ebenso gezielt nach Begründungen von Einzelentscheidungen
+   durchsehen.~~ Erledigt (50 Einträge, siehe oben).
+7. In der Gesamtauswertung von Buch II (docs/10) prüfen, welche gemessenen Bauten
+   1570 unvollendet waren (II.III.7).

@@ -45,6 +45,90 @@
    "scan_checked": true
   },
   {
+   "id": "I.Proemio.3",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 9,
+   "printed_page": "5",
+   "anchor": [
+    "A NATVRALE inclinatione",
+    "& in difegno ridurlo ."
+   ],
+   "quote": "[D]A NATVRALE inclinatione guidato mi diedi ne i miei primi anni allo studio dell'Architettura: e perche sempre fui di opinione che gli Antichi Romani come in molt'altre cose, cosi nel fabricar bene habbiano di gran lunga auanzato tutti quelli, che dopo loro sono stati; mi proposi per maestro, e guida Vitruuio: ilquale è solo antico scrittore di quest'arte; & mi misi alla inuestigatione delle reliquie de gli Antichi edificij, lequali mal grado del tempo, & della crudeltà de' Barbari ne sono rimase: & ritrouandole di molto maggiore osseruatione degne, ch'io non mi haueua prima pensato; cominciai à misurare minutissimamente con somma diligenza ciascuna parte loro: delle quali tanto diuenni sollecito inuestigatore, non vi sapendo conoscer cosa, che con ragione, & con bella proportione non fusse fatta, che poi non vna, ma più e più volte mi son trasferito in diuerse parti d'Italia, & fuori per potere intieramente da quelle, quale fusse il tutto, comprendere, & in disegno ridurlo.",
+   "rule_de": "Weil die alten Römer im guten Bauen alle Späteren übertrafen, nahm Palladio Vitruv zum Lehrer und Führer, untersuchte die Reste antiker Bauten, maß jeden Teil aufs Genaueste und reiste mehrfach durch Italien und darüber hinaus, um aus den Resten das Ganze zu verstehen und zu zeichnen. Er fand nichts, was nicht mit Vernunft und schöner Proportion gemacht war.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "all",
+   "values": {},
+   "note": "Kürzungsstriche (nõ, minutissimamẽte, cõ) aufgelöst. Palladios Urteil über die antiken Reste ('non vi sapendo conoscer cosa …') ist eine Aussage über seinen Befund, kein Maß. Ausschnitt 'mi proposi … quest'arte' = B1-PROEM-VITRUVIO in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.Proemio.4",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 9,
+   "printed_page": "5",
+   "anchor": [
+    "La onde veggen",
+    "gno di confideratione"
+   ],
+   "quote": "La onde veggendo, quanto questo commune vso di fabricare, sia lontano dalle osseruationi da me fatte ne i detti edificij, & lette in Vitruuio, & in Leon Battista Alberti, & in altri eccellenti scrittori che dopo Vitruuio sono stati, & da quelle ancho, che di nuouo da me sono state praticate con molta sodisfattione, & laude di quelli, che si sono seruiti dell'opera mia; mi è parso cosa degna di huomo; ilquale non solo à se stesso deue esser nato, ma ad vtilità ancho de gli altri; il dare in luce i disegni di quegli edificij, che in tanto tempo, & con tanti miei pericoli ho raccolti, & ponere breuemente ciò che in essi m'è parso più degno di consideratione",
+   "rule_de": "Weil der übliche Brauch weit von dem entfernt ist, was Palladio an den antiken Bauten beobachtet, bei Vitruv, Alberti und anderen gelesen und selbst erprobt hat, veröffentlicht er die gesammelten Zeichnungen und das Bemerkenswerteste daran.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.Proemio.5",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "ho penfato",
+    "praticatadiquefla"
+   ],
+   "quote": "ho pensato esser molto conueneuole cominciare dalle case de' Particolari: si perche si deue credere, che quelle à i publici edificij le ragioni somministrassero, essendo molto verisimile, che innanzi, l'huomo da per se habitasse, & dopo vedendo hauer mestieri dell'aiuto de gli altri huomini, à conseguir quelle cose, che lo possono render felice (se felicità alcuna si ritroua quà giù) la compagnia de gli altri huomini naturalmente desiderasse, & amasse; onde di molte case si facessero li Borghi, e di molti Borghi poi le Città, & in quelle i luoghi, & gli edificij publichi: si ancho, perche tra tutte le parti dell'Archittetura; niuna è più necessaria à gli huomini, nè che più spesso sia praticata di questa.",
+   "rule_de": "Palladio beginnt mit den Privathäusern, weil sie vermutlich den öffentlichen Bauten die Gründe lieferten (aus Häusern wurden Dörfer, aus Dörfern Städte mit öffentlichen Bauten) und weil kein Teil der Architektur nötiger ist und öfter geübt wird.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Begründet die Reihenfolge der Bücher. 'Archittetura' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.Proemio.6",
+   "book": 1,
+   "chapter": "Proemio",
+   "phys": 10,
+   "printed_page": "6",
+   "anchor": [
+    "fuggirò la lunghezza",
+    "Communemente vfiano"
+   ],
+   "quote": "fuggirò la lunghezza delle parole, & semplicemente darò quelle auertenze, che mi parranno più necessarie; & mi seruirò di quei nomi, che gli artefici hoggidì communemente vsano.",
+   "rule_de": "Palladio vermeidet lange Worte, gibt nur die nötigsten Hinweise und verwendet die Namen, die die Handwerker heute gebrauchen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "terminology",
+   "scope": "all",
+   "values": {},
+   "note": "= B1-PROEM-NOMI in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.I.1",
    "book": 1,
    "chapter": "I",
@@ -315,6 +399,27 @@
    "kind": "principle",
    "attribution": "palladio",
    "topic": "materials",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.I.14",
+   "book": 1,
+   "chapter": "I",
+   "phys": 11,
+   "printed_page": "7",
+   "anchor": [
+    "E benchè ; Vitruuio",
+    "più necelfirij ."
+   ],
+   "quote": "E benchè Vitruuio, Leon Battista Alberti, & altri eccellenti scrittori habbiano dato quegli auuertimenti, che si debbono hauere nell'elegger essa materia; io nondimeno acciò che niente in questi miei libri paia mancare, ne dirò alcuni, restringendomi à i più necessarij.",
+   "rule_de": "Obwohl Vitruv, Alberti und andere die Wahl der Baustoffe behandelt haben, gibt Palladio die nötigsten Hinweise, damit in seinen Büchern nichts zu fehlen scheint.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
    "scope": "all",
    "values": {},
    "note": "",
@@ -1075,6 +1180,27 @@
    "scan_checked": true
   },
   {
+   "id": "I.VII.10",
+   "book": 1,
+   "chapter": "VII",
+   "phys": 14,
+   "printed_page": "10",
+   "anchor": [
+    "Si faranno le palificate non folo",
+    "per lungo , & altre"
+   ],
+   "quote": "Si faranno le palificate non solo sotto i muri di fuori, posti sopra i canali; ma ancora sotto quelli, che sono fra terra, e diuidono le fabriche: perche se si faranno le fondamenta a' muri di mezo, diuerse da quelle di fuori, mettendo delle traui vna à canto dell'altra per lungo, & altre [sopra per trauerso; spesse volte auerrà, che i muri di mezo caleranno à basso]",
+   "rule_de": "Pfähle auch unter die Innenmauern setzen, sonst sinken die Innenmauern und die Mauern reißen auf; die inneren Pfähle im Verhältnis der Mauern schwächer.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "Satz endet auf S. 11 (phys 15): 'secondo la proportione de' muri, cosi dette palificate di mezo anderanno più sottili di quelle di fuora'.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.VIII.1",
    "book": 1,
    "chapter": "VIII",
@@ -1108,6 +1234,71 @@
    "quote": "Si fanno le fondamenta à scarpa, cioè che tanto più decrescano, quanto più s'inalzano; in modo però, che tanto da vna parte sia lasciato, quanto dall'altra, onde il mezo di quel di sopra caschi à piombo al mezo di quel di sotto: il che si deue osseruare ancho nelle diminutioni de' muri sopra terra: percioche in questo modo la fabrica viene ad hauere molto maggior fortezza, che facendosi le diminutioni altramente.",
    "rule_de": "Fundamente nach oben beidseitig gleich abtreppen, so dass die Mitte oben lotrecht über der Mitte unten liegt; ebenso bei den Mauern über der Erde.",
    "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.3",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "E O N O essere le fondamenta",
+    "grandissimo carico"
+   ],
+   "quote": "DEONO essere le fondamenta il doppio più grosse del muro, c'ha da esserui posto sopra: & in questo si douerà hauer risguardo alla qualità del terreno, & alla grandezza dell'edificio, facendole ancho più larghe ne' terreni mossi, e mensodi, e doue hauessero da sostentare grandissimo carico.",
+   "rule_de": "Fundamente doppelt so dick wie die Mauer darüber; breiter in lockerem Boden und bei großer Last.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {
+    "foundation_thickness": "2 x wall thickness"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.4",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Si fanno alcuna volta",
+    "si fabrica"
+   ],
+   "quote": "Si fanno alcuna volta (massimamente ne i terreni paludosi, doue interuengano colonne) per far minore spesa le fondamenta non continouate, ma con alcuni volti, e sopra quelli poi si fabrica.",
+   "rule_de": "In Sumpfboden unter Säulen können die Fundamente unterbrochen und mit Bögen überspannt werden.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.VIII.5",
+   "book": 1,
+   "chapter": "VIII",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Sono assai lodevoli",
+    "sommo dell ’ edificio"
+   ],
+   "quote": "Sono assai lodeuoli nelle fabriche grandi alcuni spiragli per la grossezza del muro dalle fondamenta sino al tetto, percioche danno esito a' venti, che meno diano noia alla fabrica, scemano la spesa, e sono di non picciola commodità, se in quelli si faranno scale a lumaca: le quali portino dal fondamento sino al sommo dell'edificio.",
+   "rule_de": "In großen Bauten sind Luftschächte in der Mauerstärke vom Fundament bis zum Dach lobenswert, besonders mit Wendeltreppen darin.",
+   "kind": "preference",
    "attribution": "palladio",
    "topic": "foundations",
    "scope": "all",
@@ -1228,6 +1419,48 @@
    "scan_checked": true
   },
   {
+   "id": "I.IX.6",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 17,
+   "printed_page": "13",
+   "anchor": [
+    "dalle quali fi comprende",
+    "mafsimamente fi olforuerà"
+   ],
+   "quote": "dalle quali si comprende che ne i muri di qualunque sorte si siano, debbono farsi alcuni corsi, i quali siano come nerui, che tengano insieme legate l'altre parti; ilche massimamente si osseruerà, [quando si faranno i muri di pietre cotte; accioche per la vecchiezza venendo à calare in parte la struttura di mezo; non diuentino i muri ruinosi]",
+   "rule_de": "In jeder Mauerart sind durchbindende Lagen wie Nerven einzulegen, besonders bei Ziegelmauern.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "walls",
+   "scope": "all",
+   "values": {},
+   "note": "Satz endet auf S. 14 (phys 18)",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.IX.7",
+   "book": 1,
+   "chapter": "IX",
+   "phys": 15,
+   "printed_page": "11",
+   "anchor": [
+    "Della reticolata",
+    "porre ancho di questa il dise"
+   ],
+   "quote": "Della reticolata a' nostri tempi non se ne serue alcuno: ma perche Vitruuio dice, che à' suoi tempi communemente si vsaua; ho voluto porre ancho di questa il disegno.",
+   "rule_de": "Das Netzmauerwerk benutzt heute niemand; Palladio zeichnet es trotzdem, weil Vitruv sagt, es sei zu seiner Zeit üblich gewesen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.X.1",
    "book": 1,
    "chapter": "X",
@@ -1303,6 +1536,27 @@
    "quote": "Ma secondo la grandezza, e qualità della fabrica, si farà ò rustica, ò polita; e non quello che gli antichi fecero, necessitati dalla grandezza delle opere, & giudiciosamente; faremo noi in vna fabrica, alla quale si ricerchi al tutto la politezza.",
    "rule_de": "Je nach Größe und Rang des Baus rustiziert oder glatt; was die Antiken nur aus Not an Riesenbauten taten, nicht an Bauten wiederholen, die ganz feine Ausführung verlangen.",
    "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.X.5",
+   "book": 1,
+   "chapter": "X",
+   "phys": 18,
+   "printed_page": "14",
+   "anchor": [
+    "Però per mio giudicio",
+    "efiere intiero"
+   ],
+   "quote": "Però per mio giudicio non si faranno muri di pietra cotta rustichi, nè meno le Nappe de' Camini: lequali deono esser fatte delicatissime: percioche oltra l'abuso, ne seguirà, che si fingerà spezzato, e diuiso in più parti quello, che naturalmente deue essere intiero.",
+   "rule_de": "Nach Palladios Urteil keine rustizierten Ziegelmauern und keine rustizierten Kaminhauben; sie täuschten Zerteiltes vor, wo von Natur aus Ganzes ist.",
+   "kind": "prohibition",
    "attribution": "palladio",
    "topic": "decorum",
    "scope": "all",
@@ -1436,134 +1690,6 @@
    "kind": "principle",
    "attribution": "palladio",
    "topic": "orders",
-   "scope": "all",
-   "values": {},
-   "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.VII.10",
-   "book": 1,
-   "chapter": "VII",
-   "phys": 14,
-   "printed_page": "10",
-   "anchor": [
-    "Si faranno le palificate non folo",
-    "per lungo , & altre"
-   ],
-   "quote": "Si faranno le palificate non solo sotto i muri di fuori, posti sopra i canali; ma ancora sotto quelli, che sono fra terra, e diuidono le fabriche: perche se si faranno le fondamenta a' muri di mezo, diuerse da quelle di fuori, mettendo delle traui vna à canto dell'altra per lungo, & altre [sopra per trauerso; spesse volte auerrà, che i muri di mezo caleranno à basso]",
-   "rule_de": "Pfähle auch unter die Innenmauern setzen, sonst sinken die Innenmauern und die Mauern reißen auf; die inneren Pfähle im Verhältnis der Mauern schwächer.",
-   "kind": "prescription",
-   "attribution": "palladio",
-   "topic": "foundations",
-   "scope": "all",
-   "values": {},
-   "note": "Satz endet auf S. 11 (phys 15): 'secondo la proportione de' muri, cosi dette palificate di mezo anderanno più sottili di quelle di fuora'.",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.VIII.3",
-   "book": 1,
-   "chapter": "VIII",
-   "phys": 15,
-   "printed_page": "11",
-   "anchor": [
-    "E O N O essere le fondamenta",
-    "grandissimo carico"
-   ],
-   "quote": "DEONO essere le fondamenta il doppio più grosse del muro, c'ha da esserui posto sopra: & in questo si douerà hauer risguardo alla qualità del terreno, & alla grandezza dell'edificio, facendole ancho più larghe ne' terreni mossi, e mensodi, e doue hauessero da sostentare grandissimo carico.",
-   "rule_de": "Fundamente doppelt so dick wie die Mauer darüber; breiter in lockerem Boden und bei großer Last.",
-   "kind": "proportion",
-   "attribution": "palladio",
-   "topic": "foundations",
-   "scope": "all",
-   "values": {
-    "foundation_thickness": "2 x wall thickness"
-   },
-   "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.VIII.4",
-   "book": 1,
-   "chapter": "VIII",
-   "phys": 15,
-   "printed_page": "11",
-   "anchor": [
-    "Si fanno alcuna volta",
-    "si fabrica"
-   ],
-   "quote": "Si fanno alcuna volta (massimamente ne i terreni paludosi, doue interuengano colonne) per far minore spesa le fondamenta non continouate, ma con alcuni volti, e sopra quelli poi si fabrica.",
-   "rule_de": "In Sumpfboden unter Säulen können die Fundamente unterbrochen und mit Bögen überspannt werden.",
-   "kind": "procedure",
-   "attribution": "palladio",
-   "topic": "foundations",
-   "scope": "all",
-   "values": {},
-   "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.VIII.5",
-   "book": 1,
-   "chapter": "VIII",
-   "phys": 15,
-   "printed_page": "11",
-   "anchor": [
-    "Sono assai lodevoli",
-    "sommo dell ’ edificio"
-   ],
-   "quote": "Sono assai lodeuoli nelle fabriche grandi alcuni spiragli per la grossezza del muro dalle fondamenta sino al tetto, percioche danno esito a' venti, che meno diano noia alla fabrica, scemano la spesa, e sono di non picciola commodità, se in quelli si faranno scale a lumaca: le quali portino dal fondamento sino al sommo dell'edificio.",
-   "rule_de": "In großen Bauten sind Luftschächte in der Mauerstärke vom Fundament bis zum Dach lobenswert, besonders mit Wendeltreppen darin.",
-   "kind": "preference",
-   "attribution": "palladio",
-   "topic": "foundations",
-   "scope": "all",
-   "values": {},
-   "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.IX.6",
-   "book": 1,
-   "chapter": "IX",
-   "phys": 17,
-   "printed_page": "13",
-   "anchor": [
-    "dalle quali fi comprende",
-    "mafsimamente fi olforuerà"
-   ],
-   "quote": "dalle quali si comprende che ne i muri di qualunque sorte si siano, debbono farsi alcuni corsi, i quali siano come nerui, che tengano insieme legate l'altre parti; ilche massimamente si osseruerà, [quando si faranno i muri di pietre cotte; accioche per la vecchiezza venendo à calare in parte la struttura di mezo; non diuentino i muri ruinosi]",
-   "rule_de": "In jeder Mauerart sind durchbindende Lagen wie Nerven einzulegen, besonders bei Ziegelmauern.",
-   "kind": "prescription",
-   "attribution": "palladio",
-   "topic": "walls",
-   "scope": "all",
-   "values": {},
-   "note": "Satz endet auf S. 14 (phys 18)",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.X.5",
-   "book": 1,
-   "chapter": "X",
-   "phys": 18,
-   "printed_page": "14",
-   "anchor": [
-    "Però per mio giudicio",
-    "efiere intiero"
-   ],
-   "quote": "Però per mio giudicio non si faranno muri di pietra cotta rustichi, nè meno le Nappe de' Camini: lequali deono esser fatte delicatissime: percioche oltra l'abuso, ne seguirà, che si fingerà spezzato, e diuiso in più parti quello, che naturalmente deue essere intiero.",
-   "rule_de": "Nach Palladios Urteil keine rustizierten Ziegelmauern und keine rustizierten Kaminhauben; sie täuschten Zerteiltes vor, wo von Natur aus Ganzes ist.",
-   "kind": "prohibition",
-   "attribution": "palladio",
-   "topic": "decorum",
    "scope": "all",
    "values": {},
    "note": "",
@@ -1964,6 +2090,48 @@
    "scan_checked": true
   },
   {
+   "id": "I.XIII.13",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 19,
+   "printed_page": "15",
+   "anchor": [
+    "E benché io non mi habbia potuto",
+    "illuftrato quefta profefsione ."
+   ],
+   "quote": "E benche io non mi habbia potuto imaginare altro modo più breue, & espedito di questo, e che riesca meglio; mi son nondimeno maggiormente confermato in questa mia inuentione, poi che tanto è piaciuta à messer Pietro Cattaneo, hauendogliela io detta, che l'ha posta in vna sua opera di Architettura, con la quale ha non poco illustrato questa professione.",
+   "rule_de": "Das Verfahren für die Schwellung des Säulenschafts (I.XIII.3) ist Palladios eigene Erfindung; er kennt kein kürzeres und besseres. Bestärkt hat ihn, dass Pietro Cattaneo es nach seiner Mitteilung in sein Architekturbuch aufnahm.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Bezieht sich auf I.XIII.3.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIII.14",
+   "book": 1,
+   "chapter": "XIII",
+   "phys": 20,
+   "printed_page": "16",
+   "anchor": [
+    "Ne quali ordini ho hauuto",
+    "al cap . fopradetto ."
+   ],
+   "quote": "Ne' quali ordini ho hauuto questo risguardo, accioche siano come vn'esempio di tutte queste maniere d'intercolunnij: lequali ci sono insegnate da Vitruuio al cap. sopradetto.",
+   "rule_de": "Die fünf Ordnungen hat Palladio so eingerichtet, dass sie zusammen ein Beispiel aller fünf Säulenabstände Vitruvs geben.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "orders.intercolumniation",
+   "scope": "all",
+   "values": {},
+   "note": "Begründet die Zuordnung von Säulenabstand und Säulenhöhe zu den fünf Ordnungen (I.XIII.8). Die Zuordnung ist Palladios Wahl, keine Lehre Vitruvs.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.XIIII.1",
    "book": 1,
    "chapter": "XIIII",
@@ -2147,6 +2315,27 @@
    "scope": "all",
    "values": {},
    "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIIII.9",
+   "book": 1,
+   "chapter": "XIIII",
+   "phys": 23,
+   "printed_page": "19",
+   "anchor": [
+    "Si veggono alcuni edifici",
+    "dell ’ Antichità ."
+   ],
+   "quote": "Si veggono alcuni edificij Antichi, i quali si possono dire esser fatti di quest'ordine: perche tengono in parte le medesme misure, come è l'Arena di Verona, l'Arena, e Theatro di Pola, e molti altri: da i quali ho prese le sacome cosi della Basa, del capitello, dell'architraue, del fregio, e delle cornice poste nell'ultima tauola di questo capitolo; come ancho quelle dell'imposte de' uolti, e di tutti questi edificij porrò i disegni ne' miei libri dell'Antichità.",
+   "rule_de": "Einige antike Bauten (Arena von Verona, Arena und Theater von Pola) kann man toskanisch nennen, weil sie zum Teil dieselben Maße haben; von ihnen hat Palladio die Profile von Basis, Kapitell, Gebälk und Kämpfern der letzten Tafel des Kapitels genommen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Herkunft der toskanischen Profile: antike Bauten, nicht Vitruv.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -2752,6 +2941,27 @@
    "scan_checked": true
   },
   {
+   "id": "I.XVII.6",
+   "book": 1,
+   "chapter": "XVII",
+   "phys": 46,
+   "printed_page": "42",
+   "anchor": [
+    "I membri di queft ’ ordine",
+    "facilmente conofcere ."
+   ],
+   "quote": "I membri di quest'ordine non sono stati contrasegnati con lettere, come de i passati: perche da quelli si possono questi facilmente conoscere.",
+   "rule_de": "Die Glieder der korinthischen Ordnung sind nicht mit Buchstaben bezeichnet, weil man sie aus den vorigen Ordnungen leicht erkennt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.XVIII.1",
    "book": 1,
    "chapter": "XVIII",
@@ -2890,6 +3100,32 @@
     "pedestal_base": "2 x cornice"
    },
    "note": "'due parti e meza' am Konstantinsbogen: Bezugsgröße unklar",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XIX.3",
+   "book": 1,
+   "chapter": "XIX",
+   "phys": 55,
+   "printed_page": "51",
+   "anchor": [
+    "è da faperli che elsi li fecero",
+    "nell ’ ordi ne Compofito"
+   ],
+   "quote": "è da sapersi che essi li fecero alcuna volta quadri, cioè tanto lunghi quanto larghi, come nell'Arco de' Leoni in Verona: e questi io ho dati all'ordine Dorico, perche se li richiede la sodezza. Alcuna volta li fecero pigliando la misura dalla luce de i vani, come nell'Arco di Tito à Santa Maria Noua in Roma, & in quello di Traiano sul porto d'Ancona: doue il Piedestilo è alto per la metà della luce dell'Arco: e di tal sorte piedestili ho messo nell'ordine Ionico. Et alcuna volta pigliarono la misura dall'altezza della colonna, come si vede à Susa Città posta alle radici de' monti, che diuidono la Italia dalla Francia, in vn'Arco fatto in honore di Augusto Cesare: e nell'Arco di Pola Città della Dalmatia: e nell'Anfitheatro di Roma, nell'ordine Ionico, & Corinthio, ne' quali edificij il piedestilo è per la quarta parte dell'altezza delle colonne; come io ho fatto nell'ordine Corinthio. In Verona nell'Arco di Castel Vecchio, il quale è bellissimo; il piedestilo è per il terzo dell'altezza delle colonne, come ho messo nell'ordine Composito.",
+   "rule_de": "Vier antike Postamentarten und Palladios Zuordnung: quadratisch (Dorisch, wegen Festigkeit); ½ der lichten Bogenweite (Ionisch); ¼ der Säulenhöhe (Korinthisch); ⅓ der Säulenhöhe (Komposit).",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "orders.pedestals",
+   "scope": "all",
+   "values": {
+    "Dorico": "square die",
+    "Ionico": "1/2 arch width",
+    "Corinthio": "1/4 column height",
+    "Composito": "1/3 column height"
+   },
+   "note": "Palladios Systematisierung antiker Befunde",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -3100,32 +3336,6 @@
    "scope": "all",
    "values": {},
    "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.XIX.3",
-   "book": 1,
-   "chapter": "XIX",
-   "phys": 55,
-   "printed_page": "51",
-   "anchor": [
-    "è da faperli che elsi li fecero",
-    "nell ’ ordi ne Compofito"
-   ],
-   "quote": "è da sapersi che essi li fecero alcuna volta quadri, cioè tanto lunghi quanto larghi, come nell'Arco de' Leoni in Verona: e questi io ho dati all'ordine Dorico, perche se li richiede la sodezza. Alcuna volta li fecero pigliando la misura dalla luce de i vani, come nell'Arco di Tito à Santa Maria Noua in Roma, & in quello di Traiano sul porto d'Ancona: doue il Piedestilo è alto per la metà della luce dell'Arco: e di tal sorte piedestili ho messo nell'ordine Ionico. Et alcuna volta pigliarono la misura dall'altezza della colonna, come si vede à Susa Città posta alle radici de' monti, che diuidono la Italia dalla Francia, in vn'Arco fatto in honore di Augusto Cesare: e nell'Arco di Pola Città della Dalmatia: e nell'Anfitheatro di Roma, nell'ordine Ionico, & Corinthio, ne' quali edificij il piedestilo è per la quarta parte dell'altezza delle colonne; come io ho fatto nell'ordine Corinthio. In Verona nell'Arco di Castel Vecchio, il quale è bellissimo; il piedestilo è per il terzo dell'altezza delle colonne, come ho messo nell'ordine Composito.",
-   "rule_de": "Vier antike Postamentarten und Palladios Zuordnung: quadratisch (Dorisch, wegen Festigkeit); ½ der lichten Bogenweite (Ionisch); ¼ der Säulenhöhe (Korinthisch); ⅓ der Säulenhöhe (Komposit).",
-   "kind": "proportion",
-   "attribution": "antichi",
-   "topic": "orders.pedestals",
-   "scope": "all",
-   "values": {
-    "Dorico": "square die",
-    "Ionico": "1/2 arch width",
-    "Corinthio": "1/4 column height",
-    "Composito": "1/3 column height"
-   },
-   "note": "Palladios Systematisierung antiker Befunde",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -3805,6 +4015,27 @@
    "scan_checked": true
   },
   {
+   "id": "I.XXV.12",
+   "book": 1,
+   "chapter": "XXV",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "Si deue auertire nel far",
+    "quanto di giouamento"
+   ],
+   "quote": "Si deue auertire nel far le finestre, che nè più nè meno di luce piglino, nè siano più rare, ò spesse di quello, che'l bisogno ricerchi. Però si hauerà molto risguardo alla grandezza delle stanze, che da quelle deono riceuere il lume: Percioche cosa manifesta è che di molto più luce ha di bisogno vna stanza grande, accioche sia lucida, e chiara, che vna picciola: e se si faranno le finestre più picciole e rare di quello, che si conuenga; renderanno i luoghi oscuri: e se eccederanno in troppo grandezza; li faranno quasi inhabitabili: perche essendoui portato il freddo, & il caldo dall'Aria; saranno quei luoghi secondo le stagioni dell'anno caldissimi, e freddissimi, caso che la regione del Cielo, alla quale essi saranno volti; non gli apporti alquanto di giouamento.",
+   "rule_de": "Fenster nicht mehr und nicht weniger Licht als nötig, nicht zu selten oder dicht; nach Raumgröße; zu klein → dunkel, zu groß → im Sommer zu heiß, im Winter zu kalt.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "windows",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.XXVI.1",
    "book": 1,
    "chapter": "XXVI",
@@ -3920,27 +4151,6 @@
    "scan_checked": true
   },
   {
-   "id": "I.XXV.12",
-   "book": 1,
-   "chapter": "XXV",
-   "phys": 59,
-   "printed_page": "55",
-   "anchor": [
-    "Si deue auertire nel far",
-    "quanto di giouamento"
-   ],
-   "quote": "Si deue auertire nel far le finestre, che nè più nè meno di luce piglino, nè siano più rare, ò spesse di quello, che'l bisogno ricerchi. Però si hauerà molto risguardo alla grandezza delle stanze, che da quelle deono riceuere il lume: Percioche cosa manifesta è che di molto più luce ha di bisogno vna stanza grande, accioche sia lucida, e chiara, che vna picciola: e se si faranno le finestre più picciole e rare di quello, che si conuenga; renderanno i luoghi oscuri: e se eccederanno in troppo grandezza; li faranno quasi inhabitabili: perche essendoui portato il freddo, & il caldo dall'Aria; saranno quei luoghi secondo le stagioni dell'anno caldissimi, e freddissimi, caso che la regione del Cielo, alla quale essi saranno volti; non gli apporti alquanto di giouamento.",
-   "rule_de": "Fenster nicht mehr und nicht weniger Licht als nötig, nicht zu selten oder dicht; nach Raumgröße; zu klein → dunkel, zu groß → im Sommer zu heiß, im Winter zu kalt.",
-   "kind": "principle",
-   "attribution": "palladio",
-   "topic": "windows",
-   "scope": "all",
-   "values": {},
-   "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
    "id": "I.XXVI.6",
    "book": 1,
    "chapter": "XXVI",
@@ -3959,6 +4169,27 @@
    "values": {
     "architrave:frieze:cornice": "4:3:5"
    },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVI.7",
+   "book": 1,
+   "chapter": "XXVI",
+   "phys": 59,
+   "printed_page": "55",
+   "anchor": [
+    "O M E fi debbano fare gli ornamenti",
+    "& ilfuo debito fpor - to ."
+   ],
+   "quote": "[C]OME si debbano fare gli ornamenti delle porte principali delle fabriche; si può facilmente conoscere da quello, che c'insegna Vitruuio al cap. vj. del iiij. libro, aggiungendoui quel tanto, che in quel luogo ne dice, e mostra in disegno il Reuerendissimo Barbaro, & da quello ch'io ho detto, e disegnato di sopra in tutti i cinque ordini: però lasciando quelli da parte; porrò solamente alcune sacome de gli ornamenti delle porte, e delle finestre delle stanze, secondo che diuersamente si ponno fare, e dimostrerò à segnare ciascun membro particolarmente c'habbia gratia, & il suo debito sporto.",
+   "rule_de": "Für die Haupttüren verweist Palladio auf Vitruv IV, 6, auf Barbaros Kommentar und auf seine fünf Ordnungen; er zeigt nur Profile für Türen und Fenster der Zimmer.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
    "note": "",
    "evidence_class": "A",
    "scan_checked": true
@@ -4047,6 +4278,48 @@
    "scope": "all",
    "values": {},
    "note": "vgl. I.X.5",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVII.5",
+   "book": 1,
+   "chapter": "XXVII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "S A R O N O gli Antichi",
+    "fommità di quelle canne ."
+   ],
+   "quote": "[V]SARONO gli Antichi di scaldare le loro stanze in questo modo. Faceuano i camini nel mezo con colonne, ò modiglioni, che toglieuano suso gli Architraui: sopra i quali era la Piramide del camino, d'onde vsciua il fumo, come se ne vedeua vno à Baie appresso la Piscina di Nerone; & vno non molto lontano da Ciuità Vecchia. E quando non ui uoleuano camini; faceuano nella grossezza del muro alcune canne, ò trombe per lequali il calor del fuoco, ch'era sotto quelle stanze saliua, & vsciua fuori per certi spiragli, ò bocche fatte nella sommità di quelle canne.",
+   "rule_de": "Die Antiken heizten mit Kaminen in der Raummitte (Säulen oder Konsolen tragen die Architrave, darüber die Rauchpyramide) oder, ohne Kamin, mit Röhren in der Mauerstärke, durch die die Wärme des Feuers unter den Räumen aufstieg.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "services.heating",
+   "scope": "all",
+   "values": {},
+   "note": "Im ersten Durchgang übersehen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVII.6",
+   "book": 1,
+   "chapter": "XXVII",
+   "phys": 64,
+   "printed_page": "60",
+   "anchor": [
+    "Quali nell ’ ifteffo modo",
+    "fecondo le ftagioni ."
+   ],
+   "quote": "Quasi nell'istesso modo i Trenti Gentil'huomini Vicentini à Costoza lor Villa rinfrescano l'Estate le stanze: Percioche essendo ne i monti di detta Villa, alcune caue grandissime, che gli habitatori di quei luoghi chiamano couali, & erano anticamente Petraie, delle quali credo che intenda Vitruuio, quando nel secondo libro, oue tratta delle pietre, dice, che nella Marca Triuigiana si caua vna sorte di pietra, che si taglia con la sega, come il legno, Nelle quali nascono alcuni venti freschissimi; questi Gentil'huomini per certi volti sotterranei, ch'essi dimandano Ventidotti; gli conducono alle loro case, & con canne simili alle sopradette conducono poi quel uento fresco per tutte le stanze, otturandole, & aprendole à lor piacere per pigliare più, e manco fresco, secondo le stagioni.",
+   "rule_de": "Ähnlich kühlen die Trento in Costozza im Sommer ihre Räume: Aus großen alten Steinbrüchen im Berg leiten sie frische Luft durch unterirdische Gänge ('Ventidotti') und Röhren in alle Zimmer und regeln sie durch Öffnen und Schließen.",
+   "kind": "procedure",
+   "attribution": "custom",
+   "topic": "services.ventilation",
+   "scope": "all",
+   "values": {},
+   "note": "Palladios Deutung einer Vitruvstelle (II) als diese Steinbrüche: 'credo che intenda Vitruuio'.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -4297,6 +4570,69 @@
    "scan_checked": true
   },
   {
+   "id": "I.XXVIII.12",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 65,
+   "printed_page": "61",
+   "anchor": [
+    "LeScaleàLumaca",
+    "fo no da quelli ueduti"
+   ],
+   "quote": "Le Scale à Lumaca, che à Chiocciola ancho si dicono; si fanno altroue ritonde, & altroue ouate: alcuna uolta con la colonna nel mezo, & alcuna uolta uacue, ne i luoghi stretti massimamente si usano: perche occupano manco luogo, che le diritte: ma sono alquanto più difficili da salire. Benissimo riescono quelle, che nel mezo sono vacue: percioche ponno hauere il lume dal di sopra: e quelli, che sono al sommo della Scala; ueggono tutti quelli, che saliscono, ò cominciano à salire: e similmente sono da quelli ueduti.",
+   "rule_de": "Wendeltreppen rund oder oval, mit oder ohne Spindel, für enge Orte (weniger Platz, etwas mühsamer); am besten hohl: Licht von oben, und man sieht einander von oben und unten.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.13",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 68,
+   "printed_page": "64",
+   "anchor": [
+    "Vn ’ altra bella maniera di Scale",
+    "come afcendono ."
+   ],
+   "quote": "Vn'altra bella maniera di Scale à lumaca fece già fare à Sciambur luoco della Francia il Magnanimo Re Francesco in vn Palagio da lui fabricato in vn bosco, & è in questo modo. Sono quattro Scale, lequali hanno quattro entrate, cioè ciascuna la sua, & ascendono vna sopra l'altra, di modo che facendosi nel mezo della fabrica; ponno seruire à quattro appartamenti, senza che quelli, che in vno habitano, uadano per la scala dell'altro: e per esser uacua nel mezo; tutti si ueggono l'vn l'altro salire, & scendere, senza che si diano vn minimo impedimento: e perche è bellissima inuentione, & noua; io l'ho posta, & con lettere contrasegnate le Scale nella pianta, & nell'alzato: accioche si ueda oue cominciano, & come ascendono.",
+   "rule_de": "Die Treppe von Chambord: vier ineinander gewundene Läufe mit je eigenem Eingang dienen vier Wohnungen, ohne dass man die Treppe des anderen benutzt; weil sie hohl ist, sieht man einander steigen. Palladio nimmt sie auf, weil sie eine sehr schöne und neue Erfindung ist.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "I.XXVIII.14",
+   "book": 1,
+   "chapter": "XXVIII",
+   "phys": 68,
+   "printed_page": "64",
+   "anchor": [
+    "Erano ancho ne i Portici di Pompeio",
+    "& Compolìto ."
+   ],
+   "quote": "Erano ancho ne i Portici di Pompeio, i quali sono in Roma per andare in piazza Giudea tre scale à lumaca di molto laudabile inuentione: percioche essendo esse poste nel mezo, onde non poteuano hauer lume, se non di sopra; erano fatte su le colonne, accioche il lume si spargesse vgualmente per tutto. Ad esempio di queste Bramante à' suoi tempi singolarissimo Architetto; ne fece vna in Beluedere, e la fece senza gradi, & ui uolse i quattro ordini di colonne, cioè il Dorico, Ionico, Corinthio, & Composito.",
+   "rule_de": "Die Wendeltreppen in den Portiken des Pompeius lagen in der Mitte und bekamen nur von oben Licht; deshalb ruhten sie auf Säulen, damit sich das Licht gleichmäßig verteilte. Nach ihrem Vorbild baute Bramante die Treppe im Belvedere.",
+   "kind": "rationale",
+   "attribution": "antichi",
+   "topic": "stairs",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "I.XXIX.1",
    "book": 1,
    "chapter": "XXIX",
@@ -4380,27 +4716,6 @@
    "kind": "preference",
    "attribution": "palladio",
    "topic": "roof",
-   "scope": "all",
-   "values": {},
-   "note": "",
-   "evidence_class": "A",
-   "scan_checked": true
-  },
-  {
-   "id": "I.XXVIII.12",
-   "book": 1,
-   "chapter": "XXVIII",
-   "phys": 65,
-   "printed_page": "61",
-   "anchor": [
-    "LeScaleàLumaca",
-    "fo no da quelli ueduti"
-   ],
-   "quote": "Le Scale à Lumaca, che à Chiocciola ancho si dicono; si fanno altroue ritonde, & altroue ouate: alcuna uolta con la colonna nel mezo, & alcuna uolta uacue, ne i luoghi stretti massimamente si usano: perche occupano manco luogo, che le diritte: ma sono alquanto più difficili da salire. Benissimo riescono quelle, che nel mezo sono vacue: percioche ponno hauere il lume dal di sopra: e quelli, che sono al sommo della Scala; ueggono tutti quelli, che saliscono, ò cominciano à salire: e similmente sono da quelli ueduti.",
-   "rule_de": "Wendeltreppen rund oder oval, mit oder ohne Spindel, für enge Orte (weniger Platz, etwas mühsamer); am besten hohl: Licht von oben, und man sieht einander von oben und unten.",
-   "kind": "preference",
-   "attribution": "palladio",
-   "topic": "stairs",
    "scope": "all",
    "values": {},
    "note": "",

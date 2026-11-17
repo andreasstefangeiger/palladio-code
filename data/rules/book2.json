@@ -395,6 +395,197 @@
    "scan_checked": true
   },
   {
+   "id": "II.III.7",
+   "book": 2,
+   "chapter": "III",
+   "phys": 76,
+   "printed_page": "4",
+   "anchor": [
+    "E perche fe bene alcune delle fabriche",
+    "tutti fiano honoratisfimi ."
+   ],
+   "quote": "E perche se bene alcune delle fabriche disegnate non sono del tutto finite; si può nondimeno da quel che è fatto comprendere qual debba esser l'opera finita ch'ella sia; ho posto à ciascuna il nome dell'edificatore, & il luogo doue sono; affine che ciascuno volendo possa uedere in effetto come esse riescano. Et in questa parte sarà auertito il lettore, che nel ponere i detti disegni; io non ho hauuto rispetto ne à gradi, ne à dignità de' gentil'huomini, che si nomineranno: ma gli ho posti nel luogho, che mi è uenuto meglio: conciosia che tutti siano honoratissimi.",
+   "rule_de": "Einige der gezeichneten Bauten sind nicht fertig; aus dem Gebauten lasse sich erkennen, wie das fertige Werk sein soll. Palladio nennt Bauherrn und Ort, damit jeder am Bau sehen kann, wie die Entwürfe gelingen. Die Reihenfolge der Tafeln folgt nicht dem Rang der Bauherren.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Folgerung (B): Bei unvollendeten Bauten zeigen die Tafeln den Entwurf, nicht den Bestand. 'luogho' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.8",
+   "book": 2,
+   "chapter": "III",
+   "phys": 76,
+   "printed_page": "4",
+   "anchor": [
+    "Icesfi fono a canto le fcale",
+    "nella fommità della cafa ."
+   ],
+   "quote": "I cessi sono a canto le scale, e benche siano nel corpo della fabrica; non rendono però alcun cattiuo odore: perche sono posti in luogo lontano dal Sole, & hanno alcuni spiragli dal fondo della fossa per la grossezza del muro, che sboccano nella sommità della casa.",
+   "rule_de": "Die Aborte liegen im Baukörper neben den Treppen und riechen doch nicht, weil sie fern von der Sonne liegen und Luftschächte vom Grund der Grube durch die Mauer bis zum Dach haben.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "services",
+   "scope": "city_house",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.9",
+   "book": 2,
+   "chapter": "III",
+   "phys": 78,
+   "printed_page": "6",
+   "anchor": [
+    "il pauimento del",
+    "del bel fito dinanzi ."
+   ],
+   "quote": "il pauimento del primo ordine s'alza da terra cinque piedi: il che è stato fatto si per ponerui sotto le cantine, & altri luoghi appartenenti al commodo della casa, iquali non sariano riusciti se fossero stati fatti del tutto sotterra; percioche il fiume non è molto discosto; si ancho accioche gli ordini di sopra meglio godessero del bel sito dinanzi.",
+   "rule_de": "Palazzo Chiericati: Der Boden des ersten Geschosses liegt 5 Fuß über dem Gelände, um darunter Keller und Wirtschaftsräume unterzubringen, die wegen des nahen Flusses nicht ganz unter der Erde liegen konnten, und damit die oberen Geschosse den schönen Platz davor besser genießen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "site.water",
+   "scope": "city_house",
+   "values": {
+    "floor_ft": 5
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.10",
+   "book": 2,
+   "chapter": "III",
+   "phys": 78,
+   "printed_page": "6",
+   "anchor": [
+    "La fua altezza è fin fotto il tetto",
+    "colonne doppie"
+   ],
+   "quote": "La sua altezza è fin sotto il tetto; e perche esce alquanto in fuori; ha sotto gli Angoli le colonne doppie",
+   "rule_de": "Der Saal des Palazzo Chiericati reicht bis unter das Dach; weil er etwas vortritt, stehen unter seinen Ecken Doppelsäulen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "structure",
+   "scope": "city_house",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.11",
+   "book": 2,
+   "chapter": "III",
+   "phys": 80,
+   "printed_page": "8",
+   "anchor": [
+    "Guarda quefta cafa fopra due drade",
+    "il luogo di lòpralìcuro"
+   ],
+   "quote": "Guarda questa casa sopra due strade publiche: e però ha due entrate, lequali hanno quattro colonne per ciascuna, che tolgono suso il uolto; e rendono il luogo di sopra sicuro.",
+   "rule_de": "Palazzo Porti: Das Haus liegt an zwei öffentlichen Straßen und hat deshalb zwei Eingänge; je vier Säulen tragen deren Gewölbe und sichern den Raum darüber.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.columns",
+   "scope": "city_house",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.12",
+   "book": 2,
+   "chapter": "III",
+   "phys": 83,
+   "printed_page": "11",
+   "anchor": [
+    "Si entra in quella cala dai fianchi",
+    "facciate minori ."
+   ],
+   "quote": "Si entra in questa casa da i fianchi, oue sono gli anditi larghi diece piedi: da i quali si peruiene ne i Cortili di lunghezza ciascuno di cinquanta piedi, e da questi in vna Sala aperta, la quale ha quattro colonne per maggior sicurezza della Sala di sopra. Da questa Sala si entra alle Scale: le quali sono ouate, e uacue nel mezo. I detti Cortili hanno i Corritori, ò Poggiuoli intorno, al pari del piano delle seconde stanze. Le altre Scale seruono per maggior commodità di tutta la casa. Questo compartimento riesce benissimo in questo sito: il quale è lungo, e stretto, & ha la strada maestra da vna delle facciate minori.",
+   "rule_de": "Palazzo della Torre (Verona): Eingänge an den Flanken, zwei Höfe, ein offener Saal mit vier Säulen zur Sicherheit des Saals darüber, ovale Treppen. Die Einteilung passt zu dem langen, schmalen Grundstück mit der Hauptstraße an einer Schmalseite.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "site",
+   "scope": "city_house",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.13",
+   "book": 2,
+   "chapter": "III",
+   "phys": 84,
+   "printed_page": "12",
+   "anchor": [
+    "Ne gli angoli ui fono le llanze ottangule",
+    "polfonoaccommodarc ."
+   ],
+   "quote": "Ne gli angoli ui sono le stanze ottangule, che riescono bene, si per la forma loro, come per diuersi usi, à' quali elle si possono accommodare.",
+   "rule_de": "Die achteckigen Eckzimmer gelingen gut, wegen ihrer Form und weil sie sich verschiedenen Zwecken anpassen lassen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.forms",
+   "scope": "city_house",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.14",
+   "book": 2,
+   "chapter": "III",
+   "phys": 84,
+   "printed_page": "12",
+   "anchor": [
+    "Le Cantine , e luoghi limili fono fottoterra",
+    "dia impaccio ."
+   ],
+   "quote": "Le Cantine, e luoghi simili sono sottoterra: perche questa fabrica è nella più alta parte della Città, oue non è pericolo, che l'acqua dia impaccio.",
+   "rule_de": "Keller und ähnliche Räume liegen unter der Erde, weil der Bau im höchsten Teil der Stadt steht, wo das Wasser nicht stört.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "site.water",
+   "scope": "city_house",
+   "values": {},
+   "note": "Gegenstück zu II.III.9.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.III.15",
+   "book": 2,
+   "chapter": "III",
+   "phys": 90,
+   "printed_page": "18",
+   "anchor": [
+    "la quale non mi è parlo mettere",
+    "nella Città iftelTa ."
+   ],
+   "quote": "la quale non mi è parso mettere tra le fabriche di Villa per la uicinanza ch'ella ha con la Città, onde si può dire che sia nella Città istessa.",
+   "rule_de": "Die Rotonda stellt Palladio nicht unter die Villen, weil sie so nahe an der Stadt liegt, dass sie gleichsam in ihr steht.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Einordnung eines Baus im Buch.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "II.IIII.1",
    "book": 2,
    "chapter": "IIII",
@@ -595,6 +786,27 @@
    "scan_checked": true
   },
   {
+   "id": "II.VI.4",
+   "book": 2,
+   "chapter": "VI",
+   "phys": 101,
+   "printed_page": "29",
+   "anchor": [
+    "Serue quella Sacreftia",
+    "da vn fianco dell ’ Atrio ."
+   ],
+   "quote": "Serue questa Sacrestia per Tablino (cosi chiamauano il luogo, oue poneuano le imagini de' maggiori) ancora che per accommodarmi; io l'habbia posta da vn fianco dell'Atrio.",
+   "rule_de": "Im Kloster der Carità dient die Sakristei als Tablinum; Palladio hat sie, um sich anzupassen, an eine Seite des Atriums gelegt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "atrium",
+   "scope": "convent",
+   "values": {},
+   "note": "Abweichung vom antiken Haus, das Palladio dort nachbildet (II.VI.1).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "II.VII.1",
    "book": 2,
    "chapter": "VII",
@@ -687,6 +899,27 @@
     "libraries": "east"
    },
    "note": "'Ticlini' so gedruckt (Triclini).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.VII.5",
+   "book": 2,
+   "chapter": "VII",
+   "phys": 105,
+   "printed_page": "33",
+   "anchor": [
+    "e perche quedaparteèdifficilifsima",
+    "fecondo Vitruuio ."
+   ],
+   "quote": "e perche questa parte è difficilissima per l'oscurità di Vitruuio, & degna di molta auertenza; io ne dirò quel che ne credo, aggiungendoui ancho la dispositione de gli Oeci, ò Salotti, Cancellarie, Tinelli, Bagni, & altri luoghi in modo che nel seguente disegno si haueranno tutte le parti della casa priuata poste ne' luoghi suoi secondo Vitruuio.",
+   "rule_de": "Das 'atrio testudinato' ist wegen Vitruvs Dunkelheit sehr schwierig; Palladio sagt, was er davon glaubt, und fügt die übrigen Räume hinzu, sodass die Zeichnung alle Teile des Privathauses nach Vitruv an ihrem Ort zeigt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "ancient_house",
+   "values": {},
+   "note": "Die Tafel ist Palladios Deutung Vitruvs ('quel che ne credo').",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -1381,6 +1614,71 @@
    "scan_checked": true
   },
   {
+   "id": "II.XIIII.6",
+   "book": 2,
+   "chapter": "XIIII",
+   "phys": 122,
+   "printed_page": "50",
+   "anchor": [
+    "mere di fopra fono come mezati",
+    "alte folo otto piedi ."
+   ],
+   "quote": "Le camere di sopra sono come mezati per la loro bassezza, perche sono alte solo otto piedi.",
+   "rule_de": "Die oberen Zimmer sind wegen ihrer geringen Höhe von nur 8 Fuß wie Mezzanine.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "villa",
+   "values": {
+    "height_ft": 8
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XIIII.7",
+   "book": 2,
+   "chapter": "XIIII",
+   "phys": 126,
+   "printed_page": "54",
+   "anchor": [
+    "Nella Sala terrena fono quattro colonne",
+    "tezza alla larghezza ."
+   ],
+   "quote": "Nella Sala terrena sono quattro colonne, accioche sia proportionata l'altezza alla larghezza.",
+   "rule_de": "Im Saal des Erdgeschosses stehen vier Säulen, damit seine Höhe zur Breite in Proportion steht.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.columns",
+   "scope": "villa",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XIIII.8",
+   "book": 2,
+   "chapter": "XIIII",
+   "phys": 126,
+   "printed_page": "54",
+   "anchor": [
+    "Le ( cale fono pode nel mezo",
+    "à diffidenza ."
+   ],
+   "quote": "Le scale sono poste nel mezo, e diuidono la sala dalla loggia, e caminano vna al contrario dell'altra: onde e dalla destra, e dalla sinistra si può ascendere, e discendere, e riescono molto commode, e belle, e sono lucide à sufficienza.",
+   "rule_de": "Die Treppen liegen in der Mitte zwischen Saal und Loggia und laufen gegenläufig, sodass man rechts und links hinauf- und hinabgehen kann; sie sind bequem, schön und hell genug.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "villa",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "II.XV.1",
    "book": 2,
    "chapter": "XV",
@@ -1484,6 +1782,115 @@
    "scope": "villa",
    "values": {},
    "note": "Villa Sarego, Santa Sofia.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XV.6",
+   "book": 2,
+   "chapter": "XV",
+   "phys": 130,
+   "printed_page": "58",
+   "anchor": [
+    "fopra tutti quelli luoghi è il",
+    "fi alza cinque piedi da terra"
+   ],
+   "quote": "sopra tutti questi luoghi è il Granaro, e sotto le Cantine, e la cucina: percioche il piano delle stanze si alza cinque piedi da terra",
+   "rule_de": "Über allem liegt der Kornspeicher, darunter liegen Keller und Küche, weil der Boden der Zimmer 5 Fuß über dem Gelände liegt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "villa.cellars",
+   "scope": "villa",
+   "values": {
+    "floor_ft": 5
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XV.7",
+   "book": 2,
+   "chapter": "XV",
+   "phys": 132,
+   "printed_page": "60",
+   "anchor": [
+    "Nella fommità del colle",
+    "feruono per mczati ."
+   ],
+   "quote": "Nella sommità del colle ha da esserui la Sala ritonda, circondata dalle stanze, e però tanto alta che pigli il lume sopra di quelle. Sono nella Sala alcune meze colonne, che tolgono suso un poggiuolo, nel quale si entra per le stanze di sopra; lequali perche sono alte solo sette piedi; seruono per mezati.",
+   "rule_de": "Villa Trissino in Meledo: Der runde Saal auf der Hügelkuppe ist von Zimmern umgeben und deshalb so hoch, dass er über ihnen Licht erhält. Die oberen Zimmer sind nur 7 Fuß hoch und dienen deshalb als Mezzanine.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.hall",
+   "scope": "villa",
+   "values": {
+    "upper_rooms_ft": 7
+   },
+   "note": "Geplant ('ha da esserui'): Die Tafel zeigt den Entwurf.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XV.8",
+   "book": 2,
+   "chapter": "XV",
+   "phys": 134,
+   "printed_page": "62",
+   "anchor": [
+    "Sono le fcale fenza muro nel mezo",
+    "riceuono il lume ancho di fo"
+   ],
+   "quote": "Sono le scale senza muro nel mezo, e perche la sala per riceuere il lume di sopra è luminosissima, esse ancora hanno lume à bastanza, e tanto più che essendo uacue nel mezo; riceuono il lume ancho di sopra",
+   "rule_de": "Die Treppen haben keine Mittelmauer; weil der Saal sein Licht von oben bekommt und sehr hell ist, sind auch sie hell genug, zumal sie als hohle Treppen auch von oben Licht erhalten.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "stairs",
+   "scope": "villa",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XV.9",
+   "book": 2,
+   "chapter": "XV",
+   "phys": 133,
+   "printed_page": "61",
+   "anchor": [
+    "il che è dato fatto affine",
+    "più inclinato l ’ animo ."
+   ],
+   "quote": "il che è stato fatto affine che questo Gentil'huomo, il quale riceue molto uolentieri tutti quelli, che vanno à ritrouarlo; possa alloggiare i suoi forestieri, & amici nella camera di quella Virtù, alla quale essi gli pareranno hauer più inclinato l'animo.",
+   "rule_de": "Die Zimmer sind verschiedenen Tugenden geweiht und entsprechend ausgemalt, damit der gastfreie Bauherr jeden Gast im Zimmer der Tugend unterbringen kann, der dieser am meisten zuneigt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "guests",
+   "scope": "villa",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XV.10",
+   "book": 2,
+   "chapter": "XV",
+   "phys": 137,
+   "printed_page": "65",
+   "anchor": [
+    "Per rendere quello",
+    "con non picciola { pela ."
+   ],
+   "quote": "Per rendere questo sito commodo per l'vso di Villa ui sono stati fatti cortili, & strade sopra uolti con non picciola spesa.",
+   "rule_de": "Villa Godi in Lonedo: Um das Hanggrundstück für den Villenbetrieb bequem zu machen, wurden Höfe und Wege auf Gewölben angelegt, mit nicht geringen Kosten.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "site",
+   "scope": "villa",
+   "values": {},
+   "note": "",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -1596,6 +2003,27 @@
    "scope": "all",
    "values": {},
    "note": "Verweist auf die Vorrede zu Buch I.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XVI.6",
+   "book": 2,
+   "chapter": "XVI",
+   "phys": 141,
+   "printed_page": "69",
+   "anchor": [
+    "O FIN QVI porto i difegni",
+    "uio in quella parte"
+   ],
+   "quote": "[H]O FIN QVI posto i disegni di molte fabriche di Villa da me ordinate: resta ch'io ponga ancho il disegno della casa di Villa, che, secondo quello, che ne dice Vitruuio, soleuano fare gli Antichi: percioche in esso si uederanno tutti i luoghi appartinenti all'habitatione, & all'vso di Villa collocati alle regioni del Cielo, che à loro si conuengono: nè mi estenderò in referire quello, che ne dice Plinio: perche hora il mio principale oggetto è solamente di mostrare come si debba intendere Vitruuio in questa parte.",
+   "rule_de": "Palladio zeichnet die antike Villa nach Vitruv, weil sie alle Räume für Wohnen und Landwirtschaft nach den ihnen gemäßen Himmelsrichtungen zeigt; Plinius lässt er beiseite, denn er will nur zeigen, wie Vitruv zu verstehen ist.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "ancient_house",
+   "values": {},
+   "note": "Die Tafel ist eine Deutung Vitruvs.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -1728,6 +2156,96 @@
    "scope": "all",
    "values": {},
    "note": "'edicare' so gedruckt (edificare).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XVII.7",
+   "book": 2,
+   "chapter": "XVII",
+   "phys": 143,
+   "printed_page": "71",
+   "anchor": [
+    "La entrata è quadra , & ha quat",
+    "proportionano la altezza alla larghezza"
+   ],
+   "quote": "La entrata è quadra, & ha quattro colonne: le quali tolgono suso il uolto, e proportionano la altezza alla larghezza",
+   "rule_de": "Die quadratische Eingangshalle hat vier Säulen: Sie tragen das Gewölbe und bringen die Höhe in Proportion zur Breite.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.columns",
+   "scope": "city_house",
+   "values": {},
+   "note": "Entwurf, nicht ausgeführt (II.XVII.1).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XVII.8",
+   "book": 2,
+   "chapter": "XVII",
+   "phys": 144,
+   "printed_page": "72",
+   "anchor": [
+    "eccetto che la fala , che è fopra la entrata",
+    "ue ne farebbono due ordini ."
+   ],
+   "quote": "eccetto che la sala, che è sopra la entrata non ha colonna, e giugne con la sua altezza fino sotto il tetto, & ha vn corritore, ò poggiuolo al piano delle terze stanze, che seruirebbe ancho alle finestre di sopra: perche in questa Sala ue ne farebbono due ordini.",
+   "rule_de": "Der Saal über dem Eingang reicht bis unters Dach; ein Umgang in Höhe des dritten Geschosses dient auch den oberen Fenstern, weil der Saal zwei Fensterreihen hätte.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.hall",
+   "scope": "city_house",
+   "values": {},
+   "note": "Entwurf, nicht ausgeführt (II.XVII.1).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XVII.9",
+   "book": 2,
+   "chapter": "XVII",
+   "phys": 145,
+   "printed_page": "73",
+   "anchor": [
+    "un ’ entrata quadra di",
+    "portione ."
+   ],
+   "quote": "un'entrata quadra diuisa in tre spacij da colonne di ordine Corinthio, accioche il volto suo hauesse hauuto fortezza, e proportione.",
+   "rule_de": "Entwurf für die Trissino in Vicenza: Die quadratische Eingangshalle ist durch korinthische Säulen in drei Räume geteilt, damit ihr Gewölbe Festigkeit und Proportion hat.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "rooms.columns",
+   "scope": "city_house",
+   "values": {},
+   "note": "Entwurf, nicht ausgeführt (II.XVII.1).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "II.XVII.10",
+   "book": 2,
+   "chapter": "XVII",
+   "phys": 150,
+   "printed_page": "78",
+   "anchor": [
+    "La loggia che è nel mezo della facciata",
+    "il piano della lecon da loggia"
+   ],
+   "quote": "La loggia che è nel mezo della facciata, è di spesse colonne, lequali perche sono alte xl. piedi; hanno di dietro alcuni pilastri larghi due piedi, e grossi vn piede & un quarto, che sostentano il piano della seconda loggia",
+   "rule_de": "Entwurf für Leonardo Mocenigo: Die Säulen der mittleren Loggia sind 40 Fuß hoch; deshalb stehen hinter ihnen Pfeiler, 2 Fuß breit und 1¼ Fuß stark, die den Boden der oberen Loggia tragen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "structure",
+   "scope": "villa",
+   "values": {
+    "column_ft": 40,
+    "pier_ft": [
+     2,
+     1.25
+    ]
+   },
+   "note": "Entwurf, nicht ausgeführt (II.XVII.1).",
    "evidence_class": "A",
    "scan_checked": true
   }

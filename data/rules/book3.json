@@ -666,6 +666,27 @@
    "scan_checked": true
   },
   {
+   "id": "III.III.6",
+   "book": 3,
+   "chapter": "III",
+   "phys": 161,
+   "printed_page": "9",
+   "anchor": [
+    "Dellaprima maniera di uie",
+    "non ui fi porta affermare ."
+   ],
+   "quote": "Della prima maniera di uie è il disegno, che segue, dal quale si può conoscer come doueua esser fatta la uia Hostiense. Della seconda maniera non mi è parso necessario il farne disegno alcuno, perche è cosa facilissima, ne ui è bisogno di alcuna industria purche si facciano colme nel mezo, onde l'acqua non ui si possa affermare.",
+   "rule_de": "Die Zeichnung der ersten Straßenart zeigt, wie die Via Ostiense gewesen sein muss. Die zweite Art zeichnet Palladio nicht, weil sie ganz einfach ist: Man muss sie nur in der Mitte wölben, damit das Wasser nicht stehen bleibt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "streets",
+   "values": {},
+   "note": "Die Tafel der Via Ostiense ist erschlossen ('come doueua esser').",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "III.IIII.1",
    "book": 3,
    "chapter": "IIII",
@@ -921,6 +942,27 @@
    "scan_checked": true
   },
   {
+   "id": "III.VII.3",
+   "book": 3,
+   "chapter": "VII",
+   "phys": 167,
+   "printed_page": "15",
+   "anchor": [
+    "e perche egli è ue",
+    "rinouarlo ogn ’ anno ."
+   ],
+   "quote": "e perche egli è uelocissimo, e per lui i montanari mandano giù grandissima quantità di legnami, si prese risolutione di farui un Ponte, senza porre altrimenti pali nell'acqua. Percioche le traui, che ui si ficcauano, erano dalla uelocità del corso del fiume, e dalle percosse de i sassi, e de gli arbori, che da quello continuamente sono portati all'ingiù, mosse, & cauate: Onde faceua bisogno al Conte Giacomo Angarano, ilquale è patrone del Ponte, rinouarlo ogn'anno.",
+   "rule_de": "Brücke über den Cismone: Weil der Fluss reißend ist und die Bergleute viel Holz flößen, wurde beschlossen, ohne Pfähle im Wasser zu bauen; die Pfähle wurden von Strömung, Steinen und Stämmen gelockert und herausgerissen, sodass der Besitzer die Brücke jedes Jahr erneuern musste.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "III.VIII.1",
    "book": 3,
    "chapter": "VIII",
@@ -986,6 +1028,48 @@
    "scan_checked": true
   },
   {
+   "id": "III.VIII.4",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 168,
+   "printed_page": "16",
+   "anchor": [
+    "delle quali , perche fono di bellisfima",
+    "nel detto ponte del Cif mon"
+   ],
+   "quote": "delle quali, perche sono di bellissima inuentione; non hò uoluto lasciar di porre i disegni; tanto più che facilmente saranno intese da ciascuno, c'harrà appreso i termini usati nel detto ponte del Cismon",
+   "rule_de": "Drei weitere Holzbrücken ohne Pfähle im Fluss zeichnet Palladio, weil sie sehr schöne Erfindungen sind und jeder sie mit den Begriffen der Cismone-Brücke leicht versteht.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VIII.5",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 169,
+   "printed_page": "17",
+   "anchor": [
+    "Per maggior fortezza",
+    "carico del ponte ."
+   ],
+   "quote": "Per maggior fortezza si potrbbono aggiogner due traui per ogni capo del ponte, lequali affermate ne' pilastri con un capo, con l'altro arriuassero sotto i primi colonelli, percioche aiuterebbono molto à sostentar il carico del ponte.",
+   "rule_de": "Zur Verstärkung kann man an jedem Brückenende zwei Balken hinzufügen, die mit einem Ende im Widerlager sitzen und mit dem anderen unter die ersten Hängesäulen reichen; sie helfen sehr, die Last zu tragen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "Im ersten Durchgang übersehen. 'potrbbono' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "III.IX.1",
    "book": 3,
    "chapter": "IX",
@@ -1005,6 +1089,27 @@
     "arch_rise": "1/4 span"
    },
    "note": "Brücke von Bassano; fünf Felder von 34½ Fuß.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IX.2",
+   "book": 3,
+   "chapter": "IX",
+   "phys": 171,
+   "printed_page": "19",
+   "anchor": [
+    "e per che la diftanza tra detti ordini",
+    "dellalunghezza ."
+   ],
+   "quote": "e perche la distanza tra detti ordini è molto grande, onde con difficultà le traui poste per il lungo haurebbono potuto reggere il carico, che lor fosse stato posto sopra, quando fosse stato molto; si posero tra quelle & i correnti alcune traui, che seruono per modiglioni, e sostentano parte del carico: oltre acciò si ordinarono altre traui, lequali affermate in quelle, ch'erano fite nel fiume, e piegate l'una uerso dell'altra, andassero à unirsi con un'altra traue posta nel mezo della detta distanza sotto ciascuna delle traui della lunghezza.",
+   "rule_de": "Brücke von Bassano: Weil die Pfahljoche weit auseinanderstehen und die Längsbalken eine große Last kaum getragen hätten, wurden Balken als Konsolen untergelegt und schräge Streben angeordnet, die sich in der Mitte unter jedem Längsbalken treffen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -1383,6 +1488,27 @@
    "scope": "bridges",
    "values": {},
    "note": "Antikes Vorbild als Rechtfertigung einer neuen Lösung.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIII.3",
+   "book": 3,
+   "chapter": "XIII",
+   "phys": 177,
+   "printed_page": "25",
+   "anchor": [
+    "ELLISSIMA à mio giudicio",
+    "à trattarei loro negocij ."
+   ],
+   "quote": "[B]ELLISSIMA à mio giudicio è la inuentione del Ponte, che segue; e molto accommodata al luogo, oue si doueua edificare: ch'era nel mezo d'una città, laquale è delle maggiori, e delle più nobili d'Italia; & è Metropoli di molte altre Città; e ui si fanno grandissimi trafichi, quasi di tutte le parti del mondo. Il fiume è larghissimo, & il Ponte ueniua à esser nel luogo apponto, oue si riducono i mercanti à trattare i loro negocij.",
+   "rule_de": "Palladio hält seinen Brückenentwurf für sehr schön und dem Ort angemessen: mitten in einer der größten Städte Italiens mit Handel aus aller Welt, über einem sehr breiten Fluss, genau dort, wo die Kaufleute ihre Geschäfte treiben.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "site",
+   "scope": "bridges",
+   "values": {},
+   "note": "Entwurf, nicht ausgeführt.",
    "evidence_class": "A",
    "scan_checked": true
   },
@@ -1819,6 +1945,48 @@
    "scan_checked": true
   },
   {
+   "id": "III.XVII.4",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "Doueano elPer tutti quelli portichi",
+    "giongono alle piazze ."
+   ],
+   "quote": "Doueano esser tutti questi portichi ornati di Nicchi con statue: percioche i Greci molto di tali ornamenti si dilettarono. Vicino à queste piazze, benche Vitruuio, quando ne insegna come elle si ordinauano; non faccia mentione di questi luoghi; ui douea esser la Basilica, la Curia, le prigioni, e tutti gli altri luoghi, de quali s'è detto di sopra, che si congiongono alle piazze.",
+   "rule_de": "In der Tafel der griechischen Plätze ergänzt Palladio Nischen mit Statuen, weil die Griechen solchen Schmuck liebten, sowie Basilika, Curia und Gefängnisse, obwohl Vitruv sie an dieser Stelle nicht nennt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "piazza",
+   "values": {},
+   "note": "Ergänzt nach Analogie ('doueano', 'ui douea esser'). Die korinthische Ordnung der Portiken ist schon in III.XVII.2 als Palladios Urteil vermerkt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVII.5",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "& in Pola Città",
+    "à canto la Bafilica"
+   ],
+   "quote": "& in Pola Città dell'Istria se ne ueggono due sopra la piazza, l'uno simile all'altro di forma, di grandezza, & di ornamenti; io gli ho figurati nel disegno di queste piazze à canto la Basilica",
+   "rule_de": "Die beiden Tempel für Merkur und Isis (III.XVII.3) zeichnet Palladio neben die Basilika, nach dem Beispiel der zwei gleichen Tempel am Platz von Pola.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "piazza",
+   "values": {},
+   "note": "Ergänzt nach einem erhaltenen Beispiel.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "III.XVIII.1",
    "book": 3,
    "chapter": "XVIII",
@@ -2010,6 +2178,27 @@
    "scan_checked": true
   },
   {
+   "id": "III.XIX.6",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "Con altri compartimenti",
+    "con fomma diligenza ."
+   ],
+   "quote": "Con altri compartimenti fu ordinata da esso Vitruuio una Basilica in Fano, laquale per le misure, che al detto luogo egli ne dà; si comprende, che doueua esser un edificio di bellezza, e di dignità grandissima; & io ne porrei quì i disegni, se dal Reuerendissimo Barbaro nel suo Vitruuio non fossero stati fatti con somma diligenza.",
+   "rule_de": "Vitruvs Basilika in Fano muss nach seinen Maßen sehr schön und würdig gewesen sein; Palladio zeichnet sie nicht, weil Barbaro es in seinem Vitruv sorgfältig getan hat.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
    "id": "III.XX.1",
    "book": 3,
    "chapter": "XX",
@@ -2048,6 +2237,48 @@
    "scope": "public_building",
    "values": {},
    "note": "Maßstäbe des Urteils: Größe, Schmuck, Material, Fügung.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XX.3",
+   "book": 3,
+   "chapter": "XX",
+   "phys": 193,
+   "printed_page": "41",
+   "anchor": [
+    "come gli Antichi fecero le lor Baliliehe",
+    "render ragione al popolo ."
+   ],
+   "quote": "[S]I come gli Antichi fecero le lor Basiliche, acciò che'l uerno, e la state gl'huomini hauessero oue raunarsi à trattar commodamente le lor cause, & i lor negocij: cosi à tempi nostri in ciascuna città d'Italia, e fuori si fanno alcune Sale publiche; lequali si possono chiamar meritamente Basiliche: percioche lor presso è l'habitatione del supremo magistrato, onde uengono à esser parte di quella; e propriamente questo nome, Basilica, significa casa regale: & anco perche ui stanno i giudici a render ragione al popolo.",
+   "rule_de": "Die öffentlichen Säle der heutigen Städte darf man Basiliken nennen: Sie dienen wie die antiken dem Verhandeln von Prozessen und Geschäften, neben ihnen wohnt der oberste Magistrat ('Basilica' heißt königliches Haus), und in ihnen sprechen die Richter Recht.",
+   "kind": "principle",
+   "attribution": "custom",
+   "topic": "terminology",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XX.4",
+   "book": 3,
+   "chapter": "XX",
+   "phys": 193,
+   "printed_page": "41",
+   "anchor": [
+    "Non occorre ch ’ io ponga le mi",
+    "notate à i fuoi luoghi ."
+   ],
+   "quote": "Non occorre ch'io ponga le misure di ciascuna sua parte, perche ne' disegni sono tutte notate à i suoi luoghi.",
+   "rule_de": "Die Maße der Basilika von Vicenza nennt Palladio nicht im Text, weil sie alle in den Zeichnungen stehen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
    "evidence_class": "A",
    "scan_checked": true
   },

@@ -29,7 +29,7 @@
    "printed_page_start": 5,
    "prior_work": "",
    "status": "checked",
-   "rules": 2
+   "rules": 6
   },
   {
    "book": 1,
@@ -46,7 +46,7 @@
    "printed_page_start": 6,
    "prior_work": "",
    "status": "checked",
-   "rules": 13
+   "rules": 14
   },
   {
    "book": 1,
@@ -182,7 +182,7 @@
    "printed_page_start": 11,
    "prior_work": "",
    "status": "checked",
-   "rules": 6
+   "rules": 7
   },
   {
    "book": 1,
@@ -250,7 +250,7 @@
    "printed_page_start": 15,
    "prior_work": "",
    "status": "checked",
-   "rules": 12
+   "rules": 14
   },
   {
    "book": 1,
@@ -267,7 +267,7 @@
    "printed_page_start": 16,
    "prior_work": "",
    "status": "checked",
-   "rules": 8
+   "rules": 9
   },
   {
    "book": 1,
@@ -318,7 +318,7 @@
    "printed_page_start": 37,
    "prior_work": "",
    "status": "checked",
-   "rules": 5
+   "rules": 6
   },
   {
    "book": 1,
@@ -471,7 +471,7 @@
    "printed_page_start": 55,
    "prior_work": "",
    "status": "checked",
-   "rules": 6
+   "rules": 7
   },
   {
    "book": 1,
@@ -488,7 +488,7 @@
    "printed_page_start": 60,
    "prior_work": "",
    "status": "checked",
-   "rules": 4
+   "rules": 6
   },
   {
    "book": 1,
@@ -505,7 +505,7 @@
    "printed_page_start": 60,
    "prior_work": "",
    "status": "checked",
-   "rules": 12
+   "rules": 14
   },
   {
    "book": 1,
@@ -573,7 +573,7 @@
    "printed_page_start": 4,
    "prior_work": "",
    "status": "checked",
-   "rules": 6
+   "rules": 15
   },
   {
    "book": 2,
@@ -624,7 +624,7 @@
    "printed_page_start": 29,
    "prior_work": "",
    "status": "checked",
-   "rules": 3
+   "rules": 4
   },
   {
    "book": 2,
@@ -641,7 +641,7 @@
    "printed_page_start": 33,
    "prior_work": "",
    "status": "checked",
-   "rules": 4
+   "rules": 5
   },
   {
    "book": 2,
@@ -760,7 +760,7 @@
    "printed_page_start": 47,
    "prior_work": "",
    "status": "checked",
-   "rules": 5
+   "rules": 8
   },
   {
    "book": 2,
@@ -777,7 +777,7 @@
    "printed_page_start": 56,
    "prior_work": "",
    "status": "checked",
-   "rules": 5
+   "rules": 10
   },
   {
    "book": 2,
@@ -794,7 +794,7 @@
    "printed_page_start": 69,
    "prior_work": "",
    "status": "checked",
-   "rules": 5
+   "rules": 6
   },
   {
    "book": 2,
@@ -811,7 +811,7 @@
    "printed_page_start": 71,
    "prior_work": "",
    "status": "checked",
-   "rules": 6
+   "rules": 10
   },
   {
    "book": 3,
@@ -879,7 +879,7 @@
    "printed_page_start": 8,
    "prior_work": "",
    "status": "checked",
-   "rules": 5
+   "rules": 6
   },
   {
    "book": 3,
@@ -947,7 +947,7 @@
    "printed_page_start": 15,
    "prior_work": "",
    "status": "checked",
-   "rules": 2
+   "rules": 3
   },
   {
    "book": 3,
@@ -964,7 +964,7 @@
    "printed_page_start": 16,
    "prior_work": "",
    "status": "checked",
-   "rules": 3
+   "rules": 5
   },
   {
    "book": 3,
@@ -981,7 +981,7 @@
    "printed_page_start": 19,
    "prior_work": "",
    "status": "checked",
-   "rules": 1
+   "rules": 2
   },
   {
    "book": 3,
@@ -1049,7 +1049,7 @@
    "printed_page_start": 25,
    "prior_work": "",
    "status": "checked",
-   "rules": 2
+   "rules": 3
   },
   {
    "book": 3,
@@ -1117,7 +1117,7 @@
    "printed_page_start": 32,
    "prior_work": "",
    "status": "checked",
-   "rules": 3
+   "rules": 5
   },
   {
    "book": 3,
@@ -1151,7 +1151,7 @@
    "printed_page_start": 38,
    "prior_work": "data/book4 statement B3-XIX-BASILICA",
    "status": "checked",
-   "rules": 5
+   "rules": 6
   },
   {
    "book": 3,
@@ -1168,7 +1168,7 @@
    "printed_page_start": 41,
    "prior_work": "",
    "status": "checked",
-   "rules": 2
+   "rules": 4
   },
   {
    "book": 3,
