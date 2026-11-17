@@ -1,0 +1,184 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro II; e-rara DOI 10.3931/e-rara-363",
+ "question": "Welche Bauten in Buch II waren 1570 nach Palladios eigenen Worten unvollendet, begonnen oder nur entworfen?",
+ "evidence_policy": "Nur was Palladios Text sagt, am Scan gelesen (Klasse A). 'keine Angabe' heißt nicht, dass ein Bau fertig war. Die Entwürfe von Kap. XVII (S. 71-78) sind nach II.XVII.1 nicht ausgeführt.",
+ "status_vocabulary": {
+  "teilweise gebaut": "Palladio sagt, dass nur ein Teil steht oder fertig ist",
+  "begonnen": "Palladio sagt, dass der Bau begonnen ist; das Übrige steht im Futur",
+  "begonnen; gedruckter Grundriss überholt": "begonnen, und der gedruckte Grundriss ist nicht der zuletzt beschlossene",
+  "begonnen, Stand nicht genannt": "Palladio nennt nur den Beginn (durch den Vater), nicht den Stand",
+  "Entwurf": "nicht ausgeführte 'inuentione' (II.XVII.1)"
+ },
+ "projects": {
+  "rule": "II.XVII.1",
+  "phys_from": 143,
+  "phys_to": 150
+ },
+ "statements": [
+  {
+   "id": "B2-STATO-PORTO-1",
+   "building": "Palazzo Iseppo Porto",
+   "phys": 80,
+   "printed_page": "8",
+   "anchor": [
+    "coli le prime , come le feconde",
+    "ch ’ è data fatta"
+   ],
+   "quote": "cosi le prime, come le seconde di quella parte di fabrica, ch'è stata fatta",
+   "status": "teilweise gebaut",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-PORTO-2",
+   "building": "Palazzo Iseppo Porto",
+   "phys": 80,
+   "printed_page": "8",
+   "anchor": [
+    "Il cortile circondato daportici",
+    "ui fono pilaftri"
+   ],
+   "quote": "Il cortile circondato da portici, al quale si uà da dette entrate per un'andito; hauerà le colonne alte trentasei piedi e mezo, cioè quanto è alto il primo, e secondo ordine. Dietro a queste colonne ui sono pilastri",
+   "status": "teilweise gebaut",
+   "note": "Der Hof steht im Futur ('hauerà').",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-TORRE",
+   "building": "Palazzo della Torre",
+   "phys": 83,
+   "printed_page": "11",
+   "anchor": [
+    "L A fabrica che fegue è in Verona",
+    "ma ne è fatta vna buona parte ."
+   ],
+   "quote": "LA fabrica che segue è in Verona, e fu cominciata dal Conte Gio. Battista dalla Torre Gentil'huomo di quella Città: il quale soprauenuto dalla morte; non l'ha potuta finire: ma ne è fatta vna buona parte.",
+   "status": "teilweise gebaut",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-THIENE-1",
+   "building": "Palazzo Thiene",
+   "phys": 84,
+   "printed_page": "12",
+   "anchor": [
+    "I DISEGNI che feguono fono di una fabrica",
+    "il qual le diede principio ."
+   ],
+   "quote": "I DISEGNI che seguono sono di una fabrica in Vicenza del Conte Ottauio de' Thieni, fu del Conte Marc'Antonio: il qual le diede principio.",
+   "status": "teilweise gebaut",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-THIENE-2",
+   "building": "Palazzo Thiene",
+   "phys": 84,
+   "printed_page": "12",
+   "anchor": [
+    "Di fopra uifaràlaSala maggiore",
+    "al paro della Loggia ."
+   ],
+   "quote": "Di sopra ui sarà la Sala maggiore: la quale vscirà in fuori al paro della Loggia.",
+   "status": "teilweise gebaut",
+   "note": "Futur.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-THIENE-3",
+   "building": "Palazzo Thiene",
+   "phys": 84,
+   "printed_page": "12",
+   "anchor": [
+    "Le llanze di quella fabrica",
+    "fono fiate ornate"
+   ],
+   "quote": "Le stanze di questa fabrica c'hora sono finite; sono state ornate",
+   "status": "teilweise gebaut",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-CAPRA",
+   "building": "Palazzo Capra",
+   "phys": 92,
+   "printed_page": "20",
+   "anchor": [
+    "HA ANCORA il Signor Giulio Capra",
+    "come merita il fuo nobil ’ animo ."
+   ],
+   "quote": "HA ANCORA il Signor Giulio Capra dignissimo Caualiere, & Gentil'huomo Vicentino per ornamento della sua patria più tosto che per proprio bisogno preparata la materia per fabricare, & cominciato secondo i disegni, che seguono in vn bellissimo sito sopra la strada principale della Città. Hauerà questa Casa Cortile, Loggie, Sale, e Stanze, delle quali alcune saranno grandi, alcune mediocri, & alcune picciole. La forma sarà bella, & uaria, e certo questo Gentil'huomo hauerà casa molto honorata, e magnifica, come merita il suo nobil'animo.",
+   "status": "begonnen",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-BARBARANO",
+   "building": "Palazzo Barbarano",
+   "phys": 94,
+   "printed_page": "22",
+   "anchor": [
+    "Si ha già",
+    "La entrata di quella inuentione"
+   ],
+   "quote": "Si ha già cominciato à fabricare, & si fa la facciata secondo il disegno che segue in forma grande. Non ho posto ancho il disegno della pianta, secondo che è stato ultimamente concluso, e secondo che sono hormai state gettate le fondamenta, per non hauere potuto farlo intagliare à tempo, che si potesse stampare.",
+   "status": "begonnen; gedruckter Grundriss überholt",
+   "note": "Palladio sagt ausdrücklich, dass der gedruckte Grundriss nicht der zuletzt beschlossene ist.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-MELEDO",
+   "building": "Villa Trissino, Meledo",
+   "phys": 132,
+   "printed_page": "60",
+   "anchor": [
+    "LA SEGVENTE fabrica è Rata cominciata",
+    "ha da elferui la Sala ritonda"
+   ],
+   "quote": "LA SEGVENTE fabrica è stata cominciata dal Conte Francesco, e Conte Lodouico fratelli de Trissini à Meledo Villa del Vicentino. Il sito è bellissimo: percioche è sopra un colle il quale è bagnato da vn piaceuole fiumicello, & è nel mezo di vna molto spaciosa pianura, & à canto ha vna assai frequente strada. Nella sommità del colle ha da esserui la Sala ritonda",
+   "status": "begonnen",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-CIGOGNA",
+   "building": "Villa Thiene",
+   "phys": 134,
+   "printed_page": "62",
+   "anchor": [
+    "LA SEGVENTE fabrica",
+    "dal Conte Francefco loro padre ."
+   ],
+   "quote": "LA SEGVENTE fabrica è del Conte Odoardo, & Conte Theodoro fratelli de' Thieni, in Cigogna sua Villa, la qual fabrica fu principiata dal Conte Francesco loro padre.",
+   "status": "begonnen, Stand nicht genannt",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "B2-STATO-QUINTO",
+   "building": "Villa Thiene, Quinto",
+   "phys": 136,
+   "printed_page": "64",
+   "anchor": [
+    "I DISEGNI , che feguono fono della fabrica del Conte Ottauio Thiene",
+    "Adriano Tuo Zio"
+   ],
+   "quote": "I DISEGNI, che seguono sono della fabrica del Conte Ottauio Thiene à Quinto sua Villa. Fù cominciata dalla felice memoria del Conte Marc'Antonio suo padre, e dal Conte Adriano suo Zio",
+   "status": "begonnen, Stand nicht genannt",
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  }
+ ]
+}

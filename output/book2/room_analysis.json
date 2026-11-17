@@ -234,5 +234,59 @@
       "I23_second": 1,
       "I23_third": 1
     }
+  },
+  "by_completion": {
+    "unvollendet oder begonnen": {
+      "rooms": 18,
+      "exact_I21": 9,
+      "share": 0.5,
+      "buildings": [
+        "Palazzo Barbarano",
+        "Palazzo Capra",
+        "Palazzo Iseppo Porto",
+        "Palazzo Thiene",
+        "Palazzo della Torre",
+        "Villa Thiene"
+      ]
+    },
+    "keine Angabe": {
+      "rooms": 49,
+      "exact_I21": 27,
+      "share": 0.551,
+      "buildings": [
+        "Palazzo Antonini",
+        "Palazzo Chiericati",
+        "Villa Almerico (Rotonda)",
+        "Villa Angarano",
+        "Villa Badoer",
+        "Villa Cornaro",
+        "Villa Emo",
+        "Villa Foscari (Malcontenta)",
+        "Villa Godi",
+        "Villa Mocenigo",
+        "Villa Pisani, Bagnolo",
+        "Villa Pisani, Montagnana",
+        "Villa Poiana",
+        "Villa Ragona",
+        "Villa Saraceno",
+        "Villa Sarego",
+        "Villa Valmarana",
+        "Villa Zeno"
+      ]
+    },
+    "Entwurf": {
+      "rooms": 12,
+      "exact_I21": 7,
+      "share": 0.583,
+      "buildings": [
+        "Inventione per un sito in Venetia",
+        "Inventione per un sito piramidale",
+        "Palazzo Angarano (inventione)",
+        "Palazzo Garzadore (inventione)",
+        "Palazzo Trissino (inventione)",
+        "Palazzo della Torre (inventione)",
+        "Villa Mocenigo (inventione sopra la Brenta)"
+      ]
+    }
   }
 }

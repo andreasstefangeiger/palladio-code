@@ -67,6 +67,35 @@ def ratio_census(rooms: list[dict]) -> dict:
     }
 
 
+def completion_status(completion: dict) -> dict[str, str]:
+    """Building -> status from Palladio's own words (data/book2/completion.json)."""
+    status = {}
+    for s in completion["statements"]:
+        status.setdefault(s["building"], s["status"])
+    return status
+
+
+def census_by_completion(rooms: list[dict], completion: dict) -> dict:
+    """Share of rooms with an exact Book I ratio, split by what Palladio says about the state of the building."""
+    status = completion_status(completion)
+    lo, hi = completion["projects"]["phys_from"], completion["projects"]["phys_to"]
+    groups: dict[str, list[dict]] = {}
+    for room in rooms:
+        if lo <= room["phys"] <= hi:
+            group = "Entwurf"
+        elif room["building"] in status:
+            group = "unvollendet oder begonnen"
+        else:
+            group = "keine Angabe"
+        groups.setdefault(group, []).append(room)
+    out = {}
+    for group, members in groups.items():
+        exact = sum(exact_label(r["length"], r["width"]) is not None for r in members)
+        out[group] = {"rooms": len(members), "exact_I21": exact, "share": round(exact / len(members), 3),
+                      "buildings": sorted({r["building"] for r in members})}
+    return out
+
+
 def square_partners(rooms: list[dict]) -> list[dict]:
     by_building: dict[str, list[dict]] = {}
     for room in rooms:
@@ -104,6 +133,9 @@ def run(readings: Path, output: Path) -> dict:
             "best_mean_counts": dict(Counter(p["best_mean"] for p in partners if p["matches_within_1_percent"])),
         },
     }
+    completion = readings.parent / "completion.json"
+    if completion.exists():
+        result["by_completion"] = census_by_completion(rooms, json.loads(completion.read_text(encoding="utf-8")))
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     return result
@@ -120,6 +152,8 @@ def main() -> None:
         print(f"{row['building'][:34]:34s} {row['room']:12s} r={row['ratio']:<6} best={row['best_mean']:10s}"
               f" dev={row['deviation_percent'][row['best_mean']]:5}%  {'MATCH' if row['matches_within_1_percent'] else ''}")
     print(result["square_partner_summary"])
+    for group, row in result.get("by_completion", {}).items():
+        print(f"{group}: {row['exact_I21']}/{row['rooms']} = {row['share']:.0%}  {', '.join(row['buildings'])}")
 
 
 if __name__ == "__main__":

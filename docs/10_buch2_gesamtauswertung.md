@@ -1,6 +1,7 @@
 # 10. Buch II: Gesamtauswertung der Grundrisse
 
-Stand: 01.10.2026 · Daten: `data/book2/plate_readings.json` (86 Lesungen, 32 Bauten)
+Stand: 17.11.2026 · Daten: `data/book2/plate_readings.json` (86 Lesungen, 32 Bauten),
+`data/book2/completion.json`
 · Auswertung: `python -m palladio_code.rooms` → `output/book2/room_analysis.json`
 
 ## Datengrundlage
@@ -65,6 +66,45 @@ Nur ein Raum mit 7:4 hat ein genanntes Verfahren (Pisani, Montagnana: geometrisc
 0,8 % von 4/3). Bei Cornaro nennt der Text 7:4 mit dem arithmetischen Verfahren, die
 Tafel zeigt 26½. Die Hypothese bleibt möglich, ist aber mit einem Fall nicht
 belegbar. Status unverändert: B-Hypothese, nicht als Regel zu behaupten.
+
+## Nachtrag vom 17.11.2026: unvollendete Bauten und Entwürfe
+
+Palladio sagt in der Vorrede zu Buch II, einige gezeichnete Bauten seien nicht
+fertig. Aus dem Gebauten lasse sich aber erkennen, wie das fertige Werk sein solle
+(II.III.7). Deshalb wurde für jeden gemessenen Bau geprüft, was der Text über
+seinen Stand sagt (`data/book2/completion.json`, elf Stellen, am Scan gelesen).
+
+- **Unvollendet oder begonnen, nach Palladio:**
+  - Palazzo Porto: nur „quella parte di fabrica, ch'è stata fatta“; der Hof steht
+    im Futur („hauerà le colonne“).
+  - Palazzo della Torre (Verona): Der Bauherr starb, der Bau ist zu „vna buona
+    parte“ fertig.
+  - Palazzo Thiene: Der Vater gab ihm „principio“; der Hauptsaal steht im Futur
+    („ui sarà la Sala maggiore“); nur einige Räume sind „hora … finite“.
+  - Palazzo Capra: begonnen, alles Übrige im Futur.
+  - Palazzo Barbarano: begonnen. Palladio sagt außerdem, dass der gedruckte
+    Grundriss **nicht** der zuletzt beschlossene ist. Den neuen habe er nicht
+    rechtzeitig schneiden lassen können: „Non ho posto ancho il disegno della
+    pianta, secondo che è stato ultimamente concluso, e secondo che sono hormai
+    state gettate le fondamenta“ (S. 22).
+  - Villa Thiene in Cigogna: vom Vater „principiata“; zum Stand sagt Palladio nichts.
+- **Entwürfe:** Die „inuentioni“ von Kap. XVII sind nach II.XVII.1 nicht ausgeführt.
+- **Keine Angabe:** Alle übrigen 18 Bauten. Das beweist nicht, dass sie 1570 fertig
+  waren.
+
+| Gruppe | Räume | genau eine der sieben Formen |
+|---|---:|---:|
+| unvollendet oder begonnen (6 Bauten) | 18 | 9 (50 %) |
+| keine Angabe (18 Bauten) | 49 | 27 (55 %) |
+| Entwürfe aus Kap. XVII (7) | 12 | 7 (58 %) |
+
+- **Befund.** Die Vorliebe für die sieben Formen hängt nicht davon ab, ob ein Bau
+  stand, begonnen oder nur entworfen war. Das passt zu dem, was die Tafeln sind:
+  Palladios Entwürfe, nicht Bauaufnahmen. Befund 1 gilt deshalb für seine
+  Entwurfspraxis, wie schon oben formuliert.
+- **Palazzo Barbarano:** Seine drei Räume beschreiben einen überholten Entwurf.
+  Weil sie wie die übrigen Entwürfe zählen, ändert das den Befund nicht. Für einen
+  Vergleich mit dem gebauten Palast taugen sie nicht.
 
 ## Grenzen
 

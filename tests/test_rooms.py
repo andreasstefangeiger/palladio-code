@@ -35,6 +35,17 @@ class RoomsTests(unittest.TestCase):
             path.write_text(json.dumps(data), encoding="utf-8")
             self.assertEqual(len(load_rooms(path)), 1)
 
+    def test_room_forms_do_not_depend_on_completion(self):
+        from palladio_code.rooms import ROOT, census_by_completion
+        rooms = load_rooms(ROOT / "data/book2/plate_readings.json")
+        completion = json.loads((ROOT / "data/book2/completion.json").read_text(encoding="utf-8"))
+        self.assertTrue(all(s["scan_checked"] for s in completion["statements"]))
+        groups = census_by_completion(rooms, completion)
+        self.assertEqual(sum(g["rooms"] for g in groups.values()), len(rooms))
+        shares = [g["share"] for g in groups.values()]
+        self.assertLess(max(shares) - min(shares), 0.15)
+        self.assertIn("Palazzo Barbarano", groups["unvollendet oder begonnen"]["buildings"])
+
 
 if __name__ == "__main__":
     unittest.main()
