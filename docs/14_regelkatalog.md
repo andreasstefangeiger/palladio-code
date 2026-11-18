@@ -228,8 +228,9 @@ Auswahl eines Beispiels begründet.
 
 ## Spätere Produkte (Deutungsschicht, getrennt vom Katalog)
 
-Zwei Anwendungen sind vorgesehen. Beide bauen auf dem Katalog auf, gehören aber
-nicht in ihn.
+Zwei Anwendungen sind begonnen. Beide bauen auf dem Katalog auf, gehören aber
+nicht in ihn. Ausgearbeitet in docs/18 (`data/interpretation/web.json`,
+`products/wordpress/palladio/`); die Tabelle unten war die erste Kandidatenliste.
 
 1. **Gestaltungsrichtlinie für die Homepage.**
 2. **WordPress-Template „Palladio“.**
@@ -240,7 +241,7 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
 
 | Bauregel (Fundstelle) | mögliche Übertragung |
 |---|---|
-| Modul als relatives Grundmaß (I.XIII.12) | eine Basisgröße, aus der alle Abstände und Schriftgrade abgeleitet werden |
+| Modul als relatives Grundmaß (I.XIII.11) | eine Basisgröße, aus der alle Abstände und Schriftgrade abgeleitet werden |
 | sieben Raumformen (I.XXI.5) | Seitenverhältnisse für Bilder, Karten und Raster: 1:1, 4:3, √2, 3:2, 5:3, 2:1 |
 | Gebälk ⅕ der Säule, Gliederung 4 : 3 : 5 (I.XVI.7) | Verhältnis von Kopfbereich, Inhalt und Fuß |
 | Säulenhöhe nach Säulenabstand (I.XIII.8) | Zeilenlänge und Zeilenabstand gekoppelt: je dichter, desto schlanker |
@@ -259,13 +260,14 @@ Deutung kennzeichnet. Geeignete Kandidaten aus Buch I:
    (docs/15, docs/16).
 3. ~~Die Regeln aus Buch I mit Buch IV abgleichen, ob die Säulenordnungen der
    Tempel den Maßen aus Buch I folgen.~~ Erledigt für Palladios Textangaben und,
-   als Gegenprobe, für die Tafeln von zehn Tempeln (docs/17). Offen: die übrigen
-   Tafeln.
+   als Gegenprobe, für die Tafeln von 17 Tempeln (docs/17, Teil 3).
 4. ~~IV.XVI.2 (Portal von San Giorgio) in die Kriterien von docs/16 aufnehmen.~~
    Erledigt; Bertottis Tafel VI bestätigt die Aussage.
 5. ~~Die Tafelteile kennzeichnen, die Palladio als ergänzt oder erfunden
    bezeichnet.~~ Erledigt in `data/book4/reconstruction.json` (docs/17).
 6. ~~Die Bücher I bis III ebenso gezielt nach Begründungen von Einzelentscheidungen
    durchsehen.~~ Erledigt (50 Einträge, siehe oben).
-7. In der Gesamtauswertung von Buch II (docs/10) prüfen, welche gemessenen Bauten
-   1570 unvollendet waren (II.III.7).
+7. ~~In der Gesamtauswertung von Buch II (docs/10) prüfen, welche gemessenen Bauten
+   1570 unvollendet waren (II.III.7).~~ Erledigt (docs/10, Nachtrag vom 17.11.2026).
+8. Gestaltungsrichtlinie und WordPress-Theme „Palladio“ als Deutungsschicht:
+   begonnen (docs/18). Offen: Test in einer laufenden WordPress-Installation.
