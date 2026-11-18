@@ -1,0 +1,49 @@
+{
+ "title": "Palladios Umfeld: Quellen",
+ "note": "Freie Digitalisate (Public Domain Mark). Zitiert wird nur, was am Seitenbild gelesen ist; die Texterkennung diente allein der Suche. 'leaf' ist der Bildindex des Digitalisats (archive.org: /page/n<leaf>).",
+ "transcription": "Langes s als s; u/v und Akzente wie gedruckt; Abkürzungen stillschweigend aufgelöst; Holzschnitt-Initialen in eckigen Klammern; Auslassungen als […].",
+ "sources": [
+  {
+   "id": "TRISSINO",
+   "author": "Giovan Giorgio Trissino",
+   "title": "L'Italia liberata da' Goti. Parte prima",
+   "imprint": "Parigi: Cavelier, Cailleau, Brunet il figlio, Bordelet, Henry, 1729; riveduta, e corretta per l'Abbate Antonini",
+   "first_edition": "1547 (Bücher I–IX) und 1548 (Bücher X–XXVII); Druckorte und Drucker hier nicht geprüft",
+   "copy": "Biblioteca Nazionale di Napoli, XLI D 18",
+   "digital": "https://archive.org/details/bub_gb_v5AlTcB-V0oC",
+   "license": "Public Domain Mark 1.0",
+   "caveat": "Nicht die Erstausgabe. Den Band von 1547 habe ich auf archive.org und e-rara nicht gefunden. Die Erstausgabe schreibt mit Trissinos eigenen Zusatzbuchstaben (sichtbar im Band von 1548, archive.org bub_gb_UwT2SdrM828C, der nur über die Texterkennung durchsucht wurde); die Ausgabe von 1729 normalisiert die Schreibung."
+  },
+  {
+   "id": "BARBARO",
+   "author": "Daniele Barbaro (Übersetzung und Kommentar), Vitruv",
+   "title": "I dieci libri dell'architettura di M. Vitruvio tradutti et commentati da Monsignor Barbaro eletto patriarca d'Aquileggia",
+   "imprint": "Vinegia: Francesco Marcolini, 1556",
+   "copy": "Getty Research Institute",
+   "digital": "https://archive.org/details/gri_33125009320074",
+   "also": "Stiftung Bibliothek Werner Oechslin, DOI https://doi.org/10.3931/e-rara-19469",
+   "license": "Public Domain Mark 1.0",
+   "caveat": "Für diese Ausgabe zeichnete Palladio die Tafeln. Seitenzahlen nach dem Druck (Buch, Seite)."
+  },
+  {
+   "id": "GIORGI",
+   "author": "Francesco Giorgi (Franciscus Georgius Venetus)",
+   "title": "De harmonia mundi totius cantica tria",
+   "imprint": "Venetiis: in aedibus Bernardini de Vitalibus, 1525, mense Septembri (Kolophon, am Scan gelesen)",
+   "copy": "Biblioteca Nazionale Centrale di Roma",
+   "digital": "https://archive.org/details/bub_gb_shCT1ePhvjQC",
+   "license": "Public Domain Mark 1.0",
+   "caveat": "Erstausgabe. Giorgis Denkschrift zu San Francesco della Vigna (1535) ist hier nicht enthalten und nicht geprüft."
+  },
+  {
+   "id": "PACIOLI",
+   "author": "Luca Pacioli",
+   "title": "Divina proportione",
+   "imprint": "Venetiis: Paganinus de Paganinis, 1509 (nach den Katalogangaben des Digitalisats; Kolophon nicht am Scan geprüft)",
+   "copy": "Getty Research Institute",
+   "digital": "https://archive.org/details/divinaproportion00paci",
+   "license": "Public Domain Mark 1.0",
+   "caveat": "Zitiert nach Blatt (c.) des Drucks."
+  }
+ ]
+}

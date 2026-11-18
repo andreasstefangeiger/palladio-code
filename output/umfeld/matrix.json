@@ -1,0 +1,234 @@
+{
+ "sources": [
+  "TRISSINO",
+  "BARBARO",
+  "GIORGI",
+  "PACIOLI"
+ ],
+ "rows": [
+  {
+   "motif": "welt_tempel",
+   "label": "Welt und Bau: die Welt als Bau, Gott als Baumeister, der Tempel als Abbild der Welt",
+   "sources": {
+    "TRISSINO": [
+     "TRI-3"
+    ],
+    "BARBARO": [
+     "BAR-1",
+     "BAR-2"
+    ],
+    "GIORGI": [
+     "GIO-3",
+     "GIO-5"
+    ],
+    "PACIOLI": []
+   },
+   "in_milieu": 3,
+   "palladio": [
+    "IV.Proemio.1",
+    "IV.Proemio.3"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "gott_form",
+   "label": "Gott und Form: eine geometrische Figur oder Proportion zeigt Eigenschaften Gottes",
+   "sources": {
+    "TRISSINO": [],
+    "BARBARO": [],
+    "GIORGI": [
+     "GIO-4"
+    ],
+    "PACIOLI": [
+     "PAC-1"
+    ]
+   },
+   "in_milieu": 2,
+   "palladio": [
+    "IV.II.5"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "koerper_bau",
+   "label": "Körper und Bau: der menschliche Körper als Maß und Vorbild",
+   "sources": {
+    "TRISSINO": [],
+    "BARBARO": [
+     "BAR-4"
+    ],
+    "GIORGI": [],
+    "PACIOLI": [
+     "PAC-2"
+    ]
+   },
+   "in_milieu": 2,
+   "palladio": [
+    "I.I.5",
+    "II.II.2"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "natur_regel",
+   "label": "Natur und Regel: die Kunst ahmt die Natur nach",
+   "sources": {
+    "TRISSINO": [],
+    "BARBARO": [
+     "BAR-4"
+    ],
+    "GIORGI": [
+     "GIO-3"
+    ],
+    "PACIOLI": [
+     "PAC-2"
+    ]
+   },
+   "in_milieu": 3,
+   "palladio": [
+    "I.XX.3",
+    "III.X.3",
+    "IV.XXIIII.1"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "harmonie_auge",
+   "label": "Harmonie für das Auge: Proportion und Symmetrie erfreuen den Blick",
+   "sources": {
+    "TRISSINO": [
+     "TRI-4",
+     "TRI-6"
+    ],
+    "BARBARO": [
+     "BAR-2",
+     "BAR-5"
+    ],
+    "GIORGI": [],
+    "PACIOLI": []
+   },
+   "in_milieu": 2,
+   "palladio": [
+    "IV.Proemio.3",
+    "I.XXIII.6"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "entsprechung",
+   "label": "Entsprechung der Teile untereinander und zum Ganzen",
+   "sources": {
+    "TRISSINO": [
+     "TRI-6"
+    ],
+    "BARBARO": [
+     "BAR-2"
+    ],
+    "GIORGI": [],
+    "PACIOLI": []
+   },
+   "in_milieu": 2,
+   "palladio": [
+    "I.I.5",
+    "II.II.6",
+    "IV.V.1"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "decorum",
+   "label": "Decorum: Ordnung, Form oder Material nach Rang und Wesen",
+   "sources": {
+    "TRISSINO": [
+     "TRI-5"
+    ],
+    "BARBARO": [
+     "BAR-3"
+    ],
+    "GIORGI": [],
+    "PACIOLI": []
+   },
+   "in_milieu": 2,
+   "palladio": [
+    "IV.II.4",
+    "IV.II.5",
+    "IV.II.11"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "ordnung_mass",
+   "label": "Säulenordnung und Maß in Zahlen",
+   "sources": {
+    "TRISSINO": [
+     "TRI-2",
+     "TRI-5"
+    ],
+    "BARBARO": [],
+    "GIORGI": [],
+    "PACIOLI": []
+   },
+   "in_milieu": 1,
+   "palladio": [
+    "I.XIII.8",
+    "I.XVIII.1"
+   ],
+   "in_palladio": true
+  },
+  {
+   "motif": "zahl_musik",
+   "label": "Zahlen- und Musikspekulation: Konsonanzen, Himmel, Zahlsymbolik",
+   "sources": {
+    "TRISSINO": [],
+    "BARBARO": [
+     "BAR-1",
+     "BAR-2"
+    ],
+    "GIORGI": [
+     "GIO-1",
+     "GIO-2",
+     "GIO-5"
+    ],
+    "PACIOLI": []
+   },
+   "in_milieu": 2,
+   "palladio": [],
+   "in_palladio": false
+  },
+  {
+   "motif": "geheimwissen",
+   "label": "Ausdrücklich als verborgenes, geheimes oder unsagbares Wissen bezeichnet",
+   "sources": {
+    "TRISSINO": [],
+    "BARBARO": [],
+    "GIORGI": [
+     "GIO-1",
+     "GIO-2",
+     "GIO-4",
+     "GIO-6"
+    ],
+    "PACIOLI": [
+     "PAC-1",
+     "PAC-2"
+    ]
+   },
+   "in_milieu": 2,
+   "palladio": [],
+   "in_palladio": false
+  }
+ ],
+ "shared": [
+  "welt_tempel",
+  "gott_form",
+  "koerper_bau",
+  "natur_regel",
+  "harmonie_auge",
+  "entsprechung",
+  "decorum",
+  "ordnung_mass"
+ ],
+ "milieu_only": [
+  "zahl_musik",
+  "geheimwissen"
+ ]
+}
