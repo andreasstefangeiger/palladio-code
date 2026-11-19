@@ -1,0 +1,2378 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro III; e-rara DOI 10.3931/e-rara-363",
+ "transcription_policy": "Normalised reading of the 1570 print: long s rendered as s, u/v and spelling kept as printed, line-end hyphens joined; text outside the scan crop stands in square brackets. Every quotation is checked against the scan crop before evidence_class A is set.",
+ "rules": [
+  {
+   "id": "III.Proemio.1",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 157,
+   "printed_page": "5",
+   "anchor": [
+    "ne quali , perche di",
+    "merauigliofe inuentioni"
+   ],
+   "quote": "ne' quali, perche di maggior grandezza si fanno, e con più rari ornamenti, che i priuati, e seruono à uso, e commodo di ciascuno; hanno i Principi molto ampio campo di far conoscere al mondo la grandezza dell'animo loro; e gli Architetti bellissima occasione di dimostrar quanto essi uagliano nelle belle, & merauigliose inuentioni.",
+   "rule_de": "Öffentliche Bauten sind größer und reicher geschmückt als private und dienen allen; an ihnen zeigen die Fürsten die Größe ihres Geistes und die Architekten, was sie an schönen Erfindungen vermögen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.Proemio.2",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 157,
+   "printed_page": "5",
+   "anchor": [
+    "dlcndo clic molto",
+    "molta fatica poi praticarlo"
+   ],
+   "quote": "essendo che molto più s'impari da i buoni esempi in poco tempo co'l misurarli; e co'l ueder sopra una picciola carta gli edificij intieri, e tutte le parti loro; che in lungo tempo dalle parole: per lequali solo con la mente e con qualche difficultà può il lettore uenir in ferma, e certa notitia di quel, ch'egli legge, e con molta fatica poi praticarlo.",
+   "rule_de": "Von guten Beispielen lernt man durch Vermessen und durch den Blick auf ein kleines Blatt mit dem ganzen Bau und seinen Teilen in kurzer Zeit mehr als in langer Zeit aus Worten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "Dieselbe Stelle wie B3-PROEM-MISURARE in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.Proemio.3",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 157,
+   "printed_page": "5",
+   "anchor": [
+    "priuo di giudicio",
+    "non farebbe creduta"
+   ],
+   "quote": "Et à ciascuno, che non sia del tutto priuo di giudicio; può esser molto manifesto quanto il modo, che teneuano gli antichi nel fabricar fosse buono: quando che dopo tanto spacio di tempo, e dopo tante ruine, e mutationi di Imperij, ne siano rimasi in Italia, e fuori i uestigij di tanti lor superbi edificij, per liquali noi ueniamo in certa cognitione della uirtù, e della grandezza Romana, che altrimente forse non sarebbe creduta.",
+   "rule_de": "Wie gut die Bauweise der Antiken war, zeigt sich daran, dass nach so langer Zeit, so vielen Zerstörungen und Herrschaftswechseln noch so viele Reste ihrer Bauten stehen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.Proemio.4",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 157,
+   "printed_page": "5",
+   "anchor": [
+    "Porrò prima quelli delleftrade",
+    "abbartate"
+   ],
+   "quote": "Porrò prima quelli delle strade, e de i ponti, come di quella parte dell'Architettura, laqual appertiene all'ornamento delle Città, e delle Prouincie, e serue alla commodità uniuersale di tutti gli huomini. Percioche si come nell'altre fabriche, che fecero gli antichi; si scorge, che essi non hebbero riguardo ne à spesa, ne à opera alcuna per ridurle à quel termine di eccellenza, che dalla nostra imperfettione ci è concesso: cosi nell'ordinar le uie posero grandissima cura, che fossero fatte in modo, che anco in quelle si conoscesse la grandezza, e la magnificenza dell'animo loro. Onde per farle che fossero commode, e breui, forarono i monti, seccarono le paludi, e congionsero con ponti, e cosi resero facili, e piane quelle, ch'erano ò dalle ualli, ò da' torrenti abbassate.",
+   "rule_de": "Straßen und Brücken gehören zur Architektur: Sie schmücken Städte und Provinzen und dienen der Bequemlichkeit aller. Die Antiken scheuten dafür weder Kosten noch Mühe, durchbohrten Berge, legten Sümpfe trocken und überbrückten Täler.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.Proemio.5",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 157,
+   "printed_page": "5–6",
+   "anchor": [
+    "Ma perche non bafta che le Regioni",
+    "atti à gouernar"
+   ],
+   "quote": "Ma perche non basta che le Regioni, e le Città siano benissimo compartite, e con santissime leggi ordinate, & habbiamo i magistrati, che delle leggi esecutori tengano à freno i Cittadini; se non si fanno anco gli huomini prudenti con le dottrine, e forti, e gagliardi con l'esercitio del corpo; per poter esser poi atti à gouernar se medesimi, [e gli altri; & à difendersi da chi uolesse opprimerli]",
+   "rule_de": "Gut geordnete Städte, Gesetze und Ämter genügen nicht; die Menschen müssen durch Lehre klug und durch Leibesübung stark werden – daher Palästren und Xysten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "city",
+   "scope": "city",
+   "values": {},
+   "note": "Schluss in eckigen Klammern auf S. 6 (phys 158). 'habbiamo' so gedruckt (habbiano).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.Proemio.6",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 158,
+   "printed_page": "6",
+   "anchor": [
+    "dietro alquale feguirà",
+    "alcuna Ciuilità"
+   ],
+   "quote": "dietro alquale seguirà quel de' Tempij appartenente alla religione, senza laquale è impossibile che si mantenga alcuna Ciuilità.",
+   "rule_de": "Ohne Religion kann kein Gemeinwesen bestehen; deshalb folgt das Buch von den Tempeln.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "city",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.Proemio.7",
+   "book": 3,
+   "chapter": "Proemio",
+   "phys": 158,
+   "printed_page": "6",
+   "anchor": [
+    "piede Vicentino",
+    "ogni oncia in quattro minuti"
+   ],
+   "quote": "QVESTA linea è la metà del piede Vicentino, co'l quale sono stati misurati i seguenti Edificij. TVTTO il piede si diuide in dodici oncie, & ogni oncia in quattro minuti.",
+   "rule_de": "Maßeinheit der Bauten in Buch III: der vicentinische Fuß zu 12 Zoll, der Zoll zu 4 Minuten.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "units",
+   "scope": "all",
+   "values": {
+    "piede": "12 oncie",
+    "oncia": "4 minuti"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.1",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "N O le uie elfer curte",
+    "doue andauano piegate"
+   ],
+   "quote": "[D]EVONO le uie esser curte, commode, sicure, diletteuoli, e belle: si faranno curte, e commode se si tireranno diritte, & se si faranno ampie, onde i carri, & i giumenti incontrandosi, non s'impediscano l'un l'altro; e però fu appresso gli Antichi per legge statuito, che le uie non fossero meno larghe di otto piedi, oue andauano diritte; ne meno di sedici, doue andauano piegate, e torte",
+   "rule_de": "Straßen sollen kurz, bequem, sicher, angenehm und schön sein: kurz und bequem, wenn sie gerade und breit sind, sodass Wagen und Lasttiere einander nicht behindern. Bei den Antiken waren gesetzlich mindestens 8 Fuß auf geraden und 16 Fuß auf gekrümmten Strecken vorgeschrieben.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {
+    "min_width_ft_straight": 8,
+    "min_width_ft_curved": 16
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.2",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "ranno oltra di ciò commode",
+    "dito . Saranno ficure"
+   ],
+   "quote": "saranno oltra di ciò commode se si faranno tutte uguali; cioè che non ui siano alcuni luoghi, ne' quali non si possa facilmente andar con gli eserciti, & se non saranno impedite da acque, ouer da fiumi: onde si legge che Traiano Imperadore, hauendo rispetto a queste due qualità, che necessariamente si ricercano nelle uie, quando ristaurò la celebratissima uia Appia, laquale era stata in molte parti guasta dal Tempo; asciugò i luoghi paludosi, abbassò i monti, pareggiò le ualli, & facendo doue bisognaua, ponti, ridusse l'andar per essa molto facile & espedito.",
+   "rule_de": "Bequem sind Straßen ferner, wenn sie überall gleichmäßig begehbar sind, auch für Heere, und nicht von Wasser unterbrochen werden – wie Trajan die Via Appia herstellte: Sümpfe trockengelegt, Berge abgetragen, Täler ausgeglichen, Brücken gebaut.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.3",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "dito . Saranno ficure",
+    "infidia . Quelle uie"
+   ],
+   "quote": "Saranno sicure, se si faranno per i colli, ouero se, douendosi far per i campi, secondo il costume antico si farà un'argine, sopra ilquale si camini; & se non haueranno appresso luoghi, ne' quali commodamente i ladri, & gli inimici si possano nascondere; percioche i peregrini, & gli eserciti in tali strade possono guardarsi da torno, e facilmente discoprire se fosse loro tesa alcuna insidia.",
+   "rule_de": "Sicher sind Straßen auf Hügeln oder, in der Ebene, nach antikem Brauch auf einem Damm, und ohne nahe Verstecke für Räuber und Feinde; Reisende und Heere können dann ringsum sehen und Hinterhalte entdecken.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.4",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "infidia . Quelle uie",
+    "to di paefe )"
+   ],
+   "quote": "Quelle uie c'hanno le tre già dette qualità, sono anco necessariamente belle, & diletteuoli à i uiandanti. Percioche fuori della Città per la drittezza loto; per la commodità, che apportano; & per il potersi in quelle guardar da longi, & discoprire molto paese; si alleggerisse gran parte della fatica, e troua l'animo nostro (hauendo noi auanti gli occhi sempre nouo aspetto di paese) molta sodisfattione, e diletto.",
+   "rule_de": "Straßen mit diesen drei Eigenschaften sind notwendig auch schön und angenehm: Geradheit, Bequemlichkeit und weiter Blick über das Land erleichtern die Mühe und erfreuen den Geist durch immer neue Ansichten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "beauty",
+   "scope": "streets",
+   "values": {},
+   "note": "'loto' so gedruckt (loro).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.5",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "Et nelle Città rende",
+    "ombra ne fanno commodo"
+   ],
+   "quote": "Et nelle Città rende bellissima uista una strada diritta, ampia e polita, dall'una, e l'altra parte dellaquale siano magnifiche fabriche, fatte con quelli ornamenti, che sono stati ricordati ne' passati libri. Et si come nelle Città si aggiogne bellezza alle uie con le belle fabriche; cosi di fuori si accresce ornamento à quelle con gli arbori, iquali essendo piantati dall'una, e dall'altra parte loro, con la uerdura allegrano gli animi nostri, e con l'ombra ne fanno commodo grandissimo.",
+   "rule_de": "In der Stadt wirkt eine gerade, breite, saubere Straße mit prächtigen Bauten beiderseits sehr schön; außerhalb schmücken Bäume zu beiden Seiten die Straße, erfreuen durch ihr Grün und spenden Schatten.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "beauty",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.6",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "cofi fatte uie apportano",
+    "far infiniti beneficij"
+   ],
+   "quote": "Queste cosi fatte uie apportano grandissimo utile, percioche per la loro drittezza, e per essere alquanti eminenti dal rimanente de' campi, parlando di quelle, che sono fuori della Città, à tempo di guerra, si possono, come ho detto; scoprir gli inimici molto da longi, & cosi pigliar quella risolutione che al Capitano parrà migliore; oltra che in altri tempi, per i negocij, che son soliti occorrere à gli huomini per la loro breuità, & commodità potranno far infiniti beneficij.",
+   "rule_de": "Gerade und über die Felder erhöhte Landstraßen nützen im Krieg, weil man Feinde von weitem sieht, und im Frieden durch Kürze und Bequemlichkeit für die Geschäfte.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "utility",
+   "scope": "streets",
+   "values": {},
+   "note": "'alquanti' so gedruckt (alquanto).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.I.7",
+   "book": 3,
+   "chapter": "I",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "E conciofiache al",
+    "commendabili"
+   ],
+   "quote": "E conciosiache altre siano, che si chiamano militari, lequali passano per mezo le Città, & conducono da una Città ad un'altra, & seruono ad uniuersale uso de' uiandanti; e sono quelle, per lequali uanno gli eserciti, & si conducono i carriaggi: & altre non militari; lequali dalle militari partendosi, ouero conducono ad un'altra uia militare, ouero sono fatte per uso, e commodo particolar di qualche Villa; tratterò ne' seguenti capitoli delle militari solamente, lasciando da parte le non militari: perche queste si deuono regolar secondo quelle; e quanto saran loro più simili, tanto saranno più commendabili.",
+   "rule_de": "Heerstraßen (vie militari) führen durch die Städte und von Stadt zu Stadt; Nebenstraßen zweigen von ihnen ab. Die Nebenstraßen richten sich nach den Heerstraßen: je ähnlicher, desto besser.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.1",
+   "book": 3,
+   "chapter": "II",
+   "phys": 159,
+   "printed_page": "7",
+   "anchor": [
+    "EL compartir le uie dentro",
+    "tanto meno offende la tefta"
+   ],
+   "quote": "[N]EL compartir le uie dentro delle Città si deue hauer riguardo alla temperie dell'Aere, & alla Regione del Cielo, sotto laquale saranno situate le Città. Percioche in quelle di Aria frigida, ò temperata, si deuranno far le strade ampie, e larghe, conciosiache dalla loro larghezza ne sia per riuscir la città più sana, più commoda, e più bella: essendo che quanto meno sottile, & quanto più aperto uien l'Aere; tanto meno offende la testa",
+   "rule_de": "Die Straßen der Stadt richten sich nach Klima und Himmelsgegend: in kalter oder gemäßigter Luft breit – so wird die Stadt gesünder, bequemer und schöner.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.climate",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.2",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "in luogo frigido",
+    "in ciafcuna lor parte"
+   ],
+   "quote": "[per ilche quanto più sarà la cit]tà in luogo frigido, & di aria sottile, & si faranno in quella gli edificij molto alti, tanto più si douranno far le strade larghe, acciò che possano essere uisitate dal Sole in ciascuna lor parte.",
+   "rule_de": "Je kälter die Lage, je dünner die Luft und je höher die Häuser, desto breiter die Straßen, damit die Sonne jeden Teil erreicht.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.climate",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.3",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "to alla commodità non è dubbio",
+    "la città ne diuiene più ornata"
+   ],
+   "quote": "[Quan]to alla commodità non è dubbio, che potendosi nelle larghe molto meglio che nelle strette darsi luogo gli huomini, i giumenti, & i carri, non siano quelle molto più commode di queste: & è etiandio manifesto, che per abbondar nelle larghe maggior lume, & per esser ancora l'una banda dall'altra sua opposita manco occupata; si può nelle larghe considerar la uaghezza de' Tempij, & de' palagi: onde se ne riceue maggior contento, e la città ne diuiene più ornata.",
+   "rule_de": "Breite Straßen sind bequemer für Menschen, Tiere und Wagen; sie haben mehr Licht, und man kann in ihnen die Schönheit der Tempel und Paläste betrachten – die Stadt wird schmucker.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.4",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "fendo la Città in regione calda",
+    "fue . Nondimeno"
+   ],
+   "quote": "[Ma es]sendo la Città in regione calda, si deuono far le sue uie strette, & i casamenti alti: acciò che con l'ombra loro, & con la strettezza delle uie si contemperi la calidità del sito, per laqual cosa ne seguiterà più sanità: ilche si conosce con l'esempio di Roma, laquale (come si legge appresso Cornelio Tacito) diuenne più calda, & men sana, poi che Nerone per farla bella, allargò le strade sue.",
+   "rule_de": "In heißer Gegend enge Straßen und hohe Häuser, damit Schatten und Enge die Hitze mildern – gesünder; Rom wurde nach Tacitus heißer und ungesünder, als Nero die Straßen verbreiterte.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.climate",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.5",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "fue . Nondimeno",
+    "anco le altre ftrade della Città"
+   ],
+   "quote": "Nondimeno in tal caso per maggior ornamento, e commodo della Città si deue far la strada più frequentata dalle principali arti, & da passaggieri forestieri, larga, & ornata di magnifiche, e superbe fabriche, conciosiache i forestieri, che per quella passeranno, si daranno facilmente à credere, che alla larghezza, & bellezza sua corrispondino anco le altre strade della Città.",
+   "rule_de": "Auch dann soll die meistbesuchte Straße der Hauptgewerbe und der Fremden breit und mit prächtigen Bauten geschmückt sein: Durchreisende schließen von ihr auf die übrigen Straßen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.6",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "Le uie principali , che militari",
+    "ri della detta fua principale"
+   ],
+   "quote": "Le uie principali, che militari hauemo nomate; si deono nelle Città compartire, che caminino diritte, e uadino dalle porte della Città per retta linea à riferire alla piazza maggiore, & principale, & alcuna uolta ancho (essendone ciò dal sito concesso) conduchino cosi diritte fino alla porta opposita: e secondo la grandezza della Città si faranno per la medesima linea di tali strade, tra la detta piazza principale, & alcuna, qual si uoglia delle porte; una, ò più piazze alquanto minori della detta sua principale.",
+   "rule_de": "Hauptstraßen führen gerade von den Stadttoren zum Hauptplatz, wo möglich weiter bis zum Gegentor; je nach Stadtgröße liegen an ihnen zwischen Hauptplatz und Tor ein oder mehrere kleinere Plätze.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.layout",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.7",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "altre ftrade ancor elle",
+    "altre publiche fabriche"
+   ],
+   "quote": "L'altre strade ancor elle si deono far riferire le più nobili non solo alla principal piazza, ma ancora à i più degni Tempij, palagi, portici, & altre publiche fabriche.",
+   "rule_de": "Die vornehmeren unter den übrigen Straßen führen zum Hauptplatz und zu den würdigsten Tempeln, Palästen, Portiken und öffentlichen Bauten.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.layout",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.8",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "Ma in quello compartimento delle uie",
+    "ftrade di Metelino"
+   ],
+   "quote": "Ma in questo compartimento delle uie si deue con somma diligenza auertire, che (come ci insegna Vitruuio al cap. VI. del primo Lib.) non riguardino per linea retta ad alcun uento: accioche per quelle non si sentino i Venti furiosi, e uiolenti; ma con più sanità de gli habitatori uengano rotti, soaui, purgati, e stanchi; ne s'incorra nell'inconueniente, nel quale anticamente incorsero quelli, che nell'Isola di Lesbo, compartirono le strade di Metelino",
+   "rule_de": "Straßen nicht geradlinig in eine Windrichtung legen (Vitruv I, 6): Die Winde sollen gebrochen, mild und gereinigt ankommen – anders als in Mytilene auf Lesbos.",
+   "kind": "prescription",
+   "attribution": "vitruvius",
+   "topic": "streets.climate",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.9",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "Si deuono le uie nella città falicare",
+    "con pietre incerte"
+   ],
+   "quote": "Si deuono le uie nella città salicare, e si legge che nel consolato di M. Emilio i Censori cominciarono à salicarle in Roma, oue se ne ueggono ancora alcune, le quali sono tutte eguali, e sono lastricate con pietre incerte",
+   "rule_de": "Stadtstraßen sind zu pflastern; in Rom begannen damit die Zensoren unter dem Konsul M. Aemilius, mit unregelmäßigen Steinen.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.paving",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.10",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "Ma fe fi uorr",
+    "celebre per il ftudio"
+   ],
+   "quote": "Ma se si uorrà diuidere il luogo per il caminar de gli huomini, da quello, che serue per l'uso de' carri, & delle bestie; mi piacerà che le strade siano cosi diuise, che dall'una, e dall'altra parte ui siano fatti i portici, per iquali al coperto possano i cittadini andare à far i lor negotij senza esser offesi dal Sole, dalle pioggie, e dalle neui, nelqual modo sono quasi tutte le strade di Padoa Città antichissima, e celebre per il studio.",
+   "rule_de": "Will man Fußgänger von Wagen und Tieren trennen, gefallen Palladio Portiken zu beiden Seiten, unter denen die Bürger geschützt vor Sonne, Regen und Schnee gehen – wie in Padua.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "streets.porticoes",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.11",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "non facendoli i portici",
+    "o di altra pietra dura"
+   ],
+   "quote": "Ouero non facendosi i portici, (nel qual caso le strade riescono più ampie, & più allegre) si faranno dall'una, e dall'altra parte alcuni margini salicati di Mattoni, che sono pietre cotte più grosse, & più strette de' quadrelli: perche nel caminare non offendono punto il piede: & la parte di mezo si lascierà per i carri, e per i giumenti, e si salicherà di selice, o di altra pietra dura.",
+   "rule_de": "Ohne Portiken (die Straße wird dann breiter und heiterer) erhalten beide Seiten Gehstreifen aus Ziegeln, die den Fuß schonen; die Mitte bleibt für Wagen und Tiere und wird mit Kiesel oder anderem harten Stein gepflastert.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.paving",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.II.12",
+   "book": 3,
+   "chapter": "II",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "alquanto concaue nel",
+    "e ui fi putrefanno"
+   ],
+   "quote": "Deuono esser le strade alquanto concaue nel mezo, & pendenti: accioche l'acque, che dalle case piouono, corrono tutte in uno, & habbiano libero, & espedito il lor corso, onde lascino la strada netta, ne siano cagione di cattiuo aere, come sono quando si affermano in alcun luogo, e ui si putrefanno.",
+   "rule_de": "Stadtstraßen in der Mitte leicht vertieft und mit Gefälle, damit das Regenwasser der Häuser zusammenfließt und abläuft, die Straße sauber bleibt und kein stehendes Wasser die Luft verdirbt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets.drainage",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.III.1",
+   "book": 3,
+   "chapter": "III",
+   "phys": 160,
+   "printed_page": "8",
+   "anchor": [
+    "E uie fuori della Città fi deuono",
+    "curatori di quelle"
+   ],
+   "quote": "[L]E uie fuori della Città si deuono far ampie, commode, & con arbori d'amendue le parti; da quali i uiandanti l'estate siano difesi dall'ardor del Sole, e prendano gli occhi loro qualche ricreatione per la uerdura. Molto studio posero in esse gli antichi, onde accioche stessero sempre acconcie crearono i proueditori, e curatori di quelle",
+   "rule_de": "Landstraßen breit, bequem und mit Bäumen zu beiden Seiten, die im Sommer vor der Sonne schützen und das Auge erfreuen; die Antiken bestellten eigene Aufseher für ihren Unterhalt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "streets",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.III.2",
+   "book": 3,
+   "chapter": "III",
+   "phys": 161,
+   "printed_page": "9",
+   "anchor": [
+    "elfer di fomma bellezza",
+    "da tutto il Mondo"
+   ],
+   "quote": "[Ma tra tutte do]ueua esser di somma bellezza, & commodità la uia Portuense, laqual da Roma conduceua à Hostia; percioche (come dice l'Alberti di hauer osseruato) era diuisa in due strade, tra l'una, e l'altra dellequali era un corso di pietre un piede più alto del rimanente, e seruiua per diuisione: per una di queste uie si andaua, e per l'altra si tornaua, schifando l'offesa dell'intrarsi: inuentione molto commoda al grandissimo concorso di persone che à que' tempi era à Roma da tutto il Mondo.",
+   "rule_de": "Die Via Portuensis war nach Alberti in zwei Bahnen geteilt, getrennt durch eine einen Fuß höhere Steinreihe: auf der einen ging man hin, auf der anderen zurück – sehr bequem bei großem Verkehr.",
+   "kind": "procedure",
+   "attribution": "alberti",
+   "topic": "streets.layout",
+   "scope": "streets",
+   "values": {
+    "divider_height_ft": 1
+   },
+   "note": "'intrarsi' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.III.3",
+   "book": 3,
+   "chapter": "III",
+   "phys": 161,
+   "printed_page": "9",
+   "anchor": [
+    "gli antichi quelle lor uie militari",
+    "ciò faceuano con"
+   ],
+   "quote": "[Fece]ro gli antichi queste lor uie militari in due modi, cioè ò lastrigandole di pietre, ouero coprendole tutte di ghiara, e di sabbia. Le uie della prima maniera (per quanto da alcuni uestigi s'è potuto conietturare) erano diuise in tre spacij: per quel di mezo, ilquale era più alto de gli altri due, & ilquale era alquanto colmo nel mezo, acciò l'acque potessero scorrere et non ui si affermassero; andauano i pedoni, & era salicato di pietre incerte, cioè, di lati, e d'angoli diseguali: nel qual modo di salicare, come è stato detto altroue, usauano una squadra di piombo, laquale apriuano e serrauano, come andauano i lati, & gl'angoli delle pietre, onde le commetteuano benissimo insieme, & ciò faceuano con prestezza",
+   "rule_de": "Antike Heerstraßen: gepflastert oder mit Kies und Sand bedeckt. Die gepflasterten hatten drei Bahnen; die mittlere, höher und leicht gewölbt, für Fußgänger, mit unregelmäßigen Steinen, die man mit einem verstellbaren Bleiwinkel schnell und genau fügte.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "streets.paving",
+   "scope": "streets",
+   "values": {
+    "lanes": 3
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.III.4",
+   "book": 3,
+   "chapter": "III",
+   "phys": 161,
+   "printed_page": "9",
+   "anchor": [
+    "gli altri due fpacij",
+    "le miglia di tutto il uiaggio"
+   ],
+   "quote": "gli altri due spacij, ch'erano dalle bande; si faceuano alquanto più bassi, e si copriuano di sabbia, & di ghiara minuta, e per quelli andauano i caualli. Era ciascuno di questi margini largho per la metà della larghezza del spacio di mezo, dalquale erano diuisi con laste di pietra poste in coltello; & ogni tanto spacio u'erano poste alcune pietre in piedi più alte del rimanente della strada sopra lequali saliuano, quando uoleuano montare à cauallo; conciosiache gl'antichi non usassero staffe. Oltra di queste pietre poste per l'uso detto, u'erano altre pietre molto più alte nelle quali si truouaua scritto di mano in mano le miglia di tutto il uiaggio",
+   "rule_de": "Die Seitenbahnen lagen etwas tiefer, mit Sand und feinem Kies, für die Pferde; jede halb so breit wie die Mitte und durch hochkant gestellte Platten getrennt. In Abständen standen Aufsitzsteine und höhere Meilensteine.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "streets.paving",
+   "scope": "streets",
+   "values": {
+    "side_lane": "1/2 middle lane"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.III.5",
+   "book": 3,
+   "chapter": "III",
+   "phys": 161,
+   "printed_page": "9",
+   "anchor": [
+    "Le uie militari della feconda manie",
+    "polite,cioè fenza fango"
+   ],
+   "quote": "Le uie militari della seconda maniera, cioè fatte di sabbia, e di ghiara, faceuano gl'antichi alquanto colme nel mezo, per laqual cosa, non potendoui restar l'acqua, & essendo elle di materia atta ad asciugarsi presto, erano d'ogni tempo polite, cioè senza fango, e senza poluere.",
+   "rule_de": "Straßen aus Sand und Kies machten die Antiken in der Mitte leicht gewölbt: Das Wasser bleibt nicht stehen, sie trocknen rasch und sind stets ohne Schlamm und Staub.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "streets.paving",
+   "scope": "streets",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.III.6",
+   "book": 3,
+   "chapter": "III",
+   "phys": 161,
+   "printed_page": "9",
+   "anchor": [
+    "Dellaprima maniera di uie",
+    "non ui fi porta affermare ."
+   ],
+   "quote": "Della prima maniera di uie è il disegno, che segue, dal quale si può conoscer come doueua esser fatta la uia Hostiense. Della seconda maniera non mi è parso necessario il farne disegno alcuno, perche è cosa facilissima, ne ui è bisogno di alcuna industria purche si facciano colme nel mezo, onde l'acqua non ui si possa affermare.",
+   "rule_de": "Die Zeichnung der ersten Straßenart zeigt, wie die Via Ostiense gewesen sein muss. Die zweite Art zeichnet Palladio nicht, weil sie ganz einfach ist: Man muss sie nur in der Mitte wölben, damit das Wasser nicht stehen bleibt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "streets",
+   "values": {},
+   "note": "Die Tafel der Via Ostiense ist erschlossen ('come doueua esser').",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IIII.1",
+   "book": 3,
+   "chapter": "IIII",
+   "phys": 163,
+   "printed_page": "11",
+   "anchor": [
+    "onde fi può dire che esfi",
+    "durabili per lungo tempo"
+   ],
+   "quote": "onde si può dire che essi siano parte principal della uia, & che altro non siano, che una strada fatta sopra dell'acqua. Questi deuono hauer quelle istesse qualità, c'habbiamo detto richiedersi in tutte le fabriche, cioè che siano commodi, belli, e durabili per lungo tempo.",
+   "rule_de": "Brücken sind ein Hauptteil der Straße, eine Straße über dem Wasser. Sie müssen dieselben Eigenschaften haben wie alle Bauten: bequem, schön und dauerhaft.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "bridges",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IIII.2",
+   "book": 3,
+   "chapter": "IIII",
+   "phys": 163,
+   "printed_page": "11",
+   "anchor": [
+    "Saranno commodi , quando non fi",
+    "ufo depochi"
+   ],
+   "quote": "Saranno commodi, quando non si alzeranno dal rimanente della uia, & alzandosi haranno la salita lor facile; & quando si eleggerà quel luogo per fabricarli, che sarà commodissimo a tutta la Prouincia, ouero à tutta la Città, secondo che si fabricheranno ò fuori, ò dentro delle mura: e però si farà elettione di quel luogo, alquale da tutte le parti facilmente si possa andare, cioè che sia nel mezo della Prouincia, ouero nel mezo della Città, come fece Nitocre Regina di Babilonia nel ponte ch'ella ordinò sopra l'Eufrate; e non in un'angolo, oue possa seruire solamente à uso de pochi.",
+   "rule_de": "Bequem sind Brücken, die sich nicht über die Straße erheben oder leicht ansteigen und an einem Ort liegen, der für Provinz oder Stadt von allen Seiten gut erreichbar ist: in der Mitte, nicht in einer Ecke.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.site",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IIII.3",
+   "book": 3,
+   "chapter": "IIII",
+   "phys": 163,
+   "printed_page": "11",
+   "anchor": [
+    "fitoper fabricarli",
+    "fondamento buonisfimo nelle acque"
+   ],
+   "quote": "Ma nell'elegger il sito per fabricarli, si deue auertire di eleggerlo tale, che si possa sperare, che debba esser perpetuo il ponte che ui si fabricherà; & oue si possa far con quella minor spesa, che sia possibile. Onde si eleggerà quel luogo, nel quale il fiume sarà manco profondo, & hauerà il suo letto, ò fondo uguale, e perpetuo, cioè ò di sasso, ò di tofo; perche (come dissi nel primo Libro quando parlai de' luoghi da poner le fundamenta) il sasso, & il tofo sono fondamento buonissimo nelle acque",
+   "rule_de": "Den Ort so wählen, dass die Brücke dauern kann und möglichst wenig kostet: wo der Fluss am flachsten ist und ein ebenes, festes Bett aus Fels oder Tuff hat.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.site",
+   "scope": "bridges",
+   "values": {},
+   "note": "Verweist auf Buch I (Fundamente).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IIII.4",
+   "book": 3,
+   "chapter": "IIII",
+   "phys": 163,
+   "printed_page": "11",
+   "anchor": [
+    "oltra di ciò fi deuono",
+    "necesfit"
+   ],
+   "quote": "oltra di ciò si deuono schifare i gorghi, e le uoragini, & quella parte dell'alueo, ò letto del fiume, che sarà ghiarosa, o sabbionegna. Percioche la sabbia, & la ghiara per esser dalle piene dell'acque continuamente mossa, uaria il letto del fiume: & essendo cauate sotto le fondamenta, si causerebbe di necessità la ruina dell'opera.",
+   "rule_de": "Strudel, Kolke und kiesige oder sandige Stellen des Flussbetts meiden: Hochwasser bewegt Sand und Kies, unterspült die Fundamente und bringt das Werk zum Einsturz.",
+   "kind": "prohibition",
+   "attribution": "palladio",
+   "topic": "bridges.site",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IIII.5",
+   "book": 3,
+   "chapter": "IIII",
+   "phys": 163,
+   "printed_page": "11",
+   "anchor": [
+    "etiandio riguardo di elegger",
+    "tirata"
+   ],
+   "quote": "Si haurà etiandio riguardo di elegger quel sito nelquale il fiume habbia il suo corso diritto. Conciosiache le piegature, e tortuosità delle ripe siano esposte à esser menate uia dall'acqua, onde in tal caso uerrebbe il ponte à restar senza spalle, & in Isola; & ancho perche al tempo delle inondationi trahono l'acque in dette tortuosità, la materia, che dalle ripe, e dalli campi leuano; laquale non potendo andare giù al diritto, ma fermandosi più altre cose ritarda, & auolgendosi à i pilastri rinchiude l'aperture de gli archi, onde l'opera ne patisce in modo che dal peso dell'acqua uiene co'l tempo tirata à ruina.",
+   "rule_de": "Einen Ort mit geradem Flusslauf wählen: Krümmungen werden abgetragen, sodass die Brücke ohne Widerlager dasteht, und Treibgut staut sich dort, verstopft die Bögen und reißt das Werk mit der Zeit nieder.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.site",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IIII.6",
+   "book": 3,
+   "chapter": "IIII",
+   "phys": 163,
+   "printed_page": "11",
+   "anchor": [
+    "dunque il luogo per edifica",
+    "fondo , uguale , e perpetuo"
+   ],
+   "quote": "Si eleggerà dunque il luogo per edificarui i ponti, ilquale sia nel mezzo della Regione, ouero della Città, e cosi commodo à tutti gli habitatori; & oue il fiume habbia il corso diritto, & il letto manco profondo, uguale, e perpetuo.",
+   "rule_de": "Zusammenfassung: Brückenort in der Mitte von Gegend oder Stadt, bei geradem Lauf und flachem, ebenem, festem Bett.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.site",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.V.1",
+   "book": 3,
+   "chapter": "V",
+   "phys": 164,
+   "printed_page": "12",
+   "anchor": [
+    "Si deuono fare quelli tai ponti",
+    "dalle piene dell"
+   ],
+   "quote": "Si deuono fare questi tai ponti, che siano ben fermi, & incatenati con forti, e grosse traui, di modo che non sia pericolo che si rompano, ne per la frequenza delle persone, e de gli animali, ne per il peso de' carriaggi, & dell'artigliarie, che passerà lor sopra; ne possano esser ruinati dalle innondationi, & dalle piene dell'acque.",
+   "rule_de": "Holzbrücken fest und mit starken, dicken Balken verkettet, sodass sie weder unter Menschen, Tieren, Fuhrwerken und Geschützen brechen noch vom Hochwasser zerstört werden.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.V.2",
+   "book": 3,
+   "chapter": "V",
+   "phys": 164,
+   "printed_page": "12",
+   "anchor": [
+    "E però quelli , che fi",
+    "non fiano rotti , e guafti"
+   ],
+   "quote": "E però quelli, che si fanno alle porte delle Città, iquali chiamiamo ponti leuatori, perche si possono alzare, & callare secondo il uolere di quelli di dentro; si sogliono lastricare di uerghe, e lame di ferro, accioche dalle ruote de' carri, & da' piedi delle bestie non siano rotti, e guasti.",
+   "rule_de": "Zugbrücken an Stadttoren belegt man üblicherweise mit Eisenstäben und -bändern gegen Räder und Hufe.",
+   "kind": "procedure",
+   "attribution": "custom",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.V.3",
+   "book": 3,
+   "chapter": "V",
+   "phys": 164,
+   "printed_page": "12",
+   "anchor": [
+    "Deuono ertale tra",
+    "opera degna di effer lodata"
+   ],
+   "quote": "Deuono esser le traui, cosi quelle, che uanno conficate nell'acqua, come quelle che fanno la larghezza e lunghezza del ponte, lunghe, & grosse secondo che ricercherà la profondità, la larghezza, e la uelocità del fiume. Ma perche i particolari sono infiniti, non si può dar di loro certa, e determinata regola. Onde io porrò alcuni disegni, e dirò le lor misure; da quali potrà ciascuno facilmente, secondo che se gli offerirà l'occasione, esercitando l'acutezza del suo ingegno; pigliar partito, & far opera degna di esser lodata.",
+   "rule_de": "Länge und Stärke der Balken richten sich nach Tiefe, Breite und Geschwindigkeit des Flusses. Weil die Einzelfälle unendlich sind, gibt es keine feste Regel; Beispiele mit Maßen sollen dem eigenen Scharfsinn helfen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "Regel mit Spielraum: 'non si può dar di loro certa, e determinata regola'.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VI.1",
+   "book": 3,
+   "chapter": "VI",
+   "phys": 164,
+   "printed_page": "12",
+   "anchor": [
+    "non ho uoluto lai",
+    "fopra il Bacchigli"
+   ],
+   "quote": "non ho uoluto lassar questa occasione di porre quel modo, che nella mia giouentù, quando prima lessi i detti Commentari, m'imaginai; perche per mio creder molto si confa con le parole di Cesare; & perche riesce mirabilmente, come s'è ueduto l'effetto in un ponte ordinato da me subito fuori di Vicenza sopra il Bacchiglione.",
+   "rule_de": "Palladios Rekonstruktion von Caesars Rheinbrücke: Sie stimmt nach seinem Urteil mit Caesars Worten überein und hat sich an einer von ihm gebauten Brücke über den Bacchiglione bewährt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "Verfahren: Rekonstruktion aus dem Text, geprüft an der Ausführung.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VII.1",
+   "book": 3,
+   "chapter": "VII",
+   "phys": 167,
+   "printed_page": "15",
+   "anchor": [
+    "La inuentione di",
+    "da . Il fiume nel luogo"
+   ],
+   "quote": "La inuentione di questo Ponte a mio giudicio è molto degna di auertimento, perche potrà seruire in tutte le occasioni, nelle quali si hauessero le dette difficultà; & perche i Ponti cosi fatti uengono à esser forti, belli, e commodi: forti perche tutte le loro parti scambieuolmente si sostentano: belli perche la tessitura de' legnami è gratiosa; & commodi, perche sono piani, e sotto una istessa linea co'l rimanente della strada.",
+   "rule_de": "Brücken ohne Pfähle im Wasser (wie am Cismone) sind fest, schön und bequem: fest, weil alle Teile einander tragen; schön durch das Gefüge der Hölzer; bequem, weil sie eben in der Linie der Straße liegen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VII.2",
+   "book": 3,
+   "chapter": "VII",
+   "phys": 167,
+   "printed_page": "15",
+   "anchor": [
+    "onde tutte le parti",
+    "di tre quarti"
+   ],
+   "quote": "onde tutte le parti l'una per l'altra si sostentano, e tale uiene à esser la lor natura, che quanto maggior carico è sopra il ponte, tanto più si stringono insieme, e fanno maggior la fermezza dell'opera. Tutte le dette braccia, e l'altre traui, che fanno la tessitura del ponte non sono larghe più di un piede, ne grosse piu di tre quarti.",
+   "rule_de": "Alle Teile tragen einander: Je größer die Last auf der Brücke, desto fester schließen sie sich. Streben und Balken des Gefüges sind höchstens 1 Fuß breit und ¾ Fuß dick.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {
+    "member_max_ft": "1 x 3/4",
+    "span_ft": 100
+   },
+   "note": "Ponte del Cismone, Spannweite 100 Fuß in sechs gleichen Teilen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VII.3",
+   "book": 3,
+   "chapter": "VII",
+   "phys": 167,
+   "printed_page": "15",
+   "anchor": [
+    "e perche egli è ue",
+    "rinouarlo ogn ’ anno ."
+   ],
+   "quote": "e perche egli è uelocissimo, e per lui i montanari mandano giù grandissima quantità di legnami, si prese risolutione di farui un Ponte, senza porre altrimenti pali nell'acqua. Percioche le traui, che ui si ficcauano, erano dalla uelocità del corso del fiume, e dalle percosse de i sassi, e de gli arbori, che da quello continuamente sono portati all'ingiù, mosse, & cauate: Onde faceua bisogno al Conte Giacomo Angarano, ilquale è patrone del Ponte, rinouarlo ogn'anno.",
+   "rule_de": "Brücke über den Cismone: Weil der Fluss reißend ist und die Bergleute viel Holz flößen, wurde beschlossen, ohne Pfähle im Wasser zu bauen; die Pfähle wurden von Strömung, Steinen und Stämmen gelockert und herausgerissen, sodass der Besitzer die Brücke jedes Jahr erneuern musste.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VIII.1",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 168,
+   "printed_page": "16",
+   "anchor": [
+    "fempre in quelli tai ponti",
+    "il fuo carico"
+   ],
+   "quote": "osseruando sempre in questi tai ponti, che nel mezo della larghezza del fiume uenga un colonnello, nelqual le braccia di mezo s'incontrino: e si porranno nella parte di sopra de' colonnelli altre traui, lequali giognendo da un colonnello all'altro, li teniranno insieme uniti, e faranno con le braccia poste ne' capi del ponte portione di cerchio minor del mezo circolo. Et in questo modo facendo ogni braccio sostenta il suo colonnello, & ogni colonnello sostenta la traue della larghezza, e quelle, che fanno le sponde, onde ogni parte sente il suo carico.",
+   "rule_de": "Bei solchen Brücken steht in der Flussmitte stets ein Pfosten, an dem die mittleren Streben zusammentreffen; obere Balken von Pfosten zu Pfosten bilden mit den Endstreben einen Segmentbogen. Jede Strebe trägt ihren Pfosten, jeder Pfosten Quer- und Randbalken: jedes Teil trägt seine Last.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VIII.2",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 170,
+   "printed_page": "18",
+   "anchor": [
+    "VLTIMA inuentione",
+    "opera fortisfima"
+   ],
+   "quote": "QVEST'VLTIMA inuentione si potrà fare con più, e con manco arco di quello, ch'è disegnato, secondo che ricercherà la qualità de' siti, e la grandezza de' fiumi. La altezza del ponte, nella qual sono gli armamenti, o uogliam dir le braccia, che uanno da un colonnello all'altro; si farà per la undecima parte della larghezza del fiume. Tutti i cunei che sono fatti da i colonnelli risponderanno al centro, ilche farà l'opera fortissima",
+   "rule_de": "Die letzte Erfindung lässt sich je nach Ort und Fluss mit mehr oder weniger Bogen bauen. Die Höhe des Tragwerks beträgt 1/11 der Flussbreite; alle Keile zwischen den Pfosten zielen auf den Mittelpunkt.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {
+    "truss_height": "1/11 span"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VIII.3",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 170,
+   "printed_page": "18",
+   "anchor": [
+    "I ponti di quelle quattro",
+    "proportione"
+   ],
+   "quote": "I ponti di queste quattro maniere si potranno far lunghi quanto richiederà il bisogno, facendo maggiori tutte le parti loro à proportione",
+   "rule_de": "Brücken dieser vier Arten können beliebig lang werden, wenn man alle Teile im Verhältnis vergrößert.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VIII.4",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 168,
+   "printed_page": "16",
+   "anchor": [
+    "delle quali , perche fono di bellisfima",
+    "nel detto ponte del Cif mon"
+   ],
+   "quote": "delle quali, perche sono di bellissima inuentione; non hò uoluto lasciar di porre i disegni; tanto più che facilmente saranno intese da ciascuno, c'harrà appreso i termini usati nel detto ponte del Cismon",
+   "rule_de": "Drei weitere Holzbrücken ohne Pfähle im Fluss zeichnet Palladio, weil sie sehr schöne Erfindungen sind und jeder sie mit den Begriffen der Cismone-Brücke leicht versteht.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.VIII.5",
+   "book": 3,
+   "chapter": "VIII",
+   "phys": 169,
+   "printed_page": "17",
+   "anchor": [
+    "Per maggior fortezza",
+    "carico del ponte ."
+   ],
+   "quote": "Per maggior fortezza si potrbbono aggiogner due traui per ogni capo del ponte, lequali affermate ne' pilastri con un capo, con l'altro arriuassero sotto i primi colonelli, percioche aiuterebbono molto à sostentar il carico del ponte.",
+   "rule_de": "Zur Verstärkung kann man an jedem Brückenende zwei Balken hinzufügen, die mit einem Ende im Widerlager sitzen und mit dem anderen unter die ersten Hängesäulen reichen; sie helfen sehr, die Last zu tragen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "Im ersten Durchgang übersehen. 'potrbbono' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IX.1",
+   "book": 3,
+   "chapter": "IX",
+   "phys": 171,
+   "printed_page": "19",
+   "anchor": [
+    "traui coli ordinate rendono",
+    "nelmezo . Sopra"
+   ],
+   "quote": "Queste traui cosi ordinate rendono l'aspetto di un'arco, ilquale habbia di frezza la quarta parte del suo diametro; & in tal modo l'opera riesce bella per la forma, e forte, per uenir le traui, che fanno la lunghezza del Ponte; à esser doppie nel mezo.",
+   "rule_de": "Die Streben bilden das Bild eines Bogens mit Stich ¼ des Durchmessers: schön durch die Form und fest, weil die Längsbalken in der Mitte doppelt liegen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {
+    "arch_rise": "1/4 span"
+   },
+   "note": "Brücke von Bassano; fünf Felder von 34½ Fuß.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.IX.2",
+   "book": 3,
+   "chapter": "IX",
+   "phys": 171,
+   "printed_page": "19",
+   "anchor": [
+    "e per che la diftanza tra detti ordini",
+    "dellalunghezza ."
+   ],
+   "quote": "e perche la distanza tra detti ordini è molto grande, onde con difficultà le traui poste per il lungo haurebbono potuto reggere il carico, che lor fosse stato posto sopra, quando fosse stato molto; si posero tra quelle & i correnti alcune traui, che seruono per modiglioni, e sostentano parte del carico: oltre acciò si ordinarono altre traui, lequali affermate in quelle, ch'erano fite nel fiume, e piegate l'una uerso dell'altra, andassero à unirsi con un'altra traue posta nel mezo della detta distanza sotto ciascuna delle traui della lunghezza.",
+   "rule_de": "Brücke von Bassano: Weil die Pfahljoche weit auseinanderstehen und die Längsbalken eine große Last kaum getragen hätten, wurden Balken als Konsolen untergelegt und schräge Streben angeordnet, die sich in der Mitte unter jedem Längsbalken treffen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.timber",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.1",
+   "book": 3,
+   "chapter": "X",
+   "phys": 172,
+   "printed_page": "20",
+   "anchor": [
+    "quattro par",
+    "pra gli archi"
+   ],
+   "quote": "In questi, quattro parti si deuono considerare, cioè, i capi, che nelle ripe si fanno: i pilastri, che nel fiume si fondano: gli archi, che sono sostentati da detti pilastri: & il Pauimento, ilqual si fa sopra gli archi.",
+   "rule_de": "An Steinbrücken sind vier Teile zu bedenken: die Widerlager an den Ufern, die Pfeiler im Fluss, die Bögen auf den Pfeilern und die Fahrbahn über den Bögen.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "parts": [
+     "capi",
+     "pilastri",
+     "archi",
+     "pauimento"
+    ]
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.2",
+   "book": 3,
+   "chapter": "X",
+   "phys": 172,
+   "printed_page": "20–21",
+   "anchor": [
+    "capi de ’ ponti deuono farfi",
+    "onero almeno di"
+   ],
+   "quote": "I capi de' ponti deuono farsi fermissimi, e sodi; conciosiache non solo seruino à sostener il carico de gli archi, come gli altri pilastri, ma di più tenghino unito tutto il Ponte, e non lasciano che gli archi si aprano: e però si faranno oue le ripe siano di pietra, ouero almeno di [terren sodo, e non potendosi hauer cosi fatte ripe per lor natura fermissime, si faranno ferme, e forti con l'arte, facendoui altri pilastri, & altri archi, onde se le ripe fossero dall'acqua ruinate, non rimanesse la uia al ponte interrotta.]",
+   "rule_de": "Die Widerlager sehr fest und massiv: Sie tragen nicht nur die Bögen, sondern halten die ganze Brücke zusammen. Daher an Ufern aus Fels oder festem Boden; sonst mit Kunst befestigen, durch weitere Pfeiler und Bögen, damit bei Uferabbruch der Zugang nicht unterbrochen wird.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {},
+   "note": "Schluss in eckigen Klammern auf S. 21 (phys 173), am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.3",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "I pilallri , cheli fanno",
+    "continuo percoterli"
+   ],
+   "quote": "I pilastri, che si fanno per la larghezza del fiume; deuono esser di numero pari; si perche ueggiamo che la natura hà prodotto di questo numero tutte quelle cose, che essendo più d'una, hanno da sostentar qualche carico, si come le gambe de gli huomini, e di tutti gli altri animali ne fanno fede: come anco perche questo tal compartimento è più uago da uedere, & rende l'opera più ferma: percioche il corso del fiume nel mezo, nel qual luogo naturalmente egli è più ueloce, per esser più lontano dalle ripe; è libero, e non fa danno à pilastri co'l continuo percoterli.",
+   "rule_de": "Die Pfeiler im Fluss in gerader Zahl: Die Natur bildet alles Tragende, das mehr als eines ist, in gerader Zahl (Beine von Mensch und Tier); die Teilung ist schöner und fester, weil die schnellste Strömung in der Mitte frei durchfließt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "nature",
+   "scope": "bridges",
+   "values": {
+    "piers": "even number"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.4",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "cofi elfer compartiti",
+    "inamente . Le lor"
+   ],
+   "quote": "Deuono i pilastri cosi esser compartiti, che uengano à cadere in quella parte del fiume, oue il corso dell'acque sia meno ueloce. Il maggior corso dell'acque è doue si adunano quelle cose, che sopranotano, ilche nel crescer de fiumi si conosce facilissimamente.",
+   "rule_de": "Pfeiler dorthin setzen, wo die Strömung am schwächsten ist; die stärkste Strömung erkennt man bei steigendem Wasser am Treibgut.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.5",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "Le lor fondamenta fi faranno",
+    "fodo , e fermo"
+   ],
+   "quote": "Le lor fondamenta si faranno in quel tempo dell'anno, che l'acque sono più secche, cioè nell'Autunno: & se'l fundo del fiume sarà di sasso, ò di tofo, ouero di scaranto, ilquale (come ho detto nel primo Libro) è una sorte di terreno, che tiene in parte della pietra; si harranno le fondamenta senza altra fatica di cauamento; perche queste tai sorti di fondi sono buonissimo fondamento per se stessi. Ma se'l fondo del fiume sarà ghiara, ouero sabbia, si cauerà tanto in quello, che si troui il sodo terreno; e quando ciò fosse difficile, si cauerà alquanto nell'arena, ouer nella ghiara, e poi ui si faranno le palificate di pali di rouere, iquali con le punte di ferro, che à lor si faranno, giongano nel fondo sodo, e fermo.",
+   "rule_de": "Pfeilerfundamente im Herbst bei niedrigstem Wasser. Fels, Tuff oder Scaranto tragen ohne Aushub; in Kies oder Sand bis zum festen Grund graben oder Eichenpfähle mit Eisenspitzen bis in den festen Grund rammen.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "bridges",
+   "values": {
+    "season": "autumn"
+   },
+   "note": "Verweist auf Buch I (Fundamente).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.6",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "Per fondare i pilallri",
+    "facendo di parte in parte"
+   ],
+   "quote": "Per fondare i pilastri si deue chiudere una parte del fiume solamente, & in quella fabricare, accioche per l'altra parte lasciata aperta l'impeto dell'acqua habbia il suo corso; e cosi andar facendo di parte in parte.",
+   "rule_de": "Zum Gründen jeweils nur einen Teil des Flusses absperren und dort bauen, damit das Wasser im offenen Teil abfließt; so Abschnitt für Abschnitt.",
+   "kind": "procedure",
+   "attribution": "palladio",
+   "topic": "foundations",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.7",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "Non deuono elfere i pi",
+    "come tutti di un pezzo"
+   ],
+   "quote": "Non deuono essere i pilastri più sottili della sesta parte della larghezza dell'arco; ne ordinariamente più grossi della quarta. Si faranno con pietre grandi, lequali si congiogneranno insieme con arpesi, e con chiodi di ferro, ouer di metallo: accioche con tali incatenamenti uengano à esser come tutti di un pezzo",
+   "rule_de": "Pfeilerstärke nicht unter ⅙ und gewöhnlich nicht über ¼ der Bogenweite; aus großen Steinen, mit Klammern und Dübeln aus Eisen oder Metall verbunden, als wären sie aus einem Stück.",
+   "kind": "range",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "pier_thickness": "1/6 - 1/4 arch width"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.8",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "Le fronti de pilallri",
+    "per mezo dell"
+   ],
+   "quote": "Le fronti de pilastri si sogliono far angulari, cioè che habbiano nell'estremità loro l'angulo retto, e si fanno anco alcuna uolta à mezo cerchio; accioche fendino l'acqua, e facciano che quelle cose, lequali sono dal fiume con impeto portate all'ingiù, percotendo in loro si lontanino da' pilastri, e passino per mezo dell'arco.",
+   "rule_de": "Pfeilerstirnen üblicherweise rechtwinklig zugespitzt, manchmal halbrund: Sie teilen das Wasser und lenken Treibgut von den Pfeilern weg durch die Bogenmitte.",
+   "kind": "procedure",
+   "attribution": "custom",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "cutwater": "right angle or semicircle"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.9",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "Gli archi fi deuono far ben fermi",
+    "nelle ripe fortisfime"
+   ],
+   "quote": "Gli archi si deuono far ben fermi, e forti, & con pietre grandi, lequali siano benissimo commesse insieme; accioche possino resistere al continuo passar de' carri, e reggere al peso, che per qualche accidente sarà condutto lor sopra. Quelli archi sono fortissimi, che si fanno di mezo cerchio; perche posano sopra i pilastri, e non si urtano l'un l'altro: ma se per la qualità del sito, e per la disposition de' pilastri, il mezo cerchio intiero per la troppo altezza offendesse, facendo la salita del ponte difficile; si seruiremo del diminuito, facendo gli archi c'habbiano di frezza il terzo del lor diametro, e si faranno in tal caso le fondamenta nelle ripe fortissime.",
+   "rule_de": "Bögen fest, aus großen, gut gefügten Steinen. Am stärksten ist der Halbkreis: Er ruht auf den Pfeilern und schiebt nicht. Wird er zu hoch und der Anstieg zu steil, nimmt man den gedrückten Bogen mit Stich ⅓ des Durchmessers und macht die Uferfundamente sehr stark.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "arch": "semicircle preferred",
+    "segmental_rise": "1/3 span"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.X.10",
+   "book": 3,
+   "chapter": "X",
+   "phys": 173,
+   "printed_page": "21",
+   "anchor": [
+    "Il pauimentode",
+    "llricanole uie"
+   ],
+   "quote": "Il pauimento de' ponti si deue lastricare, in quell'istesso modo che si lastricano le uie, dellequali è stato detto di sopra",
+   "rule_de": "Die Fahrbahn der Brücken ist wie die Straßen zu pflastern.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XI.1",
+   "book": 3,
+   "chapter": "XI",
+   "phys": 174,
+   "printed_page": "22",
+   "anchor": [
+    "ti ponti io habbia ueduto",
+    "luce de gli archi maggiori"
+   ],
+   "quote": "[Ma conciosiache di quan]ti ponti io habbia ueduto, mi pare il più bello, & il più degno di consideratione si per la fortezza, come per il suo compartimento, quello, che è à Rimino Città della Flaminia, fatto edificare, per quel ch'io credo; da Augusto Cesare; ho posto di lui i disegni, iquali sono quelli, che seguono. Egli è diuiso in cinque archi, i tre di mezo sono eguali, di larghezza di uenticinque piedi; & i due à canto le ripe sono minori, cioè larghi solo uenti piedi: sono tutti questi archi di mezo circulo, & il lor modeno è per la decima parte della luce de' maggiori, e per l'ottaua parte della luce de' minori. I Pilastri sono grossi poco meno della metà della luce de gli archi maggiori.",
+   "rule_de": "Die Brücke von Rimini hält Palladio für die schönste und beachtenswerteste, nach Festigkeit und Teilung: fünf Halbkreisbögen, die drei mittleren 25 Fuß, die äußeren 20 Fuß weit; Bogenstirn 1/10 der großen, ⅛ der kleinen Lichte; Pfeiler knapp ½ der großen Lichte.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "arches_ft": [
+     20,
+     25,
+     25,
+     25,
+     20
+    ],
+    "archivolt": "1/10 (large), 1/8 (small) of span",
+    "pier": "slightly < 1/2 large span"
+   },
+   "note": "Vermessenes antikes Vorbild; die Pfeiler sind stärker als das ¼ aus III.X.7.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XI.2",
+   "book": 3,
+   "chapter": "XI",
+   "phys": 174,
+   "printed_page": "22",
+   "anchor": [
+    "Angolo de",
+    "dal fiume"
+   ],
+   "quote": "L'Angolo de' speroni, che tagliano l'acqua, è retto, ilche ho osseruato che fecero gli antichi in tutti i ponti, perche egli è molto piu forte dell'acuto, e però manco esposto à esser ruinato da gli arbori, ouer da altra materia, che uenisse portata all'ingiù dal fiume.",
+   "rule_de": "Der Winkel der Pfeilersporne ist recht, wie bei allen antiken Brücken: Er ist viel fester als der spitze und wird von Treibgut weniger beschädigt.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "cutwater_angle": "90 degrees"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XII.1",
+   "book": 3,
+   "chapter": "XII",
+   "phys": 176,
+   "printed_page": "24",
+   "anchor": [
+    "ponte diuilo in tre archi",
+    "foggia di Architraue"
+   ],
+   "quote": "[E' que]sto ponte diuiso in tre archi, quel di mezo è di larghezza di trenta piedi; gli altri due sono larghi solo piedi uentidue, e mezo; ilche fu fatto acciò che'l fiume hauesse nel mezo più libero il suo corso. I Pilastri sono grossi per la quinta parte della luce de' uolti minori, e per la sesta del maggiore. Gli archi hanno di frezza la terza parte del lor diametro; il lor modeno è grosso per la nona parte de i uolti piccioli; e per la duodecima di quel di mezo, e sono lauorati à foggia di Architraue",
+   "rule_de": "Antike Brücke über den Bacchiglione in Vicenza: drei Bögen, der mittlere 30, die seitlichen 22½ Fuß, damit der Fluss in der Mitte freier läuft; Pfeiler ⅕ der kleinen, ⅙ der großen Lichte; Stich ⅓ des Durchmessers; Bogenstirn 1/9 und 1/12, als Architrav gearbeitet.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "arches_ft": [
+     22.5,
+     30,
+     22.5
+    ],
+    "pier": "1/5 small span = 1/6 large span",
+    "rise": "1/3 span",
+    "archivolt": "1/9 (small), 1/12 (middle)"
+   },
+   "note": "Vermessenes antikes Vorbild.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XII.2",
+   "book": 3,
+   "chapter": "XII",
+   "phys": 176,
+   "printed_page": "24",
+   "anchor": [
+    "parti della lunghezza de",
+    "per far il dett"
+   ],
+   "quote": "Nell'estreme parti della lunghezza de' pilastri, sotto l'imposte de gli archi, sportano in fuori alcune pietre, lequali nel fabricare il ponte seruiuano per sostener le traui, sopra lequali si faceua l'armamento de' uolti: & in questo modo si fuggiua il pericolo che crescendo il fiume non portasse uia i pali con ruina dell'opera, iquali facendosi altrimenti, sarebbe stato bisogno ficcar nel fiume, per far il dett'armamento.",
+   "rule_de": "Unter den Kämpfern kragen an den Pfeilerenden Steine vor: Sie trugen beim Bau die Balken des Lehrgerüsts, sodass man keine Pfähle in den Fluss rammen musste, die ein Hochwasser fortgerissen hätte.",
+   "kind": "procedure",
+   "attribution": "antichi",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIII.1",
+   "book": 3,
+   "chapter": "XIII",
+   "phys": 177,
+   "printed_page": "25",
+   "anchor": [
+    "per feruar la grandezza",
+    "flati fei ordini"
+   ],
+   "quote": "Però per seruar la grandezza, e la dignità della detta Città, e per accrescerle anco grossissima rendita, io faceua sopra del ponte, per la larghezza sua; tre strade: quella di mezo ampia, e bella: e l'altre due, ch'erano una per banda; alquanto minori. Dall'una, e dall'altra parte di queste strade io ui ordinaua delle botteghe: di modo che ue ne sarebbono stati sei ordini.",
+   "rule_de": "Um Größe und Würde der Stadt zu wahren und ihr hohe Einkünfte zu bringen, legt Palladio auf die Brücke drei Straßen – die mittlere breit und schön – mit Läden zu beiden Seiten, also sechs Ladenreihen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "decorum",
+   "scope": "bridges",
+   "values": {
+    "streets": 3,
+    "shop_rows": 6
+   },
+   "note": "Entwurf einer Steinbrücke mitten in einer großen Handelsstadt (Rialto, Venedig; die Stadt wird nicht genannt).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIII.2",
+   "book": 3,
+   "chapter": "XIII",
+   "phys": 177,
+   "printed_page": "25",
+   "anchor": [
+    "Non deue parer cofa nuoua",
+    "ponti polli di fopra"
+   ],
+   "quote": "Non deue parer cosa nuoua che sopra Ponti si facciano delle loggie: percioche il Ponte Elio in Roma, delquale s'è detto à suo luogo; era anticamente ancor egli coperto tutto di loggie con colonne di Bronzo, con statue, e con altri mirabili ornamenti: oltre che in questa occasione, per le cagioni dette di sopra; era quasi necessario il farle. Nelle proportioni de' pilastri, e de gli archi s'è osseruato quell'istesso ordine, e quelle istesse regole, che si sono osseruate ne' ponti posti di sopra",
+   "rule_de": "Loggien auf Brücken sind nichts Neues: Der Pons Aelius in Rom war ganz mit Loggien, Bronzesäulen und Statuen bedeckt. Für Pfeiler und Bögen gelten dieselben Regeln wie bei den vorigen Brücken.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {},
+   "note": "Antikes Vorbild als Rechtfertigung einer neuen Lösung.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIII.3",
+   "book": 3,
+   "chapter": "XIII",
+   "phys": 177,
+   "printed_page": "25",
+   "anchor": [
+    "ELLISSIMA à mio giudicio",
+    "à trattarei loro negocij ."
+   ],
+   "quote": "[B]ELLISSIMA à mio giudicio è la inuentione del Ponte, che segue; e molto accommodata al luogo, oue si doueua edificare: ch'era nel mezo d'una città, laquale è delle maggiori, e delle più nobili d'Italia; & è Metropoli di molte altre Città; e ui si fanno grandissimi trafichi, quasi di tutte le parti del mondo. Il fiume è larghissimo, & il Ponte ueniua à esser nel luogo apponto, oue si riducono i mercanti à trattare i loro negocij.",
+   "rule_de": "Palladio hält seinen Brückenentwurf für sehr schön und dem Ort angemessen: mitten in einer der größten Städte Italiens mit Handel aus aller Welt, über einem sehr breiten Fluss, genau dort, wo die Kaufleute ihre Geschäfte treiben.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "site",
+   "scope": "bridges",
+   "values": {},
+   "note": "Entwurf, nicht ausgeführt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIIII.1",
+   "book": 3,
+   "chapter": "XIIII",
+   "phys": 180,
+   "printed_page": "28",
+   "anchor": [
+    "che reggono i uolti",
+    "della luce de gli altri due"
+   ],
+   "quote": "I pilastri, che reggono i uolti; ueniuano di grossezza di dodici piedi; e cosi erano grossi per la quinta parte del uano di mezo, e per la quarta de' uani minori: io alteraua in loro alquanto le misure ordinarie facendoli molto grossi, e che uscissero fuori del uiuo della larghezza del Ponte; perche meglio potessero resistere all'impeto del fiume, ilquale è uelocissimo; & alle pietre, & à i legnami, che da quello sono portati all'ingiù. I uolti sarebbono stati di portione di cerchio minore del mezo circolo; acciò che la salita del ponte fosse stata facile, e piana. Io faceua il modeno de gli archi per la decimasettima parte della luce dell'arco di mezo, e per la quartadecima della luce de gli altri due.",
+   "rule_de": "Pfeiler 12 Fuß stark: ⅕ der mittleren (60 Fuß) und ¼ der seitlichen Öffnungen (48 Fuß) – bewusst stärker als üblich und über die Brückenbreite vortretend, gegen die reißende Strömung und Treibgut. Segmentbögen für einen leichten Anstieg; Bogenstirn 1/17 und 1/14 der Lichte.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "spans_ft": [
+     48,
+     60,
+     48
+    ],
+    "pier_ft": 12,
+    "pier": "1/5 middle span = 1/4 side span",
+    "archivolt": "1/17 (middle), 1/14 (side)"
+   },
+   "note": "Eigener Entwurf; Palladio weicht ausdrücklich von den 'misure ordinarie' ab und begründet es.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XV.1",
+   "book": 3,
+   "chapter": "XV",
+   "phys": 182,
+   "printed_page": "30",
+   "anchor": [
+    "Sono tutti quelli archi di",
+    "per le cagioni fopra dette"
+   ],
+   "quote": "Sono tutti questi archi di portione di cerchio minore del mezo circolo, e non hanno lauoro alcuno: i piccioli hanno di frezza il terzo della loro larghezza: quel di mezo è un poco meno. I pilastri sono grossi per la quinta parte del diametro de gli archi minori: & hanno nell'estremità loro, sotto l'imposta de gli archi, le pietre, che sportano in fuori per le cagioni sopra dette.",
+   "rule_de": "Antike Brücke über den Retrone in Vicenza: Segmentbögen ohne Schmuck, die kleinen mit Stich ⅓ der Weite, der mittlere etwas weniger; Pfeiler ⅕ der kleinen Bögen; Kragsteine unter den Kämpfern wie oben.",
+   "kind": "proportion",
+   "attribution": "antichi",
+   "topic": "bridges.stone",
+   "scope": "bridges",
+   "values": {
+    "rise": "1/3 span (small arches)",
+    "pier": "1/5 small span"
+   },
+   "note": "Vermessenes antikes Vorbild.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XV.2",
+   "book": 3,
+   "chapter": "XV",
+   "phys": 182,
+   "printed_page": "30",
+   "anchor": [
+    "in tutti quelli ponti fi",
+    "in tutte le fabriche"
+   ],
+   "quote": "in tutti questi ponti si uede esser stata usata una somma diligenza nel commettere insieme le pietre, ilche (come altre uolte ho auertito) si ricerca sommamente in tutte le fabriche.",
+   "rule_de": "An all diesen Brücken sind die Steine mit größter Sorgfalt gefügt – was bei allen Bauten vor allem verlangt ist.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "construction",
+   "scope": "all",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.1",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "fa di meftieri che nel",
+    "cconueniente"
+   ],
+   "quote": "fa di mestieri che nelle Città secondo la lor grandezza siano compartite più, e manco piazze, nelle quali si raunino le genti à contratrar delle cose necessarie, & utili à i bisogni loro; & si come à diuersi usi si attribuiscono, cosi deuesi à ciascuna dar proprio luogo, e conueniente.",
+   "rule_de": "Je nach Größe der Stadt mehr oder weniger Plätze, auf denen die Leute zusammenkommen und handeln; jeder Platz erhält nach seinem Zweck den passenden Ort.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {},
+   "note": "'contratrar' so gedruckt (contrattar).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.2",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "Quelli tai luoghi ampij",
+    "Tempio . Ma fi come"
+   ],
+   "quote": "Questi tai luoghi ampij, che per le Città si lasciano; oltra la detta commodità, che ui si raunano le genti à passeggiare, à trattenirsi, & à contrattare; rendono anco molto ornamento, ritrouandosi à capo di una strada un luogo bello, e spacioso, dalquale si ueda l'aspetto di qualche bella fabrica, e massimamente di qualche Tempio.",
+   "rule_de": "Plätze dienen dem Gehen, Verweilen und Handeln und schmücken die Stadt: Am Ende einer Straße öffnet sich ein schöner, weiter Ort, von dem man einen schönen Bau sieht, besonders einen Tempel.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.3",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "Tempio . Ma fi come",
+    "non paiano dishabitate"
+   ],
+   "quote": "Ma si come torna bene che siano molte piazze sparse per la Città, cosi molto più è necessario, & hà del grande, e dell'honoreuole, che ue ne sia una principalissima, e che ueramente si possa chiamar publica. Queste piazze principali deono farsi della grandezza che ricercherà la moltitudine de' cittadini, accioche non siano picciole al commodo, & all'uso loro; ouero per il poco numero delle persone non paiano dishabitate.",
+   "rule_de": "Neben vielen verstreuten Plätzen braucht die Stadt einen Hauptplatz, der wirklich öffentlich heißen kann; seine Größe richtet sich nach der Zahl der Bürger – weder zu klein für den Gebrauch noch so groß, dass er leer wirkt.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.4",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "Nelle Città maritime fi faranno",
+    "tutte le parti della Città"
+   ],
+   "quote": "Nelle Città maritime si faranno appresso il porto: e nelle città, che sono fra terra, si faranno nel mezo di quelle; accioche siano commode à tutte le parti della Città.",
+   "rule_de": "In Seestädten liegt der Hauptplatz am Hafen, in Binnenstädten in der Mitte, damit er für alle Stadtteile bequem ist.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {
+    "maritime": "by the port",
+    "inland": "centre"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.5",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "Si ordineranno , come fecerogli",
+    "e del Sole : ma tutti"
+   ],
+   "quote": "Si ordineranno, come fecero gli Antichi; intorno alle piazze i portichi larghi quanto sarà la lunghezza delle lor colonne; l'uso de quali è per fuggir le pioggie, le neui, & ogni noia della grauezza dell'aere, e del Sole",
+   "rule_de": "Um die Plätze Portiken wie bei den Antiken, so breit wie ihre Säulen hoch, zum Schutz vor Regen, Schnee, schwerer Luft und Sonne.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "piazza.porticoes",
+   "scope": "piazza",
+   "values": {
+    "portico_width": "= column height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.6",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "e del Sole : ma tutti",
+    "quinta parte della lunghezza delle colonne"
+   ],
+   "quote": "ma tutti gli edificij, che intorno alla piazza si fanno; non deuono essere (secondo l'Alberti) più alti della terza parte della larghezza della piazza, ne meno della sesta: & à i Portichi si salirà per gradi, iquali si faranno alti per la quinta parte della lunghezza delle colonne.",
+   "rule_de": "Die Bauten um den Platz sind nach Alberti höchstens ⅓ und mindestens ⅙ der Platzbreite hoch; zu den Portiken führen Stufen, zusammen ⅕ der Säulenhöhe.",
+   "kind": "range",
+   "attribution": "alberti",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {
+    "building_height": "1/6 - 1/3 piazza width",
+    "steps": "1/5 column height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.7",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "ornamento danno alle piazze",
+    "Libro de gli archi"
+   ],
+   "quote": "Grandissimo ornamento danno alle piazze gli archi, che si fanno in capo delle strade, cioè nell'entrare in piazza, iquali, come si debbono fare, & perche anticamente si facessero, e d'onde si chiamassero trionfali si dirà diffusamente nel mio Libro de gli archi",
+   "rule_de": "Bögen am Ende der Straßen, am Eingang zum Platz, schmücken die Plätze sehr; darüber will Palladio in seinem Buch von den Bögen handeln.",
+   "kind": "principle",
+   "attribution": "palladio",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {},
+   "note": "Das angekündigte 'Libro de gli archi' ist nicht erschienen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.8",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "ritornando alle piazze principali",
+    "e le prigioni"
+   ],
+   "quote": "Ma ritornando alle piazze principali, deuono esser à quelle congionti il palazzo del Principe, ouer della Signoria, secondo che sarà ò Principato, ò Republica: la Zecca, e l'erario publico; doue si ripone il Thesoro, & il danaro publico: e le prigioni",
+   "rule_de": "Am Hauptplatz liegen der Palast des Fürsten oder der Signoria, Münze und Staatsschatz sowie die Gefängnisse.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "piazza.buildings",
+   "scope": "piazza",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.9",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "anticamente fi faceuano di tre",
+    "pcruerfit"
+   ],
+   "quote": "queste anticamente si faceuano di tre sorti, l'una per quelli ch'erano suiati, & immodesti, che si teniuano, acciò che fussero ammaestrati, laquale hora si dà à i pazzi: l'altra era de i debitori, & questa anco si usa tra noi: la terza è doue stanno i perfidi, & rei huomini ò già condennati, ò per esser condennati: lequai tre sorti bastano, conciosiache i falli de gli huomini nascano ò da immodestia, ouer da contumacia, ouero da peruersità.",
+   "rule_de": "Drei Arten von Gefängnissen bei den Antiken: für Zügellose zur Besserung (heute für die Irren), für Schuldner, für Verbrecher; drei genügen, denn die Vergehen entspringen Zügellosigkeit, Trotz oder Bosheit.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "prisons",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.10",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "Deuono elfer la Zecca",
+    "pregioni machineranno"
+   ],
+   "quote": "Deuono esser la Zecca, e le prigioni collocate in luoghi sicurissimi, & prontissimi, circondate d'alte mura, e guardate dalle forze, e dalle insidie de i seditiosi Cittadini. Deuono farsi le pregioni sane, e commode: perche sono state ritrouate per custodia, e non per supplicio e pena de i scelerati, o d'altre sorti d'huomini: però si faranno le lor mura nel mezo di pietre uiue grandissime incatenate insieme con arpesi, e con chiodi di ferro, o di metallo; e s'intonicheranno poi dall'una e dall'altra parte di pietra cotta: perche cosi facendo l'humidità della pietra uiua non le renderà mal sane, ne perderanno della lor sicurezza. Si deuono anco far gli andidi lor intorno, & le stanze de i custodi appresso, acciò che si possa sentir facilmente s'alcuna cosa i pregioni machineranno.",
+   "rule_de": "Münze und Gefängnisse an sehr sicheren Orten, von hohen Mauern umgeben. Gefängnisse gesund und bequem: Sie dienen der Verwahrung, nicht der Strafe. Mauern im Kern aus großen, verklammerten Hausteinen, beidseitig mit Ziegeln verkleidet gegen die Feuchte; Gänge ringsum und Wächterstuben daneben.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "prisons",
+   "scope": "public_building",
+   "values": {},
+   "note": "'andidi' so gedruckt (anditi).",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.11",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31",
+   "anchor": [
+    "e le pregioni deue congiogn",
+    "la trauatura"
+   ],
+   "quote": "Oltra l'erario, e le pregioni deue congiognersi alla piazza, la Curia laquale è il luogo, doue si rauna il Senato à consultar delle cose dello stato. Questa deue farsi di quella grandezza, che parrà richieder la dignità, e moltitudine de' cittadini; e s'ella sarà quadrata, quanto hauerà di larghezza aggiognendoui la metà, si farà l'altezza. Ma se la sua forma sarà piu lunga, che larga, si porrà insieme la lunghezza, e la larghezza, e di tutta la summa si piglierà la metà, e si darà all'altezza fin sotto la trauatura.",
+   "rule_de": "Die Kurie (Senatssaal) am Platz, so groß wie Würde und Zahl der Bürger verlangen. Quadratisch: Höhe = 1½ Breiten. Länglich: Höhe = halbe Summe von Länge und Breite, bis unter die Balkendecke.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "heights",
+   "scope": "public_building",
+   "values": {
+    "square": "h = 1.5 w",
+    "oblong": "h = (l + w) / 2"
+   },
+   "note": "Entspricht Vitruv V, 2, den Palladio hier nicht nennt; die zweite Regel ist das erste Verfahren aus I.XXIII.3.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.12",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 183,
+   "printed_page": "31–32",
+   "anchor": [
+    "altezza fi deuono far cor",
+    "orccchie de gli"
+   ],
+   "quote": "Al mezo dell'altezza si deuono far cornicioni intorno à i muri, iquali sportino in fuori: acciò che la uoce di quelli, che disputeranno; non si dilati nell'altezza della Curia, ma rebuttata in dietro meglio peruenga all'orecchie de gli [auditori.]",
+   "rule_de": "In halber Höhe umlaufende, vorkragende Gesimse an den Wänden, damit die Stimme der Redner sich nicht in der Höhe verliert, sondern zu den Zuhörern zurückgeworfen wird.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "acoustics",
+   "scope": "public_building",
+   "values": {
+    "cornice": "at 1/2 height"
+   },
+   "note": "'auditori.' steht auf S. 32 (phys 184), am Scan gelesen.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVI.13",
+   "book": 3,
+   "chapter": "XVI",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "Nella parte uolta alla più cald",
+    "cende ; dellaquale"
+   ],
+   "quote": "Nella parte uolta alla più calda regione del Cielo à canto la piazza, si farà la Basilica, cioè il luogo doue si rende Giustitia, e doue concorre gran parte del popolo, & huomini da facende",
+   "rule_de": "Die Basilika (Gerichtsort) liegt am Platz auf der wärmsten Himmelsseite.",
+   "kind": "prescription",
+   "attribution": "palladio",
+   "topic": "orientation",
+   "scope": "public_building",
+   "values": {
+    "basilica": "warmest side of the piazza"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVII.1",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "GRECI ( come ha Vitruuio",
+    "commodo , & ampio"
+   ],
+   "quote": "I GRECI (come ha Vitruuio nel primo cap. del V. Lib.) ordinauano nelle lor Città le piazze di forma quadrata, e faceuano lor intorno i portichi ampij, e doppij, & di spesse colonne, cioè distanti l'una dall'altra un diametro e mezo di colonna; ò al più, due diametri. Erano questi portichi larghi quanto era la lunghezza delle colonne, onde, perche erano doppij; il luogo da passeggiare ueniua à esser largo, quanto erano due lunghezze di colonna, e cosi molto commodo, & ampio.",
+   "rule_de": "Griechische Plätze nach Vitruv V, 1: quadratisch, mit weiten, doppelten Portiken dicht stehender Säulen (1½, höchstens 2 Durchmesser Abstand); jeder Portikus so breit wie die Säulen hoch, der Wandelgang also zwei Säulenhöhen breit.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {
+    "plan": "1:1",
+    "intercolumniation_D": "1.5 - 2",
+    "portico_width": "= column height (double: 2)"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVII.2",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "Sopra le prime colonne",
+    "per diletto fi"
+   ],
+   "quote": "Sopra le prime colonne, lequali (hauendo riguardo al luogo, oue esse erano) per mio giudicio doueuano esser di ordine Corinthio; u'erano altre colonne, la quarta parte minori delle prime; queste haueuano sotto di se il poggio dell'altezza che ricerca la commodità: perche anco questi portici di sopra si faceuano per poterui passeggiar, e trattenersi, & oue potessero star commodamente le persone à ueder i spettacoli che nella piazza, ò per diuotione, ò per diletto si facessero.",
+   "rule_de": "Über den unteren Säulen – nach Palladios Urteil dem Ort gemäß korinthisch – standen obere, ein Viertel kleiner, mit Brüstung in bequemer Höhe: Auch die oberen Portiken dienten dem Wandeln und dem Zuschauen bei Spielen auf dem Platz.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.superposition",
+   "scope": "piazza",
+   "values": {
+    "upper_columns": "3/4 of lower"
+   },
+   "note": "Die korinthische Ordnung ist Palladios eigenes Urteil ('per mio giudicio').",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVII.3",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "Oltra di ciò perche ( come egli dice",
+    "alle mercantie"
+   ],
+   "quote": "Oltra di ciò perche (come egli dice al cap. VII. del primo Libro) usarono gli antichi di fare appresso le piazze i Tempij consacrati à Mercurio, & à Iside, come à Dei presidenti à i negotij, & alle mercantie",
+   "rule_de": "Nach Vitruv I, 7 standen an den Plätzen die Tempel von Merkur und Isis, den Göttern des Handels.",
+   "kind": "principle",
+   "attribution": "vitruvius",
+   "topic": "piazza.buildings",
+   "scope": "piazza",
+   "values": {},
+   "note": "Vgl. Buch IV, Kap. I (B4-I-TOSCANI): der Ort nach der Gottheit.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVII.4",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "Doueano elPer tutti quelli portichi",
+    "giongono alle piazze ."
+   ],
+   "quote": "Doueano esser tutti questi portichi ornati di Nicchi con statue: percioche i Greci molto di tali ornamenti si dilettarono. Vicino à queste piazze, benche Vitruuio, quando ne insegna come elle si ordinauano; non faccia mentione di questi luoghi; ui douea esser la Basilica, la Curia, le prigioni, e tutti gli altri luoghi, de quali s'è detto di sopra, che si congiongono alle piazze.",
+   "rule_de": "In der Tafel der griechischen Plätze ergänzt Palladio Nischen mit Statuen, weil die Griechen solchen Schmuck liebten, sowie Basilika, Curia und Gefängnisse, obwohl Vitruv sie an dieser Stelle nicht nennt.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "piazza",
+   "values": {},
+   "note": "Ergänzt nach Analogie ('doueano', 'ui douea esser'). Die korinthische Ordnung der Portiken ist schon in III.XVII.2 als Palladios Urteil vermerkt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVII.5",
+   "book": 3,
+   "chapter": "XVII",
+   "phys": 184,
+   "printed_page": "32",
+   "anchor": [
+    "& in Pola Città",
+    "à canto la Bafilica"
+   ],
+   "quote": "& in Pola Città dell'Istria se ne ueggono due sopra la piazza, l'uno simile all'altro di forma, di grandezza, & di ornamenti; io gli ho figurati nel disegno di queste piazze à canto la Basilica",
+   "rule_de": "Die beiden Tempel für Merkur und Isis (III.XVII.3) zeichnet Palladio neben die Basilika, nach dem Beispiel der zwei gleichen Tempel am Platz von Pola.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method.reconstruction",
+   "scope": "piazza",
+   "values": {},
+   "note": "Ergänzt nach einem erhaltenen Beispiel.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVIII.1",
+   "book": 3,
+   "chapter": "XVIII",
+   "phys": 187,
+   "printed_page": "35",
+   "anchor": [
+    "ROMANI , & gli Italiani",
+    "lonne . Erano i portichi"
+   ],
+   "quote": "I ROMANI, & gli Italiani (come dice Vitruuio al luogo sopradetto) partendosi dall'uso de' Greci, faceuano le lor piazze più lunghe, che larghe: in modo, che partita la lunghezza in tre parti, di due faceuano la larghezza: percioche dandosi in quelle i doni à i gladiatori, questa forma riusciua lor più commoda della quadrata: & per questa causa anco faceuano gli intercolunnij de' portichi, ch'erano intorno alla piazza; di due diametri di colonna, & un quarto; ouero di tre diametri: acciò che la uista del popolo non fosse impedita dalla spessezza delle colonne.",
+   "rule_de": "Römische Plätze nach Vitruv: länger als breit, Breite ⅔ der Länge (3:2), bequemer für Gladiatorenspiele; Säulenabstände der Portiken 2¼ oder 3 Durchmesser, damit dichte Säulen die Sicht nicht nehmen.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "piazza",
+   "scope": "piazza",
+   "values": {
+    "plan": "3:2",
+    "intercolumniation_D": "2.25 or 3"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVIII.2",
+   "book": 3,
+   "chapter": "XVIII",
+   "phys": 187,
+   "printed_page": "35",
+   "anchor": [
+    "lonne . Erano i portichi",
+    "to nel primo Lib"
+   ],
+   "quote": "Erano i portichi larghi, quanto erano lunghe le colonne; & haueuano sotto le botteghe de' banchieri. Le colonne di sopra si faceuano la quarta parte meno di quelle di sotto: perche le cose inferiori, rispetto al peso, che portano; deono esser più ferme che le di sopra, come è stato detto nel primo Lib.",
+   "rule_de": "Portiken so breit wie die Säulen hoch, darunter die Läden der Wechsler. Obere Säulen ein Viertel kleiner als die unteren: Das Untere muss wegen der Last fester sein als das Obere.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.superposition",
+   "scope": "piazza",
+   "values": {
+    "portico_width": "= column height",
+    "upper_columns": "3/4 of lower"
+   },
+   "note": "Verweist ausdrücklich auf Buch I.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XVIII.3",
+   "book": 3,
+   "chapter": "XVIII",
+   "phys": 187,
+   "printed_page": "35",
+   "anchor": [
+    "calda regione del Cielo lituauano",
+    "lunghezza unite infieme"
+   ],
+   "quote": "Nella parte uolta alla più calda regione del Cielo situauano la Basilica, la quale io ho figurata nel disegno di queste piazze di lunghezza di due quadri: e nella parte di dentro ui sono i portichi intorno, larghi per il terzo dello spacio di mezo. Le colonne loro sono lunghe quanto essi sono larghi, e potriano farsi di che ordine più piacesse. Nella parte uolta à Settentrione io ho posta la Curia di lunghezza di un quadro e mezo; la sua altezza è per la metà della larghezza, e lunghezza unite insieme",
+   "rule_de": "Die Basilika auf der wärmsten Seite, in Palladios Zeichnung zwei Quadrate lang, innen Portiken von ⅓ des Mittelraums, Säulen so hoch wie diese breit, Ordnung nach Belieben. Die Kurie nach Norden, 1½ Quadrate lang, Höhe = halbe Summe von Länge und Breite.",
+   "kind": "proportion",
+   "attribution": "palladio",
+   "topic": "rooms.forms",
+   "scope": "public_building",
+   "values": {
+    "basilica": "2:1",
+    "aisles": "1/3 nave",
+    "column_height": "= aisle width",
+    "curia": "3:2",
+    "curia_height": "(l + w) / 2"
+   },
+   "note": "Palladios Rekonstruktionszeichnung nach Vitruv.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIX.1",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "Deono farli congionte",
+    "dimorami commodamente"
+   ],
+   "quote": "Deono farsi congionte alla piazza, come fu osseruato nelle sopradette, ch'erano tutte due nel Foro Romano; e riuolte alla più calda regione del Cielo: accioche i negociatori, & i litiganti al tempo del uerno senza molestia de' cattiui tempi possano à quelle trasferirsi, & dimorarui commodamente.",
+   "rule_de": "Basiliken liegen am Platz und nach der wärmsten Himmelsgegend, damit Händler und Streitparteien sich im Winter ohne Beschwerde dort aufhalten können.",
+   "kind": "prescription",
+   "attribution": "antichi",
+   "topic": "orientation",
+   "scope": "public_building",
+   "values": {
+    "basilica": "warmest side"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIX.2",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "Si deuono far lar",
+    "mifura di compartimento"
+   ],
+   "quote": "Si deuono far larghe non meno della terza parte, ne più della metà della lor lunghezza, se la natura del luogo non ci impedirà, ouero non si sforzerà à mutar misura di compartimento.",
+   "rule_de": "Basiliken mindestens ⅓ und höchstens ½ ihrer Länge breit, sofern der Ort nicht zu einer anderen Teilung zwingt.",
+   "kind": "range",
+   "attribution": "vitruvius",
+   "topic": "rooms.forms",
+   "scope": "public_building",
+   "values": {
+    "width": "1/3 - 1/2 length"
+   },
+   "note": "Nach Vitruv V, 1; dieselbe Stelle wie B3-XIX-BASILICA in data/book4.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIX.3",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "tali edificij non",
+    "che ordine fi uuole"
+   ],
+   "quote": "Di questi tali edificij non ci è rimaso alcun uestigio antico: onde io secondo quel, che ci insegna Vitruuio nel luogo ricordato di sopra, hò fatto i disegni, che seguono; ne' quali la Basilica nel spacio di mezo, cioè dentro dalle colonne; è lunga due quadri. I portichi, che sono da' lati, & nella parte, oue è l'entrata; sono larghi per la terza parte del spacio di mezo. Le lor colonne sono tanto lunghe, quanto essi sono larghi, e si ponno fare di che ordine si uuole.",
+   "rule_de": "Von antiken Basiliken ist nichts erhalten; Palladio zeichnet sie nach Vitruv: Mittelraum zwischen den Säulen zwei Quadrate lang; Seitengänge und Eingangsgang ⅓ des Mittelraums; Säulen so hoch wie die Gänge breit, Ordnung nach Belieben.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "rooms.forms",
+   "scope": "public_building",
+   "values": {
+    "nave": "2:1",
+    "aisles": "1/3 nave",
+    "column_height": "= aisle width"
+   },
+   "note": "Die Basilika, auf die Buch IV, Kap. V die Kirchen verweist.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIX.4",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "Io non hò fatto portico",
+    "portichi tutto intorno"
+   ],
+   "quote": "Io non hò fatto portico nella parte rincontro alla entrata, perche parmi che ui stia molto bene un Nicchio grande, fatto di portion di cerchio minore del mezo circolo, nelquale sia il tribunale del Pretore, ouero de i Giudici, se saranno molti, & ui si ascenda per gradi acciò habbia maggior maestà, e grandezza: non nego però che non si possano far anco i portichi tutto intorno",
+   "rule_de": "Gegenüber dem Eingang setzt Palladio statt eines Säulengangs eine große Nische aus einem Kreissegment für das Tribunal, über Stufen erhöht, damit es mehr Würde hat; Säulengänge ringsum sind aber auch möglich.",
+   "kind": "preference",
+   "attribution": "palladio",
+   "topic": "basilica",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIX.5",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "Hanno quelli portichi",
+    "negociano nella Bafilica"
+   ],
+   "quote": "Hanno questi portichi superiori le colonne la quarta parte minori di quelle di sotto; il poggio, ouero piedestilo, che è tra le colonne inferiori, e le di sopra; si deue far alto la quarta parte meno della lunghezza delle colonne di sopra: acciò che quelli, che caminano ne' portici superiori; non siano ueduti da quelli, che negociano nella Basilica.",
+   "rule_de": "Obere Säulen ein Viertel kleiner als die unteren; die Brüstung zwischen beiden Ordnungen ¾ der oberen Säulenhöhe, damit man die Gehenden oben von unten nicht sieht.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "orders.superposition",
+   "scope": "public_building",
+   "values": {
+    "upper_columns": "3/4 of lower",
+    "parapet": "3/4 upper column height"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XIX.6",
+   "book": 3,
+   "chapter": "XIX",
+   "phys": 190,
+   "printed_page": "38",
+   "anchor": [
+    "Con altri compartimenti",
+    "con fomma diligenza ."
+   ],
+   "quote": "Con altri compartimenti fu ordinata da esso Vitruuio una Basilica in Fano, laquale per le misure, che al detto luogo egli ne dà; si comprende, che doueua esser un edificio di bellezza, e di dignità grandissima; & io ne porrei quì i disegni, se dal Reuerendissimo Barbaro nel suo Vitruuio non fossero stati fatti con somma diligenza.",
+   "rule_de": "Vitruvs Basilika in Fano muss nach seinen Maßen sehr schön und würdig gewesen sein; Palladio zeichnet sie nicht, weil Barbaro es in seinem Vitruv sorgfältig getan hat.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XX.1",
+   "book": 3,
+   "chapter": "XX",
+   "phys": 193,
+   "printed_page": "41",
+   "anchor": [
+    "noftri tempi lono",
+    "fuori , fopra la piazza"
+   ],
+   "quote": "Queste Basiliche de' nostri tempi sono in questo dall'antiche differenti; che l'antiche erano in terreno, ò uogliam dire à pie piano: e queste nostre sono sopra i uolti; ne' quali poi si ordinano le botteghe per diuerse arti, e mercatantie della città; e ui si fanno anco le pregioni, & altri luoghi pertinenti à i bisogni publichi. Oltre acciò, quelle haueano i portichi nella parte di dentro, come s'è ueduto ne' disegni di sopra; e queste per lo contrario, ò non hanno portichi, ò gli hanno nella parte di fuori, sopra la piazza.",
+   "rule_de": "Heutige Basiliken (Ratssäle) liegen anders als die antiken über Gewölben mit Läden, Gefängnissen und öffentlichen Räumen, und sie haben die Portiken nicht innen, sondern außen zum Platz oder gar keine.",
+   "kind": "principle",
+   "attribution": "custom",
+   "topic": "basilica",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XX.2",
+   "book": 3,
+   "chapter": "XX",
+   "phys": 193,
+   "printed_page": "41",
+   "anchor": [
+    "perche i portichi , ch",
+    "fomma diligenza"
+   ],
+   "quote": "perche i portichi, ch'ella hà d'intorno; sono di mia inuentione: e perche non dubito che questa fabrica non possa esser comparata à gli edificij antichi; & annouerata tra le maggiori, e le più belle fabriche, che siano state fatte da gli antichi in quà, si per la grandezza, e per gli ornamenti suoi: come anco per la materia, che è tutta di pietra uiua durissima; e sono state tutte le pietre commesse, e legate insieme con somma diligenza.",
+   "rule_de": "Die Basilika von Vicenza mit Palladios Portiken hält er den antiken Bauten für ebenbürtig: wegen Größe und Schmuck, wegen des Materials (ganz aus sehr hartem Haustein) und der sorgfältigen Fügung der Steine.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "beauty",
+   "scope": "public_building",
+   "values": {},
+   "note": "Maßstäbe des Urteils: Größe, Schmuck, Material, Fügung.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XX.3",
+   "book": 3,
+   "chapter": "XX",
+   "phys": 193,
+   "printed_page": "41",
+   "anchor": [
+    "come gli Antichi fecero le lor Baliliehe",
+    "render ragione al popolo ."
+   ],
+   "quote": "[S]I come gli Antichi fecero le lor Basiliche, acciò che'l uerno, e la state gl'huomini hauessero oue raunarsi à trattar commodamente le lor cause, & i lor negocij: cosi à tempi nostri in ciascuna città d'Italia, e fuori si fanno alcune Sale publiche; lequali si possono chiamar meritamente Basiliche: percioche lor presso è l'habitatione del supremo magistrato, onde uengono à esser parte di quella; e propriamente questo nome, Basilica, significa casa regale: & anco perche ui stanno i giudici a render ragione al popolo.",
+   "rule_de": "Die öffentlichen Säle der heutigen Städte darf man Basiliken nennen: Sie dienen wie die antiken dem Verhandeln von Prozessen und Geschäften, neben ihnen wohnt der oberste Magistrat ('Basilica' heißt königliches Haus), und in ihnen sprechen die Richter Recht.",
+   "kind": "principle",
+   "attribution": "custom",
+   "topic": "terminology",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XX.4",
+   "book": 3,
+   "chapter": "XX",
+   "phys": 193,
+   "printed_page": "41",
+   "anchor": [
+    "Non occorre ch ’ io ponga le mi",
+    "notate à i fuoi luoghi ."
+   ],
+   "quote": "Non occorre ch'io ponga le misure di ciascuna sua parte, perche ne' disegni sono tutte notate à i suoi luoghi.",
+   "rule_de": "Die Maße der Basilika von Vicenza nennt Palladio nicht im Text, weil sie alle in den Zeichnungen stehen.",
+   "kind": "rationale",
+   "attribution": "palladio",
+   "topic": "method",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XXI.1",
+   "book": 3,
+   "chapter": "XXI",
+   "phys": 196,
+   "printed_page": "44",
+   "anchor": [
+    "fi reggeuano",
+    "uincer eferciti numero"
+   ],
+   "quote": "[al tempo che le Città della Grecia] si reggeuano à Reupblica, per ogni Città ne fosse uno di questi tali edificij: oue i giouanetti, oltra l'imparar delle scienze; esercitando i corpi loro nelle cose pertinenti alla militia, come à conoscer gl'ordini, à lanciar il palo, à giocar alle braccia, à maneggiar l'arme, à natar con pesi sopra le spalle; diuenissero atti alle fatiche, & à gli accidenti della guerra: onde poterno poi co'l lor ualore, e disciplina militare, essendo essi pochi, uincer eserciti numerosissimi.",
+   "rule_de": "In den griechischen Republiken hatte jede Stadt eine Palästra: Die Jugend lernte dort die Wissenschaften und übte den Körper für den Krieg, sodass wenige durch Tapferkeit und Zucht große Heere besiegten.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "palaestra",
+   "scope": "public_building",
+   "values": {},
+   "note": "'Reupblica' so gedruckt.",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XXI.2",
+   "book": 3,
+   "chapter": "XXI",
+   "phys": 196,
+   "printed_page": "44",
+   "anchor": [
+    "Prima difegnauano la piazza quadrata",
+    "gli Adolelcenti"
+   ],
+   "quote": "Prima disegnauano la piazza quadrata di giro di due stadij, cioè di ducento, e cinquanta passa; & in tre lati di lei faceuano i portici semplici, e sotto quelli alcune sale ampie, nelle quali stauano gli huomini letterati, come Filosofi, e simili; à disputare, e discorrere. Nel quarto lato poi, ilquale era uolto al Meriggie; faceuano i portichi doppij: accioche le pioggie da uenti spinte non entrassero nella parte più à dentro, nel uerno; & l'estate il Sole fosse più lontano. Nel mezo di questo portico era una sala molto grande lunga un quadro, e mezo, oue si ammaestrauano gli Adolescenti.",
+   "rule_de": "Palästra nach Vitruv V, 11: quadratischer Hof von zwei Stadien (250 Schritt) Umfang; an drei Seiten einfache Portiken mit weiten Sälen für die Gelehrten, an der Südseite ein doppelter Portikus gegen Schlagregen und Sommersonne; in dessen Mitte ein großer Saal von 1½ Quadraten für die Jünglinge.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "palaestra",
+   "scope": "public_building",
+   "values": {
+    "court": "square, perimeter 2 stadia",
+    "south_portico": "double",
+    "hall": "3:2"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XXI.3",
+   "book": 3,
+   "chapter": "XXI",
+   "phys": 196,
+   "printed_page": "44",
+   "anchor": [
+    "Percioche uollero quei",
+    "mezo della tepida"
+   ],
+   "quote": "Percioche uollero quei prudenti huomini, imitando la natura, laqual da un'estremo freddo ad un'estremo caldo con i suoi mezi ci conduce; che non subito dalla stanza fredda si entrasse nella calda, ma co'l mezo della tepida.",
+   "rule_de": "Die Antiken ahmten die Natur nach, die von äußerster Kälte zu äußerster Hitze über Zwischenstufen führt: aus dem kalten Raum nicht unmittelbar in den heißen, sondern durch den lauen.",
+   "kind": "principle",
+   "attribution": "antichi",
+   "topic": "nature",
+   "scope": "public_building",
+   "values": {},
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  },
+  {
+   "id": "III.XXI.4",
+   "book": 3,
+   "chapter": "XXI",
+   "phys": 196,
+   "printed_page": "44",
+   "anchor": [
+    "che guardaua à Settentrione",
+    "fi chiamaua Xi"
+   ],
+   "quote": "Quello, che guardaua à Settentrione, era doppio, e di larghezza quanto erano lunghe le colonne. L'altro riuolto à Mezogiorno era semplice, ma molto più largo di ciascuno de' sopradetti, & era diuiso in questo modo: che lasciati dalla parte delle colonne, e dalla parte del muro dieci piedi, ilqual spacio da Vitruuio è detto Margine; per due gradi larghi sei piedi si discendeua in un piano non meno largo di dodici piedi; nel quale al tempo del uerno gli Athleti poteuano esercitarsi stando al coperto, senza esser impediti da quelli, ch'erano sotto il portico à uedere; iquali anco, per la detta bassezza, ou'erano gli Athleti; uedeuano meglio. Questo portico propriamente si chiamaua Xisto.",
+   "rule_de": "Äußere Portiken: der nördliche doppelt und so breit wie die Säulen hoch; der südliche (Xystus) einfach, aber breiter: je 10 Fuß Rand an Säulen und Wand, zwei Stufen von 6 Fuß hinab auf eine Bahn von mindestens 12 Fuß, wo die Athleten im Winter gedeckt üben und die Zuschauer besser sehen.",
+   "kind": "proportion",
+   "attribution": "vitruvius",
+   "topic": "palaestra",
+   "scope": "public_building",
+   "values": {
+    "margin_ft": 10,
+    "steps_ft": 6,
+    "track_ft": ">= 12"
+   },
+   "note": "",
+   "evidence_class": "A",
+   "scan_checked": true
+  }
+ ]
+}

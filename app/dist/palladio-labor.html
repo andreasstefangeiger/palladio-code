@@ -1,0 +1,630 @@
+<title>Palladio-Code Entwurfslabor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Cormorant+Garamond:ital,wght@1,500&display=swap">
+<style>
+/* Layout: three-part work surface - step rail, live plan, step panel; stacks to one column on phones */
+:root {
+  --bg: #f7f7f5; --paper: #ffffff; --fg: #1d1e20; --muted: #686b70; --line: #dcdcd8;
+  --accent: #23508f; --accent-soft: #e6edf7; --wall: #2b2c2f;
+  --ok: #2e7a4e; --warn: #a8701a; --bad: #b23b3b;
+  --font-ui: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-quote: "Cormorant Garamond", Garamond, "Times New Roman", serif;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #131416; --paper: #1b1c1f; --fg: #e9e8e5; --muted: #a1a3a8; --line: #33353a;
+  --accent: #82a9e3; --accent-soft: #1f2a3a; --wall: #cfccc5;
+  --ok: #6cc08f; --warn: #e0a64a; --bad: #e57a7a; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #131416; --paper: #1b1c1f; --fg: #e9e8e5; --muted: #a1a3a8; --line: #33353a;
+  --accent: #82a9e3; --accent-soft: #1f2a3a; --wall: #cfccc5;
+  --ok: #6cc08f; --warn: #e0a64a; --bad: #e57a7a; color-scheme: dark; }
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font-ui); padding-inline: 16px; }
+* { box-sizing: border-box; }
+button { font: inherit; color: inherit; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.top { display: flex; align-items: center; gap: 16px; padding-block: 14px; flex-wrap: wrap; }
+.brand { font-weight: 600; letter-spacing: .01em; }
+.brand span { color: var(--muted); font-weight: 400; }
+.top .spacer { flex: 1; }
+.toggle { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+.toggle[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+
+.work { display: grid; grid-template-columns: 210px minmax(0, 1fr) minmax(300px, 380px); gap: 20px; padding-bottom: 24px; }
+@media (max-width: 1100px) { .work { grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); } .rail { grid-column: 1 / -1; } }
+@media (max-width: 720px) { .work { grid-template-columns: minmax(0, 1fr); } }
+
+.rail ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+@media (max-width: 1100px) { .rail ol { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 720px) { .rail ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.rail button { width: 100%; display: grid; grid-template-columns: 22px 1fr 10px; align-items: center; gap: 8px;
+  text-align: left; border: 1px solid transparent; background: none; border-radius: var(--r); padding: 8px 10px; cursor: pointer; }
+.rail button:hover { background: var(--paper); }
+.rail button[aria-current="step"] { background: var(--paper); border-color: var(--line); }
+.rail .n { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+.dot.follows { background: var(--ok); } .dot.approx { background: var(--warn); } .dot.deviation { background: var(--bad); }
+
+.stage { min-width: 0; display: grid; gap: 14px; align-content: start; }
+.sheet { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; min-width: 0; }
+.sheet h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 8px; font-weight: 500; }
+svg { display: block; width: 100%; height: auto; touch-action: none; }
+.plan text, .elev text { fill: var(--fg); font: 15px var(--font-ui); font-variant-numeric: tabular-nums; }
+.elev text { font-size: 13px; }
+.plan .muted, .elev .muted { fill: var(--muted); }
+.handle { cursor: ns-resize; }
+
+.panel { min-width: 0; display: grid; gap: 14px; align-content: start; }
+.panel h1 { font-size: 22px; line-height: 1.2; margin: 0; text-wrap: balance; font-weight: 600; }
+.lead { color: var(--muted); margin: 4px 0 0; }
+.controls { display: grid; gap: 12px; }
+.row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.label { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.chip { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 3px 10px; cursor: pointer;
+  font-variant-numeric: tabular-nums; font-size: 14px; }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.stepper { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: var(--r); background: var(--paper); }
+.stepper button { border: none; background: none; width: 36px; height: 36px; cursor: pointer; font-size: 18px; }
+.stepper output { min-width: 72px; text-align: center; font-variant-numeric: tabular-nums; font-weight: 600; }
+input[type="range"] { width: 100%; accent-color: var(--accent); }
+.roomrow { display: grid; gap: 6px; padding: 10px; border: 1px solid var(--line); border-radius: var(--r); }
+.roomrow .head { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; }
+.num { font-variant-numeric: tabular-nums; }
+
+.pill { display: inline-block; border-radius: 999px; padding: 1px 9px; font-size: 12px; font-weight: 600; border: 1px solid currentColor; white-space: nowrap; }
+.pill.follows { color: var(--ok); } .pill.approx { color: var(--warn); } .pill.deviation { color: var(--bad); } .pill.assumption { color: var(--muted); }
+
+.rule { border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 4px; }
+.rule .meta { display: flex; gap: 8px; align-items: baseline; font-size: 12px; color: var(--muted); flex-wrap: wrap; }
+.rule .cls { font-weight: 600; color: var(--accent); }
+.rule q { font: italic 500 18px/1.35 var(--font-quote); quotes: "„" "“"; }
+.rule .tr { color: var(--muted); font-size: 14px; }
+.note { font-size: 13px; color: var(--muted); }
+.review { display: grid; gap: 6px; }
+.review div { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: baseline; border-bottom: 1px solid var(--line); padding-block: 4px; }
+.copy { border: 1px solid var(--accent); color: var(--accent); background: none; border-radius: var(--r); padding: 6px 12px; cursor: pointer; }
+.nav { display: flex; justify-content: space-between; gap: 8px; }
+.nav button { border: 1px solid var(--line); background: var(--paper); border-radius: var(--r); padding: 8px 14px; cursor: pointer; }
+.nav button.primary { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="top">
+  <div class="brand">Palladio-Code <span id="t-sub">Entwurfslabor</span></div>
+  <div class="spacer"></div>
+  <button class="toggle" id="sound" aria-pressed="false">Klang</button>
+  <button class="toggle" id="lang" aria-pressed="false">EN</button>
+</header>
+
+<main class="work">
+  <nav class="rail" aria-label="Schritte"><ol id="steps"></ol></nav>
+  <section class="stage">
+    <div class="sheet"><h2 id="t-plan">Grundriss · piedi vicentini</h2><svg class="plan" id="plan" role="img" aria-label="Grundriss"></svg></div>
+    <div class="sheet"><h2 id="t-elev">Ansicht der Front · Höhen</h2><svg class="elev" id="elev" role="img" aria-label="Ansicht"></svg></div>
+  </section>
+  <aside class="panel" id="panel"></aside>
+</main>
+
+<script type="module">
+// Palladio-Code design engine (browser + node). Mirrors src/palladio_code/design.py;
+// tests/test_app_engine.py checks both against the same cases.
+
+const FORMS = {
+  "1:1": 1, "4:3": 4 / 3, "sqrt2:1": Math.SQRT2, "3:2": 1.5, "5:3": 5 / 3, "2:1": 2,
+};
+const TOL = 0.01;
+
+const snap = (v, step = 0.5) => Math.round(v / step) * step;
+const relDev = (v, t) => Math.abs(v - t) / t;
+
+const MEANS = {
+  I23_first: (l, b) => (l + b) / 2,
+  I23_second: (l, b) => Math.sqrt(l * b),
+  I23_third: (l, b) => (2 * l * b) / (l + b),
+};
+const MEAN_RULE = { I23_first: "A-HT-VAULT-002", I23_second: "A-HT-VAULT-003", I23_third: "A-HT-VAULT-004" };
+
+const DEFAULTS = {
+  module: 16,
+  wall: 1.5,
+  sala_form: "5:3",
+  rooms: [
+    { size: "grande", form: "5:3", ceiling: "vault" },
+    { size: "mediocre", form: "1:1", ceiling: "vault" },
+    { size: "picciola", form: "4:3", ceiling: "vault" },
+  ],
+  upper_factor: 5 / 6,
+  window_ratio: 1 / 4.5,
+};
+
+// nearest of the seven forms to a ratio, with its relative deviation
+function nearestForm(ratio) {
+  let best = null;
+  for (const [name, v] of Object.entries(FORMS)) {
+    const dev = relDev(ratio, v);
+    if (!best || dev < best.dev) best = { name, value: v, dev };
+  }
+  return best;
+}
+
+function run(input = {}) {
+  const p = { ...DEFAULTS, ...input, rooms: (input.rooms || DEFAULTS.rooms).map((r) => ({ ...r })) };
+  const w = p.module, wall = p.wall;
+  const decisions = [];
+  const log = (step, topic, decision, rules, status = "follows", note = "") =>
+    decisions.push({ step, topic, decision, rules, status, note });
+
+  log(1, "module", `${w}`, ["B-SYS-MOD-001"], "follows");
+  log(1, "wall", `${wall}`, [], "assumption");
+
+  // step 4: wing rooms (grande extends the module, picciola shortens it)
+  let y = wall;
+  const rooms = p.rooms.map((r) => {
+    const ratio = FORMS[r.form] ?? 1;
+    let depth = r.depth ?? (ratio === 1 ? w : snap(r.size === "picciola" ? w / ratio : w * ratio));
+    const room = { ...r, width: w, depth, y };
+    room.length = Math.max(w, depth);
+    room.breadth = Math.min(w, depth);
+    room.ratio = room.length / room.breadth;
+    const near = nearestForm(room.ratio);
+    room.nearest = near.name;
+    room.status = near.dev < 1e-9 ? "follows" : near.dev <= TOL ? "approx" : "deviation";
+    y += depth + wall;
+    log(4, "form", `${room.size}: ${room.length} x ${room.breadth}`, ["A-PROP-ROOM-001", "B2-CAP2-1"],
+      room.status, room.status === "follows" ? "" : `${room.ratio.toFixed(4)} ~ ${near.name}`);
+    return room;
+  });
+  const areas = rooms.map((r) => r.width * r.depth);
+  const descending = areas.every((a, i) => i === 0 || areas[i - 1] >= a);
+  log(4, "sequence", descending ? "grande-mediocre-picciola" : "not descending", ["B2-CAP2-1"],
+    descending ? "follows" : "deviation");
+  const wingDepth = y;
+
+  // step 2: centre
+  const salaDepth = wingDepth - 2 * wall;
+  const salaWidth = p.sala_width ?? snap(salaDepth / (FORMS[p.sala_form] ?? 5 / 3));
+  const sala = { width: salaWidth, depth: salaDepth, x: wall + w + wall, y: wall };
+  sala.length = Math.max(salaWidth, salaDepth);
+  sala.breadth = Math.min(salaWidth, salaDepth);
+  sala.ratio = sala.length / sala.breadth;
+  log(2, "centre", `${sala.length} x ${sala.breadth}`, ["A-ORG-CEN-001", "A-DIM-HALL-001"],
+    sala.ratio <= 2 + 1e-9 ? "follows" : "deviation");
+
+  // step 3: symmetry
+  log(3, "symmetry", "mirror", ["A-ORG-SYM-001"], p.asymmetric ? "deviation" : "follows");
+
+  // step 5: heights
+  const square = rooms.find((r) => r.length === r.breadth && r.ceiling === "vault");
+  const target = square ? (square.breadth * 4) / 3 : null;
+  for (const r of rooms) {
+    if (r.ceiling === "flat") {
+      r.height = r.breadth; r.heightRule = "flat_h_eq_w"; r.rules = ["A-HT-ROOM-001"];
+    } else if (r.length === r.breadth) {
+      r.height = (r.breadth * 4) / 3; r.heightRule = "I23_square_4_3"; r.rules = ["A-HT-VAULT-001"];
+    } else {
+      r.means = Object.fromEntries(Object.entries(MEANS).map(([k, f]) => [k, f(r.length, r.breadth)]));
+      let method = r.method;
+      if (!method) {
+        method = target === null ? "I23_first"
+          : Object.keys(MEANS).reduce((a, b) => (relDev(r.means[a], target) <= relDev(r.means[b], target) ? a : b));
+      }
+      r.height = r.means[method]; r.heightRule = method; r.rules = [MEAN_RULE[method]];
+    }
+    log(5, "height", `${r.size}: ${r.height.toFixed(2)} (${r.heightRule})`, r.rules);
+  }
+  const rowHeights = rooms.filter((r) => r.ceiling === "vault" && r.size !== "picciola").map((r) => r.height);
+  let spread = null;
+  if (rowHeights.length > 1) {
+    spread = (Math.max(...rowHeights) - Math.min(...rowHeights)) / Math.max(...rowHeights);
+    log(5, "equal_heights", `${(spread * 100).toFixed(1)} %`, ["A-HT-VAULT-005", "B-SYS-VAULT-001"],
+      spread <= TOL ? "follows" : "deviation");
+  }
+
+  // step 6: upper floor
+  const mainH = rowHeights.length ? Math.max(...rowHeights) : w;
+  const upper = mainH * p.upper_factor;
+  log(6, "upper", upper.toFixed(2), ["A-HT-STORY-001"],
+    Math.abs(p.upper_factor - 5 / 6) < 1e-9 ? "follows" : "deviation");
+
+  // step 7: openings
+  const winW = snap(w * p.window_ratio, 0.25);
+  const winH = (winW * 13) / 6;
+  const winOk = winW >= w / 5 - 1e-9 && winW <= w / 4 + 1e-9;
+  log(7, "window", `${winW} x ${winH.toFixed(2)}`, ["A-DIM-WIN-001", "A-DIM-WIN-002"], winOk ? "follows" : "deviation");
+  log(7, "window_upper", ((winH * 5) / 6).toFixed(2), ["A-DIM-WIN-003"]);
+  log(7, "axes", "aligned", ["A-ORG-OPEN-001", "A-LOC-WIN-001"]);
+  log(7, "door", "3 x 6.5", ["A-DIM-DOOR-001"]);
+
+  return {
+    params: p, rooms, sala, spread, target, mainHeight: mainH, upperHeight: upper,
+    window: { width: winW, height: winH, upperHeight: (winH * 5) / 6 }, decisions,
+    total: { width: wall + w + wall + salaWidth + wall + w + wall, depth: wingDepth },
+  };
+}
+
+function nearestPalladio(design, readings) {
+  const by = {};
+  for (const r of readings) if (r.length && r.confidence !== "low") (by[r.building] ||= []).push([r.length, r.width]);
+  let best = null;
+  for (const [b, rooms] of Object.entries(by)) {
+    let cost = 0;
+    for (const r of design.rooms) cost += Math.min(...rooms.map(([l, w]) => Math.abs(r.length - l) + Math.abs(r.breadth - w)));
+    if (!best || cost < best.cost) best = { building: b, cost, rooms };
+  }
+  return best;
+}
+
+const DATA = {"rules": {"A-CMP-LOG-001": {"cls": "A", "text": "Loggien werden gewöhnlich an Vorder- und Rückseite angeordnet; eine einzelne liegt mittig, zwei liegen seitlich.", "it": "Si sogliono far le loggie per lo più nella faccia davanti, & in quella di dietro della casa: e si fanno nel mezo, facendone una sola: ò dalle bande facendone due.", "de": "Loggien werden meist an der Vorder- und Rückseite des Hauses angelegt; bei einer liegt sie in der Mitte, bei zweien an den Seiten.", "where": "Buch 1, Kap. XXI, S. 52", "confidence": null}, "A-DIM-LOG-002": {"cls": "A", "text": "Loggien sollen in der Regel nicht schmaler als 10 Fuß und nicht breiter als 20 Fuß sein.", "it": "si fanno e maggiori, e minori come ricerca la grandezza, e il commodo della fabrica: ma per il più non si faranno meno larghe di dieci piedi, nè più di venti.", "de": "Sie werden größer oder kleiner, wie Größe und Bedarf des Gebäudes es verlangen; meist sollen sie jedoch nicht unter zehn und nicht über zwanzig Fuß breit sein.", "where": "Buch 1, Kap. XXI, S. 52", "confidence": null}, "A-ORG-CEN-001": {"cls": "A", "text": "Ein wohlgeordnetes Haus besitzt in seiner Mitte und schönsten Zone einen Raum, auf den alle übrigen Räume antworten und münden.", "it": "Hanno oltra di ciò tutte le case bene ordinate nel mezo, & nella più bella parte loro alcuni luoghi: ne' quali rispondono, & riescono tutti gli altri.", "de": "Darüber hinaus besitzen alle wohlgeordneten Häuser in ihrer Mitte und in ihrem schönsten Teil Räume, auf die alle übrigen bezogen sind und in die sie münden.", "where": "Buch 1, Kap. XXI, S. 52", "confidence": null}, "A-DIM-HALL-001": {"cls": "A", "text": "Die Länge einer Sala soll zwei aus ihrer Breite gebildete Quadrate nicht überschreiten; je näher sie dem Quadrat kommt, desto lobenswerter und bequemer ist sie.", "it": "Io son solito non eccedere nella lunghezza delle Sale due quadri: i quali si facciano dalla larghezza: ma quanto più si approssimeranno al quadrato, tanto più saranno lodevoli, & commode.", "de": "Ich pflege bei der Länge der Säle zwei aus der Breite gebildete Quadrate nicht zu überschreiten; je näher sie dem Quadrat kommen, desto lobenswerter und bequemer sind sie.", "where": "Buch 1, Kap. XXI, S. 52", "confidence": null}, "A-ORG-SYM-001": {"cls": "A", "text": "Räume sind beidseits von Eingang und Sala so zu verteilen, dass rechts und links einander entsprechen und gleich sind.", "it": "Le Stanze deono essere compartite dall'una, e l'altra parte dell'entrata, e della Sala: e si deve avertire, che quelle dalla parte destra rispondino, e siano uguali à quelle dalla sinistra: accioche la fabrica sia così in una parte come nell'altra: & i muri sentano il carico del coperto ugualmente.", "de": "Die Räume sind auf beiden Seiten des Eingangs und des Saales zu verteilen; die rechts gelegenen sollen den linken entsprechen und gleich sein, damit das Gebäude auf beiden Seiten gleich ist und die Mauern die Dachlast gleichmäßig aufnehmen.", "where": "Buch 1, Kap. XXI, S. 52", "confidence": null}, "A-PROP-ROOM-001": {"cls": "A", "text": "Als die sieben schönsten und am besten proportionierten Raumformen gelten: Kreis, Quadrat, Quadrat mit Diagonale als Länge, 4:3, 3:2, 5:3 und 2:1.", "it": "Le più belle e proportionate maniere di stanze, e che riescono meglio sono sette: percioche ò si faranno ritonde, e queste di rado: ò quadrate; ò la lunghezza loro sarà per la linea diagonale del quadrato della larghezza; ò d'un quadro & un terzo; ò d'un quadro e mezo; ò d'un quadro, e due terzi; ò di due quadri.", "de": "Die schönsten, wohlproportioniertesten und am besten gelingenden Raumformen sind sieben: rund - dies selten -, quadratisch, mit der Diagonale des Breitenquadrats als Länge, ein Quadrat und ein Drittel, ein Quadrat und die Hälfte, ein Quadrat und zwei Drittel oder zwei Quadrate.", "where": "Buch 1, Kap. XXI, S. 52", "confidence": null}, "A-HT-ROOM-001": {"cls": "A", "text": "Bei flach gedeckten Räumen entspricht die lichte Höhe vom Fußboden bis zur Balkenlage der Raumbreite.", "it": "Se in solaro; l'altezza dal pavimento alla travatura sarà quanto la loro larghezza.", "de": "Bei einer Balkendecke ist die Höhe vom Fußboden bis zur Balkenlage so groß wie die Raumbreite.", "where": "Buch 1, Kap. XXIII, S. 53", "confidence": null}, "A-HT-STORY-001": {"cls": "A", "text": "Die Räume des Obergeschosses sind um ein Sechstel niedriger als die darunterliegenden.", "it": "e le stanze di sopra saranno per la sesta parte meno alte di quelle di sotto.", "de": "Die oberen Räume sollen um ein Sechstel niedriger sein als die unteren.", "where": "Buch 1, Kap. XXIII, S. 53", "confidence": null}, "A-HT-VAULT-001": {"cls": "A", "text": "Bei einem quadratischen, gewölbten Raum beträgt die Höhe die Breite zuzüglich eines Drittels.", "it": "l'altezze de' volti nelle stanze quadre si faranno aggiunta la terza parte alla larghezza della stanza.", "de": "Die Gewölbehöhen quadratischer Räume werden aus der Raumbreite zuzüglich ihres Drittels gebildet.", "where": "Buch 1, Kap. XXIII, S. 53", "confidence": null}, "A-HT-VAULT-002": {"cls": "A", "text": "Für längliche Räume kann die Gewölbehöhe als arithmetisches Mittel aus Länge und Breite bestimmt werden: h=(L+B)/2.", "it": "si ritroverà ponendo la larghezza appresso la lunghezza, e dividendo il tutto in due parti uguali: percioche una di quelle metà sarà l'altezza del volto.", "de": "Man findet sie, indem man Breite und Länge zusammenstellt und die Summe in zwei gleiche Teile teilt; eine Hälfte ist die Gewölbehöhe.", "where": "Buch 1, Kap. XXIII, S. 53", "confidence": null}, "A-HT-VAULT-003": {"cls": "A", "text": "Alternativ kann die Gewölbehöhe als geometrisches Mittel aus Länge und Breite bestimmt werden: h=sqrt(L·B).", "it": "troveremo un numero c'habbia quella proportione alla larghezza, che la lunghezza haverà à lui: e lo ritroveremo moltiplicando il minore estremo co'l maggiore: perche la radice quadrata di quello che procederà da detta moltiplicatione sarà l'altezza che cerchiamo.", "de": "Wir suchen eine Zahl, die zur Breite im selben Verhältnis steht wie die Länge zu ihr; die Quadratwurzel aus dem Produkt der Extreme ist die gesuchte Höhe.", "where": "Buch 1, Kap. XXIII, S. 53", "confidence": null}, "A-HT-VAULT-004": {"cls": "A", "text": "Als dritte und niedrigste proportionale Gewölbehöhe kann das harmonische Mittel bestimmt werden: h=2LB/(L+B).", "it": "Si può ancho ritrovare un'altra altezza, che sarà minore: ma nondimeno proportionata alla stanza [...].", "de": "Man kann noch eine andere, niedrigere, aber dennoch zum Raum proportionierte Höhe finden [es folgt die geometrische und numerische Konstruktion].", "where": "Buch 1, Kap. XXIII, S. 54", "confidence": null}, "A-HT-VAULT-005": {"cls": "A", "text": "Unter den drei proportionalen Höhen darf so gewählt werden, dass verschieden große Räume gleich hohe Gewölbe und damit einen durchgehenden Oberboden erhalten.", "it": "ci serviremo di ciascuna di queste altezze, secondo che tornerà bene per far che più stanze di diverse grandezze habbiano i volti egualmente alti, e nondimeno detti volti siano proportionati à quelle: dal che ne risulterà e bellezza all'occhio, e commodità per il suolo, ò pavimento che andarà loro sopra: perche verrà ad esser tutto uguale.", "de": "Wir verwenden jede dieser Höhen so, wie es sich eignet, damit mehrere verschieden große Räume gleich hohe, dennoch jeweils proportionierte Gewölbe erhalten; daraus entstehen Schönheit und ein einheitlicher Boden darüber.", "where": "Buch 1, Kap. XXIII, S. 54", "confidence": null}, "A-DIM-DOOR-001": {"cls": "A", "text": "Zimmertüren sollen zwischen 2 und 3 Fuß breit und zwischen 5 und 6,5 Fuß hoch sein.", "it": "Le porte delle stanze non si faranno più larghe di tre piedi, & alte sei, e mezo; nè meno di due piedi in larghezza, e cinque in altezza.", "de": "Zimmertüren werden nicht breiter als drei Fuß und nicht höher als sechseinhalb, aber auch nicht schmaler als zwei und nicht niedriger als fünf Fuß ausgeführt.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "A-DIM-WIN-001": {"cls": "A", "text": "Die Fensterbreite soll zwischen einem Fünftel und einem Viertel der Raumbreite liegen.", "it": "non si faranno finestre più larghe della quarta parte della larghezza delle stanze: nè più strette della quinta.", "de": "Fenster sollen nicht breiter als ein Viertel und nicht schmaler als ein Fünftel der Raumbreite sein.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "A-DIM-WIN-002": {"cls": "A", "text": "Die Fensterhöhe beträgt zwei Fensterbreiten zuzüglich eines Sechstels der Fensterbreite, also 13/6 der Breite.", "it": "e si faranno alte due quadri, e di più la sesta parte della larghezza loro.", "de": "Sie werden zwei Breiten hoch ausgeführt, zuzüglich eines Sechstels ihrer Breite.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "A-DIM-WIN-003": {"cls": "A", "text": "Fenster jedes höheren Geschosses sind in der lichten Höhe jeweils um ein Sechstel gegenüber dem darunterliegenden Geschoss zu vermindern.", "it": "Le finestre di sopra, cioè quelle del secondo ordine deono essere la sesta parte minori della lunghezza della luce di quelle di sotto, e se altre finestre più di sopra si faranno similmente per la sesta parte si deono diminuire.", "de": "Die Fenster des zweiten Rangs sollen in ihrer lichten Höhe um ein Sechstel kleiner sein als die unteren; weitere Fenster darüber sind ebenso jeweils um ein Sechstel zu vermindern.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "A-ORG-OPEN-001": {"cls": "A", "text": "Fenster rechts und links müssen einander entsprechen; obere Fenster und Türen müssen jeweils lotrecht über den unteren liegen.", "it": "Debbono le finestre da man destra corrispondere à quelle da man sinistra: e quelle di sopra essere al diritto di quelle di sotto: e le porte similmente tutte essere al diritto una sopra l'altra: accioche sopra il vano sia il vano, e sopra il pieno sia il pieno: & ancho rincontrarsi acciò che stando in una parte della casa, si possa vedere fin dall'altra: il che apporta vaghezza, e fresco la Estate, & altri commodi.", "de": "Rechte und linke Fenster müssen korrespondieren; obere Fenster und Türen müssen über den unteren liegen, damit Öffnung über Öffnung und Voll über Voll steht und Durchsicht, Schönheit sowie sommerliche Frische entstehen.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "A-LOC-WIN-001": {"cls": "A", "text": "Fenster sind von den Gebäudeecken abzurücken.", "it": "Deono le finestre allontanarsi da gli angoli, ò cantoni della fabrica [...] percioche non deve essere aperta, & indebolita quella parte, la quale ha da tener diritto, & insieme tutto'l restante dell'Edificio.", "de": "Fenster müssen von den Ecken des Gebäudes entfernt bleiben, weil jener Teil, der den gesamten Bau zusammenhält, nicht geöffnet und geschwächt werden darf.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "A-DIM-JAMB-001": {"cls": "A", "text": "Tür- und Fenstergewände sollen zwischen einem Sechstel und einem Fünftel der lichten Öffnungsbreite stark sein.", "it": "Le Pilastrate, overo Erte delle porte, e delle finestre non vogliono essere nè meno grosse della sesta parte della larghezza della luce, nè più della quinta.", "de": "Die Gewände der Türen und Fenster sollen nicht dünner als ein Sechstel und nicht stärker als ein Fünftel der lichten Breite sein.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": null}, "B-SYS-MOD-001": {"cls": "B", "text": "Im untersuchten Abschnitt fungiert die Raumbreite als primäre Bezugsgröße, aus der Grundrisslänge, Raumhöhe und Fensterbreite abgeleitet werden.", "it": "la lunghezza loro sarà [...] del quadrato della larghezza [...] l'altezza [...] sarà quanto la loro larghezza [...] finestre [...] della larghezza delle stanze", "de": "Die Länge, Höhe und Fensterbreite werden in mehreren Regeln auf die Raumbreite bezogen.", "where": "Buch 1, Kap. XXI-XXV, S. 52-55", "confidence": 0.92}, "B-SYS-GRID-001": {"cls": "B", "text": "Die Kombination aus seitlicher Korrespondenz und vertikaler Übereinanderstellung erzeugt ein zweiachsiges Raster der Öffnungen.", "it": "le finestre da man destra corrispondere à quelle da man sinistra: e quelle di sopra essere al diritto di quelle di sotto", "de": "Die rechten Fenster entsprechen den linken, und die oberen liegen über den unteren.", "where": "Buch 1, Kap. XXV, S. 55", "confidence": 0.96}, "B-SYS-VAULT-001": {"cls": "B", "text": "Die drei Mittelwerte bilden ein Auswahlverfahren zur Koordination einer Serie verschieden proportionierter Räume unter einer gemeinsamen oberen Fußbodenebene.", "it": "ci serviremo di ciascuna di queste altezze [...] per far che più stanze di diverse grandezze habbiano i volti egualmente alti", "de": "Jede dieser Höhen kann genutzt werden, damit verschieden große Räume gleich hohe Gewölbe erhalten.", "where": "Buch 1, Kap. XXIII, S. 53-54", "confidence": 0.94}, "B-SEQ-ROOM-001": {"cls": "B", "text": "Für den Pilotabschnitt ist als wahrscheinliche Entscheidungsfolge rekonstruierbar: Zentral- und Verteilerraum festlegen, Räume bilateral ordnen, Raumproportionen wählen, Höhen koordinieren, anschließend Öffnungen dimensionieren und ausrichten.", "it": "DELLE LOGGIE [...] E DELLE STANZE [...] DELL'ALTEZZA DELLE STANZE [...] DELLE MISURE DELLE PORTE, E DELLE finestre", "de": "Kapitelabfolge von Raumordnung über Höhen zu Türen und Fenstern.", "where": "Buch 1, Kap. XXI, XXIII, XXV, S. 52-55", "confidence": 0.68}, "B2-CAP2-1": {"cls": "A", "text": "Im Haus soll es große, mittlere und kleine Räume geben, alle nebeneinander, damit sie einander dienen; die kleinen erhalten Zwischengeschosse.", "it": "Si auertira poi nel resto della fabrica, che ui siano stanze grandi, mediocri, e picciole: e tutte l'una a canto a l'altra, onde possano scambieuolmente seruirsi. Le picciole si amezeranno per cauarne camerini [...]", "de": "", "where": "Buch II, Kap. II, S. 4"}}, "readings": [{"building": "Palazzo Barbarano", "printed_page": "22", "room": "stanze lunghe un quadro e mezo (right wing)", "length": 24, "width": 16, "confidence": "medium"}, {"building": "Palazzo Barbarano", "printed_page": "22", "room": "left front room", "length": 24, "width": 19, "confidence": "medium"}, {"building": "Palazzo Barbarano", "printed_page": "22", "room": "stanze quadre", "length": 16, "width": 16, "confidence": "high"}, {"building": "Villa Mocenigo", "printed_page": "54", "room": "stanze maggiori", "length": 26, "width": 16, "confidence": "high"}, {"building": "Villa Mocenigo", "printed_page": "54", "room": "stanze mediocri", "length": 16, "width": 16, "confidence": "medium"}, {"building": "Villa Mocenigo", "printed_page": "54", "room": "camerini", "length": 16, "width": 10, "confidence": "medium"}, {"building": "Palazzo Chiericati", "printed_page": "6", "room": "stanze maggiori", "length": 30, "width": 18, "confidence": "high"}, {"building": "Palazzo Chiericati", "printed_page": "6", "room": "stanze mediocri", "length": 18, "width": 18, "confidence": "high"}, {"building": "Palazzo Chiericati", "printed_page": "6", "room": "camerini", "length": 18, "width": 12, "confidence": "medium"}, {"building": "Villa Cornaro", "printed_page": "53", "room": "stanze maggiori", "length": 26.5, "width": 16, "confidence": "high"}, {"building": "Villa Cornaro", "printed_page": "53", "room": "stanze mediocri", "length": 16, "width": 16, "confidence": "high"}, {"building": "Villa Pisani, Montagnana", "printed_page": "52", "room": "stanze maggiori", "length": 28, "width": 16, "confidence": "high"}, {"building": "Villa Pisani, Montagnana", "printed_page": "52", "room": "stanze mediocri", "length": 16, "width": 16, "confidence": "high"}, {"building": "Villa Pisani, Montagnana", "printed_page": "52", "room": "camerini e andito", "length": null, "width": 8.5, "confidence": "medium"}, {"building": "Villa Saraceno", "printed_page": "56", "room": "stanze maggiori", "length": 26.5, "width": 16, "confidence": "medium"}, {"building": "Palazzo Trissino (inventione)", "printed_page": "74", "room": "stanze maggiori", "length": 40, "width": 20, "confidence": "high"}, {"building": "Palazzo Trissino (inventione)", "printed_page": "74", "room": "stanza mediocre", "length": 20, "width": 18, "confidence": "medium"}, {"building": "Inventione per un sito piramidale", "printed_page": "71", "room": "stanze beside the entrance", "length": 30, "width": 18, "confidence": "high"}, {"building": "Inventione per un sito piramidale", "printed_page": "71", "room": "stanze at the head of the entrance", "length": 27, "width": 18, "confidence": "high"}, {"building": "Inventione per un sito in Venetia", "printed_page": "72", "room": "stanze on the flanks (front)", "length": 34.5, "width": 20, "confidence": "medium"}, {"building": "Palazzo Garzadore (inventione)", "printed_page": "77", "room": "stanze maggiori", "length": 20, "width": 18.5, "confidence": "high"}, {"building": "Palazzo Garzadore (inventione)", "printed_page": "77", "room": "camerini", "length": 18.5, "width": 16, "confidence": "medium"}, {"building": "Villa Almerico (Rotonda)", "printed_page": "19", "room": "stanze grandi", "length": 26, "width": 15, "confidence": "high"}, {"building": "Palazzo Antonini", "printed_page": "5", "room": "stanze (front)", "length": 28, "width": 17, "confidence": "medium"}, {"building": "Palazzo Antonini", "printed_page": "5", "room": "stanze (back)", "length": 24, "width": 17, "confidence": "medium"}, {"building": "Palazzo Iseppo Porto", "printed_page": "8", "room": "stanze beside the entrances", "length": 30, "width": 20, "confidence": "medium"}, {"building": "Palazzo Iseppo Porto", "printed_page": "8", "room": "stanze quadre", "length": 20, "width": 20, "confidence": "medium"}, {"building": "Palazzo Iseppo Porto", "printed_page": "8", "room": "camerini", "length": 9, "width": 7, "confidence": "medium"}, {"building": "Palazzo Iseppo Porto", "printed_page": "8", "room": "entrata (4 columns)", "length": 30, "width": 30, "confidence": "high"}, {"building": "Palazzo della Torre", "printed_page": "11", "room": "stanza", "length": 30, "width": 19, "confidence": "medium"}, {"building": "Palazzo della Torre", "printed_page": "11", "room": "stanza", "length": 19, "width": 15, "confidence": "medium"}, {"building": "Palazzo della Torre", "printed_page": "11", "room": "stanza", "length": 22.5, "width": 18, "confidence": "medium"}, {"building": "Palazzo Thiene", "printed_page": "13", "room": "stanze", "length": 30, "width": 20, "confidence": "medium"}, {"building": "Palazzo Thiene", "printed_page": "13", "room": "oval sala", "length": 56, "width": 20, "confidence": "high"}, {"building": "Palazzo Thiene", "printed_page": "13", "room": "entrata", "length": 34.5, "width": 20, "confidence": "medium"}, {"building": "Palazzo Valmarana", "printed_page": "16", "room": "stanza", "length": 20.5, "width": 17.5, "confidence": "low"}, {"building": "Palazzo Valmarana", "printed_page": "16", "room": "stanza", "length": 38, "width": 19, "confidence": "low"}, {"building": "Palazzo Capra", "printed_page": "21", "room": "stanze", "length": 27, "width": 17, "confidence": "high"}, {"building": "Palazzo Capra", "printed_page": "21", "room": "camerini", "length": 17, "width": 13, "confidence": "high"}, {"building": "Palazzo Capra", "printed_page": "21", "room": "sala", "length": 32, "width": 32, "confidence": "high"}, {"building": "Villa Pisani, Bagnolo", "printed_page": "47", "room": "stanze", "length": 24, "width": 16, "confidence": "high"}, {"building": "Villa Pisani, Bagnolo", "printed_page": "47", "room": "stanze maggiori (5:3 per text)", "length": 30, "width": 18, "confidence": "medium"}, {"building": "Villa Pisani, Bagnolo", "printed_page": "47", "room": "stanze quadre", "length": 16, "width": 16, "confidence": "medium"}, {"building": "Villa Badoer", "printed_page": "48", "room": "stanze maggiori", "length": 26.5, "width": 16, "confidence": "high"}, {"building": "Villa Badoer", "printed_page": "48", "room": "stanze quadre", "length": 16, "width": 16, "confidence": "high"}, {"building": "Villa Badoer", "printed_page": "48", "room": "camerini", "length": 16, "width": 8, "confidence": "medium"}, {"building": "Villa Badoer", "printed_page": "48", "room": "sala", "length": 32, "width": 16, "confidence": "medium"}, {"building": "Villa Zeno", "printed_page": "49", "room": "stanze maggiori", "length": 21.5, "width": 14, "confidence": "high"}, {"building": "Villa Zeno", "printed_page": "49", "room": "stanze quadre", "length": 14, "width": 14, "confidence": "high"}, {"building": "Villa Zeno", "printed_page": "49", "room": "camerini", "length": 14, "width": 12, "confidence": "medium"}, {"building": "Villa Zeno", "printed_page": "49", "room": "sala", "length": 29, "width": 14, "confidence": "medium"}, {"building": "Villa Foscari (Malcontenta)", "printed_page": "50", "room": "stanze maggiori", "length": 24, "width": 16, "confidence": "high"}, {"building": "Villa Foscari (Malcontenta)", "printed_page": "50", "room": "stanze quadre", "length": 16, "width": 16, "confidence": "high"}, {"building": "Villa Foscari (Malcontenta)", "printed_page": "50", "room": "camerini", "length": 16, "width": 12, "confidence": "medium"}, {"building": "Villa Barbaro", "printed_page": "51", "room": "stanza", "length": 20, "width": 18, "confidence": "low"}, {"building": "Villa Barbaro", "printed_page": "51", "room": "stanza", "length": 20, "width": 12, "confidence": "low"}, {"building": "Villa Barbaro", "printed_page": "51", "room": "stanza", "length": 20, "width": 9, "confidence": "low"}, {"building": "Villa Emo", "printed_page": "55", "room": "stanze maggiori", "length": 27, "width": 16, "confidence": "high"}, {"building": "Villa Emo", "printed_page": "55", "room": "stanze quadre", "length": 16, "width": 16, "confidence": "medium"}, {"building": "Villa Emo", "printed_page": "55", "room": "sala", "length": 27, "width": 27, "confidence": "medium"}, {"building": "Villa Ragona", "printed_page": "57", "room": "stanza", "length": 21.25, "width": 15, "confidence": "medium"}, {"building": "Villa Ragona", "printed_page": "57", "room": "stanza", "length": 18, "width": 17, "confidence": "medium"}, {"building": "Villa Ragona", "printed_page": "57", "room": "stanza", "length": 15, "width": 12, "confidence": "medium"}, {"building": "Villa Poiana", "printed_page": "58", "room": "stanze grandi", "length": 30, "width": 18, "confidence": "high"}, {"building": "Villa Poiana", "printed_page": "58", "room": "stanze quadre", "length": 18, "width": 18, "confidence": "medium"}, {"building": "Villa Valmarana", "printed_page": "59", "room": "stanze", "length": 27, "width": 17, "confidence": "high"}, {"building": "Villa Valmarana", "printed_page": "59", "room": "stanze quadre", "length": 15, "width": 15, "confidence": "high"}, {"building": "Villa Valmarana", "printed_page": "59", "room": "camerini", "length": 15, "width": 12, "confidence": "medium"}, {"building": "Villa Valmarana", "printed_page": "59", "room": "torri", "length": 12, "width": 12, "confidence": "high"}, {"building": "Villa Valmarana", "printed_page": "59", "room": "sala", "length": 32.5, "width": 25, "confidence": "medium"}, {"building": "Villa Thiene", "printed_page": "62", "room": "stanze quadre", "length": 18, "width": 18, "confidence": "medium"}, {"building": "Villa Thiene", "printed_page": "62", "room": "sala", "length": 36, "width": 36, "confidence": "high"}, {"building": "Villa Angarano", "printed_page": "63", "room": "stanze", "length": 22, "width": 18, "confidence": "medium"}, {"building": "Villa Angarano", "printed_page": "63", "room": "sala", "length": 36, "width": 18, "confidence": "medium"}, {"building": "Villa Godi", "printed_page": "65", "room": "stanze", "length": 24, "width": 16, "confidence": "medium"}, {"building": "Villa Godi", "printed_page": "65", "room": "sala", "length": 36, "width": 24, "confidence": "medium"}, {"building": "Villa Sarego", "printed_page": "68", "room": "stanze maggiori", "length": 27, "width": 16, "confidence": "high"}, {"building": "Villa Sarego", "printed_page": "68", "room": "stanze quadre", "length": 16, "width": 16, "confidence": "high"}, {"building": "Villa Sarego", "printed_page": "68", "room": "sala", "length": 40, "width": 20, "confidence": "high"}, {"building": "Villa Sarego", "printed_page": "68", "room": "stanze", "length": 24, "width": 9, "confidence": "medium"}, {"building": "Palazzo Angarano (inventione)", "printed_page": "75", "room": "stanze beside the entrance (5:3 per text)", "length": 30, "width": 18, "confidence": "medium"}, {"building": "Palazzo della Torre (inventione)", "printed_page": "76", "room": "stanze", "length": 36, "width": 20, "confidence": "high"}, {"building": "Palazzo della Torre (inventione)", "printed_page": "76", "room": "stanze", "length": 20, "width": 15, "confidence": "medium"}, {"building": "Palazzo della Torre (inventione)", "printed_page": "76", "room": "sala", "length": 40, "width": 40, "confidence": "medium"}, {"building": "Villa Mocenigo (inventione sopra la Brenta)", "printed_page": "78", "room": "prime stanze (proportione doppia)", "length": 40, "width": 20, "confidence": "high"}, {"building": "Villa Mocenigo (inventione sopra la Brenta)", "printed_page": "78", "room": "stanze de gli angoli", "length": 20, "width": 20, "confidence": "low"}]};
+
+const T = {
+  de: {
+    sub: "Entwurfslabor", plan: "Grundriss · piedi vicentini", elev: "Ansicht der Front · Höhen", sound: "Klang",
+    steps: ["Bezugsmaß", "Zentrum", "Symmetrie", "Raumfolge", "Höhen", "Obergeschoss", "Öffnungen", "Prüfen"],
+    q: [
+      "Wie breit sollen die Räume der Flügel sein?",
+      "Welche Form bekommt der Saal in der Mitte?",
+      "Entsprechen sich rechter und linker Flügel?",
+      "Große, mittlere und kleine Räume: welche Formen?",
+      "Wie hoch werden die Räume?",
+      "Wie hoch wird das obere Geschoss?",
+      "Wie breit werden die Fenster?",
+      "Was folgt Palladio, wo weichen Sie ab?",
+    ],
+    lead: [
+      "Die Raumbreite ist das Bezugsmaß, auf das sich Länge, Höhe und Fenster beziehen. Palladios Hauptzimmer in Buch II sind meist 16 bis 18 Fuß breit.",
+      "Die Tiefe des Saals ergibt sich aus der Raumfolge. Palladio überschreitet bei Sälen zwei Quadrate nicht.",
+      "Palladio verlangt, dass die Räume rechts denen links entsprechen und gleich sind.",
+      "Ziehen Sie den Griff am unteren Rand eines Raumes mit Finger oder Stift. Der Raum rastet in Palladios sieben Formen ein.",
+      "Flachdecke: Höhe gleich Breite. Gewölbe: Quadrat Breite plus ein Drittel, Langraum eines der drei Mittel. Das Labor wählt das Mittel, das die Reihe gleich hoch macht.",
+      "Palladio: die oberen Räume um ein Sechstel niedriger. In seinen eigenen Zahlenbeispielen in Buch II weicht er davon ab.",
+      "Fenster zwischen einem Fünftel und einem Viertel der Raumbreite, zwei Breiten und ein Sechstel hoch, oben um ein Sechstel kleiner.",
+      "Jede Entscheidung mit ihrer Regel. Abweichungen sind erlaubt und werden sichtbar gemacht.",
+    ],
+    sizes: { grande: "Großer Raum", mediocre: "Mittlerer Raum", picciola: "Kleiner Raum" },
+    vault: "Gewölbe", flat: "Flachdecke", auto: "passend zur Reihe",
+    means: { I23_first: "1. arithmetisch", I23_second: "2. geometrisch", I23_third: "3. harmonisch",
+             I23_square_4_3: "Quadrat: Breite + ⅓", flat_h_eq_w: "Höhe = Breite" },
+    status: { follows: "folgt Palladio", approx: "gerundet", deviation: "Abweichung", assumption: "Annahme" },
+    eq: "Gleiche Gewölbehöhe der Reihe", spread: "Spanne", mezz: "Kleine Räume erhalten Zwischengeschosse und zählen nicht mit.",
+    sym: "Rechts gleich links", factor: "Obergeschoss im Verhältnis zum Hauptgeschoss",
+    win: "Fensterbreite", allowed: "erlaubt", next: "Weiter", prev: "Zurück",
+    nearest: "Ähnlichster Bau Palladios", copy: "Entwurf als JSON kopieren", copied: "Kopiert",
+    interval: "Intervall (Tradition, nicht Palladios Aussage)", module: "Raumbreite", feet: "Fuß",
+    sala: "Saal", ratio: "Verhältnis", none: "keine reine Konsonanz",
+    copyFail: "Kopieren nicht möglich. Text unten markieren und kopieren.",
+  },
+  en: {
+    sub: "Design laboratory", plan: "Plan · Vicentine feet", elev: "Front elevation · heights", sound: "Sound",
+    steps: ["Module", "Centre", "Symmetry", "Room sequence", "Heights", "Upper floor", "Openings", "Review"],
+    q: [
+      "How wide should the rooms of the wings be?",
+      "Which shape does the central hall take?",
+      "Do the right and left wings correspond?",
+      "Large, middle and small rooms: which shapes?",
+      "How high are the rooms?",
+      "How high is the upper floor?",
+      "How wide are the windows?",
+      "What follows Palladio, where do you deviate?",
+    ],
+    lead: [
+      "Room width is the module for length, height and windows. Palladio's main rooms in Book II are mostly 16 to 18 feet wide.",
+      "The hall's depth follows from the room sequence. Palladio does not let halls exceed two squares.",
+      "Palladio asks that the rooms on the right correspond to and equal those on the left.",
+      "Drag the handle at a room's lower edge with finger or pencil. The room snaps to Palladio's seven shapes.",
+      "Flat ceiling: height equals width. Vault: square width plus a third, oblong one of the three means. The lab picks the mean that keeps the row at one height.",
+      "Palladio: upper rooms one sixth lower. In his own figures in Book II he departs from this.",
+      "Windows between a fifth and a quarter of the room width, two widths and a sixth high, upper ones a sixth smaller.",
+      "Every decision with its rule. Deviations are allowed and shown.",
+    ],
+    sizes: { grande: "Large room", mediocre: "Middle room", picciola: "Small room" },
+    vault: "Vault", flat: "Flat ceiling", auto: "matches the row",
+    means: { I23_first: "1st arithmetic", I23_second: "2nd geometric", I23_third: "3rd harmonic",
+             I23_square_4_3: "square: width + ⅓", flat_h_eq_w: "height = width" },
+    status: { follows: "follows Palladio", approx: "rounded", deviation: "deviation", assumption: "assumption" },
+    eq: "Equal vault height of the row", spread: "spread", mezz: "Small rooms get mezzanines and do not count.",
+    sym: "Right equals left", factor: "Upper floor relative to the main floor",
+    win: "Window width", allowed: "allowed", next: "Next", prev: "Back",
+    nearest: "Most similar Palladio building", copy: "Copy design as JSON", copied: "Copied",
+    interval: "Interval (tradition, not Palladio's statement)", module: "Room width", feet: "ft",
+    sala: "Hall", ratio: "ratio", none: "no pure consonance",
+    copyFail: "Copying is not possible here. Select the text below and copy it.",
+  },
+};
+const STEP_RULES = [
+  ["B-SYS-MOD-001"], ["A-ORG-CEN-001", "A-DIM-HALL-001"], ["A-ORG-SYM-001"], ["B2-CAP2-1", "A-PROP-ROOM-001"],
+  ["A-HT-ROOM-001", "A-HT-VAULT-001", "A-HT-VAULT-002", "A-HT-VAULT-005"], ["A-HT-STORY-001"],
+  ["A-DIM-WIN-001", "A-DIM-WIN-002", "A-DIM-WIN-003", "A-ORG-OPEN-001"], [],
+];
+const INTERVAL = { "1:1": "Unisono", "4:3": "Quarte", "sqrt2:1": null, "3:2": "Quinte", "5:3": "große Sexte", "2:1": "Oktave" };
+const FORM_LABEL = { "1:1": "1:1", "4:3": "4:3", "sqrt2:1": "√2:1", "3:2": "3:2", "5:3": "5:3", "2:1": "2:1" };
+
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("pc-lab-" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("pc-lab-" + k, JSON.stringify(v)); } catch { /* storage unavailable */ } },
+};
+let lang = store.get("lang", "de");
+let step = store.get("step", 0);
+let params = store.get("params", JSON.parse(JSON.stringify(DEFAULTS)));
+let audio = null;
+const t = () => T[lang];
+const fmt = (v) => (Math.round(v * 100) / 100).toLocaleString(lang === "de" ? "de-DE" : "en-GB");
+const ft = (v) => {
+  const whole = Math.floor(v + 1e-9), frac = v - whole;
+  const map = [[0, ""], [0.25, "¼"], [0.5, "½"], [0.75, "¾"]];
+  const m = map.find(([f]) => Math.abs(frac - f) < 1e-6);
+  return m ? `${whole || (m[1] ? "" : "0")}${m[1]}` : fmt(v);
+};
+
+function tone(ratio) {
+  if (!audio) return;
+  const now = audio.currentTime, base = 220;
+  [[base, 0], [base * ratio, 0.45], [base, 0.95], [base * ratio, 0.95]].forEach(([f, at]) => {
+    const o = audio.createOscillator(), g = audio.createGain();
+    o.type = "sine"; o.frequency.value = f;
+    g.gain.setValueAtTime(0, now + at); g.gain.linearRampToValueAtTime(0.12, now + at + 0.03);
+    g.gain.exponentialRampToValueAtTime(0.0001, now + at + 1.3);
+    o.connect(g).connect(audio.destination); o.start(now + at); o.stop(now + at + 1.4);
+  });
+}
+
+function save() { store.set("params", params); store.set("step", step); store.set("lang", lang); }
+
+function statusFor(d, stepIndex) {
+  const ds = d.decisions.filter((x) => x.step === stepIndex + 1 && x.status !== "assumption");
+  if (stepIndex === 7) return null;
+  if (ds.some((x) => x.status === "deviation")) return "deviation";
+  if (ds.some((x) => x.status === "approx")) return "approx";
+  return ds.length ? "follows" : null;
+}
+
+function renderRail(d) {
+  const ol = document.getElementById("steps");
+  ol.innerHTML = "";
+  t().steps.forEach((name, i) => {
+    const li = document.createElement("li");
+    const b = document.createElement("button");
+    b.id = "step-" + i;
+    if (i === step) b.setAttribute("aria-current", "step");
+    const st = statusFor(d, i);
+    b.innerHTML = `<span class="n">${i + 1}</span><span>${name}</span><span class="dot ${st || ""}"></span>`;
+    b.onclick = () => { step = i; save(); render(); };
+    li.append(b); ol.append(li);
+  });
+}
+
+const NS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs = {}, text) => {
+  const e = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  if (text !== undefined) e.textContent = text;
+  return e;
+};
+const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+function renderPlan(d) {
+  const svg = document.getElementById("plan");
+  svg.innerHTML = "";
+  const S = 9, pad = 24, wall = d.params.wall, w = d.params.module;
+  const W = d.total.width * S, H = d.total.depth * S;
+  svg.setAttribute("viewBox", `${-pad} ${-pad} ${W + 2 * pad} ${H + 2 * pad + 18}`);
+  svg.append(el("rect", { x: 0, y: 0, width: W, height: H, fill: css("--wall") }));
+  const rightX = wall + w + wall + d.sala.width + wall;
+  const room = (x, y, rw, rd, fill, lines, faded) => {
+    svg.append(el("rect", { x: x * S, y: y * S, width: rw * S, height: rd * S, fill, opacity: faded ? 0.55 : 1 }));
+    lines.forEach((line, k) => svg.append(el("text", { x: (x + rw / 2) * S, y: (y + rd / 2) * S + (k - (lines.length - 1) / 2) * 19 + 5,
+      "text-anchor": "middle", class: k ? "muted" : "" }, line)));
+  };
+  d.rooms.forEach((r, i) => {
+    const lines = [`${ft(r.length)} × ${ft(r.breadth)}`, FORM_LABEL[r.nearest] + (r.status === "follows" ? "" : " ~"), `h ${fmt(r.height)}`];
+    const fill = i === activeRoom && step === 3 ? css("--accent-soft") : css("--paper");
+    room(wall, r.y, r.width, r.depth, fill, lines);
+    room(rightX, r.y, r.width, r.depth, css("--paper"), lines, d.params.asymmetric);
+    const hy = (r.y + r.depth) * S;
+    const g = el("g", { class: "handle", "data-room": i, tabindex: 0, role: "slider",
+      "aria-label": `${t().sizes[r.size] || r.size}: ${ft(r.depth)} ${t().feet}`, "aria-valuenow": r.depth });
+    g.append(el("rect", { x: wall * S, y: hy - 9, width: r.width * S, height: 18, fill: "transparent" }));
+    g.append(el("rect", { x: (wall + r.width / 2) * S - 18, y: hy - 3, width: 36, height: 6, rx: 3, fill: css("--accent") }));
+    svg.append(g);
+  });
+  room(d.sala.x, d.sala.y, d.sala.width, d.sala.depth, css("--paper"),
+    [t().sala, `${ft(d.sala.length)} × ${ft(d.sala.breadth)}`, `${t().ratio} ${fmt(d.sala.ratio)}`]);
+  svg.append(el("text", { x: 0, y: H + 18, class: "muted" }, `${ft(d.total.width)} × ${ft(d.total.depth)} ${t().feet}`));
+  bindHandles(svg, S);
+}
+
+let activeRoom = 0;
+function bindHandles(svg, S) {
+  svg.querySelectorAll(".handle").forEach((g) => {
+    const i = Number(g.dataset.room);
+    g.onpointerdown = (ev) => {
+      ev.preventDefault(); g.setPointerCapture(ev.pointerId); activeRoom = i;
+      const pt = svg.createSVGPoint();
+      const startDepth = currentDesign.rooms[i].depth, startY = toSvg(ev).y;
+      function toSvg(e) { pt.x = e.clientX; pt.y = e.clientY; return pt.matrixTransform(svg.getScreenCTM().inverse()); }
+      g.onpointermove = (e) => {
+        let depth = Math.max(6, Math.round((startDepth + (toSvg(e).y - startY) / S) * 2) / 2);
+        const w = params.module, ratio = Math.max(w, depth) / Math.min(w, depth), near = nearestForm(ratio);
+        if (near.dev <= 0.02) depth = depth >= w ? Math.round(w * near.value * 2) / 2 : Math.round((w / near.value) * 2) / 2;
+        params.rooms[i].depth = depth; params.rooms[i].form = near.name;
+        render(true);
+      };
+      g.onpointerup = () => {
+        g.onpointermove = null; save();
+        const r = currentDesign.rooms[i]; tone(r.ratio); if (step !== 3) { step = 3; save(); render(); }
+      };
+    };
+    g.onkeydown = (e) => {
+      const delta = e.key === "ArrowDown" ? 0.5 : e.key === "ArrowUp" ? -0.5 : 0;
+      if (!delta) return;
+      e.preventDefault();
+      params.rooms[i].depth = Math.max(6, currentDesign.rooms[i].depth + delta);
+      params.rooms[i].form = nearestForm(Math.max(params.module, params.rooms[i].depth) / Math.min(params.module, params.rooms[i].depth)).name;
+      save(); render();
+    };
+  });
+}
+
+function renderElevation(d) {
+  const svg = document.getElementById("elev");
+  svg.innerHTML = "";
+  const S = 7, w = d.params.module, wall = d.params.wall;
+  const front = d.rooms[0], base = 5;
+  const h1 = d.mainHeight, h2 = d.upperHeight;
+  const W = d.total.width * S, H = (base + h1 + h2 + 3) * S, pad = 26;
+  svg.setAttribute("viewBox", `${-pad - 30} ${-pad} ${W + 2 * pad + 30} ${H + 2 * pad}`);
+  const y0 = H; // ground line
+  svg.append(el("line", { x1: -20, y1: y0, x2: W + 20, y2: y0, stroke: css("--fg"), "stroke-width": 1 }));
+  const top = y0 - (base + h1 + h2) * S;
+  svg.append(el("rect", { x: 0, y: top, width: W, height: (base + h1 + h2) * S, fill: "none", stroke: css("--fg"), "stroke-width": 1.2 }));
+  svg.append(el("line", { x1: 0, y1: y0 - base * S, x2: W, y2: y0 - base * S, stroke: css("--line") }));
+  svg.append(el("line", { x1: 0, y1: y0 - (base + h1) * S, x2: W, y2: y0 - (base + h1) * S, stroke: css("--line") }));
+  // dimension labels
+  const dim = (y1, y2, label) => {
+    svg.append(el("line", { x1: -14, y1, x2: -14, y2, stroke: css("--muted") }));
+    svg.append(el("text", { x: -18, y: (y1 + y2) / 2 + 4, "text-anchor": "end", class: "muted" }, label));
+  };
+  dim(y0 - base * S, y0 - (base + h1) * S, fmt(h1));
+  dim(y0 - (base + h1) * S, top, fmt(h2));
+  // windows centred in the two front rooms and the hall (axes above one another)
+  const ww = d.window.width, wh = d.window.height, wu = d.window.upperHeight;
+  const axes = [wall + w / 2, d.sala.x + d.sala.width / 2, d.total.width - wall - w / 2];
+  for (const ax of axes) {
+    const x = (ax - ww / 2) * S;
+    svg.append(el("rect", { x, y: y0 - (base + 2 + wh) * S, width: ww * S, height: wh * S, fill: css("--wall") }));
+    svg.append(el("rect", { x, y: y0 - (base + h1 + 1.5 + wu) * S, width: ww * S, height: wu * S, fill: css("--wall") }));
+  }
+  // section through the row: vault heights of the wing rooms to scale
+  d.rooms.forEach((r, i) => {
+    const x = W + 14 + i * 12;
+    svg.append(el("rect", { x, y: y0 - (base + r.height) * S, width: 8, height: r.height * S, fill: i === 2 ? css("--line") : css("--accent"), opacity: 0.8 }));
+  });
+  svg.append(el("text", { x: 0, y: y0 + 16, class: "muted" }, `${fmt(ww)} × ${fmt(wh)} · ${t().feet}`));
+}
+
+function ruleCard(id) {
+  const r = DATA.rules[id];
+  if (!r) return "";
+  const de = r.de ? `<div class="tr">${r.de}</div>` : "";
+  return `<div class="rule"><div class="meta"><span class="cls">${r.cls === "A" ? "A · Palladio" : "B · Rekonstruktion"}</span>
+    <span>${r.where}</span><span>${id}</span></div>
+    ${r.it ? `<q lang="it">${r.it}</q>` : ""}${lang === "de" ? de : de}<div class="note">${r.text}</div></div>`;
+}
+
+function pill(status) { return status ? `<span class="pill ${status}">${t().status[status]}</span>` : ""; }
+
+function renderPanel(d) {
+  const p = document.getElementById("panel");
+  const tt = t();
+  let body = "";
+  const stepStatus = statusFor(d, step);
+  if (step === 0) {
+    body = `<div class="controls"><span class="label">${tt.module}</span>
+      <div class="row"><div class="stepper"><button id="m-minus" aria-label="−">−</button><output id="m-val">${ft(params.module)} ${tt.feet}</output><button id="m-plus" aria-label="+">+</button></div>
+      ${[14, 16, 18, 20].map((v) => `<button class="chip" data-m="${v}" aria-pressed="${params.module === v}">${v}</button>`).join("")}</div></div>`;
+  } else if (step === 1) {
+    body = `<div class="controls"><span class="label">${tt.sala}</span><div class="row">
+      ${Object.keys(FORMS).map((f) => `<button class="chip" data-sala="${f}" aria-pressed="${params.sala_form === f}">${FORM_LABEL[f]}</button>`).join("")}</div>
+      <div class="num">${ft(d.sala.length)} × ${ft(d.sala.breadth)} ${tt.feet} · ${tt.ratio} ${fmt(d.sala.ratio)}</div></div>`;
+  } else if (step === 2) {
+    body = `<div class="controls"><label class="row"><input type="checkbox" id="sym" ${params.asymmetric ? "" : "checked"}> ${tt.sym}</label></div>`;
+  } else if (step === 3) {
+    body = `<div class="controls">${d.rooms.map((r, i) => `<div class="roomrow"><div class="head"><span>${tt.sizes[r.size]}</span>
+        <span class="num">${ft(r.length)} × ${ft(r.breadth)} ${pill(r.status)}</span></div>
+        <div class="row">${Object.keys(FORMS).map((f) => `<button class="chip" data-room="${i}" data-form="${f}" aria-pressed="${r.nearest === f}">${FORM_LABEL[f]}</button>`).join("")}</div>
+        <div class="note">${tt.interval}: ${INTERVAL[r.nearest] ? `${INTERVAL[r.nearest]}` : tt.none} <button class="chip" data-tone="${i}">♪</button></div></div>`).join("")}</div>`;
+  } else if (step === 4) {
+    const eq = d.decisions.find((x) => x.topic === "equal_heights");
+    body = `<div class="controls">${d.rooms.map((r, i) => `<div class="roomrow"><div class="head"><span>${tt.sizes[r.size]} · ${ft(r.length)} × ${ft(r.breadth)}</span><span class="num">h ${fmt(r.height)}</span></div>
+        <div class="row"><button class="chip" data-ceil="${i}" data-v="vault" aria-pressed="${r.ceiling === "vault"}">${tt.vault}</button>
+        <button class="chip" data-ceil="${i}" data-v="flat" aria-pressed="${r.ceiling === "flat"}">${tt.flat}</button></div>
+        ${r.means && r.ceiling === "vault" ? `<div class="row">${Object.entries(r.means).map(([k, v]) => `<button class="chip" data-room="${i}" data-method="${k}" aria-pressed="${r.heightRule === k}">${tt.means[k]} ${fmt(v)}</button>`).join("")}
+          <button class="chip" data-room="${i}" data-method="" aria-pressed="${!params.rooms[i].method}">${tt.auto}</button></div>` : `<div class="note">${tt.means[r.heightRule]}</div>`}</div>`).join("")}
+      ${eq ? `<div class="row"><span>${tt.eq}: ${tt.spread} ${eq.decision}</span>${pill(eq.status)}</div>` : ""}<div class="note">${tt.mezz}</div></div>`;
+  } else if (step === 5) {
+    body = `<div class="controls"><span class="label">${tt.factor}</span>
+      <input type="range" id="upper" min="0.7" max="1" step="0.01" value="${params.upper_factor}">
+      <div class="row num">${fmt(params.upper_factor)} · ${fmt(d.mainHeight)} → ${fmt(d.upperHeight)} ${tt.feet} <button class="chip" id="upper-reset">5/6</button></div></div>`;
+  } else if (step === 6) {
+    const w = params.module;
+    body = `<div class="controls"><span class="label">${tt.win}</span>
+      <input type="range" id="win" min="${(1 / 7).toFixed(3)}" max="${(1 / 3).toFixed(3)}" step="0.005" value="${params.window_ratio}">
+      <div class="row num">${fmt(d.window.width)} × ${fmt(d.window.height)} ${tt.feet} · ${tt.allowed} ${fmt(w / 5)}–${fmt(w / 4)}</div></div>`;
+  } else {
+    const near = nearestPalladio(d, DATA.readings);
+    const json = JSON.stringify({ params: d.params, rooms: d.rooms.map((r) => ({ size: r.size, length: r.length, breadth: r.breadth, height: Number(r.height.toFixed(2)), rule: r.heightRule })), decisions: d.decisions }, null, 1);
+    body = `<div class="review">${d.decisions.filter((x) => x.status !== "assumption").map((x) =>
+        `<div><span>${tt.steps[x.step - 1]} · ${x.decision}<br><span class="note">${x.rules.join(", ")}</span></span>${pill(x.status)}</div>`).join("")}</div>
+      <div class="sheet"><h2>${tt.nearest}</h2><div><strong>${near.building}</strong></div>
+        <div class="note num">${near.rooms.map(([l, b]) => `${ft(l)} × ${ft(b)}`).join(" · ")}</div></div>
+      <div class="row"><button class="copy" id="copy">${tt.copy}</button><span class="note" id="copy-msg" role="status"></span></div>
+      <textarea id="json" readonly hidden style="width:100%;height:120px;font:12px monospace">${json}</textarea>`;
+  }
+  p.innerHTML = `<div><span class="label">${step + 1} / 8</span> ${pill(stepStatus)}<h1>${tt.q[step]}</h1><p class="lead">${tt.lead[step]}</p></div>
+    ${body}${STEP_RULES[step].map(ruleCard).join("")}
+    <div class="nav"><button id="prev" ${step === 0 ? "disabled" : ""}>${tt.prev}</button>${step < 7 ? `<button class="primary" id="next">${tt.next}</button>` : ""}</div>`;
+  bindPanel();
+}
+
+function bindPanel() {
+  const on = (sel, fn) => document.querySelectorAll(sel).forEach((b) => (b.onclick = () => fn(b)));
+  const setModule = (v) => { params.module = Math.min(30, Math.max(10, v)); params.rooms.forEach((r) => delete r.depth); save(); render(); };
+  on("#m-minus", () => setModule(params.module - 0.5));
+  on("#m-plus", () => setModule(params.module + 0.5));
+  on("[data-m]", (b) => setModule(Number(b.dataset.m)));
+  on("[data-sala]", (b) => { params.sala_form = b.dataset.sala; save(); render(); });
+  on("[data-form]", (b) => { const r = params.rooms[b.dataset.room]; r.form = b.dataset.form; delete r.depth; save(); render(); tone(FORMS[r.form]); });
+  on("[data-tone]", (b) => tone(currentDesign.rooms[b.dataset.tone].ratio));
+  on("[data-ceil]", (b) => { params.rooms[b.dataset.ceil].ceiling = b.dataset.v; save(); render(); });
+  on("[data-method]", (b) => { const r = params.rooms[b.dataset.room]; if (b.dataset.method) r.method = b.dataset.method; else delete r.method; save(); render(); });
+  on("#upper-reset", () => { params.upper_factor = 5 / 6; save(); render(); });
+  on("#prev", () => { step = Math.max(0, step - 1); save(); render(); });
+  on("#next", () => { step = Math.min(7, step + 1); save(); render(); });
+  const sym = document.getElementById("sym");
+  if (sym) sym.onchange = () => { params.asymmetric = !sym.checked; save(); render(); };
+  const up = document.getElementById("upper");
+  if (up) up.oninput = () => { params.upper_factor = Number(up.value); save(); render(true); };
+  const win = document.getElementById("win");
+  if (win) win.oninput = () => { params.window_ratio = Number(win.value); save(); render(true); };
+  const copy = document.getElementById("copy");
+  if (copy) copy.onclick = () => {
+    const text = document.getElementById("json").value;
+    const msg = document.getElementById("copy-msg");
+    navigator.clipboard.writeText(text).then(() => { msg.textContent = t().copied; },
+      () => { const ta = document.getElementById("json"); ta.hidden = false; ta.select(); msg.textContent = t().copyFail; });
+  };
+}
+
+let currentDesign = null;
+function render(drawingOnly) {
+  currentDesign = run(params);
+  renderPlan(currentDesign);
+  renderElevation(currentDesign);
+  renderRail(currentDesign);
+  if (!drawingOnly) renderPanel(currentDesign);
+  else {
+    // keep the panel's live numbers in step while dragging or sliding
+    const keep = document.activeElement && document.activeElement.id;
+    renderPanel(currentDesign);
+    if (keep && document.getElementById(keep)) document.getElementById(keep).focus();
+  }
+  document.getElementById("t-sub").textContent = t().sub;
+  document.getElementById("t-plan").textContent = t().plan;
+  document.getElementById("t-elev").textContent = t().elev;
+  document.getElementById("sound").textContent = t().sound;
+  document.getElementById("lang").textContent = lang === "de" ? "EN" : "DE";
+  document.documentElement.lang = lang;
+}
+
+document.getElementById("lang").onclick = () => { lang = lang === "de" ? "en" : "de"; save(); render(); };
+document.getElementById("sound").onclick = (e) => {
+  try { audio = audio || new (window.AudioContext || window.webkitAudioContext)(); audio.resume(); } catch { audio = null; }
+  const onNow = e.currentTarget.getAttribute("aria-pressed") !== "true";
+  e.currentTarget.setAttribute("aria-pressed", String(onNow));
+  if (!onNow) audio = null; else tone(currentDesign.rooms[0].ratio);
+};
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => render(true));
+render();
+</script>

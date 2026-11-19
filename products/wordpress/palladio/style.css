@@ -1,0 +1,50 @@
+/*
+Theme Name: Palladio
+Author: Palladio-Code
+Description: Ein Blocktheme nach Regeln aus Andrea Palladios „I quattro libri dell'architettura“ (Venedig 1570): ein relatives Grundmaß, Schriftgrade aus den drei Mitteln, Bildformate aus den sieben Raumformen, eine Mitte je Seite, kein Ornament ohne Aufgabe. Jede Übertragung ist eine Deutung und auf die Fundstellen im Regelkatalog zurückgeführt.
+Requires at least: 6.6
+Tested up to: 6.8
+Requires PHP: 7.4
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: palladio
+Tags: block-patterns, full-site-editing, one-column, wide-blocks, style-variations, translation-ready, blog, portfolio
+*/
+
+/* Only what theme.json cannot express. Every rule names its source (data/interpretation/web.json). */
+
+/* W-OTTICA: balanced headings, no widows in titles */
+h1, h2, h3, .wp-block-post-title { text-wrap: balance; }
+p { text-wrap: pretty; hyphens: auto; -webkit-hyphens: auto; }
+
+/* Renaissance figures in running text, lining figures in tables */
+body { font-variant-numeric: oldstyle-nums proportional-nums; font-kerning: normal; }
+table, .wp-block-table { font-variant-numeric: lining-nums tabular-nums; }
+
+/* W-ORNAMENT: links are underlined because otherwise one cannot see them; the line stays thin */
+a { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+
+/* W-TREPPE: targets bright, wide and comfortable */
+.wp-block-navigation-item__content,
+.wp-block-button__link,
+.wp-element-button { min-height: var(--wp--custom--palladio--ziel); display: inline-flex; align-items: center; }
+
+/* W-SERVIZI: serving parts small but reachable */
+.palladio-servizi { font-size: var(--wp--preset--font-size--small); color: var(--wp--preset--color--pietra); }
+.palladio-servizi a { color: inherit; }
+
+/* W-FORMEN: never wider than two squares */
+.wp-block-cover { max-height: none; }
+.wp-block-image img, .wp-block-post-featured-image img { max-width: 100%; height: auto; }
+
+/* W-ACHSE: the axis of the page stays in the middle */
+.palladio-mitte { text-align: center; }
+.palladio-mitte > * { margin-left: auto; margin-right: auto; }
+
+/* Visible focus for keyboard users */
+:focus-visible { outline: 1px solid currentColor; outline-offset: 0.2em; }
+
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}

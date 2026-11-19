@@ -1,0 +1,316 @@
+{
+ "title": "Palladio im Web: Deutungsschicht für Homepage und WordPress-Theme",
+ "status": "Deutung (D). Keine Aussage Palladios. Jede Übertragung nennt die Regeln des Katalogs (data/rules), auf die sie sich stützt, und sagt, wie eng die Entsprechung ist.",
+ "strength_vocabulary": {
+  "eng": "dieselbe Struktur: ein Verhältnis oder Verfahren wird unverändert übernommen",
+  "lose": "nur der Gedanke wird übertragen; die Zahlen sind eigene Wahl",
+  "frei": "Gestaltungsentscheidung ohne Regel Palladios"
+ },
+ "translations": [
+  {
+   "id": "W-MODUL",
+   "title": "Ein relatives Grundmaß",
+   "rules": [
+    "I.XIII.11",
+    "I.I.5"
+   ],
+   "palladio": "Keine ortsgebundene Einheit, sondern ein Maß aus dem Bau selbst: der Modul, geteilt in 60 Minuten; man wählt ihn größer oder kleiner je nach Bau, die Proportionen bleiben. Schönheit aus der Entsprechung der Teile untereinander und zum Ganzen.",
+   "web": "Alle Längen gehen von einem Modul aus: der Zeilenhöhe des Fließtexts. Feine Maße in Minuten (1/60 Modul). Angaben in rem, damit die Einstellung des Lesers gilt; Pixel nur für Haarlinien.",
+   "tokens": [
+    "custom.modulo",
+    "custom.minuto",
+    "spacing.*"
+   ],
+   "strength": "eng",
+   "limits": "Palladios Modul ist der Säulendurchmesser; hier ist es die Zeilenhöhe. Gleich ist das Prinzip, nicht der Gegenstand."
+  },
+  {
+   "id": "W-ABSTAENDE",
+   "title": "Abstände aus den Säulenstellungen",
+   "rules": [
+    "I.XIII.4",
+    "I.XIII.6",
+    "IV.IIII.7"
+   ],
+   "palladio": "Säulenabstände von 1½, 2, 2¼ und 3 Durchmessern; 2¼ (Eustylos) ist die schönste und bequemste Art.",
+   "web": "Die Abstandsskala besteht aus ¼, ½, 1, 1½, 2, 2¼, 3 und 4 Moduln. Abschnitte einer Seite stehen 2¼ Moduln auseinander, große Abschnitte 3 Moduln.",
+   "tokens": [
+    "spacing.*",
+    "custom.abschnitt"
+   ],
+   "strength": "lose",
+   "limits": "Übernommen sind nur die Zahlen. Die Säulenstellung selbst wird nicht übertragen (siehe R-INTERCOLUMNIO)."
+  },
+  {
+   "id": "W-FORMEN",
+   "title": "Sieben Raumformen als Bildformate",
+   "rules": [
+    "I.XXI.5",
+    "I.XXI.3"
+   ],
+   "palladio": "Sieben schönste Raumformen: rund, Quadrat, √2, 4:3, 3:2, 5:3, 2:1. Säle nicht länger als zwei Quadrate.",
+   "web": "Bilder, Karten und Felder haben eines der sechs rechteckigen Formate. Nichts ist breiter als 2:1. Der Kreis ist selten und nur für Porträts.",
+   "tokens": [
+    "dimensions.aspectRatios",
+    "custom.formen"
+   ],
+   "strength": "eng",
+   "limits": "Palladio meint Grundrisse von Räumen, hier sind es Bildflächen. Die Verhältnisse sind dieselben."
+  },
+  {
+   "id": "W-MITTEL",
+   "title": "Schriftgrade aus den drei Mitteln",
+   "rules": [
+    "I.XXIII.3",
+    "I.XXIII.4",
+    "I.XXIII.5",
+    "I.XXIII.6"
+   ],
+   "palladio": "Drei Verfahren für die Höhe eines Raums aus Länge und Breite: arithmetisches, geometrisches, harmonisches Mittel. Man wählt jeweils das, mit dem Räume verschiedener Größe gleich hohe und doch proportionierte Gewölbe erhalten.",
+   "web": "Zwischen 1 und 2 liegen die drei Mittel 3/2, √2 und 4/3. Sie sind die Stufen der Schriftskala: auf kleinen Bildschirmen 4/3, auf großen 3/2, dazwischen gleitend.",
+   "tokens": [
+    "fontSizes.*"
+   ],
+   "strength": "eng",
+   "limits": "Die drei Mittel sind mathematisch dieselben. Dass Schriftgrade wie Raumhöhen gewählt werden, ist Deutung."
+  },
+  {
+   "id": "W-DECORUM",
+   "title": "Große Glieder in großen Bauten",
+   "rules": [
+    "II.I.4",
+    "II.II.6"
+   ],
+   "palladio": "Die Teile entsprechen dem Ganzen: große Glieder in großen Bauten, kleine in kleinen; große, mittlere und kleine Räume entsprechen einander.",
+   "web": "Modul und Schriftgrade wachsen mit der Bildschirmbreite, innerhalb fester Grenzen. Eine Seite hat große, mittlere und kleine Abschnitte, die einander entsprechen.",
+   "tokens": [
+    "custom.modulo",
+    "fontSizes.*"
+   ],
+   "strength": "lose",
+   "limits": "Ein Bildschirm ist kein Bau; übertragen ist der Gedanke der Angemessenheit."
+  },
+  {
+   "id": "W-OTTICA",
+   "title": "Die Wahrnehmung korrigiert das Maß",
+   "rules": [
+    "I.XIII.2",
+    "IV.V.12"
+   ],
+   "palladio": "Hohe Säulen verjüngen sich weniger, weil die Entfernung selbst verjüngt. Innere Säulen werden dünner gemacht, damit alle gleich erscheinen.",
+   "web": "Je größer die Schrift, desto geringer der Zeilenabstand im Verhältnis und desto enger die Laufweite. So erscheinen große und kleine Grade gleich ruhig.",
+   "tokens": [
+    "elements.h1-h6"
+   ],
+   "strength": "lose",
+   "limits": "Die Zahlen der Korrektur sind eigene Wahl."
+  },
+  {
+   "id": "W-ACHSE",
+   "title": "Eine Mitte, durchgehende Achsen",
+   "rules": [
+    "I.XXI.2",
+    "I.XXI.4",
+    "I.XXV.8",
+    "I.XIII.9"
+   ],
+   "palladio": "Jedes Haus hat eine Mitte, auf die alles antwortet. Rechts entspricht links, Voll steht über Voll, Leer über Leer. An Fronten eine gerade Säulenzahl, damit in der Mitte ein Joch liegt.",
+   "web": "Jede Seite hat eine Hauptachse in der Mitte. Ränder links und rechts sind gleich. Alle Abschnitte nutzen dieselben zwei Breiten, so dass Kanten übereinander stehen. Raster haben eine gerade Spaltenzahl.",
+   "tokens": [
+    "layout.contentSize",
+    "layout.wideSize"
+   ],
+   "strength": "lose",
+   "limits": "Asymmetrische Inhalte (Text neben Bild) sind erlaubt, wenn die Achse der Seite bleibt."
+  },
+  {
+   "id": "W-FENSTER",
+   "title": "Ein Bildmaß je Reihe",
+   "rules": [
+    "I.XXV.6"
+   ],
+   "palladio": "Alle Fenster eines Geschosses sind gleich groß, obwohl die Räume verschieden sind.",
+   "web": "In einer Reihe oder Galerie haben alle Bilder dasselbe Format, unabhängig vom Motiv.",
+   "tokens": [
+    "dimensions.aspectRatios"
+   ],
+   "strength": "eng",
+   "limits": ""
+  },
+  {
+   "id": "W-ORNAMENT",
+   "title": "Kein Ornament ohne Aufgabe",
+   "rules": [
+    "I.XX.3",
+    "I.XX.5",
+    "I.XX.8",
+    "I.XX.11"
+   ],
+   "palladio": "Nichts, was der Natur der Dinge fremd ist; jedes Gesimsglied hat einen Zweck; Ornamente nicht zu weit auskragen lassen; Gesimse in Proportion zu den Säulen.",
+   "web": "Keine Schatten, Verläufe oder Zierrahmen. Linien nur, wo sie trennen. Überschriften stehen in Proportion zum Text (W-MITTEL). Links sind unterstrichen, weil man sie sonst nicht erkennt.",
+   "tokens": [
+    "shadow",
+    "gradients",
+    "border"
+   ],
+   "strength": "lose",
+   "limits": ""
+  },
+  {
+   "id": "W-TREPPE",
+   "title": "Navigation wie eine gute Treppe",
+   "rules": [
+    "I.XXVIII.2",
+    "I.XXVIII.3"
+   ],
+   "palladio": "Der Zugang ist nicht versteckt, der Weg zeigt den schönsten Teil des Hauses und führt in weite Räume. Gute Treppen sind hell, weit und bequem, so breit, dass zwei Personen einander ausweichen.",
+   "web": "Die Navigation ist sofort sichtbar, kurz und führt zum wichtigsten Inhalt. Ziele sind mindestens 2¾ rem hoch und stehen ½ Modul auseinander.",
+   "tokens": [
+    "custom.ziel",
+    "blocks.core/navigation"
+   ],
+   "strength": "lose",
+   "limits": ""
+  },
+  {
+   "id": "W-SERVIZI",
+   "title": "Dienende Teile verborgen, aber erreichbar",
+   "rules": [
+    "II.II.2"
+   ],
+   "palladio": "Wie am Körper sind die ansehnlichen Teile sichtbar, die dienenden verborgen und doch gebraucht.",
+   "web": "Impressum, Datenschutz, Anmeldung und Ähnliches stehen klein im Fuß der Seite, nie im Kopf.",
+   "tokens": [
+    "parts/footer"
+   ],
+   "strength": "lose",
+   "limits": ""
+  },
+  {
+   "id": "W-BIANCO",
+   "title": "Weiß, ruhige Bilder, angemessenes Licht",
+   "rules": [
+    "IV.II.12",
+    "IV.II.13",
+    "I.XXV.12"
+   ],
+   "palladio": "Keine Farbe passt besser zum Tempel als Weiß; keine Bilder, die ablenken; Fenster geben weder zu viel noch zu wenig Licht.",
+   "web": "Grund ein warmes Weiß, Schrift dunkle Druckfarbe, keine Signalfarben. Bilder ordnen sich dem Text unter. Weder reines Weiß noch reines Schwarz; Kontrast mindestens 7 : 1.",
+   "tokens": [
+    "color.palette"
+   ],
+   "strength": "lose",
+   "limits": "Palladio spricht vom Tempel, nicht vom Wohnhaus und nicht von Bildschirmen."
+  },
+  {
+   "id": "W-VARIAZIONE",
+   "title": "Abweichung mit Anmut",
+   "rules": [
+    "IV.XXIIII.1",
+    "I.XX.7"
+   ],
+   "palladio": "Abweichen vom allgemeinen Gebrauch ist erlaubt, wenn es anmutig ist und etwas Natürliches hat; die Antiken variierten, ohne die allgemeinen Regeln zu verlassen.",
+   "web": "Jede Regel dieser Richtlinie darf gebrochen werden, wenn es dem Inhalt dient. Die Abweichung wird benannt.",
+   "tokens": [],
+   "strength": "eng",
+   "limits": ""
+  }
+ ],
+ "rejected": [
+  {
+   "id": "R-INTERCOLUMNIO",
+   "rules": [
+    "I.XIII.6",
+    "I.XIII.8"
+   ],
+   "idea": "Säulenabstand als Spaltenabstand im Raster.",
+   "reason": "Im Bau ist der Raum zwischen den Säulen 1½- bis 3-mal so breit wie die Säule. Im Raster einer Webseite ist der Inhalt der Raum und der Abstand die Wand. Ein Abstand von 2¼ Spaltenbreiten wäre widersinnig."
+  },
+  {
+   "id": "R-SAEULENHOEHE",
+   "rules": [
+    "I.XIII.8"
+   ],
+   "idea": "Säulenhöhe nach Säulenabstand (je enger, desto schlanker) als Kopplung von Zeilenlänge und Zeilenabstand.",
+   "reason": "Der Zeilenabstand des Fließtexts bestimmt hier den Modul, und die Textbreite ist in Moduln gemessen. Hinge der Zeilenabstand von der Textbreite ab, wäre das Grundmaß zirkulär."
+  },
+  {
+   "id": "R-GEBAELK",
+   "rules": [
+    "I.XVI.7",
+    "I.XVII.5"
+   ],
+   "idea": "Gebälk ⅕ der Säule mit Architrav, Fries und Gesims 4 : 3 : 5 als Verhältnis von Kopf, Inhalt und Fuß der Seite.",
+   "reason": "Eine Seite trägt keine Last, und ihr Kopf richtet sich nach dem Inhalt. Die Übertragung wäre Zahlensymbolik."
+  },
+  {
+   "id": "R-ORDINI",
+   "rules": [
+    "I.XII.1"
+   ],
+   "idea": "Die festeste Ordnung nach unten: ein schwerer Fuß, ein leichter Kopf.",
+   "reason": "Eine Seite wird von oben gelesen; der Titel braucht Gewicht zur Orientierung."
+  },
+  {
+   "id": "R-MITTELJOCH",
+   "rules": [
+    "I.XIII.9"
+   ],
+   "idea": "Das mittlere Joch etwas weiter: in Galerien ein breiterer mittlerer Abstand.",
+   "reason": "Auf dem Bildschirm wirkt ein ungleicher Abstand wie ein Fehler. Übernommen ist nur die gerade Spaltenzahl (W-ACHSE)."
+  }
+ ],
+ "free_choices": [
+  {
+   "what": "Grundschrift",
+   "value": "1.0625rem bis 1.1875rem, gleitend mit der Bildschirmbreite",
+   "reason": "Lesbarkeit der Garamond am Bildschirm"
+  },
+  {
+   "what": "Zeilenabstand des Fließtexts",
+   "value": "1.5",
+   "reason": "typografische Konvention; bestimmt den Modul"
+  },
+  {
+   "what": "Schrift",
+   "value": "EB Garamond (Georg Duffner, Octavio Pardo; SIL Open Font License 1.1)",
+   "reason": "eine Renaissance-Antiqua mit Kursive wie im Druck von 1570; die Vorlagen der EB Garamond (Claude Garamont, Robert Granjon) stammen aus dem 16. Jahrhundert. Dieselbe Type wie 1570 ist das nicht."
+  },
+  {
+   "what": "Textbreite",
+   "value": "20 Moduln",
+   "reason": "etwa 65 Zeichen je Zeile"
+  },
+  {
+   "what": "Breite Abschnitte",
+   "value": "Textbreite × 3/2",
+   "reason": "eine der sieben Formen; eigene Wahl"
+  },
+  {
+   "what": "Nachtvariante",
+   "value": "Druckfarbe als Grund, Papier als Schrift",
+   "reason": "keine Regel Palladios"
+  }
+ ],
+ "measured": {
+  "scan_colors": {
+   "pages_phys": [
+    205,
+    209,
+    255
+   ],
+   "ink": [
+    "#403f34",
+    "#494437",
+    "#424039"
+   ],
+   "paper": [
+    "#ddd7c4",
+    "#dfd8c5",
+    "#e7e0ce"
+   ],
+   "method": "IIIF-Scan des e-rara-Exemplars, Satzspiegel; Tinte = Median der dunkelsten 2 %, Papier = Median der helleren Hälfte",
+   "caveat": "Farbe des heutigen Scans (gealtertes Papier, Scanner), nicht des Drucks von 1570."
+  }
+ }
+}

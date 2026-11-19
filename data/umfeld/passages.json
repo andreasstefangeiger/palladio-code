@@ -1,0 +1,156 @@
+{
+ "title": "Palladios Umfeld: Stellen zur Kosmologie, am Scan gelesen",
+ "status": "Wortlaut: am Seitenbild gelesen (A). Zuordnung zu Motiven und zu Palladio: Deutung (D).",
+ "motifs": {
+  "welt_tempel": {"label": "Welt und Bau: die Welt als Bau, Gott als Baumeister, der Tempel als Abbild der Welt", "palladio": ["IV.Proemio.1", "IV.Proemio.3"]},
+  "gott_form": {"label": "Gott und Form: eine geometrische Figur oder Proportion zeigt Eigenschaften Gottes", "palladio": ["IV.II.5"]},
+  "koerper_bau": {"label": "Körper und Bau: der menschliche Körper als Maß und Vorbild", "palladio": ["I.I.5", "II.II.2"]},
+  "natur_regel": {"label": "Natur und Regel: die Kunst ahmt die Natur nach", "palladio": ["I.XX.3", "III.X.3", "IV.XXIIII.1"]},
+  "harmonie_auge": {"label": "Harmonie für das Auge: Proportion und Symmetrie erfreuen den Blick", "palladio": ["IV.Proemio.3", "I.XXIII.6"]},
+  "entsprechung": {"label": "Entsprechung der Teile untereinander und zum Ganzen", "palladio": ["I.I.5", "II.II.6", "IV.V.1"]},
+  "decorum": {"label": "Decorum: Ordnung, Form oder Material nach Rang und Wesen", "palladio": ["IV.II.4", "IV.II.5", "IV.II.11"]},
+  "ordnung_mass": {"label": "Säulenordnung und Maß in Zahlen", "palladio": ["I.XIII.8", "I.XVIII.1"]},
+  "zahl_musik": {"label": "Zahlen- und Musikspekulation: Konsonanzen, Himmel, Zahlsymbolik", "palladio": []},
+  "geheimwissen": {"label": "Ausdrücklich als verborgenes, geheimes oder unsagbares Wissen bezeichnet", "palladio": []}
+ },
+ "passages": [
+  {
+   "id": "TRI-1", "source": "TRISSINO", "locator": "Buch V, S. 161 (gedruckt: 261)", "leaf": 179,
+   "quote": "Però Palladio mio, prenderai cura / Di far, che quei Baron, c'han preso Faulo, / Facciano ancor questa lodata impresa, / Ch'agevol le sarà se tu gl'insegni.",
+   "de": "Gott schickt den Engel Palladio, damit er die Barone lehrt, wie sie die Tugend (Areta) befreien und die Zügellosigkeit (Acratia) gefangen setzen.",
+   "motifs": [],
+   "note": "Kontext. In den Büchern I–IX ist der Engel Palladio Schutzengel Belisars, Ratgeber und Führer. Eine Rede über vitruvianische Architektur hält er in den gelesenen Stellen nicht; die Bauten des fünften Buches beschreibt der Erzähler.",
+   "scan_checked": true
+  },
+  {
+   "id": "TRI-2", "source": "TRISSINO", "locator": "Buch V, S. 167", "leaf": 185,
+   "quote": "E quel coltile è circondato intorno / Di larghe logge, con colonne tonde, / Che son tant'alte, quanto è la larghezza / Del pavimento, e sono grosse ancora / L'ottava parte, e più, di quella altezza. / Et han sovr'esse capitei d'argento, / Tant'alti quanto la colonna è grossa; / E sotto han spire di metal, che sono / Per la metà del capitello in alto.",
+   "de": "Der Hof im Palast der Acratia: Säulen so hoch wie der Hof breit, ein Achtel und mehr so dick, Kapitelle so hoch wie die Säule dick, Basen halb so hoch wie das Kapitell.",
+   "motifs": ["ordnung_mass"],
+   "note": "„coltile“ so gedruckt. Die Maße sind vitruvianisch; das Material (Silber, Metall, Gold) kennzeichnet den Palast der Zügellosigkeit.",
+   "scan_checked": true
+  },
+  {
+   "id": "TRI-3", "source": "TRISSINO", "locator": "Buch V, S. 190", "leaf": 208,
+   "quote": "Tornate in dietro, o miei fedeli amici, / A custodir la strada, in cui vi pose / Il grande architettor de l'universo;",
+   "de": "Areta schickt ihre Begleiter zurück auf den Weg, an den sie „der große Baumeister des Universums“ gestellt hat.",
+   "motifs": ["welt_tempel"],
+   "scan_checked": true
+  },
+  {
+   "id": "TRI-4", "source": "TRISSINO", "locator": "Buch V, S. 193", "leaf": 211,
+   "quote": "Questo avea ne l'ingresso una gran loggia, / Più ricca assai, che dilicata, o molle, / Con tanta simetria, con sì bell'arte, / Che dava a gli occhi altrui molto diletto.",
+   "de": "Der Palast der Tugend hat am Eingang eine große Loggia, mit so viel Symmetrie und Kunst, dass sie den Augen große Freude gibt.",
+   "motifs": ["harmonie_auge"],
+   "scan_checked": true
+  },
+  {
+   "id": "TRI-5", "source": "TRISSINO", "locator": "Buch V, S. 193–194", "leaf": 211,
+   "quote": "Perciò che le più lunghe fur distinte / In trentadui pilastri, e trentun vano; / Si come l'altre, che chiudeano i capi, / Ogni una in ventun foro era divisa. / Quei gran pilastri poscia avean nel mezzo / Colonne eccelse sopra piedistalli, / Che sosteneano il solido architrave, / Ch'avea sovr'esso e zoforo, e cornice. / Poi, quel palazzo tutto era composto / Con gran giudizio in dorica misura; / Et era ancor d'una materia eterna, / Che vincea di bellezza ogni altro marmo.",
+   "de": "Die Loggien des Hofes: 32 Pfeiler und 31 Öffnungen an den Langseiten, 21 Öffnungen an den Schmalseiten; Säulen auf Postamenten mit Architrav, Fries und Gesims. Der ganze Palast ist „mit großem Urteil in dorischem Maß“ gebaut, aus einem ewigen Material.",
+   "motifs": ["decorum", "ordnung_mass"],
+   "note": "Gerade Zahl der Stützen, ungerade Zahl der Öffnungen: In der Mitte liegt eine Öffnung, wie es Palladio für Fronten verlangt (I.XIII.9). Das Dorische für die Tugend entspricht der antiken Zuordnung, die Palladio berichtet (IV.II.4: dorisch für Minerva, Mars, Herkules). Beides ist meine Beobachtung.",
+   "scan_checked": true
+  },
+  {
+   "id": "TRI-6", "source": "TRISSINO", "locator": "Buch V, S. 194", "leaf": 212,
+   "quote": "Dapoi vedendo una concordia grande / Di camere, di sale, e d'altri luochi, / Con bella rispondenza d'ogni cosa, / Si generava in lor piacere estremo.",
+   "de": "Als die Barone die große Eintracht der Kammern, Säle und übrigen Räume sehen, „mit schöner Entsprechung aller Dinge“, empfinden sie höchste Freude.",
+   "motifs": ["entsprechung", "harmonie_auge"],
+   "scan_checked": true
+  },
+  {
+   "id": "BAR-1", "source": "BARBARO", "locator": "Buch I, Kommentar, S. 17", "leaf": 24,
+   "quote": "Consonanza è proportione di uoci distanti, & differenti nel graue, & nell'acuto, che unitamente, & con dolcezza girando peruengono all'orecchie. […] bisogna dico, che egli ci sia tra la graue, & l'acuta proportionata distanza, il simigliante è necessario, che sia nel consentimento delle stelle, & de i pianeti, acciò che unitamente qua giù mandino con efficacia, & forza gl'influssi loro.",
+   "de": "Konsonanz ist eine Proportion der Töne; dieselbe proportionierte Entfernung muss im Zusammenklang der Sterne und Planeten herrschen, damit sie ihre Einflüsse wirksam herabsenden.",
+   "motifs": ["zahl_musik", "welt_tempel"],
+   "scan_checked": true
+  },
+  {
+   "id": "BAR-2", "source": "BARBARO", "locator": "Buch III, Kommentar, S. 57", "leaf": 66,
+   "quote": "Tanta è la forza della proportione, tanta è la necessità, tanta la utilità di essa nelle cose, che niuno può ne all'orecchie, ne à gli occhi, ne à gli altri sensi alcuna dilettatione reccare senza la conueneuolezza, & la rispondenza della ragione […] diuina è la forza de numeri tra loro con ragione comparati ne si può dire, che sia cosa piu ampia nella fabrica di questa uniuersità, che noi mondo chiamamo della conueneuolezza del peso, del numero, & della misura, con laquale il tempo, lo spatio, i mouimenti, le uirtù, la fauella, lo artificio, la natura, il sapere, & ogni cosa in somma diuina, & humana, è composta, cresciuta, & perfetta.",
+   "de": "Ohne Proportion erfreut nichts Ohr oder Auge. Göttlich ist die Kraft der Zahlen; im Bau dieses Alls, „das wir Welt nennen“, gibt es nichts Umfassenderes als die Angemessenheit von Gewicht, Zahl und Maß, aus der alles Göttliche und Menschliche besteht.",
+   "motifs": ["welt_tempel", "harmonie_auge", "entsprechung", "zahl_musik"],
+   "note": "Gewicht, Zahl und Maß: die Formel aus Weish 11,20.",
+   "scan_checked": true
+  },
+  {
+   "id": "BAR-3", "source": "BARBARO", "locator": "Buch III, Kommentar, S. 57", "leaf": 66,
+   "quote": "necessario è che egli conosca la natura, & la forza delle proportioni, sappia distintamente ogni specie di esse, troui finalmente quale proportione à qual maniera di fabrica si conuegna.",
+   "de": "Der Architekt muss Natur und Kraft der Proportionen kennen und finden, welche Proportion zu welcher Art von Bau passt.",
+   "motifs": ["decorum"],
+   "scan_checked": true
+  },
+  {
+   "id": "BAR-4", "source": "BARBARO", "locator": "Buch III, Kommentar, S. 65", "leaf": 74,
+   "quote": "le misure, & le ragioni di esse douer esser pigliate dalle misure, & da i numeri, che si trouano nelle parti del corpo humano, uero, & raro essempio di tutte le opere di natura d'ogni perfettione.",
+   "de": "Die Maße und ihre Verhältnisse sind von den Maßen und Zahlen der Glieder des menschlichen Körpers zu nehmen, des wahren und seltenen Beispiels aller Werke der Natur in jeder Vollkommenheit.",
+   "motifs": ["koerper_bau", "natur_regel"],
+   "scan_checked": true
+  },
+  {
+   "id": "BAR-5", "source": "BARBARO", "locator": "Buch III, Kommentar, S. 65", "leaf": 74,
+   "quote": "nell'Architettura si deue auuertire che l'occhio habbia la parte sua, & con la uarieta de gli aspetti secondo le figure, & forme diuerse de i Tempi si dia diletto, ueneratione, & autorita alle opere, che si fanno, & si come la oratione ha forme, & idee diuerse per satisfar'all'orecchie, così habbia l'Architettura gli aspetti, & forme sue per satisfar à gli occhi",
+   "de": "In der Architektur muss das Auge seinen Teil haben; wie die Rede ihre Formen hat, um das Ohr zu befriedigen, so hat die Architektur ihre Ansichten und Formen, um die Augen zu befriedigen.",
+   "motifs": ["harmonie_auge"],
+   "scan_checked": true
+  },
+  {
+   "id": "GIO-1", "source": "GIORGI", "locator": "Cant. I, Ton. III, Kap. XIII, f. L v", "leaf": 133,
+   "quote": "[V]t aliqua de Pythagoreis, & secretiorum Theologorum promptuariis educamus, quaternario numero omnia fundamenta iacienda sunt",
+   "de": "Um einiges aus den Vorratskammern der Pythagoreer und der geheimeren Theologen hervorzuholen: Mit der Vierzahl sind alle Fundamente zu legen.",
+   "motifs": ["geheimwissen", "zahl_musik"],
+   "scan_checked": true
+  },
+  {
+   "id": "GIO-2", "source": "GIORGI", "locator": "Cant. I, Ton. III, Kap. XIII, f. LI r", "leaf": 134,
+   "quote": "proportio dupla, tripla, quadrupla, sesqualtera, sesquitertia: Unde diapason, bisdiapason, diapente, diatessaron, & diapason simul cum diapente resultat. […] iurabant Pythagorei alludentes (ut opinor) ad Tetragrammon hebreorum, a quibus secretiora illa dogmata suscepere.",
+   "de": "Aus der Vierzahl ergeben sich die Verhältnisse 2:1, 3:1, 4:1, 3:2, 4:3 und damit Oktave, Doppeloktave, Quinte, Quarte und Duodezime; die Pythagoreer hätten ihre „geheimeren Lehren“ von den Hebräern empfangen.",
+   "motifs": ["zahl_musik", "geheimwissen"],
+   "scan_checked": true
+  },
+  {
+   "id": "GIO-3", "source": "GIORGI", "locator": "Cant. I, Ton. III, Kap. XIII, f. LI r", "leaf": 134,
+   "quote": "Quatuor etiam angulis artifices naturam imitantes consummant aedificia, ut firma sint. Quatuor igitur fundamenta totius mundanae fabricae merito a principio iecit Opifex.",
+   "de": "Auch die Baumeister vollenden ihre Bauten, die Natur nachahmend, mit vier Ecken, damit sie fest sind. Vier Fundamente des ganzen Weltbaus hat darum der Schöpfer von Anfang an gelegt.",
+   "motifs": ["natur_regel", "welt_tempel"],
+   "scan_checked": true
+  },
+  {
+   "id": "GIO-4", "source": "GIORGI", "locator": "Cant. I, Ton. III, Kap. XIII, f. LI r", "leaf": 134,
+   "quote": "Nec cum circulo diuinae essentiae coaequatio est nobis cognita: licet sit illi manifesta, qui omnia haec consonantissime disposuit",
+   "de": "Wie das Quadrat dem Kreis des göttlichen Wesens gleichzumachen ist, wissen wir nicht; offenbar ist es nur dem, der alles aufs Harmonischste geordnet hat.",
+   "motifs": ["gott_form", "geheimwissen"],
+   "scan_checked": true
+  },
+  {
+   "id": "GIO-5", "source": "GIORGI", "locator": "Cant. I, Ton. IV, Kap. XXXII, f. LXXXIII r", "leaf": 197,
+   "quote": "Fac mihi sanctuarium, & habitabo in medio uestri: & hoc iuxta omnem similitudinem tabernaculi, quod ostendam tibi, huius uidelicet mundanae domus, quae Dei ipsius habitaculum est […] Quam fabricam cum totam ostenderet Mosi, subiunxit: Vide, & fac secundum exemplar, quod tibi in monte monstratum est. […] quae ad fabricandam arcam mundo conformem pertinent […] Altitudo eius, similiter & latitudo habeat cubitum, & semissem, id est noue palmos […] Quae partitio per nouenarium noue coelos repraesentat",
+   "de": "Das Heiligtum des Mose ist nach dem Bild „dieses Welthauses“ gebaut, der Wohnung Gottes, nach dem Urbild, das Mose auf dem Berg gezeigt wurde, also „der Welt gemäß“. Neun Handbreiten Höhe und Breite stehen für die neun Himmel.",
+   "motifs": ["welt_tempel", "zahl_musik"],
+   "scan_checked": true
+  },
+  {
+   "id": "GIO-6", "source": "GIORGI", "locator": "Cant. III, Ton. VIII, f. CXXXVI r (Schluss des Werkes)", "leaf": 969,
+   "quote": "Et qui sapiens est, haec intelligat, quia hoc est manna absconditum, quod nemo scit, nisi qui accipit: unde de huiusmodi fari minime licet: Non enim haec ex auditu uocali percipiuntur, sed lumine illo aeterno, quo illa concipiuntur eloquia, quae in corde occultanda sunt […] cuius sacramentum abscondere bonum est: quod neque propalare possumus, quia ineffabile est",
+   "de": "Wer weise ist, verstehe es: Das ist verborgenes Manna, das niemand kennt außer dem, der es empfängt; darüber zu sprechen, ist nicht erlaubt. Diese Worte sind im Herzen zu verbergen; ihr Geheimnis zu verbergen ist gut, und aussprechen können wir es nicht, weil es unsagbar ist.",
+   "motifs": ["geheimwissen"],
+   "scan_checked": true
+  },
+  {
+   "id": "PAC-1", "source": "PACIOLI", "locator": "Kap. V, c. 3v–4r", "leaf": 21,
+   "quote": "[P]arme del nostro tractato excelso D. el suo condecente titulo douer essere dela diuina proportione. E questo per molte simili conuenientie quali trouo in la nostra proportione […] a epso dio spectanti. […] La prima e che lei fia vna sola e non piu […] Laquale vnita fia el supremo epiteto de epso idio […] La terça conuenientia e che si commo idio propriamente non se po diffinire ne per parolle a noi intendere. cosi questa nostra proportione non se po mai per numero intendibile asegnare ne per quantita alcuna rationale exprimere: ma sempre fia occulta e secreta e dali Mathematici chiamata irrationale. La quarta conuenientia e che si commo idio mai non se po mutare. e fia tutto in tutto e tutto in ogni parte. cosi la presente nostra proportione sempre in ogni quantita […] fia vna medesima e sempre inuariabile",
+   "de": "Die Proportion heißt göttlich, weil sie Gott entspricht: Sie ist eine einzige (Einheit), sie besteht zwischen drei Gliedern (Dreifaltigkeit), sie lässt sich durch keine Zahl ausdrücken, sondern bleibt „verborgen und geheim“, und sie ist in jeder Größe dieselbe und unveränderlich.",
+   "motifs": ["gott_form", "geheimwissen"],
+   "note": "„fia“ (Ligatur fi) am Bild geprüft, nicht „sia“. Die fünfte Entsprechung (Dodekaeder und Himmel nach Platons Timaios) ist hier ausgelassen.",
+   "scan_checked": true
+  },
+  {
+   "id": "PAC-2", "source": "PACIOLI", "locator": "c. 24v (Einleitung zum Architekturtraktat)", "leaf": 63,
+   "quote": "Cioe prima diremo dela humana proportione respecto al suo corpo e membri. pero che dal corpo humano ogni mesura con sue denominationi deriua e in epso tutte sorti de proportioni e proportionalita se ritroua con lo deto de laltissimo mediante li intrinseci secreti dela natura. […] E cosi comme dici el nostro V. a sua similitudine dobiam proportionare ogni hedificio",
+   "de": "Zuerst ist von der Proportion des menschlichen Körpers zu sprechen, denn vom Körper stammen alle Maße und ihre Namen, und in ihm finden sich alle Arten von Proportion, durch den Finger des Höchsten, vermittels der inneren Geheimnisse der Natur. Wie Vitruv sagt, ist jeder Bau ihm ähnlich zu proportionieren.",
+   "motifs": ["koerper_bau", "natur_regel", "geheimwissen"],
+   "scan_checked": true
+  }
+ ]
+}

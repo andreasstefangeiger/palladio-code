@@ -1,0 +1,266 @@
+{
+  "statements": 31,
+  "facts": 65,
+  "buildings": 27,
+  "all_scan_checked": true,
+  "rules_by_kind": {
+    "own_design": {
+      "I23_first": 5,
+      "flat_h_eq_w": 5,
+      "equal_to": 4,
+      "I23_third": 1,
+      "unspecified": 11,
+      "numeric": 7,
+      "other": 4,
+      "I23_second": 2,
+      "higher_than": 1,
+      "I23_square_4_3": 1
+    },
+    "antique_reconstruction": {
+      "other": 2
+    },
+    "unexecuted_invention": {
+      "I23_first": 2,
+      "unspecified": 8,
+      "numeric": 7,
+      "flat_h_eq_w": 2,
+      "other": 1,
+      "I23_third": 1,
+      "I23_square_4_3": 1
+    }
+  },
+  "vault_methods_named": {
+    "I23_first": 7,
+    "I23_third": 2,
+    "I23_second": 2,
+    "I23_square_4_3": 2
+  },
+  "equal_height_statements": [
+    {
+      "id": "B2-CHI-1",
+      "building": "Palazzo Chiericati",
+      "room": "stanze mediocri",
+      "rule": "equal_to:stanze maggiori"
+    },
+    {
+      "id": "B2-MMA-1",
+      "building": "Villa Mocenigo",
+      "room": "stanze mediocri",
+      "rule": "equal_to:stanze maggiori"
+    },
+    {
+      "id": "B2-SAR-1",
+      "building": "Villa Saraceno",
+      "room": "Sala",
+      "rule": "equal_to:stanze maggiori"
+    },
+    {
+      "id": "B2-SAR-1",
+      "building": "Villa Saraceno",
+      "room": "camerini",
+      "rule": "equal_to:stanze maggiori"
+    }
+  ],
+  "numeric_heights": [
+    {
+      "id": "B2-BAR-1",
+      "building": "Palazzo Barbarano",
+      "room": "stanze lunghe un quadro e mezo",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 21.5
+    },
+    {
+      "id": "B2-BAR-1",
+      "building": "Palazzo Barbarano",
+      "room": "stanze quadre",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 21.5
+    },
+    {
+      "id": "B2-BAR-1",
+      "building": "Palazzo Barbarano",
+      "room": "camerini",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 21.5
+    },
+    {
+      "id": "B2-FOS-2",
+      "building": "Villa Foscari (Malcontenta)",
+      "room": "camere",
+      "floor": 2,
+      "ceiling": null,
+      "height_ft": 8
+    },
+    {
+      "id": "B2-MMA-1",
+      "building": "Villa Mocenigo",
+      "room": "stanze maggiori",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 21
+    },
+    {
+      "id": "B2-MMA-1",
+      "building": "Villa Mocenigo",
+      "room": "camerini",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 17
+    },
+    {
+      "id": "B2-TME-1",
+      "building": "Villa Trissino",
+      "room": "stanze di sopra",
+      "floor": 2,
+      "ceiling": null,
+      "height_ft": 7
+    },
+    {
+      "id": "B2-INV1-1",
+      "building": "Inventione per un sito piramidale",
+      "room": "stanze",
+      "floor": 2,
+      "ceiling": null,
+      "height_ft": 20
+    },
+    {
+      "id": "B2-INV1-1",
+      "building": "Inventione per un sito piramidale",
+      "room": "stanze",
+      "floor": 3,
+      "ceiling": null,
+      "height_ft": 18
+    },
+    {
+      "id": "B2-INV2-2",
+      "building": "Inventione per un sito in Venetia",
+      "room": "stanze",
+      "floor": 2,
+      "ceiling": "vault",
+      "height_ft": 23
+    },
+    {
+      "id": "B2-INV2-2",
+      "building": "Inventione per un sito in Venetia",
+      "room": "stanze",
+      "floor": 3,
+      "ceiling": "flat",
+      "height_ft": 18
+    },
+    {
+      "id": "B2-TRV-1",
+      "building": "Palazzo Trissino (inventione)",
+      "room": "stanze maggiori",
+      "floor": 1,
+      "ceiling": "flat",
+      "height_ft": 27
+    },
+    {
+      "id": "B2-TRV-1",
+      "building": "Palazzo Trissino (inventione)",
+      "room": "stanze mediocri e minori",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 18
+    },
+    {
+      "id": "B2-GAR-1",
+      "building": "Palazzo Garzadore (inventione)",
+      "room": "camerini",
+      "floor": 1,
+      "ceiling": "vault",
+      "height_ft": 16
+    }
+  ],
+  "height_rules_beyond_book_one": [
+    {
+      "id": "B2-ATT-1",
+      "building": "Atrio testugginato (casa privata degli Antichi)",
+      "room": "stanze del peristilio",
+      "height_factor": null,
+      "note": "impost height = width, vault rise = 1/3 width, total 4/3 width"
+    },
+    {
+      "id": "B2-SCO-1",
+      "building": "Sale Corinthie (Antichi)",
+      "room": "Sala",
+      "height_factor": null,
+      "note": "vault rise 1/3 of width"
+    },
+    {
+      "id": "B2-PBA-1",
+      "building": "Villa Pisani",
+      "room": "Sala",
+      "height_factor": 1.5,
+      "note": null
+    },
+    {
+      "id": "B2-FOS-1",
+      "building": "Villa Foscari (Malcontenta)",
+      "room": "Sala",
+      "height_factor": null,
+      "note": "impost height = width, semicircular cross vault"
+    },
+    {
+      "id": "B2-PMO-1",
+      "building": "Villa Pisani",
+      "room": "camerini e andito",
+      "height_factor": 2.0,
+      "note": null
+    },
+    {
+      "id": "B2-POI-1",
+      "building": "Villa Poiana",
+      "room": "Sala",
+      "height_factor": 1.5,
+      "note": null
+    },
+    {
+      "id": "B2-GAR-1",
+      "building": "Palazzo Garzadore (inventione)",
+      "room": "Sala di sopra",
+      "height_factor": null,
+      "note": "height = width plus cornice"
+    }
+  ],
+  "stated_plan_ratios": {
+    "3:2": 4,
+    "1:1": 5,
+    "5:3": 6,
+    "7:4": 2,
+    "13:8": 1,
+    "2:1": 1,
+    "5:2": 1
+  },
+  "story_reduction_checks": [
+    {
+      "id": "B2-INV1-1",
+      "floors": [
+        2,
+        3
+      ],
+      "heights_ft": [
+        20,
+        18
+      ],
+      "stated_ratio": 0.9,
+      "book_one_rule": 0.8333333333333334
+    },
+    {
+      "id": "B2-INV2-2",
+      "floors": [
+        2,
+        3
+      ],
+      "heights_ft": [
+        23,
+        18
+      ],
+      "stated_ratio": 0.782608695652174,
+      "book_one_rule": 0.8333333333333334
+    }
+  ]
+}

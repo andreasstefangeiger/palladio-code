@@ -1,0 +1,1132 @@
+{
+ "source": "Palladio, I quattro libri dell'architettura, Venetia 1570, Libro IV (Tafeln); e-rara DOI 10.3931/e-rara-363",
+ "question": "Was zeigen die Maßzahlen und die Zeichnung der Tempeltafeln für Säulenabstand, Säulenhöhe und Gebälk?",
+ "method": "Maßzahlen am IIIF-Scan gelesen (box = Ausschnitt in Seitenpixeln; senkrechte Zahlen gedreht). Pixel: Durchmesser und lichte Abstände der schraffierten Säulenkreise in einem waagrechten Streifen, automatisch gemessen (palladio_code.temple_orders.measure_circles; braucht Netz). Das Verhältnis Abstand : Durchmesser aus der Zeichnung ist maßstabsfrei. Wo der Durchmesser nicht lesbar ist, wird er aus dem beschrifteten Abstand und dem gezeichneten Verhältnis abgeleitet (Deutung). Rundtempel: Mittelpunkt aus dem schraffierten Cellaring, Säulen entlang des Säulenkreises gemessen; der Wert steht dann als 'drawn' mit Erläuterung in 'drawn_note'.",
+ "unit": "piede vicentino = 12 oncie (Ꝺ)",
+ "evidence_class": "A für die Lesungen, B für abgeleitete Größen",
+ "temples": [
+  {
+   "chapter": "VIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "height",
+     "phys": 224,
+     "box": [
+      1560,
+      2150,
+      1660,
+      2500
+     ],
+     "label": "P 40",
+     "feet": 40,
+     "confidence": "mittel",
+     "note": "senkrecht gesetzt"
+    },
+    {
+     "kind": "diameter",
+     "phys": 224,
+     "box": [
+      1690,
+      2460,
+      1820,
+      2530
+     ],
+     "label": "P 4 Ꝺ 1",
+     "feet": 4.083333333333333,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "intercolumn",
+     "phys": 224,
+     "box": [
+      1440,
+      2510,
+      1760,
+      2590
+     ],
+     "label": "P 6 Ꝺ 5½",
+     "feet": 6.458333333333333,
+     "confidence": "mittel",
+     "note": "Zollziffer schwach"
+    },
+    {
+     "kind": "entablature",
+     "phys": 224,
+     "box": [
+      1200,
+      1130,
+      1290,
+      1430
+     ],
+     "label": "P 9 Ꝺ 4½",
+     "feet": 9.375,
+     "confidence": "mittel",
+     "note": "Bruch ½ oder ¾"
+    }
+   ],
+   "pixels": []
+  },
+  {
+   "chapter": "VII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "height",
+     "phys": 218,
+     "box": [
+      960,
+      2150,
+      1070,
+      2370
+     ],
+     "label": "P 48",
+     "feet": 48,
+     "confidence": "mittel",
+     "note": ""
+    },
+    {
+     "kind": "entablature",
+     "phys": 218,
+     "box": [
+      960,
+      1330,
+      1070,
+      1500
+     ],
+     "label": "P 10",
+     "feet": 10,
+     "confidence": "mittel",
+     "note": ""
+    },
+    {
+     "kind": "intercolumn",
+     "phys": 218,
+     "box": [
+      1050,
+      3120,
+      1450,
+      3330
+     ],
+     "label": "P 7 ⅕",
+     "feet": 7.2,
+     "confidence": "hoch",
+     "note": "Flanke, Taf. S. 17: P 7 Ꝺ 2½ (7,21 Fuß)"
+    },
+    {
+     "kind": "diameter",
+     "phys": 214,
+     "box": [
+      420,
+      430,
+      980,
+      520
+     ],
+     "label": "P 5 Ꝺ 4",
+     "feet": 5.333333333333333,
+     "confidence": "mittel",
+     "note": "Detailtafel; widerspricht dem gezeichneten Verhältnis (s. Pixel)"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 218,
+     "band_y": [
+      3150,
+      3310
+     ],
+     "diameters_px": [
+      126,
+      123
+     ],
+     "gaps_px": [
+      192
+     ],
+     "note": ""
+    },
+    {
+     "phys": 217,
+     "band_y": [
+      3150,
+      3280
+     ],
+     "diameters_px": [
+      125,
+      123
+     ],
+     "gaps_px": [
+      194
+     ],
+     "note": "Flanke"
+    }
+   ]
+  },
+  {
+   "chapter": "IX",
+   "order": null,
+   "labels": [
+    {
+     "kind": "height",
+     "phys": 232,
+     "box": [
+      1200,
+      1900,
+      1380,
+      2750
+     ],
+     "label": "P 39",
+     "feet": 39,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "entablature",
+     "phys": 232,
+     "box": [
+      1200,
+      1050,
+      1380,
+      1900
+     ],
+     "label": "P 9 Ꝺ 3½",
+     "feet": 9.291666666666666,
+     "confidence": "mittel",
+     "note": "Oberkante der Maßlinie nicht sicher am Gesims"
+    },
+    {
+     "kind": "intercolumn",
+     "phys": 231,
+     "box": [
+      400,
+      3200,
+      1300,
+      3370
+     ],
+     "label": "P 6 Ꝺ 4",
+     "feet": 6.333333333333333,
+     "confidence": "hoch",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 231,
+     "band_y": [
+      3200,
+      3370
+     ],
+     "diameters_px": [
+      134,
+      130,
+      130
+     ],
+     "gaps_px": [
+      197,
+      199
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "chapter": "XII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 243,
+     "box": [
+      300,
+      3120,
+      1200,
+      3290
+     ],
+     "label": "P 8 ¼",
+     "feet": 8.25,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "diameter",
+     "phys": 243,
+     "box": [
+      300,
+      3120,
+      1200,
+      3290
+     ],
+     "label": "P 5 ½",
+     "feet": 5.5,
+     "confidence": "mittel",
+     "note": "im schraffierten Kreis"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 243,
+     "band_y": [
+      3090,
+      3270
+     ],
+     "diameters_px": [
+      123,
+      125,
+      122,
+      128,
+      131,
+      125
+     ],
+     "gaps_px": [
+      195,
+      199,
+      199,
+      194,
+      191
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "chapter": "XIII",
+   "order": "Ionico",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 249,
+     "box": [
+      350,
+      2470,
+      1450,
+      2640
+     ],
+     "label": "P 5 Ꝺ 8",
+     "feet": 5.666666666666667,
+     "confidence": "hoch",
+     "note": "Seitenjoch"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 249,
+     "box": [
+      350,
+      2470,
+      1450,
+      2640
+     ],
+     "label": "P 6",
+     "feet": 6,
+     "confidence": "hoch",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 249,
+     "band_y": [
+      2470,
+      2630
+     ],
+     "diameters_px": [
+      130,
+      131,
+      132,
+      129
+     ],
+     "gaps_px": [
+      258,
+      257
+     ],
+     "note": "Mitteljoch 287 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XV",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "height",
+     "phys": 258,
+     "box": [
+      200,
+      1650,
+      400,
+      2750
+     ],
+     "label": "P 41",
+     "feet": 41,
+     "confidence": "mittel",
+     "note": ""
+    },
+    {
+     "kind": "entablature",
+     "phys": 258,
+     "box": [
+      200,
+      950,
+      400,
+      1650
+     ],
+     "label": "P 7 Ꝺ 4½",
+     "feet": 7.375,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "intercolumn",
+     "phys": 258,
+     "box": [
+      1600,
+      3160,
+      2350,
+      3340
+     ],
+     "label": "P 6 Ꝺ 5½",
+     "feet": 6.458333333333333,
+     "confidence": "hoch",
+     "note": "ebenso im Grundriss S. 56"
+    },
+    {
+     "kind": "diameter",
+     "phys": 258,
+     "box": [
+      850,
+      3160,
+      1600,
+      3340
+     ],
+     "label": "P 4 Ꝺ 2",
+     "feet": 4.166666666666667,
+     "confidence": "niedrig",
+     "note": "im schraffierten Kreis"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 258,
+     "band_y": [
+      3160,
+      3340
+     ],
+     "diameters_px": [
+      126,
+      127
+     ],
+     "gaps_px": [
+      221,
+      218
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "chapter": "XIX",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 271,
+     "box": [
+      150,
+      3060,
+      1250,
+      3240
+     ],
+     "label": "P 6 Ꝺ 1½",
+     "feet": 6.125,
+     "confidence": "hoch",
+     "note": "Seitenjoch"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 271,
+     "box": [
+      150,
+      3060,
+      1250,
+      3240
+     ],
+     "label": "P 8",
+     "feet": 8,
+     "confidence": "hoch",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 271,
+     "band_y": [
+      3070,
+      3230
+     ],
+     "diameters_px": [
+      87,
+      88,
+      87,
+      90,
+      86,
+      85,
+      85,
+      83
+     ],
+     "gaps_px": [
+      147,
+      152,
+      147,
+      150,
+      150,
+      151
+     ],
+     "note": "Mitteljoch 187 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXIIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "height",
+     "phys": 296,
+     "box": [
+      150,
+      1350,
+      330,
+      2500
+     ],
+     "label": "P 33 Ꝺ 2",
+     "feet": 33.166666666666664,
+     "confidence": "mittel",
+     "note": ""
+    },
+    {
+     "kind": "intercolumn",
+     "phys": 296,
+     "box": [
+      200,
+      3170,
+      1250,
+      3340
+     ],
+     "label": "P 5 Ꝺ 7½",
+     "feet": 5.625,
+     "confidence": "hoch",
+     "note": "Seitenjoch; Mitteljoch P 5 Ꝺ 9¾"
+    },
+    {
+     "kind": "diameter",
+     "phys": 296,
+     "box": [
+      290,
+      3210,
+      470,
+      3300
+     ],
+     "label": "3 Ꝺ 1¼",
+     "feet": 3.1041666666666665,
+     "confidence": "niedrig",
+     "note": "Ziffer nach Ꝺ: 1 oder 5"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 296,
+     "band_y": [
+      3190,
+      3330
+     ],
+     "diameters_px": [
+      127,
+      128,
+      125,
+      129,
+      128,
+      125
+     ],
+     "gaps_px": [
+      207,
+      210,
+      206
+     ],
+     "note": "Mitteljoch 216 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXVI",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "height",
+     "phys": 305,
+     "box": [
+      30,
+      1600,
+      200,
+      2600
+     ],
+     "label": "P 27 ½",
+     "feet": 27.5,
+     "confidence": "mittel",
+     "note": ""
+    },
+    {
+     "kind": "entablature",
+     "phys": 305,
+     "box": [
+      30,
+      1000,
+      200,
+      1600
+     ],
+     "label": "P 5 ¼",
+     "feet": 5.25,
+     "confidence": "niedrig",
+     "note": "Ausdehnung der Maßlinie nicht geprüft"
+    },
+    {
+     "kind": "intercolumn",
+     "phys": 305,
+     "box": [
+      150,
+      3210,
+      1100,
+      3370
+     ],
+     "label": "P 5 ¼",
+     "feet": 5.25,
+     "confidence": "hoch",
+     "note": "Seitenjoch"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 305,
+     "band_y": [
+      3215,
+      3370
+     ],
+     "diameters_px": [
+      125,
+      125,
+      125,
+      126,
+      125,
+      122
+     ],
+     "gaps_px": [
+      229,
+      220,
+      218,
+      225
+     ],
+     "note": "Mitteljoch 241 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXVIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 313,
+     "box": [
+      100,
+      3160,
+      1200,
+      3330
+     ],
+     "label": "P 4 Ꝺ 1½",
+     "feet": 4.125,
+     "confidence": "hoch",
+     "note": "Seitenjoch; Mitteljoch P 5 Ꝺ …"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 313,
+     "band_y": [
+      3170,
+      3330
+     ],
+     "diameters_px": [
+      129,
+      132,
+      131,
+      127,
+      129,
+      131
+     ],
+     "gaps_px": [
+      205,
+      201,
+      200,
+      202
+     ],
+     "note": "Mitteljoch 271 px"
+    },
+    {
+     "phys": 314,
+     "band_y": [
+      3160,
+      3330
+     ],
+     "diameters_px": [
+      131,
+      131,
+      132
+     ],
+     "gaps_px": [
+      202,
+      195
+     ],
+     "note": "Flanke"
+    }
+   ]
+  },
+  {
+   "chapter": "XIIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "cella_interior",
+     "phys": 252,
+     "box": [
+      850,
+      2200,
+      1450,
+      2360
+     ],
+     "label": "P 23 Ꝺ 9",
+     "feet": 23.75,
+     "confidence": "mittel",
+     "note": "Durchmesser der Cella innen"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 252,
+     "band_y": [
+      3020,
+      3150
+     ],
+     "diameters_px": [
+      94,
+      94
+     ],
+     "gaps_px": [
+      162
+     ],
+     "note": "Rundtempel mit 20 Säulen; das untere Säulenpaar liegt symmetrisch zur Achse, der Abstand ist eine Sehne"
+    }
+   ],
+   "drawn_note": "Aus dem Säulenkreis (Mittelpunktsradius ≈ 797 px, 20 Säulen, D ≈ 94 px) ergibt sich 1,65; das untere Paar ergibt 1,72. Außendurchmesser der Cella ≈ 1020 px = 10,9 D; der Text sagt: Cella mit Mauern so breit wie die Säulen lang, Säulen 11 teste."
+  },
+  {
+   "chapter": "XVIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 268,
+     "box": [
+      780,
+      290,
+      1900,
+      400
+     ],
+     "label": "6 Ꝺ 4",
+     "feet": 6.333333333333333,
+     "confidence": "hoch",
+     "note": "ohne P gedruckt; Seitenjoch der Front"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 268,
+     "box": [
+      780,
+      290,
+      1900,
+      400
+     ],
+     "label": "P 8",
+     "feet": 8,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "diameter",
+     "phys": 268,
+     "box": [
+      440,
+      530,
+      640,
+      640
+     ],
+     "label": "4 Ꝺ 2",
+     "feet": 4.166666666666667,
+     "confidence": "mittel",
+     "note": "rechts als '4 m 2' gedruckt"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 268,
+     "band_y": [
+      285,
+      395
+     ],
+     "diameters_px": [
+      79,
+      81,
+      78,
+      79,
+      80,
+      80,
+      79,
+      78
+     ],
+     "gaps_px": [
+      120,
+      122,
+      131,
+      124,
+      124,
+      124
+     ],
+     "note": "Front, acht Säulen; Mitteljoch 149 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XX",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 275,
+     "box": [
+      540,
+      3180,
+      760,
+      3270
+     ],
+     "label": "P 8 Ꝺ 2½",
+     "feet": 8.208333333333334,
+     "confidence": "hoch",
+     "note": "Seitenjoch der Portikusfront"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 275,
+     "box": [
+      1020,
+      3180,
+      1240,
+      3270
+     ],
+     "label": "P 9 Ꝺ 3½",
+     "feet": 9.291666666666666,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "scale_check",
+     "phys": 275,
+     "box": [
+      880,
+      3000,
+      1320,
+      3080
+     ],
+     "label": "P 33 Ꝺ 9½",
+     "feet": 33.791666666666664,
+     "confidence": "hoch",
+     "note": "lichter Abstand zweier Säulen der inneren Reihen = 422 px, also 12,5 px/Fuß; D = 56 px = 4,5 Fuß"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 275,
+     "band_y": [
+      3010,
+      3100
+     ],
+     "diameters_px": [
+      57,
+      54,
+      56,
+      57
+     ],
+     "gaps_px": [],
+     "note": ""
+    },
+    {
+     "phys": 275,
+     "band_y": [
+      2860,
+      2960
+     ],
+     "diameters_px": [
+      56,
+      55,
+      57,
+      55
+     ],
+     "gaps_px": [],
+     "note": ""
+    }
+   ],
+   "drawn": 1.8,
+   "drawn_note": "Frontreihe: Mittelpunktsabstand ≈ 157 px, D ≈ 56 px (die Zahlen in den Zwischenräumen stören die automatische Messung der Frontreihe)."
+  },
+  {
+   "chapter": "XXIII",
+   "order": "Corinthio",
+   "labels": [
+    {
+     "kind": "portico",
+     "phys": 291,
+     "box": [
+      60,
+      1380,
+      520,
+      1600
+     ],
+     "label": "P 4 Ꝺ 7½",
+     "feet": 4.625,
+     "confidence": "hoch",
+     "note": "Breite des Umgangs zwischen Säule und Cella"
+    },
+    {
+     "kind": "cella_interior",
+     "phys": 291,
+     "box": [
+      700,
+      1380,
+      1600,
+      1600
+     ],
+     "label": "P 20 Ꝺ 1 m 3",
+     "feet": 20.145833333333332,
+     "confidence": "mittel",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 291,
+     "band_y": [
+      1420,
+      1600
+     ],
+     "diameters_px": [
+      97,
+      96
+     ],
+     "gaps_px": [],
+     "note": "Rundtempel mit 18 Säulen"
+    }
+   ],
+   "drawn": 2.16,
+   "drawn_note": "Säulenkreis: Mittelpunktsradius ≈ 936 px, D ≈ 103 px, 18 Säulen; Sehne zwischen Mittelpunkten 325 px. Maßstab aus Cella (1043 px = 20,1 Fuß) und Umgang (241 px = 4,6 Fuß) übereinstimmend 52 px/Fuß; D ≈ 2,0 Fuß."
+  },
+  {
+   "chapter": "XXVII",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 308,
+     "box": [
+      1000,
+      2690,
+      2300,
+      2840
+     ],
+     "label": "P 4 ½",
+     "feet": 4.5,
+     "confidence": "hoch",
+     "note": "Seitenjoch"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 308,
+     "box": [
+      1000,
+      2690,
+      2300,
+      2840
+     ],
+     "label": "P 5 Ꝺ 1½",
+     "feet": 5.125,
+     "confidence": "hoch",
+     "note": ""
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 308,
+     "band_y": [
+      2680,
+      2850
+     ],
+     "diameters_px": [
+      120,
+      121,
+      122,
+      118
+     ],
+     "gaps_px": [
+      259,
+      258
+     ],
+     "note": "Mitteljoch 312 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXX",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 325,
+     "box": [
+      420,
+      2690,
+      1880,
+      2840
+     ],
+     "label": "P 6 Ꝺ 10½",
+     "feet": 6.875,
+     "confidence": "hoch",
+     "note": "Seitenjoch, Grundriss und Aufriss gleich"
+    },
+    {
+     "kind": "intercolumn_middle",
+     "phys": 325,
+     "box": [
+      420,
+      2690,
+      1880,
+      2840
+     ],
+     "label": "P 7 Ꝺ 5¼",
+     "feet": 7.4375,
+     "confidence": "hoch",
+     "note": "im Aufriss S. 126: P 7 Ꝺ 5½"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 325,
+     "band_y": [
+      2680,
+      2850
+     ],
+     "diameters_px": [
+      88,
+      87,
+      87,
+      87,
+      84
+     ],
+     "gaps_px": [
+      152,
+      165,
+      164,
+      161
+     ],
+     "note": "Grundriss; Mitteljoch 192 px"
+    },
+    {
+     "phys": 326,
+     "band_y": [
+      3030,
+      3200
+     ],
+     "diameters_px": [
+      118,
+      118,
+      117,
+      117,
+      118,
+      110
+     ],
+     "gaps_px": [
+      221,
+      229,
+      226,
+      235
+     ],
+     "note": "Aufriss; Mitteljoch 267 px"
+    }
+   ]
+  },
+  {
+   "chapter": "XXXI",
+   "order": null,
+   "labels": [
+    {
+     "kind": "intercolumn",
+     "phys": 330,
+     "box": [
+      1050,
+      3170,
+      1500,
+      3350
+     ],
+     "label": "P 5 Ꝺ 3¾",
+     "feet": 5.3125,
+     "confidence": "hoch",
+     "note": ""
+    },
+    {
+     "kind": "diameter",
+     "phys": 330,
+     "box": [
+      1680,
+      3180,
+      1830,
+      3300
+     ],
+     "label": "P ? ?",
+     "feet": null,
+     "confidence": "niedrig",
+     "note": "Zahl im schraffierten Kreis nicht lesbar; 3 ¾ ergäbe genau den Textwert 1½ − 1/11 (Deutung, nicht gelesen)"
+    }
+   ],
+   "pixels": [
+    {
+     "phys": 330,
+     "band_y": [
+      3170,
+      3350
+     ],
+     "diameters_px": [
+      125,
+      125,
+      125,
+      127
+     ],
+     "gaps_px": [
+      192,
+      197,
+      199
+     ],
+     "note": "aus dem Raster gemessen; Zahlen in den Kreisen stören die automatische Messung"
+    }
+   ]
+  }
+ ],
+ "not_read": [
+  "VI Pace (Halle, keine Säulenreihe im Grundriss)",
+  "X, XI, XVI, XVII, XXI, XXII (Text nennt keinen Säulenabstand)",
+  "XXV sotto Trevi und XXIX zweiter Tempel in Nîmes (Zuordnung der Zahlen nicht sicher)"
+ ]
+}

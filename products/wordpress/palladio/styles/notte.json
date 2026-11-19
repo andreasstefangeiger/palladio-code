@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Notte",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "calce",
+					"name": "Calce (Grund)",
+					"color": "#282621"
+				},
+				{
+					"slug": "inchiostro",
+					"name": "Inchiostro (Schrift)",
+					"color": "#ece8dc"
+				},
+				{
+					"slug": "carta",
+					"name": "Carta (Papier des Scans)",
+					"color": "#38362f"
+				},
+				{
+					"slug": "pietra",
+					"name": "Pietra (Nebentext)",
+					"color": "#aca697"
+				},
+				{
+					"slug": "linea",
+					"name": "Linea (Haarlinie)",
+					"color": "#56524a"
+				}
+			]
+		}
+	}
+}

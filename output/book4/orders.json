@@ -1,0 +1,1133 @@
+{
+  "temples": [
+    {
+      "chapter": "VI",
+      "building": "Tempio della Pace",
+      "features": {
+        "order": "Corinthio",
+        "column_diameter_ft": 5.3333,
+        "column_length_ft": 53,
+        "entablature_ft": 10.5,
+        "base_height": "> 1/2 D",
+        "column_D": 9.94,
+        "entablature": 0.1981
+      },
+      "sources": {
+        "order": "B4O-VI-1",
+        "column_diameter_ft": "B4O-VI-1",
+        "column_length_ft": "B4O-VI-1",
+        "entablature_ft": "B4O-VI-1",
+        "base_height": "B4O-VI-2",
+        "column_D": "B4O-VI-1",
+        "entablature": "B4O-VI-1"
+      }
+    },
+    {
+      "chapter": "VII",
+      "building": "Tempio di Marte Vendicatore",
+      "features": {
+        "aspect": "Peripteros",
+        "maniera": "Picnostilos",
+        "order": "Corinthio"
+      },
+      "sources": {
+        "aspect": "B4O-VII-1",
+        "maniera": "B4O-VII-2",
+        "order": "B4O-VII-3"
+      }
+    },
+    {
+      "chapter": "VIII",
+      "building": "Tempio di Nerva Traiano",
+      "features": {
+        "aspect": "Prostilos",
+        "maniera": "Picnostilos",
+        "base": "Attica",
+        "base_note": "zwei Rundstäbe mehr als in Buch I",
+        "entablature": 0.25,
+        "order": "Corinthio"
+      },
+      "sources": {
+        "aspect": "B4O-VIII-1",
+        "maniera": "B4O-VIII-1",
+        "base": "B4O-VIII-2",
+        "base_note": "B4O-VIII-2",
+        "entablature": "B4O-VIII-3",
+        "order": "B4O-VIII-4"
+      }
+    },
+    {
+      "chapter": "IX",
+      "building": "Tempio di Antonino e Faustina",
+      "features": {
+        "maniera": "Picnostilos",
+        "podium": "1/3 Säulenhöhe",
+        "base": "Attica",
+        "entablature": 0.3333,
+        "capital": "foglie di Oliuo"
+      },
+      "sources": {
+        "maniera": "B4O-IX-1",
+        "podium": "B4O-IX-1",
+        "base": "B4O-IX-2",
+        "entablature": "B4O-IX-2",
+        "capital": "B4O-IX-2"
+      }
+    },
+    {
+      "chapter": "XII",
+      "building": "Tempio di Giove (Quirinale)",
+      "features": {
+        "aspect": "Pseudodipteros",
+        "maniera": "Picnostilos",
+        "order": "Corinthio",
+        "entablature": 0.25,
+        "modillion_on_axis": true
+      },
+      "sources": {
+        "aspect": "B4O-XII-1",
+        "maniera": "B4O-XII-1",
+        "order": "B4O-XII-1",
+        "entablature": "B4O-XII-1",
+        "modillion_on_axis": "B4O-XII-2"
+      }
+    },
+    {
+      "chapter": "XIII",
+      "building": "Tempio della Fortuna Virile",
+      "features": {
+        "aspect": "Prostilos",
+        "intercol_D": 2.25,
+        "maniera": "Sistilos",
+        "order": "Ionico",
+        "base": "Attica"
+      },
+      "sources": {
+        "aspect": "B4O-XIII-1",
+        "intercol_D": "B4O-XIII-1",
+        "maniera": "B4O-XIII-1",
+        "order": "B4O-XIII-2",
+        "base": "B4O-XIII-2"
+      }
+    },
+    {
+      "chapter": "XIIII",
+      "building": "Tempio di Vesta (Roma)",
+      "features": {
+        "order": "Corinthio",
+        "intercol_D": 1.5,
+        "column_D": 11
+      },
+      "sources": {
+        "order": "B4O-XIIII-1",
+        "intercol_D": "B4O-XIIII-1",
+        "column_D": "B4O-XIIII-1"
+      }
+    },
+    {
+      "chapter": "XV",
+      "building": "Tempio di Marte (piazza de' Preti)",
+      "features": {
+        "aspect": "Peripteros",
+        "maniera": "Picnostilos",
+        "intercol_D": 1.5,
+        "order": "Corinthio",
+        "base": "Attica",
+        "entablature": 0.1818
+      },
+      "sources": {
+        "aspect": "B4O-XV-1",
+        "maniera": "B4O-XV-1",
+        "intercol_D": "B4O-XV-1",
+        "order": "B4O-XV-2",
+        "base": "B4O-XV-2",
+        "entablature": "B4O-XV-3"
+      }
+    },
+    {
+      "chapter": "XVI",
+      "building": "Battistero di Costantino",
+      "features": {
+        "order": "Composito",
+        "base": "Attica + Ionica"
+      },
+      "sources": {
+        "order": "B4O-XVI-1",
+        "base": "B4O-XVI-1"
+      }
+    },
+    {
+      "chapter": "XVII",
+      "building": "Tempietto di Bramante",
+      "features": {
+        "order": "Dorico"
+      },
+      "sources": {
+        "order": "B4O-XVII-1"
+      }
+    },
+    {
+      "chapter": "XVIII",
+      "building": "Tempio di Giove Statore",
+      "features": {
+        "order": "Corinthio",
+        "aspect": "Peripteros",
+        "maniera": "Picnostilos",
+        "base": "Attica + Ionica",
+        "entablature": 0.25
+      },
+      "sources": {
+        "order": "B4O-XVIII-1",
+        "aspect": "B4O-XVIII-2",
+        "maniera": "B4O-XVIII-2",
+        "base": "B4O-XVIII-3",
+        "entablature": "B4O-XVIII-4"
+      }
+    },
+    {
+      "chapter": "XIX",
+      "building": "Tempio di Giove Tonante",
+      "features": {
+        "aspect": "Dipteros",
+        "maniera": "Picnostilos"
+      },
+      "sources": {
+        "aspect": "B4O-XIX-1",
+        "maniera": "B4O-XIX-2"
+      }
+    },
+    {
+      "chapter": "XX",
+      "building": "Pantheon",
+      "features": {
+        "order": "Corinthio",
+        "base": "Attica + Ionica"
+      },
+      "sources": {
+        "order": "B4O-XX-1",
+        "base": "B4O-XX-1"
+      }
+    },
+    {
+      "chapter": "XXI",
+      "building": "Tempio di Bacco (S. Agnese)",
+      "features": {
+        "order": "Composito",
+        "base": "Attica"
+      },
+      "sources": {
+        "order": "B4O-XXI-1",
+        "base": "B4O-XXI-1"
+      }
+    },
+    {
+      "chapter": "XXIII",
+      "building": "Tempio di Vesta (Tivoli)",
+      "features": {
+        "order": "Corinthio",
+        "intercol_D": 2,
+        "podium": "1/3 Säulenlänge",
+        "column_length": "= Breite der Cella"
+      },
+      "sources": {
+        "order": "B4O-XXIII-1",
+        "intercol_D": "B4O-XXIII-1",
+        "podium": "B4O-XXIII-1",
+        "column_length": "B4O-XXIII-2"
+      }
+    },
+    {
+      "chapter": "XXIIII",
+      "building": "Tempio di Castore e Polluce",
+      "features": {
+        "order": "Corinthio",
+        "intercol_D_range": [
+          1.5,
+          2
+        ],
+        "base": "Attica"
+      },
+      "sources": {
+        "order": "B4O-XXIIII-1",
+        "intercol_D_range": "B4O-XXIIII-1",
+        "base": "B4O-XXIIII-1"
+      }
+    },
+    {
+      "chapter": "XXV",
+      "building": "Tempio sotto Trevi",
+      "features": {
+        "aspect": "Prostilos",
+        "maniera": "Picnostilos",
+        "order": "Corinthio"
+      },
+      "sources": {
+        "aspect": "B4O-XXV-1",
+        "maniera": "B4O-XXV-1",
+        "order": "B4O-XXV-2"
+      }
+    },
+    {
+      "chapter": "XXVI",
+      "building": "Tempio di Assisi",
+      "features": {
+        "order": "Corinthio",
+        "pedestal": "= Mittelinterkolumnium",
+        "maniera": "Sistilos",
+        "intercol_D": 2,
+        "entablature": 0.2,
+        "entablature_note": "und etwas mehr"
+      },
+      "sources": {
+        "order": "B4O-XXVI-1",
+        "pedestal": "B4O-XXVI-2",
+        "maniera": "B4O-XXVI-2",
+        "intercol_D": "B4O-XXVI-2",
+        "entablature": "B4O-XXVI-2",
+        "entablature_note": "B4O-XXVI-2"
+      }
+    },
+    {
+      "chapter": "XXVII",
+      "building": "Tempij di Pola",
+      "features": {
+        "aspect": "Prostilos",
+        "maniera": "Sistilos",
+        "intercol_D": 2,
+        "middle_intercol_D": 2.25,
+        "base": "Attica"
+      },
+      "sources": {
+        "aspect": "B4O-XXVII-1",
+        "maniera": "B4O-XXVII-1",
+        "intercol_D": "B4O-XXVII-1",
+        "middle_intercol_D": "B4O-XXVII-1",
+        "base": "B4O-XXVII-2"
+      }
+    },
+    {
+      "chapter": "XXVIII",
+      "building": "Maison Carrée, Nîmes",
+      "features": {
+        "base": "Attica",
+        "base_note": "mit zusätzlichen Rundstäben",
+        "order": "Corinthio",
+        "entablature": 0.25
+      },
+      "sources": {
+        "base": "B4O-XXVIII-1",
+        "base_note": "B4O-XXVIII-1",
+        "order": "B4O-XXVIII-1",
+        "entablature": "B4O-XXVIII-2"
+      }
+    },
+    {
+      "chapter": "XXIX",
+      "building": "Altro tempio di Nîmes",
+      "features": {
+        "pedestal": "> 1/3 Säulenlänge",
+        "base": "Attica + Ionica",
+        "capital": "composti",
+        "order": "Composito"
+      },
+      "sources": {
+        "pedestal": "B4O-XXIX-1",
+        "base": "B4O-XXIX-1",
+        "capital": "B4O-XXIX-1",
+        "order": "B4O-XXIX-1"
+      }
+    },
+    {
+      "chapter": "XXX",
+      "building": "Tempio della Concordia",
+      "features": {
+        "intercol_D_range": [
+          null,
+          2
+        ],
+        "base": "Attica + Ionica",
+        "capital": "Dorico + Ionico"
+      },
+      "sources": {
+        "intercol_D_range": "B4O-XXX-1",
+        "base": "B4O-XXX-1",
+        "capital": "B4O-XXX-1"
+      }
+    },
+    {
+      "chapter": "XXXI",
+      "building": "Tempio di Nettuno",
+      "features": {
+        "aspect": "Peripteros",
+        "maniera": "Picnostilos",
+        "intercol_D": 1.4091
+      },
+      "sources": {
+        "aspect": "B4O-XXXI-1",
+        "maniera": "B4O-XXXI-1",
+        "intercol_D": "B4O-XXXI-1"
+      }
+    }
+  ],
+  "entablature": [
+    {
+      "chapter": "VI",
+      "building": "Tempio della Pace",
+      "order": "Corinthio",
+      "stated": 0.1981,
+      "note": "",
+      "norm": 0.2,
+      "deviation": -0.01,
+      "source": "B4O-VI-1"
+    },
+    {
+      "chapter": "VIII",
+      "building": "Tempio di Nerva Traiano",
+      "order": "Corinthio",
+      "stated": 0.25,
+      "note": "",
+      "norm": 0.2,
+      "deviation": 0.25,
+      "source": "B4O-VIII-3"
+    },
+    {
+      "chapter": "IX",
+      "building": "Tempio di Antonino e Faustina",
+      "order": null,
+      "stated": 0.3333,
+      "note": "",
+      "norm": null,
+      "deviation": null,
+      "source": "B4O-IX-2"
+    },
+    {
+      "chapter": "XII",
+      "building": "Tempio di Giove (Quirinale)",
+      "order": "Corinthio",
+      "stated": 0.25,
+      "note": "",
+      "norm": 0.2,
+      "deviation": 0.25,
+      "source": "B4O-XII-1"
+    },
+    {
+      "chapter": "XV",
+      "building": "Tempio di Marte (piazza de' Preti)",
+      "order": "Corinthio",
+      "stated": 0.1818,
+      "note": "",
+      "norm": 0.2,
+      "deviation": -0.091,
+      "source": "B4O-XV-3"
+    },
+    {
+      "chapter": "XVIII",
+      "building": "Tempio di Giove Statore",
+      "order": "Corinthio",
+      "stated": 0.25,
+      "note": "",
+      "norm": 0.2,
+      "deviation": 0.25,
+      "source": "B4O-XVIII-4"
+    },
+    {
+      "chapter": "XXVI",
+      "building": "Tempio di Assisi",
+      "order": "Corinthio",
+      "stated": 0.2,
+      "note": "und etwas mehr",
+      "norm": 0.2,
+      "deviation": 0.0,
+      "source": "B4O-XXVI-2"
+    },
+    {
+      "chapter": "XXVIII",
+      "building": "Maison Carrée, Nîmes",
+      "order": "Corinthio",
+      "stated": 0.25,
+      "note": "",
+      "norm": 0.2,
+      "deviation": 0.25,
+      "source": "B4O-XXVIII-2"
+    }
+  ],
+  "spacing": [
+    {
+      "chapter": "VII",
+      "building": "Tempio di Marte Vendicatore",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "VIII",
+      "building": "Tempio di Nerva Traiano",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "IX",
+      "building": "Tempio di Antonino e Faustina",
+      "order": null,
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": null,
+      "relation": null
+    },
+    {
+      "chapter": "XII",
+      "building": "Tempio di Giove (Quirinale)",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "XIII",
+      "building": "Tempio della Fortuna Virile",
+      "order": "Ionico",
+      "stated": 2.25,
+      "how": "stated",
+      "range": null,
+      "maniera": "Sistilos",
+      "norm": 2.25,
+      "relation": "gleich"
+    },
+    {
+      "chapter": "XIIII",
+      "building": "Tempio di Vesta (Roma)",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "stated",
+      "range": null,
+      "maniera": null,
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "XV",
+      "building": "Tempio di Marte (piazza de' Preti)",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "stated",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "XVIII",
+      "building": "Tempio di Giove Statore",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "XIX",
+      "building": "Tempio di Giove Tonante",
+      "order": null,
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": null,
+      "relation": null
+    },
+    {
+      "chapter": "XXIII",
+      "building": "Tempio di Vesta (Tivoli)",
+      "order": "Corinthio",
+      "stated": 2,
+      "how": "stated",
+      "range": null,
+      "maniera": null,
+      "norm": 2,
+      "relation": "gleich"
+    },
+    {
+      "chapter": "XXIIII",
+      "building": "Tempio di Castore e Polluce",
+      "order": "Corinthio",
+      "stated": 1.75,
+      "how": "range",
+      "range": [
+        1.5,
+        2
+      ],
+      "maniera": null,
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "XXV",
+      "building": "Tempio sotto Trevi",
+      "order": "Corinthio",
+      "stated": 1.5,
+      "how": "maniera",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": 2,
+      "relation": "enger"
+    },
+    {
+      "chapter": "XXVI",
+      "building": "Tempio di Assisi",
+      "order": "Corinthio",
+      "stated": 2,
+      "how": "stated",
+      "range": null,
+      "maniera": "Sistilos",
+      "norm": 2,
+      "relation": "gleich"
+    },
+    {
+      "chapter": "XXVII",
+      "building": "Tempij di Pola",
+      "order": null,
+      "stated": 2,
+      "how": "stated",
+      "range": null,
+      "maniera": "Sistilos",
+      "norm": null,
+      "relation": null
+    },
+    {
+      "chapter": "XXX",
+      "building": "Tempio della Concordia",
+      "order": null,
+      "stated": 2,
+      "how": "below",
+      "range": [
+        null,
+        2
+      ],
+      "maniera": null,
+      "norm": null,
+      "relation": null
+    },
+    {
+      "chapter": "XXXI",
+      "building": "Tempio di Nettuno",
+      "order": null,
+      "stated": 1.4091,
+      "how": "stated",
+      "range": null,
+      "maniera": "Picnostilos",
+      "norm": null,
+      "relation": null
+    }
+  ],
+  "columns": [
+    {
+      "chapter": "VI",
+      "building": "Tempio della Pace",
+      "order": "Corinthio",
+      "stated": 9.94,
+      "norm": 9.5,
+      "deviation": 0.046,
+      "norm_by_spacing": null,
+      "source": "B4O-VI-1"
+    },
+    {
+      "chapter": "XIIII",
+      "building": "Tempio di Vesta (Roma)",
+      "order": "Corinthio",
+      "stated": 11,
+      "norm": 9.5,
+      "deviation": 0.158,
+      "norm_by_spacing": 10,
+      "source": "B4O-XIIII-1"
+    }
+  ],
+  "bases": [
+    {
+      "chapter": "VIII",
+      "building": "Tempio di Nerva Traiano",
+      "order": "Corinthio",
+      "base": "Attica",
+      "note": "zwei Rundstäbe mehr als in Buch I",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "IX",
+      "building": "Tempio di Antonino e Faustina",
+      "order": null,
+      "base": "Attica",
+      "note": "",
+      "norm": null
+    },
+    {
+      "chapter": "XIII",
+      "building": "Tempio della Fortuna Virile",
+      "order": "Ionico",
+      "base": "Attica",
+      "note": "",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "XV",
+      "building": "Tempio di Marte (piazza de' Preti)",
+      "order": "Corinthio",
+      "base": "Attica",
+      "note": "",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "XVI",
+      "building": "Battistero di Costantino",
+      "order": "Composito",
+      "base": "Attica + Ionica",
+      "note": "",
+      "norm": "Attica oder Attica + Ionica"
+    },
+    {
+      "chapter": "XVIII",
+      "building": "Tempio di Giove Statore",
+      "order": "Corinthio",
+      "base": "Attica + Ionica",
+      "note": "",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "XX",
+      "building": "Pantheon",
+      "order": "Corinthio",
+      "base": "Attica + Ionica",
+      "note": "",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "XXI",
+      "building": "Tempio di Bacco (S. Agnese)",
+      "order": "Composito",
+      "base": "Attica",
+      "note": "",
+      "norm": "Attica oder Attica + Ionica"
+    },
+    {
+      "chapter": "XXIIII",
+      "building": "Tempio di Castore e Polluce",
+      "order": "Corinthio",
+      "base": "Attica",
+      "note": "",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "XXVII",
+      "building": "Tempij di Pola",
+      "order": null,
+      "base": "Attica",
+      "note": "",
+      "norm": null
+    },
+    {
+      "chapter": "XXVIII",
+      "building": "Maison Carrée, Nîmes",
+      "order": "Corinthio",
+      "base": "Attica",
+      "note": "mit zusätzlichen Rundstäben",
+      "norm": "Attica"
+    },
+    {
+      "chapter": "XXIX",
+      "building": "Altro tempio di Nîmes",
+      "order": "Composito",
+      "base": "Attica + Ionica",
+      "note": "",
+      "norm": "Attica oder Attica + Ionica"
+    },
+    {
+      "chapter": "XXX",
+      "building": "Tempio della Concordia",
+      "order": null,
+      "base": "Attica + Ionica",
+      "note": "",
+      "norm": null
+    }
+  ],
+  "summary": {
+    "temples": 23,
+    "orders": {
+      "Corinthio": 13,
+      "nicht genannt": 5,
+      "Ionico": 1,
+      "Composito": 3,
+      "Dorico": 1
+    },
+    "corinthian_entablature": {
+      "0.1981": 1,
+      "0.25": 4,
+      "0.1818": 1,
+      "0.2": 1
+    },
+    "corinthian_entablature_at_norm": 2,
+    "corinthian_entablature_n": 7,
+    "corinthian_spacing": {
+      "enger": 8,
+      "gleich": 2
+    },
+    "corinthian_spacing_n": 10,
+    "all_spacing_values": {
+      "1.5": 9,
+      "2.25": 1,
+      "2": 3,
+      "1.5–2": 1,
+      "< 2": 1,
+      "1.4091": 1
+    },
+    "spacing_n": 16,
+    "bases": {
+      "Attica": 8,
+      "Attica + Ionica": 5
+    }
+  },
+  "plates": [
+    {
+      "chapter": "VIII",
+      "building": "Tempio di Nerva Traiano",
+      "order": "Corinthio",
+      "intercol_label_ft": 6.458,
+      "intercol_D_drawn": null,
+      "intercol_D_labels": 1.58,
+      "diameter_label_ft": 4.083,
+      "diameter_label_confidence": "hoch",
+      "diameter_derived_ft": null,
+      "height_label_ft": 40,
+      "height_D_derived": null,
+      "height_D_labels": 9.8,
+      "entablature_label_ft": 9.375,
+      "entablature_ratio": 0.234,
+      "entablature_confidence": "mittel",
+      "text_spacing": "Picnostilos",
+      "text_entablature": 0.25
+    },
+    {
+      "chapter": "VII",
+      "building": "Tempio di Marte Vendicatore",
+      "order": "Corinthio",
+      "intercol_label_ft": 7.2,
+      "intercol_D_drawn": 1.55,
+      "intercol_D_labels": 1.35,
+      "diameter_label_ft": 5.333,
+      "diameter_label_confidence": "mittel",
+      "diameter_derived_ft": 4.65,
+      "height_label_ft": 48,
+      "height_D_derived": 10.3,
+      "height_D_labels": 9.0,
+      "entablature_label_ft": 10,
+      "entablature_ratio": 0.208,
+      "entablature_confidence": "mittel",
+      "text_spacing": "Picnostilos",
+      "text_entablature": null
+    },
+    {
+      "chapter": "IX",
+      "building": "Tempio di Antonino e Faustina",
+      "order": null,
+      "intercol_label_ft": 6.333,
+      "intercol_D_drawn": 1.51,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 4.19,
+      "height_label_ft": 39,
+      "height_D_derived": 9.3,
+      "height_D_labels": null,
+      "entablature_label_ft": 9.292,
+      "entablature_ratio": 0.238,
+      "entablature_confidence": "mittel",
+      "text_spacing": "Picnostilos",
+      "text_entablature": 0.3333
+    },
+    {
+      "chapter": "XII",
+      "building": "Tempio di Giove (Quirinale)",
+      "order": "Corinthio",
+      "intercol_label_ft": 8.25,
+      "intercol_D_drawn": 1.56,
+      "intercol_D_labels": 1.5,
+      "diameter_label_ft": 5.5,
+      "diameter_label_confidence": "mittel",
+      "diameter_derived_ft": 5.29,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": "Picnostilos",
+      "text_entablature": 0.25
+    },
+    {
+      "chapter": "XIII",
+      "building": "Tempio della Fortuna Virile",
+      "order": "Ionico",
+      "intercol_label_ft": 5.667,
+      "intercol_D_drawn": 1.97,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 2.88,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": 2.25,
+      "text_entablature": null
+    },
+    {
+      "chapter": "XV",
+      "building": "Tempio di Marte (piazza de' Preti)",
+      "order": "Corinthio",
+      "intercol_label_ft": 6.458,
+      "intercol_D_drawn": 1.74,
+      "intercol_D_labels": 1.55,
+      "diameter_label_ft": 4.167,
+      "diameter_label_confidence": "niedrig",
+      "diameter_derived_ft": 3.71,
+      "height_label_ft": 41,
+      "height_D_derived": 11.1,
+      "height_D_labels": 9.8,
+      "entablature_label_ft": 7.375,
+      "entablature_ratio": 0.18,
+      "entablature_confidence": "hoch",
+      "text_spacing": 1.5,
+      "text_entablature": 0.1818
+    },
+    {
+      "chapter": "XIX",
+      "building": "Tempio di Giove Tonante",
+      "order": null,
+      "intercol_label_ft": 6.125,
+      "intercol_D_drawn": 1.73,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 3.54,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": "Picnostilos",
+      "text_entablature": null
+    },
+    {
+      "chapter": "XXIIII",
+      "building": "Tempio di Castore e Polluce",
+      "order": "Corinthio",
+      "intercol_label_ft": 5.625,
+      "intercol_D_drawn": 1.64,
+      "intercol_D_labels": 1.81,
+      "diameter_label_ft": 3.104,
+      "diameter_label_confidence": "niedrig",
+      "diameter_derived_ft": 3.43,
+      "height_label_ft": 33.166666666666664,
+      "height_D_derived": 9.7,
+      "height_D_labels": 10.7,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": [
+        1.5,
+        2
+      ],
+      "text_entablature": null
+    },
+    {
+      "chapter": "XXVI",
+      "building": "Tempio di Assisi",
+      "order": "Corinthio",
+      "intercol_label_ft": 5.25,
+      "intercol_D_drawn": 1.79,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 2.93,
+      "height_label_ft": 27.5,
+      "height_D_derived": 9.4,
+      "height_D_labels": null,
+      "entablature_label_ft": 5.25,
+      "entablature_ratio": 0.191,
+      "entablature_confidence": "niedrig",
+      "text_spacing": 2,
+      "text_entablature": 0.2
+    },
+    {
+      "chapter": "XXVIII",
+      "building": "Maison Carrée, Nîmes",
+      "order": "Corinthio",
+      "intercol_label_ft": 4.125,
+      "intercol_D_drawn": 1.54,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 2.68,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": null,
+      "text_entablature": 0.25
+    },
+    {
+      "chapter": "XIIII",
+      "building": "Tempio di Vesta (Roma)",
+      "order": "Corinthio",
+      "intercol_label_ft": null,
+      "intercol_D_drawn": 1.72,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": null,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": 1.5,
+      "text_entablature": null
+    },
+    {
+      "chapter": "XVIII",
+      "building": "Tempio di Giove Statore",
+      "order": "Corinthio",
+      "intercol_label_ft": 6.333,
+      "intercol_D_drawn": 1.57,
+      "intercol_D_labels": 1.52,
+      "diameter_label_ft": 4.167,
+      "diameter_label_confidence": "mittel",
+      "diameter_derived_ft": 4.03,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": "Picnostilos",
+      "text_entablature": 0.25
+    },
+    {
+      "chapter": "XX",
+      "building": "Pantheon",
+      "order": "Corinthio",
+      "intercol_label_ft": 8.208,
+      "intercol_D_drawn": 1.8,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 4.56,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": null,
+      "text_entablature": null
+    },
+    {
+      "chapter": "XXIII",
+      "building": "Tempio di Vesta (Tivoli)",
+      "order": "Corinthio",
+      "intercol_label_ft": null,
+      "intercol_D_drawn": 2.16,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": null,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": 2,
+      "text_entablature": null
+    },
+    {
+      "chapter": "XXVII",
+      "building": "Tempij di Pola",
+      "order": null,
+      "intercol_label_ft": 4.5,
+      "intercol_D_drawn": 2.15,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 2.09,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": 2,
+      "text_entablature": null
+    },
+    {
+      "chapter": "XXX",
+      "building": "Tempio della Concordia",
+      "order": null,
+      "intercol_label_ft": 6.875,
+      "intercol_D_drawn": 1.89,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": null,
+      "diameter_derived_ft": 3.64,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": [
+        null,
+        2
+      ],
+      "text_entablature": null
+    },
+    {
+      "chapter": "XXXI",
+      "building": "Tempio di Nettuno",
+      "order": null,
+      "intercol_label_ft": 5.312,
+      "intercol_D_drawn": 1.56,
+      "intercol_D_labels": null,
+      "diameter_label_ft": null,
+      "diameter_label_confidence": "niedrig",
+      "diameter_derived_ft": 3.41,
+      "height_label_ft": null,
+      "height_D_derived": null,
+      "height_D_labels": null,
+      "entablature_label_ft": null,
+      "entablature_ratio": null,
+      "entablature_confidence": null,
+      "text_spacing": 1.4091,
+      "text_entablature": null
+    }
+  ]
+}

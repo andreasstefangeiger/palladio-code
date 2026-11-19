@@ -1,10 +1,29 @@
 PYTHON ?= python3
 export PYTHONPATH := src
 
-.PHONY: pilot local-review overnight-review test clean
+.PHONY: pilot nullmodel design book4 san-giorgio web umfeld local-review overnight-review test clean
 
 pilot:
 	$(PYTHON) -m palladio_code.cli all
+
+design:
+	$(PYTHON) -m palladio_code.design
+
+book4:
+	$(PYTHON) -m palladio_code.book4
+	$(PYTHON) -m palladio_code.temple_orders
+
+san-giorgio:
+	$(PYTHON) -m palladio_code.san_giorgio
+
+nullmodel:
+	$(PYTHON) -m palladio_code.nullmodel
+
+web:
+	$(PYTHON) -m palladio_code.webdesign
+
+umfeld:
+	$(PYTHON) -m palladio_code.umfeld
 
 local-review:
 	$(PYTHON) -m palladio_code.local_review --model gemma4:12b --batch-size 4

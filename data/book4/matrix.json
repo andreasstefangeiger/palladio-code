@@ -1,0 +1,273 @@
+{
+ "question": "Wie verhält sich Buch IV (Tempel, Kirchen) zur Proportionslehre aus Buch I?",
+ "evidence_policy": "A: Die Beziehung steht so im Text (Verweis, Wiederholung, Fehlen). B: Die Beziehung ist unsere Deutung mehrerer A-Stellen.",
+ "rows": [
+  {
+   "topic": "Grundsatz: Schönheit aus Proportion",
+   "book1": [
+    "B1-I-TRE",
+    "B1-I-BELLEZZA"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-PROEM-1",
+    "B4-V-COMMISURA",
+    "B4-II-PROPORTIONI"
+   ],
+   "relation": "gleicher Grundsatz; für Tempel 'con estrema cura'",
+   "evidence": "A"
+  },
+  {
+   "topic": "Wohnhaus und Kirche",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-PROEM-2"
+   ],
+   "relation": "dieselbe Sorgfalt, nur größer; beim Haus zählt die Bequemlichkeit, bei der Kirche die Würde",
+   "evidence": "A"
+  },
+  {
+   "topic": "Raumformen",
+   "book1": [
+    "A-PROP-ROOM-001"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-II-FORME",
+    "B4-V-CELLA",
+    "B4-XXVI-ASSISI",
+    "B4-XXVII-POLA"
+   ],
+   "relation": "kein Verweis auf die sieben Formen; Kreis und Quadrat stehen in beiden Listen vorn; Vitruvs Cella 5:4 liegt außerhalb der sieben",
+   "evidence": "A"
+  },
+  {
+   "topic": "Höchstens zwei Quadrate",
+   "book1": [
+    "A-DIM-HALL-001"
+   ],
+   "book3": [
+    "B3-XIX-BASILICA"
+   ],
+   "book4": [
+    "B4-V-CELLA",
+    "B4-VIII-NERVA",
+    "B4-XXVII-POLA"
+   ],
+   "relation": "2:1 kehrt bei Tempel und Basilika wieder, als Vitruv-Kanon und als Befund; Pola überschreitet es",
+   "evidence": "B"
+  },
+  {
+   "topic": "Raumhöhen",
+   "book1": [
+    "A-HT-ROOM-001",
+    "A-HT-VAULT-001",
+    "A-HT-VAULT-002",
+    "A-HT-VAULT-003",
+    "A-HT-VAULT-004",
+    "A-HT-VAULT-005"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-V-PERIPTEROS",
+    "B4-XX-PANTHEON"
+   ],
+   "relation": "die Höhenregeln aus Buch I kommen in Buch IV nicht vor; Rundtempel: Kuppel = halbe Gesamthöhe (Vitruv); Pantheon: Höhe = Durchmesser",
+   "evidence": "A"
+  },
+  {
+   "topic": "Säulenordnungen und Interkolumnien",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-II-ORDINI",
+    "B4-IV-RIF-I",
+    "B4-V-RIF-ORNAMENTI",
+    "B4-XVI-RIF",
+    "B4-IV-EUSTILOS",
+    "B4-V-PIEDESTILI"
+   ],
+   "relation": "Verweis auf Buch I; Tempel verlangen 'bellissimi ordini' mit den ihnen eigenen Ornamenten; dazu Palladios Urteil: Eustylos am schönsten, keine Postamente",
+   "evidence": "A"
+  },
+  {
+   "topic": "Gemeinsames Maß (Modul)",
+   "book1": [
+    "B1-I-BELLEZZA",
+    "B-SYS-MOD-001"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-V-COMMISURA",
+    "B4-V-MODULO"
+   ],
+   "relation": "Buch IV macht das gemeinsame Maß ausdrücklich: 'modulo, cioè misura'",
+   "evidence": "A"
+  },
+  {
+   "topic": "Öffnungen",
+   "book1": [
+    "A-DIM-DOOR-001",
+    "A-DIM-JAMB-001",
+    "A-DIM-WIN-001"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-XXVIII-NIMES"
+   ],
+   "relation": "eine Beobachtung im Rahmen von Buch I (Gewände 1/6 der Lichte)",
+   "evidence": "A"
+  },
+  {
+   "topic": "Symmetrie",
+   "book1": [
+    "A-ORG-SYM-001",
+    "A-ORG-OPEN-001"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-II-FORME"
+   ],
+   "relation": "nur: in Vielecktempeln alle Winkel gleich",
+   "evidence": "A"
+  },
+  {
+   "topic": "Kirchen und Basiliken",
+   "book1": [],
+   "book3": [
+    "B3-XIX-BASILICA"
+   ],
+   "book4": [
+    "B4-V-CHIESE"
+   ],
+   "relation": "für die Seitenschiffe gilt die Basilika aus Buch III: Breite 1/3 bis 1/2 der Länge, Mittelraum zwei Quadrate, Seitengänge 1/3",
+   "evidence": "A"
+  },
+  {
+   "topic": "Ort und Lage",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-I-TOSCANI",
+    "B4-I-SITO",
+    "B4-I-ALTEZZA",
+    "B4-I-FRONTI",
+    "B4-I-FUORI"
+   ],
+   "relation": "nur Buch IV: die Antiken wählten den Ort nach der Gottheit; für Kirchen der edelste und sichtbarste Ort, erhöht und über Stufen, die Front über die Stadt, außerhalb der Stadt zu Straße oder Fluss",
+   "evidence": "A"
+  },
+  {
+   "topic": "Material, Farbe und Bilder",
+   "book1": [
+    "I.I.11"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-II-MATERIA",
+    "B4-II-BIANCO",
+    "B4-II-PITTURE"
+   ],
+   "relation": "Buch I: Basen, Kapitelle und Architrave aus Stein, das Übrige aus Ziegel; Buch IV steigert: das kostbarste Material, Weiß als passendste Farbe, keine Bilder, die von der Andacht ablenken",
+   "evidence": "A"
+  },
+  {
+   "topic": "Licht",
+   "book1": [
+    "I.XXV.12"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-XX-PANTHEON",
+    "B4-XXII-LUME"
+   ],
+   "relation": "keine Lichtregel für Tempel; Buch I bemisst Fenster nach der Raumgröße; Buch IV nennt nur das Licht des Pantheons (von oben) und einen 'alquanto oscuro' Tempel, 'come sono quasi tutti i tempij antichi'",
+   "evidence": "A"
+  },
+  {
+   "topic": "Raumprogramm",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-V-SACRESTIA"
+   ],
+   "relation": "nur Buch IV: Sakristei, Glockentürme, Wohnungen der Priester mit Kreuzgängen und Gärten",
+   "evidence": "A"
+  },
+  {
+   "topic": "Decorum",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-II-DECORO"
+   ],
+   "relation": "nur Buch IV, nach Vitruv: Ordnung nach Gottheit, keine Maßregel",
+   "evidence": "A"
+  },
+  {
+   "topic": "Kosmologie und Theologie",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-PROEM-3",
+    "B4-II-SOLE",
+    "B4-II-RITONDA",
+    "B4-II-CROCE",
+    "B4-XX-PANTHEON"
+   ],
+   "relation": "nur Buch IV: begründet die Wahl der Form (Kreis, Kreuz), nicht ihre Maße",
+   "evidence": "A"
+  },
+  {
+   "topic": "Herkunft der Tempelregeln",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-PROEM-5",
+    "B4-PROEM-6",
+    "B4-III-ASPETTI",
+    "B4-V-PERIPTEROS",
+    "B4-V-CHIESE"
+   ],
+   "relation": "Palladio nennt Vitruv ausdrücklich als Quelle",
+   "evidence": "A"
+  },
+  {
+   "topic": "Urteil und Spielraum",
+   "book1": [
+    "B1-XXIII-GIUDICIO"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-PROEM-6",
+    "B4-V-PIEDESTILI",
+    "B4-V-FLESSIBILE"
+   ],
+   "relation": "in beiden Büchern Regeln mit Spielraum; Palladio korrigiert Vitruv nach eigenem Urteil",
+   "evidence": "A"
+  },
+  {
+   "topic": "Musik und Harmonie",
+   "book1": [
+    "B1-XXIII-SESQUI"
+   ],
+   "book3": [],
+   "book4": [
+    "B4-PROEM-3"
+   ],
+   "relation": "'sesquialtera' (3:2) einmal in Buch I; 'armonia' nur in der Vorrede zu Buch IV",
+   "evidence": "A"
+  },
+  {
+   "topic": "Palladios eigene Gliederung",
+   "book1": [],
+   "book3": [],
+   "book4": [
+    "B4-V-SOMMARIO"
+   ],
+   "relation": "Decoro, Aspetti, Maniere, Compartimento: eine Liste von Gesichtspunkten",
+   "evidence": "A"
+  }
+ ]
+}
